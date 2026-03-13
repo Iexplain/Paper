@@ -8,7 +8,7 @@
 3. 等待首次Actions运行（或手动触发）
 
 ## 访问
-https://yourusername.github.io/your-repo/
+https://Iexplain.github.io/Paper/
 
 ## 自定义
 - 修改`daily-lit.yml`中的keywords
