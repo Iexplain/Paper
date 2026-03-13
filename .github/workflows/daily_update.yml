@@ -31,7 +31,7 @@ jobs:
       - name: Generate HTML
         run: python scripts/generate_web.py
 
-      # 7️⃣ Commit & Push（使用 GITHUB_TOKEN）
+      # 6️⃣ Commit & Push（使用 GITHUB_TOKEN）
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
