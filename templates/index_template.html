@@ -138,12 +138,21 @@
             <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
             <div class="authors">{{ paper.authors | join(", ") }}</div>
             
-            {% if paper.doi %}
-            <div style="font-size: 0.8rem; margin-bottom: 12px;">
-                <span style="color: var(--text-muted);"> DOI: </span>
-                <a href="https://doi.org/{{ paper.doi }}" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">{{ paper.doi }}</a>
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                {% if paper.doi %}
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/{{ paper.doi }}" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">{{ paper.doi }}</a>
+                </div>
+                {% endif %}
+
+                {% if paper.citations is defined and paper.citations != "" %}
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">{{ paper.citations }}</strong>
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
 
             <div class="abstract-summary">
                 <strong>Abstract:</strong> {{ paper.summary }}
