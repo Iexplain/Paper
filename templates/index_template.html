@@ -35,18 +35,6 @@
 
         .timeline { max-width: 1000px; margin: 0 auto; }
 
-        .date-section { margin-bottom: 40px; }
-        .date-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            padding: 8px 16px;
-            background: #e2e8f0;
-            display: inline-block;
-            border-radius: 20px;
-            margin-bottom: 20px;
-        }
-
-        /* 卡片式布局核心 */
         .paper-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -89,7 +77,6 @@
             font-style: italic;
         }
 
-        /* AI 摘要样式 */
         .abstract-summary {
             background: #f1f5f9;
             padding: 12px;
@@ -101,10 +88,13 @@
         }
 
         .tags-container {
-            margin-top: auto;
+            margin-top: auto; 
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
             gap: 8px;
+            padding-top: 16px;
+            border-top: 1px dashed #e2e8f0; 
         }
 
         .tag {
@@ -117,55 +107,6 @@
             text-transform: uppercase;
         }
 
-        .source-label {
-            font-size: 0.75rem;
-            color: #94a3b8;
-            margin-top: 12px;
-            text-align: right;
-        }
-
-        /* --- 过滤按钮样式 --- */
-        .filter-tabs {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin-top: 20px;
-        }
-        
-        .filter-btn {
-            padding: 8px 16px;
-            border: 1px solid #cbd5e1;
-            background: transparent;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            transition: all 0.2s ease;
-        }
-        
-        .filter-btn:hover {
-            border-color: var(--primary-color);
-            color: var(--primary-color);
-        }
-        
-        .filter-btn.active {
-            background: var(--primary-color);
-            color: white;
-            border-color: var(--primary-color);
-        }
-        
-        /* --- 卡片对齐与快捷链接 --- */
-        .tags-container {
-            margin-top: auto; 
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px dashed #e2e8f0; 
-        }
-        
         .action-link {
             margin-left: auto; 
             font-size: 0.85rem;
@@ -175,80 +116,45 @@
             transition: opacity 0.2s;
         }
         
-        .action-link:hover {
-            opacity: 0.7;
-        }
+        .action-link:hover { opacity: 0.7; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Daily Paper Dashboard</h1>
-    <div class="stats">今日新增: <strong id="total-count">{{ arxiv|length + pubmed|length }}</strong> 篇论文</div>
-    
-    <div class="filter-tabs">
-        <button class="filter-btn active" data-filter="all">全部 ({{ arxiv|length + pubmed|length }})</button>
-        <button class="filter-btn" data-filter="arXiv">arXiv ({{ arxiv|length }})</button>
-        <button class="filter-btn" data-filter="PubMed">PubMed ({{ pubmed|length }})</button>
-    </div>
+    <div class="stats">今日新增: <strong id="total-count">{{ all_papers|length }}</strong> 篇前沿文献</div>
 </header>
 
 <div class="timeline">
-    <div class="date-section">
-        <div class="paper-grid">
-            {% for paper in all_papers %}
-            <div class="paper-card" data-source="{{ paper.source }}">
-                <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
-                <div class="authors">{{ paper.authors | join(", ") }}</div>
-                
-                <div class="abstract-summary">
-                    <strong>AI 简述:</strong> {{ paper.summary if paper.summary else "暂无摘要，点击标题查看原文。" }}
-                </div>
-
-                <div class="tags-container">
-                    {% if paper.keywords %}
-                        {% for tag in paper.keywords %}
-                        <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    {% endif %}
-                    <span class="tag" style="background:#fee2e2; color:#991b1b;">{{ paper.source }}</span>
-                    <a href="{{ paper.link }}" target="_blank" class="action-link">↗ 原文</a>
-                </div>
+    <div class="paper-grid">
+        {% for paper in all_papers %}
+        <div class="paper-card">
+            <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
+            <div class="authors">{{ paper.authors | join(", ") }}</div>
+            
+            <div class="abstract-summary">
+                <strong>AI 简述:</strong> {{ paper.summary }}
             </div>
-            {% endfor %}
+
+            <div class="tags-container">
+                {% if paper.keywords %}
+                    {% for tag in paper.keywords %}
+                    {% if "🔥" in tag %}
+                        <span class="tag" style="background:#fee2e2; color:#991b1b;">{{ tag }}</span>
+                    {% elif "📓" in tag %}
+                        <span class="tag" style="background:#f3e8ff; color:#6b21a8;">{{ tag }}</span>
+                    {% else %}
+                        <span class="tag">{{ tag }}</span>
+                    {% endif %}
+                    {% endfor %}
+                {% endif %}
+                <a href="{{ paper.link }}" target="_blank" class="action-link">↗ 原文</a>
+            </div>
         </div>
+        {% endfor %}
     </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const paperCards = document.querySelectorAll('.paper-card');
-    const totalCountEl = document.getElementById('total-count');
-
-    filterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            filterBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-
-            const filterValue = btn.getAttribute('data-filter');
-            let visibleCount = 0;
-
-            paperCards.forEach(card => {
-                const source = card.getAttribute('data-source');
-                if (filterValue === 'all' || filterValue === source) {
-                    card.style.display = 'flex'; 
-                    visibleCount++;
-                } else {
-                    card.style.display = 'none'; 
-                }
-            });
-
-            totalCountEl.textContent = visibleCount;
-        });
-    });
-});
-</script>
-    
 </body>
 </html>
