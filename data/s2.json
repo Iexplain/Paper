@@ -1,17 +1,103 @@
 [
   {
-    "title": "How to make the most of your masked language model for protein engineering",
+    "title": "Aligning Large Language Models with Searcher Preferences",
     "authors": [
-      "Calvin McCarter",
-      "Nicholas Bhattacharya",
-      "Sebastian W. Ober",
+      "Wei Wu",
+      "Peilun Zhou",
+      "Liyi Chen",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/9b8686d07b6146b28ee5ddbc07371ee7aecc12fb",
+    "link": "https://www.semanticscholar.org/paper/54a02e04ed8e3997053f541f8e35ca6658835c4a",
     "date": "2026-03-11",
     "keywords": [],
     "source": "Semantic Scholar",
-    "abstract_raw": "A plethora of protein language models have been released in recent years. Yet comparatively little work has addressed how to best sample from them to optimize desired biological properties. We fill this gap by proposing a flexible, effective sampling method for masked language models (MLMs), and by systematically evaluating models and methods both in silico and in vitro on actual antibody therapeutics campaigns. Firstly, we propose sampling with stochastic beam search, exploiting the fact that MLMs are remarkably efficient at evaluating the pseudo-perplexity of the entire 1-edit neighborhood of a sequence. Reframing generation in terms of entire-sequence evaluation enables flexible guidance with multiple optimization objectives. Secondly, we report results from our extensive in vitro head-to-head evaluation for the antibody engineering setting. This reveals that choice of sampling method is at least as impactful as the model used, motivating future research into this under-explored area.",
+    "abstract_raw": "The paradigm shift from item-centric ranking to answer-centric synthesis is redefining the role of search engines. While recent industrial progress has applied generative techniques to closed-set item ranking in e-commerce, research and deployment of open-ended generative search on large content platforms remain limited. This setting introduces challenges, including robustness to noisy retrieval, non-negotiable safety guarantees, and alignment with diverse user needs. In this work, we introduce SearchLLM, the first large language model (LLM) for open-ended generative search. We design a hierarchical, multi-dimensional reward system that separates bottom-line constraints, including factual grounding, basic answer quality and format compliance, from behavior optimization objectives that promote robustness to noisy retrieval and alignment with user needs. Concretely, our reward model evaluates responses conditioned on the user query, session history, and retrieved evidence set, combining rule-based checks with human-calibrated LLM judges to produce an interpretable score vector over these dimensions. We introduce a Gated Aggregation Strategy to derive the training reward for optimizing SearchLLM with Group Relative Policy Optimization (GRPO). We deploy SearchLLM in the AI search entry of RedNote. Offline evaluations and online A/B tests show improved generation quality and user engagement, increasing Valid Consumption Rate by 1.03% and reducing Re-search Rate by 2.81%, while upholding strict safety and reliability standards.",
+    "summary": ""
+  },
+  {
+    "title": "OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs",
+    "authors": [
+      "Yujie Liao",
+      "Xuelong Geng",
+      "Hongfei Xue",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/51591db2b04fbe6de6c8740355ef6da50ea0e0ad",
+    "date": "2026-03-11",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional speech understanding. However, the majority of high-performance frameworks are predominantly optimized for GPU centric ecosystems and proprietary backbones, creating a significant gap for deployment on non-CUDA computing infrastructures. In this paper, we present OSUM-Pangu, a fully open-source speech understanding foundation model developed on a completely non-CUDA software and hardware stack. By integrating an audio encoder with the openPangu-7B LLM backbone, we successfully implement the entire training and inference pipeline on the Ascend NPU platform. To facilitate efficient task alignment under non-CUDA resource constraints, we adopt a practical training process that sequentially bridges speech perception and user intent recognition. Experimental results demonstrate that OSUM-Pangu achieves task accuracy comparable to mainstream GPU-based models while maintaining robust natural language interaction capabilities. Our work provides a reproducible, non-CUDA baseline for the open-source speech community, promoting the independent evolution of multimodal intelligence.",
+    "summary": ""
+  },
+  {
+    "title": "Prompting with the human-touch: evaluating model-sensitivity of foundation models for musculoskeletal CT segmentation",
+    "authors": [
+      "Caroline Magg",
+      "Maaike A. ter Wee",
+      "J. Dobbe",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1620fbcc83cefb1e1c7d92d65eba94633c8d7618",
+    "date": "2026-03-11",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Promptable Foundation Models (FMs), initially introduced for natural image segmentation, have also revolutionized medical image segmentation. The increasing number of models, along with evaluations varying in datasets, metrics, and compared models, makes direct performance comparison between models difficult and complicates the selection of the most suitable model for specific clinical tasks. In our study, 11 promptable FMs are tested using non-iterative 2D and 3D prompting strategies on a private and public dataset focusing on bone and implant segmentation in four anatomical regions (wrist, shoulder, hip and lower leg). The Pareto-optimal models are identified and further analyzed using human prompts collected through a dedicated observer study. Our findings are: 1) The segmentation performance varies a lot between FMs and prompting strategies; 2) The Pareto-optimal models in 2D are SAM and SAM2.1, in 3D nnInteractive and Med-SAM2; 3) Localization accuracy and rater consistency vary with anatomical structures, with higher consistency for simple structures (wrist bones) and lower consistency for complex structures (pelvis, tibia, implants); 4) The segmentation performance drops using human prompts, suggesting that performance reported on\"ideal\"prompts extracted from reference labels might overestimate the performance in a human-driven setting; 5) All models were sensitive to prompt variations. While two models demonstrated intra-rater robustness, it did not scale to inter-rater settings. We conclude that the selection of the most optimal FM for a human-driven setting remains challenging, with even high-performing FMs being sensitive to variations in human input prompts. Our code base for prompt extraction and model inference is available: https://github.com/CarolineMagg/segmentation-FM-benchmark/",
+    "summary": ""
+  },
+  {
+    "title": "Multi-Modal Intelligent Channel Modeling: From Fine-tuned LLMs to Pre-trained Foundation Models",
+    "authors": [
+      "Lu Bai",
+      "Zengrui Han",
+      "Mingran Sun",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ddc5dcd62798ef4b599d37af878483cb94dbcdb9",
+    "date": "2026-03-11",
+    "keywords": [
+      "LLM",
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "To meet the evolving demands of sixth-generation (6G) wireless channel modeling, such as precise prediction capability, extension capabilities, and system participation capability, multi-modal intelligent channel modeling (MMICM) has been proposed based on Synesthesia of Machines (SoM) which explores the mapping relationship between multi-modal sensing in physical environment and channel characteristics in electromagnetic space. Furthermore, for integrating heterogeneous sensing, reasoning across scales, and generalizing to complex air-space-ground-sea communication environments, two new paradigms of MMICM are explored, including fine-tuned large language models (LLMs) for Channel Modeling (LLM4CM) and Wireless Channel Foundation Model (WiCo). LLM4CM leverages pre-trained LLMs on channel representations for cross-modal alignment and lightweight adaptation, enabling flexible channel modeling for 6G multi-band and multi-scenario communication systems. WiCo, which pre-trained on physically valid channel realizations and their associated environmental and modal observations, embeds electromagnetic equations for physical interpretability and uses parameterized adapters for scalability. This article details the architectures and features of LLM4CM and WiCo, laying a foundation for artificial intelligence (AI)-native 6G wireless communication systems. Then, we conducts a comparative analysis of the two emerging paradigms, focusing on their distinct characteristics, relative advantages, inherent limitations, and performance attributes. Finally, we discuss the future research directions.",
+    "summary": ""
+  },
+  {
+    "title": "Pointy - A Lightweight Transformer for Point Cloud Foundation Models",
+    "authors": [
+      "Konrad Szafer",
+      "Marek Kraft",
+      "Dominik Belter"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7a6484cf595a774bf643e246ba8b3dfc90c3da56",
+    "date": "2026-03-11",
+    "keywords": [
+      "Foundation Model",
+      "📓 Advanced Concepts for Intelligent Vision Systems Conference"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Foundation models for point cloud data have recently grown in capability, often leveraging extensive representation learning from language or vision. In this work, we take a more controlled approach by introducing a lightweight transformer-based point cloud architecture. In contrast to the heavy reliance on cross-modal supervision, our model is trained only on 39k point clouds - yet it outperforms several larger foundation models trained on over 200k training samples. Interestingly, our method approaches state-of-the-art results from models that have seen over a million point clouds, images, and text samples, demonstrating the value of a carefully curated training setup and architecture. To ensure rigorous evaluation, we conduct a comprehensive replication study that standardizes the training regime and benchmarks across multiple point cloud architectures. This unified experimental framework isolates the impact of architectural choices, allowing for transparent comparisons and highlighting the benefits of our design and other tokenizer-free architectures. Our results show that simple backbones can deliver competitive results to more complex or data-rich strategies. The implementation, including code, pre-trained models, and training protocols, is available at https://github.com/KonradSzafer/Pointy.",
+    "summary": ""
+  },
+  {
+    "title": "Med-DualLoRA: Local Adaptation of Foundation Models for 3D Cardiac MRI",
+    "authors": [
+      "Joan Perramon-Llussa",
+      "Amelia Jim'enez-S'anchez",
+      "Grzegorz Skorupko",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c2f1b31c5f8128b6a26d722320fc5c3a3ee0a250",
+    "date": "2026-03-11",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Foundation models (FMs) show great promise for robust downstream performance across medical imaging tasks and modalities, including cardiac magnetic resonance (CMR), following task-specific adaptation. However, adaptation using single-site data may lead to suboptimal performance and increased model bias, while centralized fine-tuning on clinical data is often infeasible due to privacy constraints. Federated fine-tuning offers a privacy-preserving alternative; yet conventional approaches struggle under heterogeneous, non-IID multi-center data and incur substantial communication overhead when adapting large models. In this work, we study federated FM fine-tuning for 3D CMR disease detection and propose Med-DualLoRA, a client-aware parameter-efficient fine-tuning (PEFT) federated framework that disentangles globally shared and local low-rank adaptations (LoRA) through additive decomposition. Global and local LoRA modules are trained locally, but only the global component is shared and aggregated across sites, keeping local adapters private. This design improves personalization while significantly reducing communication cost, and experiments show that adapting only two transformer blocks preserves performance while further improving efficiency. We evaluate our method on a multi-center state-of-the-art cine 3D CMR FM fine-tuned for disease detection using ACDC and combined M\\&Ms datasets, treating each vendor as a federated client. Med-DualLoRA achieves statistically significant improved performance (balanced accuracy 0.768, specificity 0.612) compared to other federated PEFT baselines, while maintaining communication efficiency. Our approach provides a scalable solution for local federated adaptation of medical FMs under realistic clinical constraints.",
     "summary": ""
   },
   {
