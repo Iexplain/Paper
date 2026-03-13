@@ -1,203 +1,256 @@
 [
   {
-    "title": "Influence of behavioural contingency on developmental song learning in young zebra finches (Taeniopygia guttata) tutored by a robot bird.",
+    "title": "FGMA: A Functional Group-enhanced Deep Learning Method for Drug Toxicity Prediction.",
     "authors": [
-      "Alice Araguas",
-      "David Valencia",
-      "Adrien Chopin",
+      "Yue Cheng",
+      "Jianbo Qiao",
+      "Siqi Chen",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818808/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820218/",
+    "date": "2026",
+    "keywords": [
+      "Deep Learning"
+    ],
+    "source": "PubMed"
   },
   {
-    "title": "Stepwise Molecular Design of Epoxy Dielectric Films toward High-Temperature, High-Efficiency Energy Storage.",
+    "title": "XceptRf-Net: A Novel Deep Learning and Machine Learning Approach for Pneumonia Diagnosis.",
     "authors": [
-      "Jiale Mao",
-      "Yue Chen",
-      "Jiawei Liu",
+      "Muhammad Usama Tanveer",
+      "Kashif Munir",
+      "Syed Ali Jafar Zaidi",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818792/",
-    "date": "2026"
-  },
-  {
-    "title": "Strategic Governance of Artificial Intelligence-Enabled Clinical Algorithm Development: Formative Evaluation of the Semiautomatic Clinical Algorithm Development Framework.",
-    "authors": [
-      "Sang Hyun Ahn",
-      "Junhewk Kim"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820212/",
+    "date": "2026",
+    "keywords": [
+      "Deep Learning"
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818751/",
-    "date": "2026"
+    "source": "PubMed"
   },
   {
-    "title": "Application of a Large Visual Language Model on Tongue Image Description Generation and Physical Constitution Reasoning in Traditional Chinese Medicine (TongueVLM): Model Development and Validation Study.",
+    "title": "An Open-label, Phase 1 Dose-finding Study of Single-agent IMU-935, a Novel RORγ/RORγt Inverse Agonist, in Patients with Progressive Metastatic Castration-resistant Prostate Cancer.",
     "authors": [
-      "Chengdong Peng",
-      "Jun Gao",
-      "Nuo Yang",
+      "Rafael Grochot",
+      "Christina Guo",
+      "Suzanne Carreira",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818740/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820163/",
+    "date": "2026",
+    "keywords": [
+      "Agent"
+    ],
+    "source": "PubMed"
   },
   {
-    "title": "Subtle cellular phenotypes inform pathological and benign genetic mutants in the Iduronate-2 sulfatase gene.",
+    "title": "Evaluation and Management of Occupational Exposures and Postexposure Prophylaxis.",
     "authors": [
-      "Anushka Viswanathan",
-      "Serena Elia",
-      "Steven Q Le",
+      "David J Weber",
+      "Andy Gottlieb",
+      "Erica S Shenoy"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820134/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "Trajectory planning for robotic manipulator based on improved DDPG algorithm.",
+    "authors": [
+      "Dehai Yu",
+      "Weiwei Sun",
+      "Zhuangzhuang Luan"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820077/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "The use of mechanical thrombectomy in patients with STEMI and large thrombus burden: design and rationale of the NATURE trial.",
+    "authors": [
+      "Antonio Landi",
+      "Simone Biscaglia",
+      "Florim Cuculi",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818734/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820070/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Long-term safety and efficacy of oral bezafibrate use in dogs with hypertriglyceridemia.",
+    "title": "[A case of antiphospholipid syndrome complicated with hyperhomocysteinemia presenting initially with central retinal vein occlusion in a young male].",
     "authors": [
-      "Marilou Castonguay-Poirier",
-      "Lyanne Fifle",
-      "Romain Javard",
+      "X W Ji",
+      "Z Y Wang",
+      "Y H Zhang",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818730/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820067/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Gut microbiota and neurotransmitter metabolic profiling in a rat model simulating hypoactive sexual desire disorder.",
+    "title": "[Paying attention to challenges in clinical research on optic neuroprotection in primary open-angle glaucoma].",
     "authors": [
-      "Guanjian Li",
-      "Qunshan Shen",
-      "Cong Ma",
+      "J J Li"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820060/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "[Prevalence and influencing factors of chronic kidney disease-associated pruritus in patients undergoing maintenance hemodialysis].",
+    "authors": [
+      "G Yang",
+      "H T Wan",
+      "Y J Qian",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818727/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820058/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "KANPM-DTA: improving drug-target affinity prediction with Kolmogorov-Arnold networks and pretrained models.",
+    "title": "[Annual review of community-acquired pneumonia (CAP) 2025].",
     "authors": [
-      "M D Youshuf Khan Rakib",
-      "Muhammad Habibulla Alamin",
-      "Jiamu Li",
+      "F Zhou",
+      "Z P Liu",
+      "B Cao"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820042/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "[Guidelines for the diagnosis and treatment of obstructive sleep apnea in adults (2025)].",
+    "authors": [
+      ""
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820035/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "[From evidence-based to precision medicine: advancing a new paradigm for the diagnosis and treatment of obstructive sleep apnea].",
+    "authors": [
+      "Y Xiao"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820033/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "Deep learning-driven immunohistochemical analysis of renal lymphatics for chronic kidney disease: bioinformatic and histopathological study.",
+    "authors": [
+      "Xin Xu",
+      "YanPing Lin",
+      "Guangchang Pei",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818722/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820010/",
+    "date": "2026",
+    "keywords": [
+      "Deep Learning"
+    ],
+    "source": "PubMed"
   },
   {
-    "title": "Evaluating \"Brain Permeability\": A Critical Issue for the Development of Therapeutic Agents for Primary and Metastatic Brain Tumors.",
+    "title": "[Determination of 19 kinds of phthalic acid esters in pre-prepared dishes by gas chromatography-mass spectrometry].",
     "authors": [
-      "Stuart A Grossman",
-      "Amy Barone",
-      "Roy E Strowd",
+      "Changren Ye",
+      "Ping Ouyang",
+      "Liyuan Wang",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818680/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41820005/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Managing Bleeds on Anticoagulant therapy: A Practical Guide for Clinicians.",
+    "title": "Prevalence and molecular genotyping of cystic echinococcosis among Buffalo isolates from South-Punjab, Pakistan.",
     "authors": [
-      "Mattia Galli",
-      "Beatrice Simeone",
-      "Jurrien Ten Berg",
+      "Zunaira Fatima Naseer",
+      "Muhammad Ehsan",
+      "Farzana Abbasi",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818678/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41819963/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Serine Hydrolase Targets of a Sarin Surrogate Anticholinesterase and Oxime Mediated Reactivation in Rat Brain.",
+    "title": "Natural cryoprotectants for frozen food preservation: Mechanisms, advances and emerging trends.",
     "authors": [
-      "Chiquita Y Price",
-      "Edward C Meek",
-      "Matthew K Ross",
+      "Daniel Anacleto",
+      "Eric Keven Silva"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41819932/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
+  },
+  {
+    "title": "Quantitative risk assessment of nontyphoidal Salmonella in retail pork in China.",
+    "authors": [
+      "Li Bai",
+      "Jun Wang",
+      "Yibaina Wang",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818676/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41819918/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Strengthening healthcare systems to prevent antimicrobial resistance in LMICs: it is time to act.",
+    "title": "The structural characteristics, physicochemical properties, rheological behavior and anti-obesity effects of polysaccharides from Pueraria lobata: In-depth study focusing on the gut microbiota-hepatic FGF21 signaling.",
     "authors": [
-      "Virak Sorn"
-    ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818632/",
-    "date": "2026"
-  },
-  {
-    "title": "Implementation research on enhanced community case management of pneumonia in Bangladesh: study protocol.",
-    "authors": [
-      "Shafiqul Ameen",
-      "Sadman Sowmik Sarkar",
-      "Mahin Bin Hamid",
+      "Hui Niu",
+      "Qiong Deng",
+      "Baishun Hu",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818624/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41819911/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.",
+    "title": "Chicken feather protein hydrolysate: An alternative for the prevention of indomethacin-induced gastric ulcer formation in rats.",
     "authors": [
-      "Jocelito Bijoldo Martins",
-      "Thiago Dipp",
-      "Beatriz D Schaan",
+      "Meryem Doymus",
+      "Elanur Dasdemir",
+      "Emin Sengul",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818607/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41819898/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   },
   {
-    "title": "Large Language Model-Based Agents for Physical Activity and Cognitive Training: Scoping Review.",
+    "title": "Antibacterial mechanism of octyl gallate against methicillin-resistant staphylococcus aureus and its application in pork preservation: insights from multi-omics and computational simulation.",
     "authors": [
-      "Alessandro Silacci",
-      "Benedetta Giachetti",
-      "Leonardo Angelini",
+      "Saiqing Xu",
+      "Huan Li",
+      "Ying Xie",
       "et al."
     ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818489/",
-    "date": "2026"
-  },
-  {
-    "title": "Digital Health Solutions for Type 2 Diabetes and Prediabetes: Systematic Review of Engagement Barriers, Facilitators, and Outcomes.",
-    "authors": [
-      "Ayesha Thanthrige",
-      "Nilmini Wickramasinghe"
-    ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818488/",
-    "date": "2026"
-  },
-  {
-    "title": "Deep Learning-Based Estimated Pulmonary Biological Age From Chest Computed Tomography Images in Healthy Adults: Model Development and Validation Study.",
-    "authors": [
-      "Liping Zuo",
-      "Na Zhu",
-      "Bowen Wang",
-      "et al."
-    ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818478/",
-    "date": "2026"
-  },
-  {
-    "title": "Rising Burden of Severe Pediatric Coccidioidomycosis: A 25-Year Single Center Study.",
-    "authors": [
-      "Sanchi Malhotra",
-      "Kristina Adachi",
-      "Ishminder Kaur",
-      "et al."
-    ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818466/",
-    "date": "2026"
-  },
-  {
-    "title": "The Patient Experience: 5% Povidone-Iodine vs 0.05% Aqueous Chlorhexidine.",
-    "authors": [
-      "Brandon Bates",
-      "Edward Wood",
-      "Philip Storey"
-    ],
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41818451/",
-    "date": "2026"
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41819893/",
+    "date": "2026",
+    "keywords": [],
+    "source": "PubMed"
   }
 ]

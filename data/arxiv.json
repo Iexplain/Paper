@@ -8,7 +8,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12266v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
@@ -19,7 +21,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12265v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
@@ -30,7 +34,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12263v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously",
@@ -41,7 +47,11 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12262v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [
+      "LLM"
+    ],
+    "source": "arXiv"
   },
   {
     "title": "The Latent Color Subspace: Emergent Order in High-Dimensional Chaos",
@@ -52,7 +62,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12261v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "HumDex:Humanoid Dexterous Manipulation Made Easy",
@@ -63,7 +75,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12260v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
@@ -74,7 +88,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12257v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
@@ -85,7 +101,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12255v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing",
@@ -96,7 +114,9 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12254v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   },
   {
     "title": "SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning",
@@ -107,6 +127,8 @@
       "et al."
     ],
     "link": "https://arxiv.org/abs/2603.12249v1",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "keywords": [],
+    "source": "arXiv"
   }
 ]
