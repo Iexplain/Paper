@@ -123,23 +123,83 @@
             margin-top: 12px;
             text-align: right;
         }
+
+        /* --- 过滤按钮样式 --- */
+        .filter-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid #cbd5e1;
+            background: transparent;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+        }
+        
+        .filter-btn:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .filter-btn.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        /* --- 卡片对齐与快捷链接 --- */
+        /* 确保 tags 始终被推到最底部 */
+        .tags-container {
+            margin-top: auto; 
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            padding-top: 16px;
+            border-top: 1px dashed #e2e8f0; /* 加一条虚线分割，更有质感 */
+        }
+        
+        /* 快捷操作链接 */
+        .action-link {
+            margin-left: auto; /* 把原文链接推到最右侧 */
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        
+        .action-link:hover {
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Daily Paper Dashboard</h1>
-    <div class="stats">今日新增: <strong>{{ arxiv|length + pubmed|length }}</strong> 篇论文</div>
+    <div class="stats">今日新增: <strong id="total-count">{{ arxiv|length + pubmed|length }}</strong> 篇优质论文</div>
+    
+    <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">全部 ({{ arxiv|length + pubmed|length }})</button>
+        <button class="filter-btn" data-filter="arXiv">arXiv ({{ arxiv|length }})</button>
+        <button class="filter-btn" data-filter="PubMed">PubMed ({{ pubmed|length }})</button>
+    </div>
 </header>
 
 <div class="timeline">
-    {% set all_papers = arxiv + pubmed %}
-    {# 这里的排序逻辑建议在 Python 脚本中完成，模板只负责渲染 #}
-    
     <div class="date-section">
         <div class="paper-grid">
             {% for paper in all_papers %}
-            <div class="paper-card">
+            <div class="paper-card" data-source="{{ paper.source }}">
                 <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
                 <div class="authors">{{ paper.authors | join(", ") }}</div>
                 
@@ -154,6 +214,7 @@
                         {% endfor %}
                     {% endif %}
                     <span class="tag" style="background:#fee2e2; color:#991b1b;">{{ paper.source }}</span>
+                    <a href="{{ paper.link }}" target="_blank" class="action-link">↗ 原文</a>
                 </div>
             </div>
             {% endfor %}
