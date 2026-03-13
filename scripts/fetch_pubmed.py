@@ -44,6 +44,8 @@ try:
                     last = author.get("LastName", "")
                     fore = author.get("ForeName", "")
                     authors.append(f"{fore} {last}".strip())
+                if len(authors_list) > 3:
+                    authors.append("et al.")
             elif isinstance(authors_list, dict):
                 last = authors_list.get("LastName", "")
                 fore = authors_list.get("ForeName", "")
