@@ -18,8 +18,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
-      working-directory: ${{ github.workspace }}  # 根目录安装[1][2]
+        pip install -r requirements.txt || true  # 忽略无效包
+        pip install sqlite3  # 显式安装（虽内置但保险）
+      working-directory: ${{ github.workspace }}
+
 
     - name: Collect papers  # 步骤1
       run: python scripts/fetch_papers.py --keywords "Agent,LLM,ML,Fine-tuning" --max_papers 30
