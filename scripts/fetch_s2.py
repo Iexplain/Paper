@@ -95,9 +95,9 @@ for query in QUERIES:
                     venue = item.get("venue", "")
                     doi = item.get("externalIds", {}).get("DOI", "") if item.get("externalIds") else ""
                     if citations > 0:
-                        matched_keywords.append(f"🔥 Cited: {citations}")
+                        matched_keywords.append(f"Cited: {citations}")
                     if venue:
-                        matched_keywords.append(f"📓 {venue}")
+                        matched_keywords.append(f"{venue}")
                         
                     all_papers_dict[paper_id] = {
                         "title": title,
@@ -108,7 +108,8 @@ for query in QUERIES:
                         "source": "Semantic Scholar",
                         "abstract_raw": item.get("abstract", ""),
                         "summary": "",
-                        "doi": doi
+                        "doi": doi,
+                        "citations": citations
                     }
             break # 这个关键词抓取成功，跳出重试循环
             
