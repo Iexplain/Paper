@@ -33,9 +33,25 @@ try:
         for article in articles:
             medline = article.get("MedlineCitation", {}).get("Article", {})
             title = medline.get("ArticleTitle", "")
-            
+
             title_lower = title.lower() if title else ""
             matched_keywords = [kw for kw in TAG_KEYWORDS if kw.lower() in title_lower]
+
+            # 🌟 新增 1：提取期刊缩写名称作为标签
+            journal_name = medline.get("Journal", {}).get("ISOAbbreviation", "")
+            if journal_name:
+                matched_keywords.append(f"📓 {journal_name}") # 加上小图标更醒目
+
+            # 🌟 新增 2：提取文献类型（是否为综述或临床试验）
+            pub_types = medline.get("PublicationTypeList", {}).get("PublicationType", [])
+            if isinstance(pub_types, dict):
+                pub_types = [pub_types] # 统一转为列表处理
+            for pt in pub_types:
+                pt_name = pt.get("#text", "")
+                if pt_name == "Review":
+                    matched_keywords.append("💡 Review")
+                elif pt_name == "Clinical Trial":
+                    matched_keywords.append("🏥 Clinical Trial")
             
             authors_list = medline.get("AuthorList", {}).get("Author", [])
             authors = []
