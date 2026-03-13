@@ -1,89 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<title>Daily Paper</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background: #f4f4f4;
-}
-h1, h2 { color: #333; text-align: center; }
-.timeline {
-    margin: 20px auto;
-    max-width: 900px;
-}
-.date-group {
-    margin-bottom: 30px;
-}
-.date-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-.paper-card {
-    background: white;
-    padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
-}
-.paper-card h3 {
-    font-size: 16px;
-    margin: 0 0 4px 0;
-}
-.paper-card .authors {
-    font-size: 0.9em;
-    color: #555;
-    margin-bottom: 4px;
-}
-.paper-card .keywords {
-    font-size: 0.8em;
-    color: #007bff;
-}
-.paper-card .source {
-    font-size: 0.8em;
-    color: #888;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Paper</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --accent-tag: #dbeafe;
+            --accent-tag-text: #1e40af;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+
+        h1 { font-size: 2.2rem; margin-bottom: 8px; font-weight: 800; }
+        .stats { color: var(--text-muted); font-size: 1.1rem; }
+
+        .timeline { max-width: 1000px; margin: 0 auto; }
+
+        .date-section { margin-bottom: 40px; }
+        .date-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            padding: 8px 16px;
+            background: #e2e8f0;
+            display: inline-block;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* 卡片式布局核心 */
+        .paper-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            gap: 20px;
+        }
+
+        .paper-card {
+            background: var(--card-bg);
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #f1f5f9;
+        }
+
+        .paper-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .paper-card h3 {
+            font-size: 1.2rem;
+            margin: 0 0 12px 0;
+            line-height: 1.4;
+        }
+
+        .paper-card h3 a {
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .paper-card h3 a:hover { color: var(--primary-color); }
+
+        .authors {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        /* AI 摘要样式 */
+        .abstract-summary {
+            background: #f1f5f9;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #475569;
+            margin-bottom: 16px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .tags-container {
+            margin-top: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: var(--accent-tag);
+            color: var(--accent-tag-text);
+            text-transform: uppercase;
+        }
+
+        .source-label {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-top: 12px;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-<h1>Daily Paper Dashboard</h1>
 
-<!-- 今日新增数量 -->
-<h2>今日新增：{{ arxiv|length + pubmed|length }} 篇</h2>
+<header>
+    <h1>Daily Paper Dashboard</h1>
+    <div class="stats">今日新增: <strong>{{ arxiv|length + pubmed|length }}</strong> 篇优质论文</div>
+</header>
 
 <div class="timeline">
+    {% set all_papers = arxiv + pubmed %}
+    {# 这里的排序逻辑建议在 Python 脚本中完成，模板只负责渲染 #}
+    
+    <div class="date-section">
+        <div class="paper-grid">
+            {% for paper in all_papers %}
+            <div class="paper-card">
+                <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
+                <div class="authors">{{ paper.authors | join(", ") }}</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> {{ paper.summary if paper.summary else "暂无摘要，点击标题查看原文。" }}
+                </div>
 
-  <!-- 按日期分组 -->
-  {% set all_papers = arxiv + pubmed %}
-  {% set papers_by_date = {} %}
-  {% for paper in all_papers %}
-    {% set date = paper.date %}
-    {% if papers_by_date.get(date) %}
-      {% set _ = papers_by_date[date].append(paper) %}
-    {% else %}
-      {% set _ = papers_by_date.update({date:[paper]}) %}
-    {% endif %}
-  {% endfor %}
-
-  {% for date in papers_by_date|sort(reverse=True) %}
-  <div class="date-group">
-    <div class="date-title">{{ date }}</div>
-    {% for paper in papers_by_date[date] %}
-    <div class="paper-card">
-      <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
-      <div class="authors">{{ paper.authors | join(", ") }}</div>
-      {% if paper.keywords %}
-      <div class="keywords">关键字: {{ paper.keywords | join(", ") }}</div>
-      {% endif %}
-      <div class="source">来源: {{ paper.source }}</div>
+                <div class="tags-container">
+                    {% if paper.keywords %}
+                        {% for tag in paper.keywords %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    {% endif %}
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">{{ paper.source }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
-    {% endfor %}
-  </div>
-  {% endfor %}
-
 </div>
+
 </body>
 </html>
