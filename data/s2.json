@@ -1,20 +1,5 @@
 [
   {
-    "title": "Aligning Large Language Models with Searcher Preferences",
-    "authors": [
-      "Wei Wu",
-      "Peilun Zhou",
-      "Liyi Chen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/54a02e04ed8e3997053f541f8e35ca6658835c4a",
-    "date": "2026-03-11",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The paradigm shift from item-centric ranking to answer-centric synthesis is redefining the role of search engines. While recent industrial progress has applied generative techniques to closed-set item ranking in e-commerce, research and deployment of open-ended generative search on large content platforms remain limited. This setting introduces challenges, including robustness to noisy retrieval, non-negotiable safety guarantees, and alignment with diverse user needs. In this work, we introduce SearchLLM, the first large language model (LLM) for open-ended generative search. We design a hierarchical, multi-dimensional reward system that separates bottom-line constraints, including factual grounding, basic answer quality and format compliance, from behavior optimization objectives that promote robustness to noisy retrieval and alignment with user needs. Concretely, our reward model evaluates responses conditioned on the user query, session history, and retrieved evidence set, combining rule-based checks with human-calibrated LLM judges to produce an interpretable score vector over these dimensions. We introduce a Gated Aggregation Strategy to derive the training reward for optimizing SearchLLM with Group Relative Policy Optimization (GRPO). We deploy SearchLLM in the AI search entry of RedNote. Offline evaluations and online A/B tests show improved generation quality and user engagement, increasing Valid Consumption Rate by 1.03% and reducing Re-search Rate by 2.81%, while upholding strict safety and reliability standards.",
-    "summary": ""
-  },
-  {
     "title": "OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs",
     "authors": [
       "Yujie Liao",
@@ -67,6 +52,21 @@
     "summary": ""
   },
   {
+    "title": "RandMark: On Random Watermarking of Visual Foundation Models",
+    "authors": [
+      "A. Chistyakova",
+      "Mikhail Aleksandrovich Pautov"
+    ],
+    "link": "https://www.semanticscholar.org/paper/58f38c37843fc3cab4fe87a7c23675c3599a622f",
+    "date": "2026-03-11",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Being trained on large and diverse datasets, visual foundation models (VFMs) can be fine-tuned to achieve remarkable performance and efficiency in various downstream computer vision tasks. The high computational cost of data collection and training makes these models valuable assets, which motivates some VFM owners to distribute them alongside a license to protect their intellectual property rights. In this paper, we propose an approach to ownership verification of visual foundation models that leverages a small encoder-decoder network to embed digital watermarks into an internal representation of a hold-out set of input images. The method is based on random watermark embedding, which makes the watermark statistics detectable in functional copies of the watermarked model. Both theoretically and experimentally, we demonstrate that the proposed method yields a low probability of false detection for non-watermarked models and a low probability of false misdetection for watermarked models.",
+    "summary": ""
+  },
+  {
     "title": "Pointy - A Lightweight Transformer for Point Cloud Foundation Models",
     "authors": [
       "Konrad Szafer",
@@ -84,52 +84,36 @@
     "summary": ""
   },
   {
-    "title": "Med-DualLoRA: Local Adaptation of Foundation Models for 3D Cardiac MRI",
+    "title": "How to make the most of your masked language model for protein engineering",
     "authors": [
-      "Joan Perramon-Llussa",
-      "Amelia Jim'enez-S'anchez",
-      "Grzegorz Skorupko",
+      "Calvin McCarter",
+      "Nicholas Bhattacharya",
+      "Sebastian W. Ober",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/c2f1b31c5f8128b6a26d722320fc5c3a3ee0a250",
+    "link": "https://www.semanticscholar.org/paper/9b8686d07b6146b28ee5ddbc07371ee7aecc12fb",
     "date": "2026-03-11",
-    "keywords": [
-      "Foundation Model"
-    ],
+    "keywords": [],
     "source": "Semantic Scholar",
-    "abstract_raw": "Foundation models (FMs) show great promise for robust downstream performance across medical imaging tasks and modalities, including cardiac magnetic resonance (CMR), following task-specific adaptation. However, adaptation using single-site data may lead to suboptimal performance and increased model bias, while centralized fine-tuning on clinical data is often infeasible due to privacy constraints. Federated fine-tuning offers a privacy-preserving alternative; yet conventional approaches struggle under heterogeneous, non-IID multi-center data and incur substantial communication overhead when adapting large models. In this work, we study federated FM fine-tuning for 3D CMR disease detection and propose Med-DualLoRA, a client-aware parameter-efficient fine-tuning (PEFT) federated framework that disentangles globally shared and local low-rank adaptations (LoRA) through additive decomposition. Global and local LoRA modules are trained locally, but only the global component is shared and aggregated across sites, keeping local adapters private. This design improves personalization while significantly reducing communication cost, and experiments show that adapting only two transformer blocks preserves performance while further improving efficiency. We evaluate our method on a multi-center state-of-the-art cine 3D CMR FM fine-tuned for disease detection using ACDC and combined M\\&Ms datasets, treating each vendor as a federated client. Med-DualLoRA achieves statistically significant improved performance (balanced accuracy 0.768, specificity 0.612) compared to other federated PEFT baselines, while maintaining communication efficiency. Our approach provides a scalable solution for local federated adaptation of medical FMs under realistic clinical constraints.",
+    "abstract_raw": "A plethora of protein language models have been released in recent years. Yet comparatively little work has addressed how to best sample from them to optimize desired biological properties. We fill this gap by proposing a flexible, effective sampling method for masked language models (MLMs), and by systematically evaluating models and methods both in silico and in vitro on actual antibody therapeutics campaigns. Firstly, we propose sampling with stochastic beam search, exploiting the fact that MLMs are remarkably efficient at evaluating the pseudo-perplexity of the entire 1-edit neighborhood of a sequence. Reframing generation in terms of entire-sequence evaluation enables flexible guidance with multiple optimization objectives. Secondly, we report results from our extensive in vitro head-to-head evaluation for the antibody engineering setting. This reveals that choice of sampling method is at least as impactful as the model used, motivating future research into this under-explored area.",
     "summary": ""
   },
   {
-    "title": "Investigating the Efficacy of Deep Learning Techniques in Detecting Advanced Persistent Threats (APTs)",
+    "title": "DeepStackVEGF a stacking ensemble deep learning framework for vascular endothelial growth factor prediction.",
     "authors": [
-      "C. U. Ebelogu",
-      "Israel Musa",
-      "E. Abbah",
+      "Farman Ali",
+      "Majdi Khalid",
+      "Abdulmohsen Algarni",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/da7cf2f1d02dea412fe9c6471ecb2081f5501efa",
+    "link": "https://www.semanticscholar.org/paper/892e9614c7b4281da77291e1f96662854ef54873",
     "date": "2026-03-11",
     "keywords": [
       "Deep Learning",
-      "📓 Engineering Headway"
+      "📓 Scientific Reports"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "Advanced Persistent Threats (APTs) pose significant challenges to cybersecurity due to their stealthy, multi-stage nature. Traditional detection methods struggle to identify such complex behaviors. This study investigates the effectiveness of deep learning (DL) techniques in detecting APTs. Two research questions guide the study: (i) How effective is a custom Transformer-based model compared to existing DL models in detecting APTs? (ii) To what extent have DL models contributed to APT detection between 2020 and 2025? A two-fold methodology was adopted: a meta-analysis of 30 peer-reviewed studies and an empirical evaluation of a Transformer model trained on the CIC-IDS2018 dataset. The model achieved 99.71% accuracy with macro-averaged F1-score, precision, and recall values above 0.70, demonstrating strong overall performance but revealing challenges in classifying rare attack types. The meta-analysis further identified key research gaps, including limited use of multi-class classification, underutilization of Transformers, and a need for real-world datasets. Findings show that Transformer-based architectures are not only viable but good at modeling complex feature dependencies and detecting sophisticated APT behaviours. This research highlights both the strengths and limitations of DL for cybersecurity and suggests future directions for improving robustness and scalability in real-world deployment.",
-    "summary": ""
-  },
-  {
-    "title": "ForwardFlow: Simulation only statistical inference using deep learning",
-    "authors": [
-      "S. Bohringer"
-    ],
-    "link": "https://www.semanticscholar.org/paper/c837f015d0bfeaa355e707a6aba2ec3b53c26101",
-    "date": "2026-03-11",
-    "keywords": [
-      "Deep Learning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Deep learning models are being used for the analysis of parametric statistical models based on simulation-only frameworks. Bayesian models using normalizing flows simulate data from a prior distribution and are composed of two deep neural networks: a summary network that learns a sufficient statistic for the parameter and a normalizing flow that conditional on the summary network can approximate the posterior distribution. Here, we explore frequentist models that are based on a single summary network. During training, input of the network is a simulated data set based on a parameter and the loss function minimizes the mean-square error between learned summary and parameter. The network thereby solves the inverse problem of parameter estimation. We propose a branched network structure that contains collapsing layers that reduce a data set to summary statistics that are further mapped through fully connected layers to approximate the parameter estimate. We motivate our choice of network structure by theoretical considerations. In simulations we demonstrate three desirable properties of parameter estimates: finite sample exactness, robustness to data contamination, and algorithm approximation. These properties are achieved offering the the network varying sample size, contaminated data, and data needing algorithmic reconstruction during the training phase. In our simulations an EM-algorithm for genetic data is automatically approximated by the network. Simulation only approaches seem to offer practical advantages in complex modeling tasks where the simpler data simulation part is left to the researcher and the more complex problem of solving the inverse problem is left to the neural network. Challenging future work includes offering pre-trained models that can be used in a wide variety of applications.",
+    "abstract_raw": null,
     "summary": ""
   }
 ]
