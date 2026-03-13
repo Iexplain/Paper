@@ -5,24 +5,23 @@ def load_data(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            # 模拟：如果没有摘要，截取原文摘要或占位
+            # 临时占位：如果 summary 为空，先拿 S2 原文摘要的前100个字符顶一下
             for item in data:
-                if 'summary' not in item or not item['summary']:
-                    item['summary'] = "本论文探讨了领域内的前沿技术，重点优化了模型性能..." # 实际应由AI生成
+                if not item.get('summary'):
+                    raw_abs = item.get('abstract_raw', '')
+                    item['summary'] = (raw_abs[:100] + "...") if raw_abs else "暂无摘要，请点击原文查看。"
             return data
     except FileNotFoundError:
         return []
 
-# 加载数据
-arxiv = load_data("data/arxiv.json")
-pubmed = load_data("data/pubmed.json")
+# 只加载 S2 的数据
+s2_papers = load_data("data/s2.json")
 
-# 设置 Jinja2 模板
 env = Environment(loader=FileSystemLoader("templates"))
 template = env.get_template("index_template.html")
 
-# 渲染并保存
-html_content = template.render(arxiv=arxiv, pubmed=pubmed)
+# 渲染时只需把 s2_papers 传进去（前端你可以把 pubmed 和 arxiv 的变量全换成 s2_papers）
+html_content = template.render(all_papers=s2_papers)
 
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
