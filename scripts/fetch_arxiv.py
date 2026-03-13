@@ -30,6 +30,8 @@ feed = feedparser.parse(url)
 # 筛选昨天的文献
 papers = []
 for entry in feed.entries:
+    keywords = ["LLM", "Deep Learning", "Agent", "Fine-tuning"]  # 可自定义
+    matched_keywords = [kw for kw in keywords if kw.lower() in entry.title.lower()]
     published_date = datetime.strptime(entry.published, "%Y-%m-%dT%H:%M:%SZ")
     if published_date.date() == yesterday_date:
         authors_list = [author.name for author in entry.authors]
@@ -40,6 +42,8 @@ for entry in feed.entries:
             "authors": authors_list,
             "link": entry.link,
             "date": published_date.strftime("%Y-%m-%d")
+            "keywords": matched_keywords,
+            "source": "arXiv"
         })
 
 # 保存 JSON
