@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>每日文献Dashboard - {{ update_date }}</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 今日AI文献热榜 ({{ total_count }}篇)</h1>
+        
+        <!-- 图表区域 -->
+        <div class="charts-grid">
+            {% for chart in charts %}
+            <div class="chart-container">
+                <iframe src="assets/{{ chart }}" width="100%" height="400"></iframe>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <!-- 文献卡片 -->
+        <div class="papers-grid">
+            {% for paper in papers %}
+            <div class="paper-card">
+                <h3>{{ paper.title[:80] }}...</h3>
+                <p><strong>作者:</strong> {{ paper.authors|join(', ') }}</p>
+                <p><strong>引用:</strong> {{ paper.citations }} | <strong>影响力:</strong> {{ "%.1f"|format(paper.influence_score) }}</p>
+                <p>{{ paper.summary }}</p>
+                <a href="{{ paper.pdf_url }}" target="_blank">📄 PDF</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
