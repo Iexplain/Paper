@@ -221,6 +221,38 @@
         </div>
     </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const paperCards = document.querySelectorAll('.paper-card');
+    const totalCountEl = document.getElementById('total-count');
 
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // 1. 切换按钮的 active 状态
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filterValue = btn.getAttribute('data-filter');
+            let visibleCount = 0;
+
+            // 2. 遍历卡片，根据 data-source 决定显示或隐藏
+            paperCards.forEach(card => {
+                const source = card.getAttribute('data-source');
+                if (filterValue === 'all' || filterValue === source) {
+                    card.style.display = 'flex'; // 恢复显示
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none'; // 隐藏卡片
+                }
+            });
+
+            // 3. 动态更新顶部的数量统计
+            totalCountEl.textContent = visibleCount;
+        });
+    });
+});
+</script>
+    
 </body>
 </html>
