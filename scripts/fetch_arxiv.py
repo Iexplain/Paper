@@ -32,6 +32,9 @@ papers = []
 for entry in feed.entries:
     published_date = datetime.strptime(entry.published, "%Y-%m-%dT%H:%M:%SZ")
     if published_date.date() == yesterday_date:
+        authors_list = [author.name for author in entry.authors]
+        if len(authors_list) > 3:
+            authors_list = authors_list[:3] + ["et al."]
         papers.append({
             "title": entry.title.strip(),
             "authors": [author.name for author in entry.authors],
