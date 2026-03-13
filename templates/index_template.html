@@ -150,8 +150,8 @@
             </div>
 
             <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ {{ paper.source }}</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 {{ paper.date }}</span>
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">{{ paper.source }}</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">{{ paper.date }}</span>
                 
                 {% if paper.keywords %}
                     {% for tag in paper.keywords %}
