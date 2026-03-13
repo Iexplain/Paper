@@ -1,12 +1,14 @@
 name: Daily Paper Update
+
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天早上 8 点 UTC+0，东京时间可改为 UTC-1
+    - cron: '0 8 * * *'  # 每天 UTC 8 点执行
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
