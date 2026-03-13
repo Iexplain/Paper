@@ -149,6 +149,12 @@
             <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
             <div class="authors">{{ paper.authors | join(", ") }}</div>
             
+            {% if paper.doi %}
+            <div style="font-size: 0.8rem; margin-bottom: 12px;">
+                <span style="color: var(--text-muted);">📄 DOI: </span>
+                <a href="https://doi.org/{{ paper.doi }}" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">{{ paper.doi }}</a>
+            </div>
+            {% endif %}
             <div class="abstract-summary">
                 <strong>Abstract:</strong> {{ paper.summary }}
             </div>
