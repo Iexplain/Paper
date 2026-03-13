@@ -138,6 +138,8 @@
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#e2e8f0; color:#475569;">📅 {{ paper.date }}</span>
+                
                 {% if paper.keywords %}
                     {% for tag in paper.keywords %}
                     {% if "🔥" in tag %}
