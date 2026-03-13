@@ -41,7 +41,7 @@ for entry in feed.entries:
             "title": entry.title.strip(),
             "authors": authors_list,
             "link": entry.link,
-            "date": published_date.strftime("%Y-%m-%d")
+            "date": published_date.strftime("%Y-%m-%d"),
             "keywords": matched_keywords,
             "source": "arXiv"
         })
