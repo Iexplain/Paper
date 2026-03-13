@@ -1,448 +1,587 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<title>Daily Paper Dashboard</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background: #f4f4f4;
-}
-h1, h2 { color: #333; text-align: center; }
-.timeline {
-    margin: 20px auto;
-    max-width: 900px;
-}
-.date-group {
-    margin-bottom: 30px;
-}
-.date-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-.paper-card {
-    background: white;
-    padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
-}
-.paper-card h3 {
-    font-size: 16px;
-    margin: 0 0 4px 0;
-}
-.paper-card .authors {
-    font-size: 0.9em;
-    color: #555;
-    margin-bottom: 4px;
-}
-.paper-card .keywords {
-    font-size: 0.8em;
-    color: #007bff;
-}
-.paper-card .source {
-    font-size: 0.8em;
-    color: #888;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Paper</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --accent-tag: #dbeafe;
+            --accent-tag-text: #1e40af;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+
+        h1 { font-size: 2.2rem; margin-bottom: 8px; font-weight: 800; }
+        .stats { color: var(--text-muted); font-size: 1.1rem; }
+
+        .timeline { max-width: 1000px; margin: 0 auto; }
+
+        .date-section { margin-bottom: 40px; }
+        .date-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            padding: 8px 16px;
+            background: #e2e8f0;
+            display: inline-block;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* 卡片式布局核心 */
+        .paper-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            gap: 20px;
+        }
+
+        .paper-card {
+            background: var(--card-bg);
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #f1f5f9;
+        }
+
+        .paper-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .paper-card h3 {
+            font-size: 1.2rem;
+            margin: 0 0 12px 0;
+            line-height: 1.4;
+        }
+
+        .paper-card h3 a {
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .paper-card h3 a:hover { color: var(--primary-color); }
+
+        .authors {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        /* AI 摘要样式 */
+        .abstract-summary {
+            background: #f1f5f9;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #475569;
+            margin-bottom: 16px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .tags-container {
+            margin-top: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: var(--accent-tag);
+            color: var(--accent-tag-text);
+            text-transform: uppercase;
+        }
+
+        .source-label {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-top: 12px;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-<h1>Daily Paper Dashboard</h1>
 
-<!-- 今日新增数量 -->
-<h2>今日新增：30 篇</h2>
+<header>
+    <h1>Daily Paper Dashboard</h1>
+    <div class="stats">今日新增: <strong>30</strong> 篇优质论文</div>
+</header>
 
 <div class="timeline">
+    
+    
+    
+    <div class="date-section">
+        <div class="paper-grid">
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12266v1" target="_blank">MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning</a></h3>
+                <div class="authors">Haozhan Shen, Shilin Yan, Hongwei Xue, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
 
-  <!-- 按日期分组 -->
-  
-  
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
-    
-    
-      
-    
-  
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12265v1" target="_blank">OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams</a></h3>
+                <div class="authors">Yibin Yan, Jilan Xu, Shangzhe Di, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
 
-  
-  <div class="date-group">
-    <div class="date-title">2026-03-12</div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12266v1" target="_blank">MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning</a></h3>
-      <div class="authors">Haozhan Shen, Shilin Yan, Hongwei Xue, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12265v1" target="_blank">OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams</a></h3>
-      <div class="authors">Yibin Yan, Jilan Xu, Shangzhe Di, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12263v1" target="_blank">$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</a></h3>
-      <div class="authors">Songlin Wei, Hongyi Jing, Boqian Li, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12262v1" target="_blank">Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously</a></h3>
-      <div class="authors">Yiran Guan, Liang Yin, Dingkang Liang, et al.</div>
-      
-      <div class="keywords">关键字: LLM</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12261v1" target="_blank">The Latent Color Subspace: Emergent Order in High-Dimensional Chaos</a></h3>
-      <div class="authors">Mateusz Pach, Jessica Bader, Quentin Bouniot, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12260v1" target="_blank">HumDex:Humanoid Dexterous Manipulation Made Easy</a></h3>
-      <div class="authors">Liang Heng, Yihe Tang, Jiajun Xu, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12257v1" target="_blank">DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning</a></h3>
-      <div class="authors">Yujie Wei, Xinyu Liu, Shiwei Zhang, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12255v1" target="_blank">Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training</a></h3>
-      <div class="authors">Fangfu Liu, Diankun Wu, Jiawei Chi, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12254v1" target="_blank">Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing</a></h3>
-      <div class="authors">Baifeng Shi, Stephanie Fu, Long Lian, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://arxiv.org/abs/2603.12249v1" target="_blank">SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning</a></h3>
-      <div class="authors">Ziyu Chen, Yilun Zhao, Chengye Wang, et al.</div>
-      
-      <div class="source">来源: arXiv</div>
-    </div>
-    
-  </div>
-  
-  <div class="date-group">
-    <div class="date-title">2026</div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820218/" target="_blank">FGMA: A Functional Group-enhanced Deep Learning Method for Drug Toxicity Prediction.</a></h3>
-      <div class="authors">Yue Cheng, Jianbo Qiao, Siqi Chen, et al.</div>
-      
-      <div class="keywords">关键字: Deep Learning</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820212/" target="_blank">XceptRf-Net: A Novel Deep Learning and Machine Learning Approach for Pneumonia Diagnosis.</a></h3>
-      <div class="authors">Muhammad Usama Tanveer, Kashif Munir, Syed Ali Jafar Zaidi, et al.</div>
-      
-      <div class="keywords">关键字: Deep Learning</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820163/" target="_blank">An Open-label, Phase 1 Dose-finding Study of Single-agent IMU-935, a Novel RORγ/RORγt Inverse Agonist, in Patients with Progressive Metastatic Castration-resistant Prostate Cancer.</a></h3>
-      <div class="authors">Rafael Grochot, Christina Guo, Suzanne Carreira, et al.</div>
-      
-      <div class="keywords">关键字: Agent</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820134/" target="_blank">Evaluation and Management of Occupational Exposures and Postexposure Prophylaxis.</a></h3>
-      <div class="authors">David J Weber, Andy Gottlieb, Erica S Shenoy</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820077/" target="_blank">Trajectory planning for robotic manipulator based on improved DDPG algorithm.</a></h3>
-      <div class="authors">Dehai Yu, Weiwei Sun, Zhuangzhuang Luan</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820070/" target="_blank">The use of mechanical thrombectomy in patients with STEMI and large thrombus burden: design and rationale of the NATURE trial.</a></h3>
-      <div class="authors">Antonio Landi, Simone Biscaglia, Florim Cuculi, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820067/" target="_blank">[A case of antiphospholipid syndrome complicated with hyperhomocysteinemia presenting initially with central retinal vein occlusion in a young male].</a></h3>
-      <div class="authors">X W Ji, Z Y Wang, Y H Zhang, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820060/" target="_blank">[Paying attention to challenges in clinical research on optic neuroprotection in primary open-angle glaucoma].</a></h3>
-      <div class="authors">J J Li</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820058/" target="_blank">[Prevalence and influencing factors of chronic kidney disease-associated pruritus in patients undergoing maintenance hemodialysis].</a></h3>
-      <div class="authors">G Yang, H T Wan, Y J Qian, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820042/" target="_blank">[Annual review of community-acquired pneumonia (CAP) 2025].</a></h3>
-      <div class="authors">F Zhou, Z P Liu, B Cao</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820035/" target="_blank">[Guidelines for the diagnosis and treatment of obstructive sleep apnea in adults (2025)].</a></h3>
-      <div class="authors"></div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820033/" target="_blank">[From evidence-based to precision medicine: advancing a new paradigm for the diagnosis and treatment of obstructive sleep apnea].</a></h3>
-      <div class="authors">Y Xiao</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820010/" target="_blank">Deep learning-driven immunohistochemical analysis of renal lymphatics for chronic kidney disease: bioinformatic and histopathological study.</a></h3>
-      <div class="authors">Xin Xu, YanPing Lin, Guangchang Pei, et al.</div>
-      
-      <div class="keywords">关键字: Deep Learning</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820005/" target="_blank">[Determination of 19 kinds of phthalic acid esters in pre-prepared dishes by gas chromatography-mass spectrometry].</a></h3>
-      <div class="authors">Changren Ye, Ping Ouyang, Liyuan Wang, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819963/" target="_blank">Prevalence and molecular genotyping of cystic echinococcosis among Buffalo isolates from South-Punjab, Pakistan.</a></h3>
-      <div class="authors">Zunaira Fatima Naseer, Muhammad Ehsan, Farzana Abbasi, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819932/" target="_blank">Natural cryoprotectants for frozen food preservation: Mechanisms, advances and emerging trends.</a></h3>
-      <div class="authors">Daniel Anacleto, Eric Keven Silva</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819918/" target="_blank">Quantitative risk assessment of nontyphoidal Salmonella in retail pork in China.</a></h3>
-      <div class="authors">Li Bai, Jun Wang, Yibaina Wang, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819911/" target="_blank">The structural characteristics, physicochemical properties, rheological behavior and anti-obesity effects of polysaccharides from Pueraria lobata: In-depth study focusing on the gut microbiota-hepatic FGF21 signaling.</a></h3>
-      <div class="authors">Hui Niu, Qiong Deng, Baishun Hu, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819898/" target="_blank">Chicken feather protein hydrolysate: An alternative for the prevention of indomethacin-induced gastric ulcer formation in rats.</a></h3>
-      <div class="authors">Meryem Doymus, Elanur Dasdemir, Emin Sengul, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-    <div class="paper-card">
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819893/" target="_blank">Antibacterial mechanism of octyl gallate against methicillin-resistant staphylococcus aureus and its application in pork preservation: insights from multi-omics and computational simulation.</a></h3>
-      <div class="authors">Saiqing Xu, Huan Li, Ying Xie, et al.</div>
-      
-      <div class="source">来源: PubMed</div>
-    </div>
-    
-  </div>
-  
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12263v1" target="_blank">$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</a></h3>
+                <div class="authors">Songlin Wei, Hongyi Jing, Boqian Li, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
 
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12262v1" target="_blank">Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously</a></h3>
+                <div class="authors">Yiran Guan, Liang Yin, Dingkang Liang, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                        
+                        <span class="tag">LLM</span>
+                        
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12261v1" target="_blank">The Latent Color Subspace: Emergent Order in High-Dimensional Chaos</a></h3>
+                <div class="authors">Mateusz Pach, Jessica Bader, Quentin Bouniot, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12260v1" target="_blank">HumDex:Humanoid Dexterous Manipulation Made Easy</a></h3>
+                <div class="authors">Liang Heng, Yihe Tang, Jiajun Xu, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12257v1" target="_blank">DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning</a></h3>
+                <div class="authors">Yujie Wei, Xinyu Liu, Shiwei Zhang, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12255v1" target="_blank">Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training</a></h3>
+                <div class="authors">Fangfu Liu, Diankun Wu, Jiawei Chi, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12254v1" target="_blank">Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing</a></h3>
+                <div class="authors">Baifeng Shi, Stephanie Fu, Long Lian, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://arxiv.org/abs/2603.12249v1" target="_blank">SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning</a></h3>
+                <div class="authors">Ziyu Chen, Yilun Zhao, Chengye Wang, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">arXiv</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820218/" target="_blank">FGMA: A Functional Group-enhanced Deep Learning Method for Drug Toxicity Prediction.</a></h3>
+                <div class="authors">Yue Cheng, Jianbo Qiao, Siqi Chen, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                        
+                        <span class="tag">Deep Learning</span>
+                        
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820212/" target="_blank">XceptRf-Net: A Novel Deep Learning and Machine Learning Approach for Pneumonia Diagnosis.</a></h3>
+                <div class="authors">Muhammad Usama Tanveer, Kashif Munir, Syed Ali Jafar Zaidi, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                        
+                        <span class="tag">Deep Learning</span>
+                        
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820163/" target="_blank">An Open-label, Phase 1 Dose-finding Study of Single-agent IMU-935, a Novel RORγ/RORγt Inverse Agonist, in Patients with Progressive Metastatic Castration-resistant Prostate Cancer.</a></h3>
+                <div class="authors">Rafael Grochot, Christina Guo, Suzanne Carreira, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                        
+                        <span class="tag">Agent</span>
+                        
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820134/" target="_blank">Evaluation and Management of Occupational Exposures and Postexposure Prophylaxis.</a></h3>
+                <div class="authors">David J Weber, Andy Gottlieb, Erica S Shenoy</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820077/" target="_blank">Trajectory planning for robotic manipulator based on improved DDPG algorithm.</a></h3>
+                <div class="authors">Dehai Yu, Weiwei Sun, Zhuangzhuang Luan</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820070/" target="_blank">The use of mechanical thrombectomy in patients with STEMI and large thrombus burden: design and rationale of the NATURE trial.</a></h3>
+                <div class="authors">Antonio Landi, Simone Biscaglia, Florim Cuculi, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820067/" target="_blank">[A case of antiphospholipid syndrome complicated with hyperhomocysteinemia presenting initially with central retinal vein occlusion in a young male].</a></h3>
+                <div class="authors">X W Ji, Z Y Wang, Y H Zhang, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820060/" target="_blank">[Paying attention to challenges in clinical research on optic neuroprotection in primary open-angle glaucoma].</a></h3>
+                <div class="authors">J J Li</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820058/" target="_blank">[Prevalence and influencing factors of chronic kidney disease-associated pruritus in patients undergoing maintenance hemodialysis].</a></h3>
+                <div class="authors">G Yang, H T Wan, Y J Qian, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820042/" target="_blank">[Annual review of community-acquired pneumonia (CAP) 2025].</a></h3>
+                <div class="authors">F Zhou, Z P Liu, B Cao</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820035/" target="_blank">[Guidelines for the diagnosis and treatment of obstructive sleep apnea in adults (2025)].</a></h3>
+                <div class="authors"></div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820033/" target="_blank">[From evidence-based to precision medicine: advancing a new paradigm for the diagnosis and treatment of obstructive sleep apnea].</a></h3>
+                <div class="authors">Y Xiao</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820010/" target="_blank">Deep learning-driven immunohistochemical analysis of renal lymphatics for chronic kidney disease: bioinformatic and histopathological study.</a></h3>
+                <div class="authors">Xin Xu, YanPing Lin, Guangchang Pei, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                        
+                        <span class="tag">Deep Learning</span>
+                        
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820005/" target="_blank">[Determination of 19 kinds of phthalic acid esters in pre-prepared dishes by gas chromatography-mass spectrometry].</a></h3>
+                <div class="authors">Changren Ye, Ping Ouyang, Liyuan Wang, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819963/" target="_blank">Prevalence and molecular genotyping of cystic echinococcosis among Buffalo isolates from South-Punjab, Pakistan.</a></h3>
+                <div class="authors">Zunaira Fatima Naseer, Muhammad Ehsan, Farzana Abbasi, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819932/" target="_blank">Natural cryoprotectants for frozen food preservation: Mechanisms, advances and emerging trends.</a></h3>
+                <div class="authors">Daniel Anacleto, Eric Keven Silva</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819918/" target="_blank">Quantitative risk assessment of nontyphoidal Salmonella in retail pork in China.</a></h3>
+                <div class="authors">Li Bai, Jun Wang, Yibaina Wang, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819911/" target="_blank">The structural characteristics, physicochemical properties, rheological behavior and anti-obesity effects of polysaccharides from Pueraria lobata: In-depth study focusing on the gut microbiota-hepatic FGF21 signaling.</a></h3>
+                <div class="authors">Hui Niu, Qiong Deng, Baishun Hu, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819898/" target="_blank">Chicken feather protein hydrolysate: An alternative for the prevention of indomethacin-induced gastric ulcer formation in rats.</a></h3>
+                <div class="authors">Meryem Doymus, Elanur Dasdemir, Emin Sengul, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819893/" target="_blank">Antibacterial mechanism of octyl gallate against methicillin-resistant staphylococcus aureus and its application in pork preservation: insights from multi-omics and computational simulation.</a></h3>
+                <div class="authors">Saiqing Xu, Huan Li, Ying Xie, et al.</div>
+                
+                <div class="abstract-summary">
+                    <strong>AI 简述:</strong> 本论文探讨了领域内的前沿技术，重点优化了模型性能...
+                </div>
+
+                <div class="tags-container">
+                    
+                    <span class="tag" style="background:#fee2e2; color:#991b1b;">PubMed</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
+
 </body>
 </html>
