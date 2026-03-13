@@ -23,15 +23,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # 4️⃣ 抓取 arXiv 文献
-      - name: Fetch arXiv papers
-        run: python scripts/fetch_arxiv.py
+      # 4️⃣ 抓取 Semantic Scholar 文献
+      - name: Fetch Semantic Scholar papers
+        run: python scripts/fetch_s2.py
 
-      # 5️⃣ 抓取 PubMed 文献
-      - name: Fetch PubMed papers
-        run: python scripts/fetch_pubmed.py
-
-      # 6️⃣ 生成网页
+      # 5️⃣ 生成网页
       - name: Generate HTML
         run: python scripts/generate_web.py
 
