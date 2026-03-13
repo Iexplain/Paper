@@ -1,4 +1,3 @@
-data/
-output/
-__pycache__/
-*.pyc
+# 忽略其他 data 文件，但保留 json
+data/*
+!data/*.json
