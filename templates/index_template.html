@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Paper</title>
+    <title>Daily Paper Dashboard</title>
     <style>
         :root {
             --primary-color: #2563eb;
@@ -106,17 +106,6 @@
             color: var(--accent-tag-text);
             text-transform: uppercase;
         }
-
-        .action-link {
-            margin-left: auto; 
-            font-size: 0.85rem;
-            font-weight: bold;
-            color: var(--primary-color);
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-        
-        .action-link:hover { opacity: 0.7; }
     </style>
 </head>
 <body>
@@ -139,7 +128,6 @@
 
             <div class="tags-container">
                 <span class="tag" style="background:#e2e8f0; color:#475569;">📅 {{ paper.date }}</span>
-                
                 {% if paper.keywords %}
                     {% for tag in paper.keywords %}
                     {% if "🔥" in tag %}
@@ -151,7 +139,6 @@
                     {% endif %}
                     {% endfor %}
                 {% endif %}
-                <a href="{{ paper.link }}" target="_blank" class="action-link">↗ 原文</a>
             </div>
         </div>
         {% endfor %}
