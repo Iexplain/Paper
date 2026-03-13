@@ -156,7 +156,6 @@
         }
         
         /* --- 卡片对齐与快捷链接 --- */
-        /* 确保 tags 始终被推到最底部 */
         .tags-container {
             margin-top: auto; 
             display: flex;
@@ -164,12 +163,11 @@
             align-items: center;
             gap: 8px;
             padding-top: 16px;
-            border-top: 1px dashed #e2e8f0; /* 加一条虚线分割，更有质感 */
+            border-top: 1px dashed #e2e8f0; 
         }
         
-        /* 快捷操作链接 */
         .action-link {
-            margin-left: auto; /* 把原文链接推到最右侧 */
+            margin-left: auto; 
             font-size: 0.85rem;
             font-weight: bold;
             color: var(--primary-color);
@@ -185,8 +183,8 @@
 <body>
 
 <header>
-    <h1>Daily Paper</h1>
-    <div class="stats">今日新增: <strong id="total-count">{{ arxiv|length + pubmed|length }}</strong> 篇论文</div>
+    <h1>Daily Paper Dashboard</h1>
+    <div class="stats">今日新增: <strong id="total-count">{{ arxiv|length + pubmed|length }}</strong> 篇优质论文</div>
     
     <div class="filter-tabs">
         <button class="filter-btn active" data-filter="all">全部 ({{ arxiv|length + pubmed|length }})</button>
@@ -197,8 +195,8 @@
 
 <div class="timeline">
     <div class="date-section">
-        <div class="paper-card" data-source="{{ paper.source }}">
-            {% for paper in all_papers %}
+        <div class="paper-grid">
+            {% for paper in arxiv + pubmed %}
             <div class="paper-card" data-source="{{ paper.source }}">
                 <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
                 <div class="authors">{{ paper.authors | join(", ") }}</div>
@@ -221,6 +219,7 @@
         </div>
     </div>
 </div>
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const filterBtns = document.querySelectorAll('.filter-btn');
@@ -229,25 +228,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            // 1. 切换按钮的 active 状态
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
             const filterValue = btn.getAttribute('data-filter');
             let visibleCount = 0;
 
-            // 2. 遍历卡片，根据 data-source 决定显示或隐藏
             paperCards.forEach(card => {
                 const source = card.getAttribute('data-source');
                 if (filterValue === 'all' || filterValue === source) {
-                    card.style.display = 'flex'; // 恢复显示
+                    card.style.display = 'flex'; 
                     visibleCount++;
                 } else {
-                    card.style.display = 'none'; // 隐藏卡片
+                    card.style.display = 'none'; 
                 }
             });
 
-            // 3. 动态更新顶部的数量统计
             totalCountEl.textContent = visibleCount;
         });
     });
