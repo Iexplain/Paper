@@ -37,7 +37,7 @@ for entry in feed.entries:
             authors_list = authors_list[:3] + ["et al."]
         papers.append({
             "title": entry.title.strip(),
-            "authors": [author.name for author in entry.authors],
+            "authors": authors_list,
             "link": entry.link,
             "date": published_date.strftime("%Y-%m-%d")
         })
