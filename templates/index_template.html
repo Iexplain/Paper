@@ -9,58 +9,81 @@ body {
     margin: 20px;
     background: #f4f4f4;
 }
-h1 { text-align: center; color: #333; }
-.container { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
-
-.card {
+h1, h2 { color: #333; text-align: center; }
+.timeline {
+    margin: 20px auto;
+    max-width: 900px;
+}
+.date-group {
+    margin-bottom: 30px;
+}
+.date-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.paper-card {
     background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    width: 300px;
-    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
 }
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-}
-.card h2 {
+.paper-card h3 {
     font-size: 16px;
-    margin: 0 0 5px 0;
+    margin: 0 0 4px 0;
 }
-.card .authors {
+.paper-card .authors {
     font-size: 0.9em;
     color: #555;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
-.card .date {
+.paper-card .keywords {
+    font-size: 0.8em;
+    color: #007bff;
+}
+.paper-card .source {
     font-size: 0.8em;
     color: #888;
 }
-.card.arxiv { border-left: 4px solid #1f77b4; }
-.card.pubmed { border-left: 4px solid #2ca02c; }
 </style>
 </head>
 <body>
 <h1>Daily Paper Dashboard</h1>
-<div class="container">
-    <h2>arXiv Papers</h2>
-    {% for paper in arxiv %}
-    <div class="card arxiv">
-        <h2><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h2>
-        <div class="authors">{{ paper.authors | join(", ") }}</div>
-        <div class="date">{{ paper.date }}</div>
-    </div>
-    {% endfor %}
 
-    <h2>PubMed Papers</h2>
-    {% for paper in pubmed %}
-    <div class="card pubmed">
-        <h2><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h2>
-        <div class="authors">{{ paper.authors | join(", ") }}</div>
-        <div class="date">{{ paper.date }}</div>
+<!-- 今日新增数量 -->
+<h2>今日新增：{{ arxiv|length + pubmed|length }} 篇</h2>
+
+<div class="timeline">
+
+  <!-- 按日期分组 -->
+  {% set all_papers = arxiv + pubmed %}
+  {% set papers_by_date = {} %}
+  {% for paper in all_papers %}
+    {% set date = paper.date %}
+    {% if papers_by_date.get(date) %}
+      {% set _ = papers_by_date[date].append(paper) %}
+    {% else %}
+      {% set _ = papers_by_date.update({date:[paper]}) %}
+    {% endif %}
+  {% endfor %}
+
+  {% for date in papers_by_date|sort(reverse=True) %}
+  <div class="date-group">
+    <div class="date-title">{{ date }}</div>
+    {% for paper in papers_by_date[date] %}
+    <div class="paper-card">
+      <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
+      <div class="authors">{{ paper.authors | join(", ") }}</div>
+      {% if paper.keywords %}
+      <div class="keywords">关键字: {{ paper.keywords | join(", ") }}</div>
+      {% endif %}
+      <div class="source">来源: {{ paper.source }}</div>
     </div>
     {% endfor %}
+  </div>
+  {% endfor %}
+
 </div>
 </body>
 </html>
