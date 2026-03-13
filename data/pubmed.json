@@ -1,1 +1,198 @@
-
+[
+  {
+    "title": "Influence of behavioural contingency on developmental song learning in young zebra finches (Taeniopygia guttata) tutored by a robot bird.",
+    "authors": [
+      "Alice Araguas",
+      "David Valencia",
+      "Adrien Chopin"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818808/",
+    "date": "2026"
+  },
+  {
+    "title": "Stepwise Molecular Design of Epoxy Dielectric Films toward High-Temperature, High-Efficiency Energy Storage.",
+    "authors": [
+      "Jiale Mao",
+      "Yue Chen",
+      "Jiawei Liu"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818792/",
+    "date": "2026"
+  },
+  {
+    "title": "Strategic Governance of Artificial Intelligence-Enabled Clinical Algorithm Development: Formative Evaluation of the Semiautomatic Clinical Algorithm Development Framework.",
+    "authors": [
+      "Sang Hyun Ahn",
+      "Junhewk Kim"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818751/",
+    "date": "2026"
+  },
+  {
+    "title": "Application of a Large Visual Language Model on Tongue Image Description Generation and Physical Constitution Reasoning in Traditional Chinese Medicine (TongueVLM): Model Development and Validation Study.",
+    "authors": [
+      "Chengdong Peng",
+      "Jun Gao",
+      "Nuo Yang"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818740/",
+    "date": "2026"
+  },
+  {
+    "title": "Subtle cellular phenotypes inform pathological and benign genetic mutants in the Iduronate-2 sulfatase gene.",
+    "authors": [
+      "Anushka Viswanathan",
+      "Serena Elia",
+      "Steven Q Le"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818734/",
+    "date": "2026"
+  },
+  {
+    "title": "Long-term safety and efficacy of oral bezafibrate use in dogs with hypertriglyceridemia.",
+    "authors": [
+      "Marilou Castonguay-Poirier",
+      "Lyanne Fifle",
+      "Romain Javard"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818730/",
+    "date": "2026"
+  },
+  {
+    "title": "Gut microbiota and neurotransmitter metabolic profiling in a rat model simulating hypoactive sexual desire disorder.",
+    "authors": [
+      "Guanjian Li",
+      "Qunshan Shen",
+      "Cong Ma"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818727/",
+    "date": "2026"
+  },
+  {
+    "title": "KANPM-DTA: improving drug-target affinity prediction with Kolmogorov-Arnold networks and pretrained models.",
+    "authors": [
+      "M D Youshuf Khan Rakib",
+      "Muhammad Habibulla Alamin",
+      "Jiamu Li"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818722/",
+    "date": "2026"
+  },
+  {
+    "title": "Evaluating \"Brain Permeability\": A Critical Issue for the Development of Therapeutic Agents for Primary and Metastatic Brain Tumors.",
+    "authors": [
+      "Stuart A Grossman",
+      "Amy Barone",
+      "Roy E Strowd"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818680/",
+    "date": "2026"
+  },
+  {
+    "title": "Managing Bleeds on Anticoagulant therapy: A Practical Guide for Clinicians.",
+    "authors": [
+      "Mattia Galli",
+      "Beatrice Simeone",
+      "Jurrien Ten Berg"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818678/",
+    "date": "2026"
+  },
+  {
+    "title": "Serine Hydrolase Targets of a Sarin Surrogate Anticholinesterase and Oxime Mediated Reactivation in Rat Brain.",
+    "authors": [
+      "Chiquita Y Price",
+      "Edward C Meek",
+      "Matthew K Ross"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818676/",
+    "date": "2026"
+  },
+  {
+    "title": "Strengthening healthcare systems to prevent antimicrobial resistance in LMICs: it is time to act.",
+    "authors": [
+      "Virak Sorn"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818632/",
+    "date": "2026"
+  },
+  {
+    "title": "Implementation research on enhanced community case management of pneumonia in Bangladesh: study protocol.",
+    "authors": [
+      "Shafiqul Ameen",
+      "Sadman Sowmik Sarkar",
+      "Mahin Bin Hamid"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818624/",
+    "date": "2026"
+  },
+  {
+    "title": "Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.",
+    "authors": [
+      "Jocelito Bijoldo Martins",
+      "Thiago Dipp",
+      "Beatriz D Schaan"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818607/",
+    "date": "2026"
+  },
+  {
+    "title": "Large Language Model-Based Agents for Physical Activity and Cognitive Training: Scoping Review.",
+    "authors": [
+      "Alessandro Silacci",
+      "Benedetta Giachetti",
+      "Leonardo Angelini"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818489/",
+    "date": "2026"
+  },
+  {
+    "title": "Digital Health Solutions for Type 2 Diabetes and Prediabetes: Systematic Review of Engagement Barriers, Facilitators, and Outcomes.",
+    "authors": [
+      "Ayesha Thanthrige",
+      "Nilmini Wickramasinghe"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818488/",
+    "date": "2026"
+  },
+  {
+    "title": "Deep Learning-Based Estimated Pulmonary Biological Age From Chest Computed Tomography Images in Healthy Adults: Model Development and Validation Study.",
+    "authors": [
+      "Liping Zuo",
+      "Na Zhu",
+      "Bowen Wang"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818478/",
+    "date": "2026"
+  },
+  {
+    "title": "Rising Burden of Severe Pediatric Coccidioidomycosis: A 25-Year Single Center Study.",
+    "authors": [
+      "Sanchi Malhotra",
+      "Kristina Adachi",
+      "Ishminder Kaur"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818466/",
+    "date": "2026"
+  },
+  {
+    "title": "The Patient Experience: 5% Povidone-Iodine vs 0.05% Aqueous Chlorhexidine.",
+    "authors": [
+      "Brandon Bates",
+      "Edward Wood",
+      "Philip Storey"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818451/",
+    "date": "2026"
+  },
+  {
+    "title": "Water-Mediated Electronic Modulation in Boron-Nitrogen Multi-resonance Thermally Activated Delayed Fluorescence Emitters.",
+    "authors": [
+      "Chen-Yu Lin",
+      "Jing-Han Shi",
+      "Ya-Chen Lin"
+    ],
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41818417/",
+    "date": "2026"
+  }
+]

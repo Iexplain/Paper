@@ -1,1 +1,163 @@
-
+[
+  {
+    "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
+    "authors": [
+      "Haozhan Shen",
+      "Shilin Yan",
+      "Hongwei Xue",
+      "Shuaiqi Lu",
+      "Xiaojun Tang",
+      "Guannan Zhang",
+      "Tiancheng Zhao",
+      "Jianwei Yin"
+    ],
+    "link": "https://arxiv.org/abs/2603.12266v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+    "authors": [
+      "Yibin Yan",
+      "Jilan Xu",
+      "Shangzhe Di",
+      "Haoning Wu",
+      "Weidi Xie"
+    ],
+    "link": "https://arxiv.org/abs/2603.12265v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
+    "authors": [
+      "Songlin Wei",
+      "Hongyi Jing",
+      "Boqian Li",
+      "Zhenyu Zhao",
+      "Jiageng Mao",
+      "Zhenhao Ni",
+      "Sicheng He",
+      "Jie Liu",
+      "Xiawei Liu",
+      "Kaidi Kang",
+      "Sheng Zang",
+      "Weiduo Yuan",
+      "Marco Pavone",
+      "Di Huang",
+      "Yue Wang"
+    ],
+    "link": "https://arxiv.org/abs/2603.12263v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously",
+    "authors": [
+      "Yiran Guan",
+      "Liang Yin",
+      "Dingkang Liang",
+      "Jianzhong Ju",
+      "Zhenbo Luo",
+      "Jian Luan",
+      "Yuliang Liu",
+      "Xiang Bai"
+    ],
+    "link": "https://arxiv.org/abs/2603.12262v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "The Latent Color Subspace: Emergent Order in High-Dimensional Chaos",
+    "authors": [
+      "Mateusz Pach",
+      "Jessica Bader",
+      "Quentin Bouniot",
+      "Serge Belongie",
+      "Zeynep Akata"
+    ],
+    "link": "https://arxiv.org/abs/2603.12261v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "HumDex:Humanoid Dexterous Manipulation Made Easy",
+    "authors": [
+      "Liang Heng",
+      "Yihe Tang",
+      "Jiajun Xu",
+      "Henghui Bao",
+      "Di Huang",
+      "Yue Wang"
+    ],
+    "link": "https://arxiv.org/abs/2603.12260v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
+    "authors": [
+      "Yujie Wei",
+      "Xinyu Liu",
+      "Shiwei Zhang",
+      "Hangjie Yuan",
+      "Jinbo Xing",
+      "Zhekai Chen",
+      "Xiang Wang",
+      "Haonan Qiu",
+      "Rui Zhao",
+      "Yutong Feng",
+      "Ruihang Chu",
+      "Yingya Zhang",
+      "Yike Guo",
+      "Xihui Liu",
+      "Hongming Shan"
+    ],
+    "link": "https://arxiv.org/abs/2603.12257v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
+    "authors": [
+      "Fangfu Liu",
+      "Diankun Wu",
+      "Jiawei Chi",
+      "Yimo Cai",
+      "Yi-Hsin Hung",
+      "Xumin Yu",
+      "Hao Li",
+      "Han Hu",
+      "Yongming Rao",
+      "Yueqi Duan"
+    ],
+    "link": "https://arxiv.org/abs/2603.12255v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing",
+    "authors": [
+      "Baifeng Shi",
+      "Stephanie Fu",
+      "Long Lian",
+      "Hanrong Ye",
+      "David Eigen",
+      "Aaron Reite",
+      "Boyi Li",
+      "Jan Kautz",
+      "Song Han",
+      "David M. Chan",
+      "Pavlo Molchanov",
+      "Trevor Darrell",
+      "Hongxu Yin"
+    ],
+    "link": "https://arxiv.org/abs/2603.12254v1",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning",
+    "authors": [
+      "Ziyu Chen",
+      "Yilun Zhao",
+      "Chengye Wang",
+      "Rilyn Han",
+      "Manasi Patwardhan",
+      "Arman Cohan"
+    ],
+    "link": "https://arxiv.org/abs/2603.12249v1",
+    "date": "2026-03-12"
+  }
+]
