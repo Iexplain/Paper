@@ -196,7 +196,7 @@
 <div class="timeline">
     <div class="date-section">
         <div class="paper-grid">
-            {% for paper in arxiv + pubmed %}
+            {% for paper in all_papers %}
             <div class="paper-card" data-source="{{ paper.source }}">
                 <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
                 <div class="authors">{{ paper.authors | join(", ") }}</div>
