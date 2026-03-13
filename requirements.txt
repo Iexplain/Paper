@@ -3,7 +3,6 @@ scholarly==1.7.0
 plotly==5.20.0
 jinja2==3.1.4
 pandas==2.2.2
-sqlite3
 requests==2.31.0
 beautifulsoup4==4.12.3
-dash==2.17.1  # 交互式Dashboard
+dash==2.17.1
