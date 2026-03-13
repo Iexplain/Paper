@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Paper Dashboard</title>
     <style>
-        /* 定义全局 CSS 变量，方便统一管理颜色 */
         :root {
             --primary-color: #2563eb;
             --bg-color: #f8fafc;
@@ -18,7 +17,6 @@
             --sidebar-bg: #ffffff;
         }
 
-        /* 暗黑模式变量覆盖 */
         [data-theme="dark"] {
             --primary-color: #60a5fa;
             --bg-color: #0f172a;
@@ -33,30 +31,16 @@
 
         body {
             font-family: 'Inter', -apple-system, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            display: flex; /* 采用 Flex 布局 */
-            transition: background-color 0.3s, color 0.3s;
+            margin: 0; padding: 0; background: var(--bg-color); color: var(--text-main);
+            line-height: 1.6; display: flex; transition: background-color 0.3s, color 0.3s;
         }
 
         /* === 侧边栏样式 === */
         .sidebar {
-            width: 260px;
-            height: 100vh; /* 撑满屏幕高度 */
-            position: fixed; /* 固定在左侧，不随页面滚动 */
-            left: 0;
-            top: 0;
-            background: var(--sidebar-bg);
-            border-right: 1px solid var(--border-color);
-            padding: 30px 20px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            z-index: 100;
+            width: 260px; height: 100vh; position: fixed; left: 0; top: 0;
+            background: var(--sidebar-bg); border-right: 1px solid var(--border-color);
+            padding: 30px 20px; box-sizing: border-box; display: flex; flex-direction: column;
+            gap: 24px; z-index: 100; overflow-y: auto;
         }
 
         .sidebar-brand { font-size: 1.4rem; font-weight: 800; color: var(--primary-color); }
@@ -70,35 +54,30 @@
         .filter-btn:hover { background: var(--bg-color); border-color: var(--primary-color); }
         .filter-btn.active { background: var(--primary-color); color: #fff; border-color: var(--primary-color); }
 
+        /* 新增：复选框样式 */
+        .source-checkbox {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 10px;
+            font-size: 0.9rem; color: var(--text-main); cursor: pointer;
+        }
+        .source-checkbox input {
+            cursor: pointer; width: 16px; height: 16px; accent-color: var(--primary-color);
+        }
+
         .theme-toggle {
-            margin-top: auto; /* 推到侧边栏最底部 */
-            padding: 12px; background: var(--bg-color); border: 1px solid var(--border-color);
+            margin-top: auto; padding: 12px; background: var(--bg-color); border: 1px solid var(--border-color);
             border-radius: 8px; cursor: pointer; color: var(--text-main); font-weight: bold; width: 100%;
         }
 
         /* === 主内容区样式 === */
-        .main-content {
-            margin-left: 260px; /* 留出侧边栏的宽度 */
-            padding: 40px;
-            flex: 1;
-            min-height: 100vh;
-        }
-
+        .main-content { margin-left: 260px; padding: 40px; flex: 1; min-height: 100vh; }
         header { margin-bottom: 40px; }
         h1 { font-size: 2.2rem; margin-bottom: 8px; font-weight: 800; }
         .stats { color: var(--text-muted); font-size: 1.1rem; }
 
-        .paper-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-            gap: 20px;
-        }
-
+        .paper-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
         .paper-card {
-            background: var(--card-bg); padding: 24px; border-radius: 16px;
-            border: 1px solid var(--border-color);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            display: flex; flex-direction: column; transition: transform 0.2s;
+            background: var(--card-bg); padding: 24px; border-radius: 16px; border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); display: flex; flex-direction: column; transition: transform 0.2s;
         }
         .paper-card:hover { transform: translateY(-4px); border-color: var(--primary-color); }
         .paper-card h3 { font-size: 1.2rem; margin: 0 0 12px 0; line-height: 1.4; }
@@ -107,15 +86,13 @@
         .authors { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; font-style: italic; }
         
         .abstract-summary {
-            background: var(--bg-color); padding: 12px; border-radius: 8px;
-            font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;
-            border-left: 4px solid var(--primary-color);
+            background: var(--bg-color); padding: 12px; border-radius: 8px; font-size: 0.9rem;
+            color: var(--text-muted); margin-bottom: 16px; border-left: 4px solid var(--primary-color);
         }
 
         .tags-container { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px; padding-top: 16px; border-top: 1px dashed var(--border-color); }
         .tag { font-size: 0.75rem; font-weight: 600; padding: 4px 10px; border-radius: 6px; background: var(--accent-tag); color: var(--accent-tag-text); }
         
-        /* 隐藏元素的类 */
         .hidden { display: none !important; }
     </style>
 </head>
@@ -125,13 +102,26 @@
     <div class="sidebar-brand">📚 Paper Dash</div>
     
     <div class="sidebar-section">
+        <h4>数据来源</h4>
+        <label class="source-checkbox">
+            <input type="checkbox" value="Semantic Scholar" checked onchange="applyFilters()"> 🎓 Semantic Scholar
+        </label>
+        <label class="source-checkbox">
+            <input type="checkbox" value="arXiv" checked onchange="applyFilters()"> 📜 arXiv
+        </label>
+        <label class="source-checkbox">
+            <input type="checkbox" value="PubMed" checked onchange="applyFilters()"> 🏥 PubMed
+        </label>
+    </div>
+
+    <div class="sidebar-section">
         <h4>快速过滤</h4>
-        <button class="filter-btn active" onclick="filterPapers('all', this)">🌐 全部文献</button>
-        <button class="filter-btn" onclick="filterPapers('LLM', this)">🧠 LLM</button>
-        <button class="filter-btn" onclick="filterPapers('Foundation Model', this)">🧱 Foundation Model</button>
-        <button class="filter-btn" onclick="filterPapers('Protein Language Model', this)">🧬 Protein Language Model</button>
-        <button class="filter-btn" onclick="filterPapers('Fine-tuning', this)">⚙️ Fine-tuning</button>
-        <button class="filter-btn" onclick="filterPapers('Deep Learning', this)">📉 Deep Learning</button>
+        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">🌐 全部文献</button>
+        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">🧠 LLM</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">🧱 Foundation Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">🧬 Protein Language Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">⚙️ Fine-tuning</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">📉 Deep Learning</button>
     </div>
 
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">🌙 切换暗黑模式</button>
@@ -140,37 +130,43 @@
 <main class="main-content">
     <header>
         <h1>今日前沿文献</h1>
-        <div class="stats">共收录 <strong id="total-count">128</strong> 篇</div>
+        <div class="stats">当前显示 <strong id="total-count">133</strong> 篇文献</div>
     </header>
 
     <div class="paper-grid" id="paper-container">
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
             <h3><a href="https://www.semanticscholar.org/paper/c4c3fdd0644fabcde1f677bf1237fc11d039bae0" target="_blank">UtilityMax Prompting: A Formal Framework for Multi-Objective Large Language Model Optimization</a></h3>
             <div class="authors">Ofir Marom</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> The success of a Large Language Model (LLM) task depends heavily on its prompt. Most use-cases speci...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="Semantic Scholar">
             <h3><a href="https://www.semanticscholar.org/paper/abfe17a3c761138b6687264b949a7758e78b1aa0" target="_blank">CoViLLM: An Adaptive Human-Robot Collaborative Assembly Framework Using Large Language Models for Manufacturing</a></h3>
             <div class="authors">Jiabao Zhao, Jonghan Lim, Hongliang Li, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> With increasing demand for mass customization, traditional manufacturing robots that rely on rule-ba...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -179,71 +175,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Journal of X-Ray Science and Technology">
-            <h3><a href="https://www.semanticscholar.org/paper/f8c8d0b0d70c9bdb612c2bcfefcfa94b784c84cc" target="_blank">Visual language model-assisted CT denoising via text-guided diffusion and fidelity maintenance.</a></h3>
-            <div class="authors">Ye Shen, Ningning Liang, A. Cai, et al.</div>
+        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/a46a76a72dc65c237effc1e7fe89d6e2f2aa77e9" target="_blank">CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation</a></h3>
+            <div class="authors">Ziqi Ye, Ziyang Gong, Ning Liao, et al.</div>
             
             
-            <div style="font-size: 0.8rem; margin-bottom: 12px;">
-                <span style="color: var(--text-muted);">📄 DOI: </span>
-                <a href="https://doi.org/10.1177/08953996251372739" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">10.1177/08953996251372739</a>
-            </div>
-            
+
             <div class="abstract-summary">
-                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+                <strong>Abstract:</strong> Synthetic Aperture Radar (SAR) enables global, all-weather earth observation. However, owing to dive...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
                 
-                    
-                        <span class="tag">📓 Journal of X-Ray Science and Technology</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="">
-            <h3><a href="https://arxiv.org/abs/2603.12266v1" target="_blank">MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning</a></h3>
-            <div class="authors">Haozhan Shen, Shilin Yan, Hongwei Xue, et al.</div>
-            
-            
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="">
-            <h3><a href="https://arxiv.org/abs/2603.12265v1" target="_blank">OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams</a></h3>
-            <div class="authors">Yibin Yan, Jilan Xu, Shangzhe Di, et al.</div>
-            
-            
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="Foundation Model">
-            <h3><a href="https://arxiv.org/abs/2603.12263v1" target="_blank">$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</a></h3>
-            <div class="authors">Songlin Wei, Hongyi Jing, Boqian Li, et al.</div>
-            
-            
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
                 
                     
                         <span class="tag">Foundation Model</span>
@@ -252,17 +197,105 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
-            <h3><a href="https://arxiv.org/abs/2603.12262v1" target="_blank">Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously</a></h3>
-            <div class="authors">Yiran Guan, Liang Yin, Dingkang Liang, et al.</div>
+        <div class="paper-card" data-keywords="📓 ACS Applied Materials and Interfaces" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/a08d9f2821ce882caa3d2819599c4abd3fcdcce2" target="_blank">Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.</a></h3>
+            <div class="authors">Rui Han, Emily Xi Tan, Yangcenzi Xie, et al.</div>
             
             
+            <div style="font-size: 0.8rem; margin-bottom: 12px;">
+                <span style="color: var(--text-muted);">📄 DOI: </span>
+                <a href="https://doi.org/10.1021/acsami.6c00759" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">10.1021/acsami.6c00759</a>
+            </div>
+            
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
+                
+                    
+                        <span class="tag">📓 ACS Applied Materials and Interfaces</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="" data-source="arXiv">
+            <h3><a href="https://arxiv.org/abs/2603.12266v1" target="_blank">MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning</a></h3>
+            <div class="authors">Haozhan Shen, Shilin Yan, Hongwei Xue, et al.</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="" data-source="arXiv">
+            <h3><a href="https://arxiv.org/abs/2603.12265v1" target="_blank">OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams</a></h3>
+            <div class="authors">Yibin Yan, Jilan Xu, Shangzhe Di, et al.</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Foundation Model" data-source="arXiv">
+            <h3><a href="https://arxiv.org/abs/2603.12263v1" target="_blank">$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</a></h3>
+            <div class="authors">Songlin Wei, Hongyi Jing, Boqian Li, et al.</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
+            <h3><a href="https://arxiv.org/abs/2603.12262v1" target="_blank">Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously</a></h3>
+            <div class="authors">Yiran Guan, Liang Yin, Dingkang Liang, et al.</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -271,92 +304,110 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12260v1" target="_blank">HumDex:Humanoid Dexterous Manipulation Made Easy</a></h3>
             <div class="authors">Liang Heng, Yihe Tang, Jiajun Xu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12254v1" target="_blank">Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing</a></h3>
             <div class="authors">Baifeng Shi, Stephanie Fu, Long Lian, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12252v1" target="_blank">EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models</a></h3>
             <div class="authors">Xuanlang Dai, Yujie Zhou, Long Xing, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12250v1" target="_blank">DVD: Deterministic Video Depth Estimation with Generative Priors</a></h3>
             <div class="authors">Hongfei Zhang, Harold Haodong Chen, Chenfei Liao, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12249v1" target="_blank">SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning</a></h3>
             <div class="authors">Ziyu Chen, Yilun Zhao, Chengye Wang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Fine-tuning">
+        <div class="paper-card" data-keywords="Fine-tuning" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12248v1" target="_blank">Matching Features, Not Tokens: Energy-Based Fine-Tuning of Language Models</a></h3>
             <div class="authors">Samy Jelassi, Mujin Kwun, Rosie Zhao, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Fine-tuning</span>
@@ -365,17 +416,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12246v1" target="_blank">Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training</a></h3>
             <div class="authors">Yixin Liu, Yue Yu, DiJia Su, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -384,17 +438,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12238v1" target="_blank">SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation</a></h3>
             <div class="authors">Jun Luo, Jiaxiang Tang, Ruijie Lu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -403,17 +460,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12230v1" target="_blank">Security Considerations for Artificial Intelligence Agents</a></h3>
             <div class="authors">Ninghui Li, Kaiyuan Zhang, Kyle Polley, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -422,32 +482,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12229v1" target="_blank">Language Model Teams as Distributed Systems</a></h3>
             <div class="authors">Elizabeth Mieczkowski, Katherine M. Collins, Ilia Sucholutsky, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12226v1" target="_blank">Sparking Scientific Creativity via LLM-Driven Interdisciplinary Inspiration</a></h3>
             <div class="authors">Priyanka Kargupta, Shuhaib Mehri, Dilek Hakkani-Tur, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -456,62 +522,74 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12218v1" target="_blank">UniMotion: Self-Supervised Learning for Cross-Domain IMU Motion Recognition</a></h3>
             <div class="authors">Prerna Khanna, Tanmay Srivastava, Shubham Jain, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12217v1" target="_blank">Real-World Point Tracking with Verifier-Guided Pseudo-Labeling</a></h3>
             <div class="authors">Görkay Aydemir, Fatma Güney, Weidi Xie</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12208v1" target="_blank">ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models</a></h3>
             <div class="authors">Yingxin Lai, Zitong Yu, Jun Wang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Large Language Model">
+        <div class="paper-card" data-keywords="Large Language Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12206v1" target="_blank">CLASP: Defending Hybrid Large Language Models Against Hidden State Poisoning Attacks</a></h3>
             <div class="authors">Alexandre Le Mercier, Thomas Demeester, Chris Develder</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Large Language Model</span>
@@ -520,47 +598,56 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12201v1" target="_blank">IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse</a></h3>
             <div class="authors">Yushi Bai, Qian Dong, Ting Jiang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12191v1" target="_blank">Long-Context Encoder Models for Polish Language Understanding</a></h3>
             <div class="authors">Sławomir Dadas, Rafał Poświata, Marek Kozłowski, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12180v1" target="_blank">Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections</a></h3>
             <div class="authors">Łukasz Borchmann, Jordy Van Landeghem, Michał Turski, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -569,62 +656,74 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12176v1" target="_blank">BehaviorVLM: Unified Finetuning-Free Behavioral Understanding with Vision-Language Reasoning</a></h3>
             <div class="authors">Jingyang Ke, Weihan Li, Amartya Pradhan, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12166v1" target="_blank">LatentGeo: Learnable Auxiliary Constructions in Latent Space for Multimodal Geometric Reasoning</a></h3>
             <div class="authors">Haiying Xu, Zihan Wang, Song Dai, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12165v1" target="_blank">QAQ: Bidirectional Semantic Coherence for Selecting High-Quality Synthetic Code Instructions</a></h3>
             <div class="authors">Jiayin Lei, Ming Ma, Yunxi Duan, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12155v1" target="_blank">GlyphBanana: Advancing Precise Text Rendering Through Agentic Workflows</a></h3>
             <div class="authors">Zexuan Yan, Jiarui Jin, Yue Ma, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -633,32 +732,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12152v1" target="_blank">LifeSim: Long-Horizon User Life Simulator for Personalized Assistant Evaluation</a></h3>
             <div class="authors">Feiyu Duan, Xuanjing Huang, Zhongyu Wei</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12151v1" target="_blank">IsoCompute Playbook: Optimally Scaling Sampling Compute for LLM RL</a></h3>
             <div class="authors">Zhoujun Cheng, Yutao Xie, Yuxiao Qu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -667,17 +772,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12149v1" target="_blank">Linking Perception, Confidence and Accuracy in MLLMs</a></h3>
             <div class="authors">Yuetian Du, Yucheng Wang, Rongyu Zhang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -686,77 +794,92 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12147v1" target="_blank">EgoIntent: An Egocentric Step-level Benchmark for Understanding What, Why, and Next</a></h3>
             <div class="authors">Ye Pan, Chi Kit Wong, Yuanhuiyi Lyu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12145v1" target="_blank">Automatic Generation of High-Performance RL Environments</a></h3>
             <div class="authors">Seth Karten, Rahul Dev Appapogu, Chi Jin</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12144v1" target="_blank">O3N: Omnidirectional Open-Vocabulary Occupancy Prediction</a></h3>
             <div class="authors">Mengfei Duan, Hao Shi, Fei Teng, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12140v1" target="_blank">Forecasting and Manipulating the Forecasts of Others</a></h3>
             <div class="authors">Sam Babichenko</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12138v1" target="_blank">HATS: Hardness-Aware Trajectory Synthesis for GUI Agents</a></h3>
             <div class="authors">Rui Shao, Ruize Gao, Bin Xie, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -765,17 +888,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12133v1" target="_blank">TopoBench: Benchmarking LLMs on Hard Topological Reasoning</a></h3>
             <div class="authors">Mayug Maniparambil, Nils Hoehing, Janak Kapuriya, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -784,17 +910,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12129v1" target="_blank">Increasing intelligence in AI agents can worsen collective outcomes</a></h3>
             <div class="authors">Neil F. Johnson</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -803,32 +932,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12126v1" target="_blank">Hoi3DGen: Generating High-Quality Human-Object-Interactions in 3D</a></h3>
             <div class="authors">Agniv Sharma, Xianghui Xie, Tom Fischer, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12123v1" target="_blank">Cross-Context Review: Improving LLM Output Quality by Separating Production and Review Sessions</a></h3>
             <div class="authors">Tae-Eun Song</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -837,47 +972,56 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12117v1" target="_blank">SommBench: Assessing Sommelier Expertise of Language Models</a></h3>
             <div class="authors">William Brach, Tomas Bedej, Jacob Nielsen, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12110v1" target="_blank">Taming the Adversary: Stable Minimax Deep Deterministic Policy Gradient via Fractional Objectives</a></h3>
             <div class="authors">Taeho Lee, Donghwan Lee</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM,Agent">
+        <div class="paper-card" data-keywords="LLM,Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12109v1" target="_blank">On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM agents</a></h3>
             <div class="authors">Deyu Zou, Yongqiang Chen, Fan Feng, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -888,32 +1032,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12108v1" target="_blank">EvoTok: A Unified Image Tokenizer via Residual Latent Evolution for Visual Understanding and Generation</a></h3>
             <div class="authors">Yan Li, Ning Liao, Xiangyu Zhao, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Large Language Model">
+        <div class="paper-card" data-keywords="Large Language Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12105v1" target="_blank">To Words and Beyond: Probing Large Language Models for Sentence-Level Psycholinguistic Norms of Memorability and Reading Times</a></h3>
             <div class="authors">Thomas Hikaru Clark, Carlos Arriaga, Javier Conde, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Large Language Model</span>
@@ -922,17 +1072,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12096v1" target="_blank">A Robust and Efficient Multi-Agent Reinforcement Learning Framework for Traffic Signal Control</a></h3>
             <div class="authors">Sheng-You Huang, Hsiao-Chuan Chang, Yen-Chi Chen, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -941,17 +1094,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12094v1" target="_blank">Human-Centred LLM Privacy Audits: Findings and Frictions</a></h3>
             <div class="authors">Dimitri Staufer, Kirsten Morehouse, David Hartmann, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -960,17 +1116,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12091v1" target="_blank">Resource-Efficient Iterative LLM-Based NAS with Feedback Memory</a></h3>
             <div class="authors">Xiaojie Gu, Dmitry Ignatov, Radu Timofte</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -979,62 +1138,74 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12089v1" target="_blank">EmbTracker: Traceable Black-box Watermarking for Federated Language Models</a></h3>
             <div class="authors">Haodong Zhao, Jinming Hu, Yijie Bai, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12073v1" target="_blank">A Multi-Label Temporal Convolutional Framework for Transcription Factor Binding Characterization</a></h3>
             <div class="authors">Pietro Demurtas, Ferdinando Zanchetta, Giovanni Perini, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12071v1" target="_blank">Paper Title: LoV3D: Grounding Cognitive Prognosis Reasoning in Longitudinal 3D Brain MRI via Regional Volume Assessments</a></h3>
             <div class="authors">Zhaoyang Jiang, Zhizhong Fu, David McAllister, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12056v1" target="_blank">XSkill: Continual Learning from Experience and Skills in Multimodal Agents</a></h3>
             <div class="authors">Guanyu Jiang, Zhaochen Su, Xiaoye Qu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1043,77 +1214,92 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12050v1" target="_blank">Translationese as a Rational Response to Translation Task Difficulty</a></h3>
             <div class="authors">Maria Kunilovskaya</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12041v1" target="_blank">Kinetic SIS opinion-driven models with asymmetric awareness feedback: macroscopic limit and polarization</a></h3>
             <div class="authors">Juan Pablo Pinasco, Nicolas Saintier, Horacio Tettamanti, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12038v1" target="_blank">Slow-Fast Inference: Training-Free Inference Acceleration via Within-Sentence Support Stability</a></h3>
             <div class="authors">Xingyu Xie, Zhaochen Yu, Yue Liao, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12037v1" target="_blank">Frequentist Consistency of Prior-Data Fitted Networks for Causal Inference</a></h3>
             <div class="authors">Valentyn Melnychuk, Vahid Balazadeh, Stefan Feuerriegel, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12031v1" target="_blank">AGMARL-DKS: An Adaptive Graph-Enhanced Multi-Agent Reinforcement Learning for Dynamic Kubernetes Scheduling</a></h3>
             <div class="authors">Hamed Hamzeh</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1122,92 +1308,110 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12023v1" target="_blank">Cascade: Composing Software-Hardware Attack Gadgets for Adversarial Threat Amplification in Compound AI Systems</a></h3>
             <div class="authors">Sarbartha Banerjee, Prateek Sahu, Anjo Vahldiek-Oberwagner, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12021v1" target="_blank">Just Use XML: Revisiting Joint Translation and Label Projection</a></h3>
             <div class="authors">Thennal D K, Chris Biemann, Hans Ole Hatzel</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12020v1" target="_blank">Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application</a></h3>
             <div class="authors">Alaaeddine Chaarani, Narcis Palomeras, Pere Ridao</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12018v1" target="_blank">An Intent of Collaboration: On Agencies between Designers and Emerging (Intelligent) Technologies</a></h3>
             <div class="authors">Pei-Ying Lin, Julie Heij, Iris Borst, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12016v1" target="_blank">Nyxus: A Next Generation Image Feature Extraction Library for the Big Data and AI Era</a></h3>
             <div class="authors">Nicholas Schaub, Andriy Kharchenko, Hamdah Abbasi, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Deep Learning">
+        <div class="paper-card" data-keywords="Deep Learning" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12012v1" target="_blank">Deep Learning-Based Metamodeling of Nonlinear Stochastic Dynamic Systems under Parametric and Predictive Uncertainty</a></h3>
             <div class="authors">Haimiti Atila, Seymour M. J. Spence</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Deep Learning</span>
@@ -1216,17 +1420,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM,Agent">
+        <div class="paper-card" data-keywords="LLM,Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12011v1" target="_blank">Can RL Improve Generalization of LLM Agents? An Empirical Study</a></h3>
             <div class="authors">Zhiheng Xi, Xin Guo, Jiaqi Liu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1237,17 +1444,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Foundation Model">
+        <div class="paper-card" data-keywords="Foundation Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12008v1" target="_blank">CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation</a></h3>
             <div class="authors">Ziqi Ye, Ziyang Gong, Ning Liao, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Foundation Model</span>
@@ -1256,47 +1466,56 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12002v1" target="_blank">Redirecting counter-moving swarms through collision</a></h3>
             <div class="authors">Jason Hindes, Chinthan B. Prasad, Loy McGuire, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.12000v1" target="_blank">Credibility Matters: Motivations, Characteristics, and Influence Mechanisms of Crypto Key Opinion Leaders</a></h3>
             <div class="authors">Alexander Kropiunig, Svetlana Kremer, Bernhard Haslhofer</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11991v1" target="_blank">BTZSC: A Benchmark for Zero-Shot Text Classification Across Cross-Encoders, Embedding Models, Rerankers and LLMs</a></h3>
             <div class="authors">Ilias Aarab</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1305,47 +1524,56 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11987v1" target="_blank">LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories</a></h3>
             <div class="authors">Qianpu Sun, Xiaowei Chi, Yuhan Rui, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11980v1" target="_blank">Learning Visuomotor Policy for Multi-Robot Laser Tag Game</a></h3>
             <div class="authors">Kai Li, Shiyu Zhao</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11975v1" target="_blank">HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios</a></h3>
             <div class="authors">Jiayue Pu, Zhongxiang Sun, Zilu Zhang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1354,17 +1582,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11974v1" target="_blank">Normative Common Ground Replication (NormCoRe): Replication-by-Translation for Studying Norms in Multi-agent AI</a></h3>
             <div class="authors">Luca Deck, Simeon Allmendinger, Lucas Müller, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1373,47 +1604,56 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11970v1" target="_blank">Statistical and structural identifiability in representation learning</a></h3>
             <div class="authors">Walter Nelson, Marco Fumero, Theofanis Karaletsos, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11959v1" target="_blank">Near-Field Multiuser Beam Training for XL-MIMO: An End-to-End Interference-Aware Approach with Pilot Limitations</a></h3>
             <div class="authors">Xinyang Li, Songjie Yang, Xiang Ling, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11958v1" target="_blank">Broadcasting Agents and Adversary: A new variation on Cops and Robbers</a></h3>
             <div class="authors">William K. Moses, Amanda Redlich, Frederick Stock</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1422,32 +1662,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11957v1" target="_blank">CHiL(L)Grader: Calibrated Human-in-the-Loop Short-Answer Grading</a></h3>
             <div class="authors">Pranav Raikote, Korbinian Randl, Ioanna Miliou, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM,Agent">
+        <div class="paper-card" data-keywords="LLM,Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11955v1" target="_blank">PersonaTrace: Synthesizing Realistic Digital Footprints with LLM Agents</a></h3>
             <div class="authors">Minjia Wang, Yunfeng Wang, Xiao Ma, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1458,62 +1704,74 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11952v1" target="_blank">Preliminary analysis of RGB-NIR Image Registration techniques for off-road forestry environments</a></h3>
             <div class="authors">Pankaj Deoli, Karthik Ranganath, Karsten Berns</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11948v1" target="_blank">Kraken*: Architecting Generative, Semantic, and Goal-Oriented Network Management for 6G Wireless Systems</a></h3>
             <div class="authors">Ian F. Akyildiz, Tuğçe Bilen</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11947v1" target="_blank">Resurfacing Paralinguistic Awareness in Large Audio Language Models</a></h3>
             <div class="authors">Hao Yang, Minghan Wang, Tongtong Wu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Foundation Model">
+        <div class="paper-card" data-keywords="Foundation Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11940v1" target="_blank">Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control</a></h3>
             <div class="authors">Ihor Kendiukhov</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Foundation Model</span>
@@ -1522,32 +1780,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11938v1" target="_blank">Prototype-Based Knowledge Guidance for Fine-Grained Structured Radiology Reporting</a></h3>
             <div class="authors">Chantal Pellegrini, Adrian Delchev, Ege Özsoy, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11935v1" target="_blank">MobileKernelBench: Can LLMs Write Efficient Kernels for Mobile Devices?</a></h3>
             <div class="authors">Xingze Zou, Jing Wang, Yuhua Zheng, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1556,17 +1820,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11927v1" target="_blank">CogSearch: A Cognitive-Aligned Multi-Agent Framework for Proactive Decision Support in E-Commerce Search</a></h3>
             <div class="authors">Zhouwei Zhai, Mengxiang Chen, Haoyun Xia, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1575,17 +1842,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11924v1" target="_blank">Chem4DLLM: 4D Multimodal LLMs for Chemical Dynamics Understanding</a></h3>
             <div class="authors">Xinyu Li, Zhen Zhang, Qi Chen, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1594,32 +1864,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11920v1" target="_blank">The Network That Thinks: Kraken* and the Dawn of Cognitive 6G</a></h3>
             <div class="authors">Ian F. Akyildiz, Tuğçe Bilen</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Deep Learning">
+        <div class="paper-card" data-keywords="Deep Learning" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11918v1" target="_blank">Indirect and Direct Multiuser Hybrid Beamforming for Far-Field and Near-Field Communications: A Deep Learning Approach</a></h3>
             <div class="authors">Xinyang Li, Songjie Yang, Boyu Ning, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Deep Learning</span>
@@ -1628,17 +1904,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11915v1" target="_blank">CoMMET: To What Extent Can LLMs Perform Theory of Mind Tasks?</a></h3>
             <div class="authors">Ruirui Chen, Weifeng Jiang, Chengwei Qin, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1647,17 +1926,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11914v1" target="_blank">Understanding LLM Behavior When Encountering User-Supplied Harmful Content in Harmless Tasks</a></h3>
             <div class="authors">Junjie Chu, Yiting Qu, Ye Leng, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1666,17 +1948,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11901v1" target="_blank">FlexRec: Adapting LLM-based Recommenders for Flexible Needs via Reinforcement Learning</a></h3>
             <div class="authors">Yijun Pan, Weikang Qiu, Qiyao Ma, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1685,17 +1970,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Large Language Model">
+        <div class="paper-card" data-keywords="Large Language Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11896v1" target="_blank">Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models</a></h3>
             <div class="authors">Lu Wang, Zhuoran Jin, Yupu Hao, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Large Language Model</span>
@@ -1704,32 +1992,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11894v1" target="_blank">New electric vehicle charging rate design : an MPEC assessment</a></h3>
             <div class="authors">Icaro Silvestre Freitas Gomes, Adam Abdin, Jakob Puchinger, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11890v1" target="_blank">QUARE: Multi-Agent Negotiation for Balancing Quality Attributes in Requirements Engineering</a></h3>
             <div class="authors">Haowei Cheng, Milhan Kim, Foutse Khomh, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1738,17 +2032,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11884v1" target="_blank">The price of decentralization in managing engineering systems through multi-agent reinforcement learning</a></h3>
             <div class="authors">Prateek Bhustali, Pablo G. Morato, Konstantinos G. Papakonstantinou, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1757,17 +2054,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Large Language Model">
+        <div class="paper-card" data-keywords="Large Language Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11881v1" target="_blank">Bielik-Minitron-7B: Compressing Large Language Models via Structured Pruning and Knowledge Distillation for the Polish Language</a></h3>
             <div class="authors">Remigiusz Kinas, Paweł Kiszczak, Sergio P. Perez, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Large Language Model</span>
@@ -1776,17 +2076,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Large Language Model">
+        <div class="paper-card" data-keywords="Large Language Model" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11877v1" target="_blank">Silent Speech Interfaces in the Era of Large Language Models: A Comprehensive Taxonomy and Systematic Review</a></h3>
             <div class="authors">Kele Xu, Yifan Wang, Ming Feng, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Large Language Model</span>
@@ -1795,32 +2098,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11873v1" target="_blank">AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization</a></h3>
             <div class="authors">Qiyang Li, Rui Kong, Yuchen Li, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11872v1" target="_blank">ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics</a></h3>
             <div class="authors">Omar Coser</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1829,32 +2138,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11869v1" target="_blank">On the Role of Reversible Instance Normalization</a></h3>
             <div class="authors">Gaspard Berthelier, Tahar Nabil, Etienne Le Naour, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11866v1" target="_blank">Derain-Agent: A Plug-and-Play Agent Framework for Rainy Image Restoration</a></h3>
             <div class="authors">Zhaocheng Yu, Xiang Chen, Runzhe Li, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1863,17 +2178,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent">
+        <div class="paper-card" data-keywords="Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11864v1" target="_blank">Social, Legal, Ethical, Empathetic and Cultural Norm Operationalisation for AI Agents</a></h3>
             <div class="authors">Radu Calinescu, Ana Cavalcanti, Marsha Chechik, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -1882,17 +2200,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM,Agent">
+        <div class="paper-card" data-keywords="LLM,Agent" data-source="arXiv">
             <h3><a href="https://arxiv.org/abs/2603.11862v1" target="_blank">You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents</a></h3>
             <div class="authors">Ching-Yu Kao, Xinfeng Li, Shenyu Dai, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ arXiv</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1903,17 +2224,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM">
+        <div class="paper-card" data-keywords="LLM" data-source="Semantic Scholar">
             <h3><a href="https://www.semanticscholar.org/paper/9597a4dc884f2186771351cacb8f48e3836786a1" target="_blank">Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning</a></h3>
             <div class="authors">Hong Lu, Pierrick Lorang, Timothy R. Duggan, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> In dynamic open-world environments, autonomous agents often encounter novelties that hinder their ab...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
                 
                     
                         <span class="tag">LLM</span>
@@ -1922,77 +2246,197 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
-            <h3><a href="https://www.semanticscholar.org/paper/946ec0c89adff72fda541f8ff83965db44329518" target="_blank">H2LooP Spark Preview: Continual Pretraining of Large Language Models for Low-Level Embedded Systems Code</a></h3>
-            <div class="authors">Amit Singh, Vedant Nipane, Pulkit Agrawal, et al.</div>
-            
-            
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> Large language models (LLMs) demonstrate strong code generation abilities in general-purpose program...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="">
+        <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
             <h3><a href="https://www.semanticscholar.org/paper/c8c97f4a6fbeab08568319d7ecb56df126945215" target="_blank">Prism-$\Delta$: Differential Subspace Steering for Prompt Highlighting in Large Language Models</a></h3>
             <div class="authors">Yuyao Ge, Shenghua Liu, Yiwei Wang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> Prompt highlighting steers a large language model to prioritize user-specified text spans during gen...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
-            <h3><a href="https://www.semanticscholar.org/paper/9b8686d07b6146b28ee5ddbc07371ee7aecc12fb" target="_blank">How to make the most of your masked language model for protein engineering</a></h3>
-            <div class="authors">Calvin McCarter, Nicholas Bhattacharya, Sebastian W. Ober, et al.</div>
+        <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/946ec0c89adff72fda541f8ff83965db44329518" target="_blank">H2LooP Spark Preview: Continual Pretraining of Large Language Models for Low-Level Embedded Systems Code</a></h3>
+            <div class="authors">Amit Singh, Vedant Nipane, Pulkit Agrawal, et al.</div>
             
             
+
             <div class="abstract-summary">
-                <strong>Abstract:</strong> A plethora of protein language models have been released in recent years. Yet comparatively little w...
+                <strong>Abstract:</strong> Large language models (LLMs) demonstrate strong code generation abilities in general-purpose program...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="">
-            <h3><a href="https://www.semanticscholar.org/paper/462813fde07575384daefbb5739d1e96a5244a6c" target="_blank">A Simple Efficiency Incremental Learning Framework via Vision-Language Model with Nonlinear Multi-Adapters</a></h3>
-            <div class="authors">Haihua Luo, Xuming Ran, Jiangrong Shen, et al.</div>
+        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/51591db2b04fbe6de6c8740355ef6da50ea0e0ad" target="_blank">OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs</a></h3>
+            <div class="authors">Yu-Shan Liao, Xuelong Geng, Hongfei Xue, et al.</div>
             
             
+
             <div class="abstract-summary">
-                <strong>Abstract:</strong> Incremental Learning (IL) aims to learn new tasks while preserving previously acquired knowledge. In...
+                <strong>Abstract:</strong> Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional sp...
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Deep Learning,📓 Curr Drug Targets">
+        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/1620fbcc83cefb1e1c7d92d65eba94633c8d7618" target="_blank">Prompting with the human-touch: evaluating model-sensitivity of foundation models for musculoskeletal CT segmentation</a></h3>
+            <div class="authors">Caroline Magg, Maaike A. ter Wee, J. Dobbe, et al.</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> Promptable Foundation Models (FMs), initially introduced for natural image segmentation, have also r...
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="LLM,Foundation Model" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/ddc5dcd62798ef4b599d37af878483cb94dbcdb9" target="_blank">Multi-Modal Intelligent Channel Modeling: From Fine-tuned LLMs to Pre-trained Foundation Models</a></h3>
+            <div class="authors">Lu Bai, Zengrui Han, Mingran Sun, et al.</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> To meet the evolving demands of sixth-generation (6G) wireless channel modeling, such as precise pre...
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
+                
+                    
+                        <span class="tag">LLM</span>
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/cb54e038d87cede031edcb2b7aa29c0b7adf03b9" target="_blank">Cross-Species Antimicrobial Resistance Prediction from Genomic Foundation Models</a></h3>
+            <div class="authors">Hui-Wen Tai</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> Cross-species antimicrobial resistance (AMR) prediction is fundamentally an out-of-distribution (OOD...
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/58f38c37843fc3cab4fe87a7c23675c3599a622f" target="_blank">RandMark: On Random Watermarking of Visual Foundation Models</a></h3>
+            <div class="authors">A. Chistyakova, Mikhail Aleksandrovich Pautov</div>
+            
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> Being trained on large and diverse datasets, visual foundation models (VFMs) can be fine-tuned to ac...
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Foundation Model,📓 Advanced Concepts for Intelligent Vision Systems Conference" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/7a6484cf595a774bf643e246ba8b3dfc90c3da56" target="_blank">Pointy - A Lightweight Transformer for Point Cloud Foundation Models</a></h3>
+            <div class="authors">Konrad Szafer, Marek Kraft, Dominik Belter</div>
+            
+            
+            <div style="font-size: 0.8rem; margin-bottom: 12px;">
+                <span style="color: var(--text-muted);">📄 DOI: </span>
+                <a href="https://doi.org/10.1007/978-3-032-07343-3_27" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">10.1007/978-3-032-07343-3_27</a>
+            </div>
+            
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> Foundation models for point cloud data have recently grown in capability, often leveraging extensive...
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
+                
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                        <span class="tag">📓 Advanced Concepts for Intelligent Vision Systems Conference</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Deep Learning,📓 Curr Drug Targets" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820218/" target="_blank">FGMA: A Functional Group-enhanced Deep Learning Method for Drug Toxicity Prediction.</a></h3>
             <div class="authors">Yue Cheng, Jianbo Qiao, Siqi Chen, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">Deep Learning</span>
@@ -2003,17 +2447,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Deep Learning,📓 Curr Med Imaging">
+        <div class="paper-card" data-keywords="Deep Learning,📓 Curr Med Imaging" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820212/" target="_blank">XceptRf-Net: A Novel Deep Learning and Machine Learning Approach for Pneumonia Diagnosis.</a></h3>
             <div class="authors">Muhammad Usama Tanveer, Kashif Munir, Syed Ali Jafar Zaidi, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">Deep Learning</span>
@@ -2024,17 +2471,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Agent,📓 Eur Urol Oncol">
+        <div class="paper-card" data-keywords="Agent,📓 Eur Urol Oncol" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820163/" target="_blank">An Open-label, Phase 1 Dose-finding Study of Single-agent IMU-935, a Novel RORγ/RORγt Inverse Agonist, in Patients with Progressive Metastatic Castration-resistant Prostate Cancer.</a></h3>
             <div class="authors">Rafael Grochot, Christina Guo, Suzanne Carreira, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">Agent</span>
@@ -2045,17 +2495,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Infect Dis Clin North Am,💡 Review">
+        <div class="paper-card" data-keywords="📓 Infect Dis Clin North Am,💡 Review" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820134/" target="_blank">Evaluation and Management of Occupational Exposures and Postexposure Prophylaxis.</a></h3>
             <div class="authors">David J Weber, Andy Gottlieb, Erica S Shenoy</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Infect Dis Clin North Am</span>
@@ -2066,17 +2519,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Cardiovasc Revasc Med">
+        <div class="paper-card" data-keywords="📓 Cardiovasc Revasc Med" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820070/" target="_blank">The use of mechanical thrombectomy in patients with STEMI and large thrombus burden: design and rationale of the NATURE trial.</a></h3>
             <div class="authors">Antonio Landi, Simone Biscaglia, Florim Cuculi, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Cardiovasc Revasc Med</span>
@@ -2085,17 +2541,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Zhonghua Yan Ke Za Zhi">
+        <div class="paper-card" data-keywords="📓 Zhonghua Yan Ke Za Zhi" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820067/" target="_blank">[A case of antiphospholipid syndrome complicated with hyperhomocysteinemia presenting initially with central retinal vein occlusion in a young male].</a></h3>
             <div class="authors">X W Ji, Z Y Wang, Y H Zhang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Zhonghua Yan Ke Za Zhi</span>
@@ -2104,17 +2563,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Zhonghua Yan Ke Za Zhi">
+        <div class="paper-card" data-keywords="📓 Zhonghua Yan Ke Za Zhi" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820060/" target="_blank">[Paying attention to challenges in clinical research on optic neuroprotection in primary open-angle glaucoma].</a></h3>
             <div class="authors">J J Li</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Zhonghua Yan Ke Za Zhi</span>
@@ -2123,17 +2585,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Zhonghua Yi Xue Za Zhi">
+        <div class="paper-card" data-keywords="📓 Zhonghua Yi Xue Za Zhi" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820058/" target="_blank">[Prevalence and influencing factors of chronic kidney disease-associated pruritus in patients undergoing maintenance hemodialysis].</a></h3>
             <div class="authors">G Yang, H T Wan, Y J Qian, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Zhonghua Yi Xue Za Zhi</span>
@@ -2142,17 +2607,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Zhonghua Jie He He Hu Xi Za Zhi">
+        <div class="paper-card" data-keywords="📓 Zhonghua Jie He He Hu Xi Za Zhi" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820042/" target="_blank">[Annual review of community-acquired pneumonia (CAP) 2025].</a></h3>
             <div class="authors">F Zhou, Z P Liu, B Cao</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Zhonghua Jie He He Hu Xi Za Zhi</span>
@@ -2161,17 +2629,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Zhonghua Jie He He Hu Xi Za Zhi">
+        <div class="paper-card" data-keywords="📓 Zhonghua Jie He He Hu Xi Za Zhi" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820035/" target="_blank">[Guidelines for the diagnosis and treatment of obstructive sleep apnea in adults (2025)].</a></h3>
             <div class="authors"></div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Zhonghua Jie He He Hu Xi Za Zhi</span>
@@ -2180,17 +2651,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Zhonghua Jie He He Hu Xi Za Zhi">
+        <div class="paper-card" data-keywords="📓 Zhonghua Jie He He Hu Xi Za Zhi" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820033/" target="_blank">[From evidence-based to precision medicine: advancing a new paradigm for the diagnosis and treatment of obstructive sleep apnea].</a></h3>
             <div class="authors">Y Xiao</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Zhonghua Jie He He Hu Xi Za Zhi</span>
@@ -2199,17 +2673,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Deep Learning,📓 J Pathol Transl Med">
+        <div class="paper-card" data-keywords="Deep Learning,📓 J Pathol Transl Med" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820010/" target="_blank">Deep learning-driven immunohistochemical analysis of renal lymphatics for chronic kidney disease: bioinformatic and histopathological study.</a></h3>
             <div class="authors">Xin Xu, YanPing Lin, Guangchang Pei, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">Deep Learning</span>
@@ -2220,17 +2697,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Wei Sheng Yan Jiu">
+        <div class="paper-card" data-keywords="📓 Wei Sheng Yan Jiu" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41820005/" target="_blank">[Determination of 19 kinds of phthalic acid esters in pre-prepared dishes by gas chromatography-mass spectrometry].</a></h3>
             <div class="authors">Changren Ye, Ping Ouyang, Liyuan Wang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Wei Sheng Yan Jiu</span>
@@ -2239,17 +2719,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Vet Parasitol Reg Stud Reports">
+        <div class="paper-card" data-keywords="📓 Vet Parasitol Reg Stud Reports" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819963/" target="_blank">Prevalence and molecular genotyping of cystic echinococcosis among Buffalo isolates from South-Punjab, Pakistan.</a></h3>
             <div class="authors">Zunaira Fatima Naseer, Muhammad Ehsan, Farzana Abbasi, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Vet Parasitol Reg Stud Reports</span>
@@ -2258,17 +2741,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Food Res Int,💡 Review">
+        <div class="paper-card" data-keywords="📓 Food Res Int,💡 Review" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819932/" target="_blank">Natural cryoprotectants for frozen food preservation: Mechanisms, advances and emerging trends.</a></h3>
             <div class="authors">Daniel Anacleto, Eric Keven Silva</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Food Res Int</span>
@@ -2279,17 +2765,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Food Res Int">
+        <div class="paper-card" data-keywords="📓 Food Res Int" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819918/" target="_blank">Quantitative risk assessment of nontyphoidal Salmonella in retail pork in China.</a></h3>
             <div class="authors">Li Bai, Jun Wang, Yibaina Wang, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Food Res Int</span>
@@ -2298,17 +2787,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Food Res Int">
+        <div class="paper-card" data-keywords="📓 Food Res Int" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819911/" target="_blank">The structural characteristics, physicochemical properties, rheological behavior and anti-obesity effects of polysaccharides from Pueraria lobata: In-depth study focusing on the gut microbiota-hepatic FGF21 signaling.</a></h3>
             <div class="authors">Hui Niu, Qiong Deng, Baishun Hu, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Food Res Int</span>
@@ -2317,17 +2809,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Food Res Int">
+        <div class="paper-card" data-keywords="📓 Food Res Int" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819898/" target="_blank">Chicken feather protein hydrolysate: An alternative for the prevention of indomethacin-induced gastric ulcer formation in rats.</a></h3>
             <div class="authors">Meryem Doymus, Elanur Dasdemir, Emin Sengul, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Food Res Int</span>
@@ -2336,17 +2831,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Food Res Int">
+        <div class="paper-card" data-keywords="📓 Food Res Int" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819893/" target="_blank">Antibacterial mechanism of octyl gallate against methicillin-resistant staphylococcus aureus and its application in pork preservation: insights from multi-omics and computational simulation.</a></h3>
             <div class="authors">Saiqing Xu, Huan Li, Ying Xie, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Food Res Int</span>
@@ -2355,17 +2853,20 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="📓 Food Res Int">
+        <div class="paper-card" data-keywords="📓 Food Res Int" data-source="PubMed">
             <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41819887/" target="_blank">Meta-synthesis of research advances on drug residues associated with antihelmintic, antibiotics in livestock and poultry: Implications for public health.</a></h3>
             <div class="authors">Hope Onohuean, Bright E Igere, Elizabeth Apollo, et al.</div>
             
             
+
             <div class="abstract-summary">
                 <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
             </div>
 
             <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ PubMed</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026</span>
+                
                 
                     
                         <span class="tag">📓 Food Res Int</span>
@@ -2378,39 +2879,52 @@
 </main>
 
 <script>
-    // 1. 暗黑模式切换逻辑
+    // 1. 暗黑模式逻辑保持不变
     function toggleTheme() {
         const html = document.documentElement;
         const btn = document.getElementById('theme-btn');
         if (html.getAttribute('data-theme') === 'light') {
             html.setAttribute('data-theme', 'dark');
             btn.innerText = '☀️ 切换明亮模式';
-            localStorage.setItem('theme', 'dark'); // 记住用户选择
+            localStorage.setItem('theme', 'dark');
         } else {
             html.setAttribute('data-theme', 'light');
             btn.innerText = '🌙 切换暗黑模式';
             localStorage.setItem('theme', 'light');
         }
     }
+    if(localStorage.getItem('theme') === 'dark') { toggleTheme(); }
 
-    // 页面加载时恢复历史主题
-    if(localStorage.getItem('theme') === 'dark') {
-        toggleTheme();
-    }
+    // 2. 核心更新：全局状态管理与交叉过滤
+    let currentKeyword = 'all'; // 记录当前选中的领域标签
 
-    // 2. 前端纯 JS 标签过滤逻辑
-    function filterPapers(keyword, btnElement) {
-        // 更新按钮激活状态
+    // 点击领域按钮时，只更新选中状态并记录关键词，真正的过滤交给 applyFilters()
+    function setKeywordFilter(keyword, btnElement) {
         document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
         btnElement.classList.add('active');
+        currentKeyword = keyword;
+        applyFilters(); 
+    }
 
-        // 获取所有卡片
+    // 联合过滤函数：同时校验"复选框来源"和"领域标签"
+    function applyFilters() {
+        // 提取所有被勾选的来源值 (如 ["arXiv", "PubMed"])
+        const checkedSources = Array.from(document.querySelectorAll('.source-checkbox input:checked')).map(cb => cb.value);
+        
         const cards = document.querySelectorAll('.paper-card');
         let visibleCount = 0;
 
         cards.forEach(card => {
             const keywordsStr = card.getAttribute('data-keywords');
-            if (keyword === 'all' || keywordsStr.includes(keyword)) {
+            const source = card.getAttribute('data-source');
+            
+            // 条件 1: 标签匹配 (如果选了 all 就默认过，否则查字符串包含)
+            const matchKeyword = (currentKeyword === 'all' || keywordsStr.includes(currentKeyword));
+            // 条件 2: 来源匹配 (看这篇论文的 source 是否在被勾选的数组里)
+            const matchSource = checkedSources.includes(source);
+
+            // 只有两个条件同时满足，才显示这篇卡片
+            if (matchKeyword && matchSource) {
                 card.classList.remove('hidden');
                 visibleCount++;
             } else {
@@ -2418,7 +2932,7 @@
             }
         });
 
-        // 动态更新显示的文献数量
+        // 更新计数器
         document.getElementById('total-count').innerText = visibleCount;
     }
 </script>
