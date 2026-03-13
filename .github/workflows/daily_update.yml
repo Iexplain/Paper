@@ -2,7 +2,7 @@ name: Daily Paper Update
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天 UTC 8 点执行
+    - cron: '0 0 * * *'  # 对应北京/新加坡时间每天早上 8 点执行
   workflow_dispatch:
 
 jobs:
