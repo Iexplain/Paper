@@ -13,58 +13,22 @@
     "doi": ""
   },
   {
-    "title": "CoViLLM: An Adaptive Human-Robot Collaborative Assembly Framework Using Large Language Models for Manufacturing",
+    "title": "Visual language model-assisted CT denoising via text-guided diffusion and fidelity maintenance.",
     "authors": [
-      "Jiabao Zhao",
-      "Jonghan Lim",
-      "Hongliang Li",
+      "Ye Shen",
+      "Ningning Liang",
+      "A. Cai",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/abfe17a3c761138b6687264b949a7758e78b1aa0",
+    "link": "https://www.semanticscholar.org/paper/f8c8d0b0d70c9bdb612c2bcfefcfa94b784c84cc",
     "date": "2026-03-12",
     "keywords": [
-      "LLM"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "With increasing demand for mass customization, traditional manufacturing robots that rely on rule-based operations lack the flexibility to accommodate customized or new product variants. Human-Robot Collaboration (HRC) has demonstrated potential to improve system adaptability by leveraging human versatility and decision-making capabilities. However, existing HRC frame- works typically depend on predefined perception-manipulation pipelines, limiting their ability to autonomously generate task plans for new product assembly. In this work, we propose CoViLLM, an adaptive human-robot collaborative assembly frame- work that supports the assembly of customized and previously unseen products. CoViLLM combines depth-camera-based localization for object position estimation, human operator classification for identifying new components, and an Large Language Model (LLM) for assembly task planning based on natural language instructions. The framework is validated on the NIST Assembly Task Board for known, customized, and new product cases. Experimental results show that the proposed framework enables flexible collaborative assembly by extending HRC beyond predefined product and task settings.",
-    "summary": "",
-    "doi": ""
-  },
-  {
-    "title": "CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation",
-    "authors": [
-      "Ziqi Ye",
-      "Ziyang Gong",
-      "Ning Liao",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/a46a76a72dc65c237effc1e7fe89d6e2f2aa77e9",
-    "date": "2026-03-12",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Synthetic Aperture Radar (SAR) enables global, all-weather earth observation. However, owing to diverse imaging mechanisms, domain shifts across sensors and regions severely hinder its semantic generalization. To address this, we present CrossEarth-SAR, the first billion-scale SAR vision foundation model built upon a novel physics-guided sparse mixture-of-experts (MoE) architecture incorporating physical descriptors, explicitly designed for cross-domain semantic segmentation. To facilitate large-scale pre-training, we develop CrossEarth-SAR-200K, a weakly and fully supervised dataset that unifies public and private SAR imagery. We also introduce a benchmark suite comprising 22 sub-benchmarks across 8 distinct domain gaps, establishing the first unified standard for domain generalization semantic segmentation on SAR imagery. Extensive experiments demonstrate that CrossEarth-SAR achieves state-of-the-art results on 20 benchmarks, surpassing previous methods by over 10\\% mIoU on some benchmarks under multi-gap transfer. All code, benchmark and datasets will be publicly available.",
-    "summary": "",
-    "doi": ""
-  },
-  {
-    "title": "Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.",
-    "authors": [
-      "Rui Han",
-      "Emily Xi Tan",
-      "Yangcenzi Xie",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/a08d9f2821ce882caa3d2819599c4abd3fcdcce2",
-    "date": "2026-03-12",
-    "keywords": [
-      "📓 ACS Applied Materials and Interfaces"
+      "📓 Journal of X-Ray Science and Technology"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
-    "doi": "10.1021/acsami.6c00759"
+    "doi": "10.1177/08953996251372739"
   },
   {
     "title": "Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning",
@@ -85,22 +49,6 @@
     "doi": ""
   },
   {
-    "title": "Prism-$\\Delta$: Differential Subspace Steering for Prompt Highlighting in Large Language Models",
-    "authors": [
-      "Yuyao Ge",
-      "Shenghua Liu",
-      "Yiwei Wang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/c8c97f4a6fbeab08568319d7ecb56df126945215",
-    "date": "2026-03-11",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Prompt highlighting steers a large language model to prioritize user-specified text spans during generation. A key challenge is extracting steering directions that capture the difference between relevant and irrelevant contexts, rather than shared structural patterns common to both. We propose PRISM-$\\Delta$ (Projection-based Relevance-Informed Steering Method), which decomposes the difference between positive and negative cross-covariance matrices to maximize discriminative energy while eliminating shared directions. Each attention head receives a continuous softplus importance weight, letting weak-but-useful heads contribute at reduced strength. The framework extends naturally to Value representations, capturing content-channel signal that Key-only methods leave unused. Across four benchmarks and five models, PRISM-$\\Delta$ matches or exceeds the best existing method on 19 of 20 configurations, with relative gains up to +10.6%, while halving the fluency cost of steering. PRISM-$\\Delta$ also scales to long-context retrieval, outperforming the best existing method by up to +4.8% relative gain. PRISM-$\\Delta$ is compatible with FlashAttention and adds negligible memory overhead.",
-    "summary": "",
-    "doi": ""
-  },
-  {
     "title": "H2LooP Spark Preview: Continual Pretraining of Large Language Models for Low-Level Embedded Systems Code",
     "authors": [
       "Amit Singh",
@@ -117,107 +65,35 @@
     "doi": ""
   },
   {
-    "title": "OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs",
+    "title": "How to make the most of your masked language model for protein engineering",
     "authors": [
-      "Yu-Shan Liao",
-      "Xuelong Geng",
-      "Hongfei Xue",
+      "Calvin McCarter",
+      "Nicholas Bhattacharya",
+      "Sebastian W. Ober",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/51591db2b04fbe6de6c8740355ef6da50ea0e0ad",
+    "link": "https://www.semanticscholar.org/paper/9b8686d07b6146b28ee5ddbc07371ee7aecc12fb",
     "date": "2026-03-11",
-    "keywords": [
-      "Foundation Model"
-    ],
+    "keywords": [],
     "source": "Semantic Scholar",
-    "abstract_raw": "Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional speech understanding. However, the majority of high-performance frameworks are predominantly optimized for GPU centric ecosystems and proprietary backbones, creating a significant gap for deployment on non-CUDA computing infrastructures. In this paper, we present OSUM-Pangu, a fully open-source speech understanding foundation model developed on a completely non-CUDA software and hardware stack. By integrating an audio encoder with the openPangu-7B LLM backbone, we successfully implement the entire training and inference pipeline on the Ascend NPU platform. To facilitate efficient task alignment under non-CUDA resource constraints, we adopt a practical training process that sequentially bridges speech perception and user intent recognition. Experimental results demonstrate that OSUM-Pangu achieves task accuracy comparable to mainstream GPU-based models while maintaining robust natural language interaction capabilities. Our work provides a reproducible, non-CUDA baseline for the open-source speech community, promoting the independent evolution of multimodal intelligence.",
+    "abstract_raw": "A plethora of protein language models have been released in recent years. Yet comparatively little work has addressed how to best sample from them to optimize desired biological properties. We fill this gap by proposing a flexible, effective sampling method for masked language models (MLMs), and by systematically evaluating models and methods both in silico and in vitro on actual antibody therapeutics campaigns. Firstly, we propose sampling with stochastic beam search, exploiting the fact that MLMs are remarkably efficient at evaluating the pseudo-perplexity of the entire 1-edit neighborhood of a sequence. Reframing generation in terms of entire-sequence evaluation enables flexible guidance with multiple optimization objectives. Secondly, we report results from our extensive in vitro head-to-head evaluation for the antibody engineering setting. This reveals that choice of sampling method is at least as impactful as the model used, motivating future research into this under-explored area.",
     "summary": "",
     "doi": ""
   },
   {
-    "title": "Prompting with the human-touch: evaluating model-sensitivity of foundation models for musculoskeletal CT segmentation",
+    "title": "A Simple Efficiency Incremental Learning Framework via Vision-Language Model with Nonlinear Multi-Adapters",
     "authors": [
-      "Caroline Magg",
-      "Maaike A. ter Wee",
-      "J. Dobbe",
+      "Haihua Luo",
+      "Xuming Ran",
+      "Jiangrong Shen",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/1620fbcc83cefb1e1c7d92d65eba94633c8d7618",
+    "link": "https://www.semanticscholar.org/paper/462813fde07575384daefbb5739d1e96a5244a6c",
     "date": "2026-03-11",
-    "keywords": [
-      "Foundation Model"
-    ],
+    "keywords": [],
     "source": "Semantic Scholar",
-    "abstract_raw": "Promptable Foundation Models (FMs), initially introduced for natural image segmentation, have also revolutionized medical image segmentation. The increasing number of models, along with evaluations varying in datasets, metrics, and compared models, makes direct performance comparison between models difficult and complicates the selection of the most suitable model for specific clinical tasks. In our study, 11 promptable FMs are tested using non-iterative 2D and 3D prompting strategies on a private and public dataset focusing on bone and implant segmentation in four anatomical regions (wrist, shoulder, hip and lower leg). The Pareto-optimal models are identified and further analyzed using human prompts collected through a dedicated observer study. Our findings are: 1) The segmentation performance varies a lot between FMs and prompting strategies; 2) The Pareto-optimal models in 2D are SAM and SAM2.1, in 3D nnInteractive and Med-SAM2; 3) Localization accuracy and rater consistency vary with anatomical structures, with higher consistency for simple structures (wrist bones) and lower consistency for complex structures (pelvis, tibia, implants); 4) The segmentation performance drops using human prompts, suggesting that performance reported on\"ideal\"prompts extracted from reference labels might overestimate the performance in a human-driven setting; 5) All models were sensitive to prompt variations. While two models demonstrated intra-rater robustness, it did not scale to inter-rater settings. We conclude that the selection of the most optimal FM for a human-driven setting remains challenging, with even high-performing FMs being sensitive to variations in human input prompts. Our code base for prompt extraction and model inference is available: https://github.com/CarolineMagg/segmentation-FM-benchmark/",
+    "abstract_raw": "Incremental Learning (IL) aims to learn new tasks while preserving previously acquired knowledge. Integrating the zero-shot learning capabilities of pre-trained vision-language models into IL methods has marked a significant advancement. However, these methods face three primary challenges: (1) the need for improved training efficiency; (2) reliance on a memory bank to store previous data; and (3) the necessity of a strong backbone to augment the model's capabilities. In this paper, we propose SimE, a Simple and Efficient framework that employs a vision-language model with adapters designed specifically for the IL task. We report a remarkable phenomenon: there is a nonlinear correlation between the number of adaptive adapter connections and the model's IL capabilities. While increasing adapter connections between transformer blocks improves model performance, adding more adaptive connections within transformer blocks during smaller incremental steps does not enhance, and may even degrade the model's IL ability. Extensive experimental results show that SimE surpasses traditional methods by 9.6% on TinyImageNet and outperforms other CLIP-based methods by 5.3% on CIFAR-100. Furthermore, we conduct a systematic study to enhance the utilization of the zero-shot capabilities of CLIP. We suggest replacing SimE's encoder with a CLIP model trained on larger datasets (e.g., LAION2B) and stronger architectures (e.g., ViT-L/14).",
     "summary": "",
     "doi": ""
-  },
-  {
-    "title": "Multi-Modal Intelligent Channel Modeling: From Fine-tuned LLMs to Pre-trained Foundation Models",
-    "authors": [
-      "Lu Bai",
-      "Zengrui Han",
-      "Mingran Sun",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/ddc5dcd62798ef4b599d37af878483cb94dbcdb9",
-    "date": "2026-03-11",
-    "keywords": [
-      "LLM",
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "To meet the evolving demands of sixth-generation (6G) wireless channel modeling, such as precise prediction capability, extension capabilities, and system participation capability, multi-modal intelligent channel modeling (MMICM) has been proposed based on Synesthesia of Machines (SoM) which explores the mapping relationship between multi-modal sensing in physical environment and channel characteristics in electromagnetic space. Furthermore, for integrating heterogeneous sensing, reasoning across scales, and generalizing to complex air-space-ground-sea communication environments, two new paradigms of MMICM are explored, including fine-tuned large language models (LLMs) for Channel Modeling (LLM4CM) and Wireless Channel Foundation Model (WiCo). LLM4CM leverages pre-trained LLMs on channel representations for cross-modal alignment and lightweight adaptation, enabling flexible channel modeling for 6G multi-band and multi-scenario communication systems. WiCo, which pre-trained on physically valid channel realizations and their associated environmental and modal observations, embeds electromagnetic equations for physical interpretability and uses parameterized adapters for scalability. This article details the architectures and features of LLM4CM and WiCo, laying a foundation for artificial intelligence (AI)-native 6G wireless communication systems. Then, we conducts a comparative analysis of the two emerging paradigms, focusing on their distinct characteristics, relative advantages, inherent limitations, and performance attributes. Finally, we discuss the future research directions.",
-    "summary": "",
-    "doi": ""
-  },
-  {
-    "title": "Cross-Species Antimicrobial Resistance Prediction from Genomic Foundation Models",
-    "authors": [
-      "Hui-Wen Tai"
-    ],
-    "link": "https://www.semanticscholar.org/paper/cb54e038d87cede031edcb2b7aa29c0b7adf03b9",
-    "date": "2026-03-11",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Cross-species antimicrobial resistance (AMR) prediction is fundamentally an out-of-distribution (OOD) generalization problem: models trained on one set of bacterial taxa must transfer to phylogenetically distinct genomes that may rely on different resistance mechanisms. Across species, resistance arises from a heterogeneous mixture of localized, horizontally transferred gene cassettes and diffuse species-specific genomic backgrounds, making successful transfer inherently mechanism-dependent. Using a strict species holdout protocol, we first establish an interpretable k-mer baseline with Kover and show that strong within-species performance collapses under true cross-species evaluation. This motivates representation-level approaches that preserve transferable biological signals rather than amplify phylogenetic shortcuts. We investigate genomic foundation model embeddings derived from Evo-1-8k-base and introduce diagnostics for layer selection based on activation scale, isotropy, effective rank, and cross-seed stability under native bfloat16 inference. These analyses identify a stability boundary in deeper layers and reveal that embeddings extracted near this boundary provide more robust representations for downstream prediction. To preserve localized resistance signals, we treat per-window embeddings as an ordered multivariate signal and apply MiniRocket to summarize multi-scale local activation patterns instead of relying on global pooling. Our results show that aggregation strategy plays a central role in cross-species AMR prediction and that preserving local activation patterns substantially improves generalization when resistance mechanisms are localized.",
-    "summary": "",
-    "doi": ""
-  },
-  {
-    "title": "RandMark: On Random Watermarking of Visual Foundation Models",
-    "authors": [
-      "A. Chistyakova",
-      "Mikhail Aleksandrovich Pautov"
-    ],
-    "link": "https://www.semanticscholar.org/paper/58f38c37843fc3cab4fe87a7c23675c3599a622f",
-    "date": "2026-03-11",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Being trained on large and diverse datasets, visual foundation models (VFMs) can be fine-tuned to achieve remarkable performance and efficiency in various downstream computer vision tasks. The high computational cost of data collection and training makes these models valuable assets, which motivates some VFM owners to distribute them alongside a license to protect their intellectual property rights. In this paper, we propose an approach to ownership verification of visual foundation models that leverages a small encoder-decoder network to embed digital watermarks into an internal representation of a hold-out set of input images. The method is based on random watermark embedding, which makes the watermark statistics detectable in functional copies of the watermarked model. Both theoretically and experimentally, we demonstrate that the proposed method yields a low probability of false detection for non-watermarked models and a low probability of false misdetection for watermarked models.",
-    "summary": "",
-    "doi": ""
-  },
-  {
-    "title": "Pointy - A Lightweight Transformer for Point Cloud Foundation Models",
-    "authors": [
-      "Konrad Szafer",
-      "Marek Kraft",
-      "Dominik Belter"
-    ],
-    "link": "https://www.semanticscholar.org/paper/7a6484cf595a774bf643e246ba8b3dfc90c3da56",
-    "date": "2026-03-11",
-    "keywords": [
-      "Foundation Model",
-      "📓 Advanced Concepts for Intelligent Vision Systems Conference"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Foundation models for point cloud data have recently grown in capability, often leveraging extensive representation learning from language or vision. In this work, we take a more controlled approach by introducing a lightweight transformer-based point cloud architecture. In contrast to the heavy reliance on cross-modal supervision, our model is trained only on 39k point clouds - yet it outperforms several larger foundation models trained on over 200k training samples. Interestingly, our method approaches state-of-the-art results from models that have seen over a million point clouds, images, and text samples, demonstrating the value of a carefully curated training setup and architecture. To ensure rigorous evaluation, we conduct a comprehensive replication study that standardizes the training regime and benchmarks across multiple point cloud architectures. This unified experimental framework isolates the impact of architectural choices, allowing for transparent comparisons and highlighting the benefits of our design and other tokenizer-free architectures. Our results show that simple backbones can deliver competitive results to more complex or data-rich strategies. The implementation, including code, pre-trained models, and training protocols, is available at https://github.com/KonradSzafer/Pointy.",
-    "summary": "",
-    "doi": "10.1007/978-3-032-07343-3_27"
   }
 ]

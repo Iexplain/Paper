@@ -40,7 +40,7 @@
             width: 260px; height: 100vh; position: fixed; left: 0; top: 0;
             background: var(--sidebar-bg); border-right: 1px solid var(--border-color);
             padding: 30px 20px; box-sizing: border-box; display: flex; flex-direction: column;
-            gap: 24px; z-index: 100; overflow-y: auto;
+            gap: 12px; z-index: 100; overflow-y: auto;
         }
 
         .sidebar-brand { font-size: 1.4rem; font-weight: 800; color: var(--primary-color); }
@@ -69,9 +69,9 @@
         }
 
         /* === 主内容区样式 === */
-        .main-content { margin-left: 260px; padding: 40px; flex: 1; min-height: 100vh; }
+        .main-content { margin-left: 260px; padding: 30px 40px 40px; flex: 1; min-height: 100vh; }
         header { margin-bottom: 40px; }
-        h1 { font-size: 2.2rem; margin-bottom: 8px; font-weight: 800; }
+        h1 { font-size: 2.2rem; margin: 0 0 8px 0; font-weight: 800; line-height: 1.1; }
         .stats { color: var(--text-muted); font-size: 1.1rem; }
 
         .paper-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
@@ -99,29 +99,24 @@
 <body>
 
 <aside class="sidebar">
-    <div class="sidebar-brand">📚 Paper Dash</div>
-    
     <div class="sidebar-section">
         <h4>数据来源</h4>
         <label class="source-checkbox">
-            <input type="checkbox" value="Semantic Scholar" checked onchange="applyFilters()"> 🎓 Semantic Scholar
+            <input type="checkbox" value="arXiv" checked onchange="applyFilters()"> arXiv
         </label>
         <label class="source-checkbox">
-            <input type="checkbox" value="arXiv" checked onchange="applyFilters()"> 📜 arXiv
-        </label>
-        <label class="source-checkbox">
-            <input type="checkbox" value="PubMed" checked onchange="applyFilters()"> 🏥 PubMed
+            <input type="checkbox" value="PubMed" checked onchange="applyFilters()"> PubMed
         </label>
     </div>
 
     <div class="sidebar-section">
         <h4>快速过滤</h4>
-        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">🌐 全部文献</button>
-        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">🧠 LLM</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">🧱 Foundation Model</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">🧬 Protein Language Model</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">⚙️ Fine-tuning</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">📉 Deep Learning</button>
+        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">全部文献</button>
+        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">LLM</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">Foundation Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">Protein Language Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">Fine-tuning</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">Deep Learning</button>
     </div>
 
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">🌙 切换暗黑模式</button>
@@ -130,7 +125,7 @@
 <main class="main-content">
     <header>
         <h1>今日前沿文献</h1>
-        <div class="stats">当前显示 <strong id="total-count">133</strong> 篇文献</div>
+        <div class="stats">当前显示 <strong id="total-count">126</strong> 篇文献</div>
     </header>
 
     <div class="paper-grid" id="paper-container">
@@ -153,58 +148,14 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="LLM" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/abfe17a3c761138b6687264b949a7758e78b1aa0" target="_blank">CoViLLM: An Adaptive Human-Robot Collaborative Assembly Framework Using Large Language Models for Manufacturing</a></h3>
-            <div class="authors">Jiabao Zhao, Jonghan Lim, Hongliang Li, et al.</div>
-            
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> With increasing demand for mass customization, traditional manufacturing robots that rely on rule-ba...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
-                
-                
-                    
-                        <span class="tag">LLM</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/a46a76a72dc65c237effc1e7fe89d6e2f2aa77e9" target="_blank">CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation</a></h3>
-            <div class="authors">Ziqi Ye, Ziyang Gong, Ning Liao, et al.</div>
-            
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> Synthetic Aperture Radar (SAR) enables global, all-weather earth observation. However, owing to dive...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-12</span>
-                
-                
-                    
-                        <span class="tag">Foundation Model</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="📓 ACS Applied Materials and Interfaces" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/a08d9f2821ce882caa3d2819599c4abd3fcdcce2" target="_blank">Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.</a></h3>
-            <div class="authors">Rui Han, Emily Xi Tan, Yangcenzi Xie, et al.</div>
+        <div class="paper-card" data-keywords="📓 Journal of X-Ray Science and Technology" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/f8c8d0b0d70c9bdb612c2bcfefcfa94b784c84cc" target="_blank">Visual language model-assisted CT denoising via text-guided diffusion and fidelity maintenance.</a></h3>
+            <div class="authors">Ye Shen, Ningning Liang, A. Cai, et al.</div>
             
             
             <div style="font-size: 0.8rem; margin-bottom: 12px;">
                 <span style="color: var(--text-muted);">📄 DOI: </span>
-                <a href="https://doi.org/10.1021/acsami.6c00759" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">10.1021/acsami.6c00759</a>
+                <a href="https://doi.org/10.1177/08953996251372739" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">10.1177/08953996251372739</a>
             </div>
             
 
@@ -218,7 +169,7 @@
                 
                 
                     
-                        <span class="tag">📓 ACS Applied Materials and Interfaces</span>
+                        <span class="tag">📓 Journal of X-Ray Science and Technology</span>
                     
                 
             </div>
@@ -2247,24 +2198,6 @@
         </div>
         
         <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/c8c97f4a6fbeab08568319d7ecb56df126945215" target="_blank">Prism-$\Delta$: Differential Subspace Steering for Prompt Highlighting in Large Language Models</a></h3>
-            <div class="authors">Yuyao Ge, Shenghua Liu, Yiwei Wang, et al.</div>
-            
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> Prompt highlighting steers a large language model to prioritize user-specified text spans during gen...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
-                
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
             <h3><a href="https://www.semanticscholar.org/paper/946ec0c89adff72fda541f8ff83965db44329518" target="_blank">H2LooP Spark Preview: Continual Pretraining of Large Language Models for Low-Level Embedded Systems Code</a></h3>
             <div class="authors">Amit Singh, Vedant Nipane, Pulkit Agrawal, et al.</div>
             
@@ -2282,143 +2215,38 @@
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/51591db2b04fbe6de6c8740355ef6da50ea0e0ad" target="_blank">OSUM-Pangu: An Open-Source Multidimension Speech Understanding Foundation Model Built upon OpenPangu on Ascend NPUs</a></h3>
-            <div class="authors">Yu-Shan Liao, Xuelong Geng, Hongfei Xue, et al.</div>
+        <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/9b8686d07b6146b28ee5ddbc07371ee7aecc12fb" target="_blank">How to make the most of your masked language model for protein engineering</a></h3>
+            <div class="authors">Calvin McCarter, Nicholas Bhattacharya, Sebastian W. Ober, et al.</div>
             
             
 
             <div class="abstract-summary">
-                <strong>Abstract:</strong> Recent advancements in Speech Large Language Models have significantly enhanced multi-dimensional sp...
+                <strong>Abstract:</strong> A plethora of protein language models have been released in recent years. Yet comparatively little w...
             </div>
 
             <div class="tags-container">
                 <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
                 
-                
-                    
-                        <span class="tag">Foundation Model</span>
-                    
                 
             </div>
         </div>
         
-        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/1620fbcc83cefb1e1c7d92d65eba94633c8d7618" target="_blank">Prompting with the human-touch: evaluating model-sensitivity of foundation models for musculoskeletal CT segmentation</a></h3>
-            <div class="authors">Caroline Magg, Maaike A. ter Wee, J. Dobbe, et al.</div>
+        <div class="paper-card" data-keywords="" data-source="Semantic Scholar">
+            <h3><a href="https://www.semanticscholar.org/paper/462813fde07575384daefbb5739d1e96a5244a6c" target="_blank">A Simple Efficiency Incremental Learning Framework via Vision-Language Model with Nonlinear Multi-Adapters</a></h3>
+            <div class="authors">Haihua Luo, Xuming Ran, Jiangrong Shen, et al.</div>
             
             
 
             <div class="abstract-summary">
-                <strong>Abstract:</strong> Promptable Foundation Models (FMs), initially introduced for natural image segmentation, have also r...
+                <strong>Abstract:</strong> Incremental Learning (IL) aims to learn new tasks while preserving previously acquired knowledge. In...
             </div>
 
             <div class="tags-container">
                 <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
                 <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
                 
-                
-                    
-                        <span class="tag">Foundation Model</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="LLM,Foundation Model" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/ddc5dcd62798ef4b599d37af878483cb94dbcdb9" target="_blank">Multi-Modal Intelligent Channel Modeling: From Fine-tuned LLMs to Pre-trained Foundation Models</a></h3>
-            <div class="authors">Lu Bai, Zengrui Han, Mingran Sun, et al.</div>
-            
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> To meet the evolving demands of sixth-generation (6G) wireless channel modeling, such as precise pre...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
-                
-                
-                    
-                        <span class="tag">LLM</span>
-                    
-                        <span class="tag">Foundation Model</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/cb54e038d87cede031edcb2b7aa29c0b7adf03b9" target="_blank">Cross-Species Antimicrobial Resistance Prediction from Genomic Foundation Models</a></h3>
-            <div class="authors">Hui-Wen Tai</div>
-            
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> Cross-species antimicrobial resistance (AMR) prediction is fundamentally an out-of-distribution (OOD...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
-                
-                
-                    
-                        <span class="tag">Foundation Model</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="Foundation Model" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/58f38c37843fc3cab4fe87a7c23675c3599a622f" target="_blank">RandMark: On Random Watermarking of Visual Foundation Models</a></h3>
-            <div class="authors">A. Chistyakova, Mikhail Aleksandrovich Pautov</div>
-            
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> Being trained on large and diverse datasets, visual foundation models (VFMs) can be fine-tuned to ac...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
-                
-                
-                    
-                        <span class="tag">Foundation Model</span>
-                    
-                
-            </div>
-        </div>
-        
-        <div class="paper-card" data-keywords="Foundation Model,📓 Advanced Concepts for Intelligent Vision Systems Conference" data-source="Semantic Scholar">
-            <h3><a href="https://www.semanticscholar.org/paper/7a6484cf595a774bf643e246ba8b3dfc90c3da56" target="_blank">Pointy - A Lightweight Transformer for Point Cloud Foundation Models</a></h3>
-            <div class="authors">Konrad Szafer, Marek Kraft, Dominik Belter</div>
-            
-            
-            <div style="font-size: 0.8rem; margin-bottom: 12px;">
-                <span style="color: var(--text-muted);">📄 DOI: </span>
-                <a href="https://doi.org/10.1007/978-3-032-07343-3_27" target="_blank" style="color: var(--primary-color); text-decoration: none; font-family: monospace;">10.1007/978-3-032-07343-3_27</a>
-            </div>
-            
-
-            <div class="abstract-summary">
-                <strong>Abstract:</strong> Foundation models for point cloud data have recently grown in capability, often leveraging extensive...
-            </div>
-
-            <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-11</span>
-                
-                
-                    
-                        <span class="tag">Foundation Model</span>
-                    
-                        <span class="tag">📓 Advanced Concepts for Intelligent Vision Systems Conference</span>
-                    
                 
             </div>
         </div>
