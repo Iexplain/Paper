@@ -107,7 +107,7 @@ for query in QUERIES:
                         "keywords": matched_keywords,
                         "source": "Semantic Scholar",
                         "abstract_raw": item.get("abstract", ""),
-                        "summary": ""
+                        "summary": "",
                         "doi": doi
                     }
             break # 这个关键词抓取成功，跳出重试循环
