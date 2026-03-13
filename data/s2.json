@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "title": "How to make the most of your masked language model for protein engineering",
+    "authors": [
+      "Calvin McCarter",
+      "Nicholas Bhattacharya",
+      "Sebastian W. Ober",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9b8686d07b6146b28ee5ddbc07371ee7aecc12fb",
+    "date": "2026-03-11",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": "A plethora of protein language models have been released in recent years. Yet comparatively little work has addressed how to best sample from them to optimize desired biological properties. We fill this gap by proposing a flexible, effective sampling method for masked language models (MLMs), and by systematically evaluating models and methods both in silico and in vitro on actual antibody therapeutics campaigns. Firstly, we propose sampling with stochastic beam search, exploiting the fact that MLMs are remarkably efficient at evaluating the pseudo-perplexity of the entire 1-edit neighborhood of a sequence. Reframing generation in terms of entire-sequence evaluation enables flexible guidance with multiple optimization objectives. Secondly, we report results from our extensive in vitro head-to-head evaluation for the antibody engineering setting. This reveals that choice of sampling method is at least as impactful as the model used, motivating future research into this under-explored area.",
+    "summary": ""
+  },
+  {
+    "title": "Investigating the Efficacy of Deep Learning Techniques in Detecting Advanced Persistent Threats (APTs)",
+    "authors": [
+      "C. U. Ebelogu",
+      "Israel Musa",
+      "E. Abbah",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/da7cf2f1d02dea412fe9c6471ecb2081f5501efa",
+    "date": "2026-03-11",
+    "keywords": [
+      "Deep Learning",
+      "📓 Engineering Headway"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Advanced Persistent Threats (APTs) pose significant challenges to cybersecurity due to their stealthy, multi-stage nature. Traditional detection methods struggle to identify such complex behaviors. This study investigates the effectiveness of deep learning (DL) techniques in detecting APTs. Two research questions guide the study: (i) How effective is a custom Transformer-based model compared to existing DL models in detecting APTs? (ii) To what extent have DL models contributed to APT detection between 2020 and 2025? A two-fold methodology was adopted: a meta-analysis of 30 peer-reviewed studies and an empirical evaluation of a Transformer model trained on the CIC-IDS2018 dataset. The model achieved 99.71% accuracy with macro-averaged F1-score, precision, and recall values above 0.70, demonstrating strong overall performance but revealing challenges in classifying rare attack types. The meta-analysis further identified key research gaps, including limited use of multi-class classification, underutilization of Transformers, and a need for real-world datasets. Findings show that Transformer-based architectures are not only viable but good at modeling complex feature dependencies and detecting sophisticated APT behaviours. This research highlights both the strengths and limitations of DL for cybersecurity and suggests future directions for improving robustness and scalability in real-world deployment.",
+    "summary": ""
+  },
+  {
+    "title": "ForwardFlow: Simulation only statistical inference using deep learning",
+    "authors": [
+      "S. Bohringer"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c837f015d0bfeaa355e707a6aba2ec3b53c26101",
+    "date": "2026-03-11",
+    "keywords": [
+      "Deep Learning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Deep learning models are being used for the analysis of parametric statistical models based on simulation-only frameworks. Bayesian models using normalizing flows simulate data from a prior distribution and are composed of two deep neural networks: a summary network that learns a sufficient statistic for the parameter and a normalizing flow that conditional on the summary network can approximate the posterior distribution. Here, we explore frequentist models that are based on a single summary network. During training, input of the network is a simulated data set based on a parameter and the loss function minimizes the mean-square error between learned summary and parameter. The network thereby solves the inverse problem of parameter estimation. We propose a branched network structure that contains collapsing layers that reduce a data set to summary statistics that are further mapped through fully connected layers to approximate the parameter estimate. We motivate our choice of network structure by theoretical considerations. In simulations we demonstrate three desirable properties of parameter estimates: finite sample exactness, robustness to data contamination, and algorithm approximation. These properties are achieved offering the the network varying sample size, contaminated data, and data needing algorithmic reconstruction during the training phase. In our simulations an EM-algorithm for genetic data is automatically approximated by the network. Simulation only approaches seem to offer practical advantages in complex modeling tasks where the simpler data simulation part is left to the researcher and the more complex problem of solving the inverse problem is left to the neural network. Challenging future work includes offering pre-trained models that can be used in a wide variety of applications.",
+    "summary": ""
+  }
+]
