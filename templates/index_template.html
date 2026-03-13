@@ -185,8 +185,8 @@
 <body>
 
 <header>
-    <h1>Daily Paper Dashboard</h1>
-    <div class="stats">今日新增: <strong id="total-count">{{ arxiv|length + pubmed|length }}</strong> 篇优质论文</div>
+    <h1>Daily Paper</h1>
+    <div class="stats">今日新增: <strong id="total-count">{{ arxiv|length + pubmed|length }}</strong> 篇论文</div>
     
     <div class="filter-tabs">
         <button class="filter-btn active" data-filter="all">全部 ({{ arxiv|length + pubmed|length }})</button>
@@ -197,7 +197,7 @@
 
 <div class="timeline">
     <div class="date-section">
-        <div class="paper-grid">
+        <div class="paper-card" data-source="{{ paper.source }}">
             {% for paper in all_papers %}
             <div class="paper-card" data-source="{{ paper.source }}">
                 <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
