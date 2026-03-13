@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 # 配置查询关键词
 # ========================
 QUERY = "deep learning OR LLM OR agent OR fine-tuning"
-YESTERDAY = (datetime.now() - timedelta(days=1)).strftime("%Y/%m/%d")
+YESTERDAY = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
 # PubMed E-Utilities URL
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
