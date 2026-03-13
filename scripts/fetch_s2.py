@@ -43,8 +43,9 @@ for query in QUERIES:
     params = {
         "query": query,
         "publicationDateOrYear": date_range,
-        "fields": "title,authors,url,publicationDate,citationCount,venue,publicationTypes,abstract",
-        "limit": 30, # 每个关键词抓 30 篇最新的
+        # 👇 在末尾加上 ,externalIds
+        "fields": "title,authors,url,publicationDate,citationCount,venue,publicationTypes,abstract,externalIds",
+        "limit": 30, 
         "sort": "publicationDate:desc"
     }
     
@@ -92,6 +93,7 @@ for query in QUERIES:
                         
                     citations = item.get("citationCount", 0)
                     venue = item.get("venue", "")
+                    doi = item.get("externalIds", {}).get("DOI", "") if item.get("externalIds") else ""
                     if citations > 0:
                         matched_keywords.append(f"🔥 Cited: {citations}")
                     if venue:
@@ -106,6 +108,7 @@ for query in QUERIES:
                         "source": "Semantic Scholar",
                         "abstract_raw": item.get("abstract", ""),
                         "summary": ""
+                        "doi": doi
                     }
             break # 这个关键词抓取成功，跳出重试循环
             
