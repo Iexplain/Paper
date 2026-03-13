@@ -1,0 +1,36 @@
+name: Daily Paper Update
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 每天早上 8 点 UTC+0，东京时间可改为 UTC-1
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch arXiv papers
+        run: python scripts/fetch_arxiv.py
+
+      - name: Fetch PubMed papers
+        run: python scripts/fetch_pubmed.py
+
+      - name: Generate HTML
+        run: python scripts/generate_web.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/*.json index.html
+          git commit -m "Daily paper update" || echo "No changes"
+          git push
