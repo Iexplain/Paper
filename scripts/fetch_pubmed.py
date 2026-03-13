@@ -35,7 +35,9 @@ try:
         for article in articles:
             medline = article.get("MedlineCitation", {}).get("Article", {})
             title = medline.get("ArticleTitle", "")
-
+            keywords = ["LLM", "Deep Learning", "Agent", "Fine-tuning"]
+            title_lower = medline.get("ArticleTitle","").lower()
+            matched_keywords = [kw for kw in keywords if kw.lower() in title_lower]
             # 作者列表
             authors_list = medline.get("AuthorList", {}).get("Author", [])
             authors = []
@@ -57,12 +59,14 @@ try:
             # PubMed 链接
             pmid = article.get("MedlineCitation", {}).get("PMID", {}).get("#text", "")
             link = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else ""
-
+            
             papers.append({
                 "title": title,
                 "authors": authors,
                 "link": link,
-                "date": date
+                "date": date,
+                "keywords": matched_keywords,
+                "source": "PubMed"
             })
 
 except requests.RequestException as e:
