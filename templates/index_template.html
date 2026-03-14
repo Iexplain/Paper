@@ -6,33 +6,21 @@
     <title>Daily Paper Dashboard</title>
     <style>
         :root {
-            --primary-color: #2563eb;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --accent-tag: #dbeafe;
-            --accent-tag-text: #1e40af;
-            --border-color: #e2e8f0;
-            --sidebar-bg: #ffffff;
+            --primary-color: #2563eb; --bg-color: #f8fafc; --card-bg: #ffffff;
+            --text-main: #1e293b; --text-muted: #64748b; --accent-tag: #dbeafe;
+            --accent-tag-text: #1e40af; --border-color: #e2e8f0; --sidebar-bg: #ffffff;
         }
 
         [data-theme="dark"] {
-            --primary-color: #60a5fa;
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent-tag: #1e3a8a;
-            --accent-tag-text: #bfdbfe;
-            --border-color: #334155;
-            --sidebar-bg: #1e293b;
+            --primary-color: #60a5fa; --bg-color: #0f172a; --card-bg: #1e293b;
+            --text-main: #f8fafc; --text-muted: #94a3b8; --accent-tag: #1e3a8a;
+            --accent-tag-text: #bfdbfe; --border-color: #334155; --sidebar-bg: #1e293b;
         }
 
         body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            margin: 0; padding: 0; background: var(--bg-color); color: var(--text-main);
-            line-height: 1.6; display: flex; transition: background-color 0.3s, color 0.3s;
+            font-family: 'Inter', -apple-system, sans-serif; margin: 0; padding: 0;
+            background: var(--bg-color); color: var(--text-main); line-height: 1.6;
+            display: flex; transition: background-color 0.3s, color 0.3s;
         }
 
         /* === 侧边栏样式 === */
@@ -41,13 +29,11 @@
             background: var(--sidebar-bg); border-right: 1px solid var(--border-color);
             padding: 30px 20px; box-sizing: border-box; display: flex; flex-direction: column;
             gap: 12px; z-index: 100; overflow-y: auto;
-            scrollbar-width: none; 
-            -ms-overflow-style: none;
+            scrollbar-width: none; -ms-overflow-style: none;
         }
-        .sidebar::-webkit-scrollbar {
-            display: none; 
-        }
-        .sidebar-brand { font-size: 1.4rem; font-weight: 800; color: var(--primary-color); }
+        .sidebar::-webkit-scrollbar { display: none; }
+
+        .sidebar-section { margin-bottom: 10px; }
         .sidebar-section h4 { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.05em; }
         
         .filter-btn {
@@ -58,19 +44,41 @@
         .filter-btn:hover { background: var(--bg-color); border-color: var(--primary-color); }
         .filter-btn.active { background: var(--primary-color); color: #fff; border-color: var(--primary-color); }
 
-        /* 新增：复选框样式 */
         .source-checkbox {
             display: flex; align-items: center; gap: 10px; margin-bottom: 10px;
             font-size: 0.9rem; color: var(--text-main); cursor: pointer;
         }
-        .source-checkbox input {
-            cursor: pointer; width: 16px; height: 16px; accent-color: var(--primary-color);
-        }
+        .source-checkbox input { cursor: pointer; width: 16px; height: 16px; accent-color: var(--primary-color); }
 
         .theme-toggle {
             margin-top: auto; padding: 12px; background: var(--bg-color); border: 1px solid var(--border-color);
             border-radius: 8px; cursor: pointer; color: var(--text-main); font-weight: bold; width: 100%;
         }
+
+        /* === 状态标识与悬浮窗样式 === */
+        .status-badge {
+            display: inline-flex; align-items: center; gap: 4px;
+            background: rgba(34, 197, 94, 0.15); color: #16a34a; padding: 4px 10px; 
+            border-radius: 999px; font-size: 0.8rem; font-weight: bold; cursor: help; 
+            margin-left: 12px; border: 1px solid rgba(34, 197, 94, 0.3); transition: all 0.2s ease;
+        }
+        [data-theme="dark"] .status-badge { color: #4ade80; }
+        .status-badge:hover { background: rgba(34, 197, 94, 0.25); }
+
+        .tooltip-container { position: relative; display: inline-block; }
+        .tooltip-text {
+            position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%);
+            background: #1e293b; color: #f8fafc; padding: 12px 16px; border-radius: 10px;
+            font-size: 0.85rem; width: max-content; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            opacity: 0; visibility: hidden; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000; text-align: left; line-height: 1.8; border: 1px solid #334155;
+        }
+        .tooltip-text::after {
+            content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+            border-width: 6px; border-style: solid; border-color: #334155 transparent transparent transparent;
+        }
+        .tooltip-container:hover .tooltip-text { opacity: 1; visibility: visible; bottom: 145%; }
+        .tooltip-header { font-weight: 800; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; }
 
         /* === 主内容区样式 === */
         .main-content { margin-left: 260px; padding: 30px 40px 40px; flex: 1; min-height: 100vh; }
@@ -78,45 +86,6 @@
         h1 { font-size: 2.2rem; margin: 0 0 8px 0; font-weight: 800; line-height: 1.1; }
         .stats { color: var(--text-muted); font-size: 1.1rem; }
 
-        /* === 状态标识与悬浮窗样式 === */
-        .status-badge {
-            display: inline-flex; align-items: center; gap: 4px;
-            background: rgba(34, 197, 94, 0.15); color: #16a34a;
-            padding: 4px 10px; border-radius: 999px; font-size: 0.8rem; font-weight: bold;
-            cursor: help; margin-left: 12px; border: 1px solid rgba(34, 197, 94, 0.3);
-            transition: all 0.2s ease;
-        }
-        [data-theme="dark"] .status-badge { color: #4ade80; }
-        .status-badge:hover { background: rgba(34, 197, 94, 0.25); }
-
-        .tooltip-container { position: relative; display: inline-block; }
-        
-        .tooltip-text {
-            position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%);
-            background: #1e293b; color: #f8fafc; padding: 12px 16px; border-radius: 10px;
-            font-size: 0.85rem; width: max-content; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-            opacity: 0; visibility: hidden; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            z-index: 1000; text-align: left; line-height: 1.8;
-            border: 1px solid #334155;
-        }
-        
-        /* 悬浮窗的向下小箭头 */
-        .tooltip-text::after {
-            content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-            border-width: 6px; border-style: solid;
-            border-color: #334155 transparent transparent transparent;
-        }
-
-        /* 鼠标悬停时的动画效果：向上浮现 */
-        .tooltip-container:hover .tooltip-text {
-            opacity: 1; visibility: visible; bottom: 145%;
-        }
-
-        .tooltip-header {
-            font-weight: 800; margin-bottom: 6px; padding-bottom: 6px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0;
-        }
-        
         .paper-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
         .paper-card {
             background: var(--card-bg); padding: 24px; border-radius: 16px; border: 1px solid var(--border-color);
@@ -145,34 +114,34 @@
     <div class="sidebar-section">
         <h4>数据来源</h4>
         <label class="source-checkbox">
-            <input type="checkbox" value="arXiv" checked onchange="applyFilters()"> Semantic Scholar
+            <input type="checkbox" value="Semantic Scholar" checked onchange="applyFilters()"> 🎓 Semantic Scholar
         </label>
         <label class="source-checkbox">
-            <input type="checkbox" value="arXiv" checked onchange="applyFilters()"> arXiv
+            <input type="checkbox" value="arXiv" checked onchange="applyFilters()"> 📜 arXiv
         </label>
         <label class="source-checkbox">
-            <input type="checkbox" value="PubMed" checked onchange="applyFilters()"> PubMed
+            <input type="checkbox" value="PubMed" checked onchange="applyFilters()"> 🏥 PubMed
         </label>
     </div>
 
     <div class="sidebar-section">
         <h4>时间范围</h4>
         <select id="time-filter" onchange="applyFilters()" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-main); font-size: 0.9rem; cursor: pointer; outline: none;">
-            <option value="all">不限时间</option>
-            <option value="today">今日更新</option>
-            <option value="3days">近三天</option>
-            <option value="1week">近一周</option>
+            <option value="all">🕒 不限时间</option>
+            <option value="today">📅 今日更新</option>
+            <option value="3days">📆 近三天</option>
+            <option value="1week">🗓️ 近一周</option>
         </select>
     </div>
 
     <div class="sidebar-section">
         <h4>快速过滤</h4>
-        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">全部文献</button>
-        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">LLM</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">Foundation Model</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">Protein Language Model</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">Fine-tuning</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">Deep Learning</button>
+        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">🌐 全部文献</button>
+        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">🧠 LLM</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">🧱 Foundation Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">🧬 Protein Language Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">⚙️ Fine-tuning</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">📉 Deep Learning</button>
     </div>
 
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">🌙 切换暗黑模式</button>
@@ -183,21 +152,19 @@
         <h1>今日前沿文献</h1>
         <div class="stats" style="display: flex; align-items: center;">
             <span>当前显示 <strong id="total-count">{{ all_papers|length }}</strong> 篇文献</span>
-            
             <div class="tooltip-container">
                 <span class="status-badge">
                     <span style="display:inline-block; width:8px; height:8px; background:#22c55e; border-radius:50%; box-shadow: 0 0 6px #22c55e;"></span> 
                     抓取状态
                 </span>
-                
                 <div class="tooltip-text">
-                    <div class="tooltip-header">今日爬虫报告</div>
-                    <div style="color: #cbd5e1;">抓取文献：<strong style="color: #fff;">{{ all_papers|length }}</strong> 篇</div>
-                    <div style="color: #4ade80;">成功捕获：<strong style="color: #fff;">{{ all_papers|length }}</strong> 篇</div>
-                    <div style="color: #f87171;">失败丢弃：<strong style="color: #fff;">0</strong> 篇</div>
+                    <div class="tooltip-header">📊 今日爬虫真实报告</div>
+                    <div style="color: #cbd5e1;">📦 抓取总数：<strong style="color: #fff;">{{ stats.total }}</strong> 篇</div>
+                    <div style="color: #4ade80;">✅ 成功入库：<strong style="color: #fff;">{{ stats.success }}</strong> 篇</div>
+                    <div style="color: #f87171;">❌ 过滤丢弃：<strong style="color: #fff;">{{ stats.failed }}</strong> 篇</div>
                 </div>
             </div>
-            </div>
+        </div>
     </header>
 
     <div class="paper-grid" id="paper-container">
@@ -213,7 +180,6 @@
                     <a href="https://doi.org/{{ paper.doi }}" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">{{ paper.doi }}</a>
                 </div>
                 {% endif %}
-
                 {% if paper.citations is defined and paper.citations != "" %}
                 <div>
                     <span style="color: var(--text-muted);">🔥 引用: </span>
@@ -227,9 +193,8 @@
             </div>
 
             <div class="tags-container">
-                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">{{ paper.source }}</span>
-                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">{{ paper.date }}</span>
-                
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ {{ paper.source }}</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 {{ paper.date }}</span>
                 {% if paper.keywords %}
                     {% for tag in paper.keywords %}
                         <span class="tag">{{ tag }}</span>
@@ -242,7 +207,7 @@
 </main>
 
 <script>
-    // 1. 暗黑模式逻辑保持不变
+    // 1. 暗黑模式
     function toggleTheme() {
         const html = document.documentElement;
         const btn = document.getElementById('theme-btn');
@@ -258,10 +223,9 @@
     }
     if(localStorage.getItem('theme') === 'dark') { toggleTheme(); }
 
-    // 2. 核心更新：全局状态管理与交叉过滤
-    let currentKeyword = 'all'; // 记录当前选中的领域标签
+    // 2. 核心状态与过滤逻辑
+    let currentKeyword = 'all'; 
 
-    // 点击领域按钮时，只更新选中状态并记录关键词，真正的过滤交给 applyFilters()
     function setKeywordFilter(keyword, btnElement) {
         document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
         btnElement.classList.add('active');
@@ -269,25 +233,49 @@
         applyFilters(); 
     }
 
-    // 联合过滤函数：同时校验"复选框来源"和"领域标签"
     function applyFilters() {
-        // 提取所有被勾选的来源值 (如 ["arXiv", "PubMed"])
+        // 提取复选框与时间选项
         const checkedSources = Array.from(document.querySelectorAll('.source-checkbox input:checked')).map(cb => cb.value);
-        
+        const timeFilter = document.getElementById('time-filter').value;
         const cards = document.querySelectorAll('.paper-card');
         let visibleCount = 0;
+        const now = Date.now();
 
         cards.forEach(card => {
-            const keywordsStr = card.getAttribute('data-keywords');
-            const source = card.getAttribute('data-source');
+            const keywordsStr = card.getAttribute('data-keywords') || "";
+            const source = card.getAttribute('data-source') || "";
+            const dateStr = card.getAttribute('data-date') || "";
             
-            // 条件 1: 标签匹配 (如果选了 all 就默认过，否则查字符串包含)
-            const matchKeyword = (currentKeyword === 'all' || keywordsStr.includes(currentKeyword));
-            // 条件 2: 来源匹配 (看这篇论文的 source 是否在被勾选的数组里)
+            // 修复 Bug 2: 精确匹配标签（切割为数组）
+            let matchKeyword = (currentKeyword === 'all');
+            if (!matchKeyword) {
+                const keywordArray = keywordsStr.split(',');
+                matchKeyword = keywordArray.includes(currentKeyword);
+            }
+
+            // 数据源匹配
             const matchSource = checkedSources.includes(source);
 
-            // 只有两个条件同时满足，才显示这篇卡片
-            if (matchKeyword && matchSource) {
+            // 修复 Bug 3: 时间匹配（妥善处理缺少日期和只有年份的 PubMed 数据）
+            let matchTime = true;
+            if (timeFilter !== 'all') {
+                if (!dateStr) {
+                    matchTime = true; // 缺失日期默认放行
+                } else if (dateStr.length <= 4) {
+                    matchTime = true; // 仅有年份（如 "2026"），时间精度不足以过滤天数，直接放行
+                } else {
+                    const paperTime = new Date(dateStr).getTime();
+                    if (!isNaN(paperTime)) {
+                        const diffDays = (now - paperTime) / (1000 * 3600 * 24);
+                        if (timeFilter === 'today') matchTime = diffDays <= 1.5;
+                        else if (timeFilter === '3days') matchTime = diffDays <= 3.5;
+                        else if (timeFilter === '1week') matchTime = diffDays <= 7.5;
+                    }
+                }
+            }
+
+            // 综合控制显隐
+            if (matchKeyword && matchSource && matchTime) {
                 card.classList.remove('hidden');
                 visibleCount++;
             } else {
@@ -295,58 +283,12 @@
             }
         });
 
-        // 更新计数器
         document.getElementById('total-count').innerText = visibleCount;
     }
+
+    // 修复 Bug 1：页面刚渲染完时，强制同步一次复选框和下拉菜单的状态！
     window.addEventListener('DOMContentLoaded', (event) => {
-        // 联合过滤函数：同时校验"复选框来源"、"领域标签" 和 "时间范围"
-        function applyFilters() {
-            const checkedSources = Array.from(document.querySelectorAll('.source-checkbox input:checked')).map(cb => cb.value);
-            const timeFilter = document.getElementById('time-filter').value; // 获取选中的时间
-            const cards = document.querySelectorAll('.paper-card');
-            let visibleCount = 0;
-            // 获取当前时间戳
-            const now = Date.now();
-            cards.forEach(card => {
-                const keywordsStr = card.getAttribute('data-keywords');
-                const source = card.getAttribute('data-source');
-                const dateStr = card.getAttribute('data-date'); // 获取论文日期 "YYYY-MM-DD"
-                
-                // 条件 1: 标签匹配
-                const matchKeyword = (currentKeyword === 'all' || keywordsStr.includes(currentKeyword));
-                // 条件 2: 来源匹配
-                const matchSource = checkedSources.includes(source);
-                
-                // 条件 3: 时间匹配
-                let matchTime = true;
-                if (timeFilter !== 'all' && dateStr) {
-                    // 将论文日期转为时间戳，计算与今天的相差天数
-                    const paperTime = new Date(dateStr).getTime();
-                    // 1000毫秒 * 3600秒 * 24小时 = 一天的毫秒数
-                    const diffDays = (now - paperTime) / (1000 * 3600 * 24);
-                    
-                    // 增加 0.5 天的宽容度，防止因为时区差异导致误杀
-                    if (timeFilter === 'today') {
-                        matchTime = diffDays <= 1.5;
-                    } else if (timeFilter === '3days') {
-                        matchTime = diffDays <= 3.5;
-                    } else if (timeFilter === '1week') {
-                        matchTime = diffDays <= 7.5;
-                    }
-                }
-    
-                // 只有三个条件同时满足，才显示这篇卡片
-                if (matchKeyword && matchSource && matchTime) {
-                    card.classList.remove('hidden');
-                    visibleCount++;
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-    
-            // 更新计数器
-            document.getElementById('total-count').innerText = visibleCount;
-        }
+        applyFilters();
     });
 </script>
 
