@@ -1,35 +1,75 @@
 [
   {
-    "title": "UtilityMax Prompting: A Formal Framework for Multi-Objective Large Language Model Optimization",
+    "title": "$\\Psi_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
     "authors": [
-      "Ofir Marom"
+      "Songlin Wei",
+      "Hongyi Jing",
+      "Boqian Li",
+      "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/c4c3fdd0644fabcde1f677bf1237fc11d039bae0",
+    "link": "https://www.semanticscholar.org/paper/ccc7bb29e052b098005acac17ba5dd7956c085c9",
     "date": "2026-03-12",
-    "keywords": [],
+    "keywords": [
+      "Foundation Model"
+    ],
     "source": "Semantic Scholar",
-    "abstract_raw": "The success of a Large Language Model (LLM) task depends heavily on its prompt. Most use-cases specify prompts using natural language, which is inherently ambiguous when multiple objectives must be simultaneously satisfied. In this paper we introduce UtilityMax Prompting, a framework that specifies tasks using formal mathematical language. We reconstruct the task as an influence diagram in which the LLM's answer is the sole decision variable. A utility function is defined over the conditional probability distributions within the diagram, and the LLM is instructed to find the answer that maximises expected utility. This constrains the LLM to reason explicitly about each component of the objective, directing its output toward a precise optimization target rather than a subjective natural language interpretation. We validate our approach on the MovieLens 1M dataset across three frontier models (Claude Sonnet 4.6, GPT-5.4, and Gemini 2.5 Pro), demonstrating consistent improvements in precision and Normalized Discounted Cumulative Gain (NDCG) over natural language baselines in a multi-objective movie recommendation task.",
+    "abstract_raw": "We introduce $\\Psi_0$ (Psi-Zero), an open foundation model to address challenging humanoid loco-manipulation tasks. While existing approaches often attempt to address this fundamental problem by co-training on large and diverse human and humanoid data, we argue that this strategy is suboptimal due to the fundamental kinematic and motion disparities between humans and humanoid robots. Therefore, data efficiency and model performance remain unsatisfactory despite the considerable data volume. To address this challenge, \\ours\\;decouples the learning process to maximize the utility of heterogeneous data sources. Specifically, we propose a staged training paradigm with different learning objectives: First, we autoregressively pre-train a VLM backbone on large-scale egocentric human videos to acquire generalizable visual-action representations. Then, we post-train a flow-based action expert on high-quality humanoid robot data to learn precise robot joint control. Our research further identifies a critical yet often overlooked data recipe: in contrast to approaches that scale with noisy Internet clips or heterogeneous cross-embodiment robot datasets, we demonstrate that pre-training on high-quality egocentric human manipulation data followed by post-training on domain-specific real-world humanoid trajectories yields superior performance. Extensive real-world experiments demonstrate that \\ours\\ achieves the best performance using only about 800 hours of human video data and 30 hours of real-world robot data, outperforming baselines pre-trained on more than 10$\\times$ as much data by over 40\\% in overall success rate across multiple tasks. We will open-source the entire ecosystem to the community, including a data processing and training pipeline, a humanoid foundation model, and a real-time action inference engine.",
     "summary": "",
     "doi": "",
     "citations": 0
   },
   {
-    "title": "Visual language model-assisted CT denoising via text-guided diffusion and fidelity maintenance.",
+    "title": "CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation",
     "authors": [
-      "Ye Shen",
-      "Ningning Liang",
-      "A. Cai",
+      "Ziqi Ye",
+      "Ziyang Gong",
+      "Ning Liao",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/f8c8d0b0d70c9bdb612c2bcfefcfa94b784c84cc",
+    "link": "https://www.semanticscholar.org/paper/a46a76a72dc65c237effc1e7fe89d6e2f2aa77e9",
     "date": "2026-03-12",
     "keywords": [
-      "Journal of X-Ray Science and Technology"
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Synthetic Aperture Radar (SAR) enables global, all-weather earth observation. However, owing to diverse imaging mechanisms, domain shifts across sensors and regions severely hinder its semantic generalization. To address this, we present CrossEarth-SAR, the first billion-scale SAR vision foundation model built upon a novel physics-guided sparse mixture-of-experts (MoE) architecture incorporating physical descriptors, explicitly designed for cross-domain semantic segmentation. To facilitate large-scale pre-training, we develop CrossEarth-SAR-200K, a weakly and fully supervised dataset that unifies public and private SAR imagery. We also introduce a benchmark suite comprising 22 sub-benchmarks across 8 distinct domain gaps, establishing the first unified standard for domain generalization semantic segmentation on SAR imagery. Extensive experiments demonstrate that CrossEarth-SAR achieves state-of-the-art results on 20 benchmarks, surpassing previous methods by over 10\\% mIoU on some benchmarks under multi-gap transfer. All code, benchmark and datasets will be publicly available.",
+    "summary": "",
+    "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control",
+    "authors": [
+      "Ihor Kendiukhov"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d14a14ef5264f2fc8bda395cf568800a4b8b98f2",
+    "date": "2026-03-12",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Mechanistic interpretability of biological foundation models has relied on selective feature sampling, pairwise interaction testing, and observational trajectory analysis. Each of these can introduce systematic bias. Here we present three experiments that address these limitations through exhaustive circuit tracing, higher order combinatorial ablation, and causal trajectory steering in Geneformer, a transformer based single cell foundation model. First, exhaustive tracing of all 4065 active sparse autoencoder features at layer 5 yields 1393850 significant downstream edges, a 27 fold expansion over selective sampling. This reveals a heavy tailed hub distribution in which 1.8 percent of features account for disproportionate connectivity and 40 percent of the top 20 hubs lack biological annotation. These results indicate systematic annotation bias in prior selective analyses. Second, three way combinatorial ablation across 8 feature triplets shows that redundancy deepens monotonically with interaction order, with a three way ratio of 0.59 versus a pairwise ratio of 0.74, and with zero synergy. This confirms that the model architecture is subadditive at all tested orders. Third, trajectory guided feature steering establishes a causal link between layer position and differentiation directionality. Late layer features at L17 consistently push cell states toward maturity, with fraction positive equal to 1.0. Early and mid layer features at L0 and L11 mostly push away from maturity, with fraction positive ranging from 0.00 to 0.58. Together these results move from correlation toward causal evidence for layer dependent control of cell state.",
+    "summary": "",
+    "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.",
+    "authors": [
+      "Rui Han",
+      "Emily Xi Tan",
+      "Yangcenzi Xie",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a08d9f2821ce882caa3d2819599c4abd3fcdcce2",
+    "date": "2026-03-12",
+    "keywords": [
+      "ACS Applied Materials and Interfaces"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
-    "doi": "10.1177/08953996251372739",
+    "doi": "10.1021/acsami.6c00759",
     "citations": 0
   }
 ]
