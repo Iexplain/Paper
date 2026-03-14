@@ -24,13 +24,22 @@ all_papers_combined = s2_papers + pubmed_papers + arxiv_papers
 
 # 3. 按日期倒序排列（确保最新抓取的论文永远在最前面）
 all_papers_combined.sort(key=lambda x: x.get("date", ""), reverse=True)
+# 尝试读取爬虫的真实运行状态
+try:
+    with open("data/run_stats.json", "r", encoding="utf-8") as f:
+        run_stats = json.load(f)
+except FileNotFoundError:
+    # 兜底：如果文件还没生成，就用总文献数凑合一下
+    run_stats = {"total": len(all_papers_combined), "success": len(all_papers_combined), "failed": 0}
 
 env = Environment(loader=FileSystemLoader("templates"))
 template = env.get_template("index_template.html")
 
-# 4. 把合并后的总数据传给前端模板
+html_content = template.render(all_papers=all_papers_combined, stats=run_stats)
+
 html_content = template.render(all_papers=all_papers_combined)
 
+# 4. 把合并后的总数据传给前端模板
 with open("index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
