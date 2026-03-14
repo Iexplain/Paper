@@ -38,6 +38,7 @@ all_papers_dict = {} # 用字典来去重 (以 paperId 为 key)
 TAG_KEYWORDS = ["Deep Learning", "LLM", "Foundation Model", "Agent", "Fine-tuning", "Protein Language Model"]
 
 print("🚀 开始多线程/多关键词安全抓取...")
+stats_total = 0  # 记录 API 返回的文献总数
 
 for query in QUERIES:
     params = {
@@ -66,6 +67,9 @@ for query in QUERIES:
                 
             response.raise_for_status()
             data = response.json()
+            # 记录每次 API 返回的文献数量
+            items = data.get("data", [])
+            stats_total += len(items)
             
             # 解析并清洗数据
             for item in data.get("data", []):
@@ -127,3 +131,11 @@ with open("data/s2.json", "w", encoding="utf-8") as f:
     json.dump(final_papers, f, ensure_ascii=False, indent=2)
 
 print(f"🎉 抓取完成！共获得 {len(final_papers)} 篇有效去重文献。")
+# 新增：将真实的运行状态保存下来，供网页生成使用
+run_stats = {
+    "total": stats_total,
+    "success": len(final_papers),
+    "failed": stats_total - len(final_papers) # 包括太老被过滤的、重复的等
+}
+with open("data/run_stats.json", "w", encoding="utf-8") as f:
+    json.dump(run_stats, f, ensure_ascii=False, indent=2)
