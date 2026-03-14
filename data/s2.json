@@ -1,75 +1,40 @@
 [
   {
-    "title": "$\\Psi_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
+    "title": "Matching Features, Not Tokens: Energy-Based Fine-Tuning of Language Models",
     "authors": [
-      "Songlin Wei",
-      "Hongyi Jing",
-      "Boqian Li",
+      "Samy Jelassi",
+      "Mujin Kwun",
+      "Rosie Zhao",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/ccc7bb29e052b098005acac17ba5dd7956c085c9",
+    "link": "https://www.semanticscholar.org/paper/9dd8d2704aecd63a527c19d7bdf11f1a5f62a7d6",
     "date": "2026-03-12",
     "keywords": [
-      "Foundation Model"
+      "Fine-tuning"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "We introduce $\\Psi_0$ (Psi-Zero), an open foundation model to address challenging humanoid loco-manipulation tasks. While existing approaches often attempt to address this fundamental problem by co-training on large and diverse human and humanoid data, we argue that this strategy is suboptimal due to the fundamental kinematic and motion disparities between humans and humanoid robots. Therefore, data efficiency and model performance remain unsatisfactory despite the considerable data volume. To address this challenge, \\ours\\;decouples the learning process to maximize the utility of heterogeneous data sources. Specifically, we propose a staged training paradigm with different learning objectives: First, we autoregressively pre-train a VLM backbone on large-scale egocentric human videos to acquire generalizable visual-action representations. Then, we post-train a flow-based action expert on high-quality humanoid robot data to learn precise robot joint control. Our research further identifies a critical yet often overlooked data recipe: in contrast to approaches that scale with noisy Internet clips or heterogeneous cross-embodiment robot datasets, we demonstrate that pre-training on high-quality egocentric human manipulation data followed by post-training on domain-specific real-world humanoid trajectories yields superior performance. Extensive real-world experiments demonstrate that \\ours\\ achieves the best performance using only about 800 hours of human video data and 30 hours of real-world robot data, outperforming baselines pre-trained on more than 10$\\times$ as much data by over 40\\% in overall success rate across multiple tasks. We will open-source the entire ecosystem to the community, including a data processing and training pipeline, a humanoid foundation model, and a real-time action inference engine.",
+    "abstract_raw": "Cross-entropy (CE) training provides dense and scalable supervision for language models, but it optimizes next-token prediction under teacher forcing rather than sequence-level behavior under model rollouts. We introduce a feature-matching objective for language-model fine-tuning that targets sequence-level statistics of the completion distribution, providing dense semantic feedback without requiring a task-specific verifier or preference model. To optimize this objective efficiently, we propose energy-based fine-tuning (EBFT), which uses strided block-parallel sampling to generate multiple rollouts from nested prefixes concurrently, batches feature extraction over these rollouts, and uses the resulting embeddings to perform an on-policy policy-gradient update. We present a theoretical perspective connecting EBFT to KL-regularized feature-matching and energy-based modeling. Empirically, across Q&A coding, unstructured coding, and translation, EBFT matches RLVR and outperforms SFT on downstream accuracy while achieving a lower validation cross-entropy than both methods.",
     "summary": "",
     "doi": "",
     "citations": 0
   },
   {
-    "title": "CrossEarth-SAR: A SAR-Centric and Billion-Scale Geospatial Foundation Model for Domain Generalizable Semantic Segmentation",
+    "title": "DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining",
     "authors": [
-      "Ziqi Ye",
-      "Ziyang Gong",
-      "Ning Liao",
+      "Yu Yan",
+      "Raphael Tang",
+      "Zhenyu Gao",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/a46a76a72dc65c237effc1e7fe89d6e2f2aa77e9",
+    "link": "https://www.semanticscholar.org/paper/d8952c44ec8067536e38e394750b20f475897793",
     "date": "2026-03-12",
     "keywords": [
-      "Foundation Model"
+      "Cited: 1"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "Synthetic Aperture Radar (SAR) enables global, all-weather earth observation. However, owing to diverse imaging mechanisms, domain shifts across sensors and regions severely hinder its semantic generalization. To address this, we present CrossEarth-SAR, the first billion-scale SAR vision foundation model built upon a novel physics-guided sparse mixture-of-experts (MoE) architecture incorporating physical descriptors, explicitly designed for cross-domain semantic segmentation. To facilitate large-scale pre-training, we develop CrossEarth-SAR-200K, a weakly and fully supervised dataset that unifies public and private SAR imagery. We also introduce a benchmark suite comprising 22 sub-benchmarks across 8 distinct domain gaps, establishing the first unified standard for domain generalization semantic segmentation on SAR imagery. Extensive experiments demonstrate that CrossEarth-SAR achieves state-of-the-art results on 20 benchmarks, surpassing previous methods by over 10\\% mIoU on some benchmarks under multi-gap transfer. All code, benchmark and datasets will be publicly available.",
+    "abstract_raw": "In financial backtesting, large language models pretrained on internet-scale data risk introducing lookahead bias that undermines their forecasting validity, as they may have already seen the true outcome during training. To address this, we present DatedGPT, a family of twelve 1.3B-parameter language models, each trained from scratch on approximately 100 billion tokens of temporally partitioned data with strict annual cutoffs spanning 2013 to 2024. We further enhance each model with instruction fine-tuning on both general-domain and finance-specific datasets curated to respect the same temporal boundaries. Perplexity-based probing confirms that each model's knowledge is effectively bounded by its data cutoff year, while evaluation on standard benchmarks shows competitive performance with existing models of similar scale. We provide an interactive web demo that allows users to query and compare responses from models across different cutoff years.",
     "summary": "",
     "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control",
-    "authors": [
-      "Ihor Kendiukhov"
-    ],
-    "link": "https://www.semanticscholar.org/paper/d14a14ef5264f2fc8bda395cf568800a4b8b98f2",
-    "date": "2026-03-12",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Mechanistic interpretability of biological foundation models has relied on selective feature sampling, pairwise interaction testing, and observational trajectory analysis. Each of these can introduce systematic bias. Here we present three experiments that address these limitations through exhaustive circuit tracing, higher order combinatorial ablation, and causal trajectory steering in Geneformer, a transformer based single cell foundation model. First, exhaustive tracing of all 4065 active sparse autoencoder features at layer 5 yields 1393850 significant downstream edges, a 27 fold expansion over selective sampling. This reveals a heavy tailed hub distribution in which 1.8 percent of features account for disproportionate connectivity and 40 percent of the top 20 hubs lack biological annotation. These results indicate systematic annotation bias in prior selective analyses. Second, three way combinatorial ablation across 8 feature triplets shows that redundancy deepens monotonically with interaction order, with a three way ratio of 0.59 versus a pairwise ratio of 0.74, and with zero synergy. This confirms that the model architecture is subadditive at all tested orders. Third, trajectory guided feature steering establishes a causal link between layer position and differentiation directionality. Late layer features at L17 consistently push cell states toward maturity, with fraction positive equal to 1.0. Early and mid layer features at L0 and L11 mostly push away from maturity, with fraction positive ranging from 0.00 to 0.58. Together these results move from correlation toward causal evidence for layer dependent control of cell state.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.",
-    "authors": [
-      "Rui Han",
-      "Emily Xi Tan",
-      "Yangcenzi Xie",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/a08d9f2821ce882caa3d2819599c4abd3fcdcce2",
-    "date": "2026-03-12",
-    "keywords": [
-      "ACS Applied Materials and Interfaces"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1021/acsami.6c00759",
-    "citations": 0
+    "citations": 1
   }
 ]
