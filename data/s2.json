@@ -1,40 +1,21 @@
 [
   {
-    "title": "Matching Features, Not Tokens: Energy-Based Fine-Tuning of Language Models",
+    "title": "GrapheneChat: A Large Language Model for Enhancing Graphene Research.",
     "authors": [
-      "Samy Jelassi",
-      "Mujin Kwun",
-      "Rosie Zhao",
+      "Dinglong Yang",
+      "Chengyu Lu",
+      "Yixiong Feng",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/9dd8d2704aecd63a527c19d7bdf11f1a5f62a7d6",
-    "date": "2026-03-12",
+    "link": "https://www.semanticscholar.org/paper/d5040fc23f2d815371d93629d4a1ab16b27d7153",
+    "date": "2026-03-13",
     "keywords": [
-      "Fine-tuning"
+      "ACS Nano"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "Cross-entropy (CE) training provides dense and scalable supervision for language models, but it optimizes next-token prediction under teacher forcing rather than sequence-level behavior under model rollouts. We introduce a feature-matching objective for language-model fine-tuning that targets sequence-level statistics of the completion distribution, providing dense semantic feedback without requiring a task-specific verifier or preference model. To optimize this objective efficiently, we propose energy-based fine-tuning (EBFT), which uses strided block-parallel sampling to generate multiple rollouts from nested prefixes concurrently, batches feature extraction over these rollouts, and uses the resulting embeddings to perform an on-policy policy-gradient update. We present a theoretical perspective connecting EBFT to KL-regularized feature-matching and energy-based modeling. Empirically, across Q&A coding, unstructured coding, and translation, EBFT matches RLVR and outperforms SFT on downstream accuracy while achieving a lower validation cross-entropy than both methods.",
+    "abstract_raw": null,
     "summary": "",
-    "doi": "",
+    "doi": "10.1021/acsnano.5c21335",
     "citations": 0
-  },
-  {
-    "title": "DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining",
-    "authors": [
-      "Yu Yan",
-      "Raphael Tang",
-      "Zhenyu Gao",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/d8952c44ec8067536e38e394750b20f475897793",
-    "date": "2026-03-12",
-    "keywords": [
-      "Cited: 1"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "In financial backtesting, large language models pretrained on internet-scale data risk introducing lookahead bias that undermines their forecasting validity, as they may have already seen the true outcome during training. To address this, we present DatedGPT, a family of twelve 1.3B-parameter language models, each trained from scratch on approximately 100 billion tokens of temporally partitioned data with strict annual cutoffs spanning 2013 to 2024. We further enhance each model with instruction fine-tuning on both general-domain and finance-specific datasets curated to respect the same temporal boundaries. Perplexity-based probing confirms that each model's knowledge is effectively bounded by its data cutoff year, while evaluation on standard benchmarks shows competitive performance with existing models of similar scale. We provide an interactive web demo that allows users to query and compare responses from models across different cutoff years.",
-    "summary": "",
-    "doi": "",
-    "citations": 1
   }
 ]
