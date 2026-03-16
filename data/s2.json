@@ -1,5 +1,1192 @@
 [
   {
+    "title": "Towards a Child-Appropriate LLM for Child–Robot Conversation",
+    "authors": [
+      "Irina Rudenko",
+      "Utku Norman",
+      "Lukas Hilgert",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f9d37ee99688604a2755c592bd643556f760e28f",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM",
+      "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) hold significant promise for enhancing Child–Robot Interaction (CRI), offering advanced conversational skills and adaptability to the diverse abilities, requests and needs of young children. Little attention, however, has been paid to evaluating the age and developmental appropriateness of LLMs. This paper brings together experts in psychology, social robotics and LLMs to define metrics for the validation of LLMs for child–robot interaction.",
+    "summary": "",
+    "doi": "10.1145/3776734.3794383",
+    "citations": 0
+  },
+  {
+    "title": "From Co-design to Deployment: Toward Sustainable and Scalable Socially Assistive Robots for Speech-Language Therapy",
+    "authors": [
+      "Soomin Shin"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6927e4215d30b149f04405ccd0cffe25a122b87",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794628",
+    "citations": 0
+  },
+  {
+    "title": "Investigating User Perceptions of Robot Foundation Model Performance and Evaluations",
+    "authors": [
+      "Isaac S. Sheidlower",
+      "Jindan Huang",
+      "James Staley",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f203d92bd49fb95f09af6f5450197a3d58968717",
+    "date": "2026-03-16",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794505",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Agentic Systems in HRI (MAgicS-HRI): Bridging Design and Real-World Challenges for End Users",
+    "authors": [
+      "Yan Zhang",
+      "Sarah Schömbs",
+      "Xiang Pan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/eca7f7922524426fc45fd5ccb5ff553542aaf07d",
+    "date": "2026-03-16",
+    "keywords": [
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3788825",
+    "citations": 0
+  },
+  {
+    "title": "The Imitation of Intimacy: Comparing Satisfaction in Intimate Human and AI Companion Relationships",
+    "authors": [
+      "Annette M. Masterson",
+      "Xin Ye",
+      "Yiyang Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e92d4d8821d440eb314262b69ce2fc46b0c30e3b",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794515",
+    "citations": 0
+  },
+  {
+    "title": "RBTLR: A Framework for Safe Social Robot Navigation in Novel Human-Centric Environments",
+    "authors": [
+      "Nayesha Gandotra"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d10abf3cff8304b92e8da376fc31fa0440ba696b",
+    "date": "2026-03-16",
+    "keywords": [
+      "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Mobile robots are increasingly prevalent in human-centric environments such as restaurants, hospitals, and public facilities. A critical challenge is developing navigation policies that balance efficiency with human safety and social norms. Traditional approaches rely on hand-crafted social cost functions or human trajectory prediction, which struggle with generalization or real-time performance. End-to-end learning methods offer flexibility but often require large-scale human-robot data. Recent work like OLiVia-Nav [Narasimhan et al, 2024] shows promise using vision-language models for social reasoning, but still depends on learned trajectory generators. We present a modular pipeline combining fast search-based motion planning with a learned trajectory selector jointly trained on visual embeddings and candidate trajectories. Additionally, to support long-horizon behavior, complex reasoning, and user feedback, we integrate a Large Language Model (LLM)-driven goal assignment module that enables high-level task planning and contextual adaptability. We demonstrate our approach in a simulated restaurant navigation setting, but importantly, our pipeline generalizes to novel human-robot interaction scenarios. This is made possible by the use of VLMs, which provide zero-shot understanding of social context without task-specific pretraining. In this paper, we primarily propose the pipeline architecture and present early experimental results, and we welcome feedback on this new direction for scalable, socially-aware robot navigation.",
+    "summary": "",
+    "doi": "10.1145/3776734.3794437",
+    "citations": 0
+  },
+  {
+    "title": "Robot Tutors or Peers? Evaluating Math Learning and Conformity with LLM-Powered Robots in Tanzanian Primary Schools",
+    "authors": [
+      "Edger P. Rutatola",
+      "Elina C. Ntahomvukye",
+      "Koen Stroeken",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ce4738201f965603c2fdaee6f17668ae4e1b71f1",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM",
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In the past decade, more than half of Tanzanian pupils have failed mathematics in the national Primary School Leaving Examinations (PSLEs), a problem often linked to large class sizes, limited resources, and a shortage of qualified teachers. Social robots have shown promise in supporting learning, and their integration with large language models (LLMs) enables advanced conversational tutoring capabilities. This study investigates the use of two LLM-powered NAO robots, one acting as a tutor and the other as a peer, to assist pupils in solving complex mathematics problems from past PSLEs. Recognising that LLMs are prone to errors in mathematical reasoning, the robots were deliberately programmed to make noticeable mistakes, allowing us to examine whether pupils detect these errors and how their responses shape the learning process. Data collected from 54 pupils across two Tanzanian primary schools indicate that LLM-powered robots can significantly enhance mathematics performance, with the robot tutor slightly outperforming the robot peer. However, results also reveal that pupils often accept robot-provided answers, even when recognised as incorrect, if they perceive the robot as being smart. These findings underscore both the potential and the risks of deploying autonomous robots in education, with the authority attributed to the robot being a double-edged sword, highlighting the need for designs that encourage pupils to question robot-provided solutions.",
+    "summary": "",
+    "doi": "10.1145/3757279.3785594",
+    "citations": 0
+  },
+  {
+    "title": "NeckMate: A Wearable Robot That Links Speech and Temperature",
+    "authors": [
+      "Taito Tashiro",
+      "Marino Inada"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bfb2b65860215877e6b31c1d5af53fb714620a86",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794593",
+    "citations": 0
+  },
+  {
+    "title": "Communicating Object Relations through Robot Gestures",
+    "authors": [
+      "Xiang Pan",
+      "Malcolm Doering",
+      "Takayuki Kanda"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bd1c66b7971f7e44dc8c694d27f38457f2a4014f",
+    "date": "2026-03-16",
+    "keywords": [
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "We proposed a system for generating relational gestures that convey semantic relations such as similarity and difference between two objects. To understand how humans naturally express such relations, we conducted an observational study with experienced shopkeepers as they frequently compare objects using both speech and gestures. Through analysis of their interactions, we identified four common types of object relations and extracted representative gesture patterns for each. For example, similarity was often conveyed through synchronized hand movements bringing both hands closer together, accompanied by alternating gaze between two objects. Based on these findings, we developed a gesture generation system in which one large language model (LLM) infers the intended object relation from utterance text, and another LLM adapts gestures from a co-speech gesture system that aligns them with speech, integrating relational cues without disrupting this alignment. These modified gestures were automatically mapped onto a dual-arm robot. We evaluated the system through two user studies. In the first study, 20 participants were asked to identify object relations from 24 relational gestures performed by the robot without accompanying speech. They correctly identified the intended relations with an average accuracy of 89.8% across all relation types. In the second study, another 20 participants compared two robot conditions in a within-subjects design: one with relational gestures and one without. Results showed that the robot using relational gestures was perceived as more competent, sociable, and animate compared to the robot without them.",
+    "summary": "",
+    "doi": "10.1145/3757279.3785554",
+    "citations": 0
+  },
+  {
+    "title": "Sympathy as a Lens for Human–Robot Interaction: Analysing YouTube Responses to Robot Abuse",
+    "authors": [
+      "Vlatka Tolj",
+      "Caterina Neef",
+      "Barbara Bruno"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b94d220f2c734527ec29dab2d4d4d22c0440365f",
+    "date": "2026-03-16",
+    "keywords": [
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "When witnessing the abuse of others, humans generally exhibit emotional responses. A large number of studies in Human-Robot-Interaction (HRI) have shown that humans also react with sympathy when robots are abused, but most of these insights come from controlled laboratory studies using short videos and student samples. To complement existing research with observations drawn from real-world online discussions, this paper presents a sentiment analysis of 103,413 YouTube comments on videos depicting abuse of animal-like, humanoid, and cart-shaped robots. To validate our sentiment classification, we analysed the comments using a lexicon-based tool, two fine-tuned language models, and three general-purpose state-of-the-art large language models (LLMs). The comparison yielded interesting results: LLMs generally classified science-fiction–related comments, e.g., references to dystopian TV shows, as negative, while lexicon and fine-tuned models mainly labelled them as neutral. The six models agreed on the classification of a total of 27,427 comments, which we used to explore the sentiment expressions occurring across videos featuring robots with different physical forms. Our findings provide large-scale, ecologically valid insights into how emotional responses to robot abuse are expressed and analysed in online video platforms.",
+    "summary": "",
+    "doi": "10.1145/3757279.3785595",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating Dynamic Surface Compensation for Robots with Projected AR",
+    "authors": [
+      "Hong Wang",
+      "Ngoc Bao Dinh",
+      "Zhao Han"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b7e33dda6c044d0c9441f7fe874a25d5922dead2",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794434",
+    "citations": 0
+  },
+  {
+    "title": "Should Robots Comply with Our Instructions or Intentions?",
+    "authors": [
+      "Tiffany Horter",
+      "Andrew Markham",
+      "Niki Trigoni",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b3c00ee4d8ae3e980de692a51e69134ed31f4253",
+    "date": "2026-03-16",
+    "keywords": [
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "When people communicate, they often express their intent imperfectly, and human collaborators routinely compensate for these mistakes without issue. For example, if Alice asks for a spatula while serving soup, Bob may infer her intent and bring a ladle instead. This raises a key question for human–robot collaboration: should robots follow instructions literally or should they infer and act on human intent? We study how people expect robots to respond to ambiguous or incorrect instructions in collaborative kitchen scenarios. In this user study, participants either act directly on behalf of a robot or indirectly in observing a robot that may depart from literal instructions to pursue the inferred intent. We find that people generally prefer robots to take some action rather than refuse to comply, although people expect robots to attempt to satisfy the literal instruction (i.e., by thoroughly searching the scene) before taking an imperfect action to satisfy the intent. As large language models (LLMs) are increasingly used to model common sense, we conduct a pilot study to assess whether LLMs make the same decisions as human users about when robots should reinterpret requests.",
+    "summary": "",
+    "doi": "10.1145/3757279.3785553",
+    "citations": 0
+  },
+  {
+    "title": "Stable or Stuck? Understanding MLLM Engagement Prediction in Uncontrolled and Controlled HRI",
+    "authors": [
+      "Jia Yap Lim",
+      "John See",
+      "William Weimin Yoo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1c68d96d79ff9298f5c877cf6eeaf5bf0ad34ae",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794476",
+    "citations": 0
+  },
+  {
+    "title": "Deployment-Oriented Benchmarking of Open-Source Large Language Models for Social Robots",
+    "authors": [
+      "N. Costa Pereira",
+      "Y. Madadi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a685ecd4cc487c7a49026f66dc243901d2fa68ce",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794426",
+    "citations": 0
+  },
+  {
+    "title": "Show Your Work: Mechanistic Transparency in LLM-Powered Human-Robot Interaction",
+    "authors": [
+      "Umur Yıldız",
+      "Berk Yüce",
+      "Ayaz Karadağ",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a21667143c3a51e25601ed6a0a8125d7300a7635",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM",
+      "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models(LLMs) introduce powerful new capabilities for social robots, yet their black-box nature creates a barrier to trust. Transparency is already established as important for humanrobot trust, but how to convey LLM intentions and reasoning in real-time, embodied interaction remains poorly understood. We developed a task-level mechanistic transparency system for an LLM-powered Pepper robot that displays its internal reasoning process dynamically on the robot’s tablet during interaction. In a mixed-design study, participants engaged with Pepper across four trust-relevant tasks in either a Transparency-ON condition or Transparency-OFF condition. Transparency produced significantly greater trust growth than opacity, and a substantial increase in perceived reliability, indicating that transparency remains a key design element for trust calibration in LLM-driven human-robot interaction.",
+    "summary": "",
+    "doi": "10.1145/3776734.3794439",
+    "citations": 0
+  },
+  {
+    "title": "Who Leads the Story? Comparing Autonomous vs. Adult-Supported Child-Robot Interactions",
+    "authors": [
+      "Dotun Olutunbi",
+      "Riccardo Polvara",
+      "T. Claire Davies",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a1ed122e5ed6b1db449a5090d325d6c060811b16",
+    "date": "2026-03-16",
+    "keywords": [
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study investigates the potential of large language model (LLM)-enabled robots to support inclusive child-robot storytelling activities in elementary education. 65 children (ages 6–11) engaged in story co-construction with an LLM-enabled Pepper robot across two experimental conditions. In the child-robot dyad, the robot autonomously guided the interaction through questioning and cartoon displays. In the child-adult-robot triad, Pepper displayed story visuals while an adult co-facilitated dialogue. Evidence-based, neuro-affirming strategies were embedded throughout. Parents completed the Autism Spectrum Quotient (AQ-10), while children provided post-session self-reports on engagement and affect. Interaction transcripts were analysed for structural linguistic features. Results showed that both conditions effectively supported story recall and engagement. Affect toward the robot was consistently high, though a negative correlation with age in the dyad condition suggested increased awareness of technical limitations. Linguistic analyses revealed no differences in grammatical complexity between conditions, yet triadic sessions fostered broader vocabulary use and greater recall for older children. Outcomes correlation with AQ-10 indicate that both the autonomous robot and the human-robot team were effective and engaging across the neurodiverse spectrum. Findings demonstrate that LLM-enabled robots can be both standalone educational partners and tools for hybrid human-robot facilitation. We discuss implications for inclusive pedagogy, highlight technical challenges, and propose future directions for research.",
+    "summary": "",
+    "doi": "10.1145/3757279.3785564",
+    "citations": 0
+  },
+  {
+    "title": "Robotic Sycophancy: A Scoping Review",
+    "authors": [
+      "Katie Seaborn",
+      "Ö. Yalçın"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9bd19117a9b49e6c499bdb35b78b6d0f5f5ba48a",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794532",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating LLM Driving Explanations through an Ego-Centric Scenario Taxonomy",
+    "authors": [
+      "Sheng Yan",
+      "Tsvetomila Mihaylova"
+    ],
+    "link": "https://www.semanticscholar.org/paper/879ca50d033fe593f75f93deaf584c196571e466",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794466",
+    "citations": 0
+  },
+  {
+    "title": "Fluid-Xpress: Emotion-Aware Dual-Loop Framework for Empathic Facial Reaction in HRI",
+    "authors": [
+      "Chen Kang",
+      "Madina Alitai",
+      "Yiting Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/71b202e4a8cbc906e253f9037bb86b95b2c02f24",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794429",
+    "citations": 0
+  },
+  {
+    "title": "Flexible LLM-Based Voice Assistance for Mobile Robots",
+    "authors": [
+      "S. Fischedick",
+      "R. Schmidt",
+      "Benedict Stephan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6dafe42431971dcc2036a4c5e9e767b2638a4bff",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794452",
+    "citations": 0
+  },
+  {
+    "title": "Cultivating Connection: A Feasibility Study of Robot-Mediated Plant Care and Emotional Support for Older Adults",
+    "authors": [
+      "Cheonshu Park"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5e96452987f3f6143c9e455fe32d0d83211c9e42",
+    "date": "2026-03-16",
+    "keywords": [
+      "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper presents a pilot study examining how a mobile home robot can support older adults through plant care activities combined with conversational emotional support. The system integrates autonomous navigation, vision-based plant health assessment, and large language model-driven dialogue to address participants’ mood, cognitive concerns, and daily living activities over a three-week intervention. Five community-dwelling older adults (aged 65+) participated in weekly sessions at a living lab environment, where the robot guided plant care tasks and engaged in structured conversations across four domains: depression screening, cognitive self-assessment, instrumental activities of daily living, and personal preferences. Standardized questionnaires administered after each of the three sessions measured cognitive function, technology acceptance, daily vitality, and psychological stability. Friedman tests across all three sessions revealed statistically significant improvements in psychological stability (χ2(2) = 7.60, p = .022) and robot acceptance (χ2(2) = 8.40, p = .015). The study demonstrates the technical feasibility and preliminary evidence of deploying such services with older adults and identifies key considerations for scaling the intervention.",
+    "summary": "",
+    "doi": "10.1145/3776734.3794369",
+    "citations": 0
+  },
+  {
+    "title": "A Pilot Study of Robot Storytelling for Civic Data Literacy",
+    "authors": [
+      "Raj Korpan",
+      "Khadeja Ahmar",
+      "Raitah A. Jinnat",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/576bf5c175ffcc325c45d8efe3064fc82a958be8",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794475",
+    "citations": 0
+  },
+  {
+    "title": "Facilitating Co-regulation: An LLM-Powered Multimodal Social Robot for Parent-Child Dyads",
+    "authors": [
+      "Jing Li",
+      "Felix Schijve",
+      "Jun Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5136b37cc77ac2a98d3a0d7a65a95b65720635e4",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794485",
+    "citations": 0
+  },
+  {
+    "title": "Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models",
+    "authors": [
+      "Till Hielscher",
+      "Fabio Scaparro",
+      "Kai O. Arras"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4d30a6160167daa1b736712da62a83bf1553cbc7",
+    "date": "2026-03-16",
+    "keywords": [
+      "Foundation Model",
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Expressive robot motion positively impacts human-robot interaction by improving user engagement, likability, or task performance. We present a novel approach to automatically generate and modulate complex, expressive full-body gesture sequences from a multimodal (text, audio, video) context description. Based on a unified mathematical implementation of the Principles of Animation using Dynamic Movement Primitives, we use multimodal foundation models to generate such sequences along with parametric motion variations that are highly context-aware. This method extends the state of the art in terms of flexibility and generality by being interpretable, composable, and working across different robot morphologies. Moreover, we integrate the system into a continuous control framework and leverage knowledge distillation to learn a much smaller model, significantly improving token efficiency and system latency. Results from a user study with a human-like platform indicate that participants judged our system’s motions to be better aligned with the interaction context than motions produced under a non-modulated or API-level condition. We also demonstrate how the system generates expressive motion for robots with different kinematics, showcasing its versatility. Paper webpage: https://gen-mod-expressive-motion-behavior.github.io/.",
+    "summary": "",
+    "doi": "10.1145/3757279.3785635",
+    "citations": 0
+  },
+  {
+    "title": "CareEval: Evaluating Large Language Models for Decision-Making in Physical Robot Caregiving",
+    "authors": [
+      "Zi-Kui Liu",
+      "Katherine Dimitropoulou",
+      "C. Cheung",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/48cc33af874ac0458f5c0e95d0ad1449ca242e43",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794354",
+    "citations": 0
+  },
+  {
+    "title": "CLIO: Coordinate User Visual Attention with Audio Narratives for Enhanced Engagement",
+    "authors": [
+      "Yuxuan Chen",
+      "Ian Leong Ting Lo",
+      "Bao Guo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/435d1ea09a3c906bb6fd20eb6f700b6f551977cf",
+    "date": "2026-03-16",
+    "keywords": [
+      "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "A tour guide robot, CLIO, is presented. It carries a display as its head and a laser pointer to orient visitors’ attention by its head movement and laser pointer. Animated eyes are displayed to build eye contact. An optional low-code interface based on a Large Language Model is offered to coordinate the designed actions with a given narrative script for exhibition. We conducted a user study to evaluate the CLIO system in a mock-up exhibition of historical photographs. Feedback was collected from questionnaires and quantitative data from a mobile eye tracker. Experimental result validated that the efficacy of the designed actions in guiding visual attention of the visitors. It showed that CLIO achieved an enhanced engagement compared to the Audio-only baseline system.",
+    "summary": "",
+    "doi": "10.1145/3776734.3794565",
+    "citations": 0
+  },
+  {
+    "title": "A Framework for Low-Latency, LLM-Driven Multimodal Interaction on the Pepper Robot",
+    "authors": [
+      "Erich Studerus",
+      "Vivienne Jia Zhong",
+      "Stephan Vonschallen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3a87e8fab7f4311d9eb99cb0cd5c5de42ca82baa",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM",
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Despite recent advances in integrating Large Language Models (LLMs) into social robotics, two weaknesses persist. First, existing implementations on platforms like Pepper often rely on cascaded Speech-to-Text (STT)→LLM→Text-to-Speech (TTS) pipelines, resulting in high latency and the loss of paralinguistic information. Second, most implementations fail to fully leverage the LLM’s capabilities for multimodal perception and agentic control. We present an open-source Android framework for the Pepper robot that addresses these limitations through two key innovations. First, we integrate end-to-end Speech-to-Speech (S2S) models to achieve low-latency interaction while preserving paralinguistic cues and enabling adaptive intonation. Second, we implement extensive Function Calling capabilities that elevate the LLM to an agentic planner, orchestrating robot actions (navigation, gaze control, tablet interaction) and integrating diverse multimodal feedback (vision, touch, system state). The framework runs on the robot’s tablet but can also be built to run on regular Android smartphones or tablets, decoupling development from robot hardware. This work provides the HRI community with a practical, extensible platform for exploring advanced LLM-driven embodied interaction.",
+    "summary": "",
+    "doi": "10.1145/3757279.3788808",
+    "citations": 0
+  },
+  {
+    "title": "“I Loved How Pepper Talked About My Hoodie”: A Situated, MI-Grounded Multimodal Architecture for Engaging Conversation",
+    "authors": [
+      "Raiyan Ashraf",
+      "Yanni Liu",
+      "Sruthi Ganji",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/36a936278e9df0b2e788b6f4cbaccf4b2bc1e8f0",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794474",
+    "citations": 0
+  },
+  {
+    "title": "A Neck Pillow Companion Robot That Alleviates User Loneliness Through Dialogue and Thermal Feedback",
+    "authors": [
+      "Taito Tashiro",
+      "Marino Inada",
+      "Fumihide Tanaka"
+    ],
+    "link": "https://www.semanticscholar.org/paper/315a141855e0a84377957bacbb716d37c24f3620",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794396",
+    "citations": 0
+  },
+  {
+    "title": "Perception–Awareness–Decision: Socially‑Aware Robot Navigation and Interaction",
+    "authors": [
+      "Edison Jair Bejarano Sepulveda",
+      "Valerio Bo",
+      "A. Sanfeliu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2624379eb10b2cfcda4cfb286eb478bb4d27d5af",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794394",
+    "citations": 0
+  },
+  {
+    "title": "Teaching the Teacher: Live Foundation Model and Augmented Reality Feedback for Human-to-Robot Skill Transfer",
+    "authors": [
+      "N. Moorman",
+      "Matthew B. Luebbers",
+      "Xijia Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1c0357b6f6a854fa38e24f9bff6c03ad2326ac7c",
+    "date": "2026-03-16",
+    "keywords": [
+      "Foundation Model",
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Deploying robots in dynamic, human-populated environments will require techniques for adaptable robot skill acquisition that extend beyond pre-programmed functionality. Learning from demonstration (LfD) methods enable robots to learn skills from human-provided trajectories demonstrated in situ. However, prior work has shown non-expert end-users struggle to provide demonstrations that enable robots to perform complex, multi-step tasks, or to generalize skill knowledge beyond a specific environment and task context. This work enables robots to actively participate in the situated learning interaction by autonomously providing bespoke guidance in response to end-users' demonstrations, thus improving end-users' ability to teach robots useful skills via LfD. We introduce a novel LfD system integrating foundation model (FM)-based textual feedback and augmented reality (AR)-based visual feedback. The FM and AR feedbacks operate synergistically, with FM feedback helping users break tasks down effectively and with AR feedback allowing users to quickly evaluate how well demonstrations perform and generalize. This system provides targeted, actionable guidance throughout the demonstration process: it enhances users' ability to define, decompose, and demonstrate modular, repurposable skills capable of accomplishing complex tasks. We validate our system with a human-subjects experiment in which participants receive bespoke feedback as they teach a robot via kinesthetic demonstrations in a pair of robotic manipulation domains. From this study, we observe positive results demonstrating that the combination of AR and FM feedback improves the quality and generalizability of robot policies, compared to AR feedback alone, FM feedback alone, or a baseline system where learned skills can be played physically on the robot.",
+    "summary": "",
+    "doi": "10.1145/3757279.3788667",
+    "citations": 0
+  },
+  {
+    "title": "Towards a Usage-Based Pedagogy for Second Language Learning with Robots",
+    "authors": [
+      "E. Verhelst",
+      "Tony Belpaeme"
+    ],
+    "link": "https://www.semanticscholar.org/paper/198c31e141395b92a0014b88205a63a5ee196a39",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794484",
+    "citations": 0
+  },
+  {
+    "title": "Neurosymbolic Explanation Selection in Robotics: Combining the Strengths of Planning and Foundation Models for XAI",
+    "authors": [
+      "Lennart Wachowiak",
+      "Andrew Coles",
+      "O. Çeliktutan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1572d5431221bbc713e921beb63a30e5d27cc5e9",
+    "date": "2026-03-16",
+    "keywords": [
+      "Foundation Model",
+      "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Robots operating in human environments should be able to answer diverse, explanation-seeking questions about their past behavior. We present a neurosymbolic pipeline that links a task planner with a unified logging interface, which attaches heterogeneous XAI artifacts (e.g., visual heatmaps, navigation feedback) to individual plan steps. Given a natural language question, a large language model selects the most relevant actions and consolidates the associated logs into a multimodal explanation. In an offline evaluation on 180 questions across six plans in two domains, we show that an LLM-based question matcher retrieves relevant plan steps accurately (F1 Score of 0.91), outperforming a lower-compute embedding baseline (0.62) and a rule-based syntax/keyword matcher (0.02). A preliminary user study (N=30) suggests that users prefer the LLM-consolidated explanations over raw logs and planner-only explanations.",
+    "summary": "",
+    "doi": "10.1145/3776734.3794387",
+    "citations": 0
+  },
+  {
+    "title": "Expressive Furhat: Generating Real-Time Facial Expressions for Human-Robot Dialogue with LLMs",
+    "authors": [
+      "Giulio Antonio Abbo",
+      "R. Janssens",
+      "Seppe Van de Vreken",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e98a8399eb2bdc3e0a0970c328b5351b23c46f2",
+    "date": "2026-03-16",
+    "keywords": [
+      "LLM"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794436",
+    "citations": 0
+  },
+  {
+    "title": "BehaviorKit: A Multi-modal Real-Time Behavior Analysis Library for Robots",
+    "authors": [
+      "W. Valentine",
+      "Selma Šabanović",
+      "David J. Crandall",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0cac3728835e604ce3352a02ad649e3faed30214",
+    "date": "2026-03-16",
+    "keywords": [
+      "IEEE/ACM International Conference on Human-Robot Interaction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "We present BehaviorKit, an open-source plug-and-play module that enables the addition of real-time behavior analysis using deep learning to any robot with internet access. The library bundles together gaze tracking, real-time transcription, textual sentiment analysis, facial emotion (valence and arousal) estimation, and face and pose landmark localization. The library is designed to be run on a GPU-powered computer, either on the robot or externally, to process the incoming visual and auditory inputs that the robot receives. The library connects via WebSocket to the robot, which receives the processed outputs from all of the models. The WebSocket client can easily connect to a ROS-powered robot, or a custom client can be written to adapt to any robot; alternatively, the library can also be run between two laptop computers. A small dataset is provided to test the framework. By packaging together and optimizing many commonly used models, we hope to enable easier access to high-performing behavior models for the HRI community. The code is available at https://github.com/IUB-RHouse/BehaviorKit.",
+    "summary": "",
+    "doi": "10.1145/3757279.3788799",
+    "citations": 0
+  },
+  {
+    "title": "Anticipating Safety and Security Risks of Embodied AI: A Multidimensional Risk Framework for Foundation Models in HRI",
+    "authors": [
+      "Hong Wang",
+      "Katie Winkle",
+      "Ginevra Castellano"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0524e5597d527ff2ee35d6442364b59075620d1f",
+    "date": "2026-03-16",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794552",
+    "citations": 0
+  },
+  {
+    "title": "Can Vision Language Models Zero-Shot Thermal Images for Private and Robust Human Robot Interaction?",
+    "authors": [
+      "Hang-Rui Hu",
+      "He Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/04ae9052a9087a6cbb60931f5b8e2fd8cec396a8",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3776734.3794390",
+    "citations": 0
+  },
+  {
+    "title": "A Novel Bayesian-Optimized Hybrid Recurrent Neural Network for Predicting Lettuce Harvest Time in Controlled-Environment Agriculture",
+    "authors": [
+      "Kaili Wang",
+      "Xihai Zhang",
+      "Xupeng Yin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ff208930455541c4d03dbda0ab075306d685eec7",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurately predicting the harvest time of a crop remains a significant challenge in agricultural management and sustainable crop production, as it is essential for optimizing harvesting schedules and preventing yield or quality losses caused by premature or delayed harvesting. To address this, a deep learning model integrating gated recurrent unit (GRU) and bidirectional long short-term memory (BiLSTM) networks was proposed to enhance prediction performance by capturing both short- and longterm dependencies within time-series data while tuning the key hyperparameters using a Bayesian optimization (BO) algorithm. The model was based on growth data of plant height, number of leaves, and projected area (the area of lettuce as captured from top-view images), along with environmental data such as light intensity, temperature, humidity, and the amount of carbon dioxide, using plant factory hydroponic lettuce as the research subject. To ensure rigorous evaluation, experiments were conducted under a plant-wise protocol (Plant ID) using grouped cross-validation, preventing any leakage of time windows from the same plant across folds. Under this evaluation setting, the proposed method demonstrated stable performance, achieving mse = 2.376 ± 0.594, RMSE = 1.532 ± 0.194, MAE = 1.278 ± 0.159, and R2 = 0.826 ± 0.029. These results indicate that combining hybrid recurrent architectures with automated hyperparameter optimization provides an effective and reproducible approach for harvest time forecasting and supports practical decision-making in controlled-environment agriculture.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3656669",
+    "citations": 0
+  },
+  {
+    "title": "A Lightweight Dual-Stream Network for Human Activity Recognition From Sparse Millimeter-Wave Radar Point Clouds",
+    "authors": [
+      "Hao Sun",
+      "Fangfang Zhang",
+      "Jinzhu Peng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fe0e0eb96a4443ed65298c7949337979bcb3f190",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Millimeter-wave (mmWave) radar is increasingly used for indoor human activity recognition (HAR) systems due to its privacy-preserving nature. However, the design of practical HAR systems is often challenged by action complexity, data sparsity, and the deployment of large models on resource-constrained hardware. To address this, we propose a lightweight and efficient HAR system, the Dual-Fusion Transformer, which features a dual-stream architecture that combines a lightweight PointNet for global features and edge convolution (EdgeConv) for local details, with a Transformer module fusing these streams for final classification. Our system first tackles the issue of data sparsity by introducing an intensity-guided distribution-preserving oversampling (IGDPO) method. This technique augments sparse point clouds while maintaining their original statistical properties, effectively preventing overfitting. The design of the Dual-Fusion Transformer mitigates sensitivity to variations in action speed and complexity. On the public MMActivity dataset, our proposed system achieves a state-of-the-art (SOTA) classification accuracy of 99.60%. This represents an absolute improvement of over 35% points against traditional methods (e.g., support vector machine (SVM)) and surpasses the previous deep learning SOTA (i.e., dynamic voxel convolutional neural network (DVCNN)) by 1.99% points. With only 0.64M parameters, our system is highly suitable for deployment on edge devices. Furthermore, to validate its generalization capabilities, we conducted extensive experiments on both a new public dataset (mmWave-3DPCHM- 1.0) and a self-collected real-world dataset. Our model achieved excellent classification accuracies of 99.21% and 99.40%, respectively, demonstrating its superior robustness and adaptability across different sensor configurations and environments.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3659530",
+    "citations": 0
+  },
+  {
+    "title": "A Server-Side Model Intellectual Property Protection Method for Federated Learning Against Model Theft",
+    "authors": [
+      "Wenxiong Chen",
+      "Xuantao Tang",
+      "Dan Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f8068a3d7d06db00d2d650c92ff1804a168b0a99",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Federated learning (FL) has gained significant attention for enabling the collaborative model training while preserving data privacy. However, protecting the intellectual property (IP) of models in FL, particularly against model theft by malicious clients, remains a critical challenge. Existing works often employ watermarking techniques to embed watermarks into models for ownership verification, but most of them can only verify ownership after the model has been stolen and cannot proactively defend against malicious clients attempting to steal the model. To address this limitation, this article proposes FedLock, a novel server-side watermarking mechanism designed to resist model theft and safeguard the IP of global models. Specifically, FedLock leverages split FL (SFL) to partition the model, effectively preventing malicious clients from accessing the complete set of global model parameters. To enhance security, FedLock incorporates an autoencoder for label encoding, safeguarding the server-side model from reconstruction attacks. Furthermore, FedLock introduces an additional backdoor client to embed a black-box watermark into the global model, enabling remote verification of model ownership. Experimental results demonstrate that FedLock achieves robust watermarking with the minimal impact on model performance, effectively resisting various attacks, including model theft, pruning, and fine-tuning.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3650344",
+    "citations": 0
+  },
+  {
+    "title": "Deep Learning Enable Smart Trafficking Management System",
+    "authors": [
+      "Swathi. B",
+      "A. A",
+      "S. A",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef22db22a918b60dd107a6a760764520cc08c5f3",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "International Journal of Engineering &amp; Extended Technologies Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Traffic congestion has become one of the most pressing challenges in modern urban environments. Rapid population growth, the surge in private vehicle ownership, and limited infrastructure capacity have all contributed to overcrowded roads and inefficient traffic flow. Traditional traffic management systems, which rely heavily on fixed-time signal control, fail to adapt to dynamic traffic conditions. This often results in prolonged waiting times at intersections, unnecessary fuel consumption, increased air pollution, and a higher risk of accidents.\n\n\n \n\n\nTo address these issues, this project proposes a Smart Traffic Management System powered by deep learning, artificial intelligence, and IoT-based sensors. The system continuously monitors, analyses, and regulates traffic in real time. Data is collected from surveillance cameras, IoT sensors, and GPS-enabled devices, providing a holistic view of traffic conditions. Convolutional Neural Networks (CNNs) are employed for vehicle detection, counting, and classification, while Long Short-Term Memory (LSTM) networks enhance traffic flow prediction. By integrating adaptive traffic signal control, the system prioritizes emergency vehicles, reduces congestion, and improves overall road safety.\n\n\n \n\n\nBeyond efficiency, the system aims to create a smoother and more sustainable commuting experience. By reducing idle times and optimizing fuel usage, it directly contributes to lowering carbon emissions and improving air quality. Commuters benefit from shorter travel times, while cities gain a smarter infrastructure capable of evolving with changing demands. Ultimately, this project envisions a future where technology and human needs merge seamlessly—building smarter, greener, and safer cities that enhance the quality of everyday life.",
+    "summary": "",
+    "doi": "10.15662/ijrpetm.2026.0902008",
+    "citations": 0
+  },
+  {
+    "title": "A Simplified Reference Sensor-Embedded Low-Noise Fiber-Optic Hydrophone for Improving Deep Learning-Based Underwater Acoustic Perception",
+    "authors": [
+      "Yuanzhi Zhai",
+      "Long Zhang",
+      "Dongye Xie",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e85d4f8139bd36327c160064d4f32cae4bb0b7ea",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Underwater environment denoising and target recognition are vital tasks in underwater acoustic perception. Recent advances in deep learning have greatly improved these tasks, but their performance remains limited by the quality of sensor-acquired data. Fiber-optic hydrophones (FOHs), which are widely used in underwater acoustic data collection, suffer from inherent phase noise. This noise introduces random perturbations to the captured data and hence reduces the effectiveness of learning-based methods. Embedding a reference sensor in FOH is a promising solution to reduce FOH phase noise, but it is complex to implement. To address this challenge, this study proposes a simplified method for implementing a reference sensor-embedded FOH. In the proposed architecture, the signal and reference sensors are made all-passive and share a common input and output via time-division multiplexing. To reduce computational complexity in the demodulation, the conventional ellipse fitting algorithm (EFA) is replaced with a self-orthogonal component superposition (SOCS) method for nonlinear distortion compensation. Experimental results demonstrate that the proposed FOH can suppress phase noise by up to 9.33 dB compared to conventional FOH, and achieves a total harmonic distortion (THD) of −33.71 dB. Using the proposed FOH, deep learning-based environment denoising is improved by 3.73 dB, and underwater target recognition accuracy is enhanced by 6.96%. These findings validate the effectiveness of the proposed FOH and highlight the significance of phase noise reduction in enhancing deep learning-based underwater acoustic perception.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3658694",
+    "citations": 0
+  },
+  {
+    "title": "A Tap Is Your Key: Authentication by Tapping on the Face With a Wearable IMU",
+    "authors": [
+      "Yetong Cao",
+      "Fan Li",
+      "Xiao-Chu Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/dc0a1c929ffe54beb3966ee1f44f8560b37ce2d9",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As wearables continue to gain widespread popularity, ensuring secure and convenient authentication becomes imperative to safeguard the data stored within these devices. However, existing wearable-based authentication solutions often rely on specialized and costly hardware, have limited applicability to specific scenarios, and are vulnerable to permanent biometric leakages. To address these limitations, this article explores the uniqueness of hand motions and subtle vibrations associated with face tapping. Specifically, we propose TapPass as a secure and convenient authentication solution that leverages face-tapping signals captured via the inertial measurement unit (IMU) in wrist-worn wearables for user authentication. To address significant interference from other body motions, we utilize the energy ratio (ER) and duration analysis of IMU measurements, followed by deep learning-based extraction of clean face-tapping signals. Additionally, we explore the uniqueness of face-tapping signals and extract effective features encompassing motion, vibration, and integral aspects. Based on these features, we generate cancelable biometrics leveraging a linear convolution-based approach, bestowing reregistration capabilities upon traditionally invariant biometrics. This solution effectively eliminates concerns surrounding permanent biometrics leakage and enables accurate authentication in both single-user and multiuser scenarios. Extensive experiments with 24 volunteers over three months demonstrate that TapPass achieves accurate authentication while effectively tackling major attacks and motion interference, all while maintaining user-friendliness.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3649901",
+    "citations": 0
+  },
+  {
+    "title": "IoMT in Low-Cost Autofluorescence Imaging and Automated Detection at Edge for Cervical Cancer",
+    "authors": [
+      "Shreya Adhikary",
+      "Santi P. Maity",
+      "Ayushman Chakraborty",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d3728df1fbadca47239013f4a70358930cb2985c",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This work proposes an Internet of Medical Things (IoMT) framework to offer a low-cost, portable, and effective solution for early cervical cancer screening through an intelligent integration of autofluorescence (AF) imaging microscopy, cloud server, and edge computing as a software-defined network (SDN) and deep learning (DL) techniques. Wavelet transform, on red, green, and blue channels of AF images, is done, followed by the fusion techniques that highlight various cytological details, and to mitigate the data scarcity problem autoencoder-based generative adversarial network (GAN) is employed. Finally, two DL classifier models of convolutional neural network (CNN) architectures, namely, VGG16 and ResNet50, are trained for cervical cancer detection on the fused images at the SDN controller, along with other computationally extensive image processing operations. Once the DL network is trained, a pretrained submodel is run for AF test images on the edge node accessed by patients’ smartphones (mobile apps). A large set of results shows that, along with low latency and energy consumption, the ResNet50 model achieves an accuracy of 0.99, outperforming the existing methods.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3650818",
+    "citations": 0
+  },
+  {
+    "title": "A Supervised and Transfer Learning-Based Two-Stage Framework for UAV Swarm Multitarget Tracking",
+    "authors": [
+      "Haoran Sun",
+      "Xianfeng Li",
+      "Yicheng Yan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cd1015a786afc74d021a1689b20b77864d26e891",
+    "date": "2026-03-15",
+    "keywords": [
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The cooperative multirobot observation of multiple moving targets (CMOMMTs) is a representative task in the Internet of Things (IoT)-enabled applications. In this task, unmanned aerial vehicles (UAV) swarm aim to maximize the average observation rate by tracking previously detected targets while searching for undetected ones. However, these two objectives present a tradeoff, requiring effective coordination strategies to balance. Traditional methods, such as heuristic optimization and reinforcement learning (RL), often struggle with generalization and are difficult to train in complex multiagent scenarios. To overcome these limitations, we propose a supervised and transfer learning framework (STLF), a two-stage architecture for UAV swarm coordination. In the first stage, a Teacher Model is trained under the assumption of full access to undetected target positions, generating near-optimal actions. In the second stage, a Student Model is initialized with the Teacher’s knowledge and fine-tuned via transfer learning, using a probabilistic map to approximate undetected target position under realistic constraints. Furthermore, by introducing a Lévy flight-based motion model, we expose the limitations of random walk-based models used in previous studies, which tend to underestimate the complexity of realistic target movements. Experimental results demonstrate the effectiveness of our approach, with the STLF achieving an average observation rate of 40.75%, outperforming all five baselines by 5.92%–14.93% across various settings.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3651138",
+    "citations": 1
+  },
+  {
+    "title": "Research on Oil and Gas Pipeline Defect and Stress Concentration Identification Method Based on Metal Magnetism",
+    "authors": [
+      "Liansheng Qin",
+      "Xianzhu Dai",
+      "Mingjiang Shi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cce12f88ae5cc0cf5e7e841aab2797bee815b2c8",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Defects and stress concentrations in oil and gas pipelines often occur at welds and elbows. In order to effectively distinguish between different types of defects and stress concentrations, a method for identifying defects and stress concentrations in oil and gas pipelines based on metal magnetic memory (MMM) is proposed. First, numerical simulations of defects and stress concentrations are conducted using the principle of MMM detection. Then, an experimental plan is designed, and an experimental platform is constructed based on the results of the numerical simulations. Magnetic memory signals from 224 sets of defects and 256 sets of stress concentrations were collected, and analysis found that the magnetic memory signals for defects and stress concentrations are similar and susceptible to environmental interference. Traditional methods of feature extraction are difficult and challenging to achieve high-precision discrimination. To address the issue of difficulty in feature extraction, a deep learning approach is adopted, proposing a hybrid model that integrates the multiuniverse optimization algorithm, convolutional neural network, and bidirectional long short-term memory network. The experimental dataset is then validated. The results show that the recognition accuracy of this method can reach 94.8%, proving its effectiveness and high recognition rate in identifying defects and stress concentrations in oil and gas pipelines, and providing new ideas for intelligent recognition of pipeline defects.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3657715",
+    "citations": 0
+  },
+  {
+    "title": "Few-Shot Rotating Machinery Bearing Fault Diagnosis With Denoising Diffusion-Based Data Augmentation",
+    "authors": [
+      "Xinyue Wang",
+      "Liqing Fang",
+      "Jinli Che",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c8951c114d5eb3b6bbcebd921968eb09dac553da",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Fault detection and diagnosis of bearings are crucial for maintaining the operational integrity of rotating machinery. However, the scarcity of fault samples, particularly for rare faults, leads to severe data imbalance, which consequently degrades model performance and increases false alarm rates. Although deep learning methods have improved diagnostic accuracy, models based on 1-D data often struggle to effectively capture the complex spatiotemporal correlation characteristics inherent in bearing faults. To~address this challenge, this study proposes an innovative data augmentation framework that integrates a denoising diffusion probabilistic model (DDPM) with Gramian angular field (GAF) transformation and presents an intelligent fault diagnosis method for bearings under small-sample conditions. The proposed method first processes vibration signals acquired from a three-channel sensor using the piecewise aggregate approximation (PAA) algorithm to generate RGB-formatted Gramian angular difference field (GADF) images. The size of the resulting images is then reduced by employing bicubic interpolation-based downsampling. Subsequently, building upon these prepared samples, we~introduce an improved U-Net architecture within the DDPM, designated the IGM-DDPM, which achieves the fusion of deep, holistic, and salient features to enhance the sample generation process. The quality of the generated samples is evaluated using the Fréchet inception distance (FID) as a metric. Finally, an improved fault diagnosis model based on EfficientNet-B0 integrated with a convolutional block attention module (CBAM) is proposed. By~refining the number of input channels at each stage, this model mitigates overfitting and improves diagnostic effectiveness. Experimental results from multiple designed validation tests demonstrate that the proposed image enhancement method can effectively improve fault features within the images and maintain satisfactory diagnostic performance.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3653364",
+    "citations": 0
+  },
+  {
+    "title": "Robust Synthetic Air Data Estimation via Kalman-Aided Deep Learning Approach for Analytical Redundancy",
+    "authors": [
+      "Hyuntae Bang",
+      "A. Lerro",
+      "Wonkeun Youn",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bf21585398259e6501bb72d570f26b2b7ea0a80e",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Reliable air data is essential for safe and stable flight operations. However, physical air data sensors are susceptible to failure due to environmental disturbances, especially in ultralight manned aircraft, where hardware redundancy is often impractical due to strict size, weight, and power constraints. Although model-based synthetic air data systems (SADS) have been proposed to reduce sensor reliance, they require precise aerodynamic coefficients and are sensitive to modeling errors. To address these limitations, this study proposes a lightweight, data-driven SADS framework based on a hybrid deep learning model that combines temporal and trend-based features. An unscented Kalman filter (UKF) is applied as a postprocessing step to enhance robustness against noise and anomalous inputs. The system is trained and validated on real-world flight data and demonstrates improved accuracy and stability over conventional deep learning baselines. These results suggest that the proposed method offers a robust and complementary alternative to model-based SADS, particularly in resource-constrained flight environments.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3658151",
+    "citations": 0
+  },
+  {
+    "title": "Deepfake Face Detection Using Machine Learning",
+    "authors": [
+      "Mankanti Hazari Adithya Prasad",
+      "G. Goutham",
+      "J.Valentine Nithish",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b96aac040057333003a4dcde9dddded15874ca70",
+    "date": "2026-03-15",
+    "keywords": [
+      "International Journal of Engineering &amp; Extended Technologies Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Generative artificial intelligence has evolved rapidly, especially nowadays, allowing to create realistic images with the help of GANS and Diffusion models, which can be used creatively but are a serious threat to forensic integrity and information security, and are often used to commit identity fraud and false information. This research describes full stack web application deepfake face detection that employs a deep learning architecture i.e XceptionNet. However, we have trained two models, XceptionNet and ResNet. But XceptionNet has won as it has an AUC slightly greater than that of ResNet and accuracy. Our project provides full stack web application for users who are non-coders, those who don’t know coding, they can also use our platform. Even if they don’t know the coding, they can use our platform to detect whether the image is fake or real. The model is trained on data such as a hybrid multi-source dataset strategy using real images from CelebA, Latent Diffusion Models (LFW), and synthetic samples from StyleGAN and stable- diffusion. The experimental evaluation shows that XceptionNet outperforms ResNet152V2 with a testing accuracy of 93%. The system runs on a secure Flask and React.js setup. It uses a RAM-only inference pipeline that protects privacy.",
+    "summary": "",
+    "doi": "10.15662/ijeetr.2026.0802007",
+    "citations": 0
+  },
+  {
+    "title": "Revealing multiscale competing processes in the solid-state synthesis of single-crystalline layered oxide positive electrodes.",
+    "authors": [
+      "Zhichen Xue",
+      "Tianxiao Sun",
+      "Sreevishnu Oruganti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b7dcebd83f165091e8ca9f3685f10dd274dc2191",
+    "date": "2026-03-15",
+    "keywords": [
+      "Nature Communications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41467-026-70607-9",
+    "citations": 0
+  },
+  {
+    "title": "A multicenter multifunctional assessment of large language models in pure-tone audiogram interpretation for patients.",
+    "authors": [
+      "Jun Liang",
+      "Mengyao Xing",
+      "Peng Xiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b7ba8f944ab43b68f2d823635524e48bf963d14c",
+    "date": "2026-03-15",
+    "keywords": [
+      "npj Digital Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41746-026-02537-1",
+    "citations": 0
+  },
+  {
+    "title": "Analysis of Laboratory Quality Control Performance: A Six-Month Six-Sigma Metric Study",
+    "authors": [
+      "M. Bhargava"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a9b60e3d1f425a1edbedef5f6efbb5adfe16f0fe",
+    "date": "2026-03-15",
+    "keywords": [
+      "Analysis of Laboratory Quality Control Performance: A Six-Month Six-Sigma Metric Study"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Sigma Metric is a crucial tool for evaluating laboratory quality control (QC) performance, providing a standardised measure of analytical process capability. This manuscript presents a comparative analysis of sigma values for routine chemistry parameters (29 analytes) between January and July at our laboratory using two levels of controls. The objective was to assess changes in analytical performance over a six-month period. Data were analysed from January and June, followed by July, with sigma values calculated based on internal QC and proficiency testing data. The findings clearly highlight the laboratory’s strong analytical capability, with the majority of analytes (25 analytes) achieving Six-Sigma performance — reflecting excellent precision, accuracy, and process stability. A few parameters (4 analytes) showed sigma values in the 3–5 range, which served as constructive indicators for fine-tuning existing processes. We took additional measures for these selected parameters by consistently following maintenance guidelines and improving QC storage and water quality, which led to an upward trend in sigma values for these analytes in July. These findings underscore the dynamic nature of laboratory performance and the importance of maintaining high-quality patient care.",
+    "summary": "",
+    "doi": "10.62830/mmj3-01-1a",
+    "citations": 0
+  },
+  {
+    "title": "A Vibration-Based Hybrid Deep Learning Approach for Anomaly Detection of Multijoint Industrial Robots",
+    "authors": [
+      "Qi Liu",
+      "Y. Yu",
+      "Boon Siew Han",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a03a75f312d96039ee35cc4c25e6511c5e564e29",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Condition monitoring is essential to ensuring precision and reliability of multijoint industrial robots. Fault diagnosis is an effective method to identify different types of faults, whereas the tremendous obstacle to applying this method to multijoint industrial robots is the difficulty of collecting and labeling a substantial quantity of abnormal samples. In this article, a vibration-based hybrid deep learning approach for anomaly detection of multijoint industrial robots is proposed to address this problem. A condition monitoring system is established using fiber Bragg grating (FBG) sensors to monitor the vibration of a multijoint industrial robot. Considering the insufficient vibration information in single-domain data, multidomain data, including the timedomain waveform, frequency spectrum, and time-frequency spectrum of the vibration signal, is used to provide more comprehensive vibration information. Furthermore, the 1-D convolutional neural network (CNN) and 2-D CNN architectures are designed to automatically extract the representative features from multidomain data, and these representative features are fused and input into K-nearest neighbors (KNNs) to detect the anomalies in robot joints. Only normal samples are used for the training process of the hybridization of CNN and KNN. The results in three experiments illustrate that the proposed anomaly detection method has the satisfactory capability to handle the anomaly detection problem of multijoint industrial robots.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3661022",
+    "citations": 0
+  },
+  {
+    "title": "Calculating Corrosion Inhibitor Adsorption and Desorption Rates Using Gradient-based and Data-Addition Methodologies",
+    "authors": [
+      "Yahya Alhilali",
+      "R. Woollam",
+      "Mohammadhassan Sarabchi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9ea5bf0a72f441b4ef9fbe6f52bb3fc5845a705c",
+    "date": "2026-03-15",
+    "keywords": [
+      "CONFERENCE 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n Accurately determining surfactant adsorption-desorption kinetic information is essential for understanding and optimizing corrosion inhibitor performance. Present methods rely on subjective inspection of the data resulting in inconsistent and difficult to reproduce analysis. This work addresses this challenge by developing two rigorous methods to identify the transition point between transient and steady-state conditions. The goal is to enable consistent calculation of adsorption (ka) and desorption (kd) kinetic rate constants, improving reproducibility in kinetic studies. The first method applies a gradient-based approach, identifying the point where the derivative of the corrosion rate data first vanishes to detect the transition point. The second method uses an iterative data-addition routine to fit experimental data by progressively truncating the corrosion rate curve. Each method was applied to a common dataset and compared for accuracy and performance. Both methods yielded statistically equivalent rate constants for adsorption and desorption, with excellent agreement in regression quality. Automation of both approaches provides a valuable consistency check, and their complementarity ensures reliability. The gradient-based method offers a faster, simpler workflow with minimal manual intervention, while the data-addition method provides greater scope for iterative fine-tuning. Together, these automated techniques offer robust, reproducible tools for kinetic analysis in corrosion inhibitor studies.",
+    "summary": "",
+    "doi": "10.5006/c2026-00111",
+    "citations": 0
+  },
+  {
+    "title": "A Mamba-Enhanced Spatial-Channel Recombination Temporal Network Using 4-D Feature Flow in EEG Signals",
+    "authors": [
+      "Zhuorong Li",
+      "Can Bu",
+      "Peiyu Fan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9c6f5f2a372165f897142881e54c4b3af22f79e3",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In recent years, extensive research efforts have been dedicated to the application of deep learning in EEG classification, yielding a plethora of proposed methods. Nonetheless, the majority of these methods have failed to comprehensively consider the information of EEG signals across the three essential dimensions, namely spatial, frequency band, and temporal domains, in a simultaneous manner. To this end, this article proposes a mamba-enhanced spatial-channel recombination temporal network (SCM-NET), using a 4-D EEG signal that has undergone differential entropy (DE) cross-entropy as input. First, the spatial-channel recombination module is exploited to recombine the spatial and frequency band features in accordance with the preconfigured activation threshold. This procedure effectively augments the spatial interactive feature information across different frequency bands. Subsequently, a lightweight convolutional neural network is harnessed to accentuate the most valuable information within the feature set. Finally, the Mamba network is applied to extract high-level temporal information features. We evaluated its performance using DEAP, MEEG, SEED, and SEED-VIG datasets and achieved recognized accuracy rates of 71.48%, 97.47%, 88.31%, and 99.89%, respectively, which outperformed the current state-of-the-art (SOTA) technology compared to existing methods. Codes are available at https://github.com/NicoleRR2001/SCM-NET",
+    "summary": "",
+    "doi": "10.1109/JSEN.2025.3649285",
+    "citations": 0
+  },
+  {
+    "title": "AI-Driven EMG Monitoring and Decision Support Framework",
+    "authors": [
+      "Sagheer Khan",
+      "Usman Anwar",
+      "K. Khurshid",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/94ed881e0c7c3eeb327cfaa346c3163addf36551",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Digital twin (DT) technology, a core pillar of Healthcare 4.0 (H4.0), enables intelligent, noninvasive, and personalized patient monitoring. This research presents a pilot AI-enabled electromyography (EMG)-driven DT framework for muscular activity assessments. The EMG data enables monitoring of muscle engagements and provides a comprehensive representation of physiological states. The raw EMG data, consisting of seven activities, that is, sitting, standing, walking, relax, stress ball, hand at rest, and fist, is subjected to denoising techniques of mean removal, smoothing, and digital filtering. Within the DT model, AI serves as the intelligence core that transforms these denoised signals into relevant digital states. Supervised and semi-supervised classifiers act as inference engines, continuously refining the DT as new data is incorporated, allowing it to evolve in synchrony with the patient’s condition. The decision support using machine learning (ML) and deep learning (DL) is employed for EMG classification, utilizing statistical features and autonomous feature extraction methodologies of autoencoder (AE) and stacked AE (SAE). The feature data is enriched and enlarged through Gaussian noise feature data augmentation for both feature extraction approaches. The fine KNN algorithm provides classification accuracy of 94.6% and 91.6%. However, the autonomous feature extraction through the SAE (32–16–32) with medium KNN provides an overall accuracy of 96.4% and 93.3 %. The promising results validate the effectiveness of the proposed framework as a dynamic, AI-driven DT system for prospective holistic patient multiphysiological monitoring and decision support.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3659791",
+    "citations": 0
+  },
+  {
+    "title": "Explainable deep learning for early diagnosis of chronic kidney disease from CT images in Bangladeshi patients.",
+    "authors": [
+      "Fariha Jahan",
+      "Ahmed Shakib Reza",
+      "Md. Kishor Morol",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/92326821e327d7a2cd8420cc1201d543fec49734",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-42654-1",
+    "citations": 0
+  },
+  {
+    "title": "The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models",
+    "authors": [
+      "Eason Ni"
+    ],
+    "link": "https://www.semanticscholar.org/paper/88d0c3c987104c1013070a98bfb9bf1e63b04de7",
+    "date": "2026-03-15",
+    "keywords": [
+      "Scholarly Review Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by adding a non-parametric source of memory and grounding LLM outputs to reputable external sources. This paper aims to survey the evolution of RAG methodologies and highlight the most recent developments and shifts in paradigms like Agentic RAG. We highlight current state-of-the-art biomedical RAG systems, the latest evaluation benchmarks, and empirical findings regarding best fine-tuning practices. We also examine technical including lost-in-the-middle effects and scaling behaviour. Ethical concerns surrounding privacy and bias are brought to attention alongside research gaps. Finally, we discuss future directions of RAG in the biomedical field, including integration into Clinical Decision Support systems (CDS).",
+    "summary": "",
+    "doi": "10.70121/001c.158711",
+    "citations": 0
+  },
+  {
+    "title": "A Novel Spatial-Temporal Graph Neural Network for Major Depressive Disorder Detection Based on Resting State EEG Signals",
+    "authors": [
+      "Yubing Sun",
+      "Jiaqi Sun",
+      "Zijian Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8668c23ce86ba2c5a65cb3c947de11ff5ebad295",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Major depressive disorder (MDD) presents a substantial global health challenge due to its high prevalence of morbidity, disability, and mortality, along with frequent underdiagnosis. The profound impact of MDD on patients’ mental health emphasizes the necessity for precise and objective diagnostic tools. However, existing studies have mostly overlooked the topological relationships among brain channels and the spatiotemporal correlations in brain activity. To discover the latent patterns within the complex neural networks associated with depression, we present a novel model, the spatiotemporal graph convolutional network-convolutional neural network-attention mechanism (ST-GCA), based on deep learning and complex network theories, aiming to enhance MDD detection. The proposed model utilized brain network connectivity matrices to quantify the connection lengths between channels, followed by a convolutional neural network (CNN) to extract deep spatial features. Moreover, a spatiotemporal attention mechanism was integrated to adaptively capture critical sequential information from segmented electroencephalogram (EEG) signals of patients with MDD. This approach facilitated the analysis of distinct neural mechanisms in MDD patients compared to healthy controls (HCs). The ST-GCA framework achieved an accuracy of 97.68% in subject-dependent (SD) experiments and 93.93% in subject-independent (SI) experiments on a publicly available dataset, demonstrating its effectiveness in analyzing MDD-related EEG signals. These findings provide a promising tool to assist clinicians in diagnosing MDD, thereby offering valuable clinical guidance.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3657750",
+    "citations": 0
+  },
+  {
+    "title": "DeepQ-MIMO: A Deep-Learned Quantum MIMO System With Rydberg Atomic Receiver in IoT",
+    "authors": [
+      "Jae‐Mo Kang",
+      "Sangseok Yun",
+      "Il-Min Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/810f1d2cd90d2e8ef68113476307990f729563f4",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Rydberg atomic receiver has recently emerged as a breakthrough technology for sensing and communications in next-generation Internet of Things (IoT) owing to its potential to surpass the sensitivity limits of classical radio frequency (RF) receivers. In this letter, we consider a multiple-input–multiple-output (MIMO) system with an RF transmitter and a Rydberg atomic receiver. Unlike prior works, a key technical innovation of our approach lies in the joint optimization of both transmit and receive processing techniques, along with the design of reference signal injection according to a mean square error (MSE) criterion for signal recovery. However, the design problem is nonconvex on account of phase information loss in the received signal and nonlinearity of the objective function. To overcome this tricky challenge in an effective and intelligent manner, we propose a novel and high-performing deep learning (DL) framework called DeepQ-MIMO based on the construction of an advanced DL network with innovative customization mechanisms. Numerical results confirm the supremacy and efficacy of the proposed DeepQ-MIMO system, and further provide useful design insights.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3650448",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid ResNet–Vision Transformer Ensemble for Early Glaucoma Detection From Fundus Images",
+    "authors": [
+      "Faiza Tariq",
+      "Hira Hameed",
+      "T. Malik",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6eb0313b69b12f89fa257fb03e7ca4ffae9de07d",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Glaucoma is a silent and progressive eye disease that can cause irreversible vision loss if left undiagnosed. Early detection and screening are, therefore, critical, particularly in underserved regions with limited ophthalmologic resources. This article presents a deep learning (DL)-based hybrid ensemble framework for early glaucoma detection from retinal fundus images. The proposed model integrates ResNet50 and vision transformer (ViT) architectures, enabling one to capture local spatial features and the other to learn global contextual representations. Preprocessing involves extracting the green channel and applying contrast-limited adaptive histogram equalization (CLAHE) to enhance retinal vessel visibility and texture detail. To improve generalization and mitigate class imbalance, data augmentation is applied before model training. The ensemble fuses softmax outputs from both models to produce the final classification. Experiments conducted on the Standardized Multi-Channel Dataset for Glaucoma (SMDG-19) dataset comprising 17 242 labeled fundus images demonstrate that the ensemble achieves 99.8% accuracy, F1-score = 1.0, and MCC = 0.994, confirming strong robustness to contrast variations, noise, and illumination changes.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2025.3650333",
+    "citations": 0
+  },
+  {
+    "title": "Digital Twin-Assisted VNF Migration Algorithm Based on Spatiotemporal Large Model Resource Demand Prediction",
+    "authors": [
+      "Lu Tang",
+      "Chenchen Zhang",
+      "Jianyong Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6e91668dbdaa10e49941c5a03845ed63a6aeb8a6",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "To address the issues of lagging virtual network function (VNF) migration caused by the dynamic changes in resource requirements in Industrial Internet of Things (IIoT) and the unsatisfactory prediction effect due to the neglect of the connection relationships between nodes in resource requirement prediction, a digital twin (DT)-assisted VNF migration algorithm with spatiotemporal large language model (LLM)-based resource demand prediction is proposed. First, a LLM-based resource prediction method that combines graph convolutional networks (GCNs) and a multihead self-attention (MHSA) mechanism is introduced to effectively capture spatiotemporal correlations and predict future resource requirements. Next, in order to ensure a deterministic quality of service (QoS) and optimize migration decisions, a DT-assisted VNF migration model composed of energy consumption, latency, and load balancing is constructed, and a joint optimization model for VNF migration and DT reassociation aimed at maximizing the long-term utility of the system is established. Finally, a migration algorithm based on heterogeneous multiagent proximal policy optimization (PPO) is proposed to solve the VNF migration problem according to the resource requirements predicted by the model. To address the problem of excessive synchronization delays of DT nodes originally associated with nodes after migration, a counterfactual multiagent (COMA) algorithm is proposed to solve the problem of DT reassociation. Simulation results show that the proposed algorithm improves prediction accuracy, ensures load balancing, and reduces system energy consumption and synchronization delays.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3653508",
+    "citations": 0
+  },
+  {
+    "title": "Beyond whole-image learning: anatomically partitioned deep learning models for superior sinonasal disease classification.",
+    "authors": [
+      "Song Li",
+      "Xiang-Hai Hu",
+      "Song Luo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/61dc4d788d802a272594c05c5e801c2ac76a4d7c",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "European Radiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00330-026-12436-4",
+    "citations": 0
+  },
+  {
+    "title": "Underwater Acoustic Spectrum Sensing Algorithm Based on Personalized Federated Learning and RepViG",
+    "authors": [
+      "Kai Wang",
+      "Jun Fang",
+      "Liliang Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5ead2d997a0dedb46848475cd35c700db9133b3c",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The ocean Internet of Things (OIoT) has promoted the development of ocean devices, which generate a large amount of underwater acoustic data. The transmission of underwater acoustic data requires a large amount of spectrum resources. Aiming at the problems of improving the utilization rate and security of spectrum resources, an underwater acoustic spectrum sensing algorithm based on personalized federated learning (PFL) and RepViG is proposed. A security protection framework is established for underwater acoustic data based on PFL. The common features of each underwater acoustic data are extracted through the meta-model. Each client only needs to fine-tune the parameters of the meta-model based on the local underwater acoustic data to achieve a personalized model. Based on the improved RepViT and the improved ViG, a dual-branch sensing model of RepViG is designed. In the improved RepViT, we employ the Haar wavelet downsampling (HWD) module to retain the low-frequency and high-frequency detail features of the underwater acoustic signal through multiresolution. And we employ an interactive convolution block (ICB) to capture the relationship between local features and global features through multiscale dynamic convolution kernels. In the improved ViG, we adopt the lightweight Star-Block module to reduce feature redundancy and enhance sensing efficiency. Compared with other algorithms, the simulation results show that the detection probability is increased by 7.6%, and the false alarm probability is reduced by 7.5%.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3646620",
+    "citations": 0
+  },
+  {
+    "title": "DBLoc: A Lightweight and Universal BFI-Enabled Deep Learning Framework for Wi-Fi Localization",
+    "authors": [
+      "Zhiyuan He",
+      "Desheng Wang",
+      "Jiangchao Gong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4579001057a6d35be0e982ba023aed344f0522f5",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Wi-Fi-based passive indoor localization has gained prominence owing to its high accuracy and ease of deployment in global positioning system (GPS)-denied environments. However, channel state information (CSI)-based systems face challenges, including high data acquisition requirements, significant computational overhead, and limited transferability. In this article, we introduce DBLoc, a Wi-Fi localization system that leverages beamforming feedback information (BFI), a novel attribute provided by modern Wi-Fi hardware. BFI’s clear-text transmission and stable characteristics make it an ideal choice for localization tasks. We prove that BFI provides a lightweight alternative to CSI, significantly reducing both data acquisition and storage requirements. Compared with traditional deep learning frameworks using convolutional networks, DBLoc employs a pruning-based residual architecture to reduce computational overhead, achieving an inference cost of only 175.7 MFLOPs, thus optimizing performance within an edge-deployment budget. To enable transferability that surpasses current meta-learning approaches, DBLoc incorporates a virtual-domain-based meta-learning algorithm, ensuring robust performance with minimal target-domain data. In addition, a spatial-encryption mechanism is proposed to safeguard the BFI-based model from eavesdropping. Extensive evaluations demonstrate that DBLoc achieves a median localization error of approximately 0.5 m while significantly reducing localization accuracy for unauthorized attackers.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3647979",
+    "citations": 0
+  },
+  {
     "title": "Deep Learning for 3-D Lane Detection in Autonomous Driving: A Survey",
     "authors": [
       "Xiaoqiang Teng",
@@ -21,6 +1208,62 @@
     "citations": 1
   },
   {
+    "title": "Detecting Ethereum Smart Contract Vulnerabilities via Bytecode Image Analysis",
+    "authors": [
+      "G. Fortino",
+      "C. Greco",
+      "Antonella Guzzo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/33f1c8cf1d907b540aa70ce6e0869fc0312c804e",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Smart contracts are increasingly being adopted in modern supply chain (SC) systems, offering a transformative shift from traditional centralized models to decentralized, automated, and trustless processes. However, vulnerabilities in the chain of smart contracts represent a critical threat to the reliability and security of SC ecosystems, often arising from intricate logical flaws, unintended intercontract interactions, or improper handling of user input—issues that remain difficult to uncover through conventional testing or manual auditing. This article introduces an innovative deep learning-based methodology that transforms smart contract bytecode into image representations, enabling precise and efficient classification of diverse vulnerability patterns. Unlike existing approaches that rely on source code availability or dynamic execution, the proposed framework operates independent of the source code and circumvents the limitations inherent to dynamic analysis, thereby offering a versatile and system-agnostic solution. Experimental evaluations conducted on a newly curated dataset collected from multiple publicly available repositories demonstrate the robustness of the proposed method, achieving 92.24% accuracy and an 89.06% ${F}1$ -score. Beyond its strong empirical performance, the framework ensures reproducibility, data transparency, and adaptability across heterogeneous blockchain environments. Collectively, these contributions establish a comprehensive and accessible foundation for enhancing the detection, mitigation, and overall resilience of blockchain smart contracts.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3652734",
+    "citations": 0
+  },
+  {
+    "title": "MuECNet: A Lightweight Multiuser Enhanced Convolutional Architecture for Robust CSI-Based Human Activity Recognition in Real-World IoT Environments",
+    "authors": [
+      "Fucheng Miao",
+      "Osamu Takyu",
+      "Lin Shan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2f2f382e710972df1a57ee5913ffd12927ea170f",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Wi-Fi channel state information (CSI)-based human activity recognition (HAR) leverages rich channel propagation characteristics to enable nonintrusive, privacy-preserving, and device-free sensing. In multiuser wireless environments, however, HAR faces significant challenges, including multipath interference, signal overlap, label ambiguity, cross-domain channel variability, and constraints imposed by real-time deployment on resource-limited edge devices. This article presents multiuser enhanced convolutional network (MuECNet), a lightweight and modular deep learning framework designed to operate under realistic multiuser, multiactivity CSI sensing conditions. MuECNet integrates three key components: 1) an enhanced convolutional encoding module (ECEM) for fine-grained temporal–spectral feature extraction that preserves channel propagation signatures; 2) a branch-wise feature normalization (BFN) module for user-specific channel representation learning; and 3) an adaptive decision module for multilabel activity inference. To improve robustness under diverse and dynamic channel conditions, we introduce MixUp-based data augmentation to emulate activity overlap and reduce label ambiguity. Evaluations on the WiMANS dataset show that MuECNet achieves 64.46% (2.4 GHz) and 64.15% (5 GHz) accuracy with only 1.19-M parameters, 1.74-G FLOPs, and 0.28-s inference latency, outperforming baseline models such as ABLSTM and THAT while reducing model size by up to 75%. Ablation studies confirm the contribution of each module, with accuracy drops of up to 6.41% when removed. These results demonstrate that MuECNet provides a robust and communication-efficient solution for integrating CSI-based sensing into future wireless networks and Internet of Things (IoT) systems.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3654610",
+    "citations": 0
+  },
+  {
+    "title": "Memory-Efficient Artificial Intelligence Framework for Real-Time Multivariate Anomaly Detection",
+    "authors": [
+      "Junho Hwang",
+      "Sunuwe Kim",
+      "Sangwook Park"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2f2246474be5921f5c1ad4227275f39f7d99da9f",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The semiconductor industry is rapidly expanding, driven by growing demands in artificial intelligence (AI), cloud computing, the Internet of Things (IoT), and the electrification of automotive and infrastructure. As manufacturing processes grow more complex and dynamic, accurate real-time anomaly detection becomes critical for maintaining yield and reliability. However, conventional statistical methods lack adaptability in dynamic process conditions, while deep learning models are typically too resource-intensive for edge deployment. Herein, we present a lightweight yet robust AI-based anomaly detection framework for real-time, sensor-specific semiconductor manufacturing. Our framework incorporates a four-layer convolutional neural network (CNN) trained on unsupervised dual-segment inputs with hierarchical layerwise objectives. Using only 3783 parameters for 49 input features, the framework achieves 99.90% accuracy and an F1 score of 82.14%, reducing false alarms by up to 10.3 times and 4.0 times compared with the convolutional autoencoder control and industrial statistical model baseline, respectively. We further introduce a computationally efficient method for generating labeled virtual data to enable sensorwise adaptive thresholding under imbalanced data conditions. Together, these innovations enable accurate and robust real-time fault detection in environments with limited computing resources and provide a scalable foundation for diverse edge AI applications.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3653288",
+    "citations": 0
+  },
+  {
     "title": "A Robust Deep Learning Strategy for Long-Term Sequence Mapping of BCG and ECG Based on an Optical Fiber Sensor",
     "authors": [
       "Xiuyuan Wang",
@@ -38,6 +1281,575 @@
     "abstract_raw": "Since cardiovascular diseases (CVDs) have become the leading cause of death globally, continuous heartbeat monitoring holds particular importance, especially for the elderly population; however, the use of multiple electrodes attached to the body during signal collection may not be acceptable for patients. At present, ballistocardiogram (BCG) signal offers an unobtrusive solution for medical institutions, yet BCG has no uniformly confirmed gold standard for the noncontact diagnosis as electrocardiogram (ECG). In this article, we proposed a noninvasive cushion-based optical fiber sensor (OFS) with a deep learning model. The key novelty of our research is to develop a deep learning model feasible for noncontact OFS to achieve BCG–ECG mapping. Compared with traditional ECG measurement, ours presents a more user-friendly and convenient solution for the patients to collect cardiac data using OFS. We evaluated the generated ECG by using quantitative metrics: signal-tonoise ratio (SNR) and root mean square error (RMSE); and evaluation plots: Bland–Altman plot, histogram distribution of prediction data and ground-truth data, and histogram of prediction errors. The involved datasets for training and testing are a public dataset and self-collected dataset. In comparison to other recent methods, our proposed model presents a lower prediction error of 0.21, higher SNR of 12.53, and better predicted data distribution on both the public and selfcollected dataset. Simultaneously, the model presents an appropriate number of training parameters and training time in comparison to the state-of-the-art, giving the possibility of embedding the network into OFS for inference. Our research would provide a meaningful value for both the noninvasive CVD diagnosis based on OFS and BCG–ECG mapping.",
     "summary": "",
     "doi": "10.1109/JSEN.2026.3658110",
+    "citations": 0
+  },
+  {
+    "title": "Benchmarking Clinical Reasoning in Large Language Models: A Comparative Assessment Study",
+    "authors": [
+      "T. Prade",
+      "M. Samwald"
+    ],
+    "link": "https://www.semanticscholar.org/paper/06401ce4b4238b7a00d3cc59f60db5f4f9562af8",
+    "date": "2026-03-15",
+    "keywords": [
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.03.13.26347597",
+    "citations": 0
+  },
+  {
+    "title": "Electromagnetic Side-Channel Display Reconstruction Using Attention-Enhanced DRUNet",
+    "authors": [
+      "S. Fang",
+      "Theng Huat Gan",
+      "Zhenyu Zhao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/01ad351a01802901394490f408bb1640abebde73",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Electromagnetic information leakage has emerged as a critical side-channel threat, enabling adversaries to reconstruct sensitive display content by capturing unintended emissions from electronic devices. This phenomenon, known as TEMPEST, poses heightened risks in the Internet of Things (IoT) era, where numerous connected devices with embedded displays are deployed across industrial, financial, and consumer domains. Deep learning has improved TEMPEST image reconstruction, but most existing methods rely on synthetic datasets with simple characters. We propose an attention-enhanced deep residual U-Net (DRUNet) that integrates an efficient multiscale attention (EMA) module into skip connections to improve contextual representation and suppress noise. Experiments on a realistic TEMPEST dataset show consistent gains over state-of-the-art baselines in peak signal-to-noise ratio (PSNR), structural similarity index measure (SSIM), and character error rate (CER), demonstrating the effectiveness of the proposed approach for practical TEMPEST reconstruction and IoT security.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3658567",
+    "citations": 0
+  },
+  {
+    "title": "Vision-Based Fall Prediction With Spatial–Temporal Graph Convolutional Networks",
+    "authors": [
+      "Wenpan Cui",
+      "Ling Xiao",
+      "Cheng Wei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/00cd19192ef5d628dc9bb37f10eae3e73df3d59a",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Falls pose a significant risk to the lives and independence of elderly individuals, raising widespread concern in public healthcare. Timely and accurate prediction of fall events prior to impact is essential for enabling effective interventions and minimizing potential injuries. In this article, we propose a novel unified graph convolutional network (Uni-GCN) that simultaneously performs skeleton-based pose prediction and fall detection within a multitask learning framework. The proposed model captures both spatial and temporal dependencies in human motion through a shared graph-based encoder, followed by two task-specific decoders for future pose prediction and fall classification. A unified loss function is introduced to jointly train both tasks, combining prediction loss and classification loss in a mutually beneficial manner. In addition, we employ a two-stage transfer learning approach to address the challenge of limited data in fall datasets by pretraining the model on large-scale datasets and fine-tuning it on fall-specific data. Experimental results on public fall datasets Le2i, UR fall detection dataset (URFD), and UP-Fall demonstrate the effectiveness of our method, achieving state-of-the-art accuracies of 99.15%, 99.42%, and 99.96%, respectively. Notably, our system is capable of predicting fall events approximately 480-ms before impact, enabling proactive response. In addition, we deploy our model on an NVIDIA Jetson Orin Nano Super edge device, validating its real-time performance and feasibility for deployment in privacy-sensitive and bandwidth-constrained environments.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3649280",
+    "citations": 0
+  },
+  {
+    "title": "The C2H2-type zinc finger protein SlHair5 acts as a regulatory node coordinating trichome development and leaf morphogenesis in tomato.",
+    "authors": [
+      "Seong-Min Kim",
+      "Jiyoung Kim",
+      "Jae-In Chun",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ea397812511c11f39f1229e398be716dd3942f35",
+    "date": "2026-03-14",
+    "keywords": [
+      "Plant Cell Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00299-026-03765-1",
+    "citations": 0
+  },
+  {
+    "title": "A multimodal feature disentanglement model for lymphadenopathy diagnosis based on BUS and CDFI ultrasound videos: a retrospective, prospective, multicenter study.",
+    "authors": [
+      "Ran Cao",
+      "Yangyang Zhu",
+      "Haina Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9ebdb1604502e1f07479a69185044c4bb122816",
+    "date": "2026-03-14",
+    "keywords": [
+      "European Radiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00330-026-12409-7",
+    "citations": 0
+  },
+  {
+    "title": "Super-resolution deep learning reconstruction enhances visualization of cerebral aneurysms on magnetic resonance angiography.",
+    "authors": [
+      "Jun Kanzawa",
+      "K. Yasaka",
+      "Masayoshi Kato",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d7f74b8ee496b542530e285ed68ac763a6625a3c",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "Neuroradiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00234-026-03965-2",
+    "citations": 0
+  },
+  {
+    "title": "GeoPMB: An Interface-Aware Geometric Deep Learning Framework for Peptide-MHCI Binding Prediction with Evolutionary Insight.",
+    "authors": [
+      "Xiaoyu Chen",
+      "Leyu Chen",
+      "Mingming Zhu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d3df24761ca662db94b00f51b22c2cf296ecc4f9",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "Journal of Chemical Information and Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1021/acs.jcim.5c03233",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence-powered tiered early warning framework addressing high false alarm rates for in-hospital mortality prediction.",
+    "authors": [
+      "Lijuan Wu",
+      "Liyi Mai",
+      "Hongnian Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cf6b6e667e73ba1c01400469f5be265462690582",
+    "date": "2026-03-14",
+    "keywords": [
+      "npj Digital Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41746-026-02522-8",
+    "citations": 0
+  },
+  {
+    "title": "From Study Design to Executable Code: Automating Target Trial Emulation with Large Language Models",
+    "authors": [
+      "H. Kim",
+      "M. Kim",
+      "S. Kim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c737c71c47a463dfb5db7c52bf4a5318bd7488d5",
+    "date": "2026-03-14",
+    "keywords": [
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.03.13.26348306",
+    "citations": 0
+  },
+  {
+    "title": "EPInformer: scalable and integrative prediction of gene expression from promoter-enhancer sequences with multimodal epigenomic profiles.",
+    "authors": [
+      "Jiecong Lin",
+      "Zhijian Li",
+      "Yajie Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c5313545d23c6b7e57f31b29fe5fbcd6afed5970",
+    "date": "2026-03-14",
+    "keywords": [
+      "Nature Communications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41467-026-70535-8",
+    "citations": 0
+  },
+  {
+    "title": "Time and person sensitive foundation model for disease prediction and risk stratification.",
+    "authors": [
+      "Zheyuan Wang",
+      "Yukun Zhou",
+      "Yilan Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bd8ac98346620a486216fb6ddae224965ef54931",
+    "date": "2026-03-14",
+    "keywords": [
+      "Foundation Model",
+      "npj Digital Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41746-026-02524-6",
+    "citations": 0
+  },
+  {
+    "title": "Interpretable deep learning radiomics from 18F-FDG PET/CT for differentiating diffuse large B-cell lymphoma and follicular lymphoma.",
+    "authors": [
+      "Chaoying Liu",
+      "Heng Zhang",
+      "Zhuxia Jia",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a6f0e14fb56fedacfc81202f12ef91e54e6fdeeb",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "BMC Medical Imaging"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s12880-026-02253-y",
+    "citations": 0
+  },
+  {
+    "title": "Hydrogeochemical assessment and groundwater fluoride prediction in Bathinda district using deep learning.",
+    "authors": [
+      "Kamalpreet Kaur",
+      "K. Khusulio",
+      "Neeta Raj Sharma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9fcf8ba4e1729b094a3c64ff95608ea345a9da36",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "Environmental Monitoring & Assessment"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10661-026-15160-0",
+    "citations": 0
+  },
+  {
+    "title": "A hybrid deep learning approach with temporal awareness for intelligent intrusion detection in 6G-enabled IIoT networks.",
+    "authors": [
+      "Gaoyang Guo",
+      "Faizan Qamar",
+      "Syed Hussain Ali Kazmi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9e5e794c75786b5b5045ba88601a2ceb15f436a2",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-43058-x",
+    "citations": 0
+  },
+  {
+    "title": "Gallic Acid-Responsive microRNAs Reprogram Lignification During Drought Acclimation Process in Spearmint.",
+    "authors": [
+      "A. D’Agostino",
+      "G. Di Marco",
+      "G. Pepe",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/94eb7fbafeaa4293b68465af827a849766c28801",
+    "date": "2026-03-14",
+    "keywords": [
+      "Plant Biotechnology Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1111/pbi.70599",
+    "citations": 0
+  },
+  {
+    "title": "Fluorescence Machine Vision-Based Rapid Quantitative Characterization of Microplastics.",
+    "authors": [
+      "Qiannan Duan",
+      "Hailong Zhang",
+      "Jiaqing Tang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/906bda40df959e7e2669e51e939307a4e121cbf7",
+    "date": "2026-03-14",
+    "keywords": [
+      "Analytical Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1021/acs.analchem.6c00407",
+    "citations": 0
+  },
+  {
+    "title": "Alternative Strategies to Promote Biomolecule Nucleation.",
+    "authors": [
+      "J. Gavira",
+      "Abel Moreno"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8883be6800e9caaaa970a4852edb5c06847d66b5",
+    "date": "2026-03-14",
+    "keywords": [
+      "Advances in Biochemical Engineering/Biotechnology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/10_2025_309",
+    "citations": 0
+  },
+  {
+    "title": "Integrative Approaches in Lung Cancer Diagnosis: Bridging Molecular Biomarkers and AI Driven Imaging.",
+    "authors": [
+      "Purabi Saha",
+      "Azra Yasmin",
+      "Ritesh Jha",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e6c5319b1e99933d5d182379bd825e4b56abe44",
+    "date": "2026-03-14",
+    "keywords": [
+      "Biomarkers"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/1354750X.2026.2644329",
+    "citations": 0
+  },
+  {
+    "title": "ncProFormer: A CNN-enhanced Transformer for ncRNA Coding-Potential Prediction.",
+    "authors": [
+      "Mengyue Tong",
+      "Yuanting Chen",
+      "Long Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/79512946eaf000bdd024c7a2d76f50dc0317ce69",
+    "date": "2026-03-14",
+    "keywords": [
+      "Journal of Chemical Information and Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1021/acs.jcim.6c00056",
+    "citations": 0
+  },
+  {
+    "title": "Physics-aware deep learning models for predicting the heterogeneous mechanical properties of polymeric nanostructured materials.",
+    "authors": [
+      "E. Christofi",
+      "Hilal Reda",
+      "V. Harmandaris"
+    ],
+    "link": "https://www.semanticscholar.org/paper/677a3da7e446023449bc8196b974186e234e7739",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "Journal of Chemical Physics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1063/5.0319575",
+    "citations": 0
+  },
+  {
+    "title": "Comparison of proprietary and fine-tuned large language models for multi-label classification of billing codes from radiology reports.",
+    "authors": [
+      "K. Arzideh",
+      "Henning Schäfer",
+      "A. Idrissi-Yaghir",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5d4bc7949ece7dbf4f774a1a101eb21c4295cbc6",
+    "date": "2026-03-14",
+    "keywords": [
+      "European Radiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00330-026-12445-3",
+    "citations": 0
+  },
+  {
+    "title": "Translating the Intranslatable: Traditional Chinese Medicine, Large Language Models, and the Philosophy of Medical Meaning.",
+    "authors": [
+      "Haiyan Wang",
+      "Xia Zhao",
+      "Yucheng Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5b0b2227262a19cfd1cd3a285737ba312722c714",
+    "date": "2026-03-14",
+    "keywords": [
+      "Journal of Medical Humanities"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10912-026-10019-4",
+    "citations": 0
+  },
+  {
+    "title": "Decoding soil properties from surface cracks using Minkowski functionals, junction crack angle distributions, and AI-based image analysis.",
+    "authors": [
+      "Emanual Daimari",
+      "Puppala Sai Ratna",
+      "P. Mouli",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/57b30d3fda3e2531f0dec849bf9944b932665e8e",
+    "date": "2026-03-14",
+    "keywords": [
+      "The European Physical Journal E : Soft matter"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1140/epje/s10189-026-00567-x",
+    "citations": 0
+  },
+  {
+    "title": "Systematic review of foundation models for structured electronic health records.",
+    "authors": [
+      "Lin Lawrence Guo",
+      "S. Arciniegas",
+      "A. Yan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/54a031e1a67c046c026ae3e900465541f2a5d55f",
+    "date": "2026-03-14",
+    "keywords": [
+      "Foundation Model",
+      "JAMIA Journal of the American Medical Informatics Association"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1093/jamia/ocag033",
+    "citations": 0
+  },
+  {
+    "title": "MyoClass: A modular multimodal auto-classification system for myocardial tissue characterization.",
+    "authors": [
+      "Mariem Dali",
+      "R. Kachouri",
+      "Narjes Benameur",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/538cb8cb9b6913d390b129d4e66343fff720b20b",
+    "date": "2026-03-14",
+    "keywords": [
+      "The International Journal of Cardiovascular Imaging"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10554-026-03684-y",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating the reliability of artificial intelligence in clinical decisions on early maxillary expansion: a comparative study of eight large language models.",
+    "authors": [
+      "Orhan Çiçek",
+      "Ahmet Yıldırım"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4fbc4f88a7eef5c9b33308162c2891240b5b0dcb",
+    "date": "2026-03-14",
+    "keywords": [
+      "BMC Oral Health"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s12903-026-08111-1",
+    "citations": 0
+  },
+  {
+    "title": "Classification of health product defect reports by deep learning.",
+    "authors": [
+      "Vicente Sancenon",
+      "Yiting Huang",
+      "Lin Zou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/38779c95334da886f0e9aeb51141ebb8d8962a47",
+    "date": "2026-03-14",
+    "keywords": [
+      "Deep Learning",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-43961-3",
+    "citations": 0
+  },
+  {
+    "title": "Guideline-based benchmarking of large language models in otorhinolaryngology using 250 real-world cases.",
+    "authors": [
+      "Koray Tümüklü",
+      "Behçet Günsoy"
+    ],
+    "link": "https://www.semanticscholar.org/paper/27f11025d2fc2846c90c4bee9538ca7a0d5eb12d",
+    "date": "2026-03-14",
+    "keywords": [
+      "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00405-026-10148-5",
+    "citations": 0
+  },
+  {
+    "title": "FalsEye: proactive detection of false data injection attacks in smart grids using IceCube-optimised ensemble learning.",
+    "authors": [
+      "Ahmed N. Sheta",
+      "Samaa F. Osman",
+      "A. Eladl",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/259dc48010226eb328cd171744b6a32b7e8d900e",
+    "date": "2026-03-14",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-38723-0",
+    "citations": 0
+  },
+  {
+    "title": "Chronological Diagnostic Algorithm Predicting Neuropathology in Parkinsonism.",
+    "authors": [
+      "D. Ono",
+      "Hiroaki Sekiya",
+      "Alexia R. Maier",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/04643025f1011fb385feaacb609d7474c2ad65de",
+    "date": "2026-03-14",
+    "keywords": [
+      "Annals of Neurology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/ana.78193",
     "citations": 0
   }
 ]
