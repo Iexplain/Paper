@@ -9,7 +9,7 @@ def load_data(file_path):
             for item in data:
                 if not item.get('summary'):
                     raw_abs = item.get('abstract_raw', '')
-                    item['summary'] = (raw_abs[:100] + "...") if raw_abs else "暂无摘要，请点击原文查看。"
+                    item['summary'] = raw_abs if raw_abs else "暂无摘要，请点击原文查看。"
             return data
     except FileNotFoundError:
         return []
