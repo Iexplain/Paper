@@ -1,21 +1,43 @@
 [
   {
-    "title": "GrapheneChat: A Large Language Model for Enhancing Graphene Research.",
+    "title": "Deep Learning for 3-D Lane Detection in Autonomous Driving: A Survey",
     "authors": [
-      "Dinglong Yang",
-      "Chengyu Lu",
-      "Yixiong Feng",
+      "Xiaoqiang Teng",
+      "Zuo Chen",
+      "Shunpeng Chen",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/d5040fc23f2d815371d93629d4a1ab16b27d7153",
-    "date": "2026-03-13",
+    "link": "https://www.semanticscholar.org/paper/3e573d1ea796d58d9d3b12ec20562233f59759c8",
+    "date": "2026-03-15",
     "keywords": [
-      "ACS Nano"
+      "Deep Learning",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": null,
+    "abstract_raw": "3-D lane detection has become a critical component in the perception task of autonomous vehicles. Unlike 2-D lane detection, which operates in the image plane, 3-D lane detection estimates the spatial layout of lanes in real-world coordinates, enabling fine-grained localization, map construction, and planning. However, the task remains challenging due to depth ambiguity, sensor limitations, and diverse road conditions. Existing surveys mostly focus on 2-D or organize 3-D lane detection by sensor modality, lacking a systematic treatment of algorithmic designs. In this article, we present a comprehensive survey of deep learning-based 3-D lane detection methods. We introduce a dual-axis taxonomy that jointly considers modeling paradigms and representation spaces. Based on this framework, we categorize existing methods into four primary paradigms: geometry-based, end-to-end, query-based, and implicit field-based. We analyze how each paradigm interacts with spatial representations such as image, bird’s-eye view (BEV), 3-D, and topological spaces. For each category, we review representative frameworks, architectural principles, and performance tradeoffs. We also provide an extensive summary of public datasets, evaluation metrics, and state-of-the-art results across multiple benchmarks. Finally, we identify current limitations and outline future research directions toward robust, scalable, and interpretable 3-D lane detection.",
     "summary": "",
-    "doi": "10.1021/acsnano.5c21335",
+    "doi": "10.1109/JIOT.2026.3654005",
+    "citations": 1
+  },
+  {
+    "title": "A Robust Deep Learning Strategy for Long-Term Sequence Mapping of BCG and ECG Based on an Optical Fiber Sensor",
+    "authors": [
+      "Xiuyuan Wang",
+      "Wei Xu",
+      "Kaili Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1477c252db3b6948ac36fc3858b83b9db787848a",
+    "date": "2026-03-15",
+    "keywords": [
+      "Deep Learning",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Since cardiovascular diseases (CVDs) have become the leading cause of death globally, continuous heartbeat monitoring holds particular importance, especially for the elderly population; however, the use of multiple electrodes attached to the body during signal collection may not be acceptable for patients. At present, ballistocardiogram (BCG) signal offers an unobtrusive solution for medical institutions, yet BCG has no uniformly confirmed gold standard for the noncontact diagnosis as electrocardiogram (ECG). In this article, we proposed a noninvasive cushion-based optical fiber sensor (OFS) with a deep learning model. The key novelty of our research is to develop a deep learning model feasible for noncontact OFS to achieve BCG–ECG mapping. Compared with traditional ECG measurement, ours presents a more user-friendly and convenient solution for the patients to collect cardiac data using OFS. We evaluated the generated ECG by using quantitative metrics: signal-tonoise ratio (SNR) and root mean square error (RMSE); and evaluation plots: Bland–Altman plot, histogram distribution of prediction data and ground-truth data, and histogram of prediction errors. The involved datasets for training and testing are a public dataset and self-collected dataset. In comparison to other recent methods, our proposed model presents a lower prediction error of 0.21, higher SNR of 12.53, and better predicted data distribution on both the public and selfcollected dataset. Simultaneously, the model presents an appropriate number of training parameters and training time in comparison to the state-of-the-art, giving the possibility of embedding the network into OFS for inference. Our research would provide a meaningful value for both the noninvasive CVD diagnosis based on OFS and BCG–ECG mapping.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3658110",
     "citations": 0
   }
 ]
