@@ -8,11 +8,10 @@ QUERY = '("large language model") | ("foundation model") | ("protein language mo
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
-seven_days_ago = today - timedelta(days=7)
-# 真正展示在前端的，只取过去 3 天的数据（本地过滤）
-cutoff_date = today - timedelta(days=14)
-
-date_range = f"{seven_days_ago.strftime('%Y-%m-%d')}:{today.strftime('%Y-%m-%d')}"
+start_date = today - timedelta(days=15)
+# 本地保留数据的时间放宽到 15 天
+cutoff_date = today - timedelta(days=15)
+date_range = f"{start_date.strftime('%Y-%m-%d')}:{today.strftime('%Y-%m-%d')}"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
