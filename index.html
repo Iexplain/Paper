@@ -22,18 +22,25 @@
             background: var(--bg-color); color: var(--text-main); line-height: 1.6;
             display: flex; transition: background-color 0.3s, color 0.3s;
         }
-
+        .sidebar-trigger {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 100vh;
+            z-index: 1001;
+            background: transparent; 
+        }
         /* === 侧边栏样式 === */
         .sidebar {
-            width: 260px; height: 100vh; position: fixed; top: 0;
-            left: -260px; 
-            transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 260px; height: 100vh; position: fixed; top: 0; left: -260px;
             background: var(--sidebar-bg); border-right: 1px solid var(--border-color);
             padding: 30px 20px; box-sizing: border-box; display: flex; flex-direction: column;
             gap: 12px; z-index: 1000;
             overflow-y: auto;
             scrollbar-width: none; -ms-overflow-style: none;
             box-shadow: 4px 0 24px rgba(0, 0, 0, 0.1);
+            transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .sidebar::-webkit-scrollbar { display: none; }
         .sidebar::after {
@@ -45,6 +52,7 @@
             height: 100%;
             background: rgba(0, 0, 0, 0.01);
         }
+        .sidebar-trigger:hover + .sidebar,
         .sidebar:hover {
             left: 0;
         }
@@ -113,6 +121,7 @@
         .authors { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; font-style: italic; }
         
         .abstract-summary {
+          
             background: var(--bg-color); padding: 12px; border-radius: 8px; font-size: 0.9rem;
             color: var(--text-muted); margin-bottom: 16px; border-left: 4px solid var(--primary-color);
         }
@@ -125,6 +134,7 @@
 </head>
 <body>
 
+<div class="sidebar-trigger"></div>
 <aside class="sidebar">
     <div class="sidebar-section">
         <h4>数据来源</h4>
@@ -142,21 +152,21 @@
     <div class="sidebar-section">
         <h4>时间范围</h4>
         <select id="time-filter" onchange="applyFilters()" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-main); font-size: 0.9rem; cursor: pointer; outline: none;">
-            <option value="all">🕒 不限时间</option>
-            <option value="today">📅 今日更新</option>
-            <option value="3days">📆 近三天</option>
-            <option value="1week">🗓️ 近一周</option>
+            <option value="all">不限时间</option>
+            <option value="today">今日更新</option>
+            <option value="3days">近三天</option>
+            <option value="1week">近一周</option>
         </select>
     </div>
 
     <div class="sidebar-section">
         <h4>快速过滤</h4>
-        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">🌐 全部文献</button>
-        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">🧠 LLM</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">🧱 Foundation Model</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">🧬 Protein Language Model</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">⚙️ Fine-tuning</button>
-        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">📉 Deep Learning</button>
+        <button class="filter-btn active" onclick="setKeywordFilter('all', this)">全部文献</button>
+        <button class="filter-btn" onclick="setKeywordFilter('LLM', this)">LLM</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Foundation Model', this)">Foundation Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Protein Language Model', this)">Protein Language Model</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Fine-tuning', this)">Fine-tuning</button>
+        <button class="filter-btn" onclick="setKeywordFilter('Deep Learning', this)">Deep Learning</button>
     </div>
 
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">🌙 切换暗黑模式</button>
@@ -173,10 +183,10 @@
                     抓取状态
                 </span>
                 <div class="tooltip-text">
-                    <div class="tooltip-header">📊 今日爬虫真实报告</div>
-                    <div style="color: #cbd5e1;">📦 抓取总数：<strong style="color: #fff;">1000</strong> 篇</div>
-                    <div style="color: #4ade80;">✅ 成功入库：<strong style="color: #fff;">85</strong> 篇</div>
-                    <div style="color: #f87171;">❌ 过滤丢弃：<strong style="color: #fff;">915</strong> 篇</div>
+                    <div class="tooltip-header">今日爬虫真实报告</div>
+                    <div style="color: #cbd5e1;">抓取总数：<strong style="color: #fff;">1000</strong> 篇</div>
+                    <div style="color: #4ade80;">成功入库：<strong style="color: #fff;">85</strong> 篇</div>
+                    <div style="color: #f87171;">过滤丢弃：<strong style="color: #fff;">915</strong> 篇</div>
                 </div>
             </div>
         </div>
