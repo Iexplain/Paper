@@ -91,12 +91,10 @@ for attempt in range(max_retries):
                 if has_plm or (has_protein and has_llm):
                     matched_keywords.append("Protein Language Model")
 
-                # AIDD 专属组合逻辑
-                has_drug_prop = "drug-likeness" in content_lower or "admet" in content_lower
-                has_ai_algo = "deep learning" in content_lower or "gnn" in content_lower
-                has_vs = "virtual screening" in content_lower
-                
-                if has_drug_prop and has_ai_algo and has_vs:
+                # AIDD 专属逻辑
+                has_ai_algo = any(kw in content_lower for kw in ["deep learning", "gnn", "machine learning", "artificial intelligence"])
+                has_drug_task = any(kw in content_lower for kw in ["virtual screening", "admet", "drug-likeness", "drug discovery", "molecular docking"])
+                if has_ai_algo and has_drug_task:
                     matched_keywords.append("AIDD")
                 
                 authors_raw = item.get("authors", [])
