@@ -47,7 +47,6 @@
     "link": "https://www.semanticscholar.org/paper/f9d37ee99688604a2755c592bd643556f760e28f",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -132,6 +131,23 @@
     "citations": 0
   },
   {
+    "title": "Wonderwall: A Virtual-to-Real Foundation Model for IMU-based HAR",
+    "authors": [
+      "Shenghuan Miao",
+      "Ling Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/dffb51d826c20726ff23934b2f55f57fbb24a668",
+    "date": "2026-03-16",
+    "keywords": [
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3789688",
+    "citations": 0
+  },
+  {
     "title": "RBTLR: A Framework for Safe Social Robot Navigation in Novel Human-Centric Environments",
     "authors": [
       "Nayesha Gandotra"
@@ -158,7 +174,6 @@
     "link": "https://www.semanticscholar.org/paper/ce4738201f965603c2fdaee6f17668ae4e1b71f1",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "IEEE/ACM International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -306,7 +321,6 @@
     "link": "https://www.semanticscholar.org/paper/b1c68d96d79ff9298f5c877cf6eeaf5bf0ad34ae",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -343,7 +357,6 @@
     "link": "https://www.semanticscholar.org/paper/a21667143c3a51e25601ed6a0a8125d7300a7635",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -397,7 +410,6 @@
     "link": "https://www.semanticscholar.org/paper/879ca50d033fe593f75f93deaf584c196571e466",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -422,6 +434,22 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.47936/encephalitis.2025.00157",
+    "citations": 0
+  },
+  {
+    "title": "Retrieval-augmented Generation of Enhanced Trigger-action Programming Rules in Smart Home",
+    "authors": [
+      "Yuchen Zhao",
+      "Lifu Wang",
+      "Kai Dong"
+    ],
+    "link": "https://www.semanticscholar.org/paper/78bfd9f179673c565cf22e0043967ee376e577e4",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3789673",
     "citations": 0
   },
   {
@@ -454,7 +482,6 @@
     "link": "https://www.semanticscholar.org/paper/6dafe42431971dcc2036a4c5e9e767b2638a4bff",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -509,7 +536,6 @@
     "link": "https://www.semanticscholar.org/paper/5136b37cc77ac2a98d3a0d7a65a95b65720635e4",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -557,6 +583,20 @@
     "citations": 0
   },
   {
+    "title": "Computational Toxicology of Environmental Microplastics: In-Silico Prediction of Emerging Hepatotoxic Risks through Molecular Docking and ADMET Profiling",
+    "authors": [],
+    "link": "https://www.semanticscholar.org/paper/48017cb74eb4c8743ca152894ad2994f40643e27",
+    "date": "2026-03-16",
+    "keywords": [
+      "International Journal of Advance Interdisciplinary Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.66095/ijair.2026.v2.i1.a.11",
+    "citations": 0
+  },
+  {
     "title": "CLIO: Coordinate User Visual Attention with Audio Narratives for Enhanced Engagement",
     "authors": [
       "Yuxuan Chen",
@@ -576,6 +616,23 @@
     "citations": 0
   },
   {
+    "title": "Editors' Introduction to the Issue, March 2026",
+    "authors": [
+      "Thomas Ploetz",
+      "Lena Mamykina",
+      "Laura Barnes",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3bbf5cb23f4ca2d86af8146e828c9c07e890d01c",
+    "date": "2026-03-16",
+    "keywords": [],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3799913",
+    "citations": 0
+  },
+  {
     "title": "A Framework for Low-Latency, LLM-Driven Multimodal Interaction on the Pepper Robot",
     "authors": [
       "Erich Studerus",
@@ -585,7 +642,6 @@
     "link": "https://www.semanticscholar.org/paper/3a87e8fab7f4311d9eb99cb0cd5c5de42ca82baa",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "IEEE/ACM International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -738,7 +794,6 @@
     "link": "https://www.semanticscholar.org/paper/0e98a8399eb2bdc3e0a0970c328b5351b23c46f2",
     "date": "2026-03-16",
     "keywords": [
-      "LLM",
       "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction"
     ],
     "source": "Semantic Scholar",
@@ -819,6 +874,25 @@
     "abstract_raw": "Accurately predicting the harvest time of a crop remains a significant challenge in agricultural management and sustainable crop production, as it is essential for optimizing harvesting schedules and preventing yield or quality losses caused by premature or delayed harvesting. To address this, a deep learning model integrating gated recurrent unit (GRU) and bidirectional long short-term memory (BiLSTM) networks was proposed to enhance prediction performance by capturing both short- and longterm dependencies within time-series data while tuning the key hyperparameters using a Bayesian optimization (BO) algorithm. The model was based on growth data of plant height, number of leaves, and projected area (the area of lettuce as captured from top-view images), along with environmental data such as light intensity, temperature, humidity, and the amount of carbon dioxide, using plant factory hydroponic lettuce as the research subject. To ensure rigorous evaluation, experiments were conducted under a plant-wise protocol (Plant ID) using grouped cross-validation, preventing any leakage of time windows from the same plant across folds. Under this evaluation setting, the proposed method demonstrated stable performance, achieving mse = 2.376 ± 0.594, RMSE = 1.532 ± 0.194, MAE = 1.278 ± 0.159, and R2 = 0.826 ± 0.029. These results indicate that combining hybrid recurrent architectures with automated hyperparameter optimization provides an effective and reproducible approach for harvest time forecasting and supports practical decision-making in controlled-environment agriculture.",
     "summary": "",
     "doi": "10.1109/JSEN.2026.3656669",
+    "citations": 0
+  },
+  {
+    "title": "Synthesis, DFT studies, and multi-target in silico evaluation of a piperidine-based sulfonohydrazide derivative against SARS-CoV-2, including toxicity analysis.",
+    "authors": [
+      "D. Rajaraman",
+      "S. Sonadevi",
+      "A. Dhandapani",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fef4027fc18299d4036d41a55eebb554f95ae496",
+    "date": "2026-03-15",
+    "keywords": [
+      "Drug and chemical toxicology (New York, N.Y. 1978)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/01480545.2026.2638319",
     "citations": 0
   },
   {
@@ -1016,6 +1090,25 @@
     "citations": 0
   },
   {
+    "title": "Direct Causal Inference for Out-of-Distribution Node Classification in Internet of Things",
+    "authors": [
+      "Da Li",
+      "Liting Wang",
+      "Tao Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c99aa280a07e1be16d86087015d9c197a6c147fe",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph neural networks (GNNs) have achieved remarkable success in node classification tasks, yet their performance significantly degrades when encountering out-of-distribution (OOD) data due to spurious correlations learned from biased training environments. This fundamental limitation mirrors a broader challenge in artificial intelligence: while humans demonstrate exceptional adaptability to novel situations through evolutionary mechanisms, current models remain trapped within in-distribution (ID) learning paradigms, mechanically fitting statistical patterns rather than understanding underlying causal mechanisms. Existing graph-invariant learning methods attempt to address this through hierarchical environment inference, but suffer from critical limitations including error accumulation across network layers and computationally intensive deployment requirements. In this article, we propose node-level invariant learning on graphs with mixup (NodeIGM), a novel framework that introduces direct causal subgraph inference to eliminate error accumulation while achieving superior deployment efficiency. Our key innovation lies in a learnable causal edge discriminator that directly separates causal and environmental subgraphs without layerwise dependencies, combined with strategic environment mixup for robust invariant learning. During training, our framework jointly optimizes the GNN encoder, causal edge discriminator, and classifier through unified loss computation and backpropagation. During inference, only the GNN encoder and classifier are required, reducing model parameters by approximately 50% and accelerating inference speed by $2\\times $ – $3\\times $ . Extensive experiments on multiple benchmark datasets demonstrate that NodeIGM achieves state-of-the-art performance while significantly enhancing deployment feasibility for real-world applications. Our code is available at https://github.com/Brucesustech/NodeIGM.git",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3656556",
+    "citations": 0
+  },
+  {
     "title": "Few-Shot Rotating Machinery Bearing Fault Diagnosis With Denoising Diffusion-Based Data Augmentation",
     "authors": [
       "Xinyue Wang",
@@ -1032,6 +1125,25 @@
     "abstract_raw": "Fault detection and diagnosis of bearings are crucial for maintaining the operational integrity of rotating machinery. However, the scarcity of fault samples, particularly for rare faults, leads to severe data imbalance, which consequently degrades model performance and increases false alarm rates. Although deep learning methods have improved diagnostic accuracy, models based on 1-D data often struggle to effectively capture the complex spatiotemporal correlation characteristics inherent in bearing faults. To~address this challenge, this study proposes an innovative data augmentation framework that integrates a denoising diffusion probabilistic model (DDPM) with Gramian angular field (GAF) transformation and presents an intelligent fault diagnosis method for bearings under small-sample conditions. The proposed method first processes vibration signals acquired from a three-channel sensor using the piecewise aggregate approximation (PAA) algorithm to generate RGB-formatted Gramian angular difference field (GADF) images. The size of the resulting images is then reduced by employing bicubic interpolation-based downsampling. Subsequently, building upon these prepared samples, we~introduce an improved U-Net architecture within the DDPM, designated the IGM-DDPM, which achieves the fusion of deep, holistic, and salient features to enhance the sample generation process. The quality of the generated samples is evaluated using the Fréchet inception distance (FID) as a metric. Finally, an improved fault diagnosis model based on EfficientNet-B0 integrated with a convolutional block attention module (CBAM) is proposed. By~refining the number of input channels at each stage, this model mitigates overfitting and improves diagnostic effectiveness. Experimental results from multiple designed validation tests demonstrate that the proposed image enhancement method can effectively improve fault features within the images and maintain satisfactory diagnostic performance.",
     "summary": "",
     "doi": "10.1109/JSEN.2026.3653364",
+    "citations": 0
+  },
+  {
+    "title": "Multibranch Dendritic Computing for Federated Graph Neural Networks: Maintaining Interpretability Under Privacy Constraints",
+    "authors": [
+      "Yifan Fu",
+      "Min Xia",
+      "L. Weng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c83aa98cf28bedea5d5eb6f4ded5c90c3a2b25e2",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph neural networks (GNNs) have demonstrated remarkable performance in modeling complex relational data. However, their deployment in privacy–sensitive domains remains challenging due to the inherent tension between privacy protection and model interpretability. This article introduces a novel multibranch dendritic computing framework for federated GNNs (MBD-FGNNs) that addresses this fundamental challenge. Our approach integrates biologically inspired dendritic computing with federated learning paradigms, enabling distributed training across decentralized graph data while preserving both privacy and interpretability. The multibranch architecture mimics dendritic computation in biological neurons, where each branch processes patterns at different receptive field scales (one-hop, two-hop, and four-hop neighborhoods), providing natural model explanations through branch contribution analysis. To ensure rigorous privacy protection, we develop a branch-adaptive differential privacy (DP) mechanism with gradient clipping and calibrated Gaussian noise injection, satisfying $(\\epsilon, \\delta)$ -DP. We theoretically analyze the framework’s ability to maintain interpretation stability under DP constraints and derive formal guarantees on the privacy–interpretability trade-off. Extensive experiments on benchmark graph datasets demonstrate that MBD-FGNN outperforms state-of-the-art federated GNN approaches in terms of accuracy, privacy preservation, and explanation quality. Notably, our method achieves robust explanation stability even under privacy constraints, maintaining higher explanation consistency compared to conventional approaches, where explanations significantly degrade as privacy protection increases. The proposed framework opens new avenues for deploying interpretable graph learning systems in privacy–critical applications, such as healthcare networks, financial transaction graphs, and social network analysis. The code and dataset are publicly available at https://github.c-om/ZhaoGuan-nuist/MBD-FGNN",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3655382",
     "citations": 0
   },
   {
@@ -1524,6 +1636,44 @@
     "abstract_raw": "Since cardiovascular diseases (CVDs) have become the leading cause of death globally, continuous heartbeat monitoring holds particular importance, especially for the elderly population; however, the use of multiple electrodes attached to the body during signal collection may not be acceptable for patients. At present, ballistocardiogram (BCG) signal offers an unobtrusive solution for medical institutions, yet BCG has no uniformly confirmed gold standard for the noncontact diagnosis as electrocardiogram (ECG). In this article, we proposed a noninvasive cushion-based optical fiber sensor (OFS) with a deep learning model. The key novelty of our research is to develop a deep learning model feasible for noncontact OFS to achieve BCG–ECG mapping. Compared with traditional ECG measurement, ours presents a more user-friendly and convenient solution for the patients to collect cardiac data using OFS. We evaluated the generated ECG by using quantitative metrics: signal-tonoise ratio (SNR) and root mean square error (RMSE); and evaluation plots: Bland–Altman plot, histogram distribution of prediction data and ground-truth data, and histogram of prediction errors. The involved datasets for training and testing are a public dataset and self-collected dataset. In comparison to other recent methods, our proposed model presents a lower prediction error of 0.21, higher SNR of 12.53, and better predicted data distribution on both the public and selfcollected dataset. Simultaneously, the model presents an appropriate number of training parameters and training time in comparison to the state-of-the-art, giving the possibility of embedding the network into OFS for inference. Our research would provide a meaningful value for both the noninvasive CVD diagnosis based on OFS and BCG–ECG mapping.",
     "summary": "",
     "doi": "10.1109/JSEN.2026.3658110",
+    "citations": 0
+  },
+  {
+    "title": "INSIG1/2 succination mediated by the moonlighting function of ADSL promotes lipogenesis and liver tumorigenesis.",
+    "authors": [
+      "Yuran Duan",
+      "Shuo Wang",
+      "Jianyu Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/130dc3778e25fd7f8969c86a056044f9cef67dfa",
+    "date": "2026-03-15",
+    "keywords": [
+      "Nature Communications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41467-026-70583-0",
+    "citations": 0
+  },
+  {
+    "title": "Position Encoding-Enhanced Adaptive Expansion Graph Attention Network for Anomaly Detection in Multivariate Time Series",
+    "authors": [
+      "Xiaoyu Zhang",
+      "Xiaofeng Lu",
+      "Yaru Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e6b02e175c74ca94d78928288b21a4eae236b49",
+    "date": "2026-03-15",
+    "keywords": [
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As cyber–physical systems continue to increase in complexity, multivariate time series exhibit not only intricate temporal patterns within individual variables but also complex intervariable dependencies, including both synchronous and asynchronous propagation. Although existing graph neural network (GNN)-based methods perform well in modeling variable dependencies, they often decouple temporal pattern processing from the graph construction. This separation often results in graph structures that lack temporal semantics and struggle to capture delayed responses among variables. To address this, we propose a position encoding-enhanced adaptive expansion graph attention network (PEE-AEGAT) for multivariate time-series anomaly detection and root cause analysis. First, to embed temporal semantics directly into the graph construction process, we design a multifrequency positional encoding projection (MF-PEP) module that explicitly injects multiscale periodic patterns and positional information into node embeddings. Second, we introduce a hybrid adaptive graph structure learning (HAGSL) strategy that constructs a dual-mode graph by integrating static feature similarity with dynamic delay-aware similarity, together with a density-aware adaptive expansion mechanism for flexibly capturing dependencies. Finally, we develop a delay-aware graph attention network for information aggregation and propose an influence-based scoring mechanism to accurately identify anomaly root causes. Extensive experiments on four public real-world datasets demonstrate that PEE-AEGAT significantly outperforms state-of-the-art baselines in anomaly detection accuracy and root cause localization performance.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3651286",
     "citations": 0
   },
   {
