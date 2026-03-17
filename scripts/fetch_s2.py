@@ -4,11 +4,7 @@ import time
 import os
 from datetime import datetime, timedelta, timezone
 
-# 🌟 优化1：基于官方 Tutorial 的高级查询语法，使用精准匹配(双引号)和布尔运算符(|)合并查询。
-# 这将原本的 5 次 API 请求减少到了 1 次，极大降低触发限流的概率。
-QUERY = '("large language model") | ("foundation model") | ("protein language model") | ("deep learning") | ("fine-tuning")'
-
-# 🌟 优化2：官方推荐抓取大量数据时使用 /bulk 终点，而非普通 search
+QUERY = '("large language model") | ("foundation model") | ("protein language model") | ("deep learning") | ("fine-tuning") | ("virtual screening") | ("ADMET") | ("drug-likeness") | ("GNN")'
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
@@ -30,7 +26,7 @@ if api_key:
 all_papers_dict = {} 
 TAG_KEYWORDS = ["Deep Learning", "LLM", "Foundation Model", "Agent", "Fine-tuning", "Protein Language Model"]
 
-print("🚀 开始基于官方 Bulk API 的高效合并抓取...")
+print("开始基于官方 Bulk API 的高效合并抓取...")
 stats_total = 0
 
 # 构建请求参数，bulk 终点同样支持 sort 排序
@@ -59,7 +55,7 @@ for attempt in range(max_retries):
         
         items = data.get("data", [])
         stats_total += len(items)
-        print(f"✅ Bulk API 成功返回 {len(items)} 篇文献。")
+        print(f"Bulk API 成功返回 {len(items)} 篇文献。")
         
         # 解析并清洗数据
         for item in items:
@@ -78,7 +74,30 @@ for attempt in range(max_retries):
             
             if paper_id and paper_id not in all_papers_dict:
                 title = item.get("title", "")
-                matched_keywords = [kw for kw in TAG_KEYWORDS if kw.lower() in title.lower()]
+                title_lower = title.lower()
+                
+                # 将标题和摘要合并，转换为小写，用于进行更深度的关键词扫描
+                abstract_lower = (item.get("abstract", "") or "").lower()
+                content_lower = title_lower + " " + abstract_lower
+                
+                # 1. 其他常规标签依然只扫描标题，防止打上太多无关的干扰标签
+                BASIC_TAGS = ["Deep Learning", "LLM", "Foundation Model", "Agent", "Fine-tuning"]
+                matched_keywords = [kw for kw in BASIC_TAGS if kw.lower() in title_lower]
+                
+                # PLM 专属逻辑
+                has_protein = "protein" in content_lower
+                has_llm = "large language model" in content_lower or "llm" in content_lower
+                has_plm = "protein language model" in content_lower
+                if has_plm or (has_protein and has_llm):
+                    matched_keywords.append("Protein Language Model")
+
+                # AIDD 专属组合逻辑
+                has_drug_prop = "drug-likeness" in content_lower or "admet" in content_lower
+                has_ai_algo = "deep learning" in content_lower or "gnn" in content_lower
+                has_vs = "virtual screening" in content_lower
+                
+                if has_drug_prop and has_ai_algo and has_vs:
+                    matched_keywords.append("AIDD")
                 
                 authors_raw = item.get("authors", [])
                 authors = [a.get("name") for a in authors_raw[:3] if a.get("name")]
@@ -92,7 +111,7 @@ for attempt in range(max_retries):
                 if citations > 0:
                     matched_keywords.append(f"Cited: {citations}")
                 
-                # 🛠️ 修复的 Bug：交叉验证，防止 API 错误地将作者名识别为期刊名
+                # 交叉验证，防止 API 错误地将作者名识别为期刊名
                 if venue:
                     venue_clean = venue.strip()
                     venue_lower = venue_clean.lower()
@@ -126,9 +145,9 @@ for attempt in range(max_retries):
         break 
         
     except requests.exceptions.RequestException as e:
-        print(f"   ❌ 请求失败: {e}")
+        print(f"   请求失败: {e}")
         if attempt == max_retries - 1:
-            print("   🚨 抓取失败，放弃当前请求。")
+            print("   抓取失败，放弃当前请求。")
 
 # 将字典转为列表并按日期倒序排列
 final_papers = list(all_papers_dict.values())
@@ -138,7 +157,7 @@ final_papers.sort(key=lambda x: x["date"], reverse=True)
 with open("data/s2.json", "w", encoding="utf-8") as f:
     json.dump(final_papers, f, ensure_ascii=False, indent=2)
 
-print(f"🎉 抓取完成！共获得 {len(final_papers)} 篇有效去重文献。")
+print(f"抓取完成！共获得 {len(final_papers)} 篇有效去重文献。")
 
 # 保存真实的运行状态供网页使用
 run_stats = {
