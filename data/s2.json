@@ -407,6 +407,24 @@
     "citations": 0
   },
   {
+    "title": "Identification of nonconvulsive status epilepticus in the ictal-interictal continuum using artificial intelligence: a prospective observational cohort study.",
+    "authors": [
+      "Sungyeong Ryu",
+      "Dong Ah Lee",
+      "Kang Min Park"
+    ],
+    "link": "https://www.semanticscholar.org/paper/81a404cdac45e97653690d1c4c43d1d037043686",
+    "date": "2026-03-16",
+    "keywords": [
+      "encephalitis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.47936/encephalitis.2025.00157",
+    "citations": 0
+  },
+  {
     "title": "Fluid-Xpress: Emotion-Aware Dual-Loop Framework for Empathic Facial Reaction in HRI",
     "authors": [
       "Chen Kang",
@@ -614,6 +632,26 @@
     "citations": 0
   },
   {
+    "title": "Anatomy of aging through organ-resolved multi-modal imaging and deep learning",
+    "authors": [
+      "A. Eames",
+      "D. Glubokov",
+      "A. Moldakozhayev",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/266ce19f35b63667a475006e883535ee55583cb7",
+    "date": "2026-03-16",
+    "keywords": [
+      "Deep Learning",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.03.14.26348392",
+    "citations": 0
+  },
+  {
     "title": "Perception–Awareness–Decision: Socially‑Aware Robot Navigation and Interaction",
     "authors": [
       "Edison Jair Bejarano Sepulveda",
@@ -803,6 +841,25 @@
     "citations": 0
   },
   {
+    "title": "MetaDent: Labeling Clinical Images for Vision-Language Models in Dentistry.",
+    "authors": [
+      "M-X Li",
+      "W-H Deng",
+      "Z-X Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fab9889dafe9c036373f51fd641f7f1ea35c9995",
+    "date": "2026-03-15",
+    "keywords": [
+      "Journal of dentistry research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1177/00220345261424242",
+    "citations": 0
+  },
+  {
     "title": "A Server-Side Model Intellectual Property Protection Method for Federated Learning Against Model Theft",
     "authors": [
       "Wenxiong Chen",
@@ -826,7 +883,7 @@
     "authors": [
       "Qing Chen",
       "Hua Peng",
-      "Chen-Xiao Fu",
+      "Chen Fu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/f5a69be4369f92a5d890ad842d7d9499b84474d3",
@@ -1259,6 +1316,23 @@
     "citations": 0
   },
   {
+    "title": "Artificial Intelligence and Large Language Models: A Collaborative Relationship.",
+    "authors": [
+      "Kirk D. Wyatt",
+      "S. Volchenboum"
+    ],
+    "link": "https://www.semanticscholar.org/paper/657be55011c76de568a6e300092100e60a7a2685",
+    "date": "2026-03-15",
+    "keywords": [
+      "Pediatric Blood & Cancer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/pbc.32160",
+    "citations": 0
+  },
+  {
     "title": "Beyond whole-image learning: anatomically partitioned deep learning models for superior sinonasal disease classification.",
     "authors": [
       "Song Li",
@@ -1298,6 +1372,25 @@
     "citations": 0
   },
   {
+    "title": "Recent advances in synthetic virtual 3D endoscopy to assist in skull base surgery.",
+    "authors": [
+      "V. Staartjes",
+      "Olivier Zanier",
+      "Kenneth Arockia",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/57935a752f318baf99e7f55c0f3369ed1fb841cc",
+    "date": "2026-03-15",
+    "keywords": [
+      "Expert Review of Neurotherapeutics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/14737175.2026.2642838",
+    "citations": 0
+  },
+  {
     "title": "DBLoc: A Lightweight and Universal BFI-Enabled Deep Learning Framework for Wi-Fi Localization",
     "authors": [
       "Zhiyuan He",
@@ -1315,6 +1408,25 @@
     "abstract_raw": "Wi-Fi-based passive indoor localization has gained prominence owing to its high accuracy and ease of deployment in global positioning system (GPS)-denied environments. However, channel state information (CSI)-based systems face challenges, including high data acquisition requirements, significant computational overhead, and limited transferability. In this article, we introduce DBLoc, a Wi-Fi localization system that leverages beamforming feedback information (BFI), a novel attribute provided by modern Wi-Fi hardware. BFI’s clear-text transmission and stable characteristics make it an ideal choice for localization tasks. We prove that BFI provides a lightweight alternative to CSI, significantly reducing both data acquisition and storage requirements. Compared with traditional deep learning frameworks using convolutional networks, DBLoc employs a pruning-based residual architecture to reduce computational overhead, achieving an inference cost of only 175.7 MFLOPs, thus optimizing performance within an edge-deployment budget. To enable transferability that surpasses current meta-learning approaches, DBLoc incorporates a virtual-domain-based meta-learning algorithm, ensuring robust performance with minimal target-domain data. In addition, a spatial-encryption mechanism is proposed to safeguard the BFI-based model from eavesdropping. Extensive evaluations demonstrate that DBLoc achieves a median localization error of approximately 0.5 m while significantly reducing localization accuracy for unauthorized attackers.",
     "summary": "",
     "doi": "10.1109/JIOT.2025.3647979",
+    "citations": 0
+  },
+  {
+    "title": "Cautious optimism on foundation models in medical imaging balancing privacy and innovation.",
+    "authors": [
+      "Rui Santos",
+      "D. DeBuc",
+      "G. Somfai"
+    ],
+    "link": "https://www.semanticscholar.org/paper/42ec92172d4c3cc93e066ea32500a4f63877fed9",
+    "date": "2026-03-15",
+    "keywords": [
+      "Foundation Model",
+      "npj Digital Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41746-026-02533-5",
     "citations": 0
   },
   {
@@ -1412,6 +1524,25 @@
     "abstract_raw": "Since cardiovascular diseases (CVDs) have become the leading cause of death globally, continuous heartbeat monitoring holds particular importance, especially for the elderly population; however, the use of multiple electrodes attached to the body during signal collection may not be acceptable for patients. At present, ballistocardiogram (BCG) signal offers an unobtrusive solution for medical institutions, yet BCG has no uniformly confirmed gold standard for the noncontact diagnosis as electrocardiogram (ECG). In this article, we proposed a noninvasive cushion-based optical fiber sensor (OFS) with a deep learning model. The key novelty of our research is to develop a deep learning model feasible for noncontact OFS to achieve BCG–ECG mapping. Compared with traditional ECG measurement, ours presents a more user-friendly and convenient solution for the patients to collect cardiac data using OFS. We evaluated the generated ECG by using quantitative metrics: signal-tonoise ratio (SNR) and root mean square error (RMSE); and evaluation plots: Bland–Altman plot, histogram distribution of prediction data and ground-truth data, and histogram of prediction errors. The involved datasets for training and testing are a public dataset and self-collected dataset. In comparison to other recent methods, our proposed model presents a lower prediction error of 0.21, higher SNR of 12.53, and better predicted data distribution on both the public and selfcollected dataset. Simultaneously, the model presents an appropriate number of training parameters and training time in comparison to the state-of-the-art, giving the possibility of embedding the network into OFS for inference. Our research would provide a meaningful value for both the noninvasive CVD diagnosis based on OFS and BCG–ECG mapping.",
     "summary": "",
     "doi": "10.1109/JSEN.2026.3658110",
+    "citations": 0
+  },
+  {
+    "title": "Chiral-Induced Spin-Polarized Molecular Switching in a Magneto-Controlled 2D System using Electrical Readouts.",
+    "authors": [
+      "Yiming Lei",
+      "Ángel Campos‐Lendínez",
+      "Irena Spasojević",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0cf63f50d69a06138fd50b2fbe3e96fc71763c92",
+    "date": "2026-03-15",
+    "keywords": [
+      "Small"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/smll.202513626",
     "citations": 0
   },
   {

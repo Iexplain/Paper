@@ -28,11 +28,27 @@
             width: 260px; height: 100vh; position: fixed; left: 0; top: 0;
             background: var(--sidebar-bg); border-right: 1px solid var(--border-color);
             padding: 30px 20px; box-sizing: border-box; display: flex; flex-direction: column;
-            gap: 12px; z-index: 100; overflow-y: auto;
+            gap: 12px; z-index: 1000;
+            overflow-y: auto;
             scrollbar-width: none; -ms-overflow-style: none;
+            transform: translateX(-100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 4px 0 24px rgba(0, 0, 0, 0.1);
         }
         .sidebar::-webkit-scrollbar { display: none; }
+        .sidebar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -25px; /* 热区向右侧屏幕内延伸 25px */
+            width: 25px;
+            height: 100%;
+            background: transparent;
+        }
 
+        .sidebar:hover {
+            transform: translateX(0);
+        }
         .sidebar-section { margin-bottom: 10px; }
         .sidebar-section h4 { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.05em; }
         
@@ -81,7 +97,7 @@
         .tooltip-header { font-weight: 800; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; }
 
         /* === 主内容区样式 === */
-        .main-content { margin-left: 260px; padding: 30px 40px 40px; flex: 1; min-height: 100vh; }
+        .main-content { margin-left: 0; padding: 30px 40px 40px; padding-left: 60px; flex: 1; min-height: 100vh; }
         header { margin-bottom: 40px; }
         h1 { font-size: 2.2rem; margin: 0 0 8px 0; font-weight: 800; line-height: 1.1; }
         .stats { color: var(--text-muted); font-size: 1.1rem; }
@@ -151,7 +167,7 @@
     <header>
         <h1>今日前沿文献</h1>
         <div class="stats" style="display: flex; align-items: center;">
-            <span>当前显示 <strong id="total-count">198</strong> 篇文献</span>
+            <span>当前显示 <strong id="total-count">205</strong> 篇文献</span>
             <div class="tooltip-container">
                 <span class="status-badge">
                     <span style="display:inline-block; width:8px; height:8px; background:#22c55e; border-radius:50%; box-shadow: 0 0 6px #22c55e;"></span> 
@@ -160,8 +176,8 @@
                 <div class="tooltip-text">
                     <div class="tooltip-header">📊 今日爬虫真实报告</div>
                     <div style="color: #cbd5e1;">📦 抓取总数：<strong style="color: #fff;">1000</strong> 篇</div>
-                    <div style="color: #4ade80;">✅ 成功入库：<strong style="color: #fff;">78</strong> 篇</div>
-                    <div style="color: #f87171;">❌ 过滤丢弃：<strong style="color: #fff;">922</strong> 篇</div>
+                    <div style="color: #4ade80;">✅ 成功入库：<strong style="color: #fff;">85</strong> 篇</div>
+                    <div style="color: #f87171;">❌ 过滤丢弃：<strong style="color: #fff;">915</strong> 篇</div>
                 </div>
             </div>
         </div>
@@ -966,6 +982,40 @@
             </div>
         </div>
         
+        <div class="paper-card" data-keywords="encephalitis" data-source="Semantic Scholar" data-date="2026-03-16">
+            <h3><a href="https://www.semanticscholar.org/paper/81a404cdac45e97653690d1c4c43d1d037043686" target="_blank">Identification of nonconvulsive status epilepticus in the ictal-interictal continuum using artificial intelligence: a prospective observational cohort study.</a></h3>
+            <div class="authors">Sungyeong Ryu, Dong Ah Lee, Kang Min Park</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.47936/encephalitis.2025.00157" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.47936/encephalitis.2025.00157</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-16</span>
+                
+                    
+                        <span class="tag">encephalitis</span>
+                    
+                
+            </div>
+        </div>
+        
         <div class="paper-card" data-keywords="Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction" data-source="Semantic Scholar" data-date="2026-03-16">
             <h3><a href="https://www.semanticscholar.org/paper/71b202e4a8cbc906e253f9037bb86b95b2c02f24" target="_blank">Fluid-Xpress: Emotion-Aware Dual-Loop Framework for Empathic Facial Reaction in HRI</a></h3>
             <div class="authors">Chen Kang, Madina Alitai, Yiting Wang, et al.</div>
@@ -1348,6 +1398,42 @@
             </div>
         </div>
         
+        <div class="paper-card" data-keywords="Deep Learning,medRxiv" data-source="Semantic Scholar" data-date="2026-03-16">
+            <h3><a href="https://www.semanticscholar.org/paper/266ce19f35b63667a475006e883535ee55583cb7" target="_blank">Anatomy of aging through organ-resolved multi-modal imaging and deep learning</a></h3>
+            <div class="authors">A. Eames, D. Glubokov, A. Moldakozhayev, et al.</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.64898/2026.03.14.26348392" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.64898/2026.03.14.26348392</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-16</span>
+                
+                    
+                        <span class="tag">Deep Learning</span>
+                    
+                        <span class="tag">medRxiv</span>
+                    
+                
+            </div>
+        </div>
+        
         <div class="paper-card" data-keywords="Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction" data-source="Semantic Scholar" data-date="2026-03-16">
             <h3><a href="https://www.semanticscholar.org/paper/2624379eb10b2cfcda4cfb286eb478bb4d27d5af" target="_blank">Perception–Awareness–Decision: Socially‑Aware Robot Navigation and Interaction</a></h3>
             <div class="authors">Edison Jair Bejarano Sepulveda, Valerio Bo, A. Sanfeliu, et al.</div>
@@ -1696,6 +1782,40 @@
             </div>
         </div>
         
+        <div class="paper-card" data-keywords="Journal of dentistry research" data-source="Semantic Scholar" data-date="2026-03-15">
+            <h3><a href="https://www.semanticscholar.org/paper/fab9889dafe9c036373f51fd641f7f1ea35c9995" target="_blank">MetaDent: Labeling Clinical Images for Vision-Language Models in Dentistry.</a></h3>
+            <div class="authors">M-X Li, W-H Deng, Z-X Wu, et al.</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.1177/00220345261424242" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.1177/00220345261424242</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-15</span>
+                
+                    
+                        <span class="tag">Journal of dentistry research</span>
+                    
+                
+            </div>
+        </div>
+        
         <div class="paper-card" data-keywords="IEEE Internet of Things Journal" data-source="Semantic Scholar" data-date="2026-03-15">
             <h3><a href="https://www.semanticscholar.org/paper/f8068a3d7d06db00d2d650c92ff1804a168b0a99" target="_blank">A Server-Side Model Intellectual Property Protection Method for Federated Learning Against Model Theft</a></h3>
             <div class="authors">Wenxiong Chen, Xuantao Tang, Dan Wang, et al.</div>
@@ -1732,7 +1852,7 @@
         
         <div class="paper-card" data-keywords="Deep Learning,World Journal of Diabetes" data-source="Semantic Scholar" data-date="2026-03-15">
             <h3><a href="https://www.semanticscholar.org/paper/f5a69be4369f92a5d890ad842d7d9499b84474d3" target="_blank">Machine learning and deep learning in predicting the risk of diabetic kidney disease: A systematic review and meta-analysis</a></h3>
-            <div class="authors">Qing Chen, Hua Peng, Chen-Xiao Fu, et al.</div>
+            <div class="authors">Qing Chen, Hua Peng, Chen Fu, et al.</div>
             
             <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
                 
@@ -2548,6 +2668,40 @@ Beyond efficiency, the system aims to create a smoother and more sustainable com
             </div>
         </div>
         
+        <div class="paper-card" data-keywords="Pediatric Blood & Cancer" data-source="Semantic Scholar" data-date="2026-03-15">
+            <h3><a href="https://www.semanticscholar.org/paper/657be55011c76de568a6e300092100e60a7a2685" target="_blank">Artificial Intelligence and Large Language Models: A Collaborative Relationship.</a></h3>
+            <div class="authors">Kirk D. Wyatt, S. Volchenboum</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.1002/pbc.32160" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.1002/pbc.32160</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-15</span>
+                
+                    
+                        <span class="tag">Pediatric Blood & Cancer</span>
+                    
+                
+            </div>
+        </div>
+        
         <div class="paper-card" data-keywords="Deep Learning,European Radiology" data-source="Semantic Scholar" data-date="2026-03-15">
             <h3><a href="https://www.semanticscholar.org/paper/61dc4d788d802a272594c05c5e801c2ac76a4d7c" target="_blank">Beyond whole-image learning: anatomically partitioned deep learning models for superior sinonasal disease classification.</a></h3>
             <div class="authors">Song Li, Xiang-Hai Hu, Song Luo, et al.</div>
@@ -2618,6 +2772,40 @@ Beyond efficiency, the system aims to create a smoother and more sustainable com
             </div>
         </div>
         
+        <div class="paper-card" data-keywords="Expert Review of Neurotherapeutics" data-source="Semantic Scholar" data-date="2026-03-15">
+            <h3><a href="https://www.semanticscholar.org/paper/57935a752f318baf99e7f55c0f3369ed1fb841cc" target="_blank">Recent advances in synthetic virtual 3D endoscopy to assist in skull base surgery.</a></h3>
+            <div class="authors">V. Staartjes, Olivier Zanier, Kenneth Arockia, et al.</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.1080/14737175.2026.2642838" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.1080/14737175.2026.2642838</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-15</span>
+                
+                    
+                        <span class="tag">Expert Review of Neurotherapeutics</span>
+                    
+                
+            </div>
+        </div>
+        
         <div class="paper-card" data-keywords="Deep Learning,IEEE Internet of Things Journal" data-source="Semantic Scholar" data-date="2026-03-15">
             <h3><a href="https://www.semanticscholar.org/paper/4579001057a6d35be0e982ba023aed344f0522f5" target="_blank">DBLoc: A Lightweight and Universal BFI-Enabled Deep Learning Framework for Wi-Fi Localization</a></h3>
             <div class="authors">Zhiyuan He, Desheng Wang, Jiangchao Gong, et al.</div>
@@ -2649,6 +2837,42 @@ Beyond efficiency, the system aims to create a smoother and more sustainable com
                         <span class="tag">Deep Learning</span>
                     
                         <span class="tag">IEEE Internet of Things Journal</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Foundation Model,npj Digital Medicine" data-source="Semantic Scholar" data-date="2026-03-15">
+            <h3><a href="https://www.semanticscholar.org/paper/42ec92172d4c3cc93e066ea32500a4f63877fed9" target="_blank">Cautious optimism on foundation models in medical imaging balancing privacy and innovation.</a></h3>
+            <div class="authors">Rui Santos, D. DeBuc, G. Somfai</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.1038/s41746-026-02533-5" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.1038/s41746-026-02533-5</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-15</span>
+                
+                    
+                        <span class="tag">Foundation Model</span>
+                    
+                        <span class="tag">npj Digital Medicine</span>
                     
                 
             </div>
@@ -2825,6 +3049,40 @@ Beyond efficiency, the system aims to create a smoother and more sustainable com
                         <span class="tag">Deep Learning</span>
                     
                         <span class="tag">IEEE Sensors Journal</span>
+                    
+                
+            </div>
+        </div>
+        
+        <div class="paper-card" data-keywords="Small" data-source="Semantic Scholar" data-date="2026-03-15">
+            <h3><a href="https://www.semanticscholar.org/paper/0cf63f50d69a06138fd50b2fbe3e96fc71763c92" target="_blank">Chiral-Induced Spin-Polarized Molecular Switching in a Magneto-Controlled 2D System using Electrical Readouts.</a></h3>
+            <div class="authors">Yiming Lei, Ángel Campos‐Lendínez, Irena Spasojević, et al.</div>
+            
+            <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+                
+                <div>
+                    <span style="color: var(--text-muted);">📄 DOI: </span>
+                    <a href="https://doi.org/10.1002/smll.202513626" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; letter-spacing: 0.02em;">10.1002/smll.202513626</a>
+                </div>
+                
+                
+                <div>
+                    <span style="color: var(--text-muted);">🔥 引用: </span>
+                    <strong style="color: #ef4444;">0</strong>
+                </div>
+                
+            </div>
+
+            <div class="abstract-summary">
+                <strong>Abstract:</strong> 暂无摘要，请点击原文查看。
+            </div>
+
+            <div class="tags-container">
+                <span class="tag" style="background:#f1f5f9; color:#475569; border: 1px solid #cbd5e1;">🏛️ Semantic Scholar</span>
+                <span class="tag" style="background:var(--border-color); color:var(--text-muted);">📅 2026-03-15</span>
+                
+                    
+                        <span class="tag">Small</span>
                     
                 
             </div>
