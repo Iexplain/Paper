@@ -28,11 +28,27 @@
             width: 260px; height: 100vh; position: fixed; left: 0; top: 0;
             background: var(--sidebar-bg); border-right: 1px solid var(--border-color);
             padding: 30px 20px; box-sizing: border-box; display: flex; flex-direction: column;
-            gap: 12px; z-index: 100; overflow-y: auto;
+            gap: 12px; z-index: 1000;
+            overflow-y: auto;
             scrollbar-width: none; -ms-overflow-style: none;
+            transform: translateX(-100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 4px 0 24px rgba(0, 0, 0, 0.1);
         }
         .sidebar::-webkit-scrollbar { display: none; }
+        .sidebar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -25px; /* 热区向右侧屏幕内延伸 25px */
+            width: 25px;
+            height: 100%;
+            background: transparent;
+        }
 
+        .sidebar:hover {
+            transform: translateX(0);
+        }
         .sidebar-section { margin-bottom: 10px; }
         .sidebar-section h4 { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.05em; }
         
@@ -81,7 +97,7 @@
         .tooltip-header { font-weight: 800; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; }
 
         /* === 主内容区样式 === */
-        .main-content { margin-left: 260px; padding: 30px 40px 40px; flex: 1; min-height: 100vh; }
+        .main-content { margin-left: 0; padding: 30px 40px 40px; padding-left: 60px; flex: 1; min-height: 100vh; }
         header { margin-bottom: 40px; }
         h1 { font-size: 2.2rem; margin: 0 0 8px 0; font-weight: 800; line-height: 1.1; }
         .stats { color: var(--text-muted); font-size: 1.1rem; }
