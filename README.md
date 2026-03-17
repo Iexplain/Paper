@@ -12,4 +12,4 @@ https://Iexplain.github.io/Paper/
 
 ## 自定义
 - 修改`daily-lit.yml`中的keywords
-- 扩展`fetch_papers.py`添加PubMed等源
+- 扩展`fetch_S2.py`添加PubMed等源数据库
