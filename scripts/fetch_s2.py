@@ -94,6 +94,11 @@ for attempt in range(max_retries):
                 if has_plm or (has_protein and has_llm):
                     matched_keywords.append("Protein Language Model")
 
+                # BLM 专属逻辑
+                has_nucleic_acid = any(kw in content_lower for kw in ["gene", "dna", "rna"])
+                if has_nucleic_acid and has_llm:
+                    matched_keywords.append("Biological Large Model")
+                    
                 # AIDD 专属逻辑
                 has_ai_algo = any(kw in content_lower for kw in ["deep learning", "gnn", "machine learning", "artificial intelligence"])
                 has_drug_task = any(kw in content_lower for kw in ["virtual screening", "admet", "drug-likeness", "drug discovery", "molecular docking"])
