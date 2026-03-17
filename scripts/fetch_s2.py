@@ -78,7 +78,11 @@ for attempt in range(max_retries):
                 # 将标题和摘要合并，转换为小写，用于进行更深度的关键词扫描
                 abstract_lower = (item.get("abstract", "") or "").lower()
                 content_lower = title_lower + " " + abstract_lower
-                
+                matched_keywords = []
+                diff_days = (today - pub_date).days
+                if diff_days <= 3:
+                    matched_keywords.append("🆕 近三天更新")
+                    
                 # 1. 其他常规标签依然只扫描标题，防止打上太多无关的干扰标签
                 BASIC_TAGS = ["Deep Learning", "Foundation Model", "Agent", "Fine-tuning"]
                 matched_keywords = [kw for kw in BASIC_TAGS if kw.lower() in title_lower]
