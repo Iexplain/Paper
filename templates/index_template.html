@@ -175,20 +175,31 @@
 <main class="main-content">
     <header>
         <h1>今日前沿文献</h1>
-        <div class="stats" style="display: flex; align-items: center;">
-            <span>当前显示 <strong id="total-count">{{ all_papers|length }}</strong> 篇文献</span>
+        <div class="stats" style="display: flex; align-items: center; gap: 12px;">
+            
             <div class="tooltip-container">
-                <span class="status-badge">
+                <span class="status-badge" style="margin-left: 0; background: var(--accent-tag); color: var(--primary-color); border-color: rgba(37, 99, 235, 0.3);">
+                    当前数量
+                </span>
+                <div class="tooltip-text">
+                    <div class="tooltip-header">筛选结果统计</div>
+                    <div style="color: #e2e8f0;">页面共显示 <strong id="total-count" style="color: #60a5fa; font-size: 1.2rem;">{{ all_papers|length }}</strong> 篇文献</div>
+                </div>
+            </div>
+
+            <div class="tooltip-container">
+                <span class="status-badge" style="margin-left: 0;">
                     <span style="display:inline-block; width:8px; height:8px; background:#22c55e; border-radius:50%; box-shadow: 0 0 6px #22c55e;"></span> 
                     抓取状态
                 </span>
                 <div class="tooltip-text">
-                    <div class="tooltip-header">今日爬虫真实报告</div>
+                    <div class="tooltip-header">今日爬虫报告</div>
                     <div style="color: #cbd5e1;">抓取总数：<strong style="color: #fff;">{{ stats.total }}</strong> 篇</div>
                     <div style="color: #4ade80;">成功入库：<strong style="color: #fff;">{{ stats.success }}</strong> 篇</div>
                     <div style="color: #f87171;">过滤丢弃：<strong style="color: #fff;">{{ stats.failed }}</strong> 篇</div>
                 </div>
             </div>
+            
         </div>
     </header>
 
