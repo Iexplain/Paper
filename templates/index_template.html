@@ -22,6 +22,7 @@
             background: var(--bg-color); color: var(--text-main); line-height: 1.6;
             display: flex; transition: background-color 0.3s, color 0.3s;
         }
+        
         .sidebar-trigger {
             position: fixed;
             top: 0;
@@ -130,10 +131,44 @@
         .tag { font-size: 0.75rem; font-weight: 600; padding: 4px 10px; border-radius: 6px; background: var(--accent-tag); color: var(--accent-tag-text); }
         
         .hidden { display: none !important; }
+
+        /* === 顶部下拉仪表盘与触发区样式 === */
+        .topbar-trigger {
+            position: fixed; top: 0; left: 0; width: 100%; height: 20px;
+            z-index: 1001; background: transparent;
+        }
+        .topbar {
+            position: fixed; top: -100px; left: 50%; transform: translateX(-50%);
+            background: var(--card-bg); border: 1px solid var(--border-color);
+            border-top: none; border-radius: 0 0 16px 16px; /* 底部圆角 */
+            padding: 16px 32px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: flex; align-items: center; gap: 24px; z-index: 1000;
+            transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            white-space: nowrap;
+        }
+        .topbar-trigger:hover + .topbar,
+        .topbar:hover {
+            top: 0;
+        }
     </style>
 </head>
 <body>
+<div class="topbar-trigger"></div>
+<div class="topbar">
+    <div style="font-size: 0.95rem; font-weight: 500;">
+        <span style="color: var(--text-muted);">📑 当前显示:</span> 
+        <strong id="total-count" style="color: var(--primary-color); font-size: 1.2rem; margin-left: 6px;">{{ all_papers|length }}</strong> 篇
+    </div>
 
+    <div style="width: 1px; height: 24px; background: var(--border-color);"></div>
+
+    <div style="font-size: 0.9rem; display: flex; gap: 16px; align-items: center;">
+        <span style="color: var(--text-muted);">今日爬虫报告:</span>
+        <span>总抓取 <strong>{{ stats.total }}</strong></span>
+        <span style="color: #16a34a;">✅入库 <strong>{{ stats.success }}</strong></span>
+        <span style="color: #ef4444;">❌过滤 <strong>{{ stats.failed }}</strong></span>
+    </div>
+</div>
 <div class="sidebar-trigger"></div>
 <aside class="sidebar">
     <div class="sidebar-section">
@@ -174,33 +209,7 @@
 
 <main class="main-content">
     <header>
-        <h1>今日前沿文献</h1>
-        <div class="stats" style="display: flex; align-items: center; gap: 12px;">
-            
-            <div class="tooltip-container">
-                <span class="status-badge" style="margin-left: 0; background: var(--accent-tag); color: var(--primary-color); border-color: rgba(37, 99, 235, 0.3);">
-                    当前数量
-                </span>
-                <div class="tooltip-text">
-                    <div class="tooltip-header">筛选结果统计</div>
-                    <div style="color: #e2e8f0;">页面共显示 <strong id="total-count" style="color: #60a5fa; font-size: 1.2rem;">{{ all_papers|length }}</strong> 篇文献</div>
-                </div>
-            </div>
-
-            <div class="tooltip-container">
-                <span class="status-badge" style="margin-left: 0;">
-                    <span style="display:inline-block; width:8px; height:8px; background:#22c55e; border-radius:50%; box-shadow: 0 0 6px #22c55e;"></span> 
-                    抓取状态
-                </span>
-                <div class="tooltip-text">
-                    <div class="tooltip-header">今日爬虫报告</div>
-                    <div style="color: #cbd5e1;">抓取总数：<strong style="color: #fff;">{{ stats.total }}</strong> 篇</div>
-                    <div style="color: #4ade80;">成功入库：<strong style="color: #fff;">{{ stats.success }}</strong> 篇</div>
-                    <div style="color: #f87171;">过滤丢弃：<strong style="color: #fff;">{{ stats.failed }}</strong> 篇</div>
-                </div>
-            </div>
-            
-        </div>
+        <h1>今日前沿文献</h1>      
     </header>
 
     <div class="paper-grid" id="paper-container">
@@ -321,8 +330,6 @@
 
         document.getElementById('total-count').innerText = visibleCount;
     }
-
-    // 修复 Bug 1：页面刚渲染完时，强制同步一次复选框和下拉菜单的状态！
     window.addEventListener('DOMContentLoaded', (event) => {
         applyFilters();
     });
