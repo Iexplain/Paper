@@ -81,7 +81,7 @@ for attempt in range(max_retries):
                 content_lower = title_lower + " " + abstract_lower
                 
                 # 1. 其他常规标签依然只扫描标题，防止打上太多无关的干扰标签
-                BASIC_TAGS = ["Deep Learning", "LLM", "Foundation Model", "Agent", "Fine-tuning"]
+                BASIC_TAGS = ["Deep Learning", "Foundation Model", "Agent", "Fine-tuning"]
                 matched_keywords = [kw for kw in BASIC_TAGS if kw.lower() in title_lower]
                 
                 # PLM 专属逻辑
