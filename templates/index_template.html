@@ -191,6 +191,7 @@
             <option value="today">今日更新</option>
             <option value="3days">近三天</option>
             <option value="1week">近一周</option>
+            <option value="2weeks">近两周</option>
         </select>
     </div>
 
@@ -315,6 +316,7 @@
                         if (timeFilter === 'today') matchTime = diffDays <= 1.5;
                         else if (timeFilter === '3days') matchTime = diffDays <= 3.5;
                         else if (timeFilter === '1week') matchTime = diffDays <= 7.5;
+                        else if (timeFilter === '2weeks') matchTime = diffDays <= 14.5;
                     }
                 }
             }
