@@ -186,11 +186,12 @@ with open("data/latest_s2_update.json", "w", encoding="utf-8") as f:
 
 print(f"🎉 抓取完成！共获得 {len(final_papers)} 篇文献，其中近3天更新的 {len(recent_3days_papers)} 篇已独立存档至 {update_folder}。")
 
-# 5. 更新统计数据（让网页上的爬虫报告显示这三天的数量）
+# 5. 更新统计数据（让网页上的爬虫报告展示更精确）
 run_stats = {
     "total": stats_total,
-    "success": len(recent_3days_papers),
-    "failed": stats_total - len(recent_3days_papers) 
+    "success": len(final_papers),           # 15天总库的数量
+    "new_added": len(recent_3days_papers),  # 本次（3天内）新增的数量
+    "failed": stats_total - len(final_papers) 
 }
 with open("data/run_stats.json", "w", encoding="utf-8") as f:
     json.dump(run_stats, f, ensure_ascii=False, indent=2)
