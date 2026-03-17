@@ -1,16 +1,16 @@
 # Daily Literature Dashboard
 
-每日自动化搜集AI文献，生成交互式可视化网页。
+Automatically collect AI literature daily and generate interactive visual web pages.
 
-## 快速部署
-1. Fork此仓库
-2. 启用GitHub Pages（Settings > Pages > Deploy from branch: gh-pages）
-3. 等待首次Actions运行（或手动触发）
+## Quick Start
+1. Fork this Repo.
+2. Enable GitHub Pages (Settings > Pages > Deploy from branch: gh-pages).
+3. Wait for the first Actions to run (or manually trigger).
 
-## 访问
+## Visit
 https://Iexplain.github.io/Paper/
 
-## 自定义
-- 修改`fetch_s2.py`中的QUERY增加想查询的关键词
-- 前端样式可修改templates/index_template.html
-- 扩展`fetch_S2.py`添加PubMed等源数据库
+## User-defined
+- Modify the QUERY in `fetch_s2.py` to add the keywords you want to query
+- The front-end style can be modified in templates/index_template.html
+- Extend `fetch_S2.py` to add source databases such as PubMed
