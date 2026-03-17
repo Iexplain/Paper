@@ -156,10 +156,11 @@
 <div class="topbar-trigger"></div>
 <div class="topbar">
     <div style="font-size: 0.9rem; display: flex; gap: 16px; align-items: center;">
-        <span style="color: var(--text-muted);">今日爬虫报告:</span>
-        <span>总抓取 <strong>{{ stats.total }}</strong></span>
-        <span style="color: #16a34a;">✅ 入库 <strong>{{ stats.success }}</strong></span>
-        <span style="color: #ef4444;">❌ 过滤 <strong>{{ stats.failed }}</strong></span>
+        <span style="color: var(--text-muted);">最新爬虫报告:</span>
+        <span>接口读取 <strong>{{ stats.total }}</strong></span>
+        <span style="color: #16a34a;">本次上新 <strong>{{ stats.new_added }}</strong></span>
+        <span style="color: var(--primary-color);">库内总计 <strong>{{ stats.success }}</strong></span>
+        <span style="color: #ef4444;">太老过滤 <strong>{{ stats.failed }}</strong></span>
     </div>
 </div>
 <div class="sidebar-trigger"></div>
