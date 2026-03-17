@@ -191,6 +191,7 @@
             <option value="today">今日更新</option>
             <option value="3days">近三天</option>
             <option value="1week">近一周</option>
+            <option value="2weeks">近两周</option>
         </select>
     </div>
 
@@ -1439,7 +1440,7 @@
         
         <div class="paper-card" data-keywords="" data-source="Semantic Scholar" data-date="2026-03-16">
             <h3><a href="https://www.semanticscholar.org/paper/3bbf5cb23f4ca2d86af8146e828c9c07e890d01c" target="_blank">Editors' Introduction to the Issue, March 2026</a></h3>
-            <div class="authors">Thomas Ploetz, Lena Mamykina, Laura Barnes, et al.</div>
+            <div class="authors">Thomas Ploetz, Lena Mamykina, Laura E. Barnes, et al.</div>
             
             <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
                 
@@ -35288,6 +35289,7 @@ Level III.
                         if (timeFilter === 'today') matchTime = diffDays <= 1.5;
                         else if (timeFilter === '3days') matchTime = diffDays <= 3.5;
                         else if (timeFilter === '1week') matchTime = diffDays <= 7.5;
+                        else if (timeFilter === '2weeks') matchTime = diffDays <= 14.5;
                     }
                 }
             }
