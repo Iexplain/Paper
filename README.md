@@ -11,5 +11,6 @@
 https://Iexplain.github.io/Paper/
 
 ## 自定义
-- 修改`daily-lit.yml`中的keywords
+- 修改`fetch_s2.py`中的QUERY增加想查询的关键词
+- 前端样式可修改templates/index_template.html
 - 扩展`fetch_S2.py`添加PubMed等源数据库
