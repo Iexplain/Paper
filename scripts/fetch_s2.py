@@ -154,17 +154,43 @@ for attempt in range(max_retries):
 final_papers = list(all_papers_dict.values())
 final_papers.sort(key=lambda x: x["date"], reverse=True)
 
-# 写入文件
+# 1. 筛选出“近三天”的文献，并打上时间标签
+recent_3days_papers = []
+for paper in final_papers:
+    try:
+        pub_date = datetime.strptime(paper["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        diff_days = (today - pub_date).days
+        if diff_days <= 3:
+            paper["keywords"].append("🆕 近三天更新")
+            recent_3days_papers.append(paper)
+    except ValueError:
+        continue
+
+# 2. 依然保留一份总数据库，防止以后需要查历史数据
 with open("data/s2.json", "w", encoding="utf-8") as f:
     json.dump(final_papers, f, ensure_ascii=False, indent=2)
 
-print(f"抓取完成！共获得 {len(final_papers)} 篇有效去重文献。")
+# 3. 核心需求：将这三天的内容，单独保存在一个“专属文献文件夹”中
+update_folder = "data/recent_updates"
+os.makedirs(update_folder, exist_ok=True) # 如果文件夹不存在会自动创建
 
-# 保存真实的运行状态供网页使用
+date_str = today.strftime('%Y-%m-%d')
+archive_path = f"{update_folder}/update_{date_str}.json" # 按日期命名的快照文件
+
+with open(archive_path, "w", encoding="utf-8") as f:
+    json.dump(recent_3days_papers, f, ensure_ascii=False, indent=2)
+
+# 4. 单独存一份“最新快照”，专门喂给网页生成器使用
+with open("data/latest_s2_update.json", "w", encoding="utf-8") as f:
+    json.dump(recent_3days_papers, f, ensure_ascii=False, indent=2)
+
+print(f"🎉 抓取完成！共获得 {len(final_papers)} 篇文献，其中近3天更新的 {len(recent_3days_papers)} 篇已独立存档至 {update_folder}。")
+
+# 5. 更新统计数据（让网页上的爬虫报告显示这三天的数量）
 run_stats = {
     "total": stats_total,
-    "success": len(final_papers),
-    "failed": stats_total - len(final_papers) 
+    "success": len(recent_3days_papers),
+    "failed": stats_total - len(recent_3days_papers) 
 }
 with open("data/run_stats.json", "w", encoding="utf-8") as f:
     json.dump(run_stats, f, ensure_ascii=False, indent=2)
