@@ -10,7 +10,7 @@ URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 today = datetime.now(timezone.utc)
 seven_days_ago = today - timedelta(days=7)
 # 真正展示在前端的，只取过去 3 天的数据（本地过滤）
-cutoff_date = today - timedelta(days=3)
+cutoff_date = today - timedelta(days=14)
 
 date_range = f"{seven_days_ago.strftime('%Y-%m-%d')}:{today.strftime('%Y-%m-%d')}"
 
