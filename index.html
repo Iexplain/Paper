@@ -155,18 +155,11 @@
 <body>
 <div class="topbar-trigger"></div>
 <div class="topbar">
-    <div style="font-size: 0.95rem; font-weight: 500;">
-        <span style="color: var(--text-muted);">📑 当前显示:</span> 
-        <strong id="total-count" style="color: var(--primary-color); font-size: 1.2rem; margin-left: 6px;">1120</strong> 篇
-    </div>
-
-    <div style="width: 1px; height: 24px; background: var(--border-color);"></div>
-
     <div style="font-size: 0.9rem; display: flex; gap: 16px; align-items: center;">
         <span style="color: var(--text-muted);">今日爬虫报告:</span>
         <span>总抓取 <strong>1000</strong></span>
-        <span style="color: #16a34a;">✅入库 <strong>1000</strong></span>
-        <span style="color: #ef4444;">❌过滤 <strong>0</strong></span>
+        <span style="color: #16a34a;">✅ 入库 <strong>1000</strong></span>
+        <span style="color: #ef4444;">❌ 过滤 <strong>0</strong></span>
     </div>
 </div>
 <div class="sidebar-trigger"></div>
@@ -209,8 +202,12 @@
 </aside>
 
 <main class="main-content">
-    <header>
-        <h1>今日前沿文献</h1>      
+    <header style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 30px;">
+        <h1 style="margin: 0;">今日前沿文献</h1>
+        
+        <div style="background: var(--accent-tag); color: var(--primary-color); padding: 6px 16px; border-radius: 999px; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(37, 99, 235, 0.2);">
+            当前显示 <strong id="total-count" style="font-size: 1.15rem; margin: 0 4px;">1120</strong> 篇
+        </div>
     </header>
 
     <div class="paper-grid" id="paper-container">
@@ -5572,7 +5569,7 @@ Keywords: DNN, FNN, Autoencoder, GCN, TabTransformer,Featuregeneration,Detection
         
         <div class="paper-card" data-keywords="Cited: 1,bioRxiv" data-source="Semantic Scholar" data-date="2026-03-14">
             <h3><a href="https://www.semanticscholar.org/paper/4353cb3493e0825a16050451611af572adb1d21f" target="_blank">Asymmetric Contrastive Objectives for Efficient Phenotypic Screening</a></h3>
-            <div class="authors">Luke Nightingale, Joseph Tuersley, Andrea Cairoli, et al.</div>
+            <div class="authors">Luke Nightingale, Joseph Tuersley, Scott Warchal, et al.</div>
             
             <div style="font-size: 0.85rem; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
                 
