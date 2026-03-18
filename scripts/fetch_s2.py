@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import os
+import re
 from datetime import datetime, timedelta, timezone
 
 QUERY = '("large language model") | ("foundation model") | ("protein language model") | ("deep learning") | ("fine-tuning") | ("virtual screening") | ("ADMET") | ("drug-likeness") | ("GNN")'
@@ -83,28 +84,38 @@ for attempt in range(max_retries):
                 if diff_days <= 3:
                     matched_keywords.append("🆕 近三天更新")
                     
-                # 1. 其他常规标签依然只扫描标题，防止打上太多无关的干扰标签
-                BASIC_TAGS = ["Deep Learning", "Foundation Model", "Agent", "Fine-tuning"]
-                matched_keywords = [kw for kw in BASIC_TAGS if kw.lower() in title_lower]
+                import re # 确保引入了正则库
                 
-                # PLM 专属逻辑
-                has_protein = "protein" in content_lower
-                has_llm = "large language model" in content_lower or "llm" in content_lower
-                has_plm = "protein language model" in content_lower
+                # 1. 基础标签 (修复 Agent 匹配 reagent 的问题，兼容连字符和空格，兼容复数)
+                if re.search(r'\bdeep learning\b', title_lower):
+                    matched_keywords.append("Deep Learning")
+                if re.search(r'\bfoundation models?\b', title_lower):
+                    matched_keywords.append("Foundation Model")
+                if re.search(r'\bagents?\b', title_lower): # 完美避开 reagents
+                    matched_keywords.append("Agent")
+                if re.search(r'\bfine[- ]tuning\b', title_lower): # 兼容 fine-tuning 和 fine tuning
+                    matched_keywords.append("Fine-tuning")
+                
+                # 定义通用高频词的正则状态，避免后续重复计算,兼容 large language model(s) 和 llm(s)
+                has_llm = bool(re.search(r'\b(large language models?|llms?)\b', content_lower))
+
+                # 2. PLM 专属逻辑
+                has_protein = bool(re.search(r'\bproteins?\b', content_lower))
+                has_plm = bool(re.search(r'\bprotein language models?\b', content_lower))
                 if has_plm or (has_protein and has_llm):
                     matched_keywords.append("Protein Language Model")
 
-                # BLM 专属逻辑
-                has_nucleic_acid = any(kw in content_lower for kw in ["gene", "dna", "rna"])
+                # 3. BLM 专属逻辑
+                has_nucleic_acid = bool(re.search(r'\b(gene|genes|dna|rna|genome|genomics|nucleotide)\b', content_lower))
                 if has_nucleic_acid and has_llm:
                     matched_keywords.append("Biological Large Model")
                     
-                # AIDD 专属逻辑
-                has_ai_algo = any(kw in content_lower for kw in ["deep learning", "gnn", "machine learning", "artificial intelligence"])
-                has_drug_task = any(kw in content_lower for kw in ["virtual screening", "admet", "drug-likeness", "drug discovery", "molecular docking"])
+                # 4. AIDD 专属逻辑 (修复短字母缩写误伤，兼容格式)
+                has_ai_algo = bool(re.search(r'\b(deep learning|gnns?|machine learning|artificial intelligence)\b', content_lower))
+                has_drug_task = bool(re.search(r'\b(virtual screening|admet|drug[- ]likeness|drug discovery|molecular docking)\b', content_lower))
                 if has_ai_algo and has_drug_task:
                     matched_keywords.append("AIDD")
-                
+
                 authors_raw = item.get("authors", [])
                 authors = [a.get("name") for a in authors_raw[:3] if a.get("name")]
                 if len(authors_raw) > 3:
