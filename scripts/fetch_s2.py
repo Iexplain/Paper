@@ -83,8 +83,6 @@ for attempt in range(max_retries):
                 diff_days = (today - pub_date).days
                 if diff_days <= 3:
                     matched_keywords.append("🆕 近三天更新")
-                    
-                import re # 确保引入了正则库
                 
                 # 1. 基础标签 (修复 Agent 匹配 reagent 的问题，兼容连字符和空格，兼容复数)
                 if re.search(r'\bdeep learning\b', title_lower):
