@@ -10,9 +10,9 @@ QUERY = '"protein language model" | "virtual screening" | "virtual drug screenin
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
-start_date = today - timedelta(days=15)
-# 本地保留数据的时间放宽到 15 天
-cutoff_date = today - timedelta(days=15)
+start_date = today - timedelta(days=30)
+# 本地保留数据的时间放宽到 30 天
+cutoff_date = today - timedelta(days=30)
 date_range = f"{start_date.strftime('%Y-%m-%d')}:{today.strftime('%Y-%m-%d')}"
 
 headers = {
@@ -221,7 +221,7 @@ print(f"🎉 抓取完成！共获得 {len(final_papers)} 篇文献，其中近3
 # 5. 更新统计数据（让网页上的爬虫报告展示更精确）
 run_stats = {
     "total": stats_total,
-    "success": len(final_papers),           # 15天总库的数量
+    "success": len(final_papers),           # 30天总库的数量
     "new_added": len(recent_3days_papers),  # 本次（3天内）新增的数量
     "failed": stats_total - len(final_papers) 
 }
