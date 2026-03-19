@@ -175,7 +175,6 @@ for paper in final_papers:
         pub_date = datetime.strptime(paper["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
         diff_days = (today - pub_date).days
         if diff_days <= 3:
-            paper["keywords"].append("🆕 近三天更新")
             recent_3days_papers.append(paper)
     except ValueError:
         continue
