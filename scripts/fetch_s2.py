@@ -5,7 +5,8 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 
-QUERY = '"protein language model" | "virtual drug screening" | "virtual screening" | "ADMET" | "drug discovery" | "molecular docking" | "deep learning" | "large language model"'
+# 加入 AI Agent 专属词汇，主动去外网打捞
+QUERY = '"protein language model" | "virtual screening" | "virtual drug screening" | "ADMET" | "drug discovery" | "molecular docking" | "deep learning" | "large language model" | "foundation model" | "AI agent" | "LLM agent" | "autonomous agent"'
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
@@ -91,8 +92,21 @@ for attempt in range(max_retries):
                 if re.search(r'\bfine[- ]tuning\b', title_lower): # 兼容 fine-tuning 和 fine tuning
                     matched_keywords.append("Fine-tuning")
                 
-                # 定义通用高频词的正则状态，避免后续重复计算,兼容 large language model(s) 和 llm(s)
+                # 先提取当前文章的 AI 语境状态，方便后续复用
                 has_llm = bool(re.search(r'\b(large language models?|llms?)\b', content_lower))
+                has_ai_algo = bool(re.search(r'\b(deep learning|gnns?|machine learning|artificial intelligence)\b', content_lower))
+                
+                # 1. 基础标签与 Agent 升级版拦截
+                if re.search(r'\bdeep learning\b', title_lower):
+                    matched_keywords.append("Deep Learning")
+                if re.search(r'\bfoundation models?\b', title_lower):
+                    matched_keywords.append("Foundation Model")
+                
+                # 必须是明确的 AI Agent，或者标题里有 agent 且摘要里有 AI 算法，才算真正的人工智能 Agent
+                is_explicit_ai_agent = bool(re.search(r'\b(ai agents?|llm agents?|autonomous agents?|intelligent agents?|multi-agent)\b', content_lower))
+                is_title_agent_with_ai = bool(re.search(r'\bagents?\b', title_lower)) and (has_llm or has_ai_algo)
+                if is_explicit_ai_agent or is_title_agent_with_ai:
+                    matched_keywords.append("Agent")
 
                 # 2. PLM 专属逻辑
                 has_protein = bool(re.search(r'\bproteins?\b', content_lower))
@@ -105,15 +119,15 @@ for attempt in range(max_retries):
                 if has_nucleic_acid and has_llm:
                     matched_keywords.append("Biological Large Model")
                     
-                # 4. AIDD 专属逻辑 (修复短字母缩写误伤，兼容格式)
-                has_ai_algo = bool(re.search(r'\b(deep learning|gnns?|machine learning|artificial intelligence)\b', content_lower))
-                has_drug_task = bool(re.search(r'\b(virtual screening|admet|drug[- ]likeness|drug discovery|molecular docking)\b', content_lower))
+                # 4. AIDD 专属逻辑
+                has_drug_task = bool(re.search(r'\b(virtual screening|virtual drug screening|admet|drug[- ]likeness|drug discovery|molecular docking)\b', content_lower))
                 if has_ai_algo and has_drug_task:
                     matched_keywords.append("AIDD")
 
-                valid_core_tags = {"Protein Language Model", "Biological Large Model", "AIDD"}
+                valid_core_tags = {"Protein Language Model", "Biological Large Model", "AIDD", "Agent"}
                 if not any(tag in valid_core_tags for tag in matched_keywords):
-                    continue  # 不满足条件，直接丢弃这篇文章，跳过本次循环！
+                    continue  # 不属于这四大核心方向的，全部无情丢弃！
+
                 # 确认是硬核文章后，再打上近三天标签（修正了之前的重复 Bug）
                 diff_days = (today - pub_date).days
                 if diff_days <= 3:
