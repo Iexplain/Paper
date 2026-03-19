@@ -5,7 +5,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 
-QUERY = '("large language model" | "foundation model" | "deep learning" | "fine-tuning" | "GNN") ("virtual screening" | virtual drug screening" | "ADMET" | "drug discovery" | "drug-likeness" | "protein" | "molecule" | "biology")'
+QUERY = '"protein language model" | "virtual drug screening" | "virtual screening" | "ADMET" | "drug discovery" | "molecular docking" | "deep learning" | "large language model"'
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
@@ -80,9 +80,6 @@ for attempt in range(max_retries):
                 abstract_lower = (item.get("abstract", "") or "").lower()
                 content_lower = title_lower + " " + abstract_lower
                 matched_keywords = []
-                diff_days = (today - pub_date).days
-                if diff_days <= 3:
-                    matched_keywords.append("🆕 近三天更新")
                 
                 # 1. 基础标签 (修复 Agent 匹配 reagent 的问题，兼容连字符和空格，兼容复数)
                 if re.search(r'\bdeep learning\b', title_lower):
@@ -114,6 +111,14 @@ for attempt in range(max_retries):
                 if has_ai_algo and has_drug_task:
                     matched_keywords.append("AIDD")
 
+                valid_core_tags = {"Protein Language Model", "Biological Large Model", "AIDD"}
+                if not any(tag in valid_core_tags for tag in matched_keywords):
+                    continue  # 不满足条件，直接丢弃这篇文章，跳过本次循环！
+                # 确认是硬核文章后，再打上近三天标签（修正了之前的重复 Bug）
+                diff_days = (today - pub_date).days
+                if diff_days <= 3:
+                    matched_keywords.append("🆕 近三天更新")
+                    
                 authors_raw = item.get("authors", [])
                 authors = [a.get("name") for a in authors_raw[:3] if a.get("name")]
                 if len(authors_raw) > 3:
