@@ -10,28 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 检出仓库
       - uses: actions/checkout@v3
 
-      # 2️⃣ 设置 Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      # 3️⃣ 安装依赖
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # 4️⃣ 抓取 Semantic Scholar 文献
       - name: Fetch Semantic Scholar papers
         run: python scripts/fetch_s2.py
 
-      # 5️⃣ 生成网页
       - name: Generate HTML
         run: python scripts/generate_web.py
 
-      # 6️⃣ Commit & Push
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
