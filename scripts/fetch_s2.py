@@ -5,7 +5,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 
-QUERY = '("large language model") | ("foundation model") | ("protein language model") | ("deep learning") | ("fine-tuning") | ("virtual screening") | ("ADMET") | ("drug-likeness") | ("GNN")'
+QUERY = '("large language model" | "foundation model" | "deep learning" | "fine-tuning" | "GNN") ("virtual screening" | virtual drug screening" | "ADMET" | "drug discovery" | "drug-likeness" | "protein" | "molecule" | "biology")'
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
