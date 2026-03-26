@@ -25,7 +25,7 @@ if api_key:
 
 all_papers_dict = {} 
 
-print("🚀 开始基于官方 Bulk API 的高效合并抓取...")
+print("开始基于官方 Bulk API 的高效合并抓取...")
 stats_total = 0
 
 # 构建请求参数，bulk 终点同样支持 sort 排序
@@ -45,7 +45,7 @@ for attempt in range(max_retries):
         
         if response.status_code == 429:
             wait = (attempt + 1) * 5
-            print(f"   ⚠️ 触发限流，等待 {wait} 秒...")
+            print(f"触发限流，等待 {wait} 秒...")
             time.sleep(wait)
             continue
             
@@ -54,7 +54,7 @@ for attempt in range(max_retries):
         
         items = data.get("data", [])
         stats_total += len(items)
-        print(f"✅ Bulk API 成功返回 {len(items)} 篇文献。")
+        print(f"Bulk API 成功返回 {len(items)} 篇文献。")
         
         # 解析并清洗数据
         for item in items:
@@ -80,8 +80,8 @@ for attempt in range(max_retries):
                 content_lower = title_lower + " " + abstract_lower
                 matched_keywords = []
                 diff_days = (today - pub_date).days
-                if diff_days <= 3:
-                    matched_keywords.append("🆕 近三天更新")
+                if diff_days <= 1:
+                    matched_keywords.append("今日上新")
                     
                 # 1. 基础标签 (全面使用正则，扫描 content_lower 防止漏标)
                 if re.search(r'\bdeep learning\b', content_lower):
@@ -159,9 +159,9 @@ for attempt in range(max_retries):
         break 
         
     except requests.exceptions.RequestException as e:
-        print(f"   ❌ 请求失败: {e}")
+        print(f"请求失败: {e}")
         if attempt == max_retries - 1:
-            print("   🚨 抓取失败，放弃当前请求。")
+            print("抓取失败，放弃当前请求。")
 
 # 将字典转为列表并按日期倒序排列
 final_papers = list(all_papers_dict.values())
@@ -178,26 +178,26 @@ for paper in final_papers:
     except ValueError:
         continue
 
-# 2. 依然保留 15 天总数据库（供网页动态查询历史使用）
+# 2. 保留 15 天总数据库（供网页动态查询历史使用）
 with open("data/s2.json", "w", encoding="utf-8") as f:
     json.dump(final_papers, f, ensure_ascii=False, indent=2)
 
-# 3. 独立归档：按日期保存这三天的快照到专门文件夹
+# 3. 独立归档：按日期保存今天的快照到专门文件夹
 update_folder = "data/recent_updates"
 os.makedirs(update_folder, exist_ok=True) 
 date_str = today.strftime('%Y-%m-%d')
 archive_path = f"{update_folder}/update_{date_str}.json" 
 
 with open(archive_path, "w", encoding="utf-8") as f:
-    json.dump(recent_3days_papers, f, ensure_ascii=False, indent=2)
+    json.dump(recent_1day_papers, f, ensure_ascii=False, indent=2)
 
-print(f"🎉 抓取完成！共获得 {len(final_papers)} 篇文献，其中近3天更新的 {len(recent_3days_papers)} 篇已独立存档至 {update_folder}。")
+print(f"抓取完成！共获得 {len(final_papers)} 篇文献，其中今日上新的 {len(recent_1day_papers)} 篇已独立存档至 {update_folder}。")
 
 # 4. 更新精细化的爬虫统计数据
 run_stats = {
     "total": stats_total,
-    "success": len(final_papers),           # 30天总库的数量
-    "new_added": len(recent_3days_papers),  # 本次（3天内）新增的数量
+    "success": len(final_papers),           # 15天总库的数量
+    "new_added": len(recent_1day_papers),   # 本次（1天内）新增的数量
     "failed": stats_total - len(final_papers) 
 }
 with open("data/run_stats.json", "w", encoding="utf-8") as f:
