@@ -169,20 +169,23 @@ final_papers.sort(key=lambda x: x["date"], reverse=True)
 
 # 1. 提取近三天的数据用于单独归档
 recent_3days_papers = []
+recent_1day_papers = []
 for paper in final_papers:
     try:
         pub_date = datetime.strptime(paper["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
         diff_days = (today - pub_date).days
         if diff_days <= 3:
             recent_3days_papers.append(paper)
+        if diff_days <= 1:
+            recent_1day_papers.append(paper)
     except ValueError:
         continue
 
-# 2. 保留 15 天总数据库（供网页动态查询历史使用）
+# 2. 保留 15 天总数据库
 with open("data/s2.json", "w", encoding="utf-8") as f:
     json.dump(final_papers, f, ensure_ascii=False, indent=2)
 
-# 3. 独立归档：按日期保存今天的快照到专门文件夹
+# 3. 独立归档（使用刚才定义的 recent_1day_papers）
 update_folder = "data/recent_updates"
 os.makedirs(update_folder, exist_ok=True) 
 date_str = today.strftime('%Y-%m-%d')
@@ -191,13 +194,13 @@ archive_path = f"{update_folder}/update_{date_str}.json"
 with open(archive_path, "w", encoding="utf-8") as f:
     json.dump(recent_1day_papers, f, ensure_ascii=False, indent=2)
 
-print(f"抓取完成！共获得 {len(final_papers)} 篇文献，其中今日上新的 {len(recent_1day_papers)} 篇已独立存档至 {update_folder}。")
+print(f"抓取完成！共获得 {len(final_papers)} 篇文献，其中今日上新的 {len(recent_1day_papers)} 篇已存档。")
 
-# 4. 更新精细化的爬虫统计数据
+# 4. 更新统计数据
 run_stats = {
     "total": stats_total,
-    "success": len(final_papers),           # 15天总库的数量
-    "new_added": len(recent_1day_papers),   # 本次（1天内）新增的数量
+    "success": len(final_papers),
+    "new_added": len(recent_1day_papers), 
     "failed": stats_total - len(final_papers) 
 }
 with open("data/run_stats.json", "w", encoding="utf-8") as f:
