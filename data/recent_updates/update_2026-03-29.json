@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Building a Practice Classroom for Information Education to Foster New-Wave Talent -Providing Seamless Discussion Spaces-",
+    "authors": [
+      "Takuro Ozaki",
+      "Kazuhiro Mishima"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b0eb2f658f6a58088214511f64f064ae336ba82",
+    "date": "2026-03-29",
+    "keywords": [
+      "今日上新",
+      "Conference on User Services"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "At Osaka Kyoiku University (OKU), we renovated a classroom that had previously functioned as a PC laboratory and transformed it into a “PC-less ICT (Information Communication and Technology) laboratory” designed for BYOD and VDI. In this room, large displays were installed at each table, creating an environment that supports group discussions and wireless screen sharing for classroom-wide idea exchange. In its first year of operation, the room was used on a trial basis in teacher-training courses for information education, where undergraduate students utilized the space to conduct practice lessons designed for high school students. Feedback from students indicated that screen sharing made discussions easier, sparked interest in new experiences, and highlighted the potential for deeper learning through differences in the quality of presentations.",
+    "summary": "",
+    "doi": "10.1145/3737841.3787581",
+    "citations": 0
+  },
+  {
+    "title": "How are Institutions Using AI in Canvas LMS? A Targeted Review of Emerging Use Cases",
+    "authors": [
+      "Ajayi Ekuase-Anwansedo",
+      "Osaretin Daniel Amayaenvbo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/40ba1b8e97336bf6f9edd9c3b4a8e50015529610",
+    "date": "2026-03-29",
+    "keywords": [
+      "今日上新",
+      "Conference on User Services"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "On the 23rd of July 2025, Instructure, the founder of Canvas Learning Management System (LMS) announced a global partnership with OpenAI, the artificial intelligence company, to embed large language model technology into the Canvas LMS platform. This partnership is the “first-of-its kind” in the learning management system space. This integration will enable educators design learning activities and allow student to interact with AI within the Canvas environment using OpenAI enabled LLM capabilities. This paper presents a targeted review of studies from the Scopus database, exploring how AI has been used in Canvas prior to this partnership. According to [1], there is a need to investigate emerging trends in the use of AI in learning management systems as technology and education practices evolves. This study examines various emerging use cases of AI in the Canvas environment and serves the purpose of a baseline study for future research specifically exploring the evolving use of AI in the Canvas LMS.",
+    "summary": "",
+    "doi": "10.1145/3737841.3787569",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence-assisted endoscopy in the detection of early gastrointestinal cancer: Progress, challenges, and future directions",
+    "authors": [
+      "Zhong Ning",
+      "Jia-Jia Xiao",
+      "Zifeng Zhou"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a72ea1933cefa2b28b511ed6d29e9e2be3a0fef7",
+    "date": "2026-03-28",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "World Journal of Gastroenterology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Gastrointestinal (GI) cancers are a leading cause of cancer-related death, and early diagnosis is crucial for improving patient outcomes. Traditional endoscopy, while essential, depends on the skill of endoscopists and is prone to errors. Recent advancements in artificial intelligence (AI), particularly deep learning with convolutional neural networks, have shown promise in enhancing the early detection of GI cancers. This review highlights the role of AI-assisted endoscopic technologies in the detection, localization, and diagnosis of GI cancers across various sites, including the oral cavity, pharynx, esophagus, stomach, small intestine, colon, and anal canal. AI-powered systems, such as computer-aided detection and diagnosis, have significantly improved adenoma detection rates and lesion characterization, aiding clinical decision-making. Integrating AI with advanced endoscopic techniques like narrow-band imaging, magnifying endoscopy, and capsule endoscopy has enhanced diagnostic accuracy. Despite these advances, challenges remain, including model generalization, data quality, and the need for efficient human-AI collaboration. Regulatory approval, legal concerns, and integration into clinical workflows also pose barriers to widespread adoption. Future developments in multimodal data fusion, edge computing, and AI-augmented reality are expected to improve the precision and accessibility of AI-assisted endoscopy for early GI cancer screening.",
+    "summary": "",
+    "doi": "10.3748/wjg.v32.i12.115990",
+    "citations": 0
+  },
+  {
+    "title": "A Comparative Study in Surgical AI: Datasets, Foundation Models, and Barriers to Med-AGI",
+    "authors": [
+      "K. Skobelev",
+      "E. Fithian",
+      "Y. Baranovski",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/708ae9d6a88b6e219e8fca37619cf2615fd4a6a4",
+    "date": "2026-03-28",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.03.26.26349455",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing Rheumatoid Arthritis Diagnosis: Combining Case-Based Reasoning on EHR Data with Deep Learning on Medical Images ",
+    "authors": [
+      "Moulay Youssef Ichahane",
+      "Noureddine Assad",
+      "Hassan Ouahmane"
+    ],
+    "link": "https://www.semanticscholar.org/paper/56f1f3eada7274853080d91560baf89bcffa523e",
+    "date": "2026-03-28",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The diagnosis of rheumatoid arthritis (RA) diagnosis demands precise detection methods due to its complex symptomatology. This study presents a novel hybrid diagnostic framework that is the first to integrates Case-Based Reasoning (CBR) with deep learning and introduce three key innovations: (i) a dual-pathway architecture that combine electronic health records with imaging analysis, (ii) an Enhanced Clustering-Based K-nearest neighbors (ECB KNN) model for optimal feature selection, and (iii) a dynamic K-means clustering approach for handling class imbalance. We evaluated our framework using two comprehensive datasets: MIMIC-IV-Hosp, containing clinical data and MIMIC-CXR containing 377,110 chest X-ray images. The model employs a VGG16-based CNN for radiological feature extraction, with a particular focus on pulmonary manifestations, which is combined with our ECB KNN algorithm for patient-specific clinical data analysis. Using five-fold cross-validation, our framework is shown to achieve superior performance metrics (precision: 0.90-0.95, recall: 0.89-0.93, F1-score: 0.91) compared to baseline methods (traditional CNN: precision 0.82, recall 0.79; standard CBR: precision 0.85, recall 0.83). This significant improvement in diagnostic accuracy demonstrates the potential of our framework in terms of enhancing early RA detection and clinical decision support. The architecture of the model architecture is designed to allow for extensibility to other rheumatic conditions, thereby offering a comprehensive solution for multi-disease diagnosis in rheumatology.",
+    "summary": "",
+    "doi": "10.3897/jucs.130529",
+    "citations": 0
+  },
+  {
+    "title": "Editorial",
+    "authors": [
+      "Christian Gütl"
+    ],
+    "link": "https://www.semanticscholar.org/paper/09219ff9c0498238f50f4b9404c644c659422380",
+    "date": "2026-03-28",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Dear Readers,\n It gives me great pleasure to announce the third regular issue of 2026. I would like to thank all the authors for their sound research and the editorial board for the extremely valuable reviews and suggestions for improvement. These contributions together with the support of the community and the generous support of the KOALA initiative enable us to run our journal and maintain its quality.\n I would still like to expand our editorial board: If you are a tenured associate professor or above with a good publication record, please apply to join our editorial board. We are also interested in high-quality proposals for special issues on new topics and emerging trends.\n In this regular issue, I am very pleased to present 6 accepted papers by 27 authors from 6 countries: Brazil, India, Kingdom of Saudi Arabia, Morocco, Spain and Sri Lanka.\n In a collaborative effort between researchers from Morocco and Spain, Chaimae Moumouh, José A. García-Berná, Begoña Moros, Juan M. Carrillo de Gea, Mohamed Y. Chkouri, and José L. Fernández-Alemán address in their paper the critical challenges of privacy and security in Electronic Health Records (EHRs) by presenting a comprehensive bibliometric analysis of academic research in this field based on 3,077 publications indexed in Scopus over a 24-year period. The findings identify major publication trends, leading institutions, dominant languages, and the year with the highest research output, highlighting the growing academic relevance of EHR privacy and security and providing a structured overview of the field’s development.\n Jorge Arthur Schneider Aranda, Ricardo dos Santos Costa, Vitor Werner de Vargas, Paulo Ricardo da Silva Pereira, Jorge Luis Victória Barbosa, Marcelo Pinto Vianna, and Eleandro Luis Marques da Silva from Brazil research in their work the challenge of efficiently classifying electrical metrics in power distribution networks by proposing OntoFreya, an ontology-based model that applies semantic reasoning to interpret voltage, current, and contextual data. The results demonstrate that OntoFreya enables precise and scalable automatic classification, reducing specialist analysis effort while supporting context-aware inference across large datasets.\n Ayodhya Liyanage and Anuradha Mahasinghe from Sri Lanka investigate in their paper the lack of well‑posed state transition diagrams for basic quantum gates in the standard Quantum Turing Machine model by constructing rigorous diagrams for a universal quantum gate set. The results demonstrate that these diagrams satisfy the postulates of quantum mechanics, thereby providing a universal, fault‑tolerant basis for simulating quantum computations within the QTM framework.\n Moulay Youssef Ichahane, Noureddine Assad, and  Hassan Ouahmane from Morocco present in their work a multimodal diagnostic framework that combines case-based reasoning with deep learning to address the complexity and heterogeneity of rheumatoid arthritis diagnosis, integrating electronic health record data with deep learning–based analysis of chest X-ray images. Experimental evaluations show that the proposed approach significantly improves diagnostic accuracy and robustness compared to conventional CNN- and KNN-based methods, highlighting the framework’s relevance for advanced computer-aided medical diagnosis.\n Abdelhady Naguib and Abdulaziz Shehab from Saudi Arabia tackle in their article the problem of robust and energy-efficient localization in obstacle-rich wireless sensor networks by introducing a deterministic mobile anchor trajectory model, that integrates square spiral coverage with lightweight obstacle avoidance. A range of simulations demonstrate that the proposed approach achieves superior localization accuracy, higher node coverage, and reduced trajectory length compared to state-of-the-art path planning schemes.\n In a collaborative research between Saudi Arabia and India, Abdulhadi Altherwi, Md. Mottahir Alam, Mastoor M. Abushaega, Abdulmajeed Azyabi, Ahmed Hamzi, Shabbir Hassan and Asif Irshad Khan research the challenge of accurate and computationally efficient forecasting in Hybrid Renewable Energy Systems by proposing a hybrid Grey Wolf Optimization–Deep Belief Network (GWO-DBN) framework that integrates metaheuristic feature selection with deep learning. Validation on two real-world datasets demonstrates reduced prediction error and computational time, achieving high forecasting accuracy and improved energy efficiency for smart grid applications.\n Enjoy Reading!\n Warm regards,\n Christian Gütl, Managing Editor-in-Chief\n Graz University of Technology, Graz, Austria",
+    "summary": "",
+    "doi": "10.3897/jucs.192427",
+    "citations": 0
+  }
+]
