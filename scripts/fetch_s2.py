@@ -5,7 +5,13 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 
-QUERY = '("large language model") | ("foundation model") | ("protein language model") | ("deep learning") | ("fine-tuning") | ("virtual screening") | ("ADMET") | ("drug-likeness") | ("GNN")'
+QUERY = (
+    '("large language model") | ("foundation model") | ("protein language model") | '
+    '("biological foundation model") | ("genomic language model") | '
+    '("deep learning" AND "drug discovery") | ("virtual screening") | '
+    '("molecular generation") | ("ADMET") | ("GNN") | ("diffusion model" AND "molecule") | '
+    '("scRNA-seq" AND "deep learning")'
+)
 URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
 today = datetime.now(timezone.utc)
@@ -83,35 +89,54 @@ for attempt in range(max_retries):
                 if diff_days <= 1:
                     matched_keywords.append("今日上新")
                     
-                # 1. 基础标签 (全面使用正则，扫描 content_lower 防止漏标)
+                # 1. 基础算法标签 (扩充前沿算法)
                 if re.search(r'\bdeep learning\b', content_lower):
                     matched_keywords.append("Deep Learning")
                 if re.search(r'\bfoundation models?\b', content_lower):
                     matched_keywords.append("Foundation Model")
-                if re.search(r'\bagents?\b', content_lower): # 避开 reagents
+                if re.search(r'\bagents?\b', content_lower): 
                     matched_keywords.append("Agent")
-                if re.search(r'\bfine[- ]tuning\b', content_lower): # 兼容 fine-tuning 和 fine tuning
+                if re.search(r'\bfine[- ]tuning\b', content_lower): 
                     matched_keywords.append("Fine-tuning")
-                
-                # 提取 LLM 通用判断
-                has_llm = bool(re.search(r'\b(large language models?|llms?)\b', content_lower))
+                if re.search(r'\b(transformers?|transformer[- ]based)\b', content_lower):
+                    matched_keywords.append("Transformer")
+                if re.search(r'\bdiffusion models?\b', content_lower):
+                    matched_keywords.append("Diffusion Model")
+                if re.search(r'\bgeometric deep learning\b', content_lower):
+                    matched_keywords.append("Geometric DL")
 
-                # 2. PLM 专属逻辑
+                # 提取大模型通用判断，放宽条件包含 foundation model
+                has_llm = bool(re.search(r'\b(large language models?|llms?|foundation models?)\b', content_lower))
+
+                # 2. PLM 专属逻辑 
                 has_protein = bool(re.search(r'\bproteins?\b', content_lower))
                 has_plm = bool(re.search(r'\bprotein language models?\b', content_lower))
                 if has_plm or (has_protein and has_llm):
                     matched_keywords.append("Protein Language Model")
 
-                # 3. BLM 专属逻辑
+                # 3. BLM & 转录组学专属逻辑 (大幅增强)
+                # 新增专属高亮标签，精准捕获单细胞与测序相关分析
+                if re.search(r'\b(scrna-seq|rna-seq|transcriptomics?|single-cell)\b', content_lower):
+                    matched_keywords.append("RNA-seq / Transcriptomics")
+
                 has_nucleic_acid = bool(re.search(r'\b(gene|genes|dna|rna|genome|genomics|nucleotide)\b', content_lower))
-                if has_nucleic_acid and has_llm:
+                has_genomic_model = bool(re.search(r'\b(genomic foundation models?|dna language models?)\b', content_lower))
+                if has_genomic_model or (has_nucleic_acid and has_llm):
                     matched_keywords.append("Biological Large Model")
                     
-                # 4. AIDD 专属逻辑 (将大模型也纳入AI算法范畴)
-                has_ai_algo = bool(re.search(r'\b(deep learning|gnns?|machine learning|artificial intelligence|large language models?|llms?)\b', content_lower))
-                has_drug_task = bool(re.search(r'\b(virtual screening|admet|drug[- ]likeness|drug discovery|molecular docking)\b', content_lower))
+                # 4. AIDD & 生成式分子设计 (全面升级细分领域)
+                # 将图神经网络(GNN)、扩散模型、生成式模型全部纳入AI算法池
+                has_ai_algo = bool(re.search(r'\b(deep learning|gnns?|machine learning|artificial intelligence|large language models?|llms?|diffusion models?|generative models?)\b', content_lower))
+                
+                # 扩充药物研发的具体子任务
+                has_drug_task = bool(re.search(r'\b(virtual screening|admet|drug[- ]likeness|drug discovery|molecular docking|molecular generation|retrosynthesis|protein[- ]ligand|molecular representation)\b', content_lower))
+                
                 if has_ai_algo and has_drug_task:
                     matched_keywords.append("AIDD")
+                
+                # 针对极其前沿的 AI 小分子生成单独打标签
+                if re.search(r'\b(generative molecular design|molecule generation|de novo design)\b', content_lower):
+                    matched_keywords.append("Molecular Generation")
                 
                 authors_raw = item.get("authors", [])
                 authors = [a.get("name") for a in authors_raw[:3] if a.get("name")]
