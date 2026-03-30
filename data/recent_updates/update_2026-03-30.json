@@ -1,0 +1,155 @@
+[
+  {
+    "title": "PSYCHOACTIVE TRIGGERS AS A STIMULUS BATTERY FOR MEASURING LARGE LANGUAGE MODELS (LLMS): A BRIDGE BETWEEN PSYCHOMETRICS, CLINICAL PSYCHOLOGY, AND LLM ENGINEERING",
+    "authors": [
+      "Anatoliy Drobakha",
+      "Mykhailo Kalitkin",
+      "Kateryna Klymenko",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f25faefa3ae86e0ae6fbffc2084bd043c7afa3ec",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "Metaverse Science, Society and Law"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Evaluating large language models (LLMs) in psychologically sensitive and human-centered domains faces two persistent challenges. First, conventional benchmarks capture instrumental capabilities but often fail to represent model behavior in open-ended dialogue where emotional context, conflict, ambiguity, and user safety define quality. Second, LLM outputs can be unstable across re-runs and highly sensitive to prompt phrasing, undermining reproducibility and cross-model comparisons [1].\nThis article introduces an applied framework of psychoactive triggers: standardized textual stimuli designed to evoke systematic shifts in response style, narrative coherence, explanatory stance, empathy calibration, and risk regulation. Psychoactive triggers are treated as an analogue of psychometric items adapted to LLMs: each trigger carries a controlled psychological load (e.g., threat, shame, guilt, control, intimacy, autonomy), allowing measurement of stable behavioral patterns rather than binary correctness. The framework is illustrated using the PersonaMatrix ecosystem, where trigger batteries are applied in multiple measurement waves.\nA four-class metric taxonomy is proposed, with this paper focusing on Class I metrics—reproducibility and stability (RSI/IDS/RCS)—using a single PersonaMatrix test, “What Is My Character Type?” (TestPersona). Written at the intersection of LLM research and clinical psychology, the article provides clinical rationale and ethical constraints for safe deployment of psychologically loaded evaluations.",
+    "summary": "",
+    "doi": "10.69635/mssl.2026.2.1.31",
+    "citations": 0
+  },
+  {
+    "title": "DT-EdgeGNN: Digital Twin–Driven Edge Intelligence with Graph Neural Networks for Predictive Secure VANET Communication",
+    "authors": [
+      "M. Thenmozhi",
+      "G. M. K. Nawaz"
+    ],
+    "link": "https://www.semanticscholar.org/paper/99bb1825c823a08c5e18f1b4d039829b25449ef6",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "International journal of computer science and mobile computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "An edge intelligence-based predictive and secure communication framework Vehicular Ad Hoc Networks (VANETs) is offered based on Digital Twin (DT)-compliant Edge Intelligence (EdgeGNN). In traditional VANET there is reactive intrusion detection and centralized processing that is not able to deal with high mobility, dynamic topology and latency. The proposed solution to such obstacles ensures that the digital twin layer of real-time traffic simulation and attack case, the spatio-temporal Graph Neural Network (GNN) of vehicle interaction, and the edge intelligence layer at Right Side Unit (RSUs) are integrated to make decisions on a low-latency basis. A small blockchain system that has dynamic trust scores is embedded to guarantee safe and trustworthy communication. The framework anticipates link failure, congestion, and malicious behavior of nodes, which are created to be able to facilitate proactive routing and mitigate attacks. The results of the experiments show that the accuracy is 93.4, the attack detecting rate (0.72) is better, false positive rate (0.13) is lower and the network is much better in terms of latency and throughput. The suggested DT-EdgeGNN model can efficiently transform VANET communication into proactive management and predictive instead of reactive monitoring, which is appropriate in the next-generation advanced transportation systems.",
+    "summary": "",
+    "doi": "10.47760/ijcsmc.2026.v15i03.009",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal Metric Learning for Fine-Grained Video Retention Prediction in Ego-Centric Networks",
+    "authors": [
+      "Husiev V",
+      "Vergunova I"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5b83a6fab91c4de16d6155ffb8285dff4e270fe8",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transformer",
+      "Artificial Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Predicting user retention in digital video content is a pivotal challenge in modern recommendation systems. While global-scale models effectively leverage massive interaction logs, they often fail to capture the nuanced engagement dynamics of “ego-centric” networks - single-creator channels where viewer retention is driven by specific stylistic signatures rather than broad topic relevance. In this work, we present a comprehensive framework for predicting fine-grained retention curves in Minecraft gameplay videos using a novel Multimodal Metric-Regularized Regression approach. We introduce a rigorous normalization pipeline to standardize heterogeneous content and extract high-fidelity features using state-of-the-art foundation models: InternVideo2 (spatiotemporal), M2D2 (semantic audio), SigLIP 2 (visual static), and E5-Small (textual). Unlike traditional direct regression methods, we propose a two-stage training paradigm: first, we structure the latent space using ArcFace loss to maximize the geodesic distance between high- and low-performing content; second, we train a Cross-Modal Transformer to regress the retention curve from this discriminative manifold. Our experimental results demonstrate that this metric-regularization strategy reduces Mean Absolute Error (MAE) by 30% compared to direct regression baselines, achieving an XAUC of 0.74. Furthermore, latent space visualization reveals distinct clusters corresponding to “viral” hooks and “churn” patterns, offering interpretable insights into the audio-visual drivers of viewer engagement",
+    "summary": "",
+    "doi": "10.15407/jai2026.01.127",
+    "citations": 0
+  },
+  {
+    "title": "LawRAG: Indonesian legal document retrieval-augmented generation with specialized chunking and reranking strategies",
+    "authors": [
+      "Amar Fadillah",
+      "Nuke Athahirah",
+      "Kuan-Ting Lai"
+    ],
+    "link": "https://www.semanticscholar.org/paper/43827bdc8bc16e98594204e695787ab7ff8d91a1",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "Data Technologies and Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Enhancing Question-Answering accuracy on new law documents by using Retrieval-Augmented Generation (RAG)-Large Language Models .\n \n \n \n The proposed method is built on a RAG design for Indonesian new law documents, incorporating a specific data chunking method and a reranker model.\n \n \n \n The proposed method, which segments legal data by focusing on the document title, article, and paragraph, outperforms the sequential chunking method in terms of accuracy.\n \n \n \n This research demonstrates that the completeness of a sentence in the data set used during the retrieval phase of RAG significantly affects the accuracy of RAG responses. This is particularly true for legal documents, which are closely tied to the titles of articles and the wording of each legal provision. The relationship between the article titles and the content enhances the context-awareness of each data chunking process.\n",
+    "summary": "",
+    "doi": "10.1108/dta-03-2025-0195",
+    "citations": 0
+  },
+  {
+    "title": "Integrating metaverse-enabled artificial intelligence and large language models in accounting education: an applied mixed-methods study",
+    "authors": [
+      "N. Abhishek",
+      "Keyrukumar M. Nayak",
+      "M. Divyashree",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2218214ceb2893af5fabf7fc438d7c909d3aeb02",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "Asian Education and Development Studies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The rapid integration of artificial intelligence (AI) and large language models (LLMs) into accounting practice has intensified concerns about the adequacy of traditional accounting curricula in preparing graduates for an AI-augmented profession. Responding to this challenge, the present study examines how metaverse-enabled AI and LLM-based learning environments influence skill development, learner engagement and professional readiness in accounting education, with the aim of identifying pedagogical and institutional mechanisms through which these technologies can meaningfully enhance graduate preparedness.\n \n \n \n The study adopts a mixed-methods research design. Quantitative data were analysed using structural equation modelling (SEM) to examine relationships between technological and pedagogical integration, learning outcomes and mediating variables. Qualitative insights were obtained through discourse analysis of semi-structured interviews with accounting educators and industry professionals to contextualize the empirical findings.\n \n \n \n The results indicate significant positive relationships between technological and pedagogical integration and student learning outcomes. These relationships are mediated by skill development and practical application as well as engagement and knowledge retention. Institutional support plays a moderating role, strengthening the effectiveness of metaverse-enabled AI adoption in accounting education. Qualitative findings reinforce the quantitative results, highlighting the applied value of immersive and AI-supported learning in bridging theory–practice gaps.\n \n \n \n The findings offer actionable insights for higher education institutions, curriculum designers and faculty members seeking to incorporate AI and immersive technologies into accounting education. Institutional readiness, faculty capability and pedagogical alignment are identified as critical success factors.\n \n \n \n This study contributes to applied higher education research by empirically extending the technology acceptance model and social cognitive theory in the context of metaverse-enabled accounting education, providing evidence-based guidance for workforce-oriented curriculum transformation.\n",
+    "summary": "",
+    "doi": "10.1108/aeds-01-2026-0051",
+    "citations": 0
+  },
+  {
+    "title": "Between Ancient Texts and Large Language Models",
+    "authors": [
+      "Christoph Heilig"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1f946be2b724b6a4957b615754b9edae2fd0be34",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "Forum Exegese und Hochschuldidaktik: Verstehen von Anfang an (VvAa)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The public release of ChatGPT in November 2022 marked a watershed moment for teaching in the humanities, as Large Language Models (LLMs) suddenly demonstrated text generation capabilities indistinguishable from human writing. Using biblical studies as a case study, this paper examines how these tools challenge core pedagogical practices across text-based disciplines. The article offers a look into the ‘black box’ of LLMs through hands-on demonstrations with OpenAI’s playground, revealing their nature as probabilistic systems where the next word is selected from weighted possibilities rather than retrieved deterministically. Understanding this proves crucial for students and educators, explaining phenomena like ‘hallucinations’ and exposing why treating LLMs as citable sources fundamentally misunderstands what they are. Having established how LLMs function, the article examines three areas where these tools challenge traditional teaching in biblical scholarship – and by extension, the humanities: increasingly sophisticated AI translations question the value of intensive language training; LLMs that process entire books in seconds make existing reading practices appear inefficient; and AI-generated content increasingly rivals scholarly writing. Rather than dismissing LLMs as “stochastic parrots” or embracing them uncritically, the article proposes a balanced response preserving essential practices – particularly slow reading and writing as critical thinking tools – while leveraging LLMs as dialogue partners and research assistants. The humanities’ future vitality depends on articulating why human engagement with texts remains irreplaceable, even as these tools are integrated into educational frameworks. Biblical studies thus offers a compelling test case for how humanities disciplines must reimagine their teaching – not through isolated policy adjustments but through fundamental reconsideration of core competencies in an AItransformed landscape.",
+    "summary": "",
+    "doi": "10.24053/vvaa-2023-0014",
+    "citations": 0
+  },
+  {
+    "title": "Evaluation of the Effect of Deep Soil Mixture and Expansion Joint on Alluvial Soils Using the Finite Element Method",
+    "authors": [
+      "Metin Özlekli",
+      "Kurban Öntürk",
+      "S. Sert",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0596a09e1b8952010f630d81182b4ed41e8dfb61",
+    "date": "2026-03-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Archives of Mining Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study analyses building foundation models with and without expansion joints, investigating the effects of deep soil mixing (DSM) on settlement and the effect of expansion joints on stress distribution. Numerical models were developed to evaluate the impact of DSM parameters, including diameter, length, and spacing, as well as the influence of mini-piles and anchorage systems on the support structure, and showed that increasing the diameter and length of DSM columns significantly reduced settlements, achieving reductions of 81-94% in models with expansion joints and 77-94% in models without expansion joints. In models with expansion joints and without joints, closely spaced DSM applications (1.3 m) have significantly reduced settlement and also prevented non-uniform settlement. Expansion joints limit stress interaction between blocks, interrupt stress continuity, and thus prevent the propagation of secondary stresses arising from non-uniform settlement, temperature effects, and stiffness differences. The relationship between DSM length and settlement is similar to the relationship between DSM diameter and settlement. For this study, a DSM length of 12 meters and a DSM diameter of 0.4 meters were determined as the ideal DSM parameters. DSM configuration with 12 meter length, 0.4 m diameter, and 1.3 m spacing was identified as the most efficient solution in terms of both performance and cost for this project. These findings indicate that expansion joints are a secondary parameter in settlement control under DSM-improved soil conditions, that soil improvement properties should be prioritised in design evaluations, and that expansion joints are an important criterion in terms of stress distribution.",
+    "summary": "",
+    "doi": "10.24425/ams.2026.157755",
+    "citations": 0
+  },
+  {
+    "title": "How are Institutions Using AI in Canvas LMS? A Targeted Review of Emerging Use Cases",
+    "authors": [
+      "Ajayi Ekuase-Anwansedo",
+      "Osaretin Daniel Amayaenvbo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/40ba1b8e97336bf6f9edd9c3b4a8e50015529610",
+    "date": "2026-03-29",
+    "keywords": [
+      "今日上新",
+      "Conference on User Services"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "On the 23rd of July 2025, Instructure, the founder of Canvas Learning Management System (LMS) announced a global partnership with OpenAI, the artificial intelligence company, to embed large language model technology into the Canvas LMS platform. This partnership is the “first-of-its kind” in the learning management system space. This integration will enable educators design learning activities and allow student to interact with AI within the Canvas environment using OpenAI enabled LLM capabilities. This paper presents a targeted review of studies from the Scopus database, exploring how AI has been used in Canvas prior to this partnership. According to [1], there is a need to investigate emerging trends in the use of AI in learning management systems as technology and education practices evolves. This study examines various emerging use cases of AI in the Canvas environment and serves the purpose of a baseline study for future research specifically exploring the evolving use of AI in the Canvas LMS.",
+    "summary": "",
+    "doi": "10.1145/3737841.3787569",
+    "citations": 0
+  }
+]
