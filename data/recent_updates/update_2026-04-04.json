@@ -1,0 +1,325 @@
+[
+  {
+    "title": "AI Proof Layer: An Outcome-Assurance Architecture for Reliable, Safe, and Auditable AI Models",
+    "authors": [
+      "P. Casimir"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f3b1734c698863d408c1864d7b2a45fdb1f9ee52",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "Journal of Artificial Intelligence &amp; Cloud Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) deliver exceptional generative capability, but they share a structural limitation: they cannot prove that a given output is correct, grounded in authoritative evidence, or compliant with policy. As a result, hallucinations, unverifiable claims, and policy violations persist, especially in high-risk settings such as finance, healthcare, legal reasoning, and enterprise operations. This paper introduces AI Proof Layer, an external outcome-assurance layer that operates independently of the model. AI Proof Layer evaluates model outputs against explicit, measurable guarantees (“claims”), enforces ALLOW/BLOCK decisions, and generates immutable Evidence Packs suitable for audits, incident reviews, and regulatory reporting, without modifying or constraining the underlying model architecture. By separating generation (the model) from permission (AI Proof Layer), the system converts generative AI models from a probabilistic text generator into a certifiable decision system. We present the conceptual framework, reference architecture, decision contract, example workflows, and compliance mappings that enable organizations to reduce hallucinations and establish traceable accountability across the AI lifecycle.",
+    "summary": "",
+    "doi": "10.47363/jaicc/2026(5)517",
+    "citations": 0
+  },
+  {
+    "title": "DermaFormer: an efficient foundation model for dermoscopic lesion segmentation with mixed training strategies",
+    "authors": [
+      "Mingzhe Hu",
+      "Qiang Li",
+      "Xiaofeng Yang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fc9db4cf0d0204c0b8b1416bba0afe1050952048",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Imaging Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3088032",
+    "citations": 0
+  },
+  {
+    "title": "HistoPAG‑Net: a multiscale position‑aware GNN for weakly supervised histopathology analysis",
+    "authors": [
+      "Tawsifur Rahman",
+      "Aliasghar Tarkhan",
+      "Rama Chellappa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9eacdb22d46e27cf87cde9682b2f77e61a569d1",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Medical Imaging 2026: Digital and Computational Pathology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3087003",
+    "citations": 0
+  },
+  {
+    "title": "Integrating hand‑crafted and foundation model representations for tumor regression grading on digitized post‑treatment rectal cancer pathology images",
+    "authors": [
+      "S. Vyshnya",
+      "Charlems Alvarez-Jimenez",
+      "T. Desilvio",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d14aa45f6a0703ecec20aaa6b670f12bf7bba4ec",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Digital and Computational Pathology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3088091",
+    "citations": 0
+  },
+  {
+    "title": "Toward a robust lesion detection model in breast DCE-MRI: adapting foundation models to high-risk women",
+    "authors": [
+      "G. Nascimento",
+      "Vincent Dong",
+      "Arthur C. Costa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c939f435567515c6a7d72cd129a26d692af0f1fe",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Physics of Medical Imaging"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3085839",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal foundation model for 3D genito-pelvic structure segmentation in image-guided radiotherapy",
+    "authors": [
+      "Mingzhe Hu",
+      "Yuheng Li",
+      "Richard L. J. Qiu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c4e2f29f440beaa21b258eea5a4fbb3c583d3049",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Image-Guided Procedures, Robotic Interventions, and Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3087514",
+    "citations": 0
+  },
+  {
+    "title": "EndoMAE: a foundation model for endoscopic image analysis via self‑supervised learning",
+    "authors": [
+      "Dipika Boro",
+      "Qilei Chen",
+      "Xiaolong Liang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/be94b68936bf345da981599809b449eefa09236e",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Computer-Aided Diagnosis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3087375",
+    "citations": 0
+  },
+  {
+    "title": "Comparative evaluation of machine learning and large language model pipelines for identifying acute ischemic stroke in radiology reports",
+    "authors": [
+      "Khashayar Namdar",
+      "S. Mirjalili",
+      "L. Erdman",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a6ff277f54f3d1ceedb2a2468c5e2365fb2d530b",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Medical Imaging 2026: Computer-Aided Diagnosis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3084682",
+    "citations": 0
+  },
+  {
+    "title": "Assessing open‑world foundation models for zero‑shot skin segmentation in clinical dermatological photographs",
+    "authors": [
+      "Yihao Liu",
+      "Andrew J. McNeil",
+      "Bohan Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a6f00a7b6e524ffd512e7d4ce8254b54fe407a63",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Clinical and Biomedical Imaging"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3085924",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging a foundation model for efficient mediastinal lymph node segmentation from CT volumes",
+    "authors": [
+      "Tao Hu",
+      "Tomohiro Kikuchi",
+      "M. Oda",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a4730a5ef6f7934186c464beebf3ead9ceb0859c",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Computer-Aided Diagnosis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3088162",
+    "citations": 0
+  },
+  {
+    "title": "3D medical image registration based on vision foundation model",
+    "authors": [
+      "Shansong Wang",
+      "M. Safari",
+      "Qiang Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5be4daa0432b1c32646f49d5c8a1c56f22711de0",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Imaging Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3086133",
+    "citations": 0
+  },
+  {
+    "title": "Multistage learning framework powered by foundation models for clinical target and organ delineation in gynecologic radiotherapy",
+    "authors": [
+      "Mingzhe Hu",
+      "Yuan Gao",
+      "Yuheng Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f41d99d1336b144782ee8b3f4d68b3b07e6a4fe",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Imaging Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3087519",
+    "citations": 0
+  },
+  {
+    "title": "Towards application of large language models (LLM) to coordinate space transforms and registration",
+    "authors": [
+      "Jacob A. Bersbach",
+      "F. J. O’Brien",
+      "Analie R. Conner",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3a566f5ae459ed7a6d949d89b5b7606dc07195eb",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Medical Imaging 2026: Image-Guided Procedures, Robotic Interventions, and Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3085886",
+    "citations": 0
+  },
+  {
+    "title": "ICU mortality prediction using fine‑tuned large language models on structured clinical data",
+    "authors": [
+      "Akhil Kasturi",
+      "Ashley R. Proctor",
+      "Yunsung Hong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2993883605456c01c7ceac84005a2fc6ad62ca2c",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Medical Imaging 2026: Computer-Aided Diagnosis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3085869",
+    "citations": 0
+  },
+  {
+    "title": "F-DiffMorph: a 3D foundation model for unsupervised medical image diffeomorphic registration",
+    "authors": [
+      "Shaoyan Pan",
+      "M. Safari",
+      "Shansong Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/28325ae978c8f7e5f8e34094817321af01ca13c4",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Medical Imaging 2026: Image-Guided Procedures, Robotic Interventions, and Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3087906",
+    "citations": 0
+  },
+  {
+    "title": "Word Predictability in Portuguese: Cloze Norming Study vs. LLMs",
+    "authors": [
+      "Jane Aristia"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2423d8b1f9b32dce1ee49edbf908250b787238b6",
+    "date": "2026-04-03",
+    "keywords": [
+      "今日上新",
+      "Cadernos de Linguística"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the rise of large language models (LLM), there has been deemed a possible alternative to human participants in many scientific domains, including linguistic studies, the cloze study. Cloze probability is used to inform researchers as to how predictable a word is within a certain sentential context. It is a common tool in linguistic studies to understand language production and processing. Previous studies (e.g., Jacobs et al., 2022; Lopes Rego et al., 2024) have compared LLM performance with traditional cloze studies and their results are promising. Nonetheless, these studies were done in English. Hence, we would like to know LLM performance in the Portuguese language. Here, we compared results from a traditional cloze study with two LLM, such as: Grevásio (Santos et al., 2024) and Tucano (Corrêa et al., 2024) then performed a correlation analysis to investigate their performance. The results show a moderate and weak correlation between the cloze probability from human participants and the LLMs. These results highlight the gap between human performance and",
+    "summary": "",
+    "doi": "10.25189/2675-4916.2026.v7.n2.id865",
+    "citations": 0
+  }
+]
