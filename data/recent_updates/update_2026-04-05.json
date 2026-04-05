@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Enhancing Medical Knowledge in Large Language Models via Supervised Continued Pretraining on Clinical Notes",
+    "authors": [
+      "D. Weissenbacher",
+      "M. Shabbir",
+      "I. M. Campbell",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6003e3a39c0db1bb9be1a13030a719a1f89c1ef",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.02.26350065",
+    "citations": 0
+  },
+  {
+    "title": "AI Proof Layer: An Outcome-Assurance Architecture for Reliable, Safe, and Auditable AI Models",
+    "authors": [
+      "P. Casimir"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f3b1734c698863d408c1864d7b2a45fdb1f9ee52",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "Journal of Artificial Intelligence &amp; Cloud Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) deliver exceptional generative capability, but they share a structural limitation: they cannot prove that a given output is correct, grounded in authoritative evidence, or compliant with policy. As a result, hallucinations, unverifiable claims, and policy violations persist, especially in high-risk settings such as finance, healthcare, legal reasoning, and enterprise operations. This paper introduces AI Proof Layer, an external outcome-assurance layer that operates independently of the model. AI Proof Layer evaluates model outputs against explicit, measurable guarantees (“claims”), enforces ALLOW/BLOCK decisions, and generates immutable Evidence Packs suitable for audits, incident reviews, and regulatory reporting, without modifying or constraining the underlying model architecture. By separating generation (the model) from permission (AI Proof Layer), the system converts generative AI models from a probabilistic text generator into a certifiable decision system. We present the conceptual framework, reference architecture, decision contract, example workflows, and compliance mappings that enable organizations to reduce hallucinations and establish traceable accountability across the AI lifecycle.",
+    "summary": "",
+    "doi": "10.47363/jaicc/2026(5)517",
+    "citations": 0
+  },
+  {
+    "title": "Citation Hallucination Determines Success: An Empirical Comparison of Six Medical AI Research Systems",
+    "authors": [
+      "X. Shi",
+      "Z. Tian",
+      "Shaomu Tan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/deae3a714d5b5f8e4593adc960b5b63e493668de",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.02.26350091",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating Large Language Models for Assessment of Psychosis Risk",
+    "authors": [
+      "T. Zhu",
+      "A. Tashevski",
+      "M. Taquet",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bfab6247abff3fe6aae0560f9071a601aa2dfe3d",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.02.26349960",
+    "citations": 0
+  },
+  {
+    "title": "Med-ICE: Enhancing Factual Accuracy in Medical AI through Autonomous Multi-Agent Consensus",
+    "authors": [
+      "Z. Chen",
+      "R. Wu",
+      "Y. Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ae3dbe987d28e04628982a0bbaf52360b0fb778b",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.02.26350080",
+    "citations": 0
+  },
+  {
+    "title": "RD-Embed: Unified representations of rare-disease knowledge from clinical records",
+    "authors": [
+      "T. Groza",
+      "F. Tan",
+      "N. T. Lim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a7857a788f1c9e8da41196ab4401653919b6ece5",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.02.26350083",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Task Learning and Soft-Label Supervision for Psychosocial Burden Profiling in Cancer Peer-Support Text",
+    "authors": [
+      "Z. Wang",
+      "Y. Cao",
+      "X. Shen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/086cd87d75c76df633f81a4f8df99723500931a1",
+    "date": "2026-04-04",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.03.26350034",
+    "citations": 0
+  }
+]
