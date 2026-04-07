@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Using AI to support accurate measurement of ABA instruction: a proof-of-concept demonstration",
+    "authors": [
+      "Lin Du",
+      "Susan Buttigieg",
+      "Robin Nuzzolo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1d0e6dfbd4d42f094f0ff73809a5d8217b2cc6eb",
+    "date": "2026-04-07",
+    "keywords": [
+      "今日上新",
+      "Tizard Learning Disability Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper aims to explore whether artificial intelligence (AI) can accurately measure teacher and child behaviours during applied behaviour analysis (ABA) instruction. This study examined whether an AI model could correctly identify antecedents and child responses from video-recorded teaching sessions.\n \n \n \n A multimodal large language model (Google Gemini Pro 002) analysed three instructional programmes (e.g. following directions, gross motor imitation and colour matching). The model was prompted to detect the teacher’s instruction and the child’s response, and to classify each trial as correct or incorrect. The researchers compared AI-generated data with human observer records for accuracy, sensitivity and specificity.\n \n \n \n The model achieved moderate to high sensitivity (61%–100%) but lower specificity (18%–40%). It was more accurate with simple, clearly cued tasks and less reliable for more complex ones.\n \n \n \n With AI-assisted data collection, behaviour analysts will be able to devote more time to direct teaching with their children. Automated data collection will also serve as a reliable foundation for timely feedback and data-based decision-making.\n \n \n \n To the best of the authors’ knowledge, this is the first study to evaluate a large language model’s ability to measure ABA teaching interactions from video. The findings highlight AI’s potential to collect data during ABA instruction accurately.\n",
+    "summary": "",
+    "doi": "10.1108/tldr-11-2025-0074",
+    "citations": 0
+  },
+  {
+    "title": "Temporally Phenotyping GLP-1RA Case Reports with Large Language Models: A Textual Time Series Corpus and Risk Modeling",
+    "authors": [
+      "S. Kumar",
+      "J. Weiss"
+    ],
+    "link": "https://www.semanticscholar.org/paper/63719bc5b05aa69b5d309d561f0dd9ca2715f43b",
+    "date": "2026-04-06",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.05.26350197",
+    "citations": 0
+  }
+]
