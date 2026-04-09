@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Multimodal ChatGPT-Driven Learning Companion for Code Reasoning and Concept Mastery in Computing Education",
+    "authors": [
+      "Thacha Lawanna"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c21a44fe578fbd9673742388a391d40cd2beec43",
+    "date": "2026-04-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid maturation of large language models has opened new opportunities for capable of enhancing learning outcomes, enriching instructional practice, and supporting large-scale computing education with high reliability through personalized, scalable, and data-driven instructional support. The ChatGPT Learning Companion (ChatGPT-LC) introduces a multimodal framework that integrates conversational scaffolding, code reasoning, misconception diagnostics, and learner analytics into a unified system capable of adapting instruction in real time. Deployed across 260 undergraduate learners in three programming courses, ChatGPT-LC produced substantial performance gains, including a 35.20% increase in concept mastery, 27.90% improvement in debugging accuracy, and error-type reductions ranging from 53.60% to 65.50%. Behavioral analytics revealed strong correlations between engagement intensity and performance (up to r = 0.740), with reflective and exploratory learners achieving scores above 88–90%. Instructor workload decreased by more than 32 hours per week, supported by high expert-verified accuracy (92–96%) of AI-generated feedback. System-level benchmarks demonstrated robust scalability, maintaining 97.00% success rates at 500 concurrent users and reducing latency from 450 ms to under 100 ms after optimization. Collectively, these results show that ChatGPT-LC functions not only as an automated tutor but as an adaptive cognitive partner capable of enhancing learning outcomes, enriching instructional practice, and supporting large-scale computing education with high reliability and pedagogical fidelity.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.02.04",
+    "citations": 0
+  },
+  {
+    "title": "Large language models in observability: opportunities and challenges for automated incident management",
+    "authors": [
+      "O. Samoylov"
+    ],
+    "link": "https://www.semanticscholar.org/paper/78e90572ab744c19c8595ff6996097a418a32b4f",
+    "date": "2026-04-08",
+    "keywords": [
+      "今日上新",
+      "Актуальные исследования"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.51635/ai-14-300_hrz6g",
+    "citations": 0
+  },
+  {
+    "title": "Accessible AI: comparing ChatGPT and traditional machine learning for sentiment analysis",
+    "authors": [
+      "Irem Önder"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6321566930ce3c9dba11cc544e84682a9331470e",
+    "date": "2026-04-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Contemporary Hospitality Management"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to investigate the effectiveness and accessibility of GPT-4-turbo, a large language model (LLM), compared to traditional machine learning (ML) methods for sentiment analysis in restaurant reviews. Beyond predictive performance, the study emphasizes practical usability, focusing on accessibility, implementation effort and interpretability particularly for hospitality professionals without technical expertise.\n \n \n \n A data set of 4,000 Yelp restaurant reviews was used to compare four traditional ML models (Logistic Regression, Support Vector Machine, Random Forest and Naive Bayes) against GPT-4-turbo, deployed in a zero-shot, no-code setting via the paid ChatGPT interface. All models were evaluated using accuracy, F1 score, recall, computational time and interpretability. Five-fold cross-validation and paired Welch’s t-tests were used to assess statistical significance among traditional models, while bootstrapping and error analysis were used to assess GPT-4-turbo’s classification behavior.\n \n \n \n Support Vector Machine achieved the highest accuracy (92.36%) and F1 score (95.23%) among traditional models, while GPT-4-turbo offered the highest recall (97.28%) and required minimal setup, with no coding or data preprocessing. Although GPT-4-turbo had a slightly higher overall error rate, its ease of use and strong recall suggest that it is a viable option for rapid sentiment analysis in operational hospitality contexts.\n \n \n \n While traditional ML models remain effective, GPT-4-turbo offers a fast, no-code alternative for hospitality professionals with limited technical expertise. Its high recall and ease of use make it well-suited for timely monitoring of customer feedback and rapid service recovery. Overall, user-friendly AI tools can lower adoption barriers and support data-informed decision-making in hospitality operations, strengthening service quality and guest experience management.\n \n \n \n This study shifts the focus from technical model optimization to practical usability and accessibility of sentiment analysis tools in hospitality. It uniquely examines GPT-4-turbo as a no-code, plug-and-play alternative to traditional ML models for binary sentiment classification. By evaluating not just accuracy but also implementation effort and interpretability, the study offers a practitioner-oriented perspective on AI adoption in hospitality analytics, contributing new insights into real-world applicability in service and experience management contexts.\n",
+    "summary": "",
+    "doi": "10.1108/ijchm-05-2025-0698",
+    "citations": 0
+  }
+]
