@@ -1,5 +1,65 @@
 [
   {
+    "title": "Thinking Bidirectionally: A Reasoning and Self-Correction Approach for Text-Based Event Prediction with Large Language Models",
+    "authors": [
+      "Liwei Qian",
+      "Hang Zhang",
+      "Yiheng Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b4f6b58cd2c5025513e631df071a3cf6c6793794",
+    "date": "2026-04-12",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774904.3792306",
+    "citations": 0
+  },
+  {
+    "title": "Cross-city Time Series Forecasting with Retrieval-Augmented Large Language Models",
+    "authors": [
+      "Yue Jiang",
+      "Chenxi Liu",
+      "Yile Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/56a8671a89b767753bbee4baab25f71365682aba",
+    "date": "2026-04-12",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774904.3792074",
+    "citations": 0
+  },
+  {
+    "title": "CLGNN: A Contrastive Learning-based GNN for Temporal Betweenness Prediction under Extreme Value Imbalance",
+    "authors": [
+      "Tianming Zhang",
+      "Renbo Zhang",
+      "Zhengyi Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4bc5cd08ad35e201707786e115308cf25464febd",
+    "date": "2026-04-12",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774904.3792709",
+    "citations": 0
+  },
+  {
     "title": "Self-Debias: Self-correcting for Debiasing Large Language Models",
     "authors": [
       "Xuan Feng",
@@ -160,6 +220,25 @@
     "abstract_raw": "Methods based on weight compensation, which iteratively apply quantization and weight compensation to minimize the output error, have recently demonstrated remarkable success in quantizing Large Language Models (LLMs). The representative work, GPTQ, introduces several key techniques that make such iterative methods practical for LLMs with billions of parameters. GPTAQ extends this approach by introducing an asymmetric calibration process that aligns the output of each quantized layer with its full-precision counterpart, incorporating a residual error into the weight compensation framework. In this work, we revisit the formulation of the residual error. We identify a sub-optimal calibration objective in existing methods: during the intra-layer calibration process, they align the quantized output with the output from compensated weights, rather than the true output from the original full-precision model. Therefore, we redefine the objective to precisely align the quantized model's output with the original output of the full-precision model at each step. We then reveal that the residual error originates not only from the output difference of the preceding layer but also from the discrepancy between the compensated and original weights within each layer, which we name the'compensation-aware error'. By inheriting the neuron decomposition technique from GPTAQ, we can efficiently incorporate this compensation-aware error into the weight update process. Extensive experiments on various LLMs and quantization settings demonstrate that our proposed enhancements integrate seamlessly with both GPTQ and GPTAQ, significantly improving their quantization performance. Our code is publicly available at https://github.com/list0830/ResComp.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Large Language Models for Contextual Prioritization of Contaminants of Emerging Concern in Chemical Mixtures",
+    "authors": [
+      "Fei Cheng",
+      "Qianhui Li",
+      "Liwei He",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ebe228c7c4a325d961a6ce74ee9ad2f370bc4b12",
+    "date": "2026-04-09",
+    "keywords": [
+      "Environmental Science &amp; Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1021/acs.est.6c01342",
     "citations": 0
   },
   {
@@ -324,7 +403,7 @@
   {
     "title": "LLM-Based Data Generation and Clinical Skills Evaluation for Low-Resource French OSCEs",
     "authors": [
-      "Tian Huang",
+      "Tiansheng Huang",
       "Tom Bourgeade",
       "I. Illina"
     ],
@@ -380,7 +459,7 @@
     "authors": [
       "Zhuoyao Liu",
       "Z. Zeng",
-      "Shu-Dong Huang",
+      "Shutai Huang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/ca711e07e3b08022394872ce22e2e8e6afe02c96",
@@ -627,7 +706,7 @@
     "title": "Networking-Aware Energy Efficiency in Agentic AI Inference: A Survey",
     "authors": [
       "Xiaojing Chen",
-      "Haiqi Yu",
+      "Haiqiu Yu",
       "Wei Ni",
       "et al."
     ],
@@ -920,6 +999,25 @@
     "citations": 0
   },
   {
+    "title": "Automated Financial News Analyzer using Large Language Models",
+    "authors": [
+      ".Mahammad sadak K",
+      "Shaik Shajid Basha ,",
+      ".Bhuvaneswari P",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/982af9c45594e51dd23f512ca4d0f6e79e6080dd",
+    "date": "2026-04-09",
+    "keywords": [
+      "International Scientific Journal of Engineering and Management"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "A Market News Analyzer based on Large Language Models (LLMs) is designed to transform unstructured financial news into meaningful insights that supportintelligent decision-making. With the rapid growth of digital news sources, investors and analysts face challenges in processing vast amounts of information in real time. This system leverages advanced language models such as GPT-4 and LLaMA to automatically analyze news articles, social media posts, and financial reports. It performs tasks including sentiment detection,entity recognition, and contextual understanding to identify market trends and potential impacts on stocks and sectors. By integrating natural language processing with machine learning techniques, the system provides a scalable and efficient solution for financial datainterpretation.Index Keywords: Market News Analysis, Large Language Models (LLMs), GPT-4, LLaMA, Natural Language Processing (NLP), Sentiment Analysis, Financial Text Mining, Stock Market Prediction, Trend Analysis, Risk Assessment, Machine Learning, Artificial\nIntelligence, Data Analytics, Information Extraction, Real-Time Monitoring",
+    "summary": "",
+    "doi": "10.55041/isjem.acme085",
+    "citations": 0
+  },
+  {
     "title": "Less Approximates More: Harmonizing Performance and Confidence Faithfulness via Hybrid Post-Training for High-Stakes Tasks",
     "authors": [
       "Haokai Ma",
@@ -994,7 +1092,7 @@
     "authors": [
       "Shiwan Zhao",
       "Zhihu Wang",
-      "Xuyang Zhao",
+      "Xu Zhao",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/8a44dd7215dd954501cc334ce800a28f4d010cc8",
@@ -1086,7 +1184,7 @@
     "title": "TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation",
     "authors": [
       "Xinliang Frederick Zhang",
-      "Lu Wang"
+      "Luyang Wang"
     ],
     "link": "https://www.semanticscholar.org/paper/84e59205e4350c9596e4a03583fdfd114112586b",
     "date": "2026-04-09",
@@ -1448,6 +1546,22 @@
     "citations": 0
   },
   {
+    "title": "ГИБРИДНЫЙ МЕТОД ГЕНЕРАЦИИ ФРОНТЕНД-КОДА С ИСПОЛЬЗОВАНИЕМ БОЛЬШИХ ЯЗЫКОВЫХ МОДЕЛЕЙ: ДЕТЕРМИНИРОВАННЫЙ СИНТЕЗ ШАБЛОННОГО КОДА НА ОСНОВЕ СГЕНЕРИРОВАННОЙ СТРУКТУРИРОВАННОЙ СПЕЦИФИКАЦИИ",
+    "authors": [
+      "Роман Андреевич Толстых"
+    ],
+    "link": "https://www.semanticscholar.org/paper/61397114fff6320e7f0587197715a89f0b32b11e",
+    "date": "2026-04-09",
+    "keywords": [
+      "Флагман науки"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "В настоящей работе рассматривается проблема надежности генерации программного кода большими языковыми моделями. Предлагается гибридный метод, при котором генерируется промежуточная спецификация, которая затем валидируется Pydantic-моделями и преобразуется в код шаблонизатором Jinja2. Проводится сравнительный анализ решения со сквозной end-to-end генерацией\n This work addresses the reliability of program code generation by large language models. The article describes the implementation of a hybrid LLM-based approach which involves the generation of a structured intermediate specification and its usage in deterministic generation of Jinja2 templated code. The paper presents a comparative analysis of the hybrid method against standard LLM end-to-end generation",
+    "summary": "",
+    "doi": "10.37539/2949-1991.2026.36.1.009",
+    "citations": 0
+  },
+  {
     "title": "Beyond Social Pressure: Benchmarking Epistemic Attack in Large Language Models",
     "authors": [
       "Steven Au",
@@ -1717,7 +1831,7 @@
   {
     "title": "A Decomposition Perspective to Long-context Reasoning for LLMs",
     "authors": [
-      "Yanling Xiao",
+      "Ya-Li Xiao",
       "Huaibing Xie",
       "Guoliang Zhao",
       "et al."
@@ -1837,7 +1951,7 @@
   {
     "title": "Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts",
     "authors": [
-      "Jiayuan Ye",
+      "Jiayu Ye",
       "V. Feldman",
       "Kunal Talwar"
     ],
@@ -1913,7 +2027,7 @@
     "authors": [
       "Yuanjian Xu",
       "Tianze Sun",
-      "Changwei Xu",
+      "Chang Xu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3a3f9a09a622fb336a95f514bd6a7fad09d4ad37",
@@ -1963,7 +2077,7 @@
     "title": "A GAN and LLM-Driven Data Augmentation Framework for Dynamic Linguistic Pattern Modeling in Chinese Sarcasm Detection",
     "authors": [
       "Wenxian Wang",
-      "Xiaohu Luo",
+      "Xiao Luo",
       "Junfeng Hao",
       "et al."
     ],
@@ -2162,6 +2276,24 @@
     "citations": 0
   },
   {
+    "title": "Hybrid Approach to Patient Review Classification at Scale: From Expert Annotations to Production-Ready Machine Learning Models for Sustainable Healthcare",
+    "authors": [
+      "I. Kalabikhina",
+      "A. Kolotusha",
+      "V. Moshkin"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0ef938710001d5785920eb94e10e4de1927e0279",
+    "date": "2026-04-09",
+    "keywords": [
+      "Big Data and Cognitive Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Patients leave millions of medical reviews annually, providing critical data for quality management. However, manual processing is infeasible, and existing systems fail to distinguish medical from organizational problems—a distinction essential for complaint routing. The consequences of misrouting are significant: clinical issues may go unaddressed when medical complaints reach administrative staff, while systemic service problems remain unresolved when organizational complaints reach medical directors. We developed a hybrid approach combining expert annotation with Large Language Models (LLMs). Fifteen prompt iterations on 1500 reviews with expert validation (modified Cohen’s kappa (κ_mod), which weights errors hierarchically, reached 0.745) preceded the LLM annotation of 15,000 mixed-sentiment and positive reviews. These were combined with 7417 expert-annotated negative reviews to form a corpus of 22,417 reviews. Eight architectures, ranging from Logistic Regression to a BERT + TF-IDF + LightGBM ensemble, were compared using both standard metrics and domain-specific practical metrics tailored to complaint routing. The best model, scaled to 4.3 million Russian-language reviews from the Prodoctorov.ru platform, achieved 92.9% Practical Accuracy—the proportion of reviews classified without critical medical–organizational misclassification errors (M ↔ O)—compared to 68.0% standard accuracy, which treats all errors equally. Critical errors were reduced to 1.4%, yielding 144,000 more correctly processed complaints than traditional methods (TF-IDF + Logistic Regression). Analysis of the scaled data revealed the following: 46.1% M (medical), 21.0% O (organizational), and 32.9% C (combined) reviews; medical ratings were highest (4.75 vs. 4.59 for organizational, p < 0.001); combined reviews were longest (802 characters); zero-star reviews comprised 3.8% of feedback, with organizational complaints dominating (38.2%) among extreme negatives; and average ratings rose by 1.24 points over 14 years. This hybrid approach yields expert-comparable corpora, automates 93% of feedback processing, ensures correct complaint routing, and contributes to healthcare sustainability by reducing administrative burden, accelerating resolution, and enabling data-driven quality management without proportional increases in human resources. All analyses were conducted on Russian-language patient reviews.",
+    "summary": "",
+    "doi": "10.3390/bdcc10040114",
+    "citations": 0
+  },
+  {
     "title": "REVISE: A Framework for Revising OCRed text in Practical Information Systems with Data Contamination Strategy",
     "authors": [
       "Gyuho Shim",
@@ -2179,6 +2311,23 @@
     "summary": "",
     "doi": "10.18653/v1/2025.acl-industry.100",
     "citations": 3
+  },
+  {
+    "title": "Computational Evaluation of the Phytochemical Naringenin and Its Derivatives against Dengue Virus DENV2",
+    "authors": [
+      "S. Acharya",
+      "R. Satpathy"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0b33f9027aee5a3cd87961046ee04d6521f2b78d",
+    "date": "2026-04-09",
+    "keywords": [
+      "Математическая биология и биоинформатика"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Dengue, one of the most prevalent mosquito-borne viral infectious diseases of the twenty-first century, affects approximately 100–400 million individuals worldwide. The lack of definitive treatment has led to several in vitro and in silico investigations for potential antivirals. The RNA helicase of the dengue virus (DENV) is a vital protein that is important in viral replication. This study analyzed the antiviral activity of the flavanone naringenin and its derivatives through in silico and in vitro methods, targeting the DENV NS3 helicase enzyme. In this study, in silico screening based on molecular docking and ADMET properties of 20 derivatives of naringenin identified molecules such as 6-fluoro naringenin as the suitable compound. Further, comparative MD simulations and an MM-PBSA study for complexes like NS3-naringenin, NS3-6-fluoronaringenin, and NS3-ST-610 (standard inhibitor molecule) identified that naringenin was able to form a stable complex with the NS3 helicase enzyme of DENV2. These findings of the present study predict the promising anti-dengue nature of the compound naringenin as a replication inhibitor.",
+    "summary": "",
+    "doi": "10.17537/2026.21.121",
+    "citations": 0
   },
   {
     "title": "Distributed Multi-Layer Editing for Rule-Level Knowledge in Large Language Models",
@@ -3220,7 +3369,7 @@
   {
     "title": "ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training",
     "authors": [
-      "Yu Liang",
+      "Yunhao Liang",
       "Liangxin Liu",
       "Longzheng Wang",
       "et al."
@@ -3710,7 +3859,7 @@
     "title": "FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios",
     "authors": [
       "Xiangru Jian",
-      "Hao Xu",
+      "Haolei Xu",
       "Wei Pang",
       "et al."
     ],
@@ -4338,7 +4487,7 @@
     "title": "CLEAR: Context Augmentation from Contrastive Learning of Experience via Agentic Reflection",
     "authors": [
       "Linbo Liu",
-      "Guande Wu",
+      "Guan Wu",
       "Han Ding",
       "et al."
     ],
@@ -4512,6 +4661,23 @@
     "abstract_raw": "Marketing research traditionally costs tens of thousands of dollars and takes months. Large language models are changing this by compressing timelines from months to days. LLMs enable synthetic consumer “digital twins” for rapid concept testing, AI-moderated interviews for qualitative research at scale, and powerful analysis of unstructured data. These tools allow smaller research teams to conduct larger studies while maintaining quality, thus enabling more frequent testing and experimentation.",
     "summary": "",
     "doi": "10.63383/rwzg1710",
+    "citations": 0
+  },
+  {
+    "title": "Low Rank Adaptation Enables Efficient Domain Transfer in Billion Parameter Language Models",
+    "authors": [
+      "Jie Yang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/66cae564d7d72200f3fb80a0600183ce7477d09d",
+    "date": "2026-04-08",
+    "keywords": [
+      "Fine-tuning",
+      "Computer Life"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid growth of billion-parameter language models has transformed natural language processing (NLP), yet deploying these models across specialized domains remains constrained by the prohibitive cost of full fine-tuning. Low-rank adaptation (LoRA) has emerged as a leading parameter-efficient fine-tuning (PEFT) approach that restricts weight updates to low-dimensional matrix products, dramatically reducing trainable parameter counts without sacrificing downstream performance. This review synthesizes theoretical foundations, algorithmic advances, and empirical findings concerning LoRA and its derivatives as applied to large language models (LLMs) in domain transfer settings. We examine how rank decomposition enables adaptation across biomedical text mining, legal document analysis, code generation, and financial analytics, surveying evidence that LoRA-based methods match full fine-tuning while updating fewer than one percent of total model parameters. Variants including QLoRA, AdaLoRA, LoRA+, and DoRA are analyzed with respect to their contributions in quantization, adaptive rank allocation, and optimization refinement. The theoretical basis in intrinsic dimensionality that justifies low-rank approximations is discussed alongside practical considerations of rank selection, target module choice, and multi-task deployment. By consolidating findings from sixty recent studies, this paper offers a structured understanding of when and why LoRA succeeds, identifies persistent limitations, and delineates promising directions for future work in efficient domain transfer.",
+    "summary": "",
+    "doi": "10.54097/6w0gxa44",
     "citations": 0
   },
   {
@@ -4738,6 +4904,25 @@
     "abstract_raw": "Although visual foundation models like DINOv2 provide state-of-the-art performance as feature extractors, their complex, high-dimensional representations create substantial hurdles for interpretability. This work proposes DINO-QPM, which converts these powerful but entangled features into contrastive, class-independent representations that are interpretable by humans. DINO-QPM is a lightweight interpretability adapter that pursues globally interpretable image classification, adapting the Quadratic Programming Enhanced Model (QPM) to operate on strictly frozen DINO backbones. While classification with visual foundation models typically relies on the \\texttt{CLS} token, we deliberately diverge from this standard. By leveraging average-pooling, we directly connect the patch embeddings to the model's features and therefore enable spatial localisation of DINO-QPM's globally interpretable features within the input space. Furthermore, we apply a sparsity loss to minimise spatial scatter and background noise, ensuring that explanations are grounded in relevant object parts. With DINO-QPM we make the level of interpretability of QPM available as an adapter while exceeding the accuracy of DINOv2 linear probe. Evaluated through an introduced Plausibility metric and other interpretability metrics, extensive experiments demonstrate that DINO-QPM is superior to other applicable methods for frozen visual foundation models in both classification accuracy and explanation quality.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Exploratory Data Analysis for the Local Housing Market in the Surrounding Area",
+    "authors": [
+      "Skylar Myers",
+      "Jayden Kisner",
+      "Miranda Egan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5abc657c622acdf78d8e9235d5f7d723e56deec6",
+    "date": "2026-04-08",
+    "keywords": [
+      "Proceedings of the West Virginia Academy of Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Skylar Myers, Jayden Kisner, Miranda Egan, and Weidong Liao (Faculty Advisor), Dept of Computer and Information Sciences, Shepherd University, Shepherdstown, WV 25443. Exploratory Data Analysis for the Local Housing Market in the Surrounding Area. \n  \nThis study presents a modern workflow integrating traditional data engineering with generative artificial intelligence (GenAI) to analyze the local housing market in Shepherdstown, West Virginia, and the surrounding tri-state area. The primary objective was to evaluate real estate trends—such as median sale prices, inventory levels, and days on market—while designing a robust AI-assisted analytical pipeline. The methodology involved a multi-step process: first, acquiring localized housing datasets from the Redfin Data Center; second, cleaning and standardizing the data using Python and pandas to handle missing values and filter outliers; and third, employing prompt engineering techniques to utilize Large Language Models (LLMs) for automated trend interpretation and anomaly detection. Initial results demonstrate that, while raw data scraping poses significant challenges due to platform restrictions, structured CSV exports enable seamless integration with AI tools. We conclude that integrating GenAI into exploratory data analysis accelerates the derivation of insights but requires rigorous traditional data cleaning and chained prompting to prevent AI hallucinations. This framework provides a scalable model for applying AI to localized economic data.",
+    "summary": "",
+    "doi": "10.55632/pwvas.v98i1.1309",
     "citations": 0
   },
   {
@@ -5123,7 +5308,7 @@
     "authors": [
       "Kai Qin",
       "Liangxin Liu",
-      "Yu Liang",
+      "Yunhao Liang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3e5aac129ee2aef1052104dface829f9f30183ae",
@@ -5539,6 +5724,25 @@
     "citations": 0
   },
   {
+    "title": "Sampling protein structural token space enables accurate prediction of multiple conformations",
+    "authors": [
+      "Zhiyuan Wang",
+      "Yue Yu",
+      "Chungong Yu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/235b4f4062612c9cb72e3dd35fdb858d03bec504",
+    "date": "2026-04-08",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.03.03.708411",
+    "citations": 0
+  },
+  {
     "title": "To Layer or Not to Layer? Evaluating the Effects and Mechanisms of LLM-Generated Feedback on learning performance",
     "authors": [
       "Jie Cao",
@@ -5786,6 +5990,26 @@
     "citations": 0
   },
   {
+    "title": "Protein Language Models Encode Evolutionary Grammar but Conflate Topological and Thermodynamic Phases",
+    "authors": [
+      "Yiquan Wang",
+      "Minnuo Cai",
+      "Yahui Ma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e8824f7ed596d015a72577690e14ba8d2927aba",
+    "date": "2026-04-08",
+    "keywords": [
+      "Protein Language Model",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.07.717117",
+    "citations": 0
+  },
+  {
     "title": "Agent-Driven Corpus Linguistics: A Framework for Autonomous Linguistic Discovery",
     "authors": [
       "Jia Yu",
@@ -5802,6 +6026,25 @@
     "abstract_raw": "Corpus linguistics has traditionally relied on human researchers to formulate hypotheses, construct queries, and interpret results - a process demanding specialized technical skills and considerable time. We propose Agent-Driven Corpus Linguistics, an approach in which a large language model (LLM), connected to a corpus query engine via a structured tool-use interface, takes over the investigative cycle: generating hypotheses, querying the corpus, interpreting results, and refining analysis across multiple rounds. The human researcher sets direction and evaluates final output. Unlike unconstrained LLM generation, every finding is anchored in verifiable corpus evidence. We treat this not as a replacement for the corpus-based/corpus-driven distinction but as a complementary dimension: it concerns who conducts the inquiry, not the epistemological relationship between theory and data. We demonstrate the framework by linking an LLM agent to a CQP-indexed Gutenberg corpus (5 million tokens) via the Model Context Protocol (MCP). Given only\"investigate English intensifiers,\"the agent identified a diachronic relay chain (so+ADJ>very>really), three pathways of semantic change (delexicalization, polarity fixation, metaphorical constraint), and register-sensitive distributions. A controlled baseline experiment shows that corpus grounding contributes quantification and falsifiability that the model cannot produce from training data alone. To test external validity, the agent replicated two published studies on the CLMET corpus (40 million tokens) - Claridge (2025) and De Smet (2013) - with close quantitative agreement. Agent-driven corpus research can thus produce empirically grounded findings at machine speed, lowering the technical barrier for a broader range of researchers.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Geometry-enhanced protein language modeling enables discovery of novel antibiotic resistance genes",
+    "authors": [
+      "Xingqiao Lin",
+      "Jiahui Guan",
+      "Yue Hong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/09c1e6dc8593337857ac006bf5eeb921d1d00aec",
+    "date": "2026-04-08",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.05.716581",
     "citations": 0
   },
   {
@@ -6162,7 +6405,7 @@
     "title": "UMEval: a unified framework for explainable medical term semantic evaluation with large language models",
     "authors": [
       "Shuyu Liu",
-      "Linkun Feng",
+      "Li Feng",
       "Youwei Luo",
       "et al."
     ],
@@ -6335,6 +6578,22 @@
     "abstract_raw": "Large language models are increasingly used in settings where uncertainty must drive decisions such as abstention, retrieval, and verification. Most existing methods treat uncertainty as a latent quantity to estimate after generation rather than a signal the model is trained to express. We instead study uncertainty as an interface for control. We compare two complementary interfaces: a global interface, where the model verbalizes a calibrated confidence score for its final answer, and a local interface, where the model emits an explicitmarker during reasoning when it enters a high-risk state. These interfaces provide different but complementary benefits. Verbalized confidence substantially improves calibration, reduces overconfident errors, and yields the strongest overall Adaptive RAG controller while using retrieval more selectively. Reasoning-time uncertainty signaling makes previously silent failures visible during generation, improves wrong-answer coverage, and provides an effective high-recall retrieval trigger. Our findings further show that the two interfaces work differently internally: verbal confidence mainly refines how existing uncertainty is decoded, whereas reasoning-time signaling induces a broader late-layer reorganization. Together, these results suggest that effective uncertainty in LLMs should be trained as task-matched communication: global confidence for deciding whether to trust a final answer, and local signals for deciding when intervention is needed.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "DECISÕES JUDICIAIS COM APOIO DE IA:",
+    "authors": [
+      "Jorge Alberto Araujo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/eeb101e9ec1e2855f21892ff7f44409f91b65f01",
+    "date": "2026-04-07",
+    "keywords": [
+      "Revista da Escola Judicial do TRT4"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "O artigo analisa as potencialidades e limitações dos Grandes Modelos de Linguagem (Large Language Models - LLMs), como o ChatGPT, na deliberação jurídica, com ênfase nos processos trabalhistas brasileiros. Embora essas ferramentas possam auxiliar na síntese de informações e estruturação de argumentos, sua incapacidade de compreender nuances jurídicas e ponderar valores humanos exige supervisão criteriosa. O estudo destaca a importância de um método passo a passo, alinhado às boas práticas do Legal Writing, para evitar erros cumulativos e garantir decisões fundamentadas. Conclui-se que a IA deve ser utilizada como ferramenta de apoio, jamais substituindo o julgamento humano, especialmente em casos complexos que envolvem múltiplas interpretações e princípios em tensão.",
+    "summary": "",
+    "doi": "10.70940/rejud4.2025.929",
     "citations": 0
   },
   {
@@ -6592,8 +6851,8 @@
   {
     "title": "Quantitative Analysis of Contemporary Residential Bathroom Design Through AI Visual Recognition: Object-Design Characteristic Mapping of 1,500 Cases",
     "authors": [
-      "Jungmin CHOI",
-      "Yake WANG"
+      "JungMin Choi",
+      "Yake Wang"
     ],
     "link": "https://www.semanticscholar.org/paper/e1e237d2a6f91313de54547d88d2a8efb773d079",
     "date": "2026-04-07",
@@ -7680,7 +7939,8 @@
   {
     "title": "The Proactive Paradigm: Leveraging Multi-Agent AI Systems for Autonomous Network Operations",
     "authors": [
-      "Aysha Siddhikha Husaini Basha"
+      "Aysha Siddhikha",
+      "Husaini Basha"
     ],
     "link": "https://www.semanticscholar.org/paper/9f3f204ae5d26165aa983e34249e316ba7161e92",
     "date": "2026-04-07",
@@ -8680,6 +8940,23 @@
     "citations": 0
   },
   {
+    "title": "Analyses of Green Energy Innovation Using Patent Data",
+    "authors": [
+      "Yu-Chao Cheng",
+      "Cheng-Hsien Hsieh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5e156c1444218b8bc246016a01ab9876878484fe",
+    "date": "2026-04-07",
+    "keywords": [
+      "Journal of Sustainability Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Global reliance on fossil fuels continues to drive greenhouse gas emissions and climate change, necessitating accelerated innovation in green energy technologies to achieve sustainable development and net-zero targets. Despite extensive research on sustainability, systematically integrating patent intelligence with semantic analytics to understand technological evolution in this domain has received limited attention. This study addresses this gap by developing a Multi-Layer Patent Intelligence and Semantic Analytics (MPISA) framework, integrating patent analysis and large language model (LLM)-based semantic clustering using SciBERT, to examine green energy innovation patterns based on patent data from the United States Patent and Trademark Office from 2005 to 2025. Findings reveal a technological reorientation from diversified renewables toward photovoltaic consolidation and subsequent material-driven optimisation. Assignee analysis demonstrates shifting competitive dynamics, with traditional manufacturers declining as power electronics specialists gain prominence. LLM-based thematic clustering indicates that green energy innovation is structured as a hierarchical technology stack rather than a collection of isolated fields. The MPISA framework offers a replicable methodology for understanding technological evolution and informs strategic decision-making for advancing sustainable energy transitions.",
+    "summary": "",
+    "doi": "10.20900/jsr20260029",
+    "citations": 0
+  },
+  {
     "title": "CuraLight: Debate-Guided Data Curation for LLM-Centered Traffic Signal Control",
     "authors": [
       "Qing Guo",
@@ -9343,7 +9620,7 @@
     "title": "CritBench: A Framework for Evaluating Cybersecurity Capabilities of Large Language Models in IEC 61850 Digital Substation Environments",
     "authors": [
       "Gustav Keppler",
-      "Moritz Gstur",
+      "Moritz Gstür",
       "V. Hagenmeyer"
     ],
     "link": "https://www.semanticscholar.org/paper/2e71dda3fff35e876d011e2e8e32dc9fb70568a6",
@@ -12383,8 +12660,8 @@
   {
     "title": "An Agent-Driven Framework for Task-Level SDLC Automation",
     "authors": [
-      "Mrs. Abhilasha Bhagat",
-      "Mrs. Mital Kadu",
+      "Ms. Abhilasha Bhagat",
+      "Mital Kadu",
       "Sammed Desai",
       "et al."
     ],
@@ -15164,7 +15441,7 @@
   {
     "title": "LensAgent: A Self Evolving Agent for Autonomous Physical Inference of Sub-galactic Structure",
     "authors": [
-      "Xiao-Xue Feng",
+      "Xiaotang Feng",
       "Zihang Wang",
       "Zilang Shu",
       "et al."
@@ -17704,305 +17981,6 @@
     "abstract_raw": "\n \n \n Constitutive activation of NRF2, driven by NFE2L2 gain-of-function or KEAP1 or CUL3 loss-of-function mutations, disrupts KEAP1-CUL3-mediated NRF2 degradation and contributes to resistance to chemotherapy, immunotherapy, and targeted therapies, including RAS inhibitors. This oncogenic pathway is frequently altered in squamous cell carcinomas — such as esophageal (ESCC) and lung squamous cell carcinoma (LUSC) — via NFE2L2 hotspot mutations in the DLG/ETGE motifs. In lung adenocarcinoma (LUAD), KEAP1 mutations are common and often co-occur with KRAS mutations. Although KEAP1/NFE2L2 mutations are relatively uncommon in pancreatic ductal adenocarcinoma, more than half of tumors exhibit pronounced nuclear NRF2 accumulation, likely driven by activation of the RAS pathway. Despite the clinical relevance of this pathway, no approved therapies directly target KEAP1/NRF2-mutant tumors.\n \n \n \n GFH603 was developed as a molecular glue-like allosteric activator of KEAP1 to restore KEAP1-CUL3 E3 ligase function. Its ability to promote KEAP1-CUL3 complex formation, induce NRF2 degradation, and suppress proliferation of NRF2-driven cancer cells was evaluated in vitro. In vivo anti-tumor efficacy was assessed using xenograft models. Combination studies with pan-RAS inhibitors were conducted in KRAS/KEAP1 co-mutant cell lines. ADMET profiling was performed to assess drug-like properties.\n \n \n \n GFH603 enhanced KEAP1-CUL3 complex assembly and promoted NRF2 degradation. In vitro, it induced NRF2 degradation in NFE2L2 W24C-mutant KYSE70 cells ( IC50 = 1.7 nM) and inhibited proliferation of NFE2L2-amplified HCC95 cells (IC50 = 3.6 nM). In the HCC95 xenograft model, GFH603 (5 mg/kg once daily) achieved significant tumor growth inhibition (TGI = 114%) and robust NRF2 degradation in tumor tissues. In the LU6407 NFE2L2-mutant patient-derived xenograft model, GFH603 (10 mg/kg once daily) demonstrated strong tumor regression as a single agent, indicating its potential as an effective monotherapy. Furthermore, GFH603 demonstrated synergistic anti-proliferative activity when combined with pan-RAS inhibitors in KRAS/KEAP1 co-mutant cell lines. ADMET profiling revealed favorable characteristics, including high oral bioavailability, low hERG liability, and negative Ames test results.\n \n \n \n GFH603 restores KEAP1-CUL3 E3 ligase activity through a molecular glue mechanism, enabling targeted degradation of NRF2 in KEAP1/NFE2L2-mutant tumors. It demonstrates potent efficacy as monotherapy in NRF2-activated squamous cancer models (e.g., ESCC, LUSC) and synergizes with pan-RAS inhibitors in KRAS/KEAP1 co-mutant cells. These findings support GFH603 as a promising therapeutic candidate for overcoming NRF2-driven resistance and addressing a critical unmet need in oncology. Further preclinical and clinical development are warranted.\n \n \n \n Xiang Yu, Tao Jiang, Tao Liang, Feng Yan, Li Wang, Jingyang Zhang, Siyuan Le, Fusheng Zhou, Jiong Lan, Qiang Lu. GFH603: A molecular glue-like allosteric activator of the KEAP1-CUL3 E3 ligase complex for targeting NRF2-activated tumors [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 348.\n",
     "summary": "",
     "doi": "10.1158/1538-7445.am2026-348",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 7522: Ex vivo drug sensitivity and in silico evaluation of phytochemicals in gynaecological cancers",
-    "authors": [
-      "Maria Nomusa Sikhakhane",
-      "Deepak Govindaraj",
-      "M. Takundwa",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9c3ad905b9074080806aeecdd043854cc2215854",
-    "date": "2026-04-03",
-    "keywords": [
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Gynaecological cancers—including cervical, ovarian, endometrial, and vulvar cancers—pose significant therapeutic challenges due to late-stage diagnosis, therapeutic resistance, and the presence of cancer stem cells. Dietary phytochemicals are emerging as potential modulators of cancer-related pathways, but their clinical utility is often limited by poor pharmacokinetics. Integrating in silico ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) profiling, molecular docking, and ex vivo drug sensitivity screening may facilitate the identification of effective therapies.\n \n \n \n Primary tumor cells were isolated from 22 patients (age range 29-83 years) undergoing surgery for cervical (n=13), ovarian (n=2), endometrial/uterine (n=4), and vulvar (n=3) cancers. Cell yields ranged from 15.9 ×106 to 3.05 ×109 with viability between 14-99%. Cells were cryopreserved for downstream assays. Six dietary phytochemicals (quercetin, curcumin, resveratrol, EGCG, genistein, ursolic acid) were evaluated using SwissADME and pkCSM to predict pharmacokinetic and toxicity profiles. Boiled-egg plots assessed gastrointestinal absorption and blood-brain barrier permeability. Molecular docking was performed against key enzymes implicated in gynecological cancer pathways (EGFR, VEGFR-2, PI3K, TOP2A) using AutoDock Vina. Ex vivo drug sensitivity screening compared FDA-approved chemotherapeutics with the selected phytochemicals to identify compounds with higher cytotoxic potential.\n \n \n \n ADMET profiling revealed high gastrointestinal absorption for quercetin, curcumin, resveratrol, and genistein (HIA 77-93%), with limited BBB penetration except for resveratrol. Ursolic acid and EGCG demonstrated poor absorption. P-glycoprotein efflux and CYP inhibition were minimal for most compounds, though EGCG showed hERG II inhibition, and ursolic acid presented hepatotoxicity risk. Molecular docking showed favorable binding of EGCG to EGFR (-9.3 kcal/mol), curcumin to VEGFR-2 (-9.4 kcal/mol), and ursolic acid to TOP2A (-9.1 kcal/mol), comparable to FDA-approved inhibitors. Preliminary ex vivo drug screening indicated that FDA-approved chemotherapeutics exhibited higher cytotoxicity across patient-derived cells compared to the dietary phytochemicals.\n \n \n \n and Future Directions: Our integrated approach demonstrates that ex vivo drug sensitivity screening complements in silico ADMET and molecular docking, providing a platform to prioritize therapeutic candidates. Preliminary data suggest FDA-approved chemotherapeutics outperform dietary phytochemicals in patient-derived models. Future work will incorporate biostatistical and genomic analyses to predict optimal drug combinations for individualized therapy, potentially enabling precision oncology strategies for gynecological cancers.\n \n \n \n Maria Nomusa Sikhakhane, Deepak Govindaraj, Mutsa Monica Takundwa, Xavier Siwe Noundou. Ex vivo drug sensitivity and in silico evaluation of phytochemicals in gynaecological cancers [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 7522.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-7522",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 5478: Benchmarking gene expression foundation models on bulk RNA-Seq data.",
-    "authors": [
-      "Jong Hyun Kim",
-      "Sunwoo Yu",
-      "Soonyoung Lee",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9c1100aa8141877acebfdbff640abd3d9cf8eac0",
-    "date": "2026-04-03",
-    "keywords": [
-      "Foundation Model",
-      "RNA-seq / Transcriptomics",
-      "Biological Large Model",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Recent advances in single-cell RNA (scRNA) foundation models have enabled large-scale learning of gene-gene relationships across cell types. Although these models are pre-trained on single-cell data, many studies have begun applying them to bulk RNA-seq datasets, assuming cellular level representations can generalize to tissue data. However, no systematic benchmark has evaluated whether scRNA-based foundation models truly generalize to bulk RNA-seq data or how their performance compares with models trained on bulk data. Here, we systematically evaluate gene expression foundation models for transferability and distributional bias between single-cell and bulk RNA-seq data using TCGA.\n \n \n \n We compared publicly available models with released weights, including six single-cell models (CellFM, GeneFormer, scBERT, scFoundation, scGPT, and scLong) and BulkFormer, a model trained on bulk RNA-seq data. Embeddings were extracted following each model’s published procedures. When not specified, average pooling over valid gene tokens was applied. Gene expression inputs were normalized according to each model’s original preprocessing. Hyperparameter were tuned, and the best configuration was used for final evaluation. Performance was assessed via linear probing on fixed embeddings for two downstream tasks: gene mutation classification and survival prediction. Classification and survival tasks were evaluated using AUROC and C-index, respectively. Results were averaged across ten random data splits.\n \n \n \n In pan-cancer mutation prediction tasks involving six biomarker genes, CellFM achieved the highest performance (0.870 ± 0.053), followed by scFoundation (0.858 ± 0.056) and BulkFormer (0.827 ± 0.058). GeneFormer (0.822 ± 0.060) and scGPT (0.673 ± 0.077) showed moderate generalization (0.81-0.82), while scBERT (0.614 ± 0.054) and scLong (0.597 ± 0.053) exhibited limited transferability. A consistent trend was observed in subtype-specific mutation tasks across BRCA, COAD, LUAD, and RCC, where CellFM and scFoundation maintained the top performance, followed by BulkFormer. In survival prediction across 14 cancer types, scFoundation (0.672 ± 0.081) and CellFM (0.665 ± 0.078) achieved the best overall performance, comparable to BulkFormer (0.839 ± 0.086). While scBERT (0.599 ± 0.054) and scLong (0.589 ± 0.052) showed limited generalization.\n \n \n \n In conclusion, models that effectively learn gene-gene interactions during pretraining can generalize across bulk RNA-seq data despite distributional differences. This suggests that the key to cross-domain performance lies not in model size or data scale, but in how well biological relationships are captured within learned representations. These results highlight the importance of biologically grounded pretraining for achieving robust generalization across transcriptomic domains.\n \n \n \n Jong Hyun Kim, Sunwoo Yu, Soonyoung Lee, Tae Hyun Hwang, Jongseong Jang, Janghyeon Lee. Benchmarking gene expression foundation models on bulk RNA-Seq data [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 5478.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-5478",
-    "citations": 0
-  },
-  {
-    "title": "ChatSVA: Bridging SVA Generation for Hardware Verification via Task-Specific LLMs",
-    "authors": [
-      "Lik Tung Fu",
-      "Jie Zhou",
-      "Shaokai Ren",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/99ce9d19250e6baa6b25c138af6fbf77ae05abc1",
-    "date": "2026-04-03",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Functional verification consumes over 50% of the IC development lifecycle, where SystemVerilog Assertions (SVAs) are indispensable for formal property verification and enhanced simulation-based debugging. However, manual SVA authoring is labor-intensive and error-prone. While Large Language Models (LLMs) show promise, their direct deployment is hindered by low functional accuracy and a severe scarcity of domain-specific data. To address these challenges, we introduce ChatSVA, an end-to-end SVA generation system built upon a multi-agent framework. At its core, the AgentBridge platform enables this multi-agent approach by systematically generating high-purity datasets, overcoming the data scarcity inherent to few-shot scenarios. Evaluated on 24 RTL designs, ChatSVA achieves 98.66% syntax and 96.12% functional pass rates, generating 139.5 SVAs per design with 82.50% function coverage. This represents a 33.3 percentage point improvement in functional correctness and an over 11x enhancement in function coverage compared to the previous state-of-the-art (SOTA). ChatSVA not only sets a new SOTA in automated SVA generation but also establishes a robust framework for solving long-chain reasoning problems in few-shot, domain-specific scenarios. An online service has been publicly released at https://www.nctieda.com/CHATDV.html.",
-    "summary": "",
-    "doi": "10.1145/3770743.3804146",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 4212: Baseline peripheral blood scRNA-seq AI estimator framework predicts solid-tumor response and adverse events via molecular foundation models and cell-to-patient learning",
-    "authors": [
-      "Pablo Moreno",
-      "Marta Milo",
-      "Ricardo Miragaia",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/98c9b20b84e9b2a3c5d33793f908dd1d59ebcbd5",
-    "date": "2026-04-03",
-    "keywords": [
-      "Foundation Model",
-      "RNA-seq / Transcriptomics",
-      "Biological Large Model",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Accurately identifying patients likely to benefit from therapy and at risk of adverse events from baseline blood samples, is an unmet need in oncology. We developed a translational AI estimator framework that predicts treatment response, adverse events (AEs), and molecular signatures from baseline PBMC single-cell RNA-seq, for solid tumors. We used baseline PBMC scRNA-seq counts (with optional cell-type annotations), pre-trained molecular foundation models (FMs) (scGPT v1.0 [1], scFoundation [2]), cell-to-patient Multi-Instance Learning (MIL) [3] with RECIST labels (CR/PR Responders; SD/PD Non-Responders), to predict responses. We fine-tuned downstream tasks, applied scVI-based data augmentation [4] to improve stability and generalization, with an interpretability layer linking predictions to cell types and gene programs.\n \n \n \n Using baseline PBMC scRNA-seq from patients with solid tumor treated with immunotherapy (103 patients, ∼12,000 cells/patient), the estimator predicts treatment response from baseline blood across FM backbones and identifies an optimal downstream architecture. We used scFoundation with and without hierarchical attention and scGPT. For scFoundation without hierarchical attention, we observe learning with substantial loss reduction, discrimination of classes with AUC just below 0.8 and F1 scores ≈ 0.78. For scFoundation with hierarchical attention we observe similar performance with slightly worse accuracy with AUC ≈ 0.75 and F1 ≈ 0.70 . For scGPT, we observe learning (loss reduction), good discrimination of classes with AUC ≈ 0.75 and F1 scores just over 0.7. Validation scores are slightly worst in all cases. Results we reported so far are reflecting the ability of our framework to generalize, show competitive performance with differences attributable to hierarchical vs non-hierarchical aggregation. Data augmentation to improve training stability and preliminary AE risk modeling, prioritizing grade ≥3 events, are showing encouraging results. Molecular signatures are used to support mechanistic insight and biomarker explaining predictions.\n \n \n \n Baseline blood single-cell signals combined with FM embeddings and cell-to-patient learning can predict treatment response in solid tumors and provide a path to AE stratification and signature discovery. Improvements can be made with larger dataset and interpretable biological rationales can be facilitated by this framework.\n \n \n \n 1.Cui H. et al. Nature Methods, 21:1470-1480 (2024).2.Hao M. et al. Nature Methods, 21:1481-1491 (2024).3.Do C et al. Bioinformatics, 41: i96-i104 (2025).4.Lopez R. et al. Nature Methods, 15:1053-1058 (2018).\n \n \n \n Pablo Moreno, Marta Milo, Ricardo Miragaia, Alex Proutski, Virginia Savova, Ikbel Achour. Baseline peripheral blood scRNA-seq AI estimator framework predicts solid-tumor response and adverse events via molecular foundation models and cell-to-patient learning [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 4212.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-4212",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 1743: A novel brain-penetrant dual ATR-mTOR inhibitor for PTEN-deficient cancers",
-    "authors": [
-      "Sarah Truong",
-      "B. Zhai",
-      "L. Ramos",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9829e6b8b5adb0fc8248c3187f3c2f334c229e3b",
-    "date": "2026-04-03",
-    "keywords": [
-      "Diffusion Model",
-      "AIDD",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n Ataxia telangiectasia and Rad3-related protein serine/threonine kinase (ATR), a master regulator of DNA damage repair, maintains genomic stability in cancer cells and allows cancer cells to survive with high replication stress. Inhibition of ATR thus causes genomic instability, leading to mitotic catastrophe and apoptosis. ATR inhibitors (ATRi) have been found to be particularly effective against cells harboring PTEN deficiencies due to synthetic lethality. PTEN regulates the cell cycle and interacts with key proteins like p53 and Chk1, and PTEN deficient cells show increased genomic instability due to compromised DNA repair. Inhibition of ATR in PTEN-deficient cells therefore leads to accumulation of DNA damage and cell death. PTEN loss/mutation also leads to activation of mTOR through activation of PDK1 and AKT, contributing to cell survival and growth. Therefore, simultaneous inhibition of ATR and mTOR seems rational in the context of PTEN-deficient tumor cells. PTEN deficiency can be found in up to 40% of gliomas and 63% of breast cancers, which often metastasize to the brain. Since combination treatments can be clinically difficult due to overlapping toxicities and differing pharmacokinetics, we sought to develop a CNS-penetrating dual inhibitor of ATR and mTOR for the treatment of PTEN-deficient cancers. A generative artificial intelligence platform called Enki™ was used to identify de novo molecules with optimized properties for CNS penetrance and specificity for ATR and mTOR. Enki uses a latent diffusion model to optimize many properties simultaneously within the search space, including maximal potency against the primary target, selectivity, ADMET, and physicochemical properties. The most promising molecules were synthesized and tested, and data on potency, selectivity, ADME and in vivo efficacy will be presented. Enki™ has enabled deep exploration of chemical space and rapid generation of de novo molecules, accelerating the drug discovery process and allowing discovery and development of CNS-penetrating dual ATR and mTOR inhibitors.\n \n \n Sarah Truong, Beibei Zhai, Louise Ramos, Mona Marzban, Fariba Ghaidi, Marshall Drew-Brook, Peter Guzzo, Ahmad Issa, Mehran Khodabandeh, Sara Omar, Jason Rolfe, Seyed A. Saberali, Kally Singh, John Langlands, Dennis Brown, Jeffrey Bacha, Mads Daugaard. A novel brain-penetrant dual ATR-mTOR inhibitor for PTEN-deficient cancers [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 1743.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-1743",
-    "citations": 0
-  },
-  {
-    "title": "Comparative Evaluation of Large Language Models in Clinical Diagnostics for Real-World Medical Cases",
-    "authors": [
-      "Michał Młodawski",
-      "Stanisław Deniziak",
-      "Mirosław Płaza",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9826ae65f7419e95aa1bb0e3064e8496d38daf5e",
-    "date": "2026-04-03",
-    "keywords": [
-      "Applied Sciences"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Background/Aim: Although large language models (LLMs) achieve >90% accuracy on medical multiple-choice questions, their actual diagnostic utility remains unproven. This study compared four approaches to general medical diagnostics using real clinical data and LLMs: standalone LLM, LLM with Retrieval-Augmented Generation (RAG), LLM with expert system, and full integration of LLM, RAG, and expert system. Methods: Twenty LLMs were tested on 1655 unpublished clinical cases (paediatrics and internal medicine) in Polish and English, yielding 264,800 diagnostic evaluations. TOP-1, TOP-3, and grouped International Classification of Diseases, 10th Revision (ICD-10) accuracy were measured. Results: Standalone LLMs achieved only 16–20% TOP-1 accuracy. RAG added minimal benefit (+2–5 percentage points). The expert system improved performance 2.5-fold (55% paediatrics, 39% internal medicine). Unexpectedly, combining all components reduced results compared to the expert system alone, revealing an “integration paradox”. Conclusions: LLMs alone are insufficient for clinical diagnostics in practical applications with incomplete data. Developers of clinical decision support systems should not treat LLMs as standalone diagnostic engines. Expert systems based on machine learning algorithms provide better support and should serve as the primary component in hybrid architectures. Combining LLM, RAG, and expert systems without deliberate output weighting paradoxically reduces performance. Hybrid systems should implement dynamic source selection or prediction weighting mechanisms rather than simple integration.",
-    "summary": "",
-    "doi": "10.3390/app16073499",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 240: Allele-specific sensitization of pancreatic ductal adenocarcinoma to PARP inhibition via adenine base editing.",
-    "authors": [
-      "Jin Zhang",
-      "Jingrui Yan",
-      "Tianxing Zhou",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/97522c685b2c0eba76e5d29c69a06bb931b19008",
-    "date": "2026-04-03",
-    "keywords": [
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n Synthetic lethality represents a promising therapeutic paradigm in oncology, particularly for pancreatic ductal adenocarcinoma (PDAC) patients with BRCA1/2 mutations, who demonstrate increased sensitivity to PARP inhibitors (PARPi) like olaparib. However, the broader application of this strategy is constrained by the limited incidence of homologous recombination deficiency (HRD) in PDAC that parallels BRCA loss. To address this, we employed SpRY-mediated adenine base editing (ABE) to screen for allele-specific mutations in HR-related genes across normal pancreatic epithelial (HPNE) and PDAC cell lines, including both KRAS-G12D mutant (PANC-1) and wild-type (BxPC-3) models. These edited cells were subjected to olaparib treatment at three escalating doses. A subsequent slope-based analysis of viability reduction identified several mutations that specifically sensitized PDAC cells to PARPi. Strikingly, the NBN-X mutation conferred robust olaparib hypersensitivity in KRAS-wild-type BxPC-3 cells, while PALB2-Y and RAD50-Z mutations markedly enhanced olaparib efficacy in KRAS-G12D mutant PANC-1 cells compared to normal HPNE controls. Mechanistically, the NBN-X variant sensitizes non-KRAS mutant PDAC by disrupting MYC-driven homologous recombination (HR) repair. In contrast, the RAD50-Z variant synergizes with KRAS-driven suppression of HR to potentiate PARPi efficacy. These allele-specific effects were functionally validated, demonstrating up to a 4.1-fold decrease in olaparib IC50 and a 2.5-fold increase in apoptosis. Critically, this potent sensitization was highly tumor-specific, yielding a significantly improved safety profile over conventional BRCA-mutant models both in vitro and in vivo. Leveraging these findings, we are using virtual screening and AI-driven drug design to develop small molecules that mimic the PARPi-hypersensitivity induced by our identified mutations. These lead compounds will be advanced for evaluation in sophisticated PDAC models, including patient-derived xenografts (PDX) and genetically engineered mice. Our results highlight a novel strategy for personalizing PARPi therapy in PDAC and suggest a substantially expanded therapeutic window that could improve outcomes for patients with this aggressive disease.\n \n \n Jin Zhang, Jingrui Yan, Tianxing Zhou, Xiuchao Wang, Chao Yang, Jun Yu, Jihui Hao. Allele-specific sensitization of pancreatic ductal adenocarcinoma to PARP inhibition via adenine base editing [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 240.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-240",
-    "citations": 0
-  },
-  {
-    "title": "Applications of Large Language Models in Radiation Oncology: From Workflow Automation to Clinical Intelligence",
-    "authors": [
-      "Yuzhen Ding",
-      "Jason Holmes",
-      "Yuexing Hao",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/974c9d278b29bac5d5244c556c8fc5d010187eac",
-    "date": "2026-04-03",
-    "keywords": [
-      "Agent",
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models (LLMs) have emerged as transformative tools in medicine, with strong capabilities in language understanding, reasoning, and structured information extraction. Radiation oncology is particularly well suited for LLM integration due to its data-intensive workflows, reliance on structured guidelines, and documentation burden. This review summarizes recent applications, including domain-specific fine-tuning for decision support, automated nomenclature standardization, registry curation using autonomous LLM agents, and protocol-aware radiotherapy plan evaluation using modular retrieval-augmented generation (RAG). Additional applications include patient safety analysis through incident classification and root cause analysis, electronic health record (EHR)-integrated communication, CT simulation order summarization, daily readiness briefings, and patient education systems. Emerging multimodal approaches enable context-aware contouring, while early studies show LLMs can assist treatment planning by interpreting dosimetric feedback. Together, these advances highlight a shift toward clinically grounded, auditable, and workflow-integrated AI systems that enhance efficiency, safety, and patient engagement.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Reliable Batch-Sequential Model Editing via Enhanced Editing Anchor Compression",
-    "authors": [
-      "Hao Xu",
-      "Ziqi Peng",
-      "Xiaoyu Wang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/973ec58e15df38145de8a202bb7f26b8c697abb3",
-    "date": "2026-04-03",
-    "keywords": [
-      "ACM Transactions on Intelligent Systems and Technology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models (LLMs) often suffer from outdated or incorrect knowledge, prompting ongoing research into efficient model editing. Existing methods, however, mainly target individual knowledge facts. When multiple facts need to be edited in a coherent sequence, they frequently lead to deviations or even breakdowns in model's general abilities. This problem intensifies in batch-sequential editing, where multiple facts are updated simultaneously, compared to single-sequential editing. In this work, by analyzing the parameter matrix, we identify that the degradation stems from unintended modifications that should ideally remain unaffected. These changes accumulate with the number and batch size of edits, ultimately harming editing performance and general abilities. To address this, we propose Batch-Aware Editing Anchor Compression (B-EAC), a framework tailored for sequential model editing. B-EAC dynamically selects essential anchors for each edit while compressing the influence on nearby parameters. It adopts a layer-wise anchor selection strategy to prevent anchor conflicts during concurrent edits and introduces a rolling anchor refresh mechanism to enhance adaptability across batches. Experiments conducted on three LLMs across four tasks demonstrate that B-EAC effectively suppresses deviation during model editing, achieving a 36.54% performance improvement compared to the case without it. Our work offers a practical and theoretically grounded framework for updating LLMs efficiently, paving the way for continual knowledge refinement in real-world applications.",
-    "summary": "",
-    "doi": "10.1145/3803803",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 4170: An AI-driven multimodal workflow for enhancing late-phase clinical trial outcome prediction",
-    "authors": [
-      "I. Gazy",
-      "A. Avinoam",
-      "R. Basho",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/96ddf106f1fcd6eddd613fb1fef59169117910f7",
-    "date": "2026-04-03",
-    "keywords": [
-      "Foundation Model",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n A major challenge in drug development is the gap between early-phase signals and late-stage success. Despite promising early-stage clinical trial readouts, fewer than 10% of drug candidates ultimately progress to regulatory approval, highlighting substantial gaps in predictive fidelity along the development pathway. This gap complicates decision-making, leading to increased development time, costs and risks. Key contributors to this challenge include the small sample sizes inherent to early-phase cohorts and the limited use of patient stratification, shown to be a contributing factor for higher success rates. Recent advances in artificial intelligence (AI) have introduced powerful tools that have the potential to support clinical trial progress evaluation. By integrating multimodal models with real-world data (RWD) within an AI-driven framework, Imagene AI is developing approaches to address the discrepancies between early and late-phase outcomes, and to support better evaluation of late-phase readouts, such as survival outcomes and biomarkers identification, based on early phase cohorts. In this study, we adopted a multimodal foundation-model strategy, built on a diverse set of foundation models. Among them, our digital pathology foundation model, CanvOI, played a central role in enabling prediction of large-cohort outcomes from small-cohort data. Models were trained on a limited sample set of Trastuzumab (Herceptin)-treated breast cancer patients with outcome data. We then generated Kaplan-Meier survival curves for this small cohort with and without an AI-augmented workflow and compared the results with published outcomes from a Phase III trial. Our findings show that the AI-augmented predictions better align with the Phase III clinical trial outcomes, suggesting that this approach has the potential to support more informed decisions using early-phase data. *ChatGPT was used for editing this abstract Confidentiality Notice: This document is confidential and contains proprietary information and intellectual property of Imagene AI LTD. Neither this document nor any of the information contained herein may be reproduced or disclosed under any circumstances without the express written permission of Imagene AI LTD. Please be aware that disclosure, copying, distribution or use of this document and the information contained therein is strictly prohibited.\n \n \n Inbal Gazy, Assaf Avinoam, Reva Basho, Jonathan Zalach. An AI-driven multimodal workflow for enhancing late-phase clinical trial outcome prediction [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 4170.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-4170",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 1444: Lauren subtype classification in gastric cancer using deep learning on real-world H&E images.",
-    "authors": [
-      "A. Singhania",
-      "Qiyuan Hu",
-      "Riccardo Miotto",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/95c0eade05545644c5505f0f117a17d81de985e9",
-    "date": "2026-04-03",
-    "keywords": [
-      "Deep Learning",
-      "Foundation Model",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Gastric cancer (GC) is a heterogeneous disease, with Lauren classification providing a framework to assign diffuse and intestinal subtypes, informing prognosis and therapy. Traditional subtype assignment relies on pathologist review of hematoxylin and eosin (H&E)-stained slides, leading to inter-observer variability and scalability challenges. We developed a deep learning classifier to automate Lauren subtype assignment on real-world H&E images.\n \n \n \n We analyzed de-identified H&E-stained whole slide images (WSI) from biopsies and resections of 2974 GC patients (3160 samples) from the Tempus real-world database. Samples with pathologist-assigned labels (n=399 diffuse; n=238 intestinal) were used for classifier training. WSI were preprocessed into tissue tiles and tile embeddings were extracted using the H-optimus-0 pathology foundation model. An additive attention-based multiple instance learning model was trained with cross-entropy loss weighted by class prevalence. Data were split 80/20 for development/holdout, with 5-fold cross-validation for model tuning and selection, and ensembled predictions from 5 cross-validation models were used to assign subtypes. An operating point was selected for ∼90% positive predictive value (PPV) on the holdout set for each class. Real-world overall survival (rwOS; time from first-line therapy to death) was assessed in patients with available data (31%).\n \n \n \n The model achieved a robust performance (AUC 0.93, 95% CI: 0.88-0.98) on the holdout set. With PPV-optimized thresholds, previously unlabeled samples (n=2523) were assigned by the model as diffuse (n=1321, 52.4%), intestinal (n=749, 29.7%), or indeterminate (n=453,17.95%). For pathologist-assigned samples, diffuse cases had worse median OS (13.3 months, 95% CI: 11.5-15.8) than intestinal (22 months, 95% CI: 15.1-29.8; p=6.2e-4). For classifier-assigned samples, diffuse cases had a shorter median OS (12.6 months, 95% CI: 10.8-15.7) than intestinal (15.3 months, 95% CI: 12.2-17.3; p=0.95). CDH1 mutations were found in 30.3% of pathologist-labeled and 23.7% of classifier-assigned diffuse tumors, but were rare in intestinal tumors (1.3%, 1.1%). RHOA mutations were present in 8.5% of pathologist-labeled and 8.3% of classifier-assigned diffuse tumors, versus 2.5% in intestinal tumors for both groups. Other histologies predominantly aligned with model predictions: signet ring cell carcinoma was predicted diffuse, while tubular, papillary, and mucinous adenocarcinomas were predicted intestinal.\n \n \n \n This deep learning classifier can accurately assign Lauren subtypes in GC from real-world H&E-stained WSI, reducing manual review and variability. Model predictions align with known clinical and molecular differences between subtypes, supporting standardization of Lauren classification and enabling large-scale studies of GC.\n \n \n \n Akul Singhania, Qiyuan Hu, Riccardo Miotto, Justin Guinney, Radia M. Johnson., . Lauren subtype classification in gastric cancer using deep learning on real-world H&E images [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 1444.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-1444",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 2763: Leveraging large language models to classify pathology reports into ontological hierarchies.",
-    "authors": [
-      "Brenda Fried",
-      "Ali Kamali",
-      "Cesar F. Colorado-Jimenez",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/94b60a78422da090ae2877070c3a964134c979b7",
-    "date": "2026-04-03",
-    "keywords": [
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n Free-text pathology reports vary in style, terminology, and uniformity, making consistent diagnostic extraction difficult for research cohort development. This issue is amplified in large archives, where evolving classifications and intentional ambiguity hinder standardized, categorical diagnoses. Structured ontologies such as OncoTree address this by enforcing codes. While OncoTree is used here as an example, the approach generalizes to any hierarchical ontology, including current WHO classifications. Using cutting-edge LLMs, we developed OncoPath, an application that classifies pathology reports within structured ontologies. We tested OncoPath by applying OncoTree hierarchy through a structured tree-walk, progressing from broad anatomic categories to specific subtypes. High-level categories are assessed first, then plausible child nodes, with each node’s children displayed so the model can anticipate downstream options. Diagnostic paths are summarized, and the model selects the optimal code with a confidence tier (<50%, 50-90%, >90%). Multiple configurations of LLaMA 3.3 70B Instruct were evaluated. Surgical and hematopathology reports were processed separately, and accuracy was verified by pathologist review against the 10 most prevalent molecular codes, covering 49.6% of surgical and 84.9% of hematopathology cases. The classifier mapped diagnoses to OncoTree codes with high accuracy. Heme-based coding worked well with the full report, whereas Surg-based coding performed best with a targeted summary because reports often contained multiple parts from different sites and diagnoses. Heme reports reached 90-100% accuracy; Surg codes reached 80-100%, except HGSOC (high grade serous ovarian carcinoma) at 60%, reflecting the inherent difficulty, even for pathologists, of determining the tumor’s primary site of origin. Codes were stored with original reports, enabling direct reuse in research and operations. The traversal approach provided auditability, confidence levels, and automatic re-evaluation when diagnoses changed.An LLM-assisted OncoTree traversal provides a scalable method to convert diverse pathology reports into structured codes. By standardizing reports while preserving diagnostic nuance, OncoPath enables retrospective cohort development and analyses of incidence, progression, and practice patterns. This framework can readily extend to other structured disease ontologies, establishing a generalizable approach for transforming unstructured reports into standardized, reusable data.\n \n \n Brenda Fried, Ali Kamali, Cesar Colorado-Jimenez, Melissa Pulitzer, David Kim, Leonardo Boiocchi, Alexander Chan, Mariko Yabe, Mikhail Roshal, Syed Aijazuddin, Ahmet Dogan, Chad Vanderbilt, Khawaja Hassan Bilal, Gregory Goldgof, . Leveraging large language models to classify pathology reports into ontological hierarchies [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 2763.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-2763",
-    "citations": 0
-  },
-  {
-    "title": "Automated generation of IFC-compliant bridge information models from structured design data",
-    "authors": [
-      "Yu Chen",
-      "Chao Lin",
-      "Haitong Sui",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/933e7c9e58641545f34836139f8abb115f1235c4",
-    "date": "2026-04-03",
-    "keywords": [
-      "Journal of Information Technology in Construction"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "This paper presents an automated framework for generating high-fidelity bridge information models based on the IFC4x3 standard. Addressing the challenges of manual modeling and data consistency in bridge engineering, the proposed solution enables the seamless transformation of structured design data (e.g., Excel tables) as input into detailed and semantically rich IFC models as output through programmatic generation. The workflow integrates a JSON intermediary layer to facilitate flexible data exchange and supports the rapid assembly of complex bridge components, including main girders, secondary beams, connections, bolts, stiffeners, and diaphragms. A key innovation lies in the system’s parameter-driven geometry generation, which allows for efficient adjustment and iteration of bridge designs. The framework ensures both geometric precision and semantic completeness, providing the geometric and semantic foundation for downstream workflows including structural modeling, asset management, and maintenance planning. Furthermore, the architecture is designed with future AI integration in mind, enabling large language models to interact with and modify bridge parameters via natural language commands. Case studies on steel plate girder and box girder bridges demonstrate the system’s capability to handle intricate structural details and generate models swiftly, with performance scaling linearly with complexity. While current limitations include a focus on steel structures and reliance on comprehensive metadata, the paper outlines future directions such as expanding to other bridge types, implementing automated design rule checks, and enhancing AI-driven design support. Overall, this research advances the digitalization and automation of bridge modeling, providing a robust foundation for intelligent design, analysis, and lifecycle management within the civil engineering domain.",
-    "summary": "",
-    "doi": "10.36680/j.itcon.2026.019",
-    "citations": 0
-  },
-  {
-    "title": "Medical challenges and unmet needs of individuals with 22q11.2 deletion syndrome as perceived by caregivers: A thematic analysis and natural language processing-based thematic extraction",
-    "authors": [
-      "Yutaka Sawai",
-      "Miho Tanaka",
-      "Shimon Tonsho",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9328042b42f79ebd5767cf0c395966ab6edd7851",
-    "date": "2026-04-03",
-    "keywords": [
-      "PLOS Mental Health"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "22q11.2 deletion syndrome (22q11DS) is associated with a variety of complications, including mental illness, intellectual disability, and physical disorders. Due to the overlap of these conditions, there is often a mismatch in existing healthcare frameworks, leading to unmet support needs. However, little is known about how patients and their caregivers perceive these issues. This study aims to automate thematic analysis (TA) and topic classification via natural language processing (NLP) techniques to extract medical needs from qualitative data provided by patients’ caregivers. A web-based survey was conducted targeting caregivers of individuals with 22q11DS in Japan. 125 caregivers participated in the study and their responses were analyzed to identify medical challenges and unmet needs. TA and NLP-based thematic extraction was implemented on free-text responses related to medical concerns. To ensure privacy, the analysis was conducted offline using the open-source large language model (Cohere Command R Plus). Ethical considerations were addressed following the Declaration of Helsinki, with approval from the Ethics Committee of the University of Tokyo Graduate School of Medicine and Faculty of Medicine. NLP unveiled medical challenges and unmet needs of individuals with 22q11DS: a child-centered approach, comprehensive support across medical and welfare services, and support for caregivers through social and community networks. A comparison with manual TA confirmed that most themes were consistent. Given the limited size of our dataset, the implications of this study should be regarded as preliminary. Nevertheless, our findings suggest that NLP may serve as a useful exploratory approach to complement manual TA when analyzing larger free-text datasets on medical needs in future research. NLP should not be viewed as a replacement for manual TA, but rather as a supportive method that offers additional perspectives and potential patterns.",
-    "summary": "",
-    "doi": "10.1371/journal.pmen.0000582",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 5505: A unified framework for cross-platform spatial omics analysis and deep spatial profiling.",
-    "authors": [
-      "Yunhe Liu",
-      "E. Draetta",
-      "Kayla Caughlin",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/92f98ce8c725232e5a82a2b41d6e03372664a8c2",
-    "date": "2026-04-03",
-    "keywords": [
-      "Foundation Model",
-      "RNA-seq / Transcriptomics",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Spatial multi-omics has advanced rapidly in resolution, multiplexing, 3D modeling, and multi-modality. Platforms rely on distinct chemistries and assay architectures, yielding heterogeneous outputs but complementary strengths. These spatially indexed readouts enable neighborhood/niche inference, cell-cell communication, and 3D reconstruction, but demand rigorous normalization, uncertainty modeling, and scalable computation. Despite progress with foundation models for imputation and integration, a domain-specific suite that unifies these models for spatial omics is lacking.\n \n \n \n We developed Spyrrow (Spatially Resolved Multi-omics Data Visualization and Analytic Framework), a Python toolkit for cross-platform analysis, visualization, multi-modality integration and enhancement, spatial registration, and 3D reconstruction (https://github.com/WangLab-ComputationalBiology/spyrrow). Spyrrow ingests heterogeneous outputs and standardizes them into a unified spatial data model. Modules span raw-data processing (cell segmentation to cell-level matrices; single-cell enhancement for Visium; Visium HD single-cell transformation using registered H&E), multimodal registration, and a foundation-model hub (UNI, KRONOS, LOKI) for panel expansion, imputation, and cross-modality retrieval. With harmonized data and z-axis registration, Spyrrow builds 3D models linking serial sections. On the unified object, we provide clustering, graph-based neighborhood retrieval and niche identification, region detection (tumor compartments, TLS), spatial label transfer, and a comprehensive cell-cell communication module. Visualization includes pseudo-H&E/pseudo-fluorescence, ligand-receptor quiver plots, and 3D voxel renderings.\n \n \n \n Spyrrow has been applied across multiple spatial-omics datasets and projects. The visualization suite produces clear, interpretable displays of niches, regions, and interaction patterns. Across benchmarks, integration with state-of-the-art models improves spatially aware clustering, label transfer, registration, and communication inference. Region-detection performance was corroborated by experimental validation. Together these results demonstrate robust performance, scalability, and cross-platform integration that are difficult to achieve with existing tools.\n \n \n \n Spyrrow addresses a critical need in spatial multi-omics by providing a unified, adaptable, and cross-platform analytical framework. It facilitates both biological discovery and methodological innovation by supporting a wide range of spatial omics platforms. Importantly, it offers a scalable and interpretable approach to spatial data analysis—from broad tissue-level context to detailed subcellular features-empowering deeper insights into the tumor microenvironment and advancing immune-oncology research.\n \n \n \n Yunhe Liu, Edoardo L. Draetta, Kayla R. Caughlin, Alexandria Lau, Andre Fonseca, Tian Chu, Kyung Serk Cho, Yibo Dai, Yang Liu, Jun Wang, Jiahui Jiang, Yinyin Yuan, Futreal Andrew, Mingyao Li, Linghua Wang. A unified framework for cross-platform spatial omics analysis and deep spatial profiling [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 5505.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-5505",
     "citations": 0
   }
 ]

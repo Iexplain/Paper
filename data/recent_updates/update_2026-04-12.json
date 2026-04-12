@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Thinking Bidirectionally: A Reasoning and Self-Correction Approach for Text-Based Event Prediction with Large Language Models",
+    "authors": [
+      "Liwei Qian",
+      "Hang Zhang",
+      "Yiheng Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b4f6b58cd2c5025513e631df071a3cf6c6793794",
+    "date": "2026-04-12",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774904.3792306",
+    "citations": 0
+  },
+  {
+    "title": "Cross-city Time Series Forecasting with Retrieval-Augmented Large Language Models",
+    "authors": [
+      "Yue Jiang",
+      "Chenxi Liu",
+      "Yile Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/56a8671a89b767753bbee4baab25f71365682aba",
+    "date": "2026-04-12",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774904.3792074",
+    "citations": 0
+  },
+  {
+    "title": "CLGNN: A Contrastive Learning-based GNN for Temporal Betweenness Prediction under Extreme Value Imbalance",
+    "authors": [
+      "Tianming Zhang",
+      "Renbo Zhang",
+      "Zhengyi Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4bc5cd08ad35e201707786e115308cf25464febd",
+    "date": "2026-04-12",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774904.3792709",
+    "citations": 0
+  }
+]
