@@ -1,5 +1,24 @@
 [
   {
+    "title": "Toward a ML Framework for Multisensory Human Health and Awareness",
+    "authors": [
+      "F. A. Oteikwu",
+      "Osezua Ejodame",
+      "Norman Osa-Uwagbue"
+    ],
+    "link": "https://www.semanticscholar.org/paper/11d8e5729aaf4612ea627ada248b08cd35ef0405",
+    "date": "2026-04-13",
+    "keywords": [
+      "今日上新",
+      "Applied Mechanics and Materials"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper proposes a conceptual framework for an intelligent soldier monitoring system, integrating multimodal sensor networks with Multimodal Large Language Models (MLLMs) to advance battlefield healthcare and situational awareness. The envisioned architecture combines physiological sensors (e.g., heart rate variability, cortisol levels, core temperature) with environmental sensors (e.g., acoustic, visual, thermal) through an edge-AI processing pipeline. Based on our literature review, we target three key limitations in existing systems: (1) real-time data fusion latency (aiming for <100 ms), (2) predictive health analytics accuracy (aiming for >90% for critical conditions), and (3) adaptive threat response capabilities. Our research suggests that the proposed technologies are at an early conceptual stage, supported by analysis of existing component technologies not yet integrated into a cohesive system. We identify challenges in power efficiency (targeting <50 mW per sensor) and ethical implementation, proposing solutions such as on-device processing and explainable AI. This work establishes a theoretical foundation and a research roadmap for future development of advanced military monitoring systems, balancing performance with operational and ethical considerations..",
+    "summary": "",
+    "doi": "10.4028/p-fvwp6q",
+    "citations": 0
+  },
+  {
     "title": "Thinking Bidirectionally: A Reasoning and Self-Correction Approach for Text-Based Event Prediction with Large Language Models",
     "authors": [
       "Liwei Qian",
@@ -57,6 +76,44 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1145/3774904.3792709",
+    "citations": 0
+  },
+  {
+    "title": "Pathlight AI: An Integrated LLM-Powered Platform for Personalized Career Advancement and Job Market Analysis",
+    "authors": [
+      "Gagan N, Sai Kumar S, Keerthana M",
+      "Samarth S Vaidya, Dr. Anand R, Dr. Vanshika Rastog"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fcca2c34a92c9c0fe7cb8c987340b4fb56395273",
+    "date": "2026-04-10",
+    "keywords": [
+      "Deep Learning",
+      "Transformer",
+      "International Journal of Emerging Technologies and Innovative Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The current job market presents an enormous challenge for both job seekers and those who support them. Job seekers are faced with the need to personalize each application extensively, decipher often obfuscated Applicant Tracking Sys- tems (ATS), develop rigorously prepared interview preparation methods, and plan everything strategically for their career development. Current print and online tools are politically fragmented, generic, and offer little or no integration with real-time labor market changes or trends. To address these challenges, we created Pathlight AI, an opensource interactive web application developed using Streamlit and powered by Google’s Gemini Large Language Models (LLMs). Pathlight AI serves as an integrated career development package that provides a hybrid resume and job description analysis tool using keyword matching (spaCy) and semantic similarity (Sentence Transformers and FAISS), comprehensive ATS checks for resume and job description screening, personalized cover letter generation, LinkedIn profile export, and resume-based interview tips tailored to an individual’s unique resume and target job description. Additionally, it includes an AI-driven career roadmap featuring attainable goals and suggested resources, as well as an interactive dashboard that visualizes real-time job market trends sourced from a Supabase database. Our approach to developing this application relies on advanced prompt engineering to generate structured output as JSON from the LLM, enabling structured responses for personalized actions while integrating applied natural language processing and deep learning for specialized analysis. Pathlight AI consolidates multiple career support capabilities into a single platform, providing highly personalized, AI-driven career guidance infused with realworld job data. The goal is to significantly enhance job seeker effectiveness and strategic career planning..",
+    "summary": "",
+    "doi": "10.48175/ijetir-9230",
+    "citations": 0
+  },
+  {
+    "title": "Assessing the performance of multimodal large language models in experimental information extraction from liquid–liquid phase separation literature",
+    "authors": [
+      "Kathy Chin",
+      "Satoru Fujii",
+      "Shoichi Ishida",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b36611de93a6f9b96d5625f0fbe790bf5362b917",
+    "date": "2026-04-10",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-47277-0",
     "citations": 0
   },
   {
@@ -1088,6 +1145,24 @@
     "citations": 0
   },
   {
+    "title": "Quantifying Scientific Consensus in Biomedical Hypotheses via LLM-Assisted Literature Screening",
+    "authors": [
+      "Uiyun Kim",
+      "Ohhyeon Kwon",
+      "Doheon Lee"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8ae7555d04d53ae842e832cdb06df9b9675868db",
+    "date": "2026-04-09",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.06.716861",
+    "citations": 0
+  },
+  {
     "title": "Large Language Model Post-Training: A Unified View of Off-Policy and On-Policy Learning",
     "authors": [
       "Shiwan Zhao",
@@ -1104,6 +1179,25 @@
     "abstract_raw": "Post-training has become central to turning pretrained large language models (LLMs) into aligned and deployable systems. Recent progress spans supervised fine-tuning (SFT), preference optimization, reinforcement learning (RL), process supervision, verifier-guided methods, distillation, and multi-stage pipelines. Yet these methods are often discussed in fragmented ways, organized by labels or objective families rather than by the behavioral bottlenecks they address. This survey argues that LLM post-training is best understood as structured intervention on model behavior. We organize the field first by trajectory provenance, which defines two primary learning regimes: off-policy learning on externally supplied trajectories, and on-policy learning on learner-generated rollouts. We then interpret methods through two recurring roles -- effective support expansion, which makes useful behaviors more reachable, and policy reshaping, which improves behavior within already reachable regions -- together with a complementary systems-level role, behavioral consolidation, which preserves, transfers, and amortizes behavior across stages and model transitions. This perspective yields a unified reading of major paradigms. SFT may serve either support expansion or policy reshaping, whereas preference-based methods are usually off-policy reshaping. On-policy RL often improves behavior on learner-generated states, though under stronger guidance it can also make hard-to-reach reasoning paths reachable. Distillation is often best understood as consolidation rather than only compression, and hybrid pipelines emerge as coordinated multi-stage compositions. Overall, the framework helps diagnose post-training bottlenecks and reason about stage composition, suggesting that progress in LLM post-training increasingly depends on coordinated system design rather than any single dominant objective.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Financial Fraud Detection Using Graph Neural Networks (GNNs)",
+    "authors": [
+      "Pallyvela Satishbhasker",
+      "Chintala Isaiah Raju",
+      "Indirala Chinna",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/88d959ffb4ee950438ced43a2b29c325173ac7cc",
+    "date": "2026-04-09",
+    "keywords": [
+      "INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "I. ABSTRACT\n\nFinancial fraud detection is a major challenge in modern digital financial systems due to the increasing volume and complexity of transactions. Traditional machine learning approaches treat transactions as independent entities, making them ineffective in identifying coordinated fraud patterns.\n\nThis research proposes a Graph Neural Network (GNN)-based fraud detection system that models financial transactions as a graph, where users, accounts, and merchants are represented as nodes and transactions as edges. The system utilizes advanced GNN architectures such as GraphSAGE and Graph Attention Networks (GAT) to capture both structural and feature-based relationships.\n\nTo improve detection performance, the system incorporates feature engineering and graph-based learning techniques. Experimental results demonstrate improved performance in terms of accuracy, precision, recall, and F1-score, along with better fraud detection capability compared to traditional methods.\n\nThe proposed system provides a scalable, efficient, and real-time solution for detecting financial fraud in large-scale transaction networks.",
+    "summary": "",
+    "doi": "10.55041/ijsrem59579",
     "citations": 0
   },
   {
@@ -1301,6 +1395,24 @@
     "abstract_raw": "Large Language Models (LLMs) still suffer from severe hallucinations and catastrophic forgetting during causal reasoning over massive, fragmented long contexts. Existing memory mechanisms typically treat retrieval as a static, single-step passive matching process, leading to severe semantic dilution and contextual fragmentation. To overcome these fundamental bottlenecks, we propose MemCoT, a test-time memory scaling framework that redefines the reasoning process by transforming long-context reasoning into an iterative, stateful information search. MemCoT introduces a multi-view long-term memory perception module that enables Zoom-In evidence localization and Zoom-Out contextual expansion, allowing the model to first identify where relevant evidence resides and then reconstruct the surrounding causal structure necessary for reasoning. In addition, MemCoT employs a task-conditioned dual short-term memory system composed of semantic state memory and episodic trajectory memory. This short-term memory records historical search decisions and dynamically guides query decomposition and pruning across iterations. Empirical evaluations demonstrate that MemCoT establishes a state-of-the-art performance. Empowered by MemCoT, several open- and closed-source models achieve SOTA performance on the LoCoMo benchmark and LongMemEval-S benchmark.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Stage Graph Attention Networks for Interpretable Alzheimer’s Disease Classification from Genome-Wide Association Data",
+    "authors": [
+      "Ankita Saxena",
+      "Christopher Gaiteri",
+      "Steve Faraone"
+    ],
+    "link": "https://www.semanticscholar.org/paper/78f046e13f9fa7c53e496c303d0bd171896e77f9",
+    "date": "2026-04-09",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.06.716790",
     "citations": 0
   },
   {
@@ -2689,7 +2801,7 @@
   {
     "title": "ModuSeg: Decoupling Object Discovery and Semantic Retrieval for Training-Free Weakly Supervised Segmentation",
     "authors": [
-      "Qing He",
+      "Qingze He",
       "Fagui Liu",
       "Dengke Zhang",
       "et al."
@@ -7919,7 +8031,7 @@
   {
     "title": "Generative tissue modeling for customized biomechanical analysis: a data-driven synthesis framework of simulation-ready 3D shapes",
     "authors": [
-      "Junmin Ma",
+      "Jun Ma",
       "Zhi Wang",
       "Zuxing Wu",
       "et al."
@@ -8942,7 +9054,7 @@
   {
     "title": "Analyses of Green Energy Innovation Using Patent Data",
     "authors": [
-      "Yu-Chao Cheng",
+      "Yu Cheng",
       "Cheng-Hsien Hsieh"
     ],
     "link": "https://www.semanticscholar.org/paper/5e156c1444218b8bc246016a01ab9876878484fe",
@@ -12148,7 +12260,7 @@
     "authors": [
       "Yu-Ling Wang",
       "Nathania Josephine",
-      "Ko-Chih Wang"
+      "Kong Wang"
     ],
     "link": "https://www.semanticscholar.org/paper/33ac4e2ef01163afe60c554b6759e0106b867886",
     "date": "2026-04-06",
@@ -17870,117 +17982,6 @@
     "abstract_raw": "The recent success of reinforcement learning (RL) in large reasoning models has inspired the growing adoption of RL for post-training Multimodal Large Language Models (MLLMs) to enhance their visual reasoning capabilities. Although many studies have reported improved performance, it remains unclear whether RL training truly enables models to learn from visual information. In this work, we propose the Hallucination-as-Cue Framework, an analytical framework designed to investigate the effects of RL-based post-training on multimodal reasoning models from the perspective of model hallucination. Specifically, we introduce hallucination-inductive, modality-specific corruptions that remove or replace essential information required to derive correct answers, thereby forcing the model to reason by hallucination. By applying these corruptions during both training and evaluation, our framework provides a unique perspective for diagnosing RL training dynamics and understanding the intrinsic properties of datasets. Through extensive experiments and analyses across multiple multimodal reasoning benchmarks, we reveal that the role of model hallucination for RL-training is more significant than previously recognized. For instance, we find that RL post-training under purely hallucination-inductive settings can still significantly improve models'reasoning performance, and in some cases even outperform standard training. These findings challenge prevailing assumptions about MLLM reasoning training and motivate the development of more modality-aware RL-based training designs.",
     "summary": "",
     "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Leveraging a foundation model for efficient mediastinal lymph node segmentation from CT volumes",
-    "authors": [
-      "Tao Hu",
-      "Tomohiro Kikuchi",
-      "M. Oda",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/a4730a5ef6f7934186c464beebf3ead9ceb0859c",
-    "date": "2026-04-03",
-    "keywords": [
-      "Foundation Model",
-      "Medical Imaging 2026: Computer-Aided Diagnosis"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1117/12.3088162",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 1439: Foundation model-derived features from immunohistochemistry correlate with recurrence and stage in Merkel cell carcinoma.",
-    "authors": [
-      "R. Lodha",
-      "Kelsey Ouyang",
-      "Claire Reynolds",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/a434b05a4e63c7686d8ef824e329335ce913dc0a",
-    "date": "2026-04-03",
-    "keywords": [
-      "Foundation Model",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n Foundation models trained on large histopathology datasets offer broad inference capabilities, yet their performance in Merkel cell carcinoma has not been characterized. We investigated whether a whole slide imaging foundation model could extract clinically informative signals from immunohistochemistry biopsies stained for Merkel cell polyomavirus T antigen. Thirty one digitized slides (12 Stage I, 3 Stage II, 11 Stage III, 3 Stage IV, 2 indeterminate) were processed using a custom tissue masking, tiling, and stain normalization pipeline. High-dimensional features were extracted from the standardized output using a UNI2, a pretrained frozen ViT G/14 encoder developed by the Mahmood Lab. Each tile yielded a 1536 dimensional embedding that was summarized at the slide level by feature means and at the zone level by Moran’s I to capture spatial structure. Low dimensional representations were computed with PCA and UMAP. Clinical annotations included recurrence, viral status, immunosuppressed status, and AJCC stage.Across 40 tested correlations, slide level summaries showed the largest associations. Viral status served as a positive control and produced the strongest effects, with slide level PC1 correlating at r equals −0.684 and UMAP1 at r equals 0.594. Binarized American Joint Committee on Cancer (AJCC) stage showed consistent separation in PCA and UMAP spaces, and four individual embedding dimensions correlated with advanced stage at magnitudes up to r equals 0.58. Recurrence also aligned with several embedding axes, including representative correlations of r equals 0.68, 0.63, 0.57, and 0.56. Zone level summaries captured additional biology, with immunosuppressed status reflected in zone level UMAP and PCA components that reached r equals 0.337. The mean absolute correlation across all outcomes was 0.184, and nine correlations exceeded an absolute value of 0.3.These results show that foundation model representations derived from polyomavirus targeted immunohistochemistry contain measurable structure related to viral status, stage, recurrence, and host immunologic state. The ability of slide level and zone level embeddings to recover these signals in a modest cohort suggests that pre trained encoders capture histoarchitectural and spatial cues relevant to Merkel cell carcinoma biology. Larger multi site cohorts with longitudinal follow up will enable validation of these features and support integration with circulating or genomic markers for risk stratification in prospective studies.\n \n \n Roshan Lodha, Kelsey Ouyang, Claire Reynolds, Allison Vidimos, Bryan Carroll. Foundation model-derived features from immunohistochemistry correlate with recurrence and stage in Merkel cell carcinoma [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 1439.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-1439",
-    "citations": 0
-  },
-  {
-    "title": "A Methodological Framework for Runtime Ontology Evolution in Dynamic Environments",
-    "authors": [
-      "V. Seidita",
-      "Lucrezia Mosca",
-      "A. Chella"
-    ],
-    "link": "https://www.semanticscholar.org/paper/a16a16116513f08eb2f57e871f849885755777cb",
-    "date": "2026-04-03",
-    "keywords": [
-      "Applied Sciences"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Intelligent systems operating in real-world environments are often required to make decisions in contexts that are only partially known at design time. In such scenarios, the assumption of a static and fully specified knowledge base becomes unrealistic, limiting the system’s ability to adapt to novel situations. This challenge is particularly relevant for robotic systems, whose behavior cannot be entirely pre-programmed when operating in dynamic and evolving environments. This paper proposes a methodological and architectural approach for the runtime update of ontologies and knowledge bases, enabling intelligent systems to autonomously adapt their internal representation of the world during execution. The proposed approach enables the system to identify knowledge gaps by distinguishing between previously unknown concepts and known concepts enriched with newly observed instances, and to integrate such information into the ontology in a controlled and consistent manner. The approach is implemented as an end-to-end pipeline that combines visual perception, semantic interpretation through large language models, and a robust ontology update mechanism. Particular attention is devoted to ensuring formal consistency during runtime evolution, addressing challenges such as the generation of valid OWL constructs, the management of inverse properties, datatype normalization, and the prevention of semantic degradation over iterative updates. By enabling knowledge-driven adaptation at runtime, the proposed framework supports autonomous decision-making in environments that cannot be fully anticipated at design time. The approach was developed within the MUSIC4D and MHARA projects, which explore the use of intelligent systems in dynamic, partially structured contexts, focusing on knowledge-based adaptation.",
-    "summary": "",
-    "doi": "10.3390/app16073494",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 6402: Identification of novel CRBN molecular glue ternary binders from a highly diverse CRBN MG library",
-    "authors": [
-      "Qingbo Xu",
-      "Hailong Yang",
-      "Yongqiang Wang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9fde2cebbc5268bc6416a09925f2c6f5a99877d8",
-    "date": "2026-04-03",
-    "keywords": [
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n High-throughput screening (HTS) of cereblon (CRBN) molecular glue (MG)-biased libraries remains a key strategy for proof-of-concept studies and hit identification against emerging targets. Because the CRBN binding pocket and its induced interface can adopt multiple conformations, and the substrate binding pocket is often unpredictable at the early stages of discovery, the structural diversity of both CRBN binders and substrate-recognition motifs is crucial to screening efficiency.In this work, we constructed a high-quality, CRBN MG-biased library derived from more than 40 validated CRBN binders. To further enhance chemical diversity, we introduced novel fragments using a tailored AI-based molecular generation model, designed to maximize variations in substrate-binding motifs. HTS case studies demonstrated that this library effectively identified CRBN-substrate ternary binders and degraders with unique scaffolds, representing promising starting points for further optimization.\n \n \n Qingbo Xu, Hailong Yang, Yongqiang Wang, Zhenyu Wu, Hongbo Zhang. Identification of novel CRBN molecular glue ternary binders from a highly diverse CRBN MG library [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 6402.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-6402",
-    "citations": 0
-  },
-  {
-    "title": "Steerable but Not Decodable: Function Vectors Operate Beyond the Logit Lens",
-    "authors": [
-      "Mohammed Suhail B Nadaf"
-    ],
-    "link": "https://www.semanticscholar.org/paper/9ee147875517c1209a00dd81176febedb94e8346",
-    "date": "2026-04-03",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Function vectors (FVs) -- mean-difference directions extracted from in-context learning demonstrations -- can steer large language model behavior when added to the residual stream. We hypothesized that FV steering failures reflect an absence of task-relevant information: the logit lens would fail alongside steering. We were wrong. In the most comprehensive cross-template FV transfer study to date - 4,032 pairs across 12 tasks, 6 models from 3 families (Llama-3.1-8B, Gemma-2-9B, Mistral-7B-v0.3; base and instruction-tuned), 8 templates per task - we find the opposite dissociation: FV steering succeeds even when the logit lens cannot decode the correct answer at any layer. This steerability-without-decodability pattern is universal: steering exceeds logit lens accuracy for every task on every model, with gaps as large as -0.91. Only 3 of 72 task-model instances show the predicted decodable-without-steerable pattern, all in Mistral. FV vocabulary projection reveals that FVs achieving over 0.90 steering accuracy still project to incoherent token distributions, indicating FVs encode computational instructions rather than answer directions. FVs intervene optimally at early layers (L2-L8); the logit lens detects correct answers only at late layers (L28-L32). The previously reported negative cosine-transfer correlation (r=-0.572) dissolves at scale: pooled r ranges from -0.199 to +0.126, and cosine adds less than 0.011 in R-squared beyond task identity. Post-steering analysis reveals a model-family divergence: Mistral FVs rewrite intermediate representations; Llama/Gemma FVs produce near-zero changes despite successful steering. Activation patching confirms causal localization: easy tasks achieve perfect recovery at targeted layers; hard tasks show zero recovery everywhere.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Abstract 348: GFH603: A molecular glue-like allosteric activator of the KEAP1-CUL3 E3 ligase complex for targeting NRF2-activated tumors.",
-    "authors": [
-      "Xiang Yu",
-      "Tao Jiang",
-      "Tao Liang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9e4b9fdc9551ae4c50590c20ddc81d3c3ed38ee4",
-    "date": "2026-04-03",
-    "keywords": [
-      "Agent",
-      "Cancer Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Constitutive activation of NRF2, driven by NFE2L2 gain-of-function or KEAP1 or CUL3 loss-of-function mutations, disrupts KEAP1-CUL3-mediated NRF2 degradation and contributes to resistance to chemotherapy, immunotherapy, and targeted therapies, including RAS inhibitors. This oncogenic pathway is frequently altered in squamous cell carcinomas — such as esophageal (ESCC) and lung squamous cell carcinoma (LUSC) — via NFE2L2 hotspot mutations in the DLG/ETGE motifs. In lung adenocarcinoma (LUAD), KEAP1 mutations are common and often co-occur with KRAS mutations. Although KEAP1/NFE2L2 mutations are relatively uncommon in pancreatic ductal adenocarcinoma, more than half of tumors exhibit pronounced nuclear NRF2 accumulation, likely driven by activation of the RAS pathway. Despite the clinical relevance of this pathway, no approved therapies directly target KEAP1/NRF2-mutant tumors.\n \n \n \n GFH603 was developed as a molecular glue-like allosteric activator of KEAP1 to restore KEAP1-CUL3 E3 ligase function. Its ability to promote KEAP1-CUL3 complex formation, induce NRF2 degradation, and suppress proliferation of NRF2-driven cancer cells was evaluated in vitro. In vivo anti-tumor efficacy was assessed using xenograft models. Combination studies with pan-RAS inhibitors were conducted in KRAS/KEAP1 co-mutant cell lines. ADMET profiling was performed to assess drug-like properties.\n \n \n \n GFH603 enhanced KEAP1-CUL3 complex assembly and promoted NRF2 degradation. In vitro, it induced NRF2 degradation in NFE2L2 W24C-mutant KYSE70 cells ( IC50 = 1.7 nM) and inhibited proliferation of NFE2L2-amplified HCC95 cells (IC50 = 3.6 nM). In the HCC95 xenograft model, GFH603 (5 mg/kg once daily) achieved significant tumor growth inhibition (TGI = 114%) and robust NRF2 degradation in tumor tissues. In the LU6407 NFE2L2-mutant patient-derived xenograft model, GFH603 (10 mg/kg once daily) demonstrated strong tumor regression as a single agent, indicating its potential as an effective monotherapy. Furthermore, GFH603 demonstrated synergistic anti-proliferative activity when combined with pan-RAS inhibitors in KRAS/KEAP1 co-mutant cell lines. ADMET profiling revealed favorable characteristics, including high oral bioavailability, low hERG liability, and negative Ames test results.\n \n \n \n GFH603 restores KEAP1-CUL3 E3 ligase activity through a molecular glue mechanism, enabling targeted degradation of NRF2 in KEAP1/NFE2L2-mutant tumors. It demonstrates potent efficacy as monotherapy in NRF2-activated squamous cancer models (e.g., ESCC, LUSC) and synergizes with pan-RAS inhibitors in KRAS/KEAP1 co-mutant cells. These findings support GFH603 as a promising therapeutic candidate for overcoming NRF2-driven resistance and addressing a critical unmet need in oncology. Further preclinical and clinical development are warranted.\n \n \n \n Xiang Yu, Tao Jiang, Tao Liang, Feng Yan, Li Wang, Jingyang Zhang, Siyuan Le, Fusheng Zhou, Jiong Lan, Qiang Lu. GFH603: A molecular glue-like allosteric activator of the KEAP1-CUL3 E3 ligase complex for targeting NRF2-activated tumors [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 348.\n",
-    "summary": "",
-    "doi": "10.1158/1538-7445.am2026-348",
     "citations": 0
   }
 ]
