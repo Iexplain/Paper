@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Architectures of knowing: toward a theory of AI-augmented observability in enterprise knowledge systems",
+    "authors": [
+      "Aïssa Toumi",
+      "Samuel Fosso Wamba",
+      "Mouaad Hafsi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f7aee1b378429385ef1ddcd0cc9fce35795ea37",
+    "date": "2026-04-14",
+    "keywords": [
+      "今日上新",
+      "Journal of Knowledge Management"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to propose a new approach to enterprise architecture (EA) that integrates artificial intelligence (AI) and knowledge management (KM) to shift from static models to dynamic and reflexive systems of organizational knowledge.\n \n \n \n Building on insights from EA, KM, AI and infrastructure, this study developed a knowledge architecture that integrates four interconnected layers: tacit, explicit, behavioral and cognitive. After analysis, these layers presented four evolutionary paths, namely, externalization, combination, validation and internalization. Findings showed that AI technologies, such as large language models, search-assisted generation and semantic graphs, mediate and structure knowledge flow. And two concrete examples are presented here as evidence. The first is a conceptual model that positions EA as a means for KM, and the second is a design science artifact that demonstrates AI-enabled observability across system layers.\n \n \n \n By accounting for epistemic observability, this study realizes the ability of organizations to rely on AI to reveal, verify and exploit architectural knowledge, so as to interact with system behaviors and artifacts in real time. The findings show that EA can be reframed as a flexible, reflexive system that fosters continuous learning, adaptability and better decision-making in dynamic environments.\n \n \n \n The proposed model and tools enhance organizations’ capacity for knowledge sharing, decision support and adaptive governance. They also provide practical avenues for applying AI technologies in EA and KM to strengthen digital infrastructures.\n \n \n \n This study redefines EA as a dynamic knowledge system, opening up new avenues for research in information systems, hybrid thinking and digital governance. It also shows AI’s potential to expand EA’s scope and impact.\n",
+    "summary": "",
+    "doi": "10.1108/jkm-09-2025-1360",
+    "citations": 0
+  },
+  {
+    "title": "OpenFix: leveraging graph representation and LLM knowledge augmentation for prompt-guided vulnerability repair in smart infrastructures",
+    "authors": [
+      "Zhen Xiang",
+      "Yating Gao",
+      "Wei Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4031b2f1476b2672be68276405a2e133c06816ac",
+    "date": "2026-04-14",
+    "keywords": [
+      "今日上新",
+      "International Journal of Pervasive Computing and Communications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Existing vulnerability repair methods are often suboptimal to timely and accurately fix vulnerabilities in smart infrastructures, due to lack of domain-specific knowledge (e.g. vulnerability root causes and repair strategies) and the structure information of target codes. This study aims to solve this academic problem.\n \n \n \n To address these problems, in this paper, the authors propose OpenFix, which leverage graph representation and Large Language Model (LLM) knowledge augmentation to achieve prompt-guided vulnerability repair. OpenFix primarily consists of a vulnerability cause and code semantic-fused hybrid retrieval (VCCS-HR) module and a code structure graph generation (CSGG) module: the VCCS-HR module computes a hybrid similarity between the target code and knowledge, combining vulnerability cause and code semantic similarities, and selects the most relevant knowledge to assist the model in understanding vulnerabilities. The CSGG module leverages Joern to generate code property graphs and prunes information irrelevant to vulnerabilities, helping LLMs understand the code syntax and semantics to improve the quality of generated patches.\n \n \n \n The experimental results on 97 zero-day vulnerabilities and 20 existing vulnerabilities validate that its superior performance to five state-of-the-art vulnerability repair baselines (by up to 29.61% in F1 and 14.29% in recall over the best baseline).\n \n \n \n This study introduces OpenFix, a novel method that leveraging graph representation and LLM knowledge augmentation to substantially improve their effectiveness in vulnerability repair. To supply the model with highly relevant domain knowledge for improved vulnerability comprehension, the authors propose an efficient retrieval approach that jointly incorporates vulnerability causes and code semantic similarity, thereby identifying the knowledge most pertinent to the target vulnerable code. The authors introduce graph structural information of vulnerabilities into LLMs for vulnerability repair, thereby enriching the models with syntactic and semantic code information which can effectively address the limitations of LLM when only treating the code as plain text. The authors conducted an evaluation of OpenFix on 97 zero-day samples and 20 existing real-world vulnerability samples. The results show that, compared with state-of-the-art vulnerability repair methods, OpenFix achieved the highest recall of 57.73% and 92.00%.\n",
+    "summary": "",
+    "doi": "10.1108/ijpcc-11-2025-0490",
+    "citations": 0
+  },
+  {
+    "title": "Toward a ML Framework for Multisensory Human Health and Awareness",
+    "authors": [
+      "F. A. Oteikwu",
+      "Osezua Ejodame",
+      "Norman Osa-Uwagbue"
+    ],
+    "link": "https://www.semanticscholar.org/paper/11d8e5729aaf4612ea627ada248b08cd35ef0405",
+    "date": "2026-04-13",
+    "keywords": [
+      "今日上新",
+      "Applied Mechanics and Materials"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper proposes a conceptual framework for an intelligent soldier monitoring system, integrating multimodal sensor networks with Multimodal Large Language Models (MLLMs) to advance battlefield healthcare and situational awareness. The envisioned architecture combines physiological sensors (e.g., heart rate variability, cortisol levels, core temperature) with environmental sensors (e.g., acoustic, visual, thermal) through an edge-AI processing pipeline. Based on our literature review, we target three key limitations in existing systems: (1) real-time data fusion latency (aiming for <100 ms), (2) predictive health analytics accuracy (aiming for >90% for critical conditions), and (3) adaptive threat response capabilities. Our research suggests that the proposed technologies are at an early conceptual stage, supported by analysis of existing component technologies not yet integrated into a cohesive system. We identify challenges in power efficiency (targeting <50 mW per sensor) and ethical implementation, proposing solutions such as on-device processing and explainable AI. This work establishes a theoretical foundation and a research roadmap for future development of advanced military monitoring systems, balancing performance with operational and ethical considerations..",
+    "summary": "",
+    "doi": "10.4028/p-fvwp6q",
+    "citations": 0
+  }
+]
