@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Prompt Once, Manage All: A Unified LLM Framework for Multi-Task Optical Link Management",
+    "authors": [
+      "K. Abdelli"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f93f3b4972c8c4f97fbef3c4b45eedda682df9c4",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Journal of Lightwave Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "We present a unified large language model (LLM) framework for multi-task optical link management, in which a single fine-tuned LLM jointly performs five optical link management tasks: quality-of-transmission (QoT) estimation, QoT forecasting, anomaly detection, anomaly classification, and launch-power optimization. Using structured natural-language prompts, the model ingests multimodal telemetry—including physical-layer measurements, state-of-polarization traces, historical QoT statistics, and configuration parameters—collected from a single looped-back connectivity service on a long-haul C+L-band experimental link. The LLM achieves a QoT prediction RMSE of ≈0.016 dB, near-perfect anomaly detection, and up to 96% anomaly-classification accuracy when guided by prompt-embedded semantic rules, while providing launch-power optimization with ≈0.2 dBm RMSE. By unifying multiple tasks within a single inference pipeline, the framework eliminates the need for task-specific ML models and reduces operational overhead. Although the evaluation focuses on single-channel, single-service link operation, the results highlight the potential of structured prompting and lightweight fine-tuning to support future extensions toward multi-channel and network-wide management.",
+    "summary": "",
+    "doi": "10.1109/JLT.2026.3660177",
+    "citations": 0
+  },
+  {
+    "title": "VDM-IoT: Context Enhanced Knowledge Graph-Prompted LLMs for Internet of Things Vulnerability Description Mappings",
+    "authors": [
+      "Zi-Yu Wang",
+      "Liyi Zeng",
+      "Lin Zhong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d01a97f750b5df4a333b4c773c9088832226360a",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Internet of Things (IoT) ecosystems expand into critical infrastructure, the accurate identification of attack patterns, known as vulnerability-to-tactic and technique (VTT) mapping, becomes a critical requirement for cybersecurity. However, applying VTT mapping to the IoT domain faces problems: the data sparsity, where fragmented vulnerability reports lack standardized descriptions, and the explainability deficit, where “blackbox” predictions pose risks of physical operational disruption. To address these challenges, we propose VDM-IoT, a framework that synergizes knowledge graphs (KGs) with large language models (LLMs). The framework constructs an IoT-enhanced vulnerability KG (VKG) from MITRE database/National Vulnerability Database (NVD). For each target vulnerability, it 1) employs a context-aware similarity mechanism to compensate for information sparsity by retrieving topologically related neighbors; 2) filters explicit reasoning paths to potential targets; and 3) guides the LLM to generate verifiable mappings with natural language justifications. Evaluations on the BRON-based benchmark and our constructed expert-labeled VTT dataset show that VDM-IoT achieves 35.37% Hit@1 in technique mapping and 98.11% accuracy in tactic mapping.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3661184",
+    "citations": 0
+  },
+  {
+    "title": "Adaptive Semantic Compression and Transmission for Cognitive Knowledge Coordination in a Hierarchical LLM-Agents System",
+    "authors": [
+      "Xinjun He",
+      "Jiayi Liu",
+      "Chen Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bf91f479d860cf62a17c1e2b3d01dccb09fb3ae3",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid development of large language model (LLM) agents has facilitated the advancement of multiagent systems, where cognitive knowledge sharing is crucial for the execution of complex tasks. However, achieving the synchronization of the cognitive knowledge base (KB) among agents under restricted wireless resources remains a challenge, especially in dynamic real-time environments. Therefore, we propose a hierarchical LLM-agent system that consists of a high-level cluster brain (CB) and multiple lower level LLM agents (LLAs). The cognitive KB of each LLA is represented in the form of a knowledge graph (KG). To improve the efficiency of transmitting cognitive KB updates from LLAs to CB, a KG compression framework named MED-EmPress is proposed, which adaptively compresses the semantic features of cognitive KB by applying dimensionality reduction and binary quantization, and then a joint optimization problem of semantic compression and resource allocation (SCRA) is formulated to maximize semantic fidelity of the cognitive KB being transmitted. To solve this problem, a hierarchical SCRA algorithm is designed to decouple the SCRA problem into two subproblems, which involve dynamically allocating wireless resources and rationally choosing the semantic compression (SC) ratio of the cognitive KB. The goal is to maximize the system’s semantic fidelity. The evaluation results demonstrate that the MED-EmPress framework reduces the size of the cognitive updates (CUs) that need to be transmitted by 96%, with only a loss of 3.6% in the entity alignment task. Furthermore, the proposed adaptive compression and transmission scheme improves semantic fidelity by 94% compared to existing methods when wireless resources are severely limited.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3658564",
+    "citations": 0
+  },
+  {
+    "title": "KMPS: A Reinforcement Learning Scheduler for Kubernetes Edge-Cloud Systems",
+    "authors": [
+      "Congyue Huang",
+      "Wei Tan",
+      "Miaohua Ou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a7ff16b010e39e84c6c70cc0a78554d3d38b9c70",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Kubernetes (K8s) provides the foundation for integrating distributed edge-cloud resources. However, existing frameworks struggle to address the challenges of cross-cluster coordination and dynamic resource changes, limiting throughput. We propose a Kubernetes-multiagent-proximal-scheduling scheme named KMPS, which leverages deep reinforcement learning (DRL) to enhance long-term throughput. KMPS integrates a multiagent proximal policy optimization (MAPPO) algorithm for autonomous edge access point (eAP) scheduling, combined with gRPC remote procedure call (gRPC) cross-cluster scheduling and invalid target filtering; utilizes graph neural networks (GNNs) to embed system state information, decomposing high-dimensional service orchestration actions through multiple separate policy networks; and constructs a three-time-scale coordination mechanism (0.25, 2, and 25 s) to coordinate scheduling and orchestration, with K8s compatibility. Experiments on real workloads verify that KMPS operates stably under dynamic loads, sudden emergency tasks, and multicluster scenarios. Compared to baselines, the proposed framework achieves an over 5.3% increase in long-term throughput and a 60% reduction in cross-cluster scheduling latency.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3658608",
+    "citations": 0
+  },
+  {
+    "title": "DynaAdaFL: A GNN-Assisted MARL Framework for Client Hyperparameter Adaptive Optimization in Edge Federated Learning for Carbon Emission Prediction",
+    "authors": [
+      "Haotian Yan",
+      "Li Pan",
+      "Shijun Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7c85c991f3f5b38d35d1c836c382252b62d22598",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate prediction of carbon emissions is crucial for formulating effective climate policies. However, building powerful prediction models requires large-scale data, which are often distributed across different regions and entities, leading to data silos and privacy concerns. Federated learning (FL) offers a promising privacy-preserving solution, yet its performance in edge environments is severely hampered by resource heterogeneity, which causes slow convergence and inefficiency when using fixed local training hyperparameters. To address this challenge, we propose DynaAdaFL, a graph neural network (GNN)-assisted multiagent reinforcement learning (MARL) framework for adaptive optimization of client hyperparameters in edge FL, specifically tailored for carbon emission prediction. DynaAdaFL leverages a GNN to model client relationships as a preprocessing layer for MARL, enabling each client to perceive neighboring states and adaptively adjust its local hyperparameters (learning rate and epochs). This approach optimizes the tradeoff between global model performance and training efficiency. Extensive experiments on carbon emission data from multiple regions demonstrate that DynaAdaFL not only achieves superior prediction accuracy but also significantly reduces the overall training time compared to various baselines and state-of-the-art methods, providing an efficient and practical solution for cross-regional collaborative carbon emission forecasting.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3661240",
+    "citations": 0
+  },
+  {
+    "title": "Time-Dependent Path Selection and Online Learning for Efficient DAG Task Offloading in In-Network Computing",
+    "authors": [
+      "Weiwen Zhang",
+      "Ouyang Sheng",
+      "Junyu Mai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/789dc0e6371b2e90c351e9d3ad0acc796a1a1174",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In this article, we present the joint optimization of computation path selection and workload allocation for directed acyclic graph (DAG) tasks in edge computing networks. Existing works primarily focus on end-to-end latency and are often restricted to simple task chains, neglecting critical factors such as server operational costs and the dynamics of the arrival of tasks. To bridge this gap, we formulate the online scheduling problem as a mixed integer program to minimize server operational costs and latency. We then decompose this problem into a minimum-latency path selection subproblem and a task scheduling subproblem formulated as a Markov decision process (MDP). Our solution consists of a latency-aware transmission scheduling (LATS) algorithm and a novel online scheduler based on proximal policy optimization (PPO). Furthermore, we leverage graph neural networks (GNNs) and long short-term memory (LSTM) networks to encode the system state, thereby significantly improving the agent’s perception of the complex environment. Finally, extensive simulation results demonstrate that the proposed algorithm shows good adaptability and outperforms the state-of-the-art algorithms.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3662691",
+    "citations": 0
+  },
+  {
+    "title": "HF-IDS: A Heuristic Factors-Based Semi-Supervised Model for Intrusion Detection Systems in IoT Networks",
+    "authors": [
+      "Lang He",
+      "Xiao-Ping Zhang",
+      "Konstantinos N. Plataniotis"
+    ],
+    "link": "https://www.semanticscholar.org/paper/46104627425e1028d0d0c3aae813384896eb3289",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Semi-supervised learning in intrusion detection systems (IDSs) faces three major challenges: the scarcity of labeled samples, class imbalance, and distribution divergence between labeled and unlabeled data. Moreover, the third challenge may lead to an extreme situation where labeled data fail to cover all categories. To address these issues, we develop a heuristic factor-based semi-supervised model named HF-IDS. In particular, we employ symbolic regression, a novel feature engineering technique, to generate class-indicating factors. These factors guide a multilevel clustering for pseudo-label addition to some unlabeled data. For classification, we construct an ensemble of graph neural networks (E-GNNs). Different from common ensemble learning methods, each of the GNN classifiers is equipped with a unique graph filter constructed by the factors. Through these filters, we topologically reweight different classes to enhance the model’s effectiveness in handling the class-imbalance problem. The model is evaluated in both multiclass and binary classification settings, with the binary case simulating the extreme missing-category scenario. Experiments on NSL-KDD and CICIDS-2017 datasets show that HF-IDS consistently outperforms state-of-the-art baselines in accuracy, precision, recall, and $F1$ _score.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3657655",
+    "citations": 0
+  },
+  {
+    "title": "Efficient Attention-Enhanced Graph Convolutional Network for Radio Frequency Fingerprint Identification",
+    "authors": [
+      "H. Shen",
+      "Xin Gu",
+      "Haipeng Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1bdc2f0ef16a601f926e773ca69eb346a5347fff",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the rapid development of wireless communication technology, security issues in wireless networks have become increasingly serious, leading to the emergence of radio frequency fingerprint (RFF) as an important device authentication technology. RFF identifies and verifies device identities by analyzing the wireless signals emitted by devices. However, the inherent complexity and non-Euclidean characteristics of signal features pose significant challenges for traditional machine learning and deep learning approaches in RFF. Graph neural networks (GNNs) uniquely address these limitations by explicitly modeling signal relationships through graph-structured representations, enabling effective capture of high-order interactions and dynamic adaptation to signal variations through message passing mechanisms. To this end, this article proposes an efficient attention-enhanced graph convolutional network (EAGCN) for RFF identification. The network employs an adaptive visibility graph (AVG) Generator and efficient channel attention (ECA) mechanisms to enhance the capture of key features, and combines these with DenseGCN graph convolution layers to better capture spatial correlations. In addition, we introduce graph double implicit regularization (GDIR) into the network to further improve its generalization ability in few-shot transfer tasks. Experimental results on a multitransmitter multireceiver WiFi dataset show that GDIR-EAGCN significantly outperforms existing methods, particularly excelling in transfer learning tasks. Furthermore, an ablation study was conducted to validate the contribution of each component to the overall performance.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3659705",
+    "citations": 0
+  },
+  {
+    "title": "LLM-PD: A Large Language Model-Driven Policy Distillation-Based Method for Multi-UAV Path Planning",
+    "authors": [
+      "Lu Tang",
+      "Jiaming He",
+      "Xin Liao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1b86ddb58e1062df1fbd06e9ee287f956dfc9e01",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Industrial Internet of Things (IIoT) has accelerated the adoption of multi-uncrewed aerial vehicle (UAV) systems in applications, such as urban inspection and emergency response. However, the effective path planning in dynamic environments remains challenging due to slow convergence, weak coordination, trajectory oscillation, and limited generalization. To address these issues, this article proposes a large language model-driven policy distillation (LLM-PD)-based method for multi-UAV path planning. By integrating LLM-based semantic reasoning with multiagent reinforcement learning (MARL), LLM-PD introduces a three-stage training paradigm—policy distillation, imitation pretraining, and reinforcement-based self-optimization—to enhance the policy quality and generalization. The problem is formulated as a partially observable Markov decision process (POMDP). A teacher model combining a dynamic graph attention network (GAT) and a large language model (LLM) is designed, where the GAT constructs a dynamic heterogeneous topology of UAVs, obstacles, and targets, while the LLM performs semantic reasoning to generate coordinated expert strategies. A joint action evaluation mechanism further builds a high-value expert knowledge base. The student model adopts a hybrid imitation–reinforcement framework. Imitation learning (IL) first clones expert behaviors from the knowledge base to accelerate policy acquisition, after which a centralized training with decentralized execution (CTDE)-based PPO stage refines the policy using interaction data, improving adaptability to wind disturbances and dynamic obstacles. This unified framework enables an effective transition from expert-guided learning to autonomous optimization. Simulation results show that LLM-PD substantially outperforms state-of-the-art baselines in path efficiency, convergence speed, cooperative stability, and generalization. Ablation studies further confirm the complementary benefits of LLM reasoning, GAT structural perception, and the imitation–reinforcement integration mechanism.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3656708",
+    "citations": 0
+  },
+  {
+    "title": "NLACP Dataset Expansion With AI: Leveraging ChatGPT for Policy Generation",
+    "authors": [
+      "Wenbo Wang",
+      "Ying Zhang",
+      "Tao Xue",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/00121fc78582957f8e20eb027542abb1e112cc2a",
+    "date": "2026-04-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Natural language access control policies (NLACPs) play a pivotal role in access control systems, yet the scarcity of high-quality public datasets severely hinders advancements in natural language processing (NLP)/machine learning (ML)-driven policy automation. Existing datasets, constrained by labor-intensive manual curation, confidentiality barriers, and rigid synthesis methods, suffer from limited scale, semantic inconsistency, and poor adaptability to emerging domains such as smart healthcare and the Internet of Vehicles (IoV). To address this critical gap, we propose GenPy, a novel framework leveraging large language models (LLMs) like ChatGPT and domain-specific knowledge graphs to systematically generate scalable, semantically rich NLACP datasets. GenPy pioneers the integration of LLMs into NLACP synthesis, offering three core innovations: a generation module combining knowledge graphs with prompt engineering to produce diverse, domain-aligned policies; an annotation module employing few-shot learning to filter nonpolicy statements and ensure quality; and a policy management module resolving redundancies and conflicts while enabling conflict injection for optimization research. By embedding domain semantics (e.g., IoV compliance with automotive data laws), GenPy enriches traditional datasets and supports fine-grained policy requirements. Experiments demonstrate that GenPy generates more than 5000 high-quality NLACPs across multiple domains, achieving an $F1$ -score of exceeding 93% in NLACP classification tasks. Notably, augmenting the classification models in RAGent with GenPy-generated data improves NLACP classification accuracy by 2%–9%, validating its practical utility. Our work establishes the first LLM-based pipeline that integrates knowledge graphs with customizable prompts to generate semantically rich NLACPs, supporting fine-grained access control models, NLACP identification, and policy management across diverse security requirements. We provide an open-source repository of policies, code, and technical frameworks to catalyze future research in access control automation. The dataset and implementation are publicly available at https://github.com/fe1w0/NLACP-LLM",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3658885",
+    "citations": 0
+  },
+  {
+    "title": "Architectures of knowing: toward a theory of AI-augmented observability in enterprise knowledge systems",
+    "authors": [
+      "Aïssa Toumi",
+      "Samuel Fosso Wamba",
+      "Mouaad Hafsi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f7aee1b378429385ef1ddcd0cc9fce35795ea37",
+    "date": "2026-04-14",
+    "keywords": [
+      "今日上新",
+      "Journal of Knowledge Management"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to propose a new approach to enterprise architecture (EA) that integrates artificial intelligence (AI) and knowledge management (KM) to shift from static models to dynamic and reflexive systems of organizational knowledge.\n \n \n \n Building on insights from EA, KM, AI and infrastructure, this study developed a knowledge architecture that integrates four interconnected layers: tacit, explicit, behavioral and cognitive. After analysis, these layers presented four evolutionary paths, namely, externalization, combination, validation and internalization. Findings showed that AI technologies, such as large language models, search-assisted generation and semantic graphs, mediate and structure knowledge flow. And two concrete examples are presented here as evidence. The first is a conceptual model that positions EA as a means for KM, and the second is a design science artifact that demonstrates AI-enabled observability across system layers.\n \n \n \n By accounting for epistemic observability, this study realizes the ability of organizations to rely on AI to reveal, verify and exploit architectural knowledge, so as to interact with system behaviors and artifacts in real time. The findings show that EA can be reframed as a flexible, reflexive system that fosters continuous learning, adaptability and better decision-making in dynamic environments.\n \n \n \n The proposed model and tools enhance organizations’ capacity for knowledge sharing, decision support and adaptive governance. They also provide practical avenues for applying AI technologies in EA and KM to strengthen digital infrastructures.\n \n \n \n This study redefines EA as a dynamic knowledge system, opening up new avenues for research in information systems, hybrid thinking and digital governance. It also shows AI’s potential to expand EA’s scope and impact.\n",
+    "summary": "",
+    "doi": "10.1108/jkm-09-2025-1360",
+    "citations": 0
+  },
+  {
+    "title": "OpenFix: leveraging graph representation and LLM knowledge augmentation for prompt-guided vulnerability repair in smart infrastructures",
+    "authors": [
+      "Zhen Xiang",
+      "Yating Gao",
+      "Wei Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4031b2f1476b2672be68276405a2e133c06816ac",
+    "date": "2026-04-14",
+    "keywords": [
+      "今日上新",
+      "International Journal of Pervasive Computing and Communications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Existing vulnerability repair methods are often suboptimal to timely and accurately fix vulnerabilities in smart infrastructures, due to lack of domain-specific knowledge (e.g. vulnerability root causes and repair strategies) and the structure information of target codes. This study aims to solve this academic problem.\n \n \n \n To address these problems, in this paper, the authors propose OpenFix, which leverage graph representation and Large Language Model (LLM) knowledge augmentation to achieve prompt-guided vulnerability repair. OpenFix primarily consists of a vulnerability cause and code semantic-fused hybrid retrieval (VCCS-HR) module and a code structure graph generation (CSGG) module: the VCCS-HR module computes a hybrid similarity between the target code and knowledge, combining vulnerability cause and code semantic similarities, and selects the most relevant knowledge to assist the model in understanding vulnerabilities. The CSGG module leverages Joern to generate code property graphs and prunes information irrelevant to vulnerabilities, helping LLMs understand the code syntax and semantics to improve the quality of generated patches.\n \n \n \n The experimental results on 97 zero-day vulnerabilities and 20 existing vulnerabilities validate that its superior performance to five state-of-the-art vulnerability repair baselines (by up to 29.61% in F1 and 14.29% in recall over the best baseline).\n \n \n \n This study introduces OpenFix, a novel method that leveraging graph representation and LLM knowledge augmentation to substantially improve their effectiveness in vulnerability repair. To supply the model with highly relevant domain knowledge for improved vulnerability comprehension, the authors propose an efficient retrieval approach that jointly incorporates vulnerability causes and code semantic similarity, thereby identifying the knowledge most pertinent to the target vulnerable code. The authors introduce graph structural information of vulnerabilities into LLMs for vulnerability repair, thereby enriching the models with syntactic and semantic code information which can effectively address the limitations of LLM when only treating the code as plain text. The authors conducted an evaluation of OpenFix on 97 zero-day samples and 20 existing real-world vulnerability samples. The results show that, compared with state-of-the-art vulnerability repair methods, OpenFix achieved the highest recall of 57.73% and 92.00%.\n",
+    "summary": "",
+    "doi": "10.1108/ijpcc-11-2025-0490",
+    "citations": 0
+  }
+]
