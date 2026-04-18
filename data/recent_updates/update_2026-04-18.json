@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Evaluating Large Language Models for Transparent Quality-of-Care Measurement in Children with ADHD",
+    "authors": [
+      "Y. Bannett",
+      "M. Pillai",
+      "Ting Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b7645de19b0fe41174f240fdf84cd56d36844130",
+    "date": "2026-04-17",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.12.26350732",
+    "citations": 0
+  },
+  {
+    "title": "Aakhyan: An AI-Powered Vernacular Patient Communication Platform for Oncology in Resource-Limited Settings - System Architecture and Pilot Randomised Trial Protocol",
+    "authors": [
+      "D. Purkayastha"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b420d1ed0e12c74e5f76810724c175c2e80fe255",
+    "date": "2026-04-17",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.15.26350965",
+    "citations": 0
+  },
+  {
+    "title": "Steering semi-flexible molecular diffusion model for structure-based drug design with reinforcement learning",
+    "authors": [
+      "Xudong Zhang",
+      "Sanqing Qu",
+      "Fan Lu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/abe13026c4f1e39219db54215121cd8f1ef0948d",
+    "date": "2026-04-17",
+    "keywords": [
+      "今日上新",
+      "Diffusion Model",
+      "AIDD",
+      "Science Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Current structure-based molecular generation faces a fundamental dilemma: While static ligand modeling dominates computational approaches, real-world molecular interactions are inherently dynamic. Inspired by the conformational changes ligands undergo during semi-flexible docking, we propose a reinforcement learning (RL)–steered diffusion framework for semi-flexible molecular generation in protein pockets. By defining the denoising process as a Markov decision process, RL dynamically adjusts molecular structures through iterative exploration. Simultaneously, we incorporate multiple molecular properties as conditions to constrain the denoising policy to drug-like regions and perform self-supervised rigid training on both target-free and target-specific molecules. In addition, we propose a fast sampling strategy that accelerates sampling by 20 times, thereby improving the efficiency of training and sampling. Experiments demonstrate that our method outperforms state-of-the-art methods with a Vina score of −7.23 kcal/mol and an 11.53% success rate. Targeting unseen real-world proteins, the generated molecules preserve canonical interaction patterns while discovering previously unknown binding chemotypes.",
+    "summary": "",
+    "doi": "10.1126/sciadv.ady9955",
+    "citations": 0
+  },
+  {
+    "title": "Can Multimodal Large Language Models Visually Interpret Auditory Brainstem Responses?",
+    "authors": [
+      "W. Jędrzejczak",
+      "K. Kochanek",
+      "H. Skarżyński"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3741a2854381c959e3d1ec4dee664a9a04d2178a",
+    "date": "2026-04-17",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.15.26350944",
+    "citations": 0
+  }
+]
