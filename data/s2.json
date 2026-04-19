@@ -10,7 +10,6 @@
     "link": "https://www.semanticscholar.org/paper/b7645de19b0fe41174f240fdf84cd56d36844130",
     "date": "2026-04-17",
     "keywords": [
-      "今日上新",
       "medRxiv"
     ],
     "source": "Semantic Scholar",
@@ -27,7 +26,6 @@
     "link": "https://www.semanticscholar.org/paper/b420d1ed0e12c74e5f76810724c175c2e80fe255",
     "date": "2026-04-17",
     "keywords": [
-      "今日上新",
       "medRxiv"
     ],
     "source": "Semantic Scholar",
@@ -47,7 +45,6 @@
     "link": "https://www.semanticscholar.org/paper/abe13026c4f1e39219db54215121cd8f1ef0948d",
     "date": "2026-04-17",
     "keywords": [
-      "今日上新",
       "Diffusion Model",
       "AIDD",
       "Science Advances"
@@ -68,7 +65,6 @@
     "link": "https://www.semanticscholar.org/paper/3741a2854381c959e3d1ec4dee664a9a04d2178a",
     "date": "2026-04-17",
     "keywords": [
-      "今日上新",
       "medRxiv"
     ],
     "source": "Semantic Scholar",
@@ -163,6 +159,24 @@
     "abstract_raw": "Understanding climate change requires reasoning over complex causal networks. Yet, existing causal discovery datasets predominantly capture explicit, direct causal relations. We introduce ClimateCause, a manually expert-annotated dataset of higher-order causal structures from science-for-policy climate reports, including implicit and nested causality. Cause-effect expressions are normalized and disentangled into individual causal relations to facilitate graph construction, with unique annotations for cause-effect correlation, relation type, and spatiotemporal context. We further demonstrate ClimateCause's value for quantifying readability based on the semantic complexity of causal graphs underlying a statement. Finally, large language model benchmarking on correlation inference and causal chain reasoning highlights the latter as a key challenge.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal Emotion Recognition in User-Generated Content: A Comparative Study of State-of-the-Art Models",
+    "authors": [
+      "Marek Schroeer",
+      "Paula Vidaurreta-Apesteguia",
+      "J. E. Armendáriz-Iñigo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f13d558197f9e0f6e47d9ba9633c078e100667fb",
+    "date": "2026-04-16",
+    "keywords": [
+      "Communications of International Proceedings"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Understanding people’s emotions is a valuable task with wide-ranging applications across multiple domains. Beyond traditional sentiment analysis based on a single data type, such as text, the emergence and advancement of multimodal large language models (MLLMs) have enabled this analysis to encompass various approaches, including emotion recognition in user-generated content (UGC) that involves both text and images. This study evaluates the effectiveness of four state-of-the-art multimodal models —VisualBERT, CLIP, Shikra, and Otter — in detecting emotions from both textual and visual data. These models are trained and validated using the EmoReact, AFEW, and SFEW datasets, capturing diverse emotional cues and employing evaluation metrics such as accuracy, precision, F1 score, and the CIDEr score, which measures the alignment between model-generated and human-interpreted emotional content.\n\nFollowing this comparative assessment, we apply the top-performing models to specific contexts: genre-classified IMDb movie stills and TripAdvisor hotel reviews focusing on Caribbean hotels. This application aims to analyze how textual-visual congruence and incongruence may enrich insights into user experiences in both contexts. Preliminary results highlight the strengths, weaknesses and best approaches of each model so that they can be efficiently applied to new application contexts. This study suggests that text-image incongruence may provide enriched, multi-faceted consumer insights, which could enhance user experience analysis, particularly for applications in hospitality and media content assessment. The work contributes to advancing multimodal emotion analysis methods, suggesting ways to optimize UGC processing for real-world, data-driven applications.",
+    "summary": "",
+    "doi": "10.5171/2024.4445724",
     "citations": 0
   },
   {
@@ -640,6 +654,25 @@
     "abstract_raw": "This paper introduces the first \\emph{self-evolving} logic synthesis framework, which leverages Large Language Model (LLM) agents to autonomously improve the source code of \\textsc{ABC}, the widely adopted logic synthesis system. Our framework operates on the \\emph{entire integrated ABC codebase}, and the output repository preserves its single-binary execution model and command interface. In the initial evolution cycle, we bootstrap the system using existing prior open-source synthesis components, covering flow tuning, logic minimization, and technology mapping, but without manually injecting new heuristics. On top of this foundation, a team of LLM-based agents iteratively rewrites and evolves specific sub-components of ABC following our ``programming guidance`` prompts under a unified correctness and QoR-driven evaluation loop. Each evolution cycle proposes code modifications, compiles the integrated binary, validates correctness, and evaluates quality-of-results (QoR) on \\emph{multi-suite benchmarks including ISCAS~85/89/99, VTR, EPFL, and IWLS~2005}. Through continuous feedback, the system discovers optimizations beyond human-designed heuristics, effectively \\emph{learning new synthesis strategies} that enhance QoR. We detail the architecture of this self-improving system, its integration with \\textsc{ABC}, and results demonstrating that the framework can autonomously and progressively improve EDA tool at full million-line scale.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence for Biomedical Diagnostics: Diagnostic Accuracy and Reliability of Multimodal Large Language Models in Electrocardiogram Interpretation",
+    "authors": [
+      "H. Stelling",
+      "A. Kraus",
+      "G. Grieb",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/abf3f95a944fe0f2837935c7a09d9277ea9a57b5",
+    "date": "2026-04-16",
+    "keywords": [
+      "Life"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The electrocardiogram (ECG) is a central tool in cardiovascular diagnostics, yet interpretation requires expertise and remains subject to variability. Multimodal large language models (MLLMs) have shown emerging capabilities in medical image analysis, but their performance in ECG interpretation remains insufficiently characterized. This study evaluated the diagnostic accuracy and inter-run reliability of five MLLMs across ECG interpretation tasks. Thirteen standard 12-lead ECGs were presented to five models (ChatGPT-5.3, Gemini 3.1 Pro, Claude Opus 4.6, Grok 4.1, and ERNIE 5.0) across five independent runs per case, yielding 2275 task-level assessments. Six categorical interpretation tasks (rhythm, electrical axis, PR/P-wave morphology, QRS duration, ST/T-wave morphology, and QTc interval) were compared with expert-consensus ground truth, while heart rate estimation was evaluated using mean absolute error (MAE). Overall categorical accuracy ranged from 52.3% to 64.9%. QRS duration classification achieved the highest accuracy (66.2–90.8%), whereas ST/T-wave assessment showed the lowest performance (20.0–41.5%). Heart rate MAE ranged from 14.8 to 46.7 bpm. A dissociation between diagnostic accuracy and inter-run reliability was observed across models. These findings indicate that current MLLMs do not achieve clinically reliable ECG interpretation performance and highlight the importance of assessing diagnostic accuracy and inter-run reliability when evaluating artificial intelligence systems in biomedical diagnostics.",
+    "summary": "",
+    "doi": "10.3390/life16040681",
     "citations": 0
   },
   {
@@ -1264,6 +1297,25 @@
     "abstract_raw": "AI for science promises to accelerate the discovery process. The advent of large language models (LLMs) and agentic workflows enables the expediting of a growing range of scientific tasks. However, most of the current generation of agentic systems depend on static, hand-curated toolsets that hinder adaptation to new domains and evolving libraries. We present El Agente Forjador, a multi-agent framework in which universal coding agents autonomously forge, validate, and reuse computational tools through a four-stage workflow of tool analysis, tool generation, task execution, and iterative solution evaluation. Evaluated across 24 tasks spanning quantum chemistry and quantum dynamics on five coding agent setups, we compare three operating modes: zero-shot generation of tools per task, reuse of a curriculum-built toolset, and direct problem-solving with the coding agents as the baseline. We find that our tool generation and reuse framework consistently improves accuracy over the baseline. We also show that reusing a toolset built by a stronger coding agent can reduce API cost and substantially raises the solution quality for weaker coding agents. Case studies further demonstrate that tools forged for different domains can be combined to solve hybrid tasks. Taken together, these results show that LLM-based agents can use their scientific knowledge and coding capabilities to autonomously build reusable scientific tools, pointing toward a paradigm in which agent capabilities are defined by the tasks they are designed to solve rather than by explicitly engineered implementations.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Designing the macrolide-amygdalin complexes as CDK6 inhibitors: A multi-algorithm approach to develop safe and effective drugs through molecular docking, ADMET, molecular dynamic simulation and DFT studies",
+    "authors": [
+      "Bushra Shakoor",
+      "Z. Nazli",
+      "Nusrat Shafiq",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4272e2b9f28bd57364cd2f9630dc612ac2900a28",
+    "date": "2026-04-16",
+    "keywords": [
+      "Folia Microbiologica (Prague)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12223-026-01476-4",
     "citations": 0
   },
   {
@@ -2137,7 +2189,7 @@
   {
     "title": "YouTube, Large Language Models (LLMs), or Textbooks? Usage Trends and Associations with Academic Performance and Learning Satisfaction among Medical Students in Pakistan: A Cross-Sectional Study",
     "authors": [
-      "Muhammad Ahmed",
+      "M. Ahmed",
       "Muhammad Usman",
       "Insha Shafique",
       "et al."
@@ -2854,6 +2906,27 @@
     "citations": 0
   },
   {
+    "title": "EVEE: Interpretable variant effect prediction from genomic foundation model embeddings",
+    "authors": [
+      "Michael T. Pearce",
+      "Thomas Dooms",
+      "Ryo Yamamoto",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/98bd182a7845a46285574c82f9b24e6654bddc0e",
+    "date": "2026-04-15",
+    "keywords": [
+      "Foundation Model",
+      "Biological Large Model",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.10.717844",
+    "citations": 0
+  },
+  {
     "title": "A Review of Deep Learning Methods for Metal Surface Defect Detection",
     "authors": [
       "Guan Qin",
@@ -3112,6 +3185,25 @@
     "abstract_raw": "Accurate power load forecasting is vital for grid stability. Traditional models struggle with complex nonlinearities, while adapting Large Language Models (LLMs) to time-series data faces modal alignment challenges. This paper proposes Prompt-TSF, a framework employing prompt learning and two-stage fine-tuning for multivariate forecasting. We utilize a high-frequency dataset of load and weather variables from Quanzhou, China. A custom tool transforms numerical data into natural language prompts, bridging the modal gap and enriching context. Furthermore, a unique two-stage fine-tuning strategy trains the LLM first on domain knowledge and formatting, followed by specific predictive regression. Experiments demonstrate that Prompt-TSF significantly outperforms traditional forecasting methods.",
     "summary": "",
     "doi": "10.4108/ew.12109",
+    "citations": 0
+  },
+  {
+    "title": "CROssBARv2: A Unified Computational Framework for Heterogeneous Biomedical Data Representation and LLM-Driven Exploration",
+    "authors": [
+      "Bunyamin Sen",
+      "Erva Ulusoy",
+      "Melih Darcan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/88f2cf618aa8dc9cebed38933e513a8a71f1be79",
+    "date": "2026-04-15",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.12.718028",
     "citations": 0
   },
   {
@@ -3812,6 +3904,26 @@
     "abstract_raw": "As Large Language Models (LLMs) are increasingly deployed in mission-critical software systems, detecting hallucinations and ``faked truthfulness''has become a paramount engineering challenge. Current reliability architectures rely heavily on post-generation, black-box mechanisms, such as Retrieval-Augmented Generation (RAG) cross-checking or LLM-as-a-judge evaluators. These extrinsic methods introduce unacceptable latency, high computational overhead, and reliance on secondary external API calls, frequently violating standard software engineering Service Level Agreements (SLAs). In this paper, we propose the Cognitive Circuit Breaker, a novel systems engineering framework that provides intrinsic reliability monitoring with minimal latency overhead. By extracting hidden states during a model's forward pass, we calculate the ``Cognitive Dissonance Delta''-- the mathematical gap between an LLM's outward semantic confidence (softmax probabilities) and its internal latent certainty (derived via linear probes). We demonstrate statistically significant detection of cognitive dissonance, highlight architecture-dependent Out-of-Distribution (OOD) generalization, and show that this framework adds negligible computational overhead to the active inference pipeline.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "MetaMuse: A Multi-Agent AI System for Biomedical Metadata Curation and Harmonization",
+    "authors": [
+      "Ekansh Mittal",
+      "Elon Litman",
+      "Tyler Myers",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5c414d15ca051b6ddd967c646f8c2f190b3efff8",
+    "date": "2026-04-15",
+    "keywords": [
+      "Agent",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.12.718044",
     "citations": 0
   },
   {
@@ -4629,6 +4741,26 @@
     "summary": "",
     "doi": "",
     "citations": 0
+  },
+  {
+    "title": "LongevityBench: Are SotA LLMs ready for aging research?",
+    "authors": [
+      "A. Zhavoronkov",
+      "D. Sidorenko",
+      "Vladimir Naumov",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2347e43d623958a4166a06b2738d944404312750",
+    "date": "2026-04-15",
+    "keywords": [
+      "Cited: 1",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.01.12.698650",
+    "citations": 1
   },
   {
     "title": "Adaptive Conformal Prediction for Improving Factuality of Generations by Large Language Models",
@@ -6664,6 +6796,23 @@
     "citations": 0
   },
   {
+    "title": "A Machine Learning Approach for Physiological Role Prediction in Protein Contact Networks: a large-scale analysis on the human proteome",
+    "authors": [
+      "Mattia Cervellini",
+      "Alessio Martino"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7dfc33fe0c8709801cf7124525d761d038d22157",
+    "date": "2026-04-14",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.10.717657",
+    "citations": 0
+  },
+  {
     "title": "InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
     "authors": [
       "Oliver Bentham",
@@ -7044,6 +7193,25 @@
     "abstract_raw": "As Large Language Models (LLMs) are increasingly integrated into agentic workflows, their unpredictability stemming from numerical instability has emerged as a critical reliability issue. While recent studies have demonstrated the significant downstream effects of these instabilities, the root causes and underlying mechanisms remain poorly understood. In this paper, we present a rigorous analysis of how unpredictability is rooted in the finite numerical precision of floating-point representations, tracking how rounding errors propagate, amplify, or dissipate through Transformer computation layers. Specifically, we identify a chaotic\"avalanche effect\"in the early layers, where minor perturbations trigger binary outcomes: either rapid amplification or complete attenuation. Beyond specific error instances, we demonstrate that LLMs exhibit universal, scale-dependent chaotic behaviors characterized by three distinct regimes: 1) a stable regime, where perturbations fall below an input-dependent threshold and vanish, resulting in constant outputs; 2) a chaotic regime, where rounding errors dominate and drive output divergence; and 3) a signal-dominated regime, where true input variations override numerical noise. We validate these findings extensively across multiple datasets and model architectures.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "A transcriptomics-native foundation model for universal cell representation and virtual cell synthesis",
+    "authors": [
+      "Xiaohui Jiang",
+      "Jichun Xie"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5c3757fb2faf22994c4a21b3f7d12e74bce16b90",
+    "date": "2026-04-14",
+    "keywords": [
+      "Foundation Model",
+      "RNA-seq / Transcriptomics",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.12.718016",
     "citations": 0
   },
   {
@@ -8342,25 +8510,6 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s13748-026-00435-x",
-    "citations": 0
-  },
-  {
-    "title": "Leveraging LLMs for Collaborative Ontology Engineering in Parkinson Disease Monitoring and Alerting",
-    "authors": [
-      "Georgios Bouchouras",
-      "Dimitrios Doumanas",
-      "Andreas Soularidis",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/11ebb2b81ac4a517ef345e908c34f473a0230824",
-    "date": "2026-04-14",
-    "keywords": [
-      "Applied Informatics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Ontology engineering plays a critical role in clinical decision support systems for Parkinson’s Disease (PD) monitoring and alerting. While Large Language Models (LLMs) have shown promise in knowledge modeling tasks, their effectiveness in autonomously constructing comprehensive ontologies for complex clinical domains remains unclear. This study investigates four ontology engineering methodologies for PD monitoring and alerting: One-shot (OS) prompting, Decomposed Sequential Prompting (DSP), X-HCOME, and SimX-HCOME+. Multiple LLMs were evaluated across these methodologies. Generated ontologies were assessed against a reference PD ontology using structural evaluation metrics focused on classes and object properties. Expert review was additionally conducted to analyze knowledge extensions beyond the gold standard. LLMs were able to autonomously generate syntactically valid and semantically meaningful ontologies using OS and DSP prompting; however, these ontologies exhibited limited conceptual coverage. Incorporating human expertise through X-HCOME significantly improved ontology completeness and evaluation metrics. Expert review further validated clinically relevant concepts absent from the reference ontology. SimX-HCOME+ demonstrated that iterative, supervised collaboration supports ontology refinement, although challenges persisted in natural language-to-rule formalization. The findings suggest that LLMs are more effective as collaborative assistants rather than standalone ontology engineers in the PD domain. Structured human–LLM collaboration is associated with improved ontology coverage and facilitates the identification of potential knowledge extensions in clinical monitoring applications. While the present evaluation focuses primarily on structural ontology elements, the proposed methodologies provide useful insights for LLM-assisted ontology engineering in complex healthcare domains.",
-    "summary": "",
-    "doi": "10.3390/ai7040139",
     "citations": 0
   },
   {
@@ -10484,7 +10633,7 @@
   {
     "title": "Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding",
     "authors": [
-      "Zhangquan Chen"
+      "Zhongyu Yang"
     ],
     "link": "https://www.semanticscholar.org/paper/c9ea6f6d1b7d5ec377a977b6b84312f17725f574",
     "date": "2026-04-13",
@@ -15764,25 +15913,6 @@
     "citations": 0
   },
   {
-    "title": "Campus AI vs. Commercial AI: Comparing How Students and Employees Perceive their University’s LLM Chatbot vs. ChatGPT",
-    "authors": [
-      "Leon Hannig",
-      "Annika Bush",
-      "Meltem Aksoy",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/2530e7727eadb7feacd4c86ba39fa40009927b4e",
-    "date": "2026-04-13",
-    "keywords": [
-      "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "As the use of Large Language Model (LLM) chatbots by students and researchers becomes more prevalent, universities are pressed to develop AI strategies. One strategy that many universities pursue is to customize pre-trained LLM-as-a-service (LLMaaS) chatbots. While most studies on LLMaaS chatbots prioritize technical adaptations, these systems are often mainly characterized by user-salient front-end customizations, e. g., interface changes. Yet, no existing studies have examined how users perceive such systems compared to commercial LLM chatbots. In a field study, we investigate how students and employees (N = 526) at a German university perceive and use their institution’s customized LLMaaS chatbot compared to ChatGPT. Participants using both systems (n = 116) reported greater trust, higher perceived privacy, and less perceived hallucinations with their university’s customized LLMaaS chatbot compared to ChatGPT. We discuss implications for research on users’ trustworthiness assessment process, and offer guidance for the design and deployment of LLMaaS chatbots.",
-    "summary": "",
-    "doi": "10.1145/3772318.3790622",
-    "citations": 0
-  },
-  {
     "title": "RAG Without the Lag: Enabling \"What-If\" Analysis for Retrieval-Augmented Generation Pipelines",
     "authors": [
       "Quentin Romero Lauro",
@@ -17878,130 +18008,6 @@
     "abstract_raw": "The diffusion model with multiple conditions has received widespread attention in the field of drug design due to its high-quality generation ability. However, the paradigm of directly generating new molecules from conditions used in existing work has not accurately fitted the joint distribution of multiple conditions during the generation process. To address this issue, we propose Graph Diffusion Evolution Model(GDEM) for multi conditional molecule generation. GDEM decomposes the process of molecular generation into a chain-like Markov evolution process, continuously adjusting the molecular structure and gradually approaching the true multi-conditional joint distribution. Meanwhile, in order to effectively train this chain evolution generative model, we also propose a two-stage training approximation method to complete the training of intermediate steps. We validated the effectiveness of GDEM on multiple polymer datasets and small molecule datasets, and the results showed that GDEM has advantages in molecular properties and condition control compared to traditional methods.",
     "summary": "",
     "doi": "10.1145/3774904.3792118",
-    "citations": 0
-  },
-  {
-    "title": "MMTableBench: A Multi-level Multimodal Benchmark for Reasoning and Layout Complexity in Table QA",
-    "authors": [
-      "Xianjie Wu",
-      "Xiaohang Xu",
-      "Tingyu Jiang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/e4879dd4341bd57ae2d437baf76d4b4783323ed6",
-    "date": "2026-04-12",
-    "keywords": [
-      "Cited: 2",
-      "Proceedings of the ACM Web Conference 2026"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Tables serve as a core format for representing structured data on the web, as their two-dimensional layouts effectively encode complex inter-entity relationships. However, real-world web tables often feature heterogeneous structures and rich semantics. Accurately interpreting such tables requires not only spatial layout perception but also multi-step reasoning across rows and columns, posing substantial challenges to web intelligence systems. Multimodal large language models (MLLMs) show promise in table question answering (TableQA) by leveraging visual layouts. However, their performance on complex web tables remains uneven, as existing benchmarks often blur the impact of individual difficulty factors, hindering precise capability analysis. To advance TableQA beyond superficial task difficulty and toward interpretable capability modeling, we introduce MMTableBench, a multi-level benchmark that systematically evaluates MLLMs along two fine-grained dimensions: layout complexity and reasoning complexity. By organizing table-question pairs along these axes, MMTableBench facilitates a detailed evaluation of model performance under varying structural and reasoning challenges, while revealing the respective strengths and limitations of multimodal inputs. Our comprehensive analysis shows that state-of-the-art MLLMs continue to exhibit notable limitations when confronted with complex layouts and deep reasoning tasks, underscoring persistent gaps despite the structural advantages offered by visual inputs. MMTableBench thus provides not only a rigorous evaluation framework but also a diagnostic tool for analyzing and interpreting model behaviors, enabling more transparent and explainable progress in multimodal TableQA development.",
-    "summary": "",
-    "doi": "10.1145/3774904.3792367",
-    "citations": 2
-  },
-  {
-    "title": "Topology-Aware PAC-Bayesian Generalization Analysis for Graph Neural Networks",
-    "authors": [
-      "Xinping Yi"
-    ],
-    "link": "https://www.semanticscholar.org/paper/e3cefec0cf51973bd0086dca10b522a137b1e32a",
-    "date": "2026-04-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Graph neural networks have demonstrated excellent applicability to a wide range of domains, including social networks, biological systems, recommendation systems, and wireless communications. Yet a principled theoretical understanding of their generalization behavior remains limited, particularly for graph classification tasks where complex interactions between model parameters and graph structure play a crucial role. Among existing theoretical tools, PAC-Bayesian norm-based generalization bounds provide a flexible and data-dependent framework; however, current results for GNNs often restrict the exploitation of graph structures. In this work, we propose a topology-aware PAC-Bayesian norm-based generalization framework for graph convolutional networks (GCNs) that extends a previously developed framework to graph-structured models. Our approach reformulates the derivation of generalization bounds as a stochastic optimization problem and introduces sensitivity matrices that measure the response of classification outputs with respect to structured weight perturbations. By imposing different structures on sensitivity matrices from both spatial and spectral perspectives, we derive a family of generalization error bounds with graph structures explicitly embedded. Such bounds could recover existing results as special cases, while yielding bounds that are tighter than state-of-the-art PAC-Bayesian bounds for GNNs. Notably, the proposed framework explicitly integrates graph structural properties into the generalization analysis, enabling a unified inspection of GNN generalization behavior from both spatial aggregation and spectral filtering viewpoints.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Communication-Efficient Gluon in Federated Learning",
-    "authors": [
-      "Xun Qian",
-      "A. Gaponov",
-      "G. Malinovsky",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/dd60883de80565bcef470ec08f5c075a92fe1397",
-    "date": "2026-04-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent developments have shown that Muon-type optimizers based on linear minimization oracles (LMOs) over non-Euclidean norm balls have the potential to get superior practical performance than Adam-type methods in the training of large language models. Since large-scale neural networks are trained across massive machines, communication cost becomes the bottleneck. To address this bottleneck, we investigate Gluon, which is an extension of Muon under the more general layer-wise $(L^0, L^1)$-smooth setting, with both unbiased and contraction compressors. In order to reduce the compression error, we employ the variance reduced technique in SARAH in our compressed methods. The convergence rates and improved communication cost are achieved under certain conditions. As a byproduct, a new variance reduced algorithm with faster convergence rate than Gluon is obtained. We also incorporate momentum variance reduction (MVR) to these compressed algorithms and comparable communication cost is derived under weaker conditions when $L_i^1 \\neq 0$. Finally, several numerical experiments are conducted to verify the superior performance of our compressed algorithms in terms of communication cost.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "SCOUT: Structure-Aware Aspect and Anchor-Count Selection for Node Attribute Augmentation via Positional Information",
-    "authors": [
-      "Dong-hyuk Seo",
-      "Sein Kim",
-      "Taeri Kim",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/dba13cf8114c6184d5472ad0e903318b98f8564b",
-    "date": "2026-04-12",
-    "keywords": [
-      "Proceedings of the ACM Web Conference 2026"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "In the absence of node attributes, Graph Neural Networks (GNNs) often fail to distinguish locally isomorphic nodes, leading to suboptimal performance. To compensate for this, Positional Information (PI) augmentation has emerged as a powerful technique, which generates attributes by selecting representative nodes as anchors and encoding node-to-anchor distances to other nodes. However, the performance of PI-based methods hinges on two graph-dependent choices: 1) the structural measures used for anchor selection and distance metrics, and 2) the anchor-count K. To obviate manual selections, we propose SCOUT, a model-agnostic augmentation framework that learns a graph-level selector to identify the optimal structural measure and adaptively determines the anchor-count K tailored to each graph and task. Subsequently, leveraging the heavy-tailed distribution typically observed in node centrality, SCOUT utilizes an elbow detection method on the ranked centrality curve to adaptively determine the K most representative nodes as anchors. SCOUT is model-agnostic and enhances various GNNs across downstream tasks. It achieves an improvement of 26.88% in Hits@20 for link prediction on ogbl-ddi and 4.52% accuracy points for node classification on ogbn-arxiv without original attributes; with original attributes, it also brings additional gains of 6.15% AUC on Cora and 11.69% accuracy points on ogbn-arxiv. The source code of SCOUT is available at https://github.com/seinkim01/SCOUT.git.",
-    "summary": "",
-    "doi": "10.1145/3774904.3792326",
-    "citations": 0
-  },
-  {
-    "title": "Schema-Adaptive Tabular Representation Learning with LLMs for Generalizable Multimodal Clinical Reasoning",
-    "authors": [
-      "Hongxi Mao",
-      "Wei Zhou",
-      "Mengting Jia",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/da4303954665b05f1bdbeee9bc65e3eb7cd7456b",
-    "date": "2026-04-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Machine learning for tabular data remains constrained by poor schema generalization, a challenge rooted in the lack of semantic understanding of structured variables. This challenge is particularly acute in domains like clinical medicine, where electronic health record (EHR) schemas vary significantly. To solve this problem, we propose Schema-Adaptive Tabular Representation Learning, a novel method that leverages large language models (LLMs) to create transferable tabular embeddings. By transforming structured variables into semantic natural language statements and encoding them with a pretrained LLM, our approach enables zero-shot alignment across unseen schemas without manual feature engineering or retraining. We integrate our encoder into a multimodal framework for dementia diagnosis, combining tabular and MRI data. Experiments on NACC and ADNI datasets demonstrate state-of-the-art performance and successful zero-shot transfer to unseen schemas, significantly outperforming clinical baselines, including board-certified neurologists, in retrospective diagnostic tasks. These results validate our LLM-driven approach as a scalable, robust solution for heterogeneous real-world data, offering a pathway to extend LLM-based reasoning to structured domains.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Energy-Efficient Training-Free Zero-Inflation Correction for Rainfall Forecasting with Time-Series Foundation Models",
-    "authors": [
-      "Wentao Gao",
-      "Xiaojing Du",
-      "Xiongren Chen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/d5d796d133cfb1303476f978bf1748df69915d41",
-    "date": "2026-04-12",
-    "keywords": [
-      "Foundation Model",
-      "Proceedings of the ACM Web Conference 2026"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Accurate rainfall forecasting is essential for climate and disaster management, but precipitation exhibits extreme zero inflation that modern time-series Foundation Models (TSFMs) fundamentally cannot represent due to their continuous regression outputs. This structural mismatch causes pervasive drizzle-like false alarms, miscalibrated nonzero intensities, and severely underdetected extremes, while retraining large TSFMs is computationally prohibitive and environmentally unsustainable for most regions. We present a training-free wrapper that corrects zero inflation for frozen TSFMs without updating any parameters. Our method restores discrete zero mass using empirical occurrence statistics, aligns positive-value distributions via probability-integral transforms, and applies Generalized Pareto tail mapping for extreme-value consistency. Experiments on South Australian rainfall show substantial gains with negligible overhead (<5,ms per forecast, compared to hundreds of GPU-hours for retraining). The proposed wrapper enables carbon-neutral, globally deployable climate services and directly advances the goals of UN SDG~13 (Climate Action).",
-    "summary": "",
-    "doi": "10.1145/3774904.3792998",
-    "citations": 0
-  },
-  {
-    "title": "LLMs Killed Q&A Stars? Analyzing the Impact of LLM-Generated Answers on an Online Q&A Platform",
-    "authors": [
-      "Dongwon Shin",
-      "Sooel Son"
-    ],
-    "link": "https://www.semanticscholar.org/paper/d5bb01cbeb3821cb2691261596e4a5bf0b9e4023",
-    "date": "2026-04-12",
-    "keywords": [
-      "Proceedings of the ACM Web Conference 2026"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Online question-and-answer (Q&A) platforms facilitate knowledge exchange through posted questions and answers. Recent advances in large language models (LLMs) have shown their strong capability in generating high-quality answers, leading to a recent surge in LLM-generated answers (LGAs) on Q&A platforms. In this paper, we conduct an in-depth analysis of how LGAs affect Naver Knowledge iN, the most popular Q&A platform in South Korea. To this end, we implement nine state-of-the-art LLM-generated text (LGT) detection methods and evaluate their performance on answers collected from Naver Knowledge iN. We then build an ensemble detector by stacking the three best-performing LGT detection methods, achieving an AUC of 0.9987 with a false positive rate below 1%. Using this LGA detector, we identify 75,558 LGAs among 1.46M answers. We find that LGAs tend to be longer, use more punctuation marks, and exhibit higher lexical diversity. However, LGAs do not show clear differences in user reactions, such as upvotes, downvotes, or selection rates by questioners. We also find that LGAs are primarily intended for knowledge sharing rather than personal experiences sharing. Finally, we observe a shift in the Q&A platform: questions increasingly move from simple fact-seeking to those involving complex contexts and seeking personal opinions or past experiences.",
-    "summary": "",
-    "doi": "10.1145/3774904.3792739",
     "citations": 0
   }
 ]
