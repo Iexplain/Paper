@@ -1,0 +1,23 @@
+[
+  {
+    "title": "MFT: Multi-scale fusion and text-guided segmentation for interactive wear debris analysis",
+    "authors": [
+      "Yongqiu Huang",
+      "Qinghua Zhang",
+      "Xinfa Shi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1fdf9a92ee58bcf0133991903c25fe22792077e9",
+    "date": "2026-04-20",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Industrial Lubrication and Tribology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to apply a transformer-based network to achieve language-guided interactive segmentation for the automated analysis of ferrography images, while also alleviating the high cost of manual annotation.\n \n \n \n To tackle the challenges of visual-linguistic alignment in referring image segmentation (RIS) and the complexity of ferrography images, a model named Multi-scale Fusion and Text-guided segmentation (MFT) is proposed. MFT injects textual cues into multi-scale visual features via a cross-modal fusion module. It then uses two sequential decoders to enhance cross-scale interaction and refine visual-text alignment for accurate segmentation. MFT is trained and evaluated on a wear debris data set with 11 categories. To reduce its annotation costs, a label enhancement strategy is introduced as a by-product. It leverages a pretrained segmentation model and multi-modal large language models (MLLMs) to automatically generate fine-grained masks and appearance-based descriptions from bounding box-annotated images, providing MFT mask-level supervision and rich textual guidance.\n \n \n \n MFT achieves more accurate segmentation from referring expressions than other transformer-based methods. Moreover, MLLMs-generated descriptions guide the model more effectively than using category names alone.\n \n \n \n MFT enables accurate interactive segmentation via multi-scale feature fusion and two sequential decoders, guided by either category names or appearance-based descriptions – especially effective with the latter. It achieves 72.20% mean Intersection over Union and 80.52% Prec@0.5 with only 124.6 M parameters, demonstrating competitive accuracy and efficiency. Combined with the enriched label, it also reduces annotation costs and improves segmentation quality.\n \n \n \n The peer review history for this article is available at: https://publons.com/publon/10.1108/ILT-08-2025-0356/\n",
+    "summary": "",
+    "doi": "10.1108/ilt-08-2025-0356",
+    "citations": 0
+  }
+]
