@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Structural insights and biological activity of (E)-4-(1-(2-(4-(4-chlorophenyl)thiazol-2-yl)hydrazono)ethyl)phenol: a potential therapeutic for breast cancer",
+    "authors": [
+      "A. J.",
+      "S. J. Jenepha Mary",
+      "V. Shally",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ac731cc19d4f2270fabb1e50b000b5948fced9f1",
+    "date": "2026-04-21",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/00387010.2025.2519509",
+    "citations": 0
+  },
+  {
+    "title": "Graph neural network approach for exploring urban material circularity: the case of Edinburgh",
+    "authors": [
+      "Burcu Kismet Conk"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e22774736dfd4a292f76ef0720fbb354df04eb6",
+    "date": "2026-04-21",
+    "keywords": [
+      "今日上新",
+      "Smart and Sustainable Built Environment"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The transition towards a circular economy (CE) requires cities to understand how materials, waste and resources circulate through complex urban systems. Yet, current analytical tools remain limited to static or sectoral datasets and cannot capture the dynamic, relational nature of circular flows. This study aims to develop and apply a graph-based analytical framework for exploring urban material circularity in Edinburgh, using graph neural networks (GNNs) to model, visualise and predict interconnections among recycling, reuse and repair activities.\n \n \n \n The study adopts a structured, multi-stage computational workflow to analyse urban circular infrastructure as a spatial–relational system. First, CE-related facilities (recycling, reuse and repair) were extracted from OpenStreetMap using tag-based queries and cleaned through GIS-based preprocessing to generate a georeferenced point dataset (Step 1). Second, these facilities were formalised as a proximity-based urban graph, where nodes represent facilities and edges encode spatial interaction potential derived from geographic distance; network characteristics were computed and verified using Google Colab and Gephi (Step 2). Third, the resulting graph was transferred into a GNN learning environment implemented in PyTorch Geometric, where message-passing architectures were trained to learn latent structural patterns and relational similarities across the network (Step 3). Fourth, the learned node embeddings and class probabilities were integrated with spatial and topological attributes to derive a composite circularity potential score for each facility, capturing functional alignment, spatial proximity and network embeddedness (Step 4). Finally, model outputs were reprojected onto the urban geography using Kepler.gl to enable spatial contextualisation and interpretation of circularity patterns across Edinburgh (Step 5).\n \n \n \n The results reveal a strongly hierarchical circular system in Edinburgh, characterised by dense recycling clusters at the urban core, a semi-peripheral band of reuse nodes and structurally marginal repair facilities. Network metrics and GNN embeddings converge to show that recycling nodes dominate connectivity and form the principal metabolic backbone, while reuse sites act as intermediary bridges that extend circular exchanges beyond the centre. Repair nodes remain spatially fragmented and weakly integrated, signalling latent but unrealised circular capacity. The derived circularity potential scores further expose critical spatial gaps and highlight neighbourhoods where targeted interventions could significantly enhance systemic material recirculation.\n \n \n \n This study advances the understanding of urban metabolism by framing cities as dynamic, learning systems where material, infrastructural and socio-economic interactions evolve through continuous feedback. Methodologically, the research operationalises this systemic perspective through GNNs, which computationally simulate feedback loops and relational dependencies across the urban material network. This integration of systems thinking and graph-based learning introduces a novel approach for capturing the emergent behaviour of circular systems, providing a transferable, data-driven framework for evaluating and forecasting material dynamics in cities.\n",
+    "summary": "",
+    "doi": "10.1108/sasbe-12-2025-0791",
+    "citations": 0
+  },
+  {
+    "title": "MedSafe-Dx (v0): A Safety-Focused Benchmark for Evaluating LLMs in Clinical Diagnostic Decision Support",
+    "authors": [
+      "C. Van Oyen",
+      "N. Mirza-Haq"
+    ],
+    "link": "https://www.semanticscholar.org/paper/232354af5b63697efe1e4e7f8fbdfb30097f8d98",
+    "date": "2026-04-21",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.14.26350711",
+    "citations": 0
+  }
+]
