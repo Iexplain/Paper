@@ -1,0 +1,97 @@
+[
+  {
+    "title": "From Anomaly to Attack Path: LLM-Based Network Traffic Investigation for APT Detection",
+    "authors": [
+      "Benedikt Pletzer",
+      "Jürgen Mottok"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a984c312ed79c3d04025cfad3a97641b45b97a17",
+    "date": "2026-04-26",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 19th European Workshop on Systems Security"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Advanced Persistent Threats (APTs) pose a growing challenge to critical infrastructure security. Their extended timescales, stealth, and multi-stage tactics limit the effectiveness of traditional Network Intrusion Detection Systems (NIDS), as signature-based methods miss novel techniques and anomaly detection alone produce a flood of low-confidence, low-specificity events. We propose a system that combines unsupervised anomaly detection with automated, large language model (LLM)-driven investigation to analyze suspicious network flows and reconstruct attack paths from network-level observations. Flagged flows are examined at both the feature and payload level using a locally hosted language model. Investigation results are aggregated in a graph database to reconstruct the attack progression through the network. Evaluation on the CICAPT-IIoT dataset shows that the system identifies all labeled malicious flows while uncovering mislabeled traffic containing clear indicators of compromise, suggesting detection capability without prior attack knowledge. We further discuss risks introduced by deploying language models in security-critical applications, including prompt injection via malicious payloads and data poisoning attacks.",
+    "summary": "",
+    "doi": "10.1145/3803525.3804991",
+    "citations": 0
+  },
+  {
+    "title": "DTAC: Decision-Tree-based Automatic Configuration of Entangled DDoS Defense Policies",
+    "authors": [
+      "Yunpeng Tan",
+      "Qingyang Li",
+      "Mingxin Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/73207f7eb2b66f2ed64d24876bdc076030fcc9e4",
+    "date": "2026-04-26",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 19th European Workshop on Systems Security"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As adaptive DDoS attacks intensify, the expert-dependent and time-consuming configuration for DDoS mitigation devices lags behind. However, the complex logical and dependency relations among defense policies make automatic configuration extremely challenging. Existing works have utilized Large Language Models' (LLMs) analytical and reasoning capabilities, but they still struggle with the configuration, due to their limitation in data processing and generation. To overcome these drawbacks, we propose an automatic configuration system for entangled DDoS defense policies, DTAC, which applies Decision Tree (DT) to handle the complex relations. Specifically, we reduce the LLM's workload to extracting the complex relations from the device manual. Then, a prefix-merging-based Primary Parameter Solver and a topo-order-based Secondary Parameter Solver separately handle the logical relations between conditions and the dependency relations between parameters. Preliminary experiments on public and real-world traffic traces show that DTAC can yield effective defense policies at least 1000× faster than manual configuration.",
+    "summary": "",
+    "doi": "10.1145/3803525.3804985",
+    "citations": 0
+  },
+  {
+    "title": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
+    "authors": [
+      "Boris Ruf",
+      "Marcin Detyniecki"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6892738cba968afa9df450fa4ca6273c9f8cd573",
+    "date": "2026-04-26",
+    "keywords": [
+      "今日上新",
+      "Diffusion Model",
+      "Proceedings of the 2nd International Workshop on Systems and Methods for Sustainable Large-Scale AI (GreenSys)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Models (LLMs) continue to scale, their energy consumption during inference has become a critical concern. While Autoregressive (AR) models are the industry standard, Diffusion Language Models (DLLMs) have emerged as a promising alternative capable of parallel token generation. In this paper, we perform a comparative energy benchmark of diffusion models (LLaDA-8B, Dream-7B) against AR counterparts (Llama-3.1-8B, Qwen-2.5-7B). We analyze the trade-offs between model architecture, KV-cache optimization, and Joules-per-token efficiency. Our results show that at longer sequences (200-600 tokens), diffusion models achieve 2.5-2.7 J/token, approximately 2× more efficient than AR models with KV-cache (5.3-5.7 J/token). KV-cache provides substantial benefits for AR models at longer sequences (50-70% energy reduction).",
+    "summary": "",
+    "doi": "10.1145/3802973.3804458",
+    "citations": 0
+  },
+  {
+    "title": "Vulnerabilities of IllusionCAPTCHA: An Empirical Analysis and a Stronger Human-Easy AI-Hard Design",
+    "authors": [
+      "Nuthan B",
+      "Abhinav L G",
+      "Chethohaar J M",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/573d4485713b7c12d6f6c17479e8b187e0971009",
+    "date": "2026-04-26",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 19th European Workshop on Systems Security"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As multimodal Large Language Models (LLMs) rapidly improve in visual reasoning and in-context learning, designing CAPTCHAs that remain both human-friendly and resistant to automated attacks has become increasingly difficult. Illusion-based CAPTCHAs have emerged as a promising direction, leveraging perceptual distortions that are intuitive for humans but presumed challenging for machines. Illusion-based CAPTCHAs have been explored as a method for designing visual challenges that remain intuitive for humans while limiting machine and Large Language Model (LLM)-based attacks. IllusionCAPTCHA is a recently proposed system that pairs illusion-diffusion imagery with long descriptive options designed to interfere with automated reasoning. Its original evaluation reported low LLM success rates and high human accuracy, positioning illusion-based approaches as a promising direction for future CAPTCHA design. However, our re-analysis demonstrates that these results do not hold under realistic attack conditions. Using state-of-the-art models, we show that IllusionCAPTCHA can be reliably solved using structured prompting or iterative questioning. Our findings reveal that the vulnerability stems primarily from the option-generation scheme rather than from the illusion images themselves. To address this, we introduce a fully automated and redesigned option-generation method that uses LLM to produce short, visually grounded, and ambiguity-preserving choices—effectively leveraging LLMs as a defensive tool against LLM attackers. Human accuracy increased from 45.24% to 89.85%, solving time decreased by 58% and the LLM success rates decreased substantially across all models and prompting conditions. These results suggest that illusion-based CAPTCHAs remain viable, but they require carefully engineered option structures to withstand modern LLM capabilities.",
+    "summary": "",
+    "doi": "10.1145/3803525.3804983",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence in Libraries: From Machine Learning to Large Language Models",
+    "authors": [
+      "Mohammad Aadil Khan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9a6580855f20709ecb5ee0c5214cf914a76afe2",
+    "date": "2026-04-25",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Indian Journal of Library and Information Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The process of gathering and organising information and its dissemination has changed nowadays due to the technological shift and introduction of the new technologies such as arti𿿿cial intelligence. The present study is trying to see theabilities of Arti𿿿cial Intelligence and its sub𿿿elds, like Machine Learning(ML), Deep Learning (DL), and Large Language Models (LLMs), to reshape the main\nlibrary operations like cataloguing, reference services, research support, and digital preservation. The main argument of the article is regarding the ethical, inclusive, and policy-compliant use of AI technology within libraries. The article also acknowledges the increasing role of librarians as curators of AI tools and highlights the need for a plan of action framework. There is a need for a plan of action framework that aligns the deployment of AI with national educational and digital objectives. In the future, with the help of AI, librarians will be positioned to develop intelligent knowledge systems, thereby promising access and sustainable learning opportunities in the digital age.",
+    "summary": "",
+    "doi": "10.21088/ijlis.0973.9548.20126.2",
+    "citations": 0
+  }
+]
