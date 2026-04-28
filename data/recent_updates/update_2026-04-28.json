@@ -1,0 +1,549 @@
+[
+  {
+    "title": "AI Agents Need Both Hardware-Backed Security and Application-Level Guardrails",
+    "authors": [
+      "Barry Shichen Hu",
+      "Quoc Do Le"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ff0149b4a20d217586c4490e6e0e4d78d8db8f0f",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3805690.3805726",
+    "citations": 0
+  },
+  {
+    "title": "Suika: Efficient and High-quality Re-scheduling of 3D-parallelized LLM Training Jobs in Shared Clusters",
+    "authors": [
+      "Yuxuan Wang",
+      "Yanbo Wang",
+      "Chen Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6ac0fbbafabfebfc887bf391734124253d357a3",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803623",
+    "citations": 0
+  },
+  {
+    "title": "Collaborative Dialogue Analysis for Productive Problem Solving",
+    "authors": [
+      "Yeojin Kim",
+      "Daeun Hong",
+      "Xiaotian Zou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f59f45c946e4ef975855deddf5b8b13341792b6f",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785065",
+    "citations": 0
+  },
+  {
+    "title": "A Novel Approach to Evaluating the Effectiveness of Large Language Models for Multimodal Analysis of Embodied Learning in Classrooms",
+    "authors": [
+      "Joyce Horn Fonteles",
+      "Nithin Sivakumaran",
+      "Clayton Cohn",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f38b281716037145d37450ff1dc62d2eeaef0054",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785109",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating AI-Generated Narrative Feedback on Nonverbal Communication in Student Presentations",
+    "authors": [
+      "Kevin Cevallos Pilay",
+      "Angela Carrera-Rivera",
+      "Xavier Ochoa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef7fadca63dcd1f8e8f8dd7b5b854357bdbd5dd7",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785074",
+    "citations": 0
+  },
+  {
+    "title": "Data-Driven Evaluation of LLM-Based Ontology Concept Extraction from Programming Learning Content",
+    "authors": [
+      "R. Hendrawan",
+      "Rafaella Sampaio de Alencar",
+      "Alice Micheli",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e628c539d8e58a9a46ef8e9ca3c8acedf1abe572",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785106",
+    "citations": 0
+  },
+  {
+    "title": "No More Translation at Runtime: LLM-Empowered Static Binary Translation",
+    "authors": [
+      "Zhibo Liu",
+      "Huaijin Wang",
+      "Wai Kin Wong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e00017198bb3f0be390644045f78ebfe35a9afb2",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803600",
+    "citations": 0
+  },
+  {
+    "title": "Prompting for Teachability: Designing Novice Personas in LLMs for Learning by Teaching Contexts",
+    "authors": [
+      "S.H. Miller",
+      "Nigel Bosch"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d8e92dc1ae2a274c128aced90256f4d275f2365e",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785067",
+    "citations": 0
+  },
+  {
+    "title": "Reducing the GPU Memory Bottleneck with Lossless Compression for ML",
+    "authors": [
+      "Aditya K Kamath",
+      "Arvind Krishnamurthy",
+      "Marco Canini",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d5a9ec738c703048d61bf0730b671e57ceaf1a59",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803595",
+    "citations": 0
+  },
+  {
+    "title": "AIMS: Cost-Efficient LLM-Based Agent Deployment in Hybrid Cloud-Edge Environments",
+    "authors": [
+      "Shiyi Liu",
+      "Haiying Shen",
+      "Shuai Che",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d406241e1cea5a44ed31bcf7167b69a8bdd5048b",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803622",
+    "citations": 0
+  },
+  {
+    "title": "Automatic Short Answer Grading with LLMs: From Memorization to Reasoning",
+    "authors": [
+      "Longwei Cong",
+      "Leon Hammerla",
+      "Sonja Hahn",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cd48ad06d084e1bf4b453841c3a619fa09ebf017",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785031",
+    "citations": 0
+  },
+  {
+    "title": "Assessing physiological coherence in stress related predictions of large language models: a surrogate based analysis of the Mistral 3 family using wearable HRV data",
+    "authors": [
+      "M. Bolpagni",
+      "M. Pozza",
+      "S. Gabrielli"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c8766f4e0f68bad8e97921258a0298cc8371191f",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.24.26351717",
+    "citations": 0
+  },
+  {
+    "title": "TrustWeave: Integrity Measurement and Attestation For Multi-Cloud LLMs",
+    "authors": [
+      "Jianchang Su",
+      "Wenhui Zhang",
+      "Yifan Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c10144473619d70dbb87858e157677fdea5de7e3",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803586",
+    "citations": 0
+  },
+  {
+    "title": "viNPU: Optimizing Vision Transformer Inference on Mobile NPUs",
+    "authors": [
+      "Jeho Lee",
+      "Gunjoong Kim",
+      "Chanyoung Jung",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bccd66c686098cbbc910055ab5480b514530f616",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新",
+      "Transformer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803619",
+    "citations": 0
+  },
+  {
+    "title": "SAS: Sparse Attention Synthesizer for Efficient Language Model Inference",
+    "authors": [
+      "Yuan Zhou",
+      "Shaojie Xiang",
+      "Lingfan Yu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bc2d8f5097e1e0648ecfea2263d3e8dab2ce03a0",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3769364",
+    "citations": 0
+  },
+  {
+    "title": "GenAI Analytics and Pedagogical Configurations: Featuring New Generative AI Systems in Education",
+    "authors": [
+      "Alejandro Ortega-Arranz",
+      "Paraskevi Topali",
+      "Pablo García-Zarza",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b8091bb987a7aba3a4c33d4ddc8931b9c5bbfdb6",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785054",
+    "citations": 0
+  },
+  {
+    "title": "Automated Assessment of Handwritten Math Problems: A Comparison of Prompting Strategies for Open and Closed-source LLMs",
+    "authors": [
+      "D. Rosa",
+      "Andreza M. C. Falcao",
+      "Jamilla Lobo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b22d6d8a91ca5b0af53769b4674e9ec5e2399017",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785038",
+    "citations": 0
+  },
+  {
+    "title": "A Synergistic Framework for Cognitive Diagnosis with LLM-Empowered Data Augmentation",
+    "authors": [
+      "Zhen Zhu",
+      "Rui Zhong",
+      "Longxiang Du"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b05dac4a376f1f59653798007feeb8c01902bc8f",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785112",
+    "citations": 0
+  },
+  {
+    "title": "AdaGen: Workload-Adaptive Cluster Scheduler for Latency-Optimal LLM Inference Serving",
+    "authors": [
+      "Sudipta Saha Shubha",
+      "Ayush Goel",
+      "D. Z. Tootaghaj",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/908dcd5103ef439136d68034b5e4376d3c626cf0",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3769345",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating Large Language Model Feedback to Support Teacher Professional Vision: Prompting Strategies and Pre-service Teacher Engagement",
+    "authors": [
+      "Sirui Ren",
+      "Ha Nguyen",
+      "Kathleen Stürmer",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/79ac0f29b22edfa21ffc7375202d591d6f02a8a0",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785055",
+    "citations": 0
+  },
+  {
+    "title": "Development and Evaluation of a Dual-Expertise, Utterance-Level Framework for LLM-Based Science Classroom Discourse Analysis",
+    "authors": [
+      "Jin-Eun Yoo",
+      "Nam-Hwa Kang",
+      "Suna Ryu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6a093cd446f0e814e6d936e7cb46e4cdbe9e2bcc",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785122",
+    "citations": 0
+  },
+  {
+    "title": "Crimson: Collaborative Parameter Updates for Efficient Pipeline Training of Large Language Models",
+    "authors": [
+      "Yapeng Jiang",
+      "Wuhui Chen",
+      "Ganhong Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/68fdb87bdee13dd4a13c75bbfc7e238b63faef4a",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3803606",
+    "citations": 0
+  },
+  {
+    "title": "Learning Analytics for Assessment Preparation: Constructing Graphs to Guide Higher-Order Question Generation",
+    "authors": [
+      "Joel Weijia Lai",
+      "Shen Yong Ho",
+      "Fun Siong Lim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/67b3c0c757d91ecf80e4f584068957ea6b230f8d",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785091",
+    "citations": 0
+  },
+  {
+    "title": "The Blind Spots in Automated Feedback Generation for Academic Writing",
+    "authors": [
+      "Toru Sasaki",
+      "R. Conijn",
+      "M. Willemsen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f66b38f8271e1e5f6a743a3b69d083bd87d797f",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785120",
+    "citations": 0
+  },
+  {
+    "title": "LLMFolder: Revisiting Constant Folding in Large Language Models",
+    "authors": [
+      "Gansen Hu",
+      "Zhaoguo Wang",
+      "Wei Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b92cefb8e2c0c3a7344ef06cd26023344c72d98",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3769339",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Hospital Electronic Health Record Foundation Models Without Data Sharing: A Comparison of Federated Learning and Inference-Time Ensembling",
+    "authors": [
+      "O. Elemento"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b803492b3876e2ffd60d2bff04ed9a2124476a1",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.24.26351702",
+    "citations": 0
+  },
+  {
+    "title": "TailorLLM: Collaborative End-Cloud Inference of Large and Small Language Models Based on Low-Rank Adaptation",
+    "authors": [
+      "Zian Wang",
+      "Ziyi Wang",
+      "Haonan Jin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2a0b8ff0879620719853e9a870590c38349a42fa",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3767295.3769346",
+    "citations": 0
+  },
+  {
+    "title": "From Formal Learning to Professional Practice: Automated LLM-based Coding and Visualisation of Team Dialogue in in-situ Healthcare Simulation",
+    "authors": [
+      "S. Samaraweera",
+      "Linxuan Zhao",
+      "Vanessa Echeverría",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1f2c70319be0265174325453427b5316fe60b0fd",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新",
+      "Cited: 1"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785098",
+    "citations": 1
+  },
+  {
+    "title": "From Solo Graders to Assisted Annotation: Integrating LLM Suggestions into the Educational Data Creation Pipeline",
+    "authors": [
+      "Cleon Xavier",
+      "Luiz Rodrigues",
+      "Ana Valdo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0b45e97109bfa6fd97ecda5889841ceb3e3ff298",
+    "date": "2026-04-27",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3785022.3785033",
+    "citations": 0
+  }
+]
