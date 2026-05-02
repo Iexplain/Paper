@@ -1,0 +1,2422 @@
+[
+  {
+    "title": "Understanding Over-Squashing in Dynamic Graphs",
+    "authors": [
+      "Chao-chang Wu",
+      "Xiaofeng Zhang",
+      "Jianghong Ma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ff3406896339eaf7bf36a005aaa891130182d6e2",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph neural networks (GNNs) have demonstrated significant success in solving real-world problems using both static and dynamic graph data. While static graphs remain constant, dynamic graphs evolve over time, presenting unique challenges that necessitate integrating GNN computations with sequential models. Despite advancements, existing research has primarily focused on static graphs, with dynamic graphs receiving comparatively less attention. This study extends the investigation of over-squashing—a phenomenon where excessive information compression leads to the loss of distant node information—from static to dynamic graphs. Over-squashing is exacerbated in dynamic graphs due to the combined compression of spatial and temporal information into narrow time windows. To address this issue, we propose the spatial and temporal compensation model for dynamic graphs, which is theoretically validated and incorporates two key modules: the structural similarity-based spatial compensation (SSSC) module and the representation and trend similarity-based temporal compensation (RTSTC) module. The former module mitigates spatial information loss by leveraging structural similarities among nodes, while the latter module addresses temporal information loss by integrating historical data and trends. The extensive experiments on real-world dynamic graph datasets demonstrate that our approach achieves state-of-the-art performance. The datasets and source codes are released at: https://github.com/wuchaokai/STCDG/",
+    "summary": "",
+    "doi": "10.1109/TSMC.2026.3658409",
+    "citations": 0
+  },
+  {
+    "title": "Energy-Efficiency Maximization for Integrated Sensing and Communication in IoT C-RAN",
+    "authors": [
+      "Le Tung Giang",
+      "Nguyen Xuan Tung",
+      "Trinh Van Chien",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ff0d449fae433409bf6c451dbbdc94c5645b31a8",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Integrated sensing and communication (ISAC) with cloud radio access network (C-RAN) unifies two foundational technologies for the Internet of Things (IoT), enabling both high-data-rate transmission and accurate environmental awareness. This article investigates an uplink (UL) C-RAN system, where multiple remote radio units (RRUs) jointly serve user equipment devices (UEs) and sense a target. We demonstrate that only a subset of RRUs is typically needed to meet sensing requirements, while energy is potentially conserved by deactivating redundant sensing RRUs. Motivated by this, we aim to improve the system’s energy-efficiency (EE) by jointly optimizing RRU activation, user association, and power allocation, while ensuring localization accuracy through the Cramér–Rao lower bound (CRLB). To address this problem, we propose a model-based iterative algorithm that integrates optimal user association, decision tree-based selection of sensing RRUs, and fixed-point power allocation. This algorithm is further used to train a graph neural network (GNN) framework, ISAC-GNN, to overcome scalability and computational complexity limitations. Our theoretical analysis ensures performance guarantees, while a semi-supervised training strategy enhances stability and generalization. The simulation results demonstrate that ISAC-GNN reduces inference time by 67% relative to the model-based approach, enabling real-time implementation for ISAC system resource management. In addition, ISAC-GNN allows scalable deployment across various system scenarios without retraining the model.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3660286",
+    "citations": 0
+  },
+  {
+    "title": "GroupEx: Toward Group-Level Explanations of Graph Neural Networks",
+    "authors": [
+      "Sayan Saha",
+      "Sanghamitra Bandyopadhyay"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fcf3c30fd5e7b54b4dc19fdf4efa41044fde9559",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The increasing adoption of graph neural networks (GNNs) in critical real-world applications brings with it the need for interpretability and explainability of these models. The existing paradigms of GNN explainability typically operate at the extremes. Instance-level methods offer a microscopic view focused on individual predictions, whereas model-level approaches provide a macroscopic summary of the classifier behavior on a target class. We introduce the group-level paradigm, which views explanations at the right resolution, grounded in the intuition that groups of instances embedded close together in the latent space share a common rationale for belonging to the same target class. We show that the instance-level and model-level paradigms are the special cases of this broader framework. To realize this paradigm, we propose GroupEx, a novel method for interpreting GNNs at the group level. GroupEx has the capability to identify the subgroups of graphs within a target class using a group identity (GI) score. It employs a group extractor that can extract a subgroup of graphs that share a common explanation for their class identity by clustering graph embeddings in the latent space of the classifier. A specially devised explanation generator can then discover a group-level explanation by optimizing a novel isomorphism objective, which ensures that the discovered explanation commonly explains the class identity of all the instances in the group. Empirical results on real-world and synthetic datasets demonstrate that GroupEx provides deeper insights into GNN decision-making than the existing state-of-the-art explainability methods, enabling a more structured and interpretable understanding of model predictions.",
+    "summary": "",
+    "doi": "10.1109/TSMC.2026.3655491",
+    "citations": 0
+  },
+  {
+    "title": "Dynamic Prompt Compression for Efficient Inference of Large Language Models",
+    "authors": [
+      "Jinwu Hu",
+      "Wei Zhang",
+      "Yufeng Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fb4015991b9b737d9d3d4f69e221ce3ee2a6a640",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) have shown outstanding performance across a variety of tasks, partly due to advanced prompting techniques. However, these techniques often require lengthy prompts, which increase computational costs and can hinder performance because of the limited context windows of LLMs. While prompt compression is a straightforward solution, existing methods confront the challenges of retaining essential information, adapting to context changes, and remaining effective across different tasks. To tackle these issues, we propose a task-agnostic method called Dynamic Prompt Compression (LLM-DPC). Our method reduces the number of prompt tokens while minimizing any degradation in LLM performance. We model prompt compression as a Markov Decision Process (MDP), enabling the DPC-Agent to sequentially remove redundant tokens by adapting to dynamic contexts and retaining crucial content. We develop a reward function for training the DPC-Agent that balances the compression ratio, the quality of the LLM output, and the retention of key information. This allows for prompt token reduction without needing an external black-box LLM. Inspired by the progressive difficulty adjustment in curriculum learning, we introduce a Hierarchical Prompt Compression (HPC) training strategy that gradually increases the compression difficulty, enabling the DPC-Agent to learn an effective compression method that maintains information integrity. Experiments demonstrate that our method outperforms state-of-the-art techniques, especially at higher compression ratio.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3669558",
+    "citations": 0
+  },
+  {
+    "title": "What influences product designers’ use of large language models? An empirical study based on a SEM-ANN hybrid model",
+    "authors": [
+      "Qianshu Fu",
+      "Yixuan Liu",
+      "Chengqi Xue"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f61272a81bb1839f3491058ba77a426482fa4d78",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "International Journal of Industrial Ergonomics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ergon.2026.103940",
+    "citations": 0
+  },
+  {
+    "title": "Large language model–driven building energy model generation",
+    "authors": [
+      "Deli Liu",
+      "Xiaoping Zhou",
+      "Yu Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f609abb1a9390369886acd529c4a1331771f3f19",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Energy and Buildings"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.enbuild.2026.117255",
+    "citations": 0
+  },
+  {
+    "title": "A Physics-Informed-Neural-Network-Based State Estimator for Low Voltage Distribution Systems",
+    "authors": [
+      "Elio El Semaan",
+      "A. Iovine",
+      "T. Le",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f4d500a2f2a8d37c49e1c179d7436f68accbd913",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Smart Grid"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Due to the rising penetration of distributed energy resources and electric vehicles charging stations, Distribution System Operators (DSOs) are facing higher challenges to effectively manage low voltage (LV) grids. To enhance their voltage magnitudes’ real-time monitoring, distribution system state estimators (DSSEs) are the targeted solution. However, the application of conventional techniques for state estimation to LV grids is challenged by their unbalanced nature and the limited access to real-time measurements, while on the other hand state estimators (SEs) based on classical machine learning techniques are limited by a lack of knowledge of the physical aspect of the electrical systems. To address these issues, this paper proposes a physics-informed neural network (PINN) based LV DSSE using Graph Neural Networks (GNN). The proposed SE incorporates information about the grid’s topology and parameters while proposing a three-phase four-wire graph representation suitable for LV grids characteristics. Moreover, an unsupervised training is proposed with the aim of training the model in respect to the physical equations, among which the power flow equations. Tests are conducted on various grids generated from open data and evaluate the performance of the GNN-based SE while comparing it to classical machine learning based techniques as autoencoders (AE). The generalizability of the proposed SE in terms of training on a subset of grids and applying to others is investigated.",
+    "summary": "",
+    "doi": "10.1109/TSG.2025.3648864",
+    "citations": 0
+  },
+  {
+    "title": "Applying Transfer Learning on Various GNN Model Training in Indoor Positioning System Tasks",
+    "authors": [
+      "Kevin Wijaya"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ec4c74e4de26632d81c7d575b265f451052313b6",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Applied Data Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.47738/jads.v7i2.1150",
+    "citations": 0
+  },
+  {
+    "title": "AERO: An AI Agent for Adaptive Eligibility Refinement and Optimization of Clinical Trial Criteria in Real-World Trial Emulation",
+    "authors": [
+      "X. Li",
+      "J. James",
+      "P. Pellikka",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e5d5cf85de2daa3bb82b1671ac71f2ee55469e96",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.30.26352142",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Models Accurately Describe Maximal Aortic and Iliac Diameters From Radiology Reports: Implications for Aneurysm Research and Clinical Care",
+    "authors": [
+      "Elizabeth M. Lancaster",
+      "C. Flanagan",
+      "Lawrence D Gerstley",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e4217dd850b4bb71d15fa3e654c2b9b513534a75",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Vascular Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jvs.2025.12.184",
+    "citations": 0
+  },
+  {
+    "title": "473. EEG-Based rTMS Treatment Response Prediction in Major Depression With Dynamical Systems Foundation Models",
+    "authors": [
+      "Nicholas M Tolley",
+      "David W. Zhou",
+      "Alexander Fengler",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e2f0902314f0487052ae1b7344606f73a53d541b",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Biological Psychiatry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.biopsych.2026.03.707",
+    "citations": 0
+  },
+  {
+    "title": "A Hybrid TF-IDF and Knowledge Graph-Enhanced Retrieval-Augmented Generation Framework with Large Language Models for Domain-Aware Question Answering",
+    "authors": [
+      "Lilyani Asri Utami"
+    ],
+    "link": "https://www.semanticscholar.org/paper/dfc791ac1b3ed437a36b7ae675696d52b0a77407",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Applied Data Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.47738/jads.v7i2.1136",
+    "citations": 0
+  },
+  {
+    "title": "Bridging the Depth Gap: Adaptive Scene-Instance Alignment for Training-Free Depth Refinement in Robotic Manipulation Scenes",
+    "authors": [
+      "Pihong Hou",
+      "Yongfang Zhang",
+      "Boxuan Ye",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/df26c970f50e1641640f4b2b81ae08fc096467ce",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "IEEE Robotics and Automation Letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Monocular depth estimation foundation models provide robust depth priors with exceptional generalization capabilities; however, their predictions typically lack a reliable metric scale and contain local inconsistencies in a zero-shot setting, which limit their deployment in unconstrained real-world environments. Meanwhile, sensor-based depth measurements are typically sparse or noisy, especially in challenging scenarios such as transparent objects or cluttered robotic scenes. To address this limitation, we propose a training-free adaptive scene-instance alignment framework that refines pseudo-depth maps using sparse ground-truth samples without any additional training or fine-tuning. Our approach integrates three stages of alignment: (1) a global affine transformation via Theil–Sen regression; (2) multi-scale local corrections guided by Gaussian, color-similarity, and gradient-aware weights; and (3) an optional instance-level residual refinement driven by segmentation guidance. Extensive experiments on robotic grasping datasets (Linemod-Occluded, YCB-Video, HOPE, Wild6D) and transparent-object datasets (ClearPose, TransCG) show consistent improvements across evaluation metrics, including root mean square error (RMSE), mean absolute error (MAE), and thresholded accuracy $\\delta$. The results demonstrate that our method reliably bridges the gap between monocular priors and sensor ground truth, generating pixel-wise metric depth maps with strong structural fidelity that are well-suited for open-world perception tasks.",
+    "summary": "",
+    "doi": "10.1109/LRA.2026.3673899",
+    "citations": 0
+  },
+  {
+    "title": "In-Context Learning with Large Language Models for Scalable Glycemic Index Assignment to Food Composition Databases: Development, Validation, and Reproducibility",
+    "authors": [
+      "K. D. Della Corte",
+      "J. Ebbert",
+      "J. Brand-Miller",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/dc4fe12387cf50810cfa7e9935f2862f09804c2a",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.23.26351292",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing traditional surveys with village view imagery and multimodal large language models: Evidence from village construction assessment in rural China",
+    "authors": [
+      "Muzhe Pan",
+      "Weipan Xu",
+      "Hailong Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/dbeb5d69195539edc380831d2a1bff08518c5114",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Applied Geography"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.apgeog.2026.103968",
+    "citations": 0
+  },
+  {
+    "title": "Disease Risk Prediction Using Structured EHR Data: Can Generalist Large Language Models Match Specialized Clinical Foundation Models? A Comparative Evaluation with Fine-Tuning",
+    "authors": [
+      "B. Mao",
+      "M. K. Prasadha",
+      "Z. Xie",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d0e8c5dcbfb15d1dab2e1d5a1405e5ded3e9bb45",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.24.26351503",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating large language models (LLMs) for semantic interpretation of IFC-based BIM data",
+    "authors": [
+      "S. Jin",
+      "Dohyeong Kim",
+      "Jeehee Lee",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cf6f613ec760f5aaa51b4ba7380c3d155c69696f",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Automation in Construction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.autcon.2026.106879",
+    "citations": 1
+  },
+  {
+    "title": "Large language model (LLM) for software security: Code analysis, malware analysis, reverse engineering",
+    "authors": [
+      "Hamed Jelodar",
+      "Samita Bai",
+      "Parisa Hamedi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ce3c2fa54c22340bfe316ee9eb076ce8043ce527",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 10",
+      "Journal of Information Security and Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jisa.2026.104390",
+    "citations": 10
+  },
+  {
+    "title": "GEM-LLM: Identifying contextual equivalent mutants via large language models; A global invariant-based approach",
+    "authors": [
+      "Mohammad Tanhaei",
+      "R. Alizadehsani"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cb5733e87feebdc575024d0c34646c14973c6f0d",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Intelligent Systems with Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.iswa.2026.200640",
+    "citations": 0
+  },
+  {
+    "title": "Integrating Advantage Actor-Critic in Multi-Robot Collaboration",
+    "authors": [
+      "Jiazhao Liang",
+      "Hao Huang",
+      "Yu Hao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cb531b32364091a6b57d6e7fea5162b2d3e2d2c6",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Robotics and Automation Letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent advances in large language models (LLMs) have spurred interest in using these models to coordinate multi-agent robot systems. However, existing approaches often fail to handle dynamic and complex environments effectively. We present A2C-Collab, an advantage actor critic framework tailored to multi-robot collaboration. A2C-Collab contains three major components: 1) an actor generates time-critical commands for each robot to execute, and 2) a critic monitors execution and recommends corrections when plans fail. 3) An advantage mechanism verifies these corrections by forecasting their impact on subsequent environmental dynamics. While previous methods primarily relied on the critic to enhance collaboration, they often lacked a verification mechanism, allowing the critic to unintentionally guide agents away from the correct goal. In contrast, our approach introduces an advantage verification stage that anticipates and evaluates the impact of corrective actions before execution, ensuring more reliable and goal-aligned coordination. The framework was first evaluated in RoCoBench, a standard multi-robot simulation, and subsequently deployed to a physical robot cluster. Across both settings, A2C-Collab improved task completion rates compared with the state-of-the-art baselines, demonstrating robust performance and highlighting the promise of LLM-driven reasoning in real-world multi-robot systems.",
+    "summary": "",
+    "doi": "10.1109/LRA.2026.3674008",
+    "citations": 0
+  },
+  {
+    "title": "Do large language model outputs exhibit algorithm aversion? A case study using GPT-3.5",
+    "authors": [
+      "Zuhong Liu",
+      "Xiaohan He",
+      "Yubin Xie",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c8684fcd2f9f3c05dc7fde57d4e38d13c66db38e",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "International Journal of Industrial Ergonomics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ergon.2026.103937",
+    "citations": 1
+  },
+  {
+    "title": "Fostering human-AI collaboration in robotic dance creation through large language models",
+    "authors": [
+      "A. D. Filippo",
+      "Michela Milano"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c7d0eafb11d22a54efa58d448be29d5217df51c4",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Entertainment Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.entcom.2026.101111",
+    "citations": 1
+  },
+  {
+    "title": "DeSnow-GNN: Spatiotemporal graph neural network for robust LiDAR point cloud denoising in adverse weather",
+    "authors": [
+      "Lezhi Liao",
+      "X. Ding",
+      "K. Zhu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c728893696c5f870d8ad834ae9cbae91b95291c0",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Advanced Engineering Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.aei.2026.104449",
+    "citations": 0
+  },
+  {
+    "title": "認知言語学から見た生成AIと外国語学習 Generative AI and Foreign Language Learning From a Cognitive Linguistics Perspective",
+    "authors": [
+      "Akira Machida"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c69e4a57dd3151391dca1d3a9af8b1ad74b2743a",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "JALT journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "近年、生成AIおよびそれを用いたLLM（大規模言語モデル）の発展により外国語学習の意義についての議論が活発になっている(大木他, 2025； 李・青山, 2025; 隅田, 2022； 瀧田・西島, 2019）。そこで、本論考では、認知言語学とLLMとの関係性およびそこから得られる帰結としての今後の外国語学習の方向性について考察を行う。結論として、外国語学習には、その言語共同体に固有の慣習的な世界の捉え方を学ぶという教養的側面があり、したがって、今後どれほどAIによる通訳機能が発達したとしても、外国語学習の意義が完全に失われることはないと主張することになる。本論考では、日本で大多数を占める単一言語話者 (monolinguals) を想定して主に議論を進めるが、本論考の主張に従うならば、単一言語話者こそ外国語を学習する意義が大きいということになる。\nRecent advances in generative artificial intelligence, particularly large language models (LLMs) and neural machine translation, have prompted renewed debate about the significance of foreign language learning. As AI-mediated communication increasingly enables speakers to interact across languages without directly acquiring those languages themselves, some have questioned whether foreign language education will remain necessary. This paper reconsiders this issue from the perspective of Cognitive Linguistics and argues that foreign language learning retains an essential intellectual and cultural value that cannot be outsourced to AI technologies. First, the paper explores theoretical affinities between Cognitive Linguistics and contemporary LLMs. Usage-based approaches in Cognitive Linguistics conceptualize linguistic knowledge as a structured network emerging from repeated exposure to vast numbers of usage events. Similarly, LLMs simulate linguistic competence through large-scale statistical learning over massive corpora. Moreover, recent developments in predictive coding models in neuroscience suggest that human cognition itself may operate through probabilistic prediction and error minimization, lending further plausibility to parallels between human language processing and generative models. From a constructive research perspective, therefore, LLMs can be viewed not merely as engineering tools but as experimental hypotheses about how linguistic knowledge may be organized and processed. Second, drawing on the notion of construal and the “Thinking for Speaking” framework, the paper argues that languages differ not only in form but also in how they habitually direct speakers’ attention to particular aspects of experience. Each language encodes culturally and historically sedimented patterns of categorization, profiling, and perspective taking. Acquiring a language thus entails learning a community-specific way of attending to and conceptualizing the world. In this sense, language learning is inseparable from learning alternative cognitive styles. Usage-based semantics further suggests that such patterns are internalized through accumulated exposure to authentic linguistic instances, embedding collective cultural knowledge within the learner’s cognitive system. Third, the paper examines the impact of AI translation through the lenses of economic rationality, psychological adaptation to technology, and the outsourcing of cognitive functions. While communicative functions of language may increasingly be delegated to AI devices—much like memory has been partially outsourced to smartphones—this outsourcing risks reducing language to a mere instrumental tool. If language learning is evaluated solely in terms of communicative efficiency, AI solutions may appear sufficient. However, such a view overlooks the formative role of language in shaping thought and perception. The central claim advanced here is that foreign language learning possesses an irreducible educational function: it enables learners to recognize that their native way of construing the world is not universal and to develop a meta-cognitive, pluralistic perspective. This cultivation of multiple “ways of thinking for speaking” fosters intellectual flexibility and intercultural understanding—capacities that cannot be replicated by external translation technologies. Consequently, even in an era of highly sophisticated AI interpretation, the significance of foreign language learning will not disappear but should be reconceptualized beyond communication toward cognitive and humanistic development.",
+    "summary": "",
+    "doi": "10.37546/jaltjj48.1-3",
+    "citations": 0
+  },
+  {
+    "title": "Accurate Clinical Data Abstraction Using Reasoning Large Language Models",
+    "authors": [
+      "A. J. Shin",
+      "T. Hung",
+      "E. Shin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c53a635daa67b90e0fc311d174929be85c6da018",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "International Journal of Radiation Oncology, Biology, Physics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ijrobp.2026.02.173",
+    "citations": 0
+  },
+  {
+    "title": "LLM and Bayesian Network Integrated Simulation Framework for Electric Vehicle User Charging Behaviorals",
+    "authors": [
+      "Yi Xiong",
+      "Jiamin Ge",
+      "Liang Che"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c44600189c5077987a2f6b44a4868e770b13c49a",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Smart Grid"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Electric vehicle (EV) users’ behaviors are influenced by users’ willingness, which is not directly observable. Emerging large language models (LLMs) have advantages in handling this problem. However, existing studies usually use LLM to directly output EV users’ behaviors, which is limited by the LLM’s inherent issues: “randomness” and “hallucination”. To address these issues, this study proposes an LLM-Bayesian network (BN) integrated simulation framework. First, LLM is used to extract and label EV users’ willingness. Second, LLM generates an explicit causal structure and prior probability, which constructs a BN. Finally, Bayesian inference updates the BN’s prior probability. The BN outputs EV users’ charging behaviors. Experimental results show that in few-shot scenarios, LLM-BN achieves a 20.3% to 27.5% improvement in predictive accuracy compared to pure LLM methods. Moreover, LLM-BN addresses “randomness” and “hallucination” issues, and effectively suppresses violations of physical constraints and the generation of fake information. In practical applications, peak shaving and valley filling are achieved through electricity price adjustments, reducing peak demand by 25% and increasing off-peak demand by 30%.",
+    "summary": "",
+    "doi": "10.1109/TSG.2026.3654823",
+    "citations": 0
+  },
+  {
+    "title": "Blockchain for Large Language Models (LLMs): Applications, challenges, and framework implementation",
+    "authors": [
+      "A. Musamih",
+      "Ibrar Yaqoob",
+      "K. Salah",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c31be6957115929ca6d754c04e595b29666c4eb4",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 2",
+      "Expert systems with applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.eswa.2026.131100",
+    "citations": 2
+  },
+  {
+    "title": "IP57-05 PERSONAL OR PROGRAMMED: THE PREVALENCE OF LARGE LANGUAGE MODELS IN UROLOGY RESIDENCY APPLICATIONS",
+    "authors": [
+      "Hafsah At-thahabi",
+      "Vikram M. Narayan",
+      "Akanksha Mehta"
+    ],
+    "link": "https://www.semanticscholar.org/paper/be31690ea27c8da6c872d1271dcd872c313afb6f",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191624.06470.8f.05",
+    "citations": 0
+  },
+  {
+    "title": "IP61-01 AI IN THE INBOX: IMPLEMENTATION, UTILIZATION, AND PHYSICIAN EXPERIENCE WITH LARGE LANGUAGE MODEL–GENERATED DRAFTS IN UROLOGY",
+    "authors": [
+      "N. Matluck",
+      "E. Grimaldi",
+      "C.-P. Meziani",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bcac5f946d6c13f24dca60449a299425e9c2e499",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191652.60325.91.01",
+    "citations": 0
+  },
+  {
+    "title": "Exploring the future of psychometrics from a Large Language Model perspective: A case study analysis",
+    "authors": [
+      "W. Mieleszczenko-Kowszewicz",
+      "Julita Bielaniewicz",
+      "Kamil Kanclerz",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bc06b24de789a41a1dfb05b0e6882d80948ba063",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Computers in Human Behavior Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.chbr.2026.101060",
+    "citations": 0
+  },
+  {
+    "title": "Stiffness-Embedded GNN Model for Structural Component Importance Analysis",
+    "authors": [
+      "X. Ji",
+      "K. Wei",
+      "Zhaohui Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/baf5c57c9b9c2a2f6f7e2f0761e3d229f7456e85",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of computing in civil engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1061/jccee5.cpeng-6920",
+    "citations": 0
+  },
+  {
+    "title": "IP68-02 LOCALLY DEPLOYED LARGE LANGUAGE MODEL ACHIEVES EXPERT-LEVEL ABSTRACTION OF RADICAL PROSTATECTOMY PATHOLOGY ACROSS 17 VARIABLES",
+    "authors": [
+      "S. Younis",
+      "K. Dortche",
+      "S. Patel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b962a6ca853c4b6d3166789d30191bfdd5491994",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191696.77479.2a.02",
+    "citations": 0
+  },
+  {
+    "title": "Repurposed β-lactam compounds as EAAT2 allosteric enhancers: An integrated virtual screening, docking, MD simulation, and ADMET study",
+    "authors": [
+      "A. Malebari"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b63cf78101e494384323856d9dfaa57ce217f6f3",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Results in Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.rechem.2026.103232",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Query-Guided Submodular ICL for Intent Translation in Intent-Based Networking With Large Language Models",
+    "authors": [
+      "Guowei Su",
+      "Wenqiao Kang",
+      "Tian Qiu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b3e5e007ea217edee63d6eb4444112d0e5ac5ba7",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Network automation is critical for Intelligent Internet of Things (IIoT) systems, such as industrial networks and smart cities, where managing heterogeneous devices at scale poses significant challenges. Intent-based networking (IBN) powered by large language models (LLMs) enables natural language intent translation into executable policies, yet struggles with accuracy in few-shot in-context learning (ICL) due to inefficient example retrieval for multi-intent scenarios. To address this issue, we propose SubmodICL, a submodular optimization-based method that retrieves contextual examples to maximize query-guided mutual information (MI), thereby ensuring both coverage and representativeness. Integrated with LLMs, SubmodICL significantly improves intent translation performance. We validate our approach through a use case translating flow-table operation intents into API calls and evaluate LLMs across different parameter scales. Experiments demonstrate that SubmodICL outperforms baselines by 9.121%–12.377% in accuracy for resource-constrained settings (small LLMs, limited examples, or multi-intent tasks). The proposed method provides a generalizable framework for enhancing intent translation in network automation, with potential applicability to IIoT systems.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3645054",
+    "citations": 1
+  },
+  {
+    "title": "Gen-Presenter: An Interactive Artificial Internet of Things Presentation System With Retrieval-Augmented Generation-Supported Large Language Models",
+    "authors": [
+      "Ming-Shun Wang",
+      "S. Bhat",
+      "Jian-feng Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1b468079d7ebc4cbe856a7ce9e802c3660ba05f",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Consumer Electronics Magazine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Gen-Presenter is a cost-effective, artificial intelligence (AI)-powered interactive presentation system designed for consumer-facing environments such as museums, exhibitions, and public installations. Addressing the limitations of traditional kiosks and robotic guides, it leverages retrieval-augmented generation (RAG), large language models (LLMs), and edge AI to deliver adaptive multimodal content tailored to visitor demographics and engagement levels. Running primarily on an edge device, the system integrates modules for gaze detection, age estimation, automated speech recognition, text-to-speech, and content management. Two LLMs on a back-end natural language processing server handle slide selection and explanation generation. While LLM2 with RAG-enriched responds with contextual content, LLM1 (LLaMA 3.3 without RAG) demonstrated superior slide selection performance, achieving 0.95, 0.91, and 0.96 accuracy with only 1 s of latency. User suitability testing demonstrates strong alignment with diverse age groups (scores between 0.81 and 0.96), and the multithreaded design delivers a 15.7# improvement in slide processing efficiency. These results highlight the system’s scalability, responsiveness, and potential as an intelligent consumer electronics solution for immersive public engagement.",
+    "summary": "",
+    "doi": "10.1109/MCE.2025.3591257",
+    "citations": 0
+  },
+  {
+    "title": "MKG-GNN:Maritime Knowledge Graph and GNN Framework for ship speed forecasting in port",
+    "authors": [
+      "Xinqiang Chen",
+      "Peiyang Wu",
+      "Zichuang Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b17dcd0225ec0ced66b8a191b087e068422c3326",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Ocean Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.oceaneng.2026.125179",
+    "citations": 0
+  },
+  {
+    "title": "How can the integration of AI large language models and knowledge graph enhance fault diagnosis? A systematic literature review",
+    "authors": [
+      "Wan Barmawi Muhammad Razaq",
+      "Hao Chen",
+      "M. R. Machado",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1540a8c92580ed0a6a706ccc765ce755d44d67f",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Applied Soft Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.asoc.2026.114908",
+    "citations": 0
+  },
+  {
+    "title": "Learning reward functions via GNNs for multi-agent task placement in edge–cloud LLM services",
+    "authors": [
+      "Hao Yang",
+      "Li Pan",
+      "Shijun Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/af44ccc4465e0f49279861481341e415218ceeaa",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Journal of Network and Computer Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jnca.2026.104457",
+    "citations": 0
+  },
+  {
+    "title": "IP60-20 THE RISING PRESENCE OF LARGE LANGUAGE MODEL–LIKE TEXT IN UROLOGY ABSTRACTS: A 15-YEAR BIBLIOMETRIC ANALYSIS",
+    "authors": [
+      "A. Arezki",
+      "James Tsui",
+      "A. Aprikian",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ae5f35fa1f066a6173d6e0994fc0c9a97f56365c",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191636.31928.db.20",
+    "citations": 0
+  },
+  {
+    "title": "Speed and Generalization Testing of a Graph-Neural-Network-based Cascading Blackout Model",
+    "authors": [
+      "J. Gorka",
+      "Line A. Roald"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ad5b1ed3ffdc950b3595eec0f42bb29d3489e4ee",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Power Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Ensuring the security of the power system against potentially catastrophic cascading failures involves the screening of an enormous space of potential initiating failures across various load and renewable generation profiles. As traditional engineering simulations are often too slow to efficiently cover this large space, a variety of machine-learning-based approaches have been proposed to quickly screen contingencies and identify risky conditions, showing promising initial results. However, the practical usefulness of these methods is strongly dependent on their inference speed and ability to generalize to unseen “out of distribution” load profiles and initiating contingencies. In this work, we conduct such testing on a previously-trained GNN-based blackout model, finding positive results in inference speed and generalization to unseen outages but surprisingly poor generalization to unseen load and generation profiles.",
+    "summary": "",
+    "doi": "10.1109/TPWRS.2026.3666698",
+    "citations": 0
+  },
+  {
+    "title": "3-D 1T-nC-1T Ferroelectric-Based KV Cache for Efficient Long-Context LLM Inference",
+    "authors": [
+      "Weikai Xu",
+      "Danyun Luo",
+      "Minyue Deng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/acbeee5002d55b6f03a7fe2e9774492379df30bd",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Electron Devices"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The storage and computation of key-value (KV) cache have become the primary bottlenecks in long-context large language models (LLMs). In this work, a novel ferroelectric (FE)-based KV cache through algorithm-architecture-device co-optimization is proposed and experimentally demonstrated. By co-optimizing with a token-wise dynamic pruning algorithm, a hybrid analog- digital computing-in-memory (CIM) architecture is designed for dynamically sparse KV cache workloads. To support the architecture in hardware, a novel disturb-free 3-D vertical 1T-nC-1T FeRAM structure is proposed, featuring orthogonally aligned word-lines (WLs) and bit-lines (BLs), along with shared multiple FE capacitor (FeCap) strings. The 3-D 1T-nC-1T FeRAM array can be utilized as a 1T-nC-based analog CIM (ACIM) with small-signal nondestructive read (NDR) for efficient similarity evaluation, and nC-1 T-based digital CIM (DCIM) with robust destructive read (DR) for exact attention computation. Moreover, the nC string-based data mapping and computing is further optimized, which can enhance computational parallelism and eliminate disturbance issue. Based on the above design, a 3-D <inline-formula> <tex-math notation=\"LaTeX\">$3\\times 32\\times 32$ </tex-math></inline-formula> Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> FeCap array is experimentally fabricated, exhibiting excellent memory metrics and demonstrating efficient and accurate attention computation. The comprehensive system-level analysis demonstrates that the proposed design achieves comparable accuracy to full attention while delivering up to <inline-formula> <tex-math notation=\"LaTeX\">$6\\times $ </tex-math></inline-formula>/<inline-formula> <tex-math notation=\"LaTeX\">$315\\times $ </tex-math></inline-formula> improved throughput and energy efficiency over NVIDIA A100, providing a promising solution for efficient long-context LLM inference on edge devices.",
+    "summary": "",
+    "doi": "10.1109/TED.2026.3670094",
+    "citations": 0
+  },
+  {
+    "title": "ARM: Autonomous Remediation and Management With LLM Agents for Intent-Driven Control",
+    "authors": [
+      "Vasilis Avgerinos",
+      "Kostas Ramantas",
+      "Luis Alonso",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ab67f489d02fe525c597df47c25a7bfcfc1758cd",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Cited: 2",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The growing complexity of cloud-native, edge, and internet of things (IoT) infrastructures has made manual configuration, fault remediation, and lifecycle management increasingly unsustainable. Traditional automation techniques—such as rule-based logic or bespoke machine learning pipelines—struggle with adaptability and explainability in dynamic environments. Recent advances in large language models (LLMs), however, have introduced new opportunities for autonomous, intent-driven infrastructure control. In this work, we present a closed-loop framework that integrates LLM agents for automated root cause analysis (RCA) and mitigation of faults within cloud–edge and IoT systems. When service-level agreement (SLA) violations are detected, the agent identifies likely root causes and selects corrective actions—such as pod rescheduling, scaling, or configuration updates—executed via a model context protocol (MCP) server exposing management tool functionalities through an application programming interface (API). This RCA-plus-mitigation loop enables fault handling that is both explainable and adaptive. We evaluate our system on a cluster running synthetic IoT workloads under emulated stressors using a reproducible benchmarking setup. Results show that the agent identifies SLA violations with 52.9% accuracy and mitigates 70.7% of them successfully. Notably, the agent incorporates validation steps to ensure system stability after interventions. These findings highlight the feasibility of LLMs for real-time infrastructure healing and their potential role in future artificial intelligence for IT operations (AIOps) workflows.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3648858",
+    "citations": 2
+  },
+  {
+    "title": "FLAGuard: Efficient Verifiable Federated LoRA of Large Language Models",
+    "authors": [
+      "Tianyou Zhang",
+      "Haiyang Yu",
+      "Yuwen Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a560f35e0f877569777eaea4ef99df1ebc45efbb",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "IEEE Transactions on Mobile Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Federated fine-tuning efficiently adapts large pre-trained models to new tasks by using additional data while minimizing re-training costs. This approach enhances data privacy and reduces computational demands but relies on a central server, often cloud-based, which is vulnerable to adversarial attacks that can compromise the aggregation process. We propose <inline-formula><tex-math notation=\"LaTeX\">${\\sf FLAGuard}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">FLAGuard</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq1-3641570.gif\"/></alternatives></inline-formula>, a novel and efficient verification scheme that specifically addresses these challenges in federated Low-Rank Adaptation (LoRA) settings. <inline-formula><tex-math notation=\"LaTeX\">${\\sf FLAGuard}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">FLAGuard</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq2-3641570.gif\"/></alternatives></inline-formula> is the first to introduce a two-stage verification process specifically designed for LoRA-based aggregation. In the first stage, the scheme independently verifies the correctness of the aggregated <inline-formula><tex-math notation=\"LaTeX\">$A$</tex-math><alternatives><mml:math><mml:mi>A</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq3-3641570.gif\"/></alternatives></inline-formula> and <inline-formula><tex-math notation=\"LaTeX\">$B$</tex-math><alternatives><mml:math><mml:mi>B</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq4-3641570.gif\"/></alternatives></inline-formula> matrices. In the second stage, it verifies the multiplication result of the aggregated <inline-formula><tex-math notation=\"LaTeX\">$A$</tex-math><alternatives><mml:math><mml:mi>A</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq5-3641570.gif\"/></alternatives></inline-formula> and <inline-formula><tex-math notation=\"LaTeX\">$B$</tex-math><alternatives><mml:math><mml:mi>B</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq6-3641570.gif\"/></alternatives></inline-formula> matrices, ensuring the correctness of the final LoRA parameters. Additionally, we introduce the Iterative Gradient Sampling and Convolutional Compression (IGSCC) technique, which combines probabilistic sampling with convolutional operations to efficiently reduce the dimensionality of gradient matrices. This enables secure verification without sacrificing model performance. Our comprehensive security analysis of <inline-formula><tex-math notation=\"LaTeX\">${\\sf FLAGuard}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">FLAGuard</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq7-3641570.gif\"/></alternatives></inline-formula> further establishes its reliability in federated learning environments. Extensive experimental results demonstrate that <inline-formula><tex-math notation=\"LaTeX\">${\\sf FLAGuard}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">FLAGuard</mml:mi></mml:math><inline-graphic xlink:href=\"yu-ieq8-3641570.gif\"/></alternatives></inline-formula> achieves over a <inline-formula><tex-math notation=\"LaTeX\">$100\\times$</tex-math><alternatives><mml:math><mml:mrow><mml:mn>100</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"yu-ieq9-3641570.gif\"/></alternatives></inline-formula> speedup in the aggregation verification phase and reduces communication overhead by more than 50% compared to state-of-the-art methods.",
+    "summary": "",
+    "doi": "10.1109/TMC.2025.3641570",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing the classification of metal-binding residue in proteins with retrieval-augmented generation, protein language models, and deep learning",
+    "authors": [
+      "Muhammad-Shahid Malik",
+      "Van-The Le",
+      "Yu-Yen Ou"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a3877a9ca41a64a986f9db0f476edd41d0eacd88",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Protein Language Model",
+      "Engineering applications of artificial intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.engappai.2026.114330",
+    "citations": 0
+  },
+  {
+    "title": "Contrastive Fidelity-Maximised Explanations for Graph-Based Rumour Detection",
+    "authors": [
+      "Daniel Wai Kit Chin",
+      "Roy Ka-Wei Lee"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a25cc4c3c1e3bf8a74775f921ccf85c81639b478",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Social media platforms have democratised information creation and dissemination by empowering users worldwide to reach vast audiences almost instantaneously. However, these platforms have also become vectors for spreading misinformation such as rumours. If left unchecked, rumours have the potential to cause great economic and political damage and even worsen public health crises. Automated rumour detection systems are imperative to deal with the volume and velocity of information being exchanged on these platforms. Graph Neural Network (GNN)-based approaches have recently emerged as state-of-the-art (SOTA) in automated rumour detection. Despite their performance, these models remain largely opaque, making explaining their predictions challenging, particularly when dealing with noisy social media data. Existing graph explainability techniques struggle to produce high-fidelity contrastive explanations when presented with such noisy data especially when dealing with a multiclass classification problem. To address the issue of noise susceptibility, we propose a novel framework to maximise both contrastivity and fidelity by reframing the explanation task as a maximum margin optimisation problem. Specifically, we impose constraints on explanation set membership and on the influence difference of the prediction explanation set to each other class explanation set. Extensive experiments on real-world datasets show that the proposed method outperforms SOTA methods.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3673065",
+    "citations": 0
+  },
+  {
+    "title": "ADAP-GNN: Adaptive property-aware graph neural network for intrusion detection in IoT networks",
+    "authors": [
+      "Mortada Termos",
+      "Zakariya Ghalmane",
+      "Mohamed-el-Amine Brahmia",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9ba6f04d06d6f4b0ff417db999134048367fa7fe",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Computers & electrical engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.compeleceng.2026.111051",
+    "citations": 0
+  },
+  {
+    "title": "Enhanced human factor and causation analysis in maritime accidents using large language models",
+    "authors": [
+      "Yunhan Hao",
+      "Huadong Li",
+      "Shanshan Fu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/96a175155281f6270d8ad025a6599c85899ddb27",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Ocean Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.oceaneng.2026.125125",
+    "citations": 0
+  },
+  {
+    "title": "A Full-Stack Framework for GNN Acceleration via Partition–Compiler–Architecture Co-Design",
+    "authors": [
+      "Yangjie Zhou",
+      "Zhihui Zhang",
+      "Shuwen Lu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9254c90deee6207dd72d6aa9dabb50d234fc6a92",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph neural networks (GNNs) have achieved remarkable success across domains such as recommendation and scientific computing, yet their practical deployment remains constrained by high execution cost. The diversity of GNN model structures and the sparsity of real-world graphs pose two fundamental challenges for hardware acceleration: supporting heterogeneous operator patterns and achieving high resource utilization under irregular data access. Existing accelerators often address only one aspect, either targeting specific models with hardwired pipelines or applying general architectures with limited efficiency. To address these challenges, we proposeSwitchBlade, a full-stack framework for GNN acceleration through the coordinated design of partitioning, compilation, and architecture.SwitchBlade addresses these challenges through three key components. First, a phase-based intermediate representation unifies diverse GNN models by abstracting computation stages for model-independent code generation. Second, a fine-grained graph partitioner (GP) enhances data locality and reduces memory traffic by adapting to graph topology and model semantics. Third, the hardware architecture supports stream-level parallelism and decoupled execution to exploit cross-shard and inter-phase concurrency. Evaluation on representative models and datasets shows thatSwitchBlade achieves up to $1.85\\times $ speedup and $19.03\\times $ energy savings over an NVIDIA V100 GPU, while outperforming state-of-the-art GNN accelerators (GAs) across diverse full-graph workloads, demonstrating both high efficiency and broad model generality.",
+    "summary": "",
+    "doi": "10.1109/TCAD.2025.3610582",
+    "citations": 0
+  },
+  {
+    "title": "A GNN-boosted reinforcement learning framework for maintenance optimization in multi-dependency manufacturing system",
+    "authors": [
+      "Jiangxi Chen",
+      "Xiaojun Zhou"
+    ],
+    "link": "https://www.semanticscholar.org/paper/91ed31f8277c6d04339c4bf30e743490819f2f9d",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Reliability Engineering & System Safety"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ress.2025.112087",
+    "citations": 1
+  },
+  {
+    "title": "Geometric Partition for Billion-Scale Approximate Nearest Neighbor Search",
+    "authors": [
+      "Yujian Fu",
+      "Cheng Chen",
+      "Yao Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8dc847cb6de038c81052663110005094a0bb38f0",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large-scale approximate nearest neighbor search (ANNS) has become a fundamental operation in a wide range of modern applications, including recommendation systems and large language models. Partition-based indexes have emerged as a popular solution for billion-scale ANNS tasks, serving as the basis for many ANNS approaches. However, our analysis indicates that, to achieve optimal search performance on billion-scale datasets, an extremely large number of partitions (tens or even hundreds of millions) is often required for fine-grained partitioning of the feature space. Relying on full-precision distance calculations for constructing and querying such a large number of partitions imposes significant time costs. In this work, we propose a novel geometric distance inference mechanism that leverages geometric relationships to expedite distance computations between the vector and space partitions. By reusing intermediate or offline-computed distance information, this method substantially reduces the overhead of full-precision calculations. We also introduce a clustering paradigm for generating space partitions that incorporates this geometric distance pattern, which can be seamlessly integrated with other indexing schemes such as vector quantization and proximity graphs. Through detailed complexity analysis and extensive experiments on billion-scale datasets, we confirm the efficiency of our geometric index (GI) design. Empirical results show that GI-based solutions consistently surpass various baseline methods on search efficiency. In particular, they offer considerable acceleration (exceeding a factor of 2.0) at high recall levels (e.g., Recall10@10 = 95%) to partition-based solutions, while also demonstrating comparable or superior query throughput relative to leading graph-based indexes.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3667997",
+    "citations": 0
+  },
+  {
+    "title": "Autoregressive Meta-Actions for Unified Controllable Trajectory Generation in Autonomous Driving",
+    "authors": [
+      "Jianbo Zhao",
+      "Taiyu Ban",
+      "Xiyang Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8da015e2ed91a8b67341eecccbc0663cff6d5fe7",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE Robotics and Automation Letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Generating trajectories from high-level commands is critical for autonomous driving, but prevailing methods suffer from a flaw we term semantic misalignment. By associating long trajectories with a single, static meta-action (e.g., “lane change”), these methods corrupt training data during maneuver transitions, hindering the learning of robust command-following. To resolve this, we propose the Autoregressive Meta-Action (AMA) framework, a novel formulation that operates at a frame-wise level. It autoregressively predicts the joint distribution of the next-step meta-action and its corresponding state, ensuring strict semantic alignment at every timestep. We implement this framework using a flexible modular architecture where lightweight modules are fine-tuned atop a pre-trained foundation model. This modular design drastically reduces training costs for new commands and enables seamless switching between autonomous and command-following modes. We support our research by releasing an expanded Waymo Open Motion Dataset with dense, frame-level meta-action labels and validate our method’s efficacy on real-world test vehicles.",
+    "summary": "",
+    "doi": "10.1109/LRA.2026.3681117",
+    "citations": 0
+  },
+  {
+    "title": "Reliable Federated Multi-View Learning for Heterogeneous Information Fusion in Mobile Edge Computing",
+    "authors": [
+      "Daoyuan Li",
+      "Zuyuan Yang",
+      "Jiawen Kang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8cc90d843be047a9e8f47a8e3e498a2c59bd4f4f",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Mobile Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rising data demands of generative AI models, such as large language models (LLMs), underscore the value of utilizing edge device data in mobile computing, where federated learning (FL) provides a privacy-preserving approach via decentralized model training. To address data heterogeneity across edge devices, federated multi-view learning (FedMVL) has been proposed to improve global model performance by capturing consistency and complementarity among diverse data views. However, existing methods often assume ideal conditions and neglect data uncertainty in mobile edge devices environments. To overcome these challenges, we propose Federated Reliable Multi-view Classification (FedRMVL), a vertical FedMVL framework incorporates Subjective Logic for lightweight uncertainty quantification at local edge devices and applies the Dempster-Shafer combination rule for adaptive and reliable multi-view opinion fusion at the server. Additionally, a partial parameter-sharing strategy is introduced to address feature dimension heterogeneity during federated optimization. The effectiveness and robustness of FedRMVL are validated through theoretical analysis and extensive experiments on real-world datasets.",
+    "summary": "",
+    "doi": "10.1109/TMC.2025.3640705",
+    "citations": 0
+  },
+  {
+    "title": "G-514 Advancing Patient Health Literacy in Kidney Transplantation With Advanced Large Language Models",
+    "authors": [],
+    "link": "https://www.semanticscholar.org/paper/89ca8c575f665af530df737a8bdec25916cec70d",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "American Journal of Kidney Diseases"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1053/j.ajkd.2026.02.515",
+    "citations": 0
+  },
+  {
+    "title": "Data and Computation Efficient Structural Nonlinear System Identification via Meta-Learning of a Foundation Model",
+    "authors": [
+      "Shanwu Li",
+      "Yongchao Yang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/88a18390b9eefdd807d0c29bd251472a0aab03a9",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Journal of computing in civil engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1061/jccee5.cpeng-7101",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating low-cost, local large language models for oncology documentation: A pilot study using a tiered, clinical utility framework",
+    "authors": [
+      "Josie D. Llanora",
+      "M. Brackmann",
+      "Maya M. Hammoud",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/85d9fa09d493020a89bb8287252735bc682b33f9",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Gynecologic Oncology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ygyno.2026.01.321",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing agent's robustness in reinforcement learning via foundation models and domain randomization",
+    "authors": [
+      "Wissam Salhab",
+      "Fehmi Jaafar",
+      "Hamid Mcheick",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8598ef30a6cba6fdb5122d303c8bd839c5b2a51d",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Agent",
+      "Neurocomputing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.neucom.2026.133133",
+    "citations": 0
+  },
+  {
+    "title": "Future Factories With 6G: Agentic AI and Cyber–Physical Digital Twins",
+    "authors": [
+      "Haiyuan Li",
+      "Hari Madhukumar",
+      "Nicholas Methley",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/842adda52d70008a0a9651c85f5d08a7b12f79df",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Industry 5.0 envisions a cyber–physical future where humans and robots collaborate harmoniously, empowered by 6G connectivity and intelligent automation. Central to this vision is the ability to autonomously configure complex production pipelines based on diverse and evolving human intents. Existing orchestration technologies exhibit critical shortcomings in terms of self-learning, validation, error diagnosis, and rectification capabilities. To this end, we propose an Agentic AI orchestration framework that interprets human intents and dynamically assembles optimal technology pipelines using a self-improving, retrieval-augmented large language model (LLM) and a Bayesian contextual-bandit selector. This enables dynamic adaptation in unpredictable factory environments. Our solution is validated in a cyber–physical testbed integrating digital twins (DTs), distributed AI, robotics, and real-world network infrastructure. Compared to baseline LLMs, our system reduces orchestration iterations by over 94% for a given intent and by around 90% for an unseen intent, showing rapid convergence and strong generalization. Real-world deployments mirror DT results, confirming both the fidelity of the simulation and the practical value of intent-driven orchestration for human-centric manufacturing.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3623075",
+    "citations": 1
+  },
+  {
+    "title": "Integrating large language models (LLMs) into printing process optimization for binder jetting printed Ti-6Al-4V",
+    "authors": [
+      "Yuhang Qian",
+      "Xia Luo",
+      "Qianlong Wei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e146cc0b27e1934706a899ba22a730288ef4c77",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Powder Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.powtec.2026.122295",
+    "citations": 0
+  },
+  {
+    "title": "Advancing Lung Cancer Imaging with Self-Supervised Foundation Models",
+    "authors": [
+      "D. Varona Porres"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7887b85f55356bd1ba36671e5a22743eef1a8b62",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Radiology: Imaging Cancer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1148/rycan.260078",
+    "citations": 0
+  },
+  {
+    "title": "IP57-27 EVALUATING THE FIDELITY OF LARGE LANGUAGE MODEL OUTPUTS FOR PATIENT-FACING UROLOGIC QUERIES: A COMPARATIVE ANALYSIS OF GENERAL VS. RETRIEVAL-AUGMENTED GENERATION (RAG) ARCHITECTURES",
+    "authors": [
+      "Archan Khandekar",
+      "Nikita Sharma",
+      "Pedro F. S. Freitas",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/77ca9be3f610213344d21a860def2eff5a79fd4a",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191624.06470.8f.27",
+    "citations": 0
+  },
+  {
+    "title": "GG01-30 AUTOMATING CLAVIEN-DINDO CLASSIFICATION WITH LARGE LANGUAGE MODELS: A FASTER AND MORE RELIABLE WAY FOR DATA COLLECTION",
+    "authors": [
+      "Gustavo Monteiro Perrone De Oliveira",
+      "A. Danilovic",
+      "Lucas Dias",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/77243ff7da63582e4f2f2472ed30c8245dcf8087",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191268.85865.a2.30",
+    "citations": 0
+  },
+  {
+    "title": "A novel large language model–inspired transformer framework for reconstructing subsurface soil properties at untested locations from sparse cone penetrometer test data",
+    "authors": [
+      "Qianbiao Liu",
+      "M. Bertolacci",
+      "Fraser Bransby",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/76c4a6513fa7737b8a09fe727116299ebc7beb5e",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Computers and geotechnics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.compgeo.2026.107986",
+    "citations": 0
+  },
+  {
+    "title": "Task-specific knowledge distillation from the vision foundation model for enhanced medical image segmentation",
+    "authors": [
+      "Pengchen Liang",
+      "Haishan Huang",
+      "Bin Pu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7653bd30904d60231a204a7b658e9799121ac71c",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Knowledge-Based Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.knosys.2026.115713",
+    "citations": 0
+  },
+  {
+    "title": "315. Estimating Therapeutic Alliance From Clinical Interview Sessions With Large Language Models: A PREDiCTOR Study",
+    "authors": [
+      "J. Colonel",
+      "Bailey Todtfeld",
+      "Débora González",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/72f96d8a38cae6af92a0a21d783b2891139eae2a",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Biological Psychiatry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.biopsych.2026.03.549",
+    "citations": 0
+  },
+  {
+    "title": "MotionVL: Vision-Language Supervision for Reinforcement Learning of Humanoid Motion",
+    "authors": [
+      "Yan Luo",
+      "Jianhua Wu",
+      "Zhenhua Xiong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6fe30fe94221ee67d95613fc94ee2c549eab7602",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Robotics and Automation Letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Reward function design remains a fundamental challenge in reinforcement learning of humanoid robots, where handcrafted rewards often fail to capture human-like behavior, limit generalization, and require costly manual tuning. Addressing this bottleneck is essential for enabling scalable, adaptive, interpretable, and robust humanoid motion control. In this work, MotionVL, a novel framework for humanoid motion reinforcement learning that leverages multimodal large models to automate reward generation and semantic supervision, is proposed. A Vision-Language Model (VLM) encodes visual observations into structured natural language descriptions, while a Large Language Model (LLM) generates task-aligned reward functions based on these descriptions and the given instructions. This closed-loop design supports dynamic reward optimization and behavior alignment across diverse motor skills. We validate MotionVL through simulations of bipedal jumping, single-leg balancing, running, and real-world deployment of straight-leg walking, which demonstrates higher task success rates, improved robustness to external pushes, better energy efficiency, and superior stability and human-likeness over handcrafted and LLM-only baselines, thereby establishing a scalable paradigm for language-informed humanoid motion learning.",
+    "summary": "",
+    "doi": "10.1109/LRA.2026.3669793",
+    "citations": 0
+  },
+  {
+    "title": "Automatic Analysis of Political Discourse: A Comparative Study of Multilingual and Large Language Models",
+    "authors": [
+      "Ayaulym Sairanbekova"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6fa2534d53b056f892057d1a64ae37819ec3b0c7",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Applied Data Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.47738/jads.v7i2.1118",
+    "citations": 0
+  },
+  {
+    "title": "CSLLM: Code-Specific Large Language Models - A Survey",
+    "authors": [
+      "Jayesh Umre",
+      "Ashish Singh Parihar",
+      "Atul Gupta"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6e0618b88d3545f5dc0574bc756f5d8d6500d820",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Expert systems with applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.eswa.2025.130991",
+    "citations": 0
+  },
+  {
+    "title": "Can LLMs Be Effective Sensor Processing Copilots?",
+    "authors": [
+      "Pengrui Quan",
+      "Xiaomin Ouyang",
+      "J. Jeyakumar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6d48358ef21de479501b46bac99e05a0014dcc08",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Effective sensor data processing is critical for cyber-physical and Internet of Things (IoT) systems, but often requires specialized expertise. While large language models (LLMs) show promise as autonomous copilots for sensor processing, their capabilities remain underexplored. We introduce SensorBench, the first comprehensive benchmark for evaluating LLMs across diverse real-world sensor datasets and tasks. SensorBench evaluates three paradigms for leveraging LLMs in sensing tasks: tool-augmented coding (TAC), standalone coding (SAC), and direct answer (DA). We evaluate 8 leading LLM variants, including 2 large reasoning models (LRMs) and 2 domain-specific LLMs, providing a structured reference for absolute performance, latency, and resource requirements. Our analysis reveals that: 1) TAC significantly outperforms SAC and DA; 2) LLMs excel at simple tasks but consistently underperform domain experts on compositional tasks requiring parameter tuning and multistep reasoning; and 3) the reasoning mechanism introduced in LRMs does not yield substantial performance gains. To improve the performance, we explore four prompting strategies and fine-tuning approaches (using our newly released sensor-processing corpus). The results show that self-verification prompting proves most effective, outperforming other methods simultaneously in 48% of tasks, while fine-tuning yields marginal gains. Our analysis suggests that more sophisticated interaction frameworks, such as signal-level self-verification, may bridge the gap to human expert-level performance. This benchmark provides a foundation for evaluating and improving LLMs in sensing applications https://github.com/nesl/LLM_sensor_processing",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3664751",
+    "citations": 0
+  },
+  {
+    "title": "Source discipline matters: Guideline-anchored large language model beats open evidence for decision support in gynecologic oncology",
+    "authors": [
+      "D. Dukes",
+      "J. Farley",
+      "McKenna Yost",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6cb7fbc9cd5f6eb4eb228e563c760cb645375241",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Gynecologic Oncology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ygyno.2026.01.276",
+    "citations": 0
+  },
+  {
+    "title": "A Survey of Deep Learning for Time Series Forecasting: Taxonomy, Analysis and Future Directions",
+    "authors": [
+      "Qi Guo",
+      "Baolin Zhao",
+      "Mingchen Song",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6c3ac8601725eee127fb85e1677ef895e22b8118",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As a critical branch of time series analysis, time series forecasting (TSF) focuses on predicting future trends based on historical data, and it plays a pivotal role in a wide range of applications, including meteorology, finance, and healthcare. Recently, deep learning has demonstrated significant potential in TSF. While several existing surveys have systematically summarized deep learning-based methods, we complement these foundational works by investigating emerging models, such as large language models (LLMs), and providing an in-depth comparative analysis of distinct models alongside the challenges currently facing the field. Specifically, we propose a hierarchical taxonomy based on model structural dependency, categorizing existing studies into model-specific and model-agnostic frameworks. The model-specific framework is further divided into discriminative and generative paradigms, accompanied by a detailed comparison of these distinct model types. Moreover, we systematically review prevalent time-series datasets across diverse domains, analyze their key statistics, and summarize evaluation metrics. Finally, we analyze the key challenges currently faced by TSF and explore potential future research directions. Through this systematic review and forward-looking analysis, we aim to provide novel perspectives and establish a clear classification framework of TSF methods.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3671378",
+    "citations": 0
+  },
+  {
+    "title": "Terafly: A Multinode FPGA-Based Accelerator Design for Efficient Cooperative Inference in LLMs",
+    "authors": [
+      "Jianing Zheng",
+      "Gang Chen",
+      "Libo Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6b5c749849b3bbdd49c22f4ca699d898db3e7c5b",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In this article, we propose Terafly, a multinode accelerator design tailored for efficient large language model (LLM) deployment and inference. Conventional accelerator architectures struggle to effectively handle both the prefill and decode stages during inference. To address this limitation, we introduce a hybrid spatial-temporal architecture that combines the high-throughput advantages of spatial architectures with the flexibility of temporal architectures, enabling it to accommodate the diverse inference patterns of LLMs. In addition, we propose a generation framework to streamline the customization of our LLM-friendly design for various deployment scenarios. Within this framework, users can specify their requirements such as model type, target platform, and performance goals. The framework then generates multiple accelerator nodes and maps them to distinct super logic regions (SLRs) within a single FPGA, enabling cooperative inference under a model parallelism scheme. Through experiments, our generated accelerator can be easily deployed on both Alveo U250 and U50lv cards, serving models ranging from OPT-350M to OPT-1.3B under various performance settings. Notably, when running OPT-1.3B using the generated dual-node accelerator on a single Alveo U50lv card, we achieve an average $1.1\\times $ speed-up and a $3.4\\times $ improvement in energy efficiency compared to the Nvidia A100 GPU.",
+    "summary": "",
+    "doi": "10.1109/TCAD.2025.3616078",
+    "citations": 1
+  },
+  {
+    "title": "SmartLLM: Multidimensional Dataset Generation via LLM Simulation in Smart Home",
+    "authors": [
+      "Huanke Zheng",
+      "Rui Wang",
+      "Qin Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6a030678d0c522dd0873460f5277d99d05e16d69",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Human activity prediction (HAP) is crucial for enabling intelligent smart home services; yet, it is often hindered by the scarcity of high-quality, multidimensional datasets. Existing datasets are typically fragmented, capturing either long-term activity sequences or short-term device interactions, but rarely both in a unified manner. Traditional data collection methods are costly and time-consuming, while conventional simulation techniques struggle to generate diverse and logically coherent behavior sequences. To address these limitations, we propose SmartLLM, a novel large language model (LLM)-based simulation framework for automated generation of multidimensional smart home datasets. SmartLLM simulates simulated agents with distinct profiles (e.g., old man, remote worker, and holiday maker) performing daily activities within configurable home environments, generating temporally aligned sequences across activity-device-sensor dimensions. We generate two months of simulated data for three user profiles and validated their plausibility through activity distribution visualization, statistical perplexity analysis, and case studies. Multidimensional feature validation experiments further demonstrate that our multidimensional data significantly enhances the accuracy of activity prediction models compared to using single-dimensional features. This work successfully addresses key bottlenecks in smart home data acquisition and provides a scalable, high-quality data foundation for advancing smart home algorithm research. The code is available at: https://github.com/HuankeZheng/SmartLLM",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3663651",
+    "citations": 0
+  },
+  {
+    "title": "Intent-Based Resource Allocation for Internet of Musical Things: A Dual-Time-Scale Framework",
+    "authors": [
+      "Ke Zhang",
+      "Jiajia Li",
+      "Zhonghua Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/668ebd06d481eac427313a400d653eecc5ce8445",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Internet of Musical Things (IoMusT) environments face escalating resource allocation challenges as interconnected musical devices demand sophisticated quality of service guarantees for diverse applications spanning real-time streaming, collaborative composition, and immersive audio experiences. Traditional allocation methods prove inadequate for accommodating the heterogeneous performance requirements that characterize modern musical networking scenarios where content creation, distribution, and consumption occur across distributed device ecosystems. This article addresses these limitations through musical intent-driven dual-time-scale resource allocation (MIDTRA). The intent-based resource allocation framework enables natural language specification of musical requirements while optimizing network resource distribution through coordinated temporal mechanisms. The framework architecture combines large language model capabilities for translating musical intent expressions into technical parameters with a dual time-scale optimization strategy that operates across complementary planning horizons. Strategic resource planning employs competitive dual deep Q-network algorithms for managing inter-slice allocation across musical service categories, while tactical optimization utilizes mixed integer linear programming for fine-grained intra-slice resource management targeting individual applications. Experimental evaluation against six baseline methods demonstrates MIDTRA’s superior performance across multiple dimensions. Compared to baseline methods, the framework achieves 47.3% performance improvement over traditional approaches in small-scale musical networks and 56.2% enhancement in large-scale deployments. Musical intent translation achieves 96.8% accuracy across diverse professional scenarios, while maintaining 94.7% performance consistency across varying operational conditions, validating MIDTRA’s effectiveness for next-generation IoMusT implementations.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3643998",
+    "citations": 0
+  },
+  {
+    "title": "Large Language model assisted reinforcement learning for robotic scanning measurement path planning of Large-Scale component",
+    "authors": [
+      "Zijie Zhao",
+      "Linayu Zheng",
+      "Xuexin Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/658784ce8f8050a02862f9d08fbc93ce9cea9ed3",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Measurement"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.measurement.2026.121217",
+    "citations": 0
+  },
+  {
+    "title": "CID4IoT: IoT-Oriented Command Injection Vulnerability Detection Based on Critical Code Extraction and LLM Analysis",
+    "authors": [
+      "Zhao Huang",
+      "Zhenji Zhou",
+      "Lei Song",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/62af42bd42bfb0fd25b8e20913d002959d077176",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Internet of Things (IoT) devices have brought invaluable convenience to our daily lives. However, they also introduce significant security challenges. Common vulnerabilities in numerous IoT devices predominantly reside in their web services. Unfortunately, existing vulnerability detection methods either incur heavy execution overhead or produce excessive false positives (FPs)/false negatives (FNs). This significantly hinders the efficient analysis of vulnerabilities in web services. This article proposes CID4IoT, a novel static automated vulnerability detection approach designed to effectively detect command injection vulnerabilities in web services provided by IoT devices. Inspired by the concept of taint analysis, CID4IoT first analyzes vulnerability reports to identify taint source functions and sink functions. Then, CID4IoT extracts pseudocode between taint source functions and sink functions to form critical code snippets. Subsequently, it utilizes a large language model (LLM) to analyze these critical code snippets for vulnerability detection. We implemented a prototype of CID4IoT and evaluated it on real firmware devices. CID4IoT discovered 54 previously unknown vulnerabilities, of which 39 are confirmed by CVE. Compared with state-of-the-art tools KARONTE and SaTC, it identified significantly more vulnerabilities in the test set while achieving notable improvements in analysis efficiency. The results demonstrate that CID4IoT is effective in detecting flaws in IoT devices.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3662325",
+    "citations": 0
+  },
+  {
+    "title": "IP04-17 FIRST FULLY AUTOMATED, MULTI-MODAL, LARGE-LANGUAGE-MODEL–DRIVEN PROSTATE CANCER REGISTRY INTEGRATING BIOPSY, MRI, OPERATIVE, AND PATHOLOGY REPORTS",
+    "authors": [
+      "S. Younis",
+      "K. Dortche",
+      "S. Patel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6205c00103519b3f44c54cdee27839e4ef8401bc",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191284.35857.1d.17",
+    "citations": 0
+  },
+  {
+    "title": "IP75-23 LOCALLY DEPLOYED LARGE LANGUAGE MODEL OUTPERFORMS MANUAL ABSTRACTION FOR EXTRACTING OPERATIVE DETAILS FROM ROBOTIC RADICAL PROSTATECTOMY NOTES",
+    "authors": [
+      "S. Younis",
+      "K. Dortche",
+      "S. Patel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/610bb024e7a5a8eb6e79a9a9be8220b5704d2e41",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191736.00924.0f.23",
+    "citations": 0
+  },
+  {
+    "title": "Clinical Intent-Based Networking Automation: A Large-Language-Model-Enhanced Framework for Healthcare Infrastructure Management",
+    "authors": [
+      "Lihui Fang",
+      "Yangyu Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6012cd93fd1de1a58dd4deee635fbd9734a3916f",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Traditional healthcare network management approaches struggle to meet the demands of modern medical environments, where clinical professionals require network infrastructure that responds dynamically to patient care priorities, emergencies, and regulatory compliance requirements without requiring specialized networking expertise. This article proposes the healthcare intent translation network (HITN) framework that addresses these limitations by integrating advanced large-language-models (LLMs) with healthcare-specific intent processing capabilities. The HITN architecture leverages software-defined networking (SDN) principles adapted for medical environments, incorporating four hierarchical layers that transform clinical natural language requests into executable network policies through intent parsing, policy generation, and safety validation mechanisms. Medical intent parsing uses fine-tuned LLMs trained on healthcare-specific datasets to understand clinical terminology, medical abbreviations, and healthcare workflow contexts. Clinical policy generation algorithms optimize network resource allocation while ensuring compliance with medical data protection regulations and emergency response requirements. Healthcare safety validation mechanisms perform comprehensive verification against medical standards and clinical best practices. Simulation evaluation reveals that the HITN framework performs better than six established baseline methods across multiple healthcare networking scenarios. Emergency response analysis demonstrates 35%–45% faster reconfiguration times during critical medical situations, while scalability testing shows sustained performance supporting up to 200 concurrent clinical applications.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3640674",
+    "citations": 0
+  },
+  {
+    "title": "Large language model enhanced parameter identification of photovoltaic cells",
+    "authors": [
+      "Zhengxun Guo",
+      "Xiaoshun Zhang",
+      "Jincheng Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5f779fd56f34c5a075da75718f80ce100d4466e3",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Solar Energy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.solener.2026.114447",
+    "citations": 0
+  },
+  {
+    "title": "G-603 Leveraging Large Language Models to Identify Barriers to Kidney Transplant in the STEPS Study",
+    "authors": [],
+    "link": "https://www.semanticscholar.org/paper/5e67841bf2069671cf5e9d90590b73987c7100d0",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "American Journal of Kidney Diseases"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1053/j.ajkd.2026.02.604",
+    "citations": 0
+  },
+  {
+    "title": "ONCO-RADS–guided Large Language Models for Extraction and Classification of Incidental Findings on Whole-Body Imaging Reports",
+    "authors": [
+      "Mickael Tordjman",
+      "Murat Yuce",
+      "Zelong Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5e2db9a40fa293f0dfc1912e453879decbb5bd70",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Radiology: Imaging Cancer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The large language models ChatGPT-o1 and Gemini-2.5-Pro, guided with Oncologically Relevant Findings Reporting and Data System (ONCO-RADS) prompts, accurately extracted and classified incidental findings from whole-body imaging reports and outperformed these strategies without ONCO-RADS prompts and the medical named entity recognition model.",
+    "summary": "",
+    "doi": "10.1148/rycan.250484",
+    "citations": 0
+  },
+  {
+    "title": "An end-to-end automated framework for pavement crack detection and dimensional quantification using foundation models and learned skeletonization",
+    "authors": [
+      "C. Cai",
+      "Yong Deng",
+      "Zhiliang Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/586acdcdc9868bb7716a2ad7ba086a91b2aa927c",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Engineering applications of artificial intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.engappai.2026.114239",
+    "citations": 0
+  },
+  {
+    "title": "265. Synthetic Delusions Arise From Common Cause Inference in Large Language Models",
+    "authors": [
+      "M. Schafer",
+      "E. Larsen",
+      "Jordyn K. Nimmer",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/56f0ec4db92d761c1787f06a9447938514e330ea",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Biological Psychiatry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.biopsych.2026.03.499",
+    "citations": 0
+  },
+  {
+    "title": "IP04-01 ASSISTANCE OF LARGE LANGUAGE MODEL-BASED AI AGENT IN PREOPERATIVE COMMUNICATION REDUCES ANXIETY OF PROSTATE CANCER PATIENTS AND WORKLOAD OF CLINICIANS: A PROSPECTIVE, RANDOMIZED, PHASE II TRIAL",
+    "authors": [
+      "Zheng Liu",
+      "Hua Xu",
+      "Bo Dai"
+    ],
+    "link": "https://www.semanticscholar.org/paper/50d65e81c80a508e4739c4925ac85bf78d5a401e",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191284.35857.1d.01",
+    "citations": 0
+  },
+  {
+    "title": "TransFM: A foundation model for cross-city multimodal transportation demand prediction",
+    "authors": [
+      "Zhihuan Jiang",
+      "Ailing Huang",
+      "Renhe Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4fa6a840b4bc5a410e75033233bed32dd0bed5f8",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transportation Research Part C: Emerging Technologies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.trc.2026.105618",
+    "citations": 0
+  },
+  {
+    "title": "PowerMistral: A data-efficient wind power forecasting framework leveraging pre-trained large language models",
+    "authors": [
+      "Qinglin Meng",
+      "Yuan Gao",
+      "Ying He",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f9a6271c2a1ba9dfbf8255d287f24c2c3258053",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 4",
+      "Applied Energy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.apenergy.2026.127625",
+    "citations": 4
+  },
+  {
+    "title": "Large language model-assisted multi-objective optimization for an integrated multimodal e-mobility platform",
+    "authors": [
+      "Yue Ding",
+      "Mayug Maniparambil",
+      "Noel E. O'Connor",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/49754d57adbd9609db5d70556a7a939ab46b92bb",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Transportation Research Interdisciplinary Perspectives"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.trip.2026.101948",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal large language model-driven framework for road crack assessment",
+    "authors": [
+      "Haoyang Zhang",
+      "Xiao Pan",
+      "Mahdi Asgarinejad",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/48f742d5b42f54bd473d3ef1cb434f28397adaf6",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Automation in Construction"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.autcon.2026.106872",
+    "citations": 1
+  },
+  {
+    "title": "COTVD: A function-level vulnerability detection framework using chain-of-thought reasoning with large language models",
+    "authors": [
+      "Yinan Chen",
+      "Xiangping Chen",
+      "Yuan Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/46e865fe1621748050d202a10105dd4a2cdcb029",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Information and Software Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.infsof.2026.108043",
+    "citations": 0
+  },
+  {
+    "title": "EN-thinking: Enhancing entity-level reasoning in large language models for knowledge graph completion",
+    "authors": [
+      "Yaoyu Chang",
+      "Tao Gao",
+      "Ziqi Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/442654d8a5992254d867a07dbcc92eda86e44c29",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Knowledge-Based Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.knosys.2026.115765",
+    "citations": 0
+  },
+  {
+    "title": "Emergent symbolic cognition in Large Language Models via memory capsules",
+    "authors": [
+      "Johan Quilbé"
+    ],
+    "link": "https://www.semanticscholar.org/paper/432050aa354cb2bb0e2ef6a39d660fe7c0505ca5",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Comput. Hum. Behav. Artif. Humans"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.chbah.2026.100300",
+    "citations": 0
+  },
+  {
+    "title": "A comparison between performance of a large language model and manual chart review of imaging reports for determination of disease progression in endometrial cancer patients treated with immunotherapy",
+    "authors": [
+      "Antalya Jano",
+      "Ferris Hussein",
+      "R. Belenkaya",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3f61b137d590ae23783023a89ec3b724ad650fcf",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Gynecologic Oncology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.ygyno.2026.01.539",
+    "citations": 0
+  },
+  {
+    "title": "IP53-12 AUTOMATING STANDARDIZATION OF PROSTATE CANCER BIOPSY AND HISTOPATHOLOGY REPORTS WITH PRIVACY-PRESERVING LOCAL LARGE LANGUAGE MODELS",
+    "authors": [
+      "Rohit Malyala",
+      "Takeshi Namekawa",
+      "M. Mannas"
+    ],
+    "link": "https://www.semanticscholar.org/paper/398f443b69b624572f66b3720e7806714a122da2",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191596.81673.db.12",
+    "citations": 0
+  },
+  {
+    "title": "LaGraph: Laplacian-Guided Graph Learning for Time Series Anomaly Detection",
+    "authors": [
+      "Shicong Zeng",
+      "Guoqing Chao",
+      "Junquan Wei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/359251bac4fd2645d9739047b9bdbc8ee978f4ad",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Time series anomaly detection is crucial in fields such as industrial monitoring, financial risk management, and network security. Graph Neural Networks (GNNs) have demonstrated strong capabilities in capturing multivariate dependencies. However, existing methods often fail to adequately account for the temporal proximity between adjacent time points and are susceptible to the influence of weak or noisy connections during graph-based representation learning. To address these challenges, we propose LaGraph, a novel framework that integrates GNNs with a mask-optimized attention mechanism. Specifically, LaGraph decomposes input sequences into stable and trend components using an Expert Decomposition Block. The trend component is processed via a Multi-layer Convolution Block, while the stable component is modeled with a Proximity-enhanced Graph Convolutional Network that incorporates a Laplacian kernel to capture local temporal dependencies. Additionally, a Mask-optimized Multi-head Attention Block, based on the Straight-Through Estimator (STE), mitigates the negative effects of less informative edges, enhancing both representation quality and reconstruction performance. Extensive experiments on five real-world benchmark datasets demonstrate that LaGraph consistently outperforms state-of-the-art methods, verifying its effectiveness and superiority for time series anomaly detection.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3665696",
+    "citations": 0
+  },
+  {
+    "title": "Toward Intelligent Microfluidics: An LLM-Based Droplets Controlling Framework",
+    "authors": [
+      "Fang Li",
+      "Zelin Wang",
+      "Dianhua Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/34c0d60467ccaab3bbc8e55dc72a542fdbe351c1",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Robotics and Automation Letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Digital microfluidics (DMF) is a versatile platform that enables parallel droplet operations and on-site programmable control, where droplet routing is a critical challenge for achieving automation. To enable automatic path generation from source to target electrodes and process-level feedback correction, this study proposes an adaptive intelligent control framework based on large language models (LLMs). The framework integrates language-guided topological map reconstruction, LLM-based path planning, and a dual closed-loop feedback mechanism to achieve high-precision droplet manipulation. To alleviate the spatial hallucination issues of LLMs in spatial reasoning such as discontinuous path planning and out-of-bound errors, a linguistic topological map reconstruction method is designed, improving path generation accuracy by 23.4% in complex obstacle environments compared to conventional spatial representations. In addition, a dual closed-loop feedback strategy is proposed, consisting of model self-correction feedback and camera-based image feedback, which enables real-time correction of routing deviations and enhances operational stability. Experimental results demonstrate that the proposed framework achieves 100% task success across various droplet distribution scenarios, significantly advancing the intelligence of microfluidic operations and providing a promising foundation for fully autonomous DMF systems.",
+    "summary": "",
+    "doi": "10.1109/LRA.2026.3674635",
+    "citations": 0
+  },
+  {
+    "title": "Practical WiFi Indoor Localization: Unleashing the Potential of GNNs for Accuracy and Robustness",
+    "authors": [
+      "Ziqi Ye",
+      "Qiqi Xiao",
+      "Jianwei Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3384f0265d971b57a1ac440def61d232ba3871cf",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 3",
+      "IEEE Transactions on Mobile Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "WiFi-based indoor localization, supported by comprehensive infrastructure, is considered a highly promising solution. However, practical applications of existing WiFi-based methods often struggle due to dynamic antenna configurations and potential influence from obstacles, which can undermine the reliability of channel state information and frustrate localization. Even worse, environmental changes may lead to a domain shift, further degrading localization accuracy and system robustness. To address these problems, this paper introduces GraphFi, a novel system that leverages graph neural networks (GNNs) to deliver accurate and robust localization using nearby access points (APs). GraphFi designs two types of graph structures: intra-AP graph and inter-AP graph, to maximize the use of information from all available APs. They aggregate the local features among antennas within each AP and global features across APs, effectively addressing the problem of dynamic antenna configurations. Two specialized GNNs are utilized to derive accurate user locations from these graphs. Additionally, we introduce an anomaly detection method to identify and exclude obstacle-affected APs. This method also employs a tailored GNN to mitigate influence from unpredictable obstacles. Furthermore, we integrate an unsupervised domain adaptation mechanism based on a gradient reversal layer into GNNs. This helps maintain localization performance in a cost-efficient manner and ensures sustained effectiveness in a cross-domain setting. We prototype GraphFi using commodity WiFi devices and conduct extensive experiments in various scenarios. The results demonstrate that GraphFi achieves average localization errors of 0.17 m in a single-domain setting and 0.2851 m in a cross-domain setting, surpassing existing solutions in both precision and robustness.",
+    "summary": "",
+    "doi": "10.1109/tmc.2025.3640665",
+    "citations": 3
+  },
+  {
+    "title": "Improving Low-Resource Short Answer Scoring Through Large Language Model-Based Data Augmentation",
+    "authors": [
+      "Peichao Lai",
+      "Kexuan Zhang",
+      "Yilei Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3254f4b59432a71416727ee2dd27549459a764d4",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The automated grading of subjective answers is crucial for reducing manual workload and enhancing feedback efficiency in online education, particularly for short answer scoring (SAS). However, in scenarios with limited labeled data, existing methods face challenges in sample diversity and scoring consistency due to limited training data and misaligned label distributions. While data augmentation and transfer learning have been employed to address these issues, rule-based approaches often lack textual variability, and general-domain embeddings struggle to align with domain-specific scoring criteria. To overcome these limitations, we propose the Scoring with Contextual Alignment and Language Enhancement (SCALE) framework, a novel LLM-driven training paradigm that synthesizes diverse responses while preserving scoring consistency. SCALE leverages a knowledge graph-based generation strategy to enhance sample diversity by substituting key phrases with contextually aligned alternatives and employs a style rewrite prompt to introduce linguistic variations. To mitigate label inconsistency, we introduce a polish align prompt that refines synthetic and real samples into a shared semantic subspace, training an annotator model for aligned scoring. Additionally, an entity-aware enhancement mechanism improves comprehension of formulas and quantitative content. Extensive experiments on multilingual and multi-domain datasets demonstrate that SCALE achieves state-of-the-art performance, improving Pearson scores by 4.9%, 2.27%, and 1.34% over BERT, RoBERTa, and ERNIE 3.0, respectively.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3673734",
+    "citations": 0
+  },
+  {
+    "title": "A knowledge graph-driven generation framework for perceptual decomposition and serial logical reasoning with large language models",
+    "authors": [
+      "Yu Zheng",
+      "Xuan Zhang",
+      "Kunpeng Du",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2fd8ec1b59231d1b1d91473fa681d574d17a0c19",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Engineering applications of artificial intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.engappai.2026.114212",
+    "citations": 0
+  },
+  {
+    "title": "Language-Driven Multi-Task Manipulation With Action-Mask-Enhanced Multimodal Learning",
+    "authors": [
+      "Ningquan Gu",
+      "Yu-quan Li",
+      "Kazuhiro Kosuge",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2fc8a24af8b8a4a0232e592a993b681f90fb0773",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "IEEE Robotics and Automation Letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "For long-horizon multi-task robotic manipulation, hierarchical approaches provide an effective way to combine high-level language-based task planning with low-level vision-language based sub-task execution. Then, we propose a framework that integrates a two-stage task planner with a multimodal low-level action planner incorporating an explicit action-mask policy. At high level, a Vision-Language Model (VLM) first perceives object and scene information from observations, and a Large Language Model (LLM) then reasons over this together with a task library and human instruction to generate a textual task plan. This two-stage design mitigates modality bias between perception and planning. At low level, an asymmetric multimodal encoder, SigLIP2 with Weight-Decomposed Low-Rank Adaptation (DoRA) for text and multi-view ResNets for vision, feeds into an Action Chunking with Transformer (ACT)-based policy enhanced by Temperature-Scaled Spatial Attention and Bidirectional Cross-Attention for language-vision fusion. We further introduce an explicit action-mask policy that jointly predicts actions and their validity, enabling real-time sub-task termination detection and robust switching across multiple sub-tasks without additional inference overhead. Experiments on weighing and multi-object manipulation tasks demonstrate performance, with ablation studies validating the contribution of each component. Generalization experiments under out-of-distribution conditions highlight both the strengths and limitations. Deployment on a distinct dual-arm robotic platform in a new scenario validates transferability.",
+    "summary": "",
+    "doi": "10.1109/LRA.2026.3674003",
+    "citations": 0
+  },
+  {
+    "title": "A Unified Convergence Analysis of Decentralized Federated Learning at the Edge",
+    "authors": [
+      "Chengyan Jiang",
+      "Jiamin Fan",
+      "Talal Halabi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2ef4d8ec04970587f22cea2ef9543007ef4c6520",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Federated learning (FL) reshaped the AI model training paradigm by incorporating privacy preserved approach of collaborative model training without sharing model data but only parameters. This learning can be centralized FL (CFL) or decentralized federated learning (DFL), where CFL may suffer from latency and robustness due to the reliance on a coordinating server for model convergence. On the other hand, DFL enables direct collaboration among participating devices without relying on a central server. Each device can independently connect to other devices and share model parameters. In such collaborative training paradigm, model convergence in the presence of various deployment topologies, AI model types, nonindependent identically distributed (non-i.i.d.) data distribution, and training strategies demands systematic analysis to realize their practical deployment in critical applications like intelligent transportation, smart factories, and real-time surveillance. A couple of works attempt to conduct only partial analysis and completely neglected incorporating non-i.i.d. data distribution, a critical factor in practical deployment of DFL in mentioned applications. This work conducts a systematic analysis on the convergence of DFL considering a wide range of AI models [e.g., classical, deep neural networks and large language models (LLMs)], network topologies (e.g., linear, ring, star, and mesh), training strategies (e.g., continuous and aggregate), and degree of non-i.i.d. data distributions. The analysis includes both mathematical formulations and their implementation and evaluation using real world data. The results confirm that the convergence rate of the models is inversely proportional to the degree of non-i.i.d. data distribution. Moreover, judicial selection of network topologies and training strategies can aid in this convergence process for the practical deployment of DFL on the edge.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3648579",
+    "citations": 0
+  },
+  {
+    "title": "Power system operational reliability evaluation with retrieval-augmented generation enhanced large language model",
+    "authors": [
+      "Yuheng Cheng",
+      "Huan Zhao",
+      "Dejun Xiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2da54fb21940e0cc8eb8cc45dc736cf4097201e5",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Energy and AI"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.egyai.2026.100688",
+    "citations": 0
+  },
+  {
+    "title": "ALEX: Automatic Language EXplanations for Interpreting Treatment Effects via Multi-Agents",
+    "authors": [
+      "M. Lu",
+      "C. Kim",
+      "N. J. White",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2ad0608d485455fb2ad4fdf6584259ce9bfd1c16",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.04.23.26351510",
+    "citations": 0
+  },
+  {
+    "title": "Double Enhancement Framework for Long-Tail Recommendation",
+    "authors": [
+      "Jie Liao",
+      "Wei Zhou",
+      "Junhao Wen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/26c3e9022658977be4857824e01488a7a6da965e",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The long-tail recommendation problem remains a significant challenge in modern recommender systems, primarily due to data sparsity and popularity bias, which hinder the accurate ID representation of users and items. Recent advancements in large language models (LLMs) have enabled the direct modeling of user and item semantic representations, offering potential improvements in representation learning through the alignment of these two types of representations. However, systems relying on LLM representation alignment face two critical challenges: (1) the substantial differences between LLMs and recommendation models in terms of training objectives, phases, and data; (2) the pervasive popularity bias in collaborative data. These challenges create a semantic gap between ID representations and semantic representations. Directly aligning these representations risks introducing recommendation-irrelevant noise, disrupting the collaborative information embedded in ID representations, and ultimately leading to suboptimal recommendation outcomes. To address this gap, we propose DeltaRec, a Double-enhancement framework for long-tail Recommendation. DeltaRec tackles the long-tail recommendation problem through two approaches. First, it incorporates semantic information for all items. Second, it provides additional supervision signals specifically for long-tail items. The framework begins by disentangling ID representations into interest representations and conformity representations. To integrate semantic information from LLMs while preserving popularity information, we design a contrastive learning-based semantic alignment module that aligns interest representations with semantic representations. Furthermore, to enhance the representation learning of unpopular items, we introduce a ranking-based behavior alignment module, which provides additional supervision signals for these items. To avoid introducing recommendation-irrelevant noise and disrupting collaborative semantics due to excessive alignment, we propose a curriculum learning-based training mechanism. Extensive experiments on real-world datasets demonstrate that DeltaRec effectively mitigates popularity bias and significantly improves long-tail recommendation performance without relying on prior knowledge of popularity distributions.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3671215",
+    "citations": 0
+  },
+  {
+    "title": "IP74-05 INITIAL VALIDATION OF AN AUTOMATED LARGE LANGUAGE MODEL PIPELINE FOR POPULATION-SCALE EXTRACTION OF BLADDER PATHOLOGY REPORTS",
+    "authors": [
+      "Tiange Li",
+      "David-Dan Nguyen",
+      "J. Kwong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/24b167084aab4f89be54d70f1ea8e80f113c5d4c",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191732.85178.cb.05",
+    "citations": 0
+  },
+  {
+    "title": "IP23-29 CONTEXTUAL REASONING IN A LOCALLY DEPLOYED LARGE LANGUAGE MODEL OUTPERFORMS MANUAL ABSTRACTION FOR PROSTATE BIOPSY PATHOLOGY",
+    "authors": [
+      "S. Younis",
+      "Mohamad Watfa",
+      "K. Dortche",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/22bd0018b477e4bb0e1b4273064251632770edaf",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191400.40198.e5.29",
+    "citations": 0
+  },
+  {
+    "title": "IP04-22 PERFORMANCE OF A LARGE LANGUAGE MODEL IN PREDICTING CLINICAL MANAGEMENT FOR NEW PROSTATE CANCER AND KIDNEY STONE VISITS",
+    "authors": [
+      "C. Cronin",
+      "Maria Carolina Rodriguez Steube",
+      "M. Alshak",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/227fa5fd7a85768daef3e5c610962605550355a7",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191284.35857.1d.22",
+    "citations": 0
+  },
+  {
+    "title": "Concealed Cold-Formed Steel Structural Members and Damage Assessment Integrating Ground Penetrating Radar with Vision Foundation Model",
+    "authors": [
+      "Muhammad Taseer Ali",
+      "Vedhus Hoskere"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1ee2ffbbfc82b52551c14b652f40463591a7a7d5",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Journal of computing in civil engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1061/jccee5.cpeng-7168",
+    "citations": 0
+  },
+  {
+    "title": "SolarFM: Spatio-temporal solar irradiance forecasting based on time series foundation model",
+    "authors": [
+      "Shuo Shan",
+      "Weijing Dou",
+      "Victor Sreeram",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1ac0f5fbc998fa9ef07d91e54579238f66a7b29a",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Applied Energy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.apenergy.2026.127532",
+    "citations": 0
+  },
+  {
+    "title": "Negotiating institutional ambiguity: Modelling deliberation in resident-led in-situ demolish-and-rebuild urban renewal with large language models",
+    "authors": [
+      "Zili Wang",
+      "Ling Tian",
+      "Jicai Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/19e9c490658c2560c0af8f8491ce5e5a3603f323",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cities"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.cities.2026.106869",
+    "citations": 0
+  },
+  {
+    "title": "Distributed Flexible Job Shop Scheduling With Heterogeneous Transportation Resources Constraints via Deep Reinforcement Learning and Graph Neural Network",
+    "authors": [
+      "Kaikai Zhu",
+      "Xiaobin Li",
+      "Peifan Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/18cf3d49ef71c3ee5200cd6e2e2eaa28cadae1f7",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The distributed flexible job shop scheduling problem (DFJSP) has emerged as a critical challenge in the field of scheduling optimization due to its intricate resource allocation and the demand for production–logistics collaboration across multiple factories. However, most existing studies related to DFJSP only focus on the production and transportation process of jobs within a single factory, while neglecting the cross-factory logistics and the heterogeneous characteristics of transportation resources. Therefore, this article first investigates the distributed flexible job shop scheduling problem with heterogeneous transportation (DFJSPHT) resource constraints and proposes an end-to-end deep reinforcement learning (DRL) scheduling method to minimize the makespan. An innovative heterogeneous disjunctive graph model is constructed to uniformly represent the states of factories, machines, operations, and transportation resources in DFJSPHT, and the scheduling process is modeled as a Markov decision process (MDP). Next, a resource release strategy is developed to enhance the efficiency of transportation resources. To enhance the feature expression ability of the model, a graph neural network (GNN) is employed to capture the problem characteristics, and the policy network is trained using the proximal policy optimization. Comparative experiments are conducted on synthetic and benchmark instances demonstrate that the proposed method outperforms the classical priority scheduling rules and two popular DRL-based scheduling methods in solving DFJSPHT, with performance improvements exceeding 10% in most instances.",
+    "summary": "",
+    "doi": "10.1109/TSMC.2026.3656196",
+    "citations": 0
+  },
+  {
+    "title": "Agentic framework for programmatic crystal structure generation using a fine-tuned worker–supervisor large language model",
+    "authors": [
+      "V. Baibakova",
+      "Alexey Serov"
+    ],
+    "link": "https://www.semanticscholar.org/paper/17b948e811d5b5800da7edf75cee933c6afc3630",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Energy and AI"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.egyai.2026.100710",
+    "citations": 0
+  },
+  {
+    "title": "Large language model-enhanced home energy management with dynamic user preference elicitation and hierarchical data-sharing",
+    "authors": [
+      "Xunning Zhang",
+      "Yuheng Cheng",
+      "Xuanang Gui",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1690e732c4e4445bff7e0520b5317f91cfb78f72",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Applied Energy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.apenergy.2026.127540",
+    "citations": 1
+  },
+  {
+    "title": "OP 40 Exploring the statistical properties of ‘normal’ nerve conduction data extracted using large language models",
+    "authors": [
+      "A. Călin",
+      "Doreen Fialho",
+      "Joel S. Winston"
+    ],
+    "link": "https://www.semanticscholar.org/paper/15f992fce275b184ccb3e89a3ebcfb44ad616f06",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Clinical Neurophysiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.clinph.2025.2111359",
+    "citations": 0
+  },
+  {
+    "title": "Reliable and Efficient LLM Inference on Resource-Constrained Mobile Devices via Dynamic Scheduling",
+    "authors": [
+      "Aoxing Liang",
+      "Cheng-Seong Hong",
+      "Yunzhe Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/148da884b3acc9d25179f720a963a0b1a3fa37bf",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) have demonstrated exceptional natural language understanding and generation capabilities in many emerging applications. However, providing end users with real-time LLM inference on their mobile devices poses substantial challenges. In this work, we propose a fully distributed LLM inference framework, where spare computational resources across heterogeneous mobile devices are effectively harnessed. Our approach integrates two key components: initial model preloading and layer-wise execution scheduling. The proposed methods tackle two major challenges: optimal parameter preloading without prior knowledge of device availability and real-time inference scheduling under dynamic conditions. We evaluate the performance of our framework in real-world environments, and experimental results show that it significantly reduces end-to-end delay by 44%~83% compared to existing approaches.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3659676",
+    "citations": 1
+  },
+  {
+    "title": "Restorative supramolecular polymers for vascular Grafts: An integrated ADMET evaluation",
+    "authors": [
+      "G. Bögels",
+      "HS Bauer",
+      "Maj Cox"
+    ],
+    "link": "https://www.semanticscholar.org/paper/13bff18d7aa3e9a8f1d725d4ad589a442c2ef669",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "European Polymer Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.eurpolymj.2026.114679",
+    "citations": 0
+  },
+  {
+    "title": "IP53-11 AUTOMATED EXTRACTION OF PROSTATE MRI VARIABLES FROM RADIOLOGY REPORTS USING A LOCALLY DEPLOYED LARGE LANGUAGE MODEL",
+    "authors": [
+      "S. Younis",
+      "K. Dortche",
+      "S. Patel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0fe553a38b3371d9f4cc266553ac3777fa2b1501",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191596.81673.db.11",
+    "citations": 0
+  },
+  {
+    "title": "Step Into Balance: A Consistency-Aware and Loose Homophily Guided Generative Method for Class-Imbalanced Graphs",
+    "authors": [
+      "Gen Liu",
+      "Zhongying Zhao",
+      "Chao Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0daa4fa0e8153a83f772daa9f810714f3ea19817",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph Neural Networks (GNNs) have demonstrated remarkable success in various scenarios. However, their impressive performance is under the assumption of class balance (i.e., equal training sample distribution across various categories). Once trapped in the class-imbalanced issue, the GNN-based models typically under-represent the minority ones, resulting in decreased performance compared to balanced graphs. A promising solution is to balance the graph in a generative manner. However, the existing studies overlook the consistency between the synthesized sample and its corresponding class. Furthermore, the homophily assumption (i.e., like attracts like) undermines the topological diversity of graphs, thereby complicating the capability of models to capture the true distribution and boundaries of the categories. To this end, we propose a Consistency-Aware and Loose Homophily guided generative method for class-imbalanced graphs, namely GraphCALH. Specifically, we design a consistency-aware feature synthesis method to balance the node-wise characteristics and the class-wise commonality for the synthesized samples. Moreover, we devise a loose homophily guided topology modeling method to enrich the topological diversity and simplify category boundaries. The experimental results on eleven class-imbalanced datasets demonstrate that the proposed GraphCALH outperforms ten state-of-the-art methods.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3667353",
+    "citations": 0
+  },
+  {
+    "title": "A large language model-based tourist satisfaction index",
+    "authors": [
+      "Changhua He",
+      "Ying Liu",
+      "Hai-Qing Song",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/08cdcb0f7e76ab0e006ff8726f5bb7f4e589188d",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Annals of Tourism Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.annals.2026.104174",
+    "citations": 0
+  },
+  {
+    "title": "A survey of large language models for legal tasks: Progress, prospects and challenges",
+    "authors": [
+      "Congqing He",
+      "Haichuan Hu",
+      "Yanli Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/07ff3c2d03aa479f3e0432ca982906d65f2841bb",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Cited: 2",
+      "Computer Science Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.cosrev.2026.100906",
+    "citations": 2
+  },
+  {
+    "title": "Training-Free and Unbiased Graph Collaborative Filtering for Personalized Recommendations",
+    "authors": [
+      "Ziyang Liu",
+      "Chaokun Wang",
+      "Cheng Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/061182b3c63b201aeef85d5cc7c241e75d4ea5c9",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the widespread adoption of collaborative filtering techniques for personalized recommendations, exposure bias has become a significant challenge. Exposure bias refers to the tendency of recommendation models to disproportionately favor items with high exposure over those with low exposure. In graph collaborative filtering that uses graph neural networks (GNNs) for recommendations, exposure bias can be exacerbated due to 1) the reliance on positive feedback during graph construction and 2) the effects of the neighbor aggregation step in GNNs. To tackle this challenge, we propose a novel and efficient framework called FUGCF (training-Free and Unbiased Graph Collaborative Filtering) to improve both the accuracy and bias mitigation of graph-based personalized recommendations. FUGCF employs a two-stage calculation strategy: it estimates exposure probabilities in the first stage and then leverages these exposure probabilities to help derive debiased node embeddings in the second stage. Furthermore, we design a training-free estimation method for FUGCF based on closed-form solutions to enhance its computation efficiency. The extensive experiments on a synthetic dataset and three real-world datasets demonstrate the effectiveness of FUGCF in reducing exposure bias, improving recommendation accuracy, and optimizing computation efficiency.",
+    "summary": "",
+    "doi": "10.1109/TKDE.2026.3669816",
+    "citations": 0
+  },
+  {
+    "title": "Lightweight large language models for intent recognition and action invocation in building energy management",
+    "authors": [
+      "Deli Liu",
+      "Xiaoping Zhou",
+      "Yu Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/024fd7f43a1929de64894247ab963e08fa78fcc2",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Journal of Building Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jobe.2026.116170",
+    "citations": 0
+  },
+  {
+    "title": "IP25-04 AUTOMATED GLEASON PATTERN SEGMENTATION IN PROSTATE WHOLE SLIDE DIGITIZED PATHOLOGY USING FOUNDATION MODEL FEATURE EMBEDDINGS",
+    "authors": [
+      "Aakriti Shah",
+      "Yamlak Bogale",
+      "Varsha Nair",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/01942a2ac9d6fe68edf448be690a7a5d1e777f22",
+    "date": "2026-05-01",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Journal of Urology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/01.ju.0001191428.57520.39.04",
+    "citations": 0
+  }
+]
