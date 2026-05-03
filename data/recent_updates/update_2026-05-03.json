@@ -1,0 +1,2132 @@
+[
+  {
+    "title": "FragLDM: Fragment-Guided Latent Diffusion Model for 3D Molecular Generation",
+    "authors": [
+      "Ronghan Wang",
+      "Ruiqing Sun",
+      "Huaiyuan Song",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ffe135eb949131cec0c8edb9e464bf59a9a81ed7",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Diffusion Model",
+      "AIDD",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464993",
+    "citations": 0
+  },
+  {
+    "title": "Time Series Attributes Guided Pretraining Data Selection For Time Series Foundation Models",
+    "authors": [
+      "K. Saurav",
+      "Vinamra Baghel",
+      "Ayush Jain",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ff38ff8ea2f8fd2e147aa5e9fdbc0339781f1b7a",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462456",
+    "citations": 0
+  },
+  {
+    "title": "AIPerfLLM: 4th International Workshop on Performance Optimization in the LLM World",
+    "authors": [
+      "K. Chow",
+      "Emilio Incerto",
+      "Marin Litoiu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fc465f1a097528d0cb8c0198b66fe6f0508f10d8",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial Intelligence (AI) has been widely adopted in mainstream domains, yet its role in performance evaluation and modeling remains under-explored. Traditional AI tools are often used as black-box solutions not tailored to performance engineering, leading to models that demand extensive time, data, and expert interpretation. Simultaneously, the rise of Large Language Models (LLMs) has brought new challenges in terms of infrastructure cost, energy usage, and specialized skills required. For instance, pre-training GPT-3 (behind ChatGPT) reportedly cost around 1,287,000 kWh in dynamic computing, generating a notable carbon footprint and high hardware expenses. These considerations underscore the urgent need to develop systematic performance engineering approaches that balance efficiency, scalability, and sustainability. This workshop aims to bridge the gap by convening researchers and industry practitioners to share techniques and insights on applying AI methods (including specialized or explainable AI approaches) for performance engineering of LLMs and similar large-scale systems. The objective is to identify best practices, new tools, and open research directions that facilitate optimized performance while reducing resource consumption.",
+    "summary": "",
+    "doi": "10.1145/3777911.3800619",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing Speech Intelligibility Prediction for Hearing Aids with Complementary Speech Foundation Model Representations",
+    "authors": [
+      "Guojian Lin",
+      "Xuefei Wang",
+      "Ryandhimas E. Zezario",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fa75aa083824b68bd7f3fef81f952d81aa59bb54",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463862",
+    "citations": 0
+  },
+  {
+    "title": "Deopt: Synergizing Large Language Models and Differential Evolution for Join Order Optimization",
+    "authors": [
+      "Qiuhong Zhang",
+      "Jianwen Yang",
+      "Yurong Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fa3987f62e8d621bca3406a91499a7154b95691b",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463910",
+    "citations": 0
+  },
+  {
+    "title": "JAILFUZZ: A Zero-Knowledge and State Feedback Based Gray-Box Fuzzing Framework for Large Language Models",
+    "authors": [
+      "Huan Liu",
+      "Xiaoshan Sun",
+      "Yingjun Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f88f48856700ae5ca7e48bc5ecb0f9e72fe345a4",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463087",
+    "citations": 0
+  },
+  {
+    "title": "WiRAG: Retrieval-Augmented Generation with Large Language Models (LLM) Framework for WiFi-Based Human Activity Recognition",
+    "authors": [
+      "Xinyi Shen",
+      "Tao Deng",
+      "Yi Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f4af052e74a29b7539d019fa032392033ab6e614",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463669",
+    "citations": 0
+  },
+  {
+    "title": "Dynamic Fusion for Large Language Models Compression",
+    "authors": [
+      "Junhao Wang",
+      "Guoxia Xu",
+      "Huimin Tong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f46bd143c3a92921b20aaf3dffdf8638a68d9ed4",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464073",
+    "citations": 0
+  },
+  {
+    "title": "Q4Q: Quantum for Quantization in Large Language Models",
+    "authors": [
+      "Gongwei Li",
+      "Yuchen Li",
+      "Juncheng Jia",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f25cb364b1a9fb2b84eadd685011c506475fbd7b",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460997",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Large Language Models for Text Normalization of Non-Standard Words in Text-to-Speech Synthesis",
+    "authors": [
+      "Min Ma",
+      "H. Zen",
+      "J. Zhao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f1ad862c634587bcf8357c1e958d1b58764a9919",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463552",
+    "citations": 0
+  },
+  {
+    "title": "ViewLearner: GNN-Driven Pre-Built Views for Multi-Table NL2SQL",
+    "authors": [
+      "Gege Qi",
+      "Chenfeng Su",
+      "Wenjing Chang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/efe57f72d3c9c529dff0f302b6b3aa0ae1575c4e",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460810",
+    "citations": 0
+  },
+  {
+    "title": "Towards Open-World Human-Object Interaction Reasoning with Multimodal Large Language Model",
+    "authors": [
+      "Eastman Z. Y. Wu",
+      "Yali Li",
+      "Shengjin Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef9246468f589716ac31b18c845ce2468a053cce",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462048",
+    "citations": 0
+  },
+  {
+    "title": "Learn to Unlearn in Large Language Models",
+    "authors": [
+      "Nikhil Saini",
+      "Rituraj Singh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/eeac1d0898dfd610b31a4bf27768f71dfa4ef9a3",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464235",
+    "citations": 0
+  },
+  {
+    "title": "ERE-LLM: Entity-Relation Extraction with Large Language Model in Professional Domains",
+    "authors": [
+      "Xinzheng Liu",
+      "Zhaoyun Ding",
+      "Wenxu Gao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ee87b93a553f492de5bf9b12ecd2dd4b0a32527c",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464200",
+    "citations": 0
+  },
+  {
+    "title": "We Optimized the Models and Broke the Community: Social Awareness as a Missing Requirement in ML-Enabled Software Engineering",
+    "authors": [
+      "Gemma Catolino"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ed2745a6adcd34f952bd410a18d5a27a464bfc5c",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Machine learning (ML) and large language models are increasingly integrated into software engineering (SE) workflows, supporting tasks such as code generation, documentation, testing, and maintenance. While these techniques provide measurable productivity benefits, their impact on the social structure of development teams remains largely underexplored. Existing research primarily focuses on model performance, leaving socio-technical consequences such as fairness, collaboration, and organizational sustainability insufficiently addressed. This keynote positions ML-enabled software engineering as a socio-technical system in which intelligent tools influence communication, coordination, and decision-making. Drawing on empirical studies on fairness-aware practices, community smells, and social debt, we identify two key challenges. First, fairness concerns propagate across the entire ML lifecycle, requiring lifecycle-wide mitigation strategies rather than post-hoc corrections. Second, ML-based assistants reshape collaboration structures, potentially introducing new coordination issues and amplifying existing socio-technical anti-patterns. The goal of the talk is to establish social awareness as a first-class requirement for ML-enabled SE. We outline a research agenda centered on socio-technical metrics, human-centered AI tools, and governance mechanisms to support sustainable and collaborative AI-enabled development ecosystems.",
+    "summary": "",
+    "doi": "10.1145/3777911.3800625",
+    "citations": 0
+  },
+  {
+    "title": "Preserving Knowledge in Large Language Models Via Model-Agnostic Intrinsic Generative Replay",
+    "authors": [
+      "Zilun Zhang",
+      "Yutao Sun",
+      "Tiancheng Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e9c68e4d2713b1f26130bc199a85a1c7cd19e611",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464789",
+    "citations": 0
+  },
+  {
+    "title": "High-Frequency Aware Adaptation of Foundation Models for Monocular Endoscopic Depth Estimation",
+    "authors": [
+      "Xuyang Feng",
+      "Wenkang Fan",
+      "Hao Fang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e8f0ac9f6e62495f3b80abbbe6459fc787281246",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464550",
+    "citations": 0
+  },
+  {
+    "title": "Causal-SAM-LLM: Large Language Models as Causal Reasoners for Robust Medical Segmentation",
+    "authors": [
+      "Zhixiang Lu",
+      "Shijie Xu",
+      "Yulong Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e68e0912528ec2e95536422b7ea195c588a75738",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460869",
+    "citations": 0
+  },
+  {
+    "title": "Fourier Pruning for Large Language Models Compression",
+    "authors": [
+      "Junhao Wang",
+      "Guoxia Xu",
+      "Huimin Tong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e53b4d417aabd4b49530d63204c02e6409bd6026",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462099",
+    "citations": 0
+  },
+  {
+    "title": "Parameter Localization and Relearning for Safety Disalignment in Large Language Models",
+    "authors": [
+      "Yi Zhou",
+      "Wenpeng Xing",
+      "Changting Lin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e1cb1cba5c44a03fbafdf360302872cb483aa437",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463981",
+    "citations": 0
+  },
+  {
+    "title": "MTSearch-R1: Reinforcement Learning for Flexible Multi-Tool Search with Large Language Models",
+    "authors": [
+      "Yiqing Shen",
+      "Jing Ke"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d8b0dbb2ac75e427ae212f9024d804fc0e2a13be",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461921",
+    "citations": 0
+  },
+  {
+    "title": "Cross-Examiner: Evaluating Consistency of Large Language Model-Generated Explanations",
+    "authors": [
+      "D. Villa",
+      "Maria Chang",
+      "K. Murugesan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d6766b5910363de0d2423752a52b1356fefbdb58",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462075",
+    "citations": 0
+  },
+  {
+    "title": "AdaEvol: Dynamic Adapter Merging for Effective Continual Learning and Knowledge Transfer in Large Language Models",
+    "authors": [
+      "Ran Liu",
+      "Min Yu",
+      "Jianguo Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d5151b94e3861529f844c2da01a3a0625724f525",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463663",
+    "citations": 0
+  },
+  {
+    "title": "HUNT: Detecting Hallucinations via Multi-Layer Discriminative Representations in Large Language Models",
+    "authors": [
+      "Xue Zhang",
+      "Shuai Zhang",
+      "Wang Xiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d135ff0e83217a2acc100fa80cfc2a6f8df5b7f4",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464490",
+    "citations": 0
+  },
+  {
+    "title": "Exploration Beyond Budget: Training Large Language Models to Explore Under Truncation Constraints",
+    "authors": [
+      "Ouyang Yi",
+      "Qianrui Wang",
+      "Xian Wu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c682837f72500fc6fc8fa6b151ed681f8fee36d1",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461683",
+    "citations": 0
+  },
+  {
+    "title": "Unlocking The Potential of Social Media Preference for Annotation-Efficient Large Language Model Alignment",
+    "authors": [
+      "Wenbin Zhang",
+      "Wanxiang Che"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bfffa2920729c22b26987f6785336341e23e0203",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461414",
+    "citations": 0
+  },
+  {
+    "title": "MotionFusion: Fusing Motion and Saliency for Fast Video Large Language Model Inference",
+    "authors": [
+      "Chenxi Du",
+      "Ju Ren",
+      "Yaoxue Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bf2524169c1cd6b92a27907f2623f9d138eaa39c",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464991",
+    "citations": 0
+  },
+  {
+    "title": "ILSA: Information Loss-Guided Sparsity Allocation for Pruning Large Language Models",
+    "authors": [
+      "Lin Li",
+      "Yan Wang",
+      "Zhuo-Ying Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bd669a297575d13e36828e013e70270e430918bb",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462534",
+    "citations": 0
+  },
+  {
+    "title": "Video Quality Anomaly Detection Based on Multimodal Large Language Models",
+    "authors": [
+      "Zhiyu Liu",
+      "Peiwu Qin",
+      "Yuhan Dong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bb3e106a3a4caf6d2f5fd22e8d5c017632a4ecb5",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461389",
+    "citations": 0
+  },
+  {
+    "title": "Semi-Supervised GNN for Sound Source Localization with Prediction Intervals",
+    "authors": [
+      "Ohad Michael",
+      "Bracha Laufer Goldshtein"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bb31aa4d39f252722b88a9ab77b093ce636ef7ff",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461365",
+    "citations": 0
+  },
+  {
+    "title": "A Graph-Driven Hybrid CNN-GNN Approach for Vessel Classification in Adaptive Optics Images",
+    "authors": [
+      "Abir Aissa",
+      "Guillaume Lachaud",
+      "F. Rossant",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b79f1a26459ad4c3c679f11799b3e5dfd2acf9b9",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463402",
+    "citations": 0
+  },
+  {
+    "title": "ZSV2C-MLLM: Zero-Shot Visual Voice Cloning Via Multimodal Large Language Models",
+    "authors": [
+      "Yanling Zhang",
+      "Linqin Wang",
+      "Shengxiang Gao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b755d2dfd70a82b967565c805ade5850dbda0a84",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461223",
+    "citations": 0
+  },
+  {
+    "title": "Adversarial Fine-Tuning on Speech Foundation Model with Vulnerable Attention Consistency Regularization for Robust Speech Recognition",
+    "authors": [
+      "Yanyun Wang",
+      "Baoyuan Wu",
+      "Li Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b5c385f66048432475ec096077e111934ee2efce",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462855",
+    "citations": 0
+  },
+  {
+    "title": "ST-WaveLLM: Spatio-Temporal Traffic Forecasting via Wavelet-Enhanced Large Language Models",
+    "authors": [
+      "Yuanbo Tang",
+      "Da Li",
+      "Xiujuan Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b509e4e0684732758d52f7b7b7711c237c059971",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11465105",
+    "citations": 0
+  },
+  {
+    "title": "Sparse Gradient Compression for Fine-Tuning Large Language Models",
+    "authors": [
+      "David Yang",
+      "Mohammad Mohammadi Amiri",
+      "Tejaswini Pedapati",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b29fed0dcb010f6ca5ba8d59c0b3adf24fc2b2ef",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463525",
+    "citations": 0
+  },
+  {
+    "title": "PassMoE-P: Enhancing Password Guessing Using Large Language Models with Pattern-Specialized Mixture-of-Experts",
+    "authors": [
+      "Beilei Zhang",
+      "Yuke Ma",
+      "Tao Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b0bafdb64faa6c06f028c88998f530ad984d2497",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464755",
+    "citations": 0
+  },
+  {
+    "title": "Tuning-Free Fidelity-Constrained Decoding for Faithful Legal Reasoning with Open-Domain Large Language Models",
+    "authors": [
+      "Kepu Zhang",
+      "Weijie Yu",
+      "Jun Xu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/af8db94f666881484a8f38a85b08fa9459e8480e",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461418",
+    "citations": 0
+  },
+  {
+    "title": "RECALL-LO: Enhancing Label-Only Membership Inference Against Large Language Models",
+    "authors": [
+      "Yaxuan Liu",
+      "Shaoyang Song",
+      "Chunlai Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/af67725807e7993b055835f9df16e44de86c4f2e",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461598",
+    "citations": 0
+  },
+  {
+    "title": "SEP-ST: Incorporating Speech Entity Prompt Into Large Language Models for Speech Translation",
+    "authors": [
+      "Ouyang Fei",
+      "Linqin Wang",
+      "Zhengtao Yu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/aea25182c5962be7d867b5ba34348fb01c98be9c",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464222",
+    "citations": 0
+  },
+  {
+    "title": "A Unified Four-Stage Dynamic Cycle for Robust Federated Fine-Tuning of Large Language Models",
+    "authors": [
+      "Benying Tan",
+      "Jie Ren",
+      "Yujie Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ad452a097f9eeb9e51af2f87d67756627588ff4e",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463011",
+    "citations": 0
+  },
+  {
+    "title": "An Evaluation Study of Generative AI Systems: Framework-Aware Performance Under Real-World Constraints",
+    "authors": [
+      "Abed Matinpour",
+      "Farhoud Jafari Kaleibar",
+      "Sara Fehresti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a8242e9af7f11f149d990f2c6b93a4735bb063d4",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The widespread adoption of Large Language Models (LLMs) in enterprise applications has created a critical need for systematic evaluation of Generative AI Systems (GenAIS) that integrate orchestration frameworks, foundation models, and deployment optimizations. This paper presents the first comprehensive evaluation study specifically designed to evaluate the performance trade-offs between orchestration frameworks (LangChain, LlamaIndex), foundation models, and deployment constraints across multiple application domains. Our study systematically evaluates eight foundation models across question-answering with Retrieval-Augmented Generation (RAG) and mathematical reasoning tasks, measuring latency, accuracy, resource utilization, and power consumption under various optimization strategies including adaptive context windowing and concurrent request processing. Through extensive empirical analysis, we demonstrate that framework selection significantly impacts system performance independent of model choice, with task-specific trade-offs emerging across workload types. For retrieval-heavy RAG workloads, LlamaIndex delivers 3-15% lower latency, around 60% lower peak memory usage, and 2-4% more energy consumption. For reasoning-intensive mathematical tasks, Langchain achieves higher accuracy across all tested models and provides more predictable latency profiles and reasonable resource consumption, making it preferable for strict SLA environments. Adaptive context windowing does not yield uniform gains and offers only modest, model-dependent improvements over fixed policies, whereas increasing concurrency improves aggregate throughput but, beyond moderate loads, consistently inflates tail latency and degrades SLA predictability. These findings underscore the decisive role of orchestration design in GenAIS performance and provide empirical guidance for balancing efficiency, accuracy, and scalability in real-world deployments.",
+    "summary": "",
+    "doi": "10.1145/3777884.3797017",
+    "citations": 0
+  },
+  {
+    "title": "Equipping Large Language Model with Directional Speech Understanding Capabilities",
+    "authors": [
+      "Ju Lin",
+      "Jing Pan",
+      "Ruizhi Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a5dfd6f9c261b41e8029f39fc35d4911ef8ffba7",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461662",
+    "citations": 0
+  },
+  {
+    "title": "Boosting Contextual Adaptive Policy Learning with Foundation Model Guidance",
+    "authors": [
+      "Yuanfei Wang",
+      "Hao Dong"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a5a685326c438d4c4d777d86363ec46fcefb3aec",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461671",
+    "citations": 0
+  },
+  {
+    "title": "DaSE: Maximum Entropy Data Selection for Balanced Pretraining Corpora of Large Language Models",
+    "authors": [
+      "Jie Xiong",
+      "Fangxiu Zhong",
+      "Jun Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a436bd89461b970a3123caf7cab3927ab008ad48",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462252",
+    "citations": 0
+  },
+  {
+    "title": "Acceptance-Guided Adaptive Speculative Decoding for Efficient Large Language Model Inference",
+    "authors": [
+      "Weiyang Sun",
+      "Zifeng Zhu",
+      "Yixian Dai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a12314e5f826e074def27ac310e537239e0169dd",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463423",
+    "citations": 0
+  },
+  {
+    "title": "VP-GNN: A Unified Graph Framework for Variable-Wise and Patch-Wise Modeling of Irregular Clinical Time Series",
+    "authors": [
+      "Yurong He",
+      "Boyang Zhang",
+      "Longfei Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a0924a0098ad0decdf0de771c46a71a5308599ff",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461796",
+    "citations": 0
+  },
+  {
+    "title": "Mitigating Hallucinations in Large Language Models via Decoder Layer Skipping",
+    "authors": [
+      "Hanze Li",
+      "Jinhao You",
+      "Yi Guo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a05af9bf8ecee9f9e74da9eb5358b2b36799b40c",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464714",
+    "citations": 0
+  },
+  {
+    "title": "MTRP: Diversely Enhancing Multi-Turn Dialogue and Role-Playing Abilities of Large Language Models",
+    "authors": [
+      "Pengran Huang",
+      "Tianyu Shi",
+      "Liang Fan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9d7e783c31ab29d19621f2c289bfd98f1d480f86",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464035",
+    "citations": 0
+  },
+  {
+    "title": "Bringing Multimodal Foundation Models to Hearing Aids",
+    "authors": [
+      "Andreas Triantafyllopoulos",
+      "Iosif Tsangko",
+      "Bjorn W. Schuller"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9c0f4abccf4a964e8ab275a350b2ec54314db2f2",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464213",
+    "citations": 0
+  },
+  {
+    "title": "From Lightweight Client Models to a Foundation Model in One Shot with Generative Distillation for Medical Image Segmentation",
+    "authors": [
+      "Hanwen Zhang",
+      "Qiaojin Shen",
+      "Yufei Ma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9b4bc2519fb72cadff7cd9094c330ce536693a96",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464658",
+    "citations": 0
+  },
+  {
+    "title": "Structure-Aware Corpus Construction and User-Perception-Aligned Metrics for Large-Language-Model Code Completion",
+    "authors": [
+      "Dengfeng Liu",
+      "Jucai Zhai",
+      "Weixuan Sun",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/96c95f6aa00a1f22191a988595184e88dbd38834",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464386",
+    "citations": 0
+  },
+  {
+    "title": "Tackling Data Heterogeneity in Parameter-Efficient Federated Fine-Tuning of Large Language Models",
+    "authors": [
+      "Jun Liu",
+      "Yunming Liao",
+      "Hongling Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/94c927902300556416eb8d04366c7ba442bc6303",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460924",
+    "citations": 0
+  },
+  {
+    "title": "Plug-and-Play Robust Vision Encoders for Multi-Modal Large Language Models Via Fully Multi-Modal Adversarial Finetuning",
+    "authors": [
+      "Mengjun Xu",
+      "Ruibo Guo",
+      "Tengyuan Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/858ca78ced5523f790660e81faa6428e7a17cff4",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464013",
+    "citations": 0
+  },
+  {
+    "title": "Low Rank Quantization Adaptation for Large Language Model",
+    "authors": [
+      "Xiwei Xu",
+      "Yuexiao Ma",
+      "Wenting Lin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/808ff0e2716941c8819647ba440a88961acf4cda",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464312",
+    "citations": 0
+  },
+  {
+    "title": "Non-Bayesian Social Learning for Modeling Interacting Large Language Model Agents",
+    "authors": [
+      "Zoya Firsova",
+      "Malek Khammassi",
+      "Mert Kayaalp",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e1f32ed85b12a7de237044667ead4bef7e86e2d",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462766",
+    "citations": 0
+  },
+  {
+    "title": "Trajectory-Enhanced Camera Motion Understanding for Multimodal Large Language Models",
+    "authors": [
+      "Yuanxin Liu",
+      "Sida Li",
+      "Kun Ouyang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7d16c14f851643b6e0943b30e49a85fcb1736645",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462312",
+    "citations": 0
+  },
+  {
+    "title": "SVCF: Enabling Zero-Shot Correction of Reasoning Steps in Multi-Modal Large Language Models",
+    "authors": [
+      "Boyang Jiang",
+      "Tianxi Huang",
+      "Yu Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7d04413756b00c6d9eb06d42156e4439179cf8d1",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462050",
+    "citations": 0
+  },
+  {
+    "title": "TF-MAMBANET: A Temporal and Frequency Fused Bidirectional Mamba Architecture for PPG Foundation Model",
+    "authors": [
+      "Zhanpeng Bao",
+      "Y. Benezeth",
+      "Fan Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b3d28344303013cc88f68def024189701497d06",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461042",
+    "citations": 0
+  },
+  {
+    "title": "Adaptive Distillation For LM-GNN Alignment in Semi-Supervised Text-Attributed Graph Node Classification",
+    "authors": [
+      "Xingyu Wu",
+      "Jintao Chen",
+      "Xu Zheng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/795746cb4a1a38a2117c566a774913945c95dc40",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462506",
+    "citations": 0
+  },
+  {
+    "title": "CUE-TS: Soft Covariate Prompts as a Universal Enhancer for Time Series Foundation Models",
+    "authors": [
+      "Haoxuan Xu",
+      "Haiqi Zhu",
+      "Yifan Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/78064e68e7f354fba291dafa9f163be1790fc285",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462492",
+    "citations": 0
+  },
+  {
+    "title": "DSPFusion: Depth and Semantic Prior Guided Multi-Focus Image Fusion with Vision Foundation Models",
+    "authors": [
+      "Xinyue Wei",
+      "Weiya Huang",
+      "Kaiyi Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/74becf7ab0130729f3c219ac00eb399687f0ed61",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11465015",
+    "citations": 0
+  },
+  {
+    "title": "Breaking the Forgetting-Memorization Trade-Off: A Memory-Adaptive Optimizer for Effective Large Language Models Unlearning",
+    "authors": [
+      "Ruyun Wang",
+      "Fuqing Zhu",
+      "Xiaodan Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/733539c8a50bc411d7cc5dbf6dedb9efff6eb839",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462705",
+    "citations": 0
+  },
+  {
+    "title": "Why Delete? Just Make it Natural. Maximum Entropy Distribution Distillation for Large Language Models Unlearning",
+    "authors": [
+      "Ruyun Wang",
+      "Fuqing Zhu",
+      "Xiaodan Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/69dfed1a778a5533c0856800eb64e61ed2df47c4",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463279",
+    "citations": 0
+  },
+  {
+    "title": "Foundation Models-Guided Multi-Level Motion Decoupling via Gaussian Splatting for Monocular Video Reconstruction",
+    "authors": [
+      "Ying Ye",
+      "Xian Wu",
+      "Jintian Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6943caa171d64fb23dca02de3b36a627ef74162f",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462405",
+    "citations": 0
+  },
+  {
+    "title": "DSWP: A Dual-Stage Watermarking Partitioning Framework for Efficient and Robust Multi-Bit Watermarking in Large Language Models",
+    "authors": [
+      "Jiahao Chang",
+      "Haohua Zhao",
+      "Liqing Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/64e276486a1e25377611457cde7d46372c471fe3",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461329",
+    "citations": 0
+  },
+  {
+    "title": "RLSP-NER: Reinforcement Learning of Soft Prompts for NER with Large Language Models",
+    "authors": [
+      "Yue Gao",
+      "Liuchi Jiang",
+      "Chunru Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/63a3d7f13ff5d0a30c9a2be3ceb59eb7b8481e15",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463464",
+    "citations": 0
+  },
+  {
+    "title": "KAN-LLM: Kolmogorov-Arnold Networks-Enhanced Large Language Models for Time Series Forecasting",
+    "authors": [
+      "Kan Li",
+      "Xiao Zhang",
+      "Junqi Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5f255bea692528f3876735a98c938fde9915fd69",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462794",
+    "citations": 0
+  },
+  {
+    "title": "Not all Weight Vectors are Needed: Covariance-Based Vector Selection Tuning for Large Language Models",
+    "authors": [
+      "Lanyu Zheng",
+      "Chun Guan",
+      "Zhongxue Gan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5e9f46cd3080b6fbf186a08665ed09a77d3fb6e1",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11465092",
+    "citations": 0
+  },
+  {
+    "title": "Unsupervised Cycle Detection in Agentic Applications (Work In Progress Paper)",
+    "authors": [
+      "Felix George",
+      "Divya Pathak",
+      "Harshit Kumar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5e96a6c55d4d58619adaea10bf49679614d641d1",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Agentic applications powered by Large Language Models exhibit non-deterministic behaviors that can form hidden execution cycles, silently consuming resources without triggering explicit errors. Traditional observability platforms fail to detect these costly inefficiencies. We present an unsupervised cycle detection framework that combines structural and semantic analysis. Our approach first applies computationally efficient temporal call stack analysis to identify explicit loops and then leverages semantic similarity analysis to uncover subtle cycles characterized by redundant content generation. Evaluated on 1575 trajectories from a LangGraph-based stock market application, our hybrid approach achieves an F1 score of 0.72 (precision: 0.62, recall: 0.86), significantly outperforming individual structural (F1: 0.08) and semantic methods (F1: 0.28). Although the initial results are promising, additional enhancements are needed. Ongoing efforts focus on refining the approach, expanding experiments, mitigating its limitations, and broadening the scope of this work in the emerging agent-ops space.",
+    "summary": "",
+    "doi": "10.1145/3777911.3801105",
+    "citations": 0
+  },
+  {
+    "title": "PE-LoRA: Parameter-Efficient Bayesian Low-Rank Adaptation for Large Language Models",
+    "authors": [
+      "Xulin Huang",
+      "Hehuan Cao",
+      "Jingyan Sui",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5d0666024c7e32869c38380c3ad825274b41fca6",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462278",
+    "citations": 0
+  },
+  {
+    "title": "SGA-GNN: Semantic-Guided Adaptive Graph Neural Network for Cold-Start Multimodal Recommendation",
+    "authors": [
+      "Jialin Liu",
+      "Zhaorui Zhang",
+      "Ray C. C. Cheung"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5cbf5d8701428d68af34b3d8a30418b25a179386",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460514",
+    "citations": 0
+  },
+  {
+    "title": "LightOL: A Lightweight Ontology Learning Framework with Large Language Models",
+    "authors": [
+      "Yongqiang Liu",
+      "Binrong Liu",
+      "Bowen Dong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5b0517787ad4dcb907c0789d1818bf149d90c59a",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464515",
+    "citations": 0
+  },
+  {
+    "title": "Dynamic Sequencing and GNN-Based Posted-Price Design for Combinatorial Auctions",
+    "authors": [
+      "Yue Dong",
+      "Guozheng Rao",
+      "Shuyuan You"
+    ],
+    "link": "https://www.semanticscholar.org/paper/57eedf7e72b3f5dd211e1eed2b6b7316e6804086",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464793",
+    "citations": 0
+  },
+  {
+    "title": "Representation-Aware Root Cause Analysis with Large Language Models (Position Paper)",
+    "authors": [
+      "Yiwei Wen",
+      "Mahsa Panahandeh",
+      "Moataz Chouchen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5772ce886ff375cec4502a1da2e934da0da1fbef",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Identifying root causes of performance failures in microservice systems remains challenging, despite rich observability data such as distributed traces and profiling metrics. Existing root cause analysis techniques largely rely on predefined statistical models or anomaly propagation heuristics, which often struggle to scale and adapt to the complexity, heterogeneity, and evolution of real-world microservice workloads. We argue that effective root cause analysis must move beyond raw observability signals toward pattern-centric representations that better align with how engineers reason about performance failures. In this position paper, we examine Large Language Models as reasoning engines for root cause analysis in distributed systems and investigate how observability data representation shapes their effectiveness. Through exploratory experiments on microservice traces and profiling metrics, we show that root cause analysis using Large Language Models benefits substantially more from structured abstractions—such as invocation-level summaries and implicit anomaly patterns—than from raw, high-volume observability data. These abstractions not only improve diagnostic accuracy but also significantly reduce token usage and inference cost. Our findings suggest that a dominant practical bottleneck in applying Large Language Models to performance engineering is often how observability data is distilled into hypothesis-friendly representations, rather than model capability alone. Based on these insights, we outline a research agenda for Large Language Models-assisted performance diagnosis, highlighting open challenges in representation design, cost-aware reasoning, and evaluation beyond accuracy. This work motivates a shift toward representation-aware root cause analysis pipelines and opens new directions for performance engineering research.",
+    "summary": "",
+    "doi": "10.1145/3777911.3801108",
+    "citations": 0
+  },
+  {
+    "title": "Detecting Silent Failures in Multi-Agentic AI Trajectories (Work In Progress Paper)",
+    "authors": [
+      "Divya Pathak",
+      "Felix George",
+      "Harshit Kumar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/545b909cc9c342a3530a0e017ad7edebe3ab066a",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Cited: 1",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Multi-Agentic AI systems, powered by large language models (LLMs), are inherently non-deterministic due to stochastic generation, evolving internal states, and complex inter-agent interactions. This non-determinism can lead to silent failures such as behavioral drift over time, cyclic reasoning loops and so on, none of which necessarily trigger explicit error signals. Such silent failures rapidly increase operational costs, including computational resources, token usage, and degrading overall system performance by blocking resources that could be crucial to other tasks being executed with a faster turnaround time. A trajectory captures the interactions among agents as well as their interactions with external tools. Since agents influence each other's behaviour, the evolving trajectory ultimately determines whether a particular set of operations produced the expected correct output or deviated with intertwined silent failure manifestations. In this work, we introduce the task of detecting silent failures in agentic applications, where failures occur without explicit error signals. To enable this, we present a dataset curation pipeline that captures user behavior, agent non-determinism, and LLM variations to capture a large agentic ecosystem state-space. Using this pipeline, we curate and label two benchmark datasets comprising 4,275 and 894 trajectories from Multi-Agentic AI systems. We show that supervised (XGBoost) and semi-supervised (SVDD) approaches perform comparably, achieving accuracies up to 98% and 96%, respectively, serving as potential indicators of these methods towards robust silent failure detection. This work provides the first systematic study of silent-failure detection in Multi-Agentic AI systems, offering datasets, benchmarks, and insights to guide future research.",
+    "summary": "",
+    "doi": "10.1145/3777911.3801104",
+    "citations": 1
+  },
+  {
+    "title": "CausalRAP: Causal Graph-Driven Retrieval Augmented Long-Horizon Task Planning for Large Language Models",
+    "authors": [
+      "Minming Ye",
+      "Yinghui Gao",
+      "Min Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/525eeffeb1231bd2aad50d7372dd07dcccb0076f",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463222",
+    "citations": 0
+  },
+  {
+    "title": "TALPS: A Framework for Adaptive Learning of Tactics, Techniques, and Procedures Classification with Large Language Models",
+    "authors": [
+      "Jiayue Zhang",
+      "Yu Qiao",
+      "Tianheng Qu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/50e2e9fec39bfe596b01e90cb8c96ca8080a0025",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460947",
+    "citations": 0
+  },
+  {
+    "title": "AdaGrad-Fusion: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-Tuning",
+    "authors": [
+      "Chenyang Xu",
+      "Yi Zhao",
+      "Zezhou Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5002792cbebdb91d9efddf2ee7d65be597e43cc0",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462650",
+    "citations": 0
+  },
+  {
+    "title": "SatBadEdit: Towards Efficient and Robust Multi-Trigger Backdoor Injection in Large Language Models",
+    "authors": [
+      "Yue Chen",
+      "Xiaohu Zhao",
+      "Xinwei Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4ef620d748a870ba6fdac5cec428fced75d6e560",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464407",
+    "citations": 0
+  },
+  {
+    "title": "Beyond Context Limits: How Visual Profiling Representations Outperform Text for LLMs",
+    "authors": [
+      "O. Kachur"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4dfbb0a41b7825249f06430b8bcbd12fc73e9f99",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Performance profiling is essential for software optimization, yet integrating profiling data with large language models (LLMs) presents significant challenges due to context limits and representation choices. We present a systematic comparison of five profiling data representations: raw text, summarized text, text-as-image, flamegraph, and DOT graph, across six real-world workloads using two multimodal LLMs (Qwen3-VL and GPT-4o). Experiments reveal that raw profiles frequently exceed context limits (67% failure rate), making compression essential. Among viable representations, visual formats achieve 60-200× compression with constant token cost regardless of profile complexity. Crucially, our accuracy analysis shows that DOT graphs achieve the highest and most consistent accuracy (67% on both models), while flamegraphs are model-dependent (67% on Qwen3-VL but only 33% on GPT-4o). Text-based formats show moderate to poor accuracy (33-50%). These findings demonstrate that effective LLM-based performance analysis requires careful consideration of both representation format and model characteristics. Additionally, we release torch2pprof, an open-source tool for converting PyTorch Profiler traces to pprof format.",
+    "summary": "",
+    "doi": "10.1145/3777911.3800620",
+    "citations": 0
+  },
+  {
+    "title": "PreMAB: A Multi-Module Short Video Recommendation System with Foundation Models and Mab to Save Cold-Start",
+    "authors": [
+      "Bo Liu",
+      "Ziqi Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4bcb95f395a5572a2d6be31407bcda43724c4095",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462015",
+    "citations": 0
+  },
+  {
+    "title": "ReViG: A CNN-GNN Hybrid Model with Dynamic Reversed Axial Graph Construction for Vision Tasks",
+    "authors": [
+      "Haokun Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/44b5fabc185daed6cf17b60efa6a764d7b28fa24",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462819",
+    "citations": 0
+  },
+  {
+    "title": "LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring",
+    "authors": [
+      "Chong Rao",
+      "Jiahang Guo",
+      "Xikang Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/449f11fdf146b85fe42c9ecc1c3a188bb331a575",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463158",
+    "citations": 0
+  },
+  {
+    "title": "PI-GNN: A Physics-Informed Graph Neural Network for Spatio-Temporal Diffusion Prediction",
+    "authors": [
+      "Zimo Wen",
+      "Cheng Zeng",
+      "Hanwen Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/44057e9b1faedcb4cdb1343d23aa40fb54547084",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463286",
+    "citations": 0
+  },
+  {
+    "title": "DDPT: Distillation and Dynamic Prompt Tuning for Improving Complex Reasoning in Large Language Models",
+    "authors": [
+      "Ge Teng",
+      "Chen Shen",
+      "Wenxiao Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3acd4b1a4146b58e159ee1b6b82d2e57ff4bfd69",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461607",
+    "citations": 0
+  },
+  {
+    "title": "PromptPatch: Towards Precise and Stable Behavioral Patching in Large Language Models via Feedback-Driven Prompt Optimization",
+    "authors": [
+      "Yu Liu",
+      "Ping Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3a871596cbd6b0815f04af867eeeee7cf7336573",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463282",
+    "citations": 0
+  },
+  {
+    "title": "CodePMP: Scalable Preference Model Pretraining for Large Language Model Reasoning",
+    "authors": [
+      "Huimu Yu",
+      "Ziyang Chen",
+      "Xing Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/337dcf2d0dc0397cfdc8745b4c7b9a0fb22d888d",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461719",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Large Language Models for Single-Cell Foundation Models: Gene Expression Prompting for Cell Type Classification",
+    "authors": [
+      "Hui Xie",
+      "Ziyue Qiao",
+      "Xubin Zheng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2b2dfe31eca708a0d1c22a2c13318ac567325281",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "RNA-seq / Transcriptomics",
+      "Biological Large Model",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462727",
+    "citations": 0
+  },
+  {
+    "title": "SSRDWater: A Robust and Secure Watermarking of Large Language Models via Sentence-Level Semantic Relational Dependencies",
+    "authors": [
+      "Xiaofan Deng",
+      "Tao Zhou",
+      "Dirui Min",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/297e4ca4526f998ba7bfa29e5ebe2f57e7d184ab",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462181",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Time Series Foundation Models to Detect Performance Anomalies in Software Systems",
+    "authors": [
+      "Federico Di Menna",
+      "Luca Traini",
+      "Vittorio Cortellessa"
+    ],
+    "link": "https://www.semanticscholar.org/paper/295fb7e962b6a21978de249ed8efbcbe8e97f43b",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Companion of the 17th ACM/SPEC International Conference on Performance Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Anomaly detection is widely used in software performance engineering to identify performance degradations in production systems and to automatically trigger alerts. Over the years, several algorithms have been employed for this task, ranging from recurrent neural networks to traditional statistical models. Recently, a new class of algorithms, known as time series foundation models, has demonstrated remarkable effectiveness across a variety of time series analysis tasks. Despite these promising results, there is still limited understanding of how such models behave in the context of software anomaly detection. In this paper, we provide preliminary empirical insights into the effectiveness of two time series foundation models, Chronos and TSPulse, evaluated on two publicly available software anomaly detection datasets, AIOps and MSCloud. Our results show that foundation models can achieve comparable performance with respect to four representative TSAD baseline models, with the advantage of zero-shot prompting setup and the elimination of training stages and training data.",
+    "summary": "",
+    "doi": "10.1145/3777911.3800632",
+    "citations": 0
+  },
+  {
+    "title": "Search-on-Graph: Effective and Retrieval-Enhanced Search on Knowledge Graph for Faithful Large Language Model Reasoning",
+    "authors": [
+      "Yuanzhao Zhai",
+      "Tong Lin",
+      "Xin Song",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2937e9f66c74e44ddad972fb7fe55c91ac1ae430",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463917",
+    "citations": 0
+  },
+  {
+    "title": "FCR: Multi-View Compositional Retrieval for Time Series Forecasting with Large Language Models",
+    "authors": [
+      "Yihang Hui",
+      "Meijun Sun",
+      "Haoyu Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/266730dc96c7b8becdae7d98c76aa3246b0a7845",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464622",
+    "citations": 0
+  },
+  {
+    "title": "Optimizing Automated Jailbreak Attacks on Large Language Models via Experience Accumulation",
+    "authors": [
+      "Yuxin Zhou",
+      "Xiao Ding",
+      "Yijia Meng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/22e0c8cd8bc1d12972545307f605fc2c941234d2",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460561",
+    "citations": 0
+  },
+  {
+    "title": "From Past To Future: Leveraging Event Causality For Explainable Prediction With Large Language Models",
+    "authors": [
+      "Xuan Gao",
+      "Ruicheng Yin",
+      "Tianyuan Shi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1c6e90edc90831ec4b04b1e669fc8e46bf42dc1f",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11462960",
+    "citations": 0
+  },
+  {
+    "title": "RDQ: Learnable Kronecker Rotation Matrix Decomposition for Efficient Large Language Model Quantization",
+    "authors": [
+      "Chenhui Zhu",
+      "Hongxu Jiang",
+      "Jinhao Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1bc9b853bf722969c3a6405b139b5f1bf5a4d660",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463074",
+    "citations": 0
+  },
+  {
+    "title": "iMathBench: Is Your Multi-Modal Large Language Model Ready to Solve Mathematical Problems Embedded in Images?",
+    "authors": [
+      "Junhao Guo",
+      "Xinyi Jiang",
+      "Guoming Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/198fca285a272f11535632b9a68e8a01866182b9",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464297",
+    "citations": 0
+  },
+  {
+    "title": "Rationale-Augmented Fine-Grained Opinion Mining with Large Language Models",
+    "authors": [
+      "Qiujing Xu",
+      "Bobo Li",
+      "Meishan Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/185f19b16e19d1a746ee1d4d00fd2c6592972081",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463491",
+    "citations": 0
+  },
+  {
+    "title": "Hierarchical Tokenization of Multimodal Music Data for Generative Music Retrieval",
+    "authors": [
+      "W. Lee",
+      "R. Joyee",
+      "Zhonghao Luo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/15befa31dc6e31fa745d638479ab676e8c98502b",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent advances in generative retrieval allow large language models (LLMs) to recommend items by generating their identifiers token by token. This requires each item to be represented by a compact, semantically meaningful sequence of tokens that an LLM can understand. We introduce a method to generate multimodal music tokens (3MToken) that transforms rich metadata from a music database—including audio, credits, semantic tags, song and artist descriptions, musical characteristics, release dates, and consumption patterns—into discrete tokens using a Residual-Quantized Variational Au-toencoder (RQ-VAE). The model learns hierarchical representations, with coarse features captured at early quantization levels and fine-grained details refined at later levels. Building on this, we propose 3MTokenRec, an instruction-tuned LLM capable of generating 3MToken sequences for retrieval while adaptively weighting modalities based on query intent. Experiments show that our approach outperforms unimodal and baseline generative methods on content-based music retrieval and text-to-music retrieval tasks.",
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11461319",
+    "citations": 0
+  },
+  {
+    "title": "Efficient Distillation of Large Language Models Using Group Relative Policy Distillation",
+    "authors": [
+      "Guoxia Xu",
+      "Yiwei Chen",
+      "Huimin Tong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/156ad25d41f12abc199374e90688a28746a0380f",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464454",
+    "citations": 0
+  },
+  {
+    "title": "Enrich Visual Features by Holistic Sampling and Hierarchical Condensing in Multimodal Large Language Models",
+    "authors": [
+      "Yuting Bai",
+      "Suiwu Bai",
+      "Jianli Ran",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/138e7affdf47fc11a8b148215321f797ae866a70",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463161",
+    "citations": 0
+  },
+  {
+    "title": "GaRA: Gated Low-Rank Adaptation for Fine-Tuning Time-Series Foundation Models",
+    "authors": [
+      "Leike An",
+      "Zhen Li",
+      "Shuai Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/109bc1a0c4181e189831a58022398cda5d4f57b6",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464371",
+    "citations": 0
+  },
+  {
+    "title": "LaPrune: Layout-Aware Pruning for Efficient Multimodal Large Language Models",
+    "authors": [
+      "Hao Wu",
+      "Ke Lu",
+      "Xiuyuan Zhu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e37bdd7585364c5b955d4ee58a7b6599ff25cc6",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464292",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal Sensing-Aided Beamforming Optimization for OFDM Systems",
+    "authors": [
+      "Yinghan Li",
+      "Wei Yu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0bc246c602f36365887f97a9b54f85438acd292b",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper proposes a multimodal learning method that leverages camera images, LiDAR points, and RF pilots to optimize beamforming in orthogonal frequency division multiplexing (OFDM) systems under non-line-of-sight (NLoS) and dynamically changing environments. Existing image-based and LiDAR-based methods typically rely on estimating the user location for beamforming optimization, and are limited to line-of-sight and static environments. In contrast, dynamic NLoS scenarios require modeling the influence of obstacles that serve as reflecting surfaces. This paper focuses on these dynamic NLoS scenarios. We propose integrating LiDAR data and camera images with pilots to capture spatial and material information not only about the users but also about surrounding obstacles. The implicit NLoS channel characteristics embedded in spatial and material information can then be utilized to optimize beamforming in dynamic NLoS scenarios. Specifically, we propose a learning-based framework that utilizes a keypoint detection network to extract two-dimensional spatial and material information from images. The information from images then guides the selection of LiDAR points to precise three-dimensional geometric information. Finally, a graph neural network (GNN) integrates the processed image features, selected LiDAR data, and pilots to optimize beamforming vectors. Simulation shows that the proposed method achieves higher spectral efficiency than pilot-only methods.",
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463958",
+    "citations": 0
+  },
+  {
+    "title": "DefenseMEL: Enhancing Adversarial Robustness of Multimodal Entity Linking with Multimodal Large Language Models",
+    "authors": [
+      "Fang Wang",
+      "Jiaxi Xu",
+      "Mengyuan Tian",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0832c0382b8db392fda8f0763518ef548d48ff03",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464877",
+    "citations": 0
+  },
+  {
+    "title": "LLMBA: Adapting Large Language Models for Behavior Analytics in Zero Trust Networks",
+    "authors": [
+      "Senming Yan",
+      "Lei Shi",
+      "Wei Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/075ccca74cac713d71dd9342c9f0187425fa46ea",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11463924",
+    "citations": 0
+  },
+  {
+    "title": "Still Thinking or Stopped Talking? Dialogue Silence Intention Classification Using Multimodal Large Language Model",
+    "authors": [
+      "Muyun Wu",
+      "Z. Pang",
+      "K. Inoue",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0431020f65a8b81c27946dd682982ee4610aca37",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11464331",
+    "citations": 0
+  },
+  {
+    "title": "Flash-Unlearn: On-the-Fly, Training-Free Large Language Models Unlearning Through Subspace Distribution Filtering",
+    "authors": [
+      "Ruyun Wang",
+      "Fuqing Zhu",
+      "Xiaodan Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0377167bd8e02cfa8b08f488f1581ebd4bb0b7d0",
+    "date": "2026-05-03",
+    "keywords": [
+      "今日上新",
+      "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/icassp55912.2026.11460558",
+    "citations": 0
+  }
+]
