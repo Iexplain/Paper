@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Make context easier: enhancing fine-tuned NER models via LLM-based text rewriting",
+    "authors": [
+      "Xincheng Guo",
+      "Fengchang Yu",
+      "Jiawei Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ddfc6a9d38d208525a2e8494ad934c7cba6876a5",
+    "date": "2026-05-08",
+    "keywords": [
+      "今日上新",
+      "Electronic library"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to enhance the performance of fine-tuned small named entity recognition (NER) models by leveraging the language generation capability of large language models (LLMs) to rewrite entity contexts, addressing the limited performance gains of state-of-the-art (SoTA) NER methods in recent years.\n \n \n \n The authors propose a novel paradigm that uses LLMs to modify the surrounding context of entities in the input text, transforming hard cases into easier ones for the NER model to recognize. Experiments are conducted on multiple widely used NER data sets to evaluate the effectiveness of the proposed method. No additional retraining or architectural modifications are applied to the vanilla NER models.\n \n \n \n Experimental results demonstrate that the method consistently improves the performance of existing NER models across all tested data sets, achieving SoTA results. The approach effectively mitigates challenges associated with out-of-vocabulary entities, syntactically complex sentences and linguistic distractors while maintaining relatively low computational cost.\n \n \n \n This work introduces a new paradigm for NER that integrates LLM text rewriting with pretrained small NER models. Unlike previous approaches relying on data augmentation or NER model retraining, the authors’ method achieves performance gains purely through LLM-based context rewriting, offering a cost-efficient and scalable solution for real-world applications.\n",
+    "summary": "",
+    "doi": "10.1108/el-10-2025-0425",
+    "citations": 0
+  },
+  {
+    "title": "Field-Validated Digital Twin–Enabled Structural Health Monitoring for Offshore High-Pile Wharves",
+    "authors": [
+      "S. R. Samaei",
+      "James Riffat"
+    ],
+    "link": "https://www.semanticscholar.org/paper/db33954c7dc1ad7c73a5f17518eb0c17dade7ac9",
+    "date": "2026-05-08",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Future Cities and Environment"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Offshore high-pile wharves operate under harsh, variable loads that can mask the earliest signs of deterioration. We present a closed-loop structural health monitoring (SHM) framework that couples multimodal machine/deep learning with a physics-based digital twin (DT). A year-long field deployment at an operating high-pile wharf in Western Asia instrumented six piles with triaxial accelerometers and strain gauges (GPS-synchronized, 100 Hz). After quality control and environmental/operational variability normalization, an unsupervised VAE produces an anomaly score that is fused with a CNN–GNN classifier to yield window-level damage probabilities and pile-by-elevation localization. The DT assimilates these diagnostics through weighted least squares and an EKF, with measurement covariance derived from model uncertainty; “what-if” simulations quantify the structural consequence of candidate repairs. Under chronological splits with leave-one-pile-out, the framework achieves F1 = 0.95 and AUC-ROC = 0.98, with false-alarm rate ≈ 2–5 % and median detection latency ≈ 45 s. Spatial heatmaps consistently pinpoint the affected elevation, while online updating reduces mean frequency bias from ≈ 4.8 % to ≈ 0.9 % and increases mode-shape MAC from ≈ 0.81 to ≥ 0.92. First-mode shifts of ≈ 3–4 % observed in the field are reproduced by DT “stiffness-restoration” scenarios, enabling risk-informed maintenance planning. Compared on identical normalized windows, the proposed method outperforms classical vibration-based indices in both discrimination and false-alarm control. The results demonstrate a scalable, explainable pathway to predictive asset management for critical maritime infrastructure. Beyond structural safety, the proposed framework contributes to sustainable port operation by enabling condition-based maintenance, reducing unnecessary inspections, extending asset service life, and lowering the embodied carbon associated with premature repair or replacement.",
+    "summary": "",
+    "doi": "10.70917/fce-2026-010",
+    "citations": 0
+  },
+  {
+    "title": "DentaCoPilot: An LLM-Augmented Next-Procedure Recommender for General Dentistry, Designed for Dentist Augmentation",
+    "authors": [
+      "C. C. Rodrigues",
+      "S. Rebello"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6f6cffc74059f4354ce0b9eb7142640f00d848b9",
+    "date": "2026-05-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.07.26352635",
+    "citations": 0
+  },
+  {
+    "title": "UPhAIR: A Hybrid Pipeline for Generating Understandable Post-hoc AI Reports in Glioma IDH Mutation Status Prediction",
+    "authors": [
+      "A. Gorji",
+      "H. Shahverdi",
+      "A. Saberi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6a3830ca7770741061044ae3984fd4fe5166fdcb",
+    "date": "2026-05-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.01.26349658",
+    "citations": 0
+  },
+  {
+    "title": "Prompt-engineering improves clinical safety of large language models for opioid equipotency conversion",
+    "authors": [
+      "T. Marton",
+      "D. Corpman",
+      "L. Lai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/42b3f06c5bacbaeef29ce43888257c956fa1ce33",
+    "date": "2026-05-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.06.26352590",
+    "citations": 0
+  }
+]
