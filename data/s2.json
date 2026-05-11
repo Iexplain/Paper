@@ -1,5 +1,63 @@
 [
   {
+    "title": "Public discourse on Large Language Models: a sentiment comparison of ChatGPT and DeepSeek on YouTube comments",
+    "authors": [
+      "S. Chakraborty",
+      "Satwinderpal Kaur Gill",
+      "Manoj Kumar Verma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/33d8f03de9b18de8cc200aa36582d0dd331db9a1",
+    "date": "2026-05-11",
+    "keywords": [
+      "今日上新",
+      "Library hi tech"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The purpose of the study is to analyse attributes and the growth of YouTube videos on two majorly popular Large Language Models (LLMs): ChatGPT and DeepSeek, in a selected period. The purpose is also to assess the users' sentiment on these LLMs from the viewers' comments, and to identify the most frequently appearing terms in these comments.\n \n \n \n Data are extracted from the videos uploaded between December 2023 and March 2025 using Python, applying the YouTube API (Application programming interface) v3. Videos and comments in the English language are only included. Sentiment analysis is done using Valence Aware Dictionary and sEntiment Reasoner (VADER) and top term analysis is done using Python.\n \n \n \n The study includes 74 videos and 33,577 comments on ChatGPT, and 93 videos and 85,154 comments on DeepSeek. The findings state that both the LLMs receive positive sentiments predominantly. DeepSeek shows a slightly higher proportion (49%) than ChatGPT (45%). DeepSeek comments are more strongly positive, due to its recent release and open-source nature. ChatGPT comments are mainly neutral and strongly positive. Negative sentiments were equal (24%) across both. The results of the top term analyses indicate that top terms are related to usability and performance in ChatGPT comments. Terms in comments on DeepSeek mostly focus on geopolitical context.\n \n \n \n The dataset is limited to videos with query terms “chatgpt” or “deepseek”. The videos and comments in languages other than English have been excluded from the scope of the study.\n \n \n \n This study will assist the large number of AI users by making them aware of the benefits, limitations, challenges and features of these LLMs. It will help to perform more informed and responsible use of these technologies.\n \n \n \n This study is the first to compare users' sentiment on ChatGPT and DeepSeek using YouTube Comments.\n",
+    "summary": "",
+    "doi": "10.1108/lht-05-2025-0112",
+    "citations": 0
+  },
+  {
+    "title": "MISP-Bench: Decomposing User-Provided False Priors into Answer, Rationale, and Guard Effects",
+    "authors": [
+      "I. Jeong",
+      "Y. Kim",
+      "J. Park",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6b9c0ac1498afcfe36f5827d3f34767bab5727b2",
+    "date": "2026-05-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.07.26352627",
+    "citations": 0
+  },
+  {
+    "title": "Application of large language models as decision support tools in occupational health and safety management: a cohort study of industrial workers",
+    "authors": [
+      "Francesca Vella",
+      "P. Senia",
+      "V. Filetti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f9a9f1de715342197357e0cac6f240232e25ae6d",
+    "date": "2026-05-08",
+    "keywords": [
+      "Frontiers in Public Health"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Occupational health and safety (OHS) risk assessment is a core preventive process aimed at identifying workplace hazards, estimating risks, and implementing control measures to reduce occupational injuries and diseases. Recent evidence indicates that AI-based systems may assist hazard identification, risk prioritization, and preventive planning, improving efficiency and standardization.\n \n \n \n This study compared AI outputs with occupational physician (OP) analyses in risk assessment, health surveillance protocol drafting, and fitness-for-work determinations.\n \n \n \n \n This retrospective observational study was conducted in a multinational construction and facility management company with approximately 200 employees. An LLM-based system was evaluated for occupational risk assessment, health surveillance protocol development, and fitness-for-work decisions through structured comparison with an experienced OP. Three objectives were addressed: (1) analysis of the company risk assessment document (RAD); (2) comparison of surveillance protocols for specific tasks; (3) quantitative assessment of agreement in fitness-for-work judgments. The AI system (Perplexity Pro\n ®\n , “Deep Research”) was used. Agreement was measured using Cohen’s Kappa.\n \n \n \n \n AI-generated and OP-generated risk assessments were fully concordant (100%). Risk distribution across job categories was consistent, with high overall concordance (93%). Differences in surveillance protocols reflected regulatory interpretation and contextual exposure assessment rather than omission of clinically relevant elements.\n \n \n \n LLM-based AI can reliably support standardized occupational health decisions when applied to structured data. Despite high concordance in risk assessment, protocol development, and fitness-for-work judgments, regulatory interpretation and contextual clinical evaluation remain dependent on human expertise. AI should therefore be considered a complementary decision-support tool in occupational health practice.\n",
+    "summary": "",
+    "doi": "10.3389/fpubh.2026.1815316",
+    "citations": 0
+  },
+  {
     "title": "Make context easier: enhancing fine-tuned NER models via LLM-based text rewriting",
     "authors": [
       "Xincheng Guo",
@@ -37,6 +95,24 @@
     "citations": 0
   },
   {
+    "title": "Transforming Healthcare and Accelerating Drug Discovery and Personalized Treatment Analysis using AI",
+    "authors": [
+      "Sumana M"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b807e1a0178ae3996bb281f7f6a01f45e545181b",
+    "date": "2026-05-08",
+    "keywords": [
+      "Deep Learning",
+      "AIDD",
+      "International Research Journal on Advanced Engineering and Management (IRJAEM)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Traditional drug discovery relies on manual research, high-throughput screening, and structure-based design, requiring 13–15 years and exceeding $2.5 billion investment with less than 10% FDA approval rates. This paper presents a comprehensive analysis of how Artificial Intelligence (AI) revolutionizes pharmaceutical development by accelerating drug discovery, predicting molecular properties, and optimizing clinical trials. We examine AI applications across six critical domains: target identification, virtual screening, quantitative structure-activity relationship (QSAR) modeling, ADMET prediction, drug repurposing, and clinical trial optimization. Through a systematic implementation framework integrating machine learning, deep learning, and graph neural networks, AI reduces development timelines by up to 40%, decreases failure rates, and enables precision medicine through personalized treatment strategies. This work synthesizes current methodologies, demonstrates practical applications using real-world data models, and addresses critical challenges including data quality, regulatory compliance, and model interpretability. Our findings confirm that AI-driven approaches significantly improve hit enrichment rates and therapeutic efficacy while reducing computational costs, establishing AI as an indispensable tool for modern pharmaceutical innovation.",
+    "summary": "",
+    "doi": "10.47392/irjaem.2026.0236",
+    "citations": 0
+  },
+  {
     "title": "Patient as a Project",
     "authors": [
       "Jaba Tkemaladze"
@@ -51,6 +127,24 @@
     "abstract_raw": "Background. The traditional medical paradigm conceptualizes the patient as a passive object of intervention or a source of data. However, advances in artificial intelligence (AI), particularly large language models (LLMs) with longitudinal modeling capabilities, create prerequisites for a fundamentally new ontological entity—the “patient as a project.” Objective. To theorize the transition from the “digital twin” as a passive representation to the “developmental project” as an active, agentic unit of analysis; to propose a methodological framework; and to evaluate the empirical validity of this concept through a systematic analysis of peer-reviewed research (2025–2026). Methods. We conducted a critical analysis of project management theory, developmental psychology, and agent-oriented AI as applied to personalized medicine. A systematic literature search was performed across PubMed, ScienceDirect, and specialty journals (NEJM AI, npj Digital Medicine, Nature Medicine). Results. We identify three architectural principles of the “patient-project”: longitudinality (influence of prior episodes on future trajectories), instrumentality (LLM autonomous operation confirmed), and developmental agency (measurable change in patient subjective position). Analysis of Level I evidence reveals: (a) co-designed LLM chatbots reduce consultation duration by 28.7% (p < 0.001) and improve care coordination by 113.1% (Tao et al., Nature Medicine, 2026); (b) patient activation (PAM-13) is measurable (MCID = 5.4 points; 95% CI: 3.4–7.4) and improvable through tailored interventions (p = 0.004); (c) automation bias presents a 14-percentage-point risk to diagnostic accuracy (p < 0.0001) requiring mitigation strategies; (d) current LLMs show task-dependent performance in outcome prediction and are not yet ready for independent application. Conclusion. The “patient as a developmental project” concept is theoretically productive. Components of longitudinality and co-design have Level I empirical support. Developmental agency has demonstrated measurability in clinical contexts (PAM-13) but requires dedicated LLM-specific trials. Level 3 (patient as active project) remains a theoretical construct awaiting empirical validation through randomized controlled trials with PAM-13 as the primary outcome.",
     "summary": "",
     "doi": "10.65649/qqwva850",
+    "citations": 0
+  },
+  {
+    "title": "MMEF-Net: Multimodal Emotion Feature Network with Contextual Enrichment and Dynamic Modality Weighting",
+    "authors": [
+      "Harshita Dubey",
+      "Mohit Kadwal"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b38f5edaad0dbf3565b40eda55bd76f106e5fb2",
+    "date": "2026-05-08",
+    "keywords": [
+      "Transformer",
+      "International Journal For Multidisciplinary Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recognizing human emotional states is a foundational challenge in building intelligent and responsive Human-Computer Interaction (HCI) systems. This paper presents MMEF-Net, a Multimodal Emotion Feature Network that integrates audio, visual, and textual modalities through a hierarchical contextual enrichment strategy combined with a dynamic modality weighting mechanism. To overcome the persistent limitation of scarce annotated training data, MMEF-Net employs state-of-the-art pre-trained encoders that provide transferable and discriminative representations for each modality. The audio branch applies HuBERT-Large (Hidden-Unit BERT) with selective extraction of intermediate transformer layers known to encode higher-level prosodic and spectral properties. The visual branch adopts a dual-path encoder pairing Contrastive Language–Image Pre-Training Vision Transformer Large (CLIP-ViT-Large) for holistic frame-level representations with OpenFace 2.0 derived facial region crops for fine-grained expression analysis. The textual branch incorporates a Large Language Model (LLM) guided augmentation pipeline in which GPT-4 generates emotion-aware pseudo-labels and salient keywords, while Qwen-Omni contributes video-grounded descriptions and supplementary emotional cues; these enriched signals are jointly encoded by ChineseRoBERTa-wwm-ext-large. Cross-modal integration is achieved through a dynamic weighting module applying self-attention with residual skip connections, preventing feature degradation during fusion. A multi-source label refinement pipeline further mitigates annotation noise by combining weak-classifier predictions with LLM-generated labels through majority voting. Extensive experiments on the MER2025-SEMI benchmark demonstrate that MMEF-Net attains a Weighted Average F-score (WAF) of 87.52%, representing a gain exceeding ten percentage points over the official baseline of 76.80%, thereby confirming the effectiveness of the proposed design for real-world multimodal emotion recognition.",
+    "summary": "",
+    "doi": "10.36948/ijfmr.2026.v08i03.77483",
     "citations": 0
   },
   {
@@ -107,6 +201,25 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.05.01.26349658",
+    "citations": 0
+  },
+  {
+    "title": "Legal discourse analysis: Foundations of forensic linguistics and its applications in legislation and litigation",
+    "authors": [
+      "Yassine Chami",
+      "E. Mahdy",
+      "Enas Qutieshat",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/545656e340fe00c25310b026fea18367ac40f376",
+    "date": "2026-05-08",
+    "keywords": [
+      "Research Journal in Advanced Humanities"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Forensic linguistics has become an exciting area that combines law and linguistics. This study highlights how language, through its precise analysis, can act as valid judicial evidence in resolving legal cases. This paper examines how this field has developed over time, starting with Jan Svartvik’s important contributions in 1968, moving into the professionalisation of the discipline during the 1980s and 1990s, and highlighting its growth in the digital age today. It also examines forensic phonetics, author attribution, discourse analysis, and linguistic profiling, showing how they can be applied in criminal investigations, civil lawsuits, contract interpretation, and safeguarding intellectual property. The authors use a descriptive-analytical approach, supported by comparative case studies, and examine global examples in which linguistic evidence has played an important role. Artificial Intelligence and Large Language Models are able to process a huge amount of data in shorter time compared to humans, yet they still raise important legal and ethical challenges regarding their fairness, transparency, and comprehensibility. This paper had concluded that forensic linguistics has evolved and became a significant component of the legal system. It enhances justice by providing people with the resources to uncover the truth, protect their rights, and comprehend laws more easily.",
+    "summary": "",
+    "doi": "10.58256/g09ere43",
     "citations": 0
   },
   {
@@ -203,7 +316,7 @@
     "authors": [
       "X. Pan",
       "Yali Wang",
-      "QiaoLan Yang",
+      "Qiaolan Yang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/fa874c8623c858281f0705d1fec4625f5491cde9",
@@ -1382,8 +1495,8 @@
     "title": "Phytochemicals from Amaranthus tricolor L. with Potential Anti-Inflammatory Activity: An In Silico Molecular Docking, QSAR, and ADMET Study",
     "authors": [
       "Ferdousi Ahmed Sumona",
-      "Sawda Binta Kamrul Oishi",
-      "Md. Sabbir Hossain",
+      "Sawda Binta",
+      "Kamrul Oishi",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/a9516fc0549ba90accccbcd98c69c9335e4875b3",
@@ -1682,7 +1795,7 @@
   {
     "title": "Can a Large Language Model Grounded in Text-Based Agency-Specific Prehospital Protocols Provide Accurate Care Recommendations?",
     "authors": [
-      "Colin G Wang",
+      "Colin G. Wang",
       "Nichole Bosson",
       "Rombod Rahimian",
       "et al."
@@ -1863,7 +1976,7 @@
     "authors": [
       "Elaish Ali Musa Ali",
       "Altaf ur Rahman Zar Pio Mir Pio Khattak",
-      "Irshad Ahmad Khan",
+      "I. Khan",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/8c112ed2c83d652d17d278b06806cd1224ce744c",
@@ -2754,7 +2867,7 @@
   {
     "title": "LearnMate^2: Design and Evaluation of an LLM-powered Personalized and Adaptive Support System for Online Learning",
     "authors": [
-      "Xinyu Jessica Wang",
+      "X. Wang",
       "Christine P. Lee",
       "Bilge Mutlu"
     ],
@@ -3769,7 +3882,7 @@
     "authors": [
       "Bing Wang",
       "Ximing Li",
-      "Changchun Li",
+      "C. Li",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/11125108d0e6ceb6faad02399548446b6f66888d",
@@ -4508,6 +4621,25 @@
     "citations": 0
   },
   {
+    "title": "Evaluating Reference-Independent Pipelines for the Detection of Spreading Organisms in Metagenomic Datasets",
+    "authors": [
+      "N. Popov",
+      "V. Panova",
+      "M. Molchanova",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d6cecaa02e67b3f5af82e642fa06751dc602438c",
+    "date": "2026-05-06",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.03.722517",
+    "citations": 0
+  },
+  {
     "title": "Open-SAT: LLM-Guided Query Embedding Refinement for Open-Vocabulary Object Retrieval in Satellite Imagery",
     "authors": [
       "Md. Adnan Arefeen",
@@ -4625,6 +4757,26 @@
     "summary": "",
     "doi": "",
     "citations": 0
+  },
+  {
+    "title": "Advancing in silico drug design with Bayesian refinement of AlphaFold models",
+    "authors": [
+      "Samiran Sen",
+      "Samuel E. Hoff",
+      "Tatiana I. Morozova",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cadc84eb906fb345444a20e3b8d99cb1d0734648",
+    "date": "2026-05-06",
+    "keywords": [
+      "Cited: 5",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1101/2025.06.25.661454",
+    "citations": 5
   },
   {
     "title": "Winning Isn't Reasoning",
@@ -5196,7 +5348,7 @@
     "title": "From History to State: Constant-Context Skill Learning for LLM Agents",
     "authors": [
       "Haoyang Xie",
-      "Xinyuan Wang",
+      "X. Wang",
       "Yancheng Wang",
       "et al."
     ],
@@ -5470,6 +5622,24 @@
     "abstract_raw": "Large language models (LLMs) are increasingly used to perform thematic analysis of qualitative data, yet they systematically underrepresent minority viewpoints. We propose a self-correction framework in which representativeness metrics (coverage gap, subgroup disparity, and rank correlation) are computed after initial theme generation and fed back as structured critique. The main contribution of this paper is the framework itself, which makes the quality of correction measurable and auditable. In experiments on 90 product reviews across three categories, Gemini 2.5 Flash reduced average coverage gap from 80.4% to 18.6% over three iterations, but the framework's metrics revealed that this improvement came at a cost: over-correction degraded rank correlation and increased subgroup disparity. Replication with Gemini 3.1 Pro showed no such failures. Without systematic measurement, these trade-offs would have been invisible in both cases. \n ",
     "summary": "",
     "doi": "10.32473/flairs.39.1.141807",
+    "citations": 0
+  },
+  {
+    "title": "UNKAI: A protein functional identity prediction model based on ESM-C latent representations and the attention mechanism",
+    "authors": [
+      "Kotaro Ukai",
+      "Suguru Fujita",
+      "Tohru Terada"
+    ],
+    "link": "https://www.semanticscholar.org/paper/95245b9944ab5e39e85dcde3e7a1bc0b8f442748",
+    "date": "2026-05-06",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.02.722384",
     "citations": 0
   },
   {
@@ -5862,6 +6032,25 @@
     "citations": 0
   },
   {
+    "title": "Learning the Language of the Microbiome with Transformers",
+    "authors": [
+      "Neythen J. Treloar",
+      "S. ur-Rehman",
+      "Jenny Yang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b8070fbd189d3ad47d2eb0dd0bda2003c4c35b2",
+    "date": "2026-05-06",
+    "keywords": [
+      "Transformer",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.02.722381",
+    "citations": 0
+  },
+  {
     "title": "UFAL-CUNI at SemEval-2026 Task 11: An Efficient Modular Neuro-symbolic Method for Syllogistic Reasoning",
     "authors": [
       "Ivan Kartáč",
@@ -6240,6 +6429,25 @@
     "abstract_raw": "Large language models (LLMs) are rapidly transforming knowledge work by improving the quality and efficiency of tasks such as writing, coding, and data analysis. However, their growing use in education has exposed a learning-performance paradox: while they can enhance short-term task performance, they may also undermine genuine learning, including cognitive growth, knowledge transfer, and metacognitive development. This paper addresses the question of how artificial intelligence should be designed and used to support learning rather than merely improve immediate outputs. We introduce the concept of AI learning companions, defined as adaptive, pedagogically informed, LLM-powered agents designed for integration into learning environments. We propose a framework for their design built on three interrelated foundations: a pedagogical foundation focused on how students learn with AI, an adaptive foundation focused on how AI learns about students, and a responsible design foundation ensuring systems remain transparent, accountable, inclusive, and secure. The framework is illustrated through five case studies spanning diverse educational contexts, levels, and tool designs, revealing both the promise and current limitations of existing tools. We conclude that there is a necessary shift away from LLMs designed for task-oriented performance, and beyond simply prompting them to act as tutors, toward deliberately developed AI learning companions that are pedagogically sound, adapt to their learners, and foster durable understanding, metacognitive growth, and learner agency.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "PEPR-GNN: Perturbation-Enhancer-Promoter-RNA Graph Neural Networks for Multiome Perturb-Seq modeling of regulomes",
+    "authors": [
+      "Zachary Markham",
+      "Boxun Li",
+      "Landon Nguyen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/656b1ca58304986ec80f60c5f37e3a6bb8d8ce53",
+    "date": "2026-05-06",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.05.722311",
     "citations": 0
   },
   {
@@ -8663,7 +8871,7 @@
     "title": "A Semantic Entropy Framework for Quantifying and Mitigating Uncertainty in LLM-Assisted Geotechnical Design",
     "authors": [
       "Pierre Guy Atangana Njock",
-      "Zhen-Yu Yin",
+      "Zhen‐Yu Yin",
       "Hao-Ruo Xu",
       "et al."
     ],
@@ -9196,6 +9404,27 @@
     "citations": 0
   },
   {
+    "title": "STAT: A multi-agent framework for integrated and interactive spatial transcriptomics analysis",
+    "authors": [
+      "Yuheng Chen",
+      "Shi Han",
+      "Zitong Chao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e7c937f96dc3a7f0f02b68203ccc416a92b17bd",
+    "date": "2026-05-05",
+    "keywords": [
+      "Agent",
+      "RNA-seq / Transcriptomics",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.01.722244",
+    "citations": 0
+  },
+  {
     "title": "Evaluating the clinical safety of large language models in oral cancer-related patient communication: a repeated-prompt observational study",
     "authors": [
       "Burcu Yeliz Kollayan",
@@ -9460,6 +9689,23 @@
     "abstract_raw": "Pre-trained Language Models (PLMs) have the potential to transform software development tasks. However, despite significant advances, current PLMs struggle to capture the structured and relational attributes of code, such as control flow and data dependencies. This limitation is rooted in an architectural mismatch: whereas code structure is best represented by graphs, transformer-based LLMs process input as sequential token patterns and therefore lack explicit structural awareness. While recent research has explored integrating graph-based code representations using techniques like graph feature extraction, retrieval-augmented generation, and prompt engineering, existing approaches suffer from information loss during dense feature extraction or prompt encoding; notably, the potential of deep, token-level fusion of graph features within model internals has not been systematically explored. In this paper, we initiate such an exploration by introducing CGFuse, a novel framework that enables token-level integration of graph-derived representations by infusing learned graph features directly into the intermediate layers of pre-trained language models. CGFuse combines a graph neural network (GNN) with a language model to explicitly preserve and exploit fine-grained structural information from code graphs, including abstract syntax trees and data-flow graphs. We systematically evaluate CGFuse across multiple LLMs, demonstrating up to 10-16% BLEU and 6-11% CodeBLEU improvements in code generation performance. These results highlight the potential of deep graph-PLM integration to advance the field toward more robust, capable AI-driven software development.",
     "summary": "",
     "doi": "10.1145/3793655.3793724",
+    "citations": 0
+  },
+  {
+    "title": "Uncertainty-aware localization microscopy by variational diffusion",
+    "authors": [
+      "Clayton Seitz",
+      "Jing Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5f3cef96bbe29a0edfc4777c580c0bb52ee44839",
+    "date": "2026-05-05",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.01.722206",
     "citations": 0
   },
   {
@@ -17740,243 +17986,6 @@
     "keywords": [],
     "source": "Semantic Scholar",
     "abstract_raw": "Large language models (LLMs) have been widely explored for embedding generation. While recent studies show that in-context learning (ICL) effectively enhances the representational capability of LLMs by prepending a few task-related demonstrations, it causes substantial token overhead due to the increased sequence length. In this work, we propose EPIC, a novel embedding-based in-context prompt training strategy that leverages ICL to generate high-quality embeddings while reducing computational burden during both training and inference. This approach replaces discrete text demonstrations with their corresponding continuous embeddings, which not only encourages the LLM to align semantically-related text pairs during contrastive learning, but also requires the model to interpret demonstration embeddings as part of the in-context prompt. Consequently, EPIC-trained models achieve excellent embedding performance both with or without in-context prompts at inference time. Comprehensive experiments demonstrate that our method establishes new state-of-the-art results on the MTEB benchmark, surpassing frontier models trained solely on publicly available retrieval data. Extensive ablation studies further validate the effectiveness and necessity of our mechanism.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
-    "authors": [
-      "Yifei Wang",
-      "Ruiyin Li",
-      "Peng Liang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/42dec85d70fc2510b7b07644a07b83fc5f5b74d7",
-    "date": "2026-05-02",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent advancements in Large Language Models (LLMs) have demonstrated significant potential across a wide range of software engineering tasks, including software design, an area traditionally regarded as highly dependent on human expertise and judgment. However, there has been little research focusing on how LLMs are used in software design, nor on the associated benefits and drawbacks. This paper aims to bridge this gap by empirically investigating how software developers utilize LLMs in the context of software design. We conduct a mixed-methods study, combining a mining study of 291 developer-ChatGPT conversations shared on GitHub with a survey of 65 software practitioners. Our findings reveal nine distinct categories of design tasks supported by ChatGPT, including architecture design, data model design, and the use of design patterns. We further characterize developer-ChatGPT interactions, showing that developers primarily use ChatGPT for knowledge acquisition and design-related code generation, with most tasks situated at the detailed design level. The study identifies seven key benefits of utilizing LLMs in software design as perceived by developers, such as better technology selection and the early detection of design flaws. We also uncover six limitations, including the generation of overly lengthy and difficult-to-read outputs, the creation of inexecutable or incorrect code, and a heavy reliance on context that can lead to hallucinated results. These findings provide an evidence-based characterization of current LLM use in software design from both open-source and practitioner perspectives, highlighting a tension between perceived benefits and limitations, which lays a foundation for future research and the development of effective techniques and tools to integrate LLMs into software design practices.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Improving protein-ligand complex generation with force field guidance",
-    "authors": [
-      "Helen Lai",
-      "Tingyu Wang",
-      "Hassan Sirelkhatim",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/380b9038814954610720c2dd76cdd2f08ca84103",
-    "date": "2026-05-02",
-    "keywords": [
-      "Diffusion Model",
-      "AIDD",
-      "Cited: 1",
-      "Journal of Cheminformatics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Abstract Generative models based on diffusion and flow matching have recently been applied to structure-based drug design, but their outputs often include unrealistic protein–ligand interactions that do not obey the laws of physics. We present an energy guidance framework that incorporates a molecular mechanics force field (MMFF94) directly into the sampling process. The method steers molecular generation toward more physically plausible and energetically stable conformations without retraining the underlying model. We evaluate this approach using two state-of-the-art architectures, SemlaFlow, a flow matching model and EDM, a diffusion model, on the PDBBind dataset. Across both models, energy guidance improves enthalpic interaction energy, improves strain energy by up to 75\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\%$$\\end{document}%, and generates over 1000 ligands with better docking scores than native ligands. These results demonstrate that lightweight, physics-based guidance can significantly enhance generative drug design while preserving chemical validity and diversity. Scientific contribution We introduce a novel, training-free force field guidance framework that steers ligand generation using empirical molecular mechanics (e.g., MMFF94) during diffusion or flow-based sampling–without modifying or retraining the base generative model (e.g., EDM or Semflaflow by [24]). Our method operates as a plug-in during inference time, leveraging energy feedback to generate poses with lower strain and having better predicted interactions with the protein structure. Our main contributions are as follows: Energy-based guidance without retraining: Unlike methods that require gradients from neural affinity predictors (e.g., BADGER [26]), our approach injects classical force field feedback (MMFF94) directly during the posterior sampling step. Improved docking and strain metrics: In benchmarks against unconditional EDM and Semflaflow, our guided inference yields consistently better AutoDock Vina scores and lower ligand strain energy, even after optimizing the final structures using the same force field. Compatibility and flexibility: Because the guidance module is external, it can be applied broadly to multiple generative backbones–without retraining or architecture modifications, and can be applied to arbitrary differentiable potential energy functions. Theoretical guarantee of stability. We demonstrate in Appendix B that the gradient correction step corresponds to a descent step on the energy under standard smoothness assumptions. While the full sampling update also includes model-driven (and, in the diffusion case, stochastic) components, this result formalizes how the guidance term locally biases the trajectory toward lower-energy regions and provides a principled justification for its stabilizing effect.",
-    "summary": "",
-    "doi": "10.1186/s13321-026-01198-2",
-    "citations": 1
-  },
-  {
-    "title": "LiveFMBench: Unveiling the Power and Limits of Agentic Workflows in Specification Generation",
-    "authors": [
-      "Dong Xu",
-      "Jialun Cao",
-      "Guozhao Mo",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/37284496ad18423dd42a0d47ca90f7108be3a77b",
-    "date": "2026-05-02",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Formal specification is essential for rigorous program verification, yet writing correct specifications remains costly and difficult to automate. Although large language models (LLMs) and agents have shown promising progress, their true capabilities and failure modes remain unclear. We present the first systematic and contamination-aware study of LLM- and agent-based formal specification generation for C programs. We introduce LiveFMBench, a continuously evolving benchmark of 630 ACSL (ANSI/ISO C Specification Language)-annotated C programs, including 360 newly collected cases designed to mitigate data leakage. Using this benchmark, we evaluate direct prompting with different sampling sizes, reasoning-enabled (thinking mode) inference, the agentic pipeline, and perform a fine-grained failure analysis. Experimental results reveal that naive evaluation substantially overestimates performance because models under direct prompting may exhibit unfaithful behaviors, such as deceiving automated provers or ignoring code-context constraints; after excluding such cases, the true specification generation accuracy drops by approximately 20\\%. We further find that both increased sampling and thinking mode significantly improve success rates, with smaller models benefiting more from thinking mode. Agentic pipelines are particularly effective under low sampling budgets and on harder datasets. Failure analysis further shows that incorrect loop invariants are the dominant error type, while agentic pipelines notably reduce assertion errors. These results expose fundamental limitations in current LLM-based approaches and suggest they remain far from replacing human-authored formal specifications. We release LiveFMBench at https://huggingface.co/datasets/fm-universe/Live-FM-Bench and all evaluation artifacts to support future research.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "AMSnet-q: Unsupervised Circuit Identification and Performance Labeling for AMS Circuits",
-    "authors": [
-      "Zeshen Zhang",
-      "Junzhuo Zhou",
-      "Yichen Shi",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/332dcbad316b27b2a146d28aaf6b3e12ec7b2682",
-    "date": "2026-05-02",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Analog and mixed-signal (AMS) circuit design remains heavily reliant on expert knowledge. While recent AI-driven automation tools can generate candidate topologies, they critically depend on manually curated datasets with functional and performance annotations -- a requirement that current large language models (LLMs) and vision models cannot automate. Existing approaches still require domain experts to manually interpret circuit functionality. We present AMSnet-q, a fully automated, unsupervised pipeline that eliminates human-in-the-loop annotation by converting schematic images directly into a labeled AMS circuit database. Unlike prior work that stops at netlist extraction, our framework automates the complete verification loop: it performs schematic-to-netlist conversion, topology-aware testbench generation, and simulation-based sizing validation to objectively determine circuit functionality. Validated in 28 nm technology, AMSnet-q processed 739 schematics from the AMSnet 1.0 dataset, automatically constructing a repository of 4 circuit classes, 105 distinct topologies, and 89,789 labeled device configurations. By decoupling human effort from dataset volume and reducing the workload to a one-time testbench template per circuit class, AMSnet-q enables scalable, objective, and fully automated AMS database construction.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Segment-Aligned Policy Optimization for Multi-Modal Reasoning",
-    "authors": [
-      "Lei Gao",
-      "Zhuoming Li",
-      "Mengxi Jia",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/325bd6367a6090d1c117aafe4029dd6617b4e39e",
-    "date": "2026-05-02",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Existing reinforcement learning approaches for Large Language Models typically perform policy optimization at the granularity of individual tokens or entire response sequences. However, such formulations often misalign with the natural step-wise structure of reasoning processes, leading to suboptimal credit assignment and unstable training in multi-modal reasoning tasks. To bridge this gap, we propose Segment-Aligned Policy Optimization (SAPO), a novel reinforcement learning paradigm that treats coherent reasoning steps, rather than tokens or full sequences as fundamental units of policy update. SAPO introduces a step-wise Markov decision process abstraction over reasoning segments, accompanied by segment-level value estimation, advantage computation, and importance sampling mechanisms that are semantically aligned with reasoning boundaries. Experiments on representative reasoning benchmarks demonstrate that SAPO consistently outperforms token-level and sequence-level policy optimization methods, achieving significant accuracy improvements while exhibiting better training stability and value estimation consistency. Our work underscores the importance of aligning reinforcement learning updates with the intrinsic structure of reasoning, paving the way for more efficient and semantically grounded policy optimization in complex reasoning tasks. Codes and models will be released to ensure full reproducibility.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Where Do Prompt Perturbations Break Generation? A Segment-Level View of Robustness in LoRA-Tuned Language Models",
-    "authors": [
-      "Zhuoyun Li",
-      "Boxuan Wang",
-      "Jinwei Hu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/306a719fe63f93f4d3362f4a673491a5f47d7b9a",
-    "date": "2026-05-02",
-    "keywords": [
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models are sensitive to minor prompt perturbations, yet existing robustness methods usually enforce consistency at the whole-sequence level. This holistic view can hide an important failure mode: a perturbed response may remain globally similar to the clean one while drifting on a critical entity, relation, or conclusion. We introduce S$^2$R$^2$, a segment-level framework for robust LoRA fine-tuning. S$^2$R$^2$ decomposes clean and perturbed generations into semantic segments, aligns them with an optimal-transport objective, and penalises the segments with the largest meaning drift. To connect this output-side objective with model adaptation, we add an adapter-stability regulariser motivated by segment-level attention reallocation, using LoRA norm control as a tractable proxy for limiting perturbation-amplified evidence shifts. A PAC-Bayesian complexity view further explains why controlling adapter growth may support transfer beyond observed perturbations. Experiments on summarisation benchmarks show that S$^2$R$^2$ improves robustness under typographical noise, deletion, synonym replacement, and paraphrasing, while maintaining competitive clean performance and stronger cross-dataset transfer than consistency-based baselines.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "LocalAlign: Enabling Generalizable Prompt Injection Defense via Generation of Near-Target Adversarial Examples for Alignment Training",
-    "authors": [
-      "Yuyang Gong",
-      "Zihao Wang",
-      "Jiawei Liu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/26f4c8b9276e48e9d89c86cee6c15d6ce4bebe50",
-    "date": "2026-05-02",
-    "keywords": [
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models are increasingly embedded into systems that interact with user data, retrieved web content, and external tools, creating a new attack surface: prompt injection, where malicious commands embedded in untrusted data override the trusted command and induce unintended behavior. Existing defenses mainly rely on fine-tuning the model to preserve an explicit boundary between trusted commands and the untrusted data portion, so that the model learns to prioritize the trusted field and ignore malicious commands in data. However, we observe that while these defenses can block obviously malicious responses caused by injected commands, they generalize poorly to real-world scenarios where the model's response to the injected command is much nearer to the correct response. This is because existing methods typically train against only a fixed set of hand-crafted attack targets, which yields a loose boundary around the correct response and leaves it easier to bypass. To address this challenge, we propose LocalAlign, a more generalizable prompt injection defense inspired by adversarial training. LocalAlign automatically and efficiently generates adversarial examples in which the command embedded in the data portion induces a response that stays near to the correct response while still being wrong. We generate such near-but-wrong adversarial examples using prompting and a single inference step. This design enforces a tighter robustness boundary around the correct response: even small response shifts induced by commands in untrusted data are explicitly penalized. Moreover, the resulting adversarial examples can vary substantially in quality across samples. To address this issue, we further introduce a margin-aware alignment algorithm that quantifies each sample's distance to the correct response and assigns larger training weight to nearer ones.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "H2-MAS: A Hybrid Heuristic-Multi-Agent Architecture for Semantic Bot Detection",
-    "authors": [
-      "Avinash Chandra Vootkuri"
-    ],
-    "link": "https://www.semanticscholar.org/paper/1dcb558906a2e21dd5b9d38dcfbe16819f1139ee",
-    "date": "2026-05-02",
-    "keywords": [
-      "Agent",
-      "Electronics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Traditional Web Application Firewalls (WAFs) rely on static thresholds to detect automated threats. While effective against simple scripts, these deterministic rules struggle with “Ambiguous Traffic”—sophisticated bots that mimic human behavior and “Efficient Humans” (Power Users) who exhibit bot-like speed. In this paper, we introduce H2-MAS, a hierarchical security framework that combines a high-speed Random Forest classifier (Tier 1) with a Multi-Agent Cognitive Council (Tier 2) powered by Large Language Models (LLMs). Unlike standard “Black Box” LLM deployments, H2-MAS utilizes an adversarial “Prosecutor vs. Defender” protocol to resolve semantic paradoxes in real-time. We evaluated the system on a stratified dataset of 1000 high-uncertainty sessions (0.2≤p≤0.8). Through simulated evaluation on a stratified semantic test set, the results demonstrate that the proposed architecture has the theoretical capacity to achieve up to 97.6% accuracy on specific edge cases where traditional heuristics fail. Notably, the Cognitive Council demonstrated the theoretical capacity to reduce the False Positive Rate to 0.00% within this constrained evaluated set, validating that the “Defender” agent can successfully protect legitimate power users from erroneous blocking. This architecture offers a cost-effective paradigm for Semantic Security, prioritizing user experience without compromising threat detection.",
-    "summary": "",
-    "doi": "10.3390/electronics15091936",
-    "citations": 0
-  },
-  {
-    "title": "Dynamic Graph with Similarity-Aware Attention Graph Neural Network for Recommender Systems",
-    "authors": [
-      "Aadarsh Senapati",
-      "Neha Kujur",
-      "Vivek Yelleti"
-    ],
-    "link": "https://www.semanticscholar.org/paper/1badb22d7ca808c3ea76fa593409ce387fd47415",
-    "date": "2026-05-02",
-    "keywords": [
-      "Transformer"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recommender systems are essential components of modern online platforms which presents personalized content in various domain. The traditional collaborative filtering methods depends on static user-item interaction graphs and a limited subset of similarity measures which fail to capture the changing nature of preferences of an individual. Recent graph neural network (GNN) based approaches focus on user-item bipartite graphs which do not use explicit user-user relational modelling and dynamic graph evolution during training. To address these limitations, this paper proposes a Dynamic Graph SimilarityAware Attention Graph Neural Network (DG-SA-GNN) framework that integrates dynamic user similarity graph construction with multi-similarity propagation and attention-based aggregation. The proposed architecture constructs four parallel user similarity graphs using Cosine, Jaccard, Discounted Pearson Correlation Coefficient (Discount PCC), and IPIJ similarity functions, each processed by a dedicated UserGNN module. A Graph Transformer fuses the four graph views, and a CrossAttention module refines user embeddings through interaction with item embeddings. Crucially, the graphs are reconstructed at scheduled epochs during training, enabling the model to adapt to the learned embedding space constituting the dynamic graph component. Mini-batch training with hard negative sampling improves scalability and convergence. Experiments on the MovieLens100K benchmark demonstrate that DG-SA-GNN achieves a Recall@20 of 0.162 and NDCG@20 of 0.065 which is better than the LightGCN baseline in recall. The results validate that dynamic multi-similarity graph construction coupled with attention-based fusion which produce recommendation performance",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "DiagramNet: An End-to-End Recognition Framework and Dataset for Non-Standard System-Level Diagrams",
-    "authors": [
-      "Jincheng Lou",
-      "Ruohang Xu",
-      "Jiapeng Li",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/153384b337698ccdf35ffc8343f02ab0ef7f8f12",
-    "date": "2026-05-02",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "System-level diagrams encode the architectural blueprint of chip design, specifying module functions, dataflows, and interface protocols. However, non-standardized symbols and the scarcity of structured training data hinder existing multimodal large language models (MLLMs) from recognizing these diagrams. To address this gap, we introduce DiagramNet, the first multimodal dataset for system-level diagrams, comprising 10,977 connection annotations and 15,515 chain-of-thought QA pairs across four tasks: Listing, Localization, Connection, and Circuit QA. Building on this dataset, we propose a progressive training pipeline together with a decoupled multi-agent workflow that decomposes complex visual reasoning into Perception, Reasoning, and Knowledge stages. On the DiagramNet benchmark, integrating our 3B-parameter model with the proposed workflow surpasses the 2025 EDA Elite Challenge winner and outperforms GPT-5, Claude-Sonnet-4, and Gemini-2.5-Pro by over 2x in end-to-end evaluation. Notably, the workflow generalizes beyond our model, boosting Task 1 performance by 128.7x for Gemini-2.5-Pro and 12.4x for GPT-5. Furthermore, with only 60 images for detector adaptation, the method transfers effectively to AMSBench, achieving zero-shot connectivity reasoning on par with GPT-5 and Claude-Sonnet-4 while surpassing the AMS state-of-the-art method Netlistify.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "DITRON: Distributed Multi-level Tiling Compiler for Parallel Tensor Programs",
-    "authors": [
-      "Size Zheng",
-      "Xuegui Zheng",
-      "Hanshi Sun",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/15283cf9419c69577ef06abe2aec1ea7c172cfbe",
-    "date": "2026-05-02",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The scaling of large language models (LLMs) is currently bottlenecked by the rigidity of distributed programming. While high-performance libraries like CuBLAS and NCCL provide optimized primitives, they lack the flexibility required for rapidly evolving model architectures. Conversely, existing tensor compilers fail to address the complex memory hierarchy of distributed clusters effectively. To bridge this gap, we propose DITRON, a scalable tile-level compiler that democratizes high-performance distributed kernel development. DITRON introduces a novel hierarchical programming abstraction spanning Core, Device, and Task levels to map tensor programs efficiently onto heterogeneous distributed hardware. This abstraction allows DITRON to support diverse parallelism strategies while abstracting away the complexity of inter-node and intra-node communication. Evaluated across large-scale clusters, DITRON achieves performance parity with or exceeding expert-tuned CUDA libraries, delivering speedups of $6\\%-30\\%$ on isolated kernels and $5\\%-30\\%$ on end-to-end inference in vLLM. Furthermore, DITRON demonstrates strong portability, achieving significant speedups on both NVIDIA and AMD platforms. \\ours{} has been deployed at the enterprise level for both training and inference. It achieves an MFU improvement of over 10\\% in training tasks, saving approximately 500,000 GPU hours of training cost per month. For inference tasks, it delivers an end-to-end gain of over 20\\% and has been applied to cloud service inference and edge inference scenarios.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Spectral- and Energy-efficient Multi-BS Multi-RIS Pinching-antenna Systems: A GNN-based Approach",
-    "authors": [
-      "Changpeng He",
-      "Yang Lu",
-      "Wei Chen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/13df15d7b70ebbc0a91115bb1604c4b692ad023f",
-    "date": "2026-05-02",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "This paper investigates coordinated downlink transmission in a multi-base station (multi-BS) multi-reconfigurable intelligent surface (multi-RIS)-assisted pinching-antenna (PA) system, where each user equipment (UE) is associated with a single BS and each BS is equipped with movable PAs deployed on parallel waveguides. We formulate sum rate (SR) and energy efficiency (EE) maximization problems by jointly optimizing PA placement, RIS phase shifts, transmit beamforming, and BS-UE association under constraints of inter-PA spacing, power budget, and unit-modulus phase shift. To address the resulting highly coupled mixed-variable problem, we propose a three-stage graph neural network (GNN) that integrates heterogeneous and homogeneous graph representations and is trained end-to-end in an unsupervised manner. Extensive numerical results demonstrate that the proposed three-stage GNN consistently outperforms representative system and learning baselines, generalizes well to unseen numbers of UEs, RISs, and BSs, and maintains millisecond-level inference time. Besides, the results validate the effectiveness of the proposed design from both system and architectural perspectives. Moreover, PAs are shown to enhance SR and EE, and the performance gain is enlarged with increasing number of PAs.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "GA-VisAgent: A Multi-Agent application for code generation and visualization in interactive learning",
-    "authors": [
-      "Wang Jian",
-      "Jianbo Zhou",
-      "Xiong Yuhao",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/12fbd42a44e94557f800a8b8f910af8c75db2a82",
-    "date": "2026-05-02",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Geometric Algebra (GA) presents challenges to learners due to its highly abstract mathematical structure and complex operational rules, as translating algebraic manipulations into concrete geometric interpretations is a non-intuitive process when developing related code. Currently, some existing GA software packages rely on manually written scripts for code generation and visualization, but their high learning curve hinders widespread adoption. Meanwhile, methods based on Large Language Models (LLMs) often produce logical errors when generating specific GA scripts, such as GAALOPScript, resulting in generally low accuracy. To address these issues, this study proposes GA-VisAgent -- a multi-agent interactive learning application for GA code generation and visualization -- building upon a Geometric algebra large language model (GAGPT). Integrating task planning mechanisms with ReAct reasoning strategies, GA-VisAgent can decompose complex operations into five standardized subtasks, including core operations like geometric products, rotations, and reflections. It supports natural language and mathematical formulas as input to automatically generate executable code, accompanied by interactive visualizations to aid user comprehension. Experimental results show that GA-VisAgent achieved a 90% code generation success rate across 40 typical Conformal GA tasks, representing a 70% improvement over GPT-4o. This application introduces an extensible new paradigm for teaching GA and developing visualization tools for related mathematical concepts. The online service for this project will be available at http://gagis.cn/gacrac.",
     "summary": "",
     "doi": "",
     "citations": 0

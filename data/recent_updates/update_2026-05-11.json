@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Public discourse on Large Language Models: a sentiment comparison of ChatGPT and DeepSeek on YouTube comments",
+    "authors": [
+      "S. Chakraborty",
+      "Satwinderpal Kaur Gill",
+      "Manoj Kumar Verma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/33d8f03de9b18de8cc200aa36582d0dd331db9a1",
+    "date": "2026-05-11",
+    "keywords": [
+      "今日上新",
+      "Library hi tech"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The purpose of the study is to analyse attributes and the growth of YouTube videos on two majorly popular Large Language Models (LLMs): ChatGPT and DeepSeek, in a selected period. The purpose is also to assess the users' sentiment on these LLMs from the viewers' comments, and to identify the most frequently appearing terms in these comments.\n \n \n \n Data are extracted from the videos uploaded between December 2023 and March 2025 using Python, applying the YouTube API (Application programming interface) v3. Videos and comments in the English language are only included. Sentiment analysis is done using Valence Aware Dictionary and sEntiment Reasoner (VADER) and top term analysis is done using Python.\n \n \n \n The study includes 74 videos and 33,577 comments on ChatGPT, and 93 videos and 85,154 comments on DeepSeek. The findings state that both the LLMs receive positive sentiments predominantly. DeepSeek shows a slightly higher proportion (49%) than ChatGPT (45%). DeepSeek comments are more strongly positive, due to its recent release and open-source nature. ChatGPT comments are mainly neutral and strongly positive. Negative sentiments were equal (24%) across both. The results of the top term analyses indicate that top terms are related to usability and performance in ChatGPT comments. Terms in comments on DeepSeek mostly focus on geopolitical context.\n \n \n \n The dataset is limited to videos with query terms “chatgpt” or “deepseek”. The videos and comments in languages other than English have been excluded from the scope of the study.\n \n \n \n This study will assist the large number of AI users by making them aware of the benefits, limitations, challenges and features of these LLMs. It will help to perform more informed and responsible use of these technologies.\n \n \n \n This study is the first to compare users' sentiment on ChatGPT and DeepSeek using YouTube Comments.\n",
+    "summary": "",
+    "doi": "10.1108/lht-05-2025-0112",
+    "citations": 0
+  },
+  {
+    "title": "MISP-Bench: Decomposing User-Provided False Priors into Answer, Rationale, and Guard Effects",
+    "authors": [
+      "I. Jeong",
+      "Y. Kim",
+      "J. Park",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6b9c0ac1498afcfe36f5827d3f34767bab5727b2",
+    "date": "2026-05-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.07.26352627",
+    "citations": 0
+  }
+]
