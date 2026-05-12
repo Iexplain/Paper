@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Feature comparison between human-written and LLM-generated documents – a case study",
+    "authors": [
+      "Miłosz Kutyła",
+      "Paweł Gryka",
+      "Marek Kozłowski",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bdeb484340c150b3119e5652b2f038a1f84ee98f",
+    "date": "2026-05-11",
+    "keywords": [
+      "今日上新",
+      "Poznan Studies in Contemporary Linguistics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n In this paper, we explored features of human-written (HW) and large language model-generated (LLMG) texts, specifically on a dataset of Polish student reports. Expanding upon the previous research with email datasets, we constructed a dataset containing 2,400 pairs of original student-written reports and their LLMG counterparts. Using a feature-based detection approach, we analyzed 220 distinct features, including perplexity, burstiness, error frequency, stylometric elements, and sentence-level characteristics. Our findings reveal that LLMG texts demonstrate lower perplexity and burstiness values, fewer errors, greater lexical diversity, and more consistent sentence lengths compared to HW texts. Among stylometric features, relative pronouns, stop words, and content word diversity emerged as notably discriminative. The preliminary classification results, achieved with the proposed detection model, confirm the viability of feature-based methods for reliably discriminating between HW and LLMG documents.",
+    "summary": "",
+    "doi": "10.1515/psicl-2025-0063",
+    "citations": 0
+  },
+  {
+    "title": "Public discourse on Large Language Models: a sentiment comparison of ChatGPT and DeepSeek on YouTube comments",
+    "authors": [
+      "S. Chakraborty",
+      "Satwinderpal Kaur Gill",
+      "Manoj Kumar Verma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/33d8f03de9b18de8cc200aa36582d0dd331db9a1",
+    "date": "2026-05-11",
+    "keywords": [
+      "今日上新",
+      "Library hi tech"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The purpose of the study is to analyse attributes and the growth of YouTube videos on two majorly popular Large Language Models (LLMs): ChatGPT and DeepSeek, in a selected period. The purpose is also to assess the users' sentiment on these LLMs from the viewers' comments, and to identify the most frequently appearing terms in these comments.\n \n \n \n Data are extracted from the videos uploaded between December 2023 and March 2025 using Python, applying the YouTube API (Application programming interface) v3. Videos and comments in the English language are only included. Sentiment analysis is done using Valence Aware Dictionary and sEntiment Reasoner (VADER) and top term analysis is done using Python.\n \n \n \n The study includes 74 videos and 33,577 comments on ChatGPT, and 93 videos and 85,154 comments on DeepSeek. The findings state that both the LLMs receive positive sentiments predominantly. DeepSeek shows a slightly higher proportion (49%) than ChatGPT (45%). DeepSeek comments are more strongly positive, due to its recent release and open-source nature. ChatGPT comments are mainly neutral and strongly positive. Negative sentiments were equal (24%) across both. The results of the top term analyses indicate that top terms are related to usability and performance in ChatGPT comments. Terms in comments on DeepSeek mostly focus on geopolitical context.\n \n \n \n The dataset is limited to videos with query terms “chatgpt” or “deepseek”. The videos and comments in languages other than English have been excluded from the scope of the study.\n \n \n \n This study will assist the large number of AI users by making them aware of the benefits, limitations, challenges and features of these LLMs. It will help to perform more informed and responsible use of these technologies.\n \n \n \n This study is the first to compare users' sentiment on ChatGPT and DeepSeek using YouTube Comments.\n",
+    "summary": "",
+    "doi": "10.1108/lht-05-2025-0112",
+    "citations": 0
+  }
+]
