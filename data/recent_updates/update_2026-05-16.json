@@ -1,0 +1,346 @@
+[
+  {
+    "title": "AI-IoT-Robotics Integration: Survey of Frameworks, Emerging Trends, and the Path Toward Connected Robotics",
+    "authors": [
+      "Ranulfo Bezerra",
+      "Satoshi Tadokoro",
+      "K. Ohno"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fd4882448a29292645d6f41f29164f15a52cbcf4",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The convergence of Artificial Intelligence, the Internet of Things, and Robotics is no longer a futuristic vision; it is rapidly becoming the foundation of real-time, intelligent, and context-aware systems. Al enables perception and reasoning, loT provides scalable sensing and communication, and robotics delivers embodied actuation. Despite significant progress in pairwise combinations such as AloT and the Intemet of Robotic Things (IoRT), there remains a lack of unified design frameworks that fully integrate all three. This survey synthesizes the state-of-the-art across these domains, emphasizing the emerging role of Small Language Models (SLMs) at the edge and Large Language Models (LLMs) in the cloud for distributed cognition and autonomous decision-making. We propose a modular system architecture that aligns with these trends, analyze persistent gaps in interoperability and feedback control, and classify existing work by integration depth. Our review highlights how hybrid SLM-LLM systems, when coupled with loT infrastructure and robotic agents, can address challenges in real-time adaptation, scalability, and reliability. This work offers a conceptual and technical roadmap for designing next-generation Al-loT-Robotic ecosystems that are modular, interpretable, and capable of learning within dynamic environments, paving the way for the emerging paradigm of Connected Robotics and Physical Al.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3670191",
+    "citations": 0
+  },
+  {
+    "title": "Advancing diagnosis of bipolar disorder using brain morphometric similarity networks in a graph AI framework",
+    "authors": [
+      "I. W. Sampaio",
+      "G. Poli",
+      "A. Pigoni",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e83a69852750bc29e7ef3b3695c30c7a35c80a86",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.12.26350596",
+    "citations": 0
+  },
+  {
+    "title": "Emotionally intelligent social robot for dementia care: empathy-based conversational intervention model using multimodal sentiment analysis",
+    "authors": [
+      "Zhen Lei",
+      "Yiqiao Yin",
+      "Yingsheng Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e4e6930bf17fa489112c08402c118aea6a7bb278",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Future Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Dementia is a challenging health issue for healthcare systems across the globe. Communication disabilities and behavioral changes have been significantly impacting the well-being of patients with dementia. The study formulates an empathy-based conversational intervention approach for patients with dementia using multimodal sentiment analysis. The proposed system applies a cross-modal attention-based model to synthesize speech, facial expressions, and biological signals for effective emotion identification. The synthesis is further augmented with an innovative large language model-based conversational response generation module that can develop appropriate empathetic responses. Experiments conducted on public benchmark databases confirm that the trimodal fusion-based model outperforms state-of-the-art methods with an overall weighted average accuracy of approximately 87.3% for emotion identification. The proposed approach outperforms state-of-the-art methods such as MulT, MISA, and MAG-BERT. The scores on human evaluation of the generated empathetic dialogue reached 4.12 and 4.28 in terms of empathy and coherence, with improvements of 17.0% and 12.3% over baseline models. The meta-analytic synthesis of previous clinical evidence revealed significant beneficial effects of social robot interventions on depression, loneliness, and agitation of people with dementia. The comparison with commercial models such as PARO, Pepper, and NAO showed the superiority of the proposed approach over others in terms of multimodal emotion recognition and dialogue adaptability. These results show that socially interactive robots with high emotional intelligence, equipped with cutting-edge affective computing and natural language processing, have great potential for enhancing the quality of dementia care through personalized emotional support.",
+    "summary": "",
+    "doi": "10.55670/fpll.futech.5.2.19",
+    "citations": 0
+  },
+  {
+    "title": "A Model-Aided Decoupled Graph Neural Network for Hierarchical Error Correction in Cooperative Visual-Inertial Sensor Networks",
+    "authors": [
+      "Xuyue Ren",
+      "Ruichen Zhang",
+      "Guangteng Fan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/da1ee3537b62be07c99bb546894ab5f70731cf6b",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Fine-tuning",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The cooperative sensor networks relying on visual-inertial odometry (VIO) suffer from monotonically accumulating drift in Global Navigation Satellite System (GNSS)-denied environments, compromising global localization consistency. We model accumulated VIO error as a two-level functional hierarchy: low-frequency collective drift induced by systematic biases, and high-frequency geometric distortion caused by independent measurement noise. To address these coupled error modes, we propose a modelaided decoupled graph neural network (MA-DGNN), which combines an extended Kalman filter (EKF) prior with a hierarchical dual-head graph neural network under asymmetric supervision. MA-DGNN is evaluated on semisynthetic quadrotor swarm datasets derived from UZH-FPV under bounded-yaw drift <inline-formula> <tex-math notation=\"LaTeX\">$\\left(\\left|\\Delta \\theta_{\\text {yaw }}\\right| \\lt 20^{\\circ}\\right)$ </tex-math></inline-formula>. It reduces absolute trajectory error (ATE) by <inline-formula> <tex-math notation=\"LaTeX\">$71.8 \\%$ </tex-math></inline-formula> over EKF-Only and <inline-formula> <tex-math notation=\"LaTeX\">$25.9 \\%$ </tex-math></inline-formula> over an input-matched architectural control (<inline-formula> <tex-math notation=\"LaTeX\">$p \\lt 10^{-5}$ </tex-math></inline-formula> and Cohen's <inline-formula> <tex-math notation=\"LaTeX\">$d_z=$ </tex-math></inline-formula> 1.58). A five-flight hardware pilot yields <inline-formula> <tex-math notation=\"LaTeX\">$35.1 \\%$ </tex-math></inline-formula> mean ATE reduction without fine-tuning. Large-scale experiments identify two scalability phenomena-cascaded error coupling and information saturation-with centralized GNN inference under 2.5 ms for 50 agents; communication-aware end-to-end latency is characterized separately.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3680490",
+    "citations": 0
+  },
+  {
+    "title": "Design and System Implementation of an Active Perception Architecture for Maritime Targets Based on the Cognitive Mechanism of Large Models",
+    "authors": [
+      "Jing Ma",
+      "Jiale Wang",
+      "Hongliang Yin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d8a4a828970e104a3499f4d565ac0fc635e6c9e7",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Maritime target perception is challenged by strong background dynamics and a low target occupancy within the field of view. These issues motivate the development of a perception system that can fuse information from multiple sources and support adaptive reasoning, thereby improving the active perception and autonomous behavior of uncrewed aerial vehicles (UAVs) in complex maritime environments. Traditional passive perception approaches (e.g., single YOLO-based detection pipelines) perform well in specific, fixed tasks but are often inadequate for dynamic and complex maritime scenarios. Recent advances in large models have demonstrated unprecedented potential in cognitive reasoning, offering a new opportunity to enable a paradigm shift from passive to active perception. This article proposes a “low-level vision–to–high-level cognition” architecture that integrates YOLO11 with a large language model (LLM), and further introduces a collaborative reasoning mechanism between a vision–language model (VLM) and an LLM to build a hierarchical multimodal active perception framework. The system consists of four modules: a perception layer, an information filtering layer, a cognition and reasoning layer, and a control layer. Through multimodal data acquisition, YOLO11-based target detection and structured feature extraction, LLM–VLM collaborative reasoning, and control command generation, the proposed system enables dynamic perception and closed-loop control of UAVs, supporting multitarget active exploration and task-level responses. Experimental results demonstrate that, compared with mainstream approaches, the proposed method achieves significantly lower latency in key real-time metrics, including visual parsing delay, instruction generation delay, and end-to-end response time. Specifically, the visual parsing delay is 613 ms, the instruction generation delay is 623 ms, and the end-to-end response time is 1642 ms. Meanwhile, the target detection accuracy and instruction execution success (IES) rate are improved to 89.8% and 88.3%, respectively, thereby enhancing the UAV’s active perception capability and the reliability of task execution in complex maritime environments.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3680718",
+    "citations": 0
+  },
+  {
+    "title": "A Comprehensive Survey on Large Language Model Compression for Artificial Intelligence Applications in Edge Systems",
+    "authors": [
+      "Yuzhu Liang",
+      "Changfu Xu",
+      "Yaxin Mei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d0b4e42fd00cff582a77f12485a33d48e851fd98",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) have achieved remarkable performance across various artificial intelligence (AI) applications. However, current LLMs cannot be deployed directly on edge nodes due to their large number of parameters. Fortunately, model compression technology has been proposed to reduce the computational workload and memory usage of LLMs, enabling further edge-based LLM services. However, existing research typically concentrates on isolated compression algorithms and lacks a comprehensive perspective on how to leverage these techniques for practical, end-to-end LLM deployment in edge environments. In this survey, we review edge-oriented LLM compression techniques and software–hardware codesign strategies to enable efficient LLM deployment on resource-constrained edge systems and guide future research in this area. First, we analyze techniques for LLM compression from the perspective of cloud–edge collaborative intelligence, including model quantization, parameter pruning, and knowledge distillation (KD). Second, we present several hybrid model frameworks tailored to dynamic, heterogeneous edge environments, based on model architecture, application scenarios, and combination selection. Third, we further refine a four-layer software–hardware codesign and an overhead-aware LLM deployment optimization. Finally, we discuss the challenges of current model compression approaches and offer insights into future research directions, with a focus on edge-based LLM services.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3675866",
+    "citations": 1
+  },
+  {
+    "title": "A Pen-Shaped Visual–Tactile Sensor System for Braille Recognition With Multimodal Fusion and LLM-Enhanced Feedback",
+    "authors": [
+      "Zirui Mo",
+      "Jie Zheng",
+      "Zhonghuizi Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cfd5f53d3b595162cc23ee016c6bed37abae79ec",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "While Braille literacy is essential for the independence of the visually impaired, self-directed learning remains constrained by the absence of immediate pedagogical feedback. This article introduces a novel embodied intelligent system integrating a pen-shaped visual–tactile braille pen (VTBP), a dual-stream multimodal network [bimodal perception fusion network (BIPNet)], and a large language model (LLM) agent. The VTBP utilizes a cylindrical, ergonomic design with a multilayer gel interface to acquire high-fidelity 3-D microstructures. To process these tactile inputs, BIPNet fuses height maps and point clouds, achieving 99.67% accuracy and demonstrating superior robustness over unimodal methods. Complementing high-precision recognition, the LLM agent provides adaptive, context-aware semantic guidance. User studies demonstrate that the system reduces learning duration by 42% and boosts reading accuracy by 18%points compared to conventional methods, highlighting the efficacy of combining fine-grained tactile perception with cognitive AI for accessible education.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2026.3681019",
+    "citations": 0
+  },
+  {
+    "title": "SCL-GT: Supervised Contrastive Learning With Graph Neural Networks and Transformer for Upper-Body Gesture Emotion Recognition",
+    "authors": [
+      "Yan Zhao",
+      "Zhitao Xiao",
+      "Ming Guo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bbc15eb55e7d4b12748a69f3274326198c062e2f",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "IEEE Sensors Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Inertial sensing technology brings new possibilities for emotion recognition by addressing occlusion and spatial constraints in vision-based solutions. Nevertheless, fully exploiting the interactive potential of inertial sensors remains a challenge. In this article, we propose a supervised contrastive learning with graph neural networks (GNNs) and transformer (SCL-GT) architecture to recognize emotions from upper-body gestures using inertial sensors. Specifically, SCL-GT leverages GNN and transformer branches to extract complementary emotional features from motion data in the local structure view and global interaction view, respectively, and introduces a supervised contrastive learning (SCL) task to ensure consistency across cross-view representations. For the GNN branch, a graph representation strategy is developed to model the relationships among sensors, and a dynamic adjacency matrix is integrated into graph convolutional networks (GCNs) to improve upper-body gesture emotion recognition. Furthermore, we construct the EmoUP dataset, which captures eight emotions from the upper-body gestures of sixteen participants using five inertial sensors. Experimental results show that SCL-GT outperforms the state-of-the-art (SOTA) methods in terms of overall performance across both positive and negative valences on the EmoUP dataset.",
+    "summary": "",
+    "doi": "10.1109/JSEN.2025.3610400",
+    "citations": 0
+  },
+  {
+    "title": "MSET: Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling With Visual Foundation Models",
+    "authors": [
+      "Feixiang Liu",
+      "Xiaohui Li",
+      "Wenhui Gao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/acbdf4067e80e16b717a83acf936e3c875d3eb48",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transformer",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "While machine learning (ML) has been explored for beam prediction, many methods remain constrained by single-modality inputs, shallow temporal modeling, and limited robustness to interference and domain shift. We introduce multimodal semantic-enhanced real-world beam prediction via temporal modeling with visual foundation models (MSET), a multimodal framework that couples visual semantics with positional priors in a causal, lightweight design. A visual foundation model (VFM), instantiated as a Swin-Transformer, learns rich spatial and semantic cues from RGB images and segment anything model (SAM)-derived region masks, and a lightweight ResNet-18 student distills this knowledge for efficient inference. Short-horizon dynamics are captured by a causal temporal convolutional network (TCN) with an adaptive receptive field, whose volatility-driven depth gate expands context under motion spikes and contracts it in calm periods. On top of semantic-aware frame embeddings, a temporally aware cross-attention (TACA) aligns original and semantic-enhanced tokens, while a Mamba-conditioned GPS prior, implemented via a selective state-space model (SSM), issues a location-conditioned single query with positional bias to attend the fused tokens. We further extend inference to dense deployments with multiple proximate candidates and address target selection under ambiguity. Experiments on DeepSense 6G dataset show consistent Top- $k$ improvements across single/multitarget and day/night scenarios, indicating reduced sweep reliance and strong generalization under realistic V2I dynamics.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3669716",
+    "citations": 1
+  },
+  {
+    "title": "Clinical Safety of AI-Generated Antibiotic Prescribing Advice: Guideline Adherence and Misinformation Risk Among Large Language Models",
+    "authors": [
+      "M. M. Khan",
+      "M. N. Anwar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/70865e4901829704784261355af7cbe2635dc9a7",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.13.26352828",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal Large Language Models for Perception in Autonomous Driving: Architecture, Taxonomy, and Challenges",
+    "authors": [
+      "Ying Jing",
+      "Xinyu Zhang",
+      "Mo Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5bd317548d254c411b70ae4afa4351bff66b4294",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Autonomous vehicles rely on continuous environmental perception to assess obstacle distribution to ensure safe driving. However, current perception technologies face substantial challenges, particularly under adverse weather conditions and when encountering long-tail scenarios. With the advent of transformer-based attention mechanisms, large language models (LLMs), exemplified by GPT, have exhibited emergent intelligence, offering new possibilities for achieving high-performance perception. This technological advancement has led to the development of multimodal LLMs (MLLMs), which incorporate multimodal encoders. These models enable a single LLM to process multisource data while performing advanced understanding and reasoning tasks, enhancing complex environmental perception capabilities. Despite significant progress in MLLMs, there remains a notable gap in systematic research on their optimal application to perception tasks. Therefore, this article presents a comprehensive survey of recent advancements in MLLM-based perception. First, we introduce the mainstream vision–language perception tasks, widely adopted evaluation metrics, and existing language-enhanced autonomous driving datasets. Next, we outline the general architectural design principles of MLLMs. Subsequently, we provide a taxonomy and in-depth analysis of current MLLMs, focusing on three dimensions: input modality, alignment technique, and scene representation, elucidating their underlying implementation paradigms. Finally, we summarize the key challenges and emerging research directions in MLLM-driven perception. This survey aims to facilitate further progress in MLLMs by synthesizing these insights.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3668085",
+    "citations": 0
+  },
+  {
+    "title": "A Comprehensive Review of Generative Physical Artificial Intelligence",
+    "authors": [
+      "Satyam Gaba",
+      "Krutiksinh Rana",
+      "Siva Sai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/55c8dd8ab1f1a91812469d47669377c974f33cda",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Agent",
+      "Diffusion Model",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The integration of large-scale foundation models with physical embodiments has led to significant advancements in robotics termed generative physical artificial intelligence (GPAI). These agentic AI systems autonomously perceive, reason, and act in complex real-world situations. This article comprehensively analyzes GPAI systems, focusing on their architectural foundations, current applications, and key limitations. We introduce a taxonomy of five distinct approaches: robot foundation models (RFMs) for cross-platform skill transfer; vision–language–action (VLA) models for end-to-end multimodal perception and control; large behavior models (LBMs) for human-like movement generation; diffusion policy models (DPMs) for diffusion model-based temporally coherent action generation; and world foundation models (WFMs) for physics-compliant simulation and data generation. We examine how these approaches complement each other: WFMs generate training data for VLA models and DPMs, RFMs enable cross-platform deployment of learned policies, and LBMs provide motion priors for natural behavior. Through examples across autonomous vehicles, industrial automation, healthcare robotics, and humanoid systems, we identify significant performance improvements and summarize promising research directions in data-efficient learning, sim-to-real transfer, edge-compatible architectures, and safety frameworks. These insights advance embodied AI for the Internet of Things (IoT)-connected environments, where intelligent agents interact with networked sensors, actuators, and edge devices.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3671268",
+    "citations": 0
+  },
+  {
+    "title": "Simulating population compliance with pandemic interventions using large language models",
+    "authors": [
+      "R. Liu",
+      "C. Jong",
+      "H. Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/440fd2d7a6d6f3af0d8cfee5a8ff46c1f84081fa",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.12.26352942",
+    "citations": 0
+  },
+  {
+    "title": "Personalized Privacy-Preserving Graph Neural Network Based on Community Awareness",
+    "authors": [
+      "Shaobo Du",
+      "Jinchuan Tang",
+      "Shuping Dang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/439d7a76370377b6eb19c93ecb80fe0bbb7d7960",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Existing differentially private graph neural network (GNN) methods predominantly rely on a uniform privacy budget and coarse-grained perturbation mechanisms, implicitly assuming homogeneous privacy sensitivity across graph nodes. However, real-world graphs exhibit pronounced community structures and topological heterogeneity, causing uniform privacy protection to simultaneously underprotect structurally critical regions and overperturb peripheral ones, thereby degrading both privacy guarantees and model utility. To address this limitation, we propose a community-aware personalized differential privacy (DP) framework for GNNs, which enables fine-grained node-level privacy protection by explicitly leveraging community structure. Specifically, we apply the Louvain algorithm to detect community structures and introduce a community importance evaluation method that integrates structural connectivity with node attribute similarity. Based on these importance scores, we design a personalized privacy budget allocation scheme that adaptively assigns differentiated privacy budgets to nodes under a global $(\\epsilon,\\delta)$ -DP constraint. We theoretically prove that the proposed mechanism satisfies node-level $(\\epsilon,\\delta)$ -DP and further demonstrate that it significantly enhances robustness against practical privacy threats such as attribute inference and link reconstruction attacks. Extensive experiments on five real-world graph datasets show that our approach consistently outperforms state-of-the-art DP-GNN baselines across multiple architectures, including graph convolutional network (GCN), graph isomorphism network (GIN), and Sample and aggregate (GraphSAGE), achieving a superior privacy–utility trade-off.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3668140",
+    "citations": 0
+  },
+  {
+    "title": "A Comprehensive Review of Tsetlin Machines: Concepts, Applications, Analysis, and the Future",
+    "authors": [
+      "Souraja Kundu",
+      "Shruti Patkar",
+      "Saras Mani Mishra",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2a7bf9e697966ccb284ec92c3d394e2d78c3f798",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the rise of large language models, two significant challenges are their high power consumption during training and their opaque nature. The Tsetlin machine (TM) offers a logic-based, interpretable alternative to traditional machine learning (ML) models to address these issues. TM is used in various ML-based edge computing and Internet of Things (IoT) applications, such as batteryless sensors, resource-constrained intrusion detection, and on-device training. It shows <inline-formula> <tex-math notation=\"LaTeX\">$30.5\\times $ </tex-math></inline-formula> reduction in computation cost, <inline-formula> <tex-math notation=\"LaTeX\">$36.6\\times $ </tex-math></inline-formula> reduction in storage memory footprint, <inline-formula> <tex-math notation=\"LaTeX\">$13.5\\times $ </tex-math></inline-formula> reductions in latency and energy, and converges faster than neural networks. It can be implemented on different hardware platforms, including field-programmable gate arrays, superconducting circuits, and memristor-transistor arrays. Filling a gap, we provide a holistic reference containing more than 160 implementations of TMs. In this tutorial and survey, we explain the algorithm of the basic TM in detail with a background of learning automata (LA). Next, we discuss different TM variants, including the regression TM (RTM), federated learning (FL)-based TMs, the coalesced TM (CoTM), real and integer-weighted TMs (IWTMs), and the convolutional TM (CTM) for text and image classification. We classify these software and hardware implementations based on their algorithmic similarities and compare them using key performance metrics such as accuracy, training time, energy consumption per classification, and operating frequency. In addition, we discuss our observations on general trends, insights from our comparative analysis, limitations of existing implementations, and potential directions for future research to further extend its applicability in energy-efficient IoT and edge computing applications.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3665145",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence-supported spatial optimization of urban greenway networks: a framework for enhancing restorative environmental performance",
+    "authors": [
+      "Xueyan Jing",
+      "Mohd Fabian Bin Hasna",
+      "Aini Jasmin Ghazalli"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0a22f388282ee66eb1d128a220c3999c92223b26",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Future Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The goal of the study was to construct an AI-driven end-to-end framework to improve the restorative environmental performance of urban greenway networks. Generally, methods for greenway planning may have subjectivity, low optimization efficiency, and difficulty in quantifying multi-dimensional objectives. The framework integrates convolutional neural networks (ResNet-50) convolutional neural networks (CNN) for landscape quality assessment, GraphSAGE-based graph neural networks (GNN) for spatial topology modeling, and proximal policy optimization (PPO)-based deep reinforcement learning (DRL) for multi-objective optimization. A system for restorative assessment was established based on Attention Restoration Theory. This system has four dimensions, being away, fascination, compatibility, and extent. The generalization of the framework was systematically validated in the case of three representative urban scenarios; plains of a medium-sized city, hills of a small city, and a high-density metropolis. The findings show that compared to manual planning, the framework yielded a restorative score improvement of 42.2%, a 72.7% increase in population coverage, and 98.1% enhancement in efficiency (Optimization time from 120 hours to 2.3 hours). Spatial equity improved due to the decrease in the Gini coefficient from 0.42 to 0.28. Strong transferability is evident as migration cost in cross-scenarios is under 5%. The performance dropped by 26% to 41% when any of the modules (CNN, GNN, DRL) were removed. Multi-objective optimization was better than single-objective techniques. The framework endowed with quantitative decision-support tools, facilitates healthy city construction. It promotes spatial justice by directing physical resources to the most vulnerable sections of the community. Further, the framework provides support for rapid iterative planning of green infrastructure for a smart city.",
+    "summary": "",
+    "doi": "10.55670/fpll.futech.5.2.11",
+    "citations": 0
+  },
+  {
+    "title": "LLM-Based Deep Reinforcement Learning for Collaborative Surveillance in IoT",
+    "authors": [
+      "Yin Wang",
+      "Jian Gu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/07d5c50f529e37788dee66446cc22bada90bf11a",
+    "date": "2026-05-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In the Internet of Things (IoT)-based collaborative surveillance systems, communication links are frequently disrupted due to uncrewed aerial vehicle (UAV) node failures and rapid changes in network topology. Existing recovery methods based on deep reinforcement learning (DRL) often rely on static reward functions, which struggle to adapt to dynamic environments and thus impair convergence efficiency. Moreover, waypoints generated by standard algorithms often overlook practical communication range constraints. To address these challenges, this article proposes a collaborative communication link reconstruction (CCLR) framework. A reward adaptation mechanism is designed, which employs a large language model (LLM) to convert real-time environmental context into executable Python reward functions. This enables the agent to dynamically shift its optimization objective from broad coverage to urgent link recovery based on current network conditions. Furthermore, a constrained optimization module is integrated into the training loop, enforcing distance constraints among UAVs strictly through gradient penalty. Experimental results demonstrate that the proposed framework effectively balances adaptive decision-making and physical connectivity constraints, achieving significantly faster convergence and higher network coverage compared to baseline methods.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2025.3647025",
+    "citations": 0
+  }
+]
