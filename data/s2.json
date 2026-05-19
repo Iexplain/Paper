@@ -10,7 +10,6 @@
     "link": "https://www.semanticscholar.org/paper/d6494debc1d2c0b85134ca244dc659097eefbbd9",
     "date": "2026-05-17",
     "keywords": [
-      "今日上新",
       "Foundation Model",
       "medRxiv"
     ],
@@ -602,8 +601,8 @@
     "title": "EnergyLens: Predictive Energy-Aware Exploration for Multi-GPU LLM Inference Optimization",
     "authors": [
       "Zhiye Song",
-      "Kyungmi Lee",
-      "Eun Kyung Lee",
+      "Kyungmin Lee",
+      "E. K. Lee",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/e86877d77f4347cfc20ee30ff62501f9fae53c1c",
@@ -675,7 +674,7 @@
     "authors": [
       "Zhao Yang",
       "Wang Huan",
-      "Yingshuo Li",
+      "Yingshu Li",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/e52522ca505f93d20793dc4c5c6796d5b2043b49",
@@ -748,7 +747,7 @@
   {
     "title": "Learning with Semantic Priors: Stabilizing Point-Supervised Infrared Small Target Detection via Hierarchical Knowledge Distillation",
     "authors": [
-      "Yuanhang Yao",
+      "Yuan Yao",
       "Ping Qian",
       "Zhu Liu",
       "et al."
@@ -807,7 +806,7 @@
     "authors": [
       "Yan Jiang",
       "Ruihong Qiu",
-      "Zi Huang"
+      "Zihan Huang"
     ],
     "link": "https://www.semanticscholar.org/paper/d500db4bc5314e71ceeb765c7c0427a531554d16",
     "date": "2026-05-14",
@@ -900,7 +899,7 @@
     "title": "BEAM: Binary Expert Activation Masking for Dynamic Routing in MoE",
     "authors": [
       "Juntong Wu",
-      "Jialiang Cheng",
+      "Jiali Cheng",
       "Qishen Yin",
       "et al."
     ],
@@ -935,7 +934,7 @@
   {
     "title": "Defenses at Odds: Measuring and Explaining Defense Conflicts in Large Language Models",
     "authors": [
-      "Xiangtao Meng",
+      "Xiang Meng",
       "Wenyu Chen",
       "Chuanchao Zang",
       "et al."
@@ -1061,7 +1060,7 @@
   {
     "title": "Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification",
     "authors": [
-      "Truong Thanh Hung Nguyen",
+      "T. Nguyen",
       "V. Nguyen",
       "Hoang-Loc Cao",
       "et al."
@@ -1080,7 +1079,7 @@
   {
     "title": "Mechanical Enforcement for LLM Governance:Evidence of Governance-Task Decoupling in Financial Decision Systems",
     "authors": [
-      "Jos'e Manuel de la Chica Rodr'iguez",
+      "Jose Manuel de la Chica Rodriguez",
       "Carlos Martí-González"
     ],
     "link": "https://www.semanticscholar.org/paper/ac88717988ffd9fc5de8ff0b0e04bb46fa604f96",
@@ -1287,7 +1286,7 @@
     "authors": [
       "Liren Chen",
       "Lidong Sun",
-      "Mingyan Huang",
+      "Min Huang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/99162cf8028b59e82872ff93e496c38ceb125d33",
@@ -1496,7 +1495,7 @@
     "authors": [
       "Langzhou He",
       "Junyou Zhu",
-      "Yue Zhou",
+      "Yuechi Zhou",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/816fe1dc30907456e7c989a756f4d7af3b02b761",
@@ -1580,7 +1579,7 @@
     "authors": [
       "Bojun Xiong",
       "Zoubin Bi",
-      "Xinghui Peng",
+      "Xi Peng",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/72f602dc22e73133a5b072c77101624096ba36fa",
@@ -1750,7 +1749,7 @@
     "title": "Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning",
     "authors": [
       "Taebong Kim",
-      "Youngsik Hong",
+      "Youn-Sik Hong",
       "Minsik Kim",
       "et al."
     ],
@@ -2053,7 +2052,7 @@
     "title": "EndPrompt: Efficient Long-Context Extension via Terminal Anchoring",
     "authors": [
       "Han Tian",
-      "Luxuan Chen",
+      "Lu Chen",
       "Xinran Chen",
       "et al."
     ],
@@ -2149,7 +2148,7 @@
     "title": "ICED: Concept-level Machine Unlearning via Interpretable Concept Decomposition",
     "authors": [
       "Sheng Lin",
-      "Jing Lin",
+      "Jingdun Lin",
       "Junhao Dong",
       "et al."
     ],
@@ -2344,7 +2343,7 @@
     "authors": [
       "Xiaohua Wang",
       "Kai Yu",
-      "XuXiao Liang",
+      "Xuxia Liang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/2b6a6d927cbad0a99870fcedbee40fe5721e2e3d",
@@ -2382,7 +2381,7 @@
     "authors": [
       "Zihan Deng",
       "Xiaozhen Zhong",
-      "Chuanzhi Xu"
+      "Chuan Xu"
     ],
     "link": "https://www.semanticscholar.org/paper/282596e8934f106d19f7b98de1e86f03e16c2e41",
     "date": "2026-05-14",
@@ -2526,7 +2525,7 @@
     "authors": [
       "Lingzhe Zhang",
       "Tong Jia",
-      "Kangjin Wang",
+      "Kang Wang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/16e56eb44ebb9643c2fd8631bf8f92f5415c8520",
@@ -2756,7 +2755,7 @@
     "authors": [
       "Pengyun Zhu",
       "Yuqi Ren",
-      "Zhen Wang",
+      "Zhen D. Wang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/0238a0e83e76d7f2d5ac763c628324730cee15b5",
@@ -2840,7 +2839,7 @@
   {
     "title": "Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling",
     "authors": [
-      "D. Pandita",
+      "Deepak Pandita",
       "Flip Korn",
       "Christopher A. Welty",
       "et al."
@@ -2911,8 +2910,8 @@
   {
     "title": "CRePE: Curved Ray Expectation Positional Encoding for Unified-Camera-Controlled Video Generation",
     "authors": [
-      "Seonghyun Jin",
-      "Youngmin Kim",
+      "Seong-Hyun Jin",
+      "Young Min Kim",
       "Sunwoo Park",
       "et al."
     ],
@@ -3336,7 +3335,7 @@
   {
     "title": "MLGIB: Multi-Label Graph Information Bottleneck for Expressive and Robust Message Passing",
     "authors": [
-      "Chaokai Wu",
+      "Chao Wu",
       "Haofu Shi",
       "Ning Ma",
       "et al."
@@ -3683,7 +3682,7 @@
   {
     "title": "Physics Guided Generative Optimization for Trotter Suzuki Decomposition",
     "authors": [
-      "WenBin Yan"
+      "Wen Yan"
     ],
     "link": "https://www.semanticscholar.org/paper/c00e245d4fdfb5c658d6e0e9679ee36c027d8627",
     "date": "2026-05-13",
@@ -3915,7 +3914,7 @@
     "title": "Decoupled and Divergence-Conditioned Prompt for Multi-domain Dynamic Graph Foundation Models",
     "authors": [
       "Haonan Yuan",
-      "Qingyun Sun",
+      "Qingyu Sun",
       "Junhua Shi",
       "et al."
     ],
@@ -4026,7 +4025,7 @@
     "authors": [
       "Luis Lara",
       "Aristides Milios",
-      "Zhi Hao Luo",
+      "Zhiyao Luo",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/aed27281c637418457ecbd1d784c4b8bd3157684",
@@ -4259,7 +4258,7 @@
     "title": "Data Difficulty and the Generalization--Extrapolation Tradeoff in LLM Fine-Tuning",
     "authors": [
       "Siyuan Liu",
-      "Tinghong Chen",
+      "Ting Chen",
       "Xinghan Li",
       "et al."
     ],
@@ -4368,7 +4367,7 @@
   {
     "title": "MedCore: Boundary-Preserving Medical Core Pruning for MedSAM",
     "authors": [
-      "Cenwei Zhang",
+      "Ce Zhang",
       "Suncheng Xiang",
       "Lei You"
     ],
@@ -4453,7 +4452,7 @@
   {
     "title": "Query-Conditioned Test-Time Self-Training for Large Language Models",
     "authors": [
-      "Chaehee Song",
+      "C. Song",
       "Minseok Seo",
       "Yeeun Seong",
       "et al."
@@ -4598,7 +4597,7 @@
   {
     "title": "The Expressivity Boundary of Probabilistic Circuits: A Comparison with Large Language Models",
     "authors": [
-      "Zhiyu Zhao",
+      "Zhiyue Zhao",
       "Xuejie Liu",
       "Muhan Zhang",
       "et al."
@@ -4650,7 +4649,7 @@
     "title": "Continual Fine-Tuning of Large Language Models via Program Memory",
     "authors": [
       "Hung Le",
-      "Svetha Venkatesh"
+      "S. Venkatesh"
     ],
     "link": "https://www.semanticscholar.org/paper/7ed4f4eb107d180b14887e4ded0760cff2b29c3f",
     "date": "2026-05-13",
@@ -4699,7 +4698,7 @@
   {
     "title": "Intelligence Delivery Network: Toward an Internet Architecture for the AI Age",
     "authors": [
-      "Hanling Wang",
+      "Hanlin Wang",
       "Qing Li",
       "Dan Zhao",
       "et al."
@@ -5149,8 +5148,8 @@
     "title": "Seg-Agent: Test-Time Multimodal Reasoning for Training-Free Language-Guided Segmentation",
     "authors": [
       "Chao Hao",
-      "Jun Xu",
-      "Ji Du",
+      "Ju Xu",
+      "Jiawei Du",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/5908a12f2cbcd6c087327dfeabf89072adae9a0c",
@@ -5221,7 +5220,7 @@
     "title": "Beyond Oversquashing: Understanding Signal Propagation in GNNs Via Observables",
     "authors": [
       "Eden Nagar",
-      "Ya-Wei Eileen Lin",
+      "Yaowei Lin",
       "Ron Levie"
     ],
     "link": "https://www.semanticscholar.org/paper/544cf513c13d321bb6d20cf475ed9a77f60801a3",
@@ -5343,7 +5342,7 @@
   {
     "title": "RS-Claw: Progressive Active Tool Exploration via Hierarchical Skill Trees for Remote Sensing Agents",
     "authors": [
-      "Liangtian Liu",
+      "Liang Liu",
       "Zeyuan Wang",
       "Ziyu Li",
       "et al."
@@ -5458,7 +5457,7 @@
     "title": "Many-Shot CoT-ICL: Making In-Context Learning Truly Learn",
     "authors": [
       "Tsz Ting Chung",
-      "Lemao Liu",
+      "Le Liu",
       "Mo Yu",
       "et al."
     ],
@@ -5637,7 +5636,7 @@
     "authors": [
       "Annie Liu",
       "Zane Cao",
-      "Lang Chen",
+      "Langfan Chen",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3b5f8b69a134e691e1ccfa1ac0ded40f9b035191",
@@ -5784,7 +5783,7 @@
     "title": "GeoBuildBench: A Benchmark for Interactive and Executable Geometry Construction from Natural Language",
     "authors": [
       "Jinwoong Kim",
-      "Rui Yang",
+      "Ruiyi Yang",
       "Huishuai Zhang"
     ],
     "link": "https://www.semanticscholar.org/paper/33fa0fe9f176c2c58bdd2913d691dfb8221ca189",
@@ -6024,7 +6023,7 @@
     "authors": [
       "Zhuofan Shi",
       "Peilun Jia",
-      "Baoqin Sun",
+      "B. Sun",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/240efbaeec1650019bc2f80d59f8374f341d0bba",
@@ -6040,7 +6039,7 @@
     "title": "LLMs Know When They Know, but Do Not Act on It: A Metacognitive Harness for Test-time Scaling",
     "authors": [
       "Qi Cao",
-      "Yufan Wang",
+      "Yufang Wang",
       "Peijia Qin",
       "et al."
     ],
@@ -6151,7 +6150,7 @@
     "authors": [
       "Zeyu Huang",
       "Adhiguna Kuncoro",
-      "Qixuan Feng",
+      "Qixuang Feng",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/182fffdcf6570bc273cdcf09151bfcdc28d8556a",
@@ -6331,7 +6330,7 @@
   {
     "title": "Double Metric Learning for Building Directed Graphs with Chain Connections for the ATLAS ITk Detector",
     "authors": [
-      "Jay Chan"
+      "J. Chan"
     ],
     "link": "https://www.semanticscholar.org/paper/10540b210af4c9d77f8ec9b4c59448fdc2870833",
     "date": "2026-05-13",
@@ -6399,7 +6398,7 @@
   {
     "title": "GAGPO: Generalized Advantage Grouped Policy Optimization",
     "authors": [
-      "Siyuan Zhu",
+      "Siyu Zhu",
       "Chao Yu",
       "Rongxin Yang",
       "et al."
@@ -6438,7 +6437,7 @@
     "title": "GHGbench: A Unified Multi-Entity, Multi-Task Benchmark for Carbon Emission Prediction",
     "authors": [
       "Yifan Duan",
-      "Siyuan Zheng",
+      "Si Zheng",
       "Lihuan Li",
       "et al."
     ],
@@ -6833,7 +6832,7 @@
   {
     "title": "More Edits, More Stable: Understanding the Lifelong Normalization in Sequential Model Editing",
     "authors": [
-      "Xin Ma",
+      "Xinhong Ma",
       "Wei Chen",
       "Qi Liu",
       "et al."
@@ -7283,7 +7282,7 @@
     "authors": [
       "Siyin Wang",
       "Junhao Shi",
-      "Zhaoyang Fu",
+      "Zhao-Yang Fu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/dcb340945c51bc665cc9e68518a88fa3409ed0cf",
@@ -7615,9 +7614,9 @@
   {
     "title": "Explaining and Breaking the Safety-Helpfulness Ceiling via Preference Dimensional Expansion",
     "authors": [
-      "ShiYing Huang",
+      "Shi-Yu Huang",
       "Liang Lin",
-      "Yuer Li",
+      "Yue Li",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/c964d00536b0f5f6cc12084280ad4f9939311f6a",
@@ -7689,7 +7688,7 @@
     "title": "ORCE: Order-Aware Alignment of Verbalized Confidence in Large Language Models",
     "authors": [
       "Chen Li",
-      "Xiaoling Hu",
+      "Xiaolin Hu",
       "Songzhu Zheng",
       "et al."
     ],
@@ -7831,7 +7830,7 @@
     "authors": [
       "Junyu Xiong",
       "Yuan Pu",
-      "Jia Tang",
+      "Jian Tang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/c10b5ae31f24bd613fb877ba8f05f916a8025b68",
@@ -8441,7 +8440,7 @@
     "authors": [
       "Yan Jiang",
       "Ruihong Qiu",
-      "Zi Huang"
+      "Zihan Huang"
     ],
     "link": "https://www.semanticscholar.org/paper/a44fffb79f629acd195214cdb346f4bee317829f",
     "date": "2026-05-12",
@@ -8632,7 +8631,7 @@
     "authors": [
       "Neha Verma",
       "Nikhil Mehta",
-      "Shao-Chuan Wang",
+      "Shaowen Wang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/99aba868fa3737a54390bb9148f5392f1701c6e5",
@@ -8717,7 +8716,7 @@
     "title": "M$^4$-SAM: Multi-Modal Mixture-of-Experts with Memory-Augmented SAM for RGB-D Video Salient Object Detection",
     "authors": [
       "Jiyuan Liu",
-      "Jia Lin",
+      "Jiaying Lin",
       "Xiaofei Zhou",
       "et al."
     ],
@@ -8880,7 +8879,7 @@
   {
     "title": "Counterfactual Trace Auditing of LLM Agent Skills",
     "authors": [
-      "Xiaolin Zhou",
+      "Xiaoling Zhou",
       "Jinbo Liu",
       "Li Li",
       "et al."
@@ -8985,7 +8984,7 @@
   {
     "title": "GRAFT: Graph-Tokenized LLMs for Tool Planning",
     "authors": [
-      "Xinyi Gao",
+      "Xin Gao",
       "Xinyue Ren",
       "Junliang Yu",
       "et al."
@@ -9588,7 +9587,7 @@
     "authors": [
       "Yupeng Su",
       "Ruijie Zhang",
-      "Ziyue Liu",
+      "Z. Liu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/65426207fdc2cb8ee6642812e1ebd530f430e249",
@@ -10030,7 +10029,7 @@
     "title": "Large Language Models as Amortized Pareto-Front Generators for Constrained Bi-Objective Convex Optimization",
     "authors": [
       "Peipei Xu",
-      "SiYuan Ma",
+      "Siyuan Ma",
       "Yaohua Liu",
       "et al."
     ],
@@ -10343,7 +10342,7 @@
   {
     "title": "When Emotion Becomes Trigger: Emotion-style dynamic Backdoor Attack Parasitising Large Language Models",
     "authors": [
-      "Ziyu Liu",
+      "Z. Liu",
       "Tao Li",
       "Tianjie Ni",
       "et al."
@@ -10544,7 +10543,7 @@
   {
     "title": "No Action Without a NOD: A Heterogeneous Multi-Agent Architecture for Reliable Service Agents",
     "authors": [
-      "Zixu Yang",
+      "Zixuan Yang",
       "Hang Zheng",
       "Nan Jiang",
       "et al."
@@ -10892,7 +10891,7 @@
   {
     "title": "Multi-Rollout On-Policy Distillation via Peer Successes and Failures",
     "authors": [
-      "Weichen Yu",
+      "Weicheng Yu",
       "Xiaomin Li",
       "Yizhou Zhao",
       "et al."
@@ -10984,7 +10983,7 @@
     "title": "SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces",
     "authors": [
       "Chang Jin",
-      "An Wang",
+      "Anr'an W'ang",
       "Zeming Wei",
       "et al."
     ],
@@ -11094,7 +11093,7 @@
     "title": "Efficient LLM-based Advertising via Model Compression and Parallel Verification",
     "authors": [
       "Wenxin Dong",
-      "Chang Gao",
+      "Changxin Gao",
       "Guanghui Yu",
       "et al."
     ],
@@ -11523,7 +11522,7 @@
     "title": "SAGE: Scalable Automated Robustness Augmentation for LLM Knowledge Evaluation",
     "authors": [
       "Xiaoyuan Li",
-      "Yuzhe Wang",
+      "Yu-Zhuo Wang",
       "Moxin Li",
       "et al."
     ],
@@ -11955,7 +11954,7 @@
     "title": "RADAR: Redundancy-Aware Diffusion for Multi-Agent Communication Structure Generation",
     "authors": [
       "Zhen Zhang",
-      "Wanjing Zhou",
+      "Wan Zhou",
       "Juncheng Li",
       "et al."
     ],
@@ -12330,7 +12329,7 @@
     "citations": 0
   },
   {
-    "title": "Diagnostic Performance of a Large Language Model (\n ChatGPT\n ‐4o) in Chronic Rhinosinusitis\n CT\n Scan Interpretation",
+    "title": "Diagnostic Performance of a Large Language Model (ChatGPT‐4o) in Chronic Rhinosinusitis CT Scan Interpretation",
     "authors": [
       "M. Alsayyari",
       "H. Alshurafa",
@@ -12343,7 +12342,7 @@
       "Laryngoscope Investigative Otolaryngology"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n Large language models (LLMs), such as ChatGPT, are increasingly utilized by physicians for clinical decision support due to their ease of use and versatility. However, their performance in diagnostic imaging remains largely untested. This study prospectively evaluates ChatGPT's ability to interpret sinus computed tomography (CT) scans for chronic rhinosinusitis (CRS), using radiologist assessment as the reference standard.\n \n \n \n In this prospective cohort study, 102 coronal sinus CT scans were evaluated by both a board‐certified radiologist and ChatGPT‐4o. Each scan was screen recorded and uploaded twice to ChatGPT to assess repeatability, resulting in 306 total interpretations. The radiologist reviewed the same screen recordings provided to ChatGPT. Both raters assessed 11 predefined binary anatomical features and generated Lund‐Mackay scores. Diagnostic performance was assessed using standard accuracy metrics, and inter‐rater agreement was evaluated using established reliability coefficients.\n \n \n \n \n ChatGPT demonstrated variable performance across anatomical features. Sensitivity ranged from 0.00 to 0.89, and specificity from 0.26 to 0.95. The model demonstrated relatively high sensitivity for mucosal thickening (0.84) and sinus expansion (0.73), as well as strong agreement with the radiologist for the lamina papyracea (AC1 = 0.92) and anterior ethmoid artery (AC1 = 0.77). However, performance was poor for air‐fluid levels and bone thinning. Agreement with the radiologist was low across most features (AC1 < 0.4 in 82% of variables), and repeatability between ChatGPT versions was limited (mean AC1 = 0.29). Correlation between runs for Lund‐Mackay scores was weak (\n r\n  = 0.11), and agreement with the radiologist was poor (ICC < 0.07).\n \n \n \n \n ChatGPT demonstrates partial capability in identifying specific sinus CT findings; however, it lacks overall diagnostic consistency. Human radiologists remain essential, and the clinical use of LLMs in imaging should be approached with caution.\n",
+    "abstract_raw": "ABSTRACT Background Large language models (LLMs), such as ChatGPT, are increasingly utilized by physicians for clinical decision support due to their ease of use and versatility. However, their performance in diagnostic imaging remains largely untested. This study prospectively evaluates ChatGPT's ability to interpret sinus computed tomography (CT) scans for chronic rhinosinusitis (CRS), using radiologist assessment as the reference standard. Methods In this prospective cohort study, 102 coronal sinus CT scans were evaluated by both a board‐certified radiologist and ChatGPT‐4o. Each scan was screen recorded and uploaded twice to ChatGPT to assess repeatability, resulting in 306 total interpretations. The radiologist reviewed the same screen recordings provided to ChatGPT. Both raters assessed 11 predefined binary anatomical features and generated Lund‐Mackay scores. Diagnostic performance was assessed using standard accuracy metrics, and inter‐rater agreement was evaluated using established reliability coefficients. Results ChatGPT demonstrated variable performance across anatomical features. Sensitivity ranged from 0.00 to 0.89, and specificity from 0.26 to 0.95. The model demonstrated relatively high sensitivity for mucosal thickening (0.84) and sinus expansion (0.73), as well as strong agreement with the radiologist for the lamina papyracea (AC1 = 0.92) and anterior ethmoid artery (AC1 = 0.77). However, performance was poor for air‐fluid levels and bone thinning. Agreement with the radiologist was low across most features (AC1 < 0.4 in 82% of variables), and repeatability between ChatGPT versions was limited (mean AC1 = 0.29). Correlation between runs for Lund‐Mackay scores was weak (r = 0.11), and agreement with the radiologist was poor (ICC < 0.07). Conclusion ChatGPT demonstrates partial capability in identifying specific sinus CT findings; however, it lacks overall diagnostic consistency. Human radiologists remain essential, and the clinical use of LLMs in imaging should be approached with caution.",
     "summary": "",
     "doi": "10.1002/lio2.70433",
     "citations": 0
@@ -12555,7 +12554,7 @@
     "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
     "authors": [
       "Muhan Gao",
-      "Zih-Ching Chen",
+      "Zihao Chen",
       "Kuan-Hao Huang"
     ],
     "link": "https://www.semanticscholar.org/paper/cd88872166f82ace2a7effe347f4e43af660b795",
@@ -12755,7 +12754,7 @@
   {
     "title": "Hi-GaTA: Hierarchical Gated Temporal Aggregation Adapter for Surgical Video Report Generation",
     "authors": [
-      "Kedi Sun",
+      "Ke Sun",
       "Chaohui Dang",
       "Yue Feng",
       "et al."
@@ -13532,6 +13531,27 @@
     "citations": 0
   },
   {
+    "title": "iS2C2: a cointelligent platform for mechanistic discovery of disease cellular crosstalk",
+    "authors": [
+      "J. Sheng",
+      "J. Ahn",
+      "Li Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/afb0df07c767be7dd46442f9fbfcbcf3ce37e833",
+    "date": "2026-05-11",
+    "keywords": [
+      "RNA-seq / Transcriptomics",
+      "Biological Large Model",
+      "Signal Transduction and Targeted Therapy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) have demonstrated impressive capabilities in summarization, reasoning, and content generation, yet their inability to directly interpret large-scale omics data has limited their utility in data-driven hypothesis generation—particularly in mechanism discovery that demands the integration and interpretation of multimodal datasets, heterogeneous models, and deep domain expertise. Conversely, traditional computational algorithms excel at quantitative analysis of omics data but often rely heavily on labor-intensive, expert-driven interpretation to extract biologically meaningful insights. Here, we introduce (cointelligent single-cell spatial cell‒cell communication: iS2C2), a novel cointelligent platform that synergizes mathematically rigorous computational algorithms with the contextual reasoning capabilities of LLMs to automatically generate biologically interpretable hypotheses from single-cell RNA-seq and spatial transcriptomics data. The iS2C2 platform incorporates a transparent and reproducible cell–cell communication analysis pipeline built upon mathematically rigorous algorithms designed to enhance interpretability for integration with LLMs that contextualize algorithmic outputs or predictions using domain-specific knowledge and literature-derived evidence. When applied to Alzheimer’s disease and cancer datasets, iS2C2 generated accurate, reproducible, and expert-validated hypotheses, unveiling previously unrecognized signaling pathways and mechanistic insights in disease microenvironments. This cointelligent approach bridges the gap between structured computational analysis and generative reasoning, heralding a paradigm shift toward fully automated, interpretable biological discovery and advancing the frontiers of next-generation precision medicine and systems biology.",
+    "summary": "",
+    "doi": "10.1038/s41392-026-02691-8",
+    "citations": 0
+  },
+  {
     "title": "AI Agents and Autonomous Systems: Architecture, Applications, and Enterprise Evaluation",
     "authors": [
       "Kanishka Singhal",
@@ -13699,7 +13719,7 @@
     "title": "M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models",
     "authors": [
       "Junjian Wang",
-      "Xin Zhou",
+      "Xinze Zhou",
       "Qiran Xu",
       "et al."
     ],
@@ -14036,7 +14056,7 @@
   {
     "title": "ASD-Bench: A Four-Axis Comprehensive Benchmark of AI Models for Autism Spectrum Disorder",
     "authors": [
-      "Shubhankit Singh",
+      "Shubha Singh",
       "Hassan Shaikh",
       "K. Raghuwanshi",
       "et al."
@@ -14305,7 +14325,7 @@
     "title": "BenchCAD: A Comprehensive, Industry-Standard Benchmark for Programmatic CAD",
     "authors": [
       "Haozhe Zhang",
-      "Kaichen Liu",
+      "Kai Liu",
       "Miaomiao Chen",
       "et al."
     ],
@@ -14595,7 +14615,7 @@
   {
     "title": "ReCoVer: Resilient LLM Pre-Training System via Fault-Tolerant Collective and Versatile Workload",
     "authors": [
-      "Ziyue Liu",
+      "Z. Liu",
       "Zhengyang Wang",
       "Ruijie Zhang",
       "et al."
@@ -14928,7 +14948,7 @@
     "authors": [
       "Xiaoran Fang",
       "Mingjian Lu",
-      "Hanwen Liang",
+      "Han Liang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/606efba7189d663ca56262bbb221032eacdd3ce6",
@@ -14946,7 +14966,7 @@
     "title": "Slum Detection and Density Mapping with AlphaEarth Foundations: A Representation Learning Evaluation Across 12 Global Cities",
     "authors": [
       "Shuyang Hou",
-      "Ziqi Liu",
+      "Ziqiong Liu",
       "Haoyue Jiao",
       "et al."
     ],
@@ -15516,7 +15536,7 @@
   {
     "title": "A Theory of Multilevel Interactive Equilibrium in NeuroAI",
     "authors": [
-      "Zhe Sage Chen",
+      "Zhe Chen",
       "Quanyan Zhu"
     ],
     "link": "https://www.semanticscholar.org/paper/40f309588f75bcc27728a6af848df6a537caf328",
@@ -15567,8 +15587,8 @@
   {
     "title": "Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse",
     "authors": [
-      "Kuan Zhang",
-      "Dongchen Liu",
+      "Kuanbo Zhang",
+      "Dong Liu",
       "Qiyue Zhao",
       "et al."
     ],
@@ -15589,7 +15609,7 @@
     "authors": [
       "Qi Cai",
       "Jingwen Chen",
-      "Chengmin Gao",
+      "Chen Gao",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3f8596d9075121c02b48e9a5aa6b4ff2053be009",
@@ -15646,7 +15666,7 @@
     "authors": [
       "Bin Zhao",
       "Chenfei Wu",
-      "Deqing Li",
+      "De-mei Li",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3abaec27a7f710bf60e5ddb2f4c94ebb118e26ab",
@@ -15709,7 +15729,7 @@
       "PLoS ONE"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "\n \n To evaluate and compare the performance of four publicly available large language models—ChatGPT, Gemini, Copilot, and Grok—in answering medical questions related to Multiple Sclerosis, focusing on accuracy, transparency, and clinical actionability.\n \n \n \n Four publicly available large language models (ChatGPT, Gemini, Grok, and Copilot) were selected based on accessibility and their ability to respond to medical questions. A total of 25 questions—five for each of the five key domains (diagnosis, treatment, prevention, disease control, and disease management)—were developed. The responses generated by the models were evaluated using the DISCERN-AI and NLAT-AI assessment tools.\n \n \n \n The evaluation of four AI chatbots—ChatGPT, Gemini, Copilot, and Grok—on multiple sclerosis (MS) content revealed clear differences in quality and consistency. According to DISCERN-AI criteria, Gemini achieved the highest overall quality, excelling in relevance, transparency, balance, and acknowledgment of uncertainty. Grok ranked second, showing generally balanced results with slightly lower scores than Gemini. ChatGPT exhibited strong yet uneven performance, with particular weaknesses in content addressing vulnerable populations. Copilot demonstrated the weakest overall performance, with consistently lower scores across nearly all criteria.\n \n \n \n Gemini demonstrated the strongest and most consistent performance across all domains, followed by Grok with slightly lower but balanced results. ChatGPT showed strong yet uneven outcomes, with weaknesses in addressing vulnerable populations. Copilot ranked lowest, consistently underperforming across metrics. These findings highlight significant differences among large language models in generating accurate and clinically relevant responses for multiple sclerosis, underscoring the importance of considering each model’s strengths and limitations in healthcare applications.\n",
+    "abstract_raw": "Objective To evaluate and compare the performance of four publicly available large language models—ChatGPT, Gemini, Copilot, and Grok—in answering medical questions related to Multiple Sclerosis, focusing on accuracy, transparency, and clinical actionability. Methods Four publicly available large language models (ChatGPT, Gemini, Grok, and Copilot) were selected based on accessibility and their ability to respond to medical questions. A total of 25 questions—five for each of the five key domains (diagnosis, treatment, prevention, disease control, and disease management)—were developed. The responses generated by the models were evaluated using the DISCERN-AI and NLAT-AI assessment tools. Results The evaluation of four AI chatbots—ChatGPT, Gemini, Copilot, and Grok—on multiple sclerosis (MS) content revealed clear differences in quality and consistency. According to DISCERN-AI criteria, Gemini achieved the highest overall quality, excelling in relevance, transparency, balance, and acknowledgment of uncertainty. Grok ranked second, showing generally balanced results with slightly lower scores than Gemini. ChatGPT exhibited strong yet uneven performance, with particular weaknesses in content addressing vulnerable populations. Copilot demonstrated the weakest overall performance, with consistently lower scores across nearly all criteria. Conclusions Gemini demonstrated the strongest and most consistent performance across all domains, followed by Grok with slightly lower but balanced results. ChatGPT showed strong yet uneven outcomes, with weaknesses in addressing vulnerable populations. Copilot ranked lowest, consistently underperforming across metrics. These findings highlight significant differences among large language models in generating accurate and clinically relevant responses for multiple sclerosis, underscoring the importance of considering each model’s strengths and limitations in healthcare applications.",
     "summary": "",
     "doi": "10.1371/journal.pone.0346445",
     "citations": 0
@@ -15892,7 +15912,7 @@
   {
     "title": "HeteroGenManip: Generalizable Manipulation For Heterogeneous Object Interactions",
     "authors": [
-      "Zhenhao Shen",
+      "Zhen Shen",
       "Zeming Yang",
       "Yue Chen",
       "et al."
@@ -15946,7 +15966,7 @@
     "authors": [
       "Ting Sun",
       "Junjie Zhang",
-      "Xiao Yan",
+      "Xiaoze Yan",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/28f46f557bd82936fac0fa2b275476966c87bbaf",
@@ -16135,7 +16155,7 @@
     "authors": [
       "Huilin Zhou",
       "Jian Zhao",
-      "Yilu Zhong",
+      "YiLu Zhong",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/1e77fc96be8043de65fe960a92ec5a15f78bf3c1",
@@ -16255,7 +16275,7 @@
     "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
     "authors": [
       "Junhao Shen",
-      "Teng Zhang",
+      "Tengteng Zhang",
       "Xiaoyan Zhao",
       "et al."
     ],
@@ -16746,7 +16766,7 @@
     "authors": [
       "Amirmohammad Nazari",
       "Sadra Sabouri",
-      "Wang Bill Zhu",
+      "Wangrong Zhu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/f7e0992a833b18bcd6d1384d094e459de83d1ffe",
@@ -16763,7 +16783,7 @@
     "authors": [
       "Jingshen Zhang",
       "Bo Wang",
-      "Yanlin Fu",
+      "Yanli Fu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/f6fb5a7cd65efc7fc5338f54c581cb7ba349a00f",
@@ -16852,7 +16872,7 @@
   {
     "title": "Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs",
     "authors": [
-      "Sohan Venkatesh"
+      "S. Venkatesh"
     ],
     "link": "https://www.semanticscholar.org/paper/e77b02e77b3aadb8114b4764381bff5ec912f650",
     "date": "2026-05-10",
@@ -17297,9 +17317,9 @@
   {
     "title": "TokaMind for Power Grid: Cross-Domain Transfer from Fusion Plasma",
     "authors": [
-      "JC Wu",
+      "Jc Wu",
       "Norton Lee",
-      "Kai Siang Chen"
+      "Kai Chen"
     ],
     "link": "https://www.semanticscholar.org/paper/aa2bb5aabc6b88f092c5705110967d61ac0047b9",
     "date": "2026-05-10",
@@ -17402,7 +17422,7 @@
   {
     "title": "EvoPref: Multi-Objective Evolutionary Optimization Discovers Diverse LLM Alignments Beyond Gradient Descent",
     "authors": [
-      "Dongxin Guo",
+      "Dongxing Guo",
       "Jikun Wu",
       "S. Yiu"
     ],
@@ -17420,7 +17440,7 @@
     "authors": [
       "Pengcheng Sun",
       "Lan Zhang",
-      "Zhaopeng Zhang",
+      "Zhao Zhang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/9db1e2a5cb5727b2c0b5774759aec5d99cf9fab0",
@@ -17510,7 +17530,7 @@
   {
     "title": "Parameter-Efficient Neuroevolution for Diverse LLM Generation: Quality-Diversity Optimization via Prompt Embedding Evolution",
     "authors": [
-      "Dongxin Guo",
+      "Dongxing Guo",
       "Jikun Wu",
       "S. Yiu"
     ],
@@ -17564,7 +17584,7 @@
   {
     "title": "CALYREX: Cross-Attention LaYeR EXtended Transformers for System Prompt Anchoring",
     "authors": [
-      "Lixing Li"
+      "Lixin Li"
     ],
     "link": "https://www.semanticscholar.org/paper/8da548e40096bd8e490ddc372c56f5c56d005b09",
     "date": "2026-05-10",
@@ -17580,7 +17600,7 @@
   {
     "title": "PiCA: Pivot-Based Credit Assignment for Search Agentic Reinforcement Learning",
     "authors": [
-      "Dongyi Liu",
+      "Dong Liu",
       "Yifan Niu",
       "Qinwen Wang",
       "et al."
@@ -17888,23 +17908,6 @@
     ],
     "source": "Semantic Scholar",
     "abstract_raw": "Identifying operons is a fundamental step in understanding prokaryotic gene regulation, as classifying genes into operons supports the reconstruction of regulatory networks, functional annotation of unannotated genes, and drug candidate development. Experimental approaches such as RT-PCR and RNA-seq provide precise evidence of operon structure, but are laborious and largely limited to well-studied model organisms, making scalable computational methods essential for genome-wide operon identification. Prior computational approaches have employed traditional classifiers such as logistic regression and decision trees, motivating our use of these as physicochemical baselines. The DGEB benchmark evaluates operonic pair classification by embedding each sequence independently with a pre-trained protein language model and computing pairwise cosine similarity. In contrast, our Siamese MLP learns a classifier over the fused embedding space, which is theoretically better motivated for binary classification, as cosine similarity can yield meaningless scores depending on the regularization of the embedding model. While protein language model embeddings substantially outperform physicochemical features in ROC-AUC, a learned Siamese MLP head does not significantly improve over unsupervised cosine similarity in Average Precision, suggesting that the geometry of the embedding space already captures the functional relationships needed for this task. Nonetheless, our Siamese MLP achieves a ROC-AUC of 0.71, competitive with state-of-the-art models on the DGEB leaderboard. These findings indicate that protein language model embeddings are a viable, scalable foundation for operonic pair classification across diverse microbial genomes, with implications for automated genome annotation, regulatory network reconstruction, and characterization of organisms lacking experimental operon annotations.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Insight: Enhancing Mobile Accessibility for Blind and Visually Impaired Users with LLMs",
-    "authors": [
-      "J. Ansah",
-      "Anuj  Kapoor",
-      "Ayush Khanna",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/5d2183d72bb585325c35990f19661ac97fda5d17",
-    "date": "2026-05-10",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "This research paper addresses the limitations of current mobile accessibility services like TalkBack, which provide manual gesture-based sequential feedback to BVI users. Motivated by the promise of large language models (LLMs), this paper introduces Insight, an Android accessibility service that provides natural language interaction and real-time summarization of the screen. The paper performs a within-subject experimental study with users to compare Insight and TalkBack on usability factors. Results show Insight reduced mental effort and task time, and was preferred because of its dialogue interface, but users felt the need for interruption management. Results show LLM-based interfaces can significantly improve mobile accessibility, and describe the potential of hybrid solutions combining gesture and dialogue modalities towards more inclusive design.",
     "summary": "",
     "doi": "",
     "citations": 0
