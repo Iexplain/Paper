@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Contextual information-enhanced large language model for traffic data query",
+    "authors": [
+      "Baichuan Wang",
+      "Xuekai Cen",
+      "Liang Zheng"
+    ],
+    "link": "https://www.semanticscholar.org/paper/78263d19769af43a52c1e45579a22ef3d0caff27",
+    "date": "2026-05-23",
+    "keywords": [
+      "今日上新",
+      "Transportation Safety and Environment"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n Intelligent transport systems generate vast traffic data with specific intricate business logics, necessitating efficient querying solutions. Traditional Structured Query Language (SQL) requires programming and domain expertise, whereas Natural Language to Structured Query Language (NL2SQL) enables natural language interaction for improved accessibility. This study tackles some challenges in the application of NL2SQL in the traffic field, including complex database structures, implied domain knowledge, and reliability issues with Large Language Model (LLM)-generated SQL. Existing approaches employ context optimization and schema linking but face two limitations: computational overhead increased by redundant context, and omission of critical columns and foreign keys risked by schema linking. To address the above issues, a NL2SQL framework for intelligent traffic data query is proposed, which integrates bidirectional schema linking, contextual information augmentation, binary selection strategy, multi-turn self-correction, and calibration with hints. Experimental results demonstrate that the proposed framework achieves an execution accuracy of 69.97% on the BIRD traffic dataset (a 5.54% improvement over DIN-SQL) and 65.51% on the complete BIRD development set. This demonstrates the framework’s robustness in handling complex traffic queries while maintaining competitive performance across diverse domains.",
+    "summary": "",
+    "doi": "10.1093/tse/tdag025",
+    "citations": 0
+  }
+]
