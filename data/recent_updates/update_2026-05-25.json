@@ -1,0 +1,410 @@
+[
+  {
+    "title": "Privacy Risks Associated with the Use of LLMs in Software Development",
+    "authors": [
+      "Diego Menegazzi",
+      "Edna Dias Canedo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f80dfb56f506303da41c600959085853898ac51c",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Large Language Models (LLMs), e.g., GPT-2 and GPT-4, are increasingly embedded in software development to assist with code generation, testing, and documentation. Adoption promises productivity gains but also raises challenges for Information Systems (IS), particularly data privacy and regulatory compliance. Scientific and/or Practical Problem: Developers may inadvertently include personal or sensitive information in prompts. LLMs can temporarily retain and reproduce this data in later outputs, causing privacy breaches. This creates technical, ethical, and legal concerns under the Brazilian LGPD and the European GDPR. While recent studies survey developer perceptions, empirical evidence showing violations in practice remains scarce. Proposed Solution and/or Analysis: We present an experiment simulating a Membership Inference Attack (MIA) on a local GPT-2 instance. Using synthetic personal data with realistic identifiers, we evaluate how sensitive information can be recalled by the model and propose mitigation strategies aligned with regulatory and organizational frameworks. Related IS Theory: The study is grounded in the Socio-Technical Systems Theory and Information Systems models such as the People-Process-Technology (PPT) framework, emphasizing the alignment of human, organizational, and technological dimensions. It also connects to the GranDSI-BR 2016–2026 research challenges on privacy, ethics, and security in intelligent IS. Research Method: We adopted a mixed-methods approach, combining an experimental MIA simulation on GPT-2 with a literature review and regulatory analysis. Synthetic Brazilian personal data ensured realistic and ethically compliant experimentation. Summary of Results: The experiment showed that GPT-2 can reproduce sensitive identifiers from prior prompts, even without fine-tuning or persistent memory. Contributions and Impact to IS area: The study provides reproducible experimental evidence of privacy risks in LLMs and reinforces the urgency of embedding privacy-by-design principles into IS development workflows.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248323",
+    "citations": 0
+  },
+  {
+    "title": "LLMs in Practice: Results from a Survey with Software Development Professionals in Brazil",
+    "authors": [
+      "Antônio Sergio Tolio",
+      "Enzo Zanini Becker",
+      "Felipe Colpo Bagesteiro",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f7d59961b4715abfab98c73162ed4f072b6627c2",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The emergence of Large Language Models (LLMs) has been transforming the development of information systems, directly impacting activities across the system life cycle. Understanding how these technologies affect work practices is essential for advancing the Information Systems (IS) field and for guiding their adoption by organizations. Scientific and/or Practical Problem: Despite the growing use of LLMs in information systems development, there is still limited knowledge on how professionals across different roles, levels of experience, and work modalities perceive the impact of generative AI on daily activities, decision-making, and team performance. Proposed Solution and/or Analysis: This study investigates the perceptions and experiences of Brazilian software developers regarding the integration of Generative AI (LLMs) into their professional practice. The analysis aims to identify which activities are most impacted by AI, the most frequently adopted tools, and the level of trust professionals place in AI-generated outputs. Related IS Theory: The study aligns with the Systemic and Socially Aware Perspective for Information Systems challenge of GranDSI-BR, by examining how emerging technologies reshape sociotechnical systems and the dynamics of professional work. Research Method: An online survey was conducted with 94 professionals in the field of information systems development, covering diverse profiles. Data were collected through customized Likert scales, multiple-choice checkboxes, and closed-ended questions. Summary of Results: Findings highlight that, although the adoption of LLMs significantly increases developers’ productivity, there is still a moderate level of trust in the outputs and the absence of consolidated governance policies. Contributions and Impact to IS area: The results provide both theoretical and practical insights into the adoption of generative AI in information systems development, offering valuable guidance for researchers, managers, and educators seeking to integrate these technologies into IS safely and ethically.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248579",
+    "citations": 0
+  },
+  {
+    "title": "Privacy, Data Protection, Risk, and Compliance in the Age of Generative AI Systems: A Systematic Mapping Study",
+    "authors": [
+      "Richardson B. da S. Andrade",
+      "G. P. Rocha Filho",
+      "Gilmar dos Santos Marques",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e26a26dfd35e4cea95fb708647e30f7c3084951b",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Generative Artificial Intelligence (GenAI), particularly Large Language Models (LLMs), is advancing rapidly, raising concerns about privacy, data protection, risk management, and regulatory compliance. Despite transformative potential, adoption remains immature and constrained by ethical, technical, and legal limits. Scientific and/or Practical Problem: Organizations, developers, and end users face risks of privacy violations, re-identification, model inversion, and opacity. Current frameworks such as GDPR and Brazil’s LGPD struggle to address GenAI’s complexity, leaving gaps between technical safeguards and legal obligations. Proposed Solution and/or Analysis: We performed a systematic mapping focused on privacy-preserving mechanisms, risk management frameworks, and compliance models applicable to GenAI. We synthesize state-of-the-art approaches, their strengths and limitations, and assess how they enable trustworthy adoption. Related IS Theory: The study is grounded in information systems governance, privacy by design, and responsible AI, using sociotechnical lenses integrating technological, organizational, and regulatory perspectives. Research Method: Following a protocol, we searched four major digital libraries (ACM DL, IEEE Xplore, ScienceDirect, SpringerLink), applied inclusion and exclusion criteria, and conducted quality assessment. From 1,138 initial studies, 44 were analyzed in depth, and 15 met all thresholds. Summary of Results: We identify four principal categories of privacy techniques (differential privacy, federated learning, cryptographic approaches, synthetic data), five risk management frameworks (e.g., NIST AI RMF, MITRE ATLAS/AI Security), and compliance instruments (DPIA, conformity assessment, FRIA). Comparative analyses reveal trade-offs among robustness, scalability, and regulatory alignment. Contributions and Impact to the IS area: This study consolidates mechanisms for addressing privacy, risk, and compliance in GenAI, highlights gaps between technical safeguards and legal requirements, and distills design implications for trustworthy systems. It supports scholars and practitioners in engineering responsible AI and informs IS research agendas, organizational policies, and regulatory strategies for intelligent information systems.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248735",
+    "citations": 0
+  },
+  {
+    "title": "Canopy-Guided Construction of ANN Search Graphs under Cosine Similarity",
+    "authors": [
+      "R. Pinheiro",
+      "Karla Roberta P. S. Lima"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cc30f5ac23c3f847b8679c3ebf67d331a0ab9c35",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Nearest Neighbor Search (NNS) is a fundamental problem in computing, with applications in recommendation systems, semantic search, information retrieval, and Retrieval-Augmented Generation (RAG) in Large Language Models (LLMs). High-dimensional datasets with millions of vectors make exact search computationally intractable, demanding efficient approximations. Practical Problem: Approximate Nearest Neighbor Search (ANNS) has become the standard approach, with graph-based methods standing out. However, structures such as Hierarchical Navigable Small World (HNSW) graphs impose high construction and update costs, which limits their scalability in real-world scenarios. Proposed Solution: This paper proposes the integration of Canopy Clustering as a divide-and-conquer heuristic to mitigate the computational burden of HNSW graph construction under cosine similarity, enabling more cost-effective ANNS pipelines in information retrieval systems. Related IS Theory: The research aligns with Information Systems theories on efficiency of knowledge retrieval, and the optimization of data-intensive processes in decision-support environments. It builds upon principles of data organization and access structures in IS, particularly the trade-offs between accuracy and computational feasibility in large-scale information retrieval. Research Method: Controlled experiments were conducted to evaluate the applicability of divide-and-conquer and Canopy Clustering prior to HNSW construction. Comparative analyses measured build time, query latency, and recall performance. Summary of Results: Preliminary findings suggest that Canopy Clustering can reduce construction costs while sustaining recall levels adequate for IS applications. Contributions and Impact to IS area: The work introduces a novel heuristic combination to enhance the scalability of graph-based similarity search indexing, providing methodological advances that may extend to other high-dimensional data processing tasks. It offers actionable insights for designing more efficient and viable intelligent information systems.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248343",
+    "citations": 0
+  },
+  {
+    "title": "A Hybrid Approach for Named Entity Recognition in Clinical Case Reports",
+    "authors": [
+      "Fernanda de O. Ramos",
+      "Cauã G. Marvila",
+      "C. D. S. Colombo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cb8dfc2ad2be13c57a73b098f0296e0d15f2c9e3",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Context: Natural Language Processing (NLP) has shown significant impact in healthcare by enabling knowledge extraction from unstructured texts. However, in Brazilian Portuguese, there remains a gap in developing models capable of processing clinical case reports, rich sources of crucial information for diagnostics, treatments, and decision-making. Problem: While some models exist (e.g., BioBERTpt), they are scarce and deliver limited performance for Portuguese clinical texts. The lack of accurate entity recognition reduces the ability to transform raw data into structured information that supports clinical decision-making. Solution: This work presents ClinptHyb, a hybrid Named Entity Recognition (NER) model combining a spaCy-based pipeline (ClinptCy, trained from scratch on SemClinBr) with a Large Language Model (Llama-3.3-70b) as reviewer. The hybrid design enhances entity identification and helps detect inconsistencies or omissions in the corpus. IS Theory: Grounded in the Organizational Information Processing Theory (OIPT), the study emphasizes how structuring clinical narratives reduces information uncertainty and increases organizational capacity to process data, thereby improving decision-making in healthcare contexts. Method: Following Design Science Research, the study included corpus preprocessing, stratified dataset splitting, spaCy model training, and prompt-based LLM revision. Evaluation employed Precision, Recall, and F1-score against the SemClinBr gold standard. Summary of Results: ClinptHyb consistently improved over the baseline ClinptCy and outperformed BioBERTpt in 8 of the 10 evaluated categories. The Negation class reached an F1-score of 0.97, a critical result for safe clinical interpretation. The model also revealed annotation inconsistencies, highlighting its potential as a support tool for dataset refinement. Contributions and Impact on the IS Area: This research presents the first hybrid NER approach that combines spaCy with an LLM for Portuguese clinical texts, aligned with IS for data, information, and knowledge management. It contributes to decision support systems, clinical annotation workflows, and the advancement of NLP technologies adapted to the Brazilian healthcare context.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248331",
+    "citations": 0
+  },
+  {
+    "title": "Catwalks and sales: fashion shows in live streaming",
+    "authors": [
+      "Yuhan Sun",
+      "Jichang Zhao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c6f9110ece9c8bbb1fab8cd5d74d17310423af2f",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Journal of Research in Interactive Marketing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study investigates the effects of fashion streamers' catwalks on product sales in live-streaming commerce. It examines the cross-modal interaction between catwalks and verbal explanations. It further explores the underlying mechanisms of these effects through the lens of vividness theory.\n \n \n \n We established a novel dataset from Douyin comprising 7,005 video clips and corresponding sales data from 298 livestream sessions. A cross-modal detection model temporally locates streamers' catwalks, outperforming MLLMs (Multimodal Large Language Models) and achieving a superior mean average precision (mAP) of 77.68%. We combine econometric analysis with online experiments to examine the effects of catwalks on sales and the underlying mechanism.\n \n \n \n Catwalks have an inverted U-shaped effect on sales, with an optimal frequency of nearly 3 catwalks per 100 s and this effect varies across product types. Streamers' verbal introductions notably moderate this effect. Online experiments demonstrate that catwalks affect purchase intention through an inverted U-shaped effect on mental imagery, whereas verbal introductions mitigate this effect by weakening the relationship between catwalks and mental imagery when catwalks are either excessive or insufficient.\n \n \n \n Our findings shed light on the nuanced effects of catwalks on consumer behavior and its interaction with verbal introductions. The results revealed the optimal levels for catwalks, providing practical guidance for professionals in the live-streaming industry.\n",
+    "summary": "",
+    "doi": "10.1108/jrim-12-2025-0776",
+    "citations": 0
+  },
+  {
+    "title": "FREEsum: A Conceptual Framework for Evaluating Text Summarization Approaches",
+    "authors": [
+      "Lucas V. Alves",
+      "C. Rocha"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b808ee86e284c0131e9d27ca474211b35ece4f0d",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The increasing amount of digital information in various areas, combined with the use of large language models (LLMs) in intelligent systems, chatbots, and LLM-based agents, underscores the importance of automatic text summarization for enhancing the efficiency of information processing and dissemination. Scientific and/or Practical Problem: Although advances in summarization techniques have been made, practitioners face difficulties in systematically comparing strategies, as automatic evaluations rely on metrics and tools with limited scope and insufficient integration with reproducible experimental pipelines, which creates challenges for rigorous benchmarking and the transparent selection of the best solutions. Proposed Solution and/or Analysis: This work proposes FREEsum—a conceptual, reproducible framework that enables the creation of end-to-end pipelines for automatic summarization evaluation, covering all stages of the experiment from data ingestion to results analysis, through declarative workflows and traceable artifacts, thus enabling systematic experimentation and direct comparison of summarization strategies. Related IS Theory: The framework applies Design Science Research principles and open-science practices, ensuring transparency, traceability, and reproducibility in Information Systems experiments. Research Method: FREEsum was developed and validated by implementing a configurable, reproducible experimental pipeline, including a proof-of-concept that demonstrates its applicability in realistic evaluation scenarios. Summary of Results: Experiments show that FREEsum standardizes benchmarking, streamlines configuration, supports method-and-metric trade-off analysis, and facilitates auditing across all experimental stages. Contributions and Impact to IS area: This work contributes to the field of Information Systems by connecting AI techniques for summarization (LLMand NLP-based) with core IS concerns, such as transparency, governance, and technological and economic impacts. A standardized, auditable, and reusable infrastructure for reliable and extensible summarization evaluation across domains, addressing IS demands for empirical rigor and transparent experimentation and supporting evidence-based adoption of AI methods, particularly in large-scale and complex-text settings where summarization mitigates information overload and improves interpretability.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248662",
+    "citations": 0
+  },
+  {
+    "title": "Specializing Small Language Models into Business and Industry Idea Reviewer Experts with Supervised Fine-Tuning",
+    "authors": [
+      "Gabriel Braga Ladislau",
+      "Guilherme Ratti Moraes",
+      "Guilherme G. Zanetti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b062a93f877d1d2d31180497035c4280119c7a0b",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Fine-tuning",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The application of Natural Language Models in industrial and business environments is rapidly expanding. While powerful, these models often require specialization to match the performance of human experts. Practical Problem: Large Language Models (LLMs) face two major barriers for enterprise adoption: 1) the lack of specific, private knowledge required for nuanced tasks, such as classifying internal company innovations, and 2) the operational costs are prohibitively high for long-term, large-scale use. Proposed Solution: We propose a cost-effective alternative by fine-tuning Small Language Models (SLMs) and encoder models (BERTs) in business ideas classification, transforming them into expert systems tailored to a company’s unique context. Related IS Theory: This research is grounded in Task-Technology Fit (TTF) theory, examining the alignment between the task’s characteristics (classifying specialized ideas) and the technology’s attributes (general-purpose LLMs vs. fine-tuned SLMs and BERTs) to determine the optimal fit. Research Method: The research involves developing and evaluating a training method for SLMs and BERTs, with real-world data augmented by an artificial dataset. Additionally, the artificial dataset creation pipeline is showcased by the research. The performance of the resulting SLMs and BERTs are then compared against that of larger, general-purpose LLMs. Results: The findings indicate that the fine-tuned SLMs and BERTs achieve superior performance on the specialized classification task compared to larger, non-fine-tuned LLMs, while significantly reducing operational costs. The results also highlight that augmenting scarce real-world data with diverse artificial data can lead to a more robust, generalizable and rich model. Contributions: This work contributes to a practical and economically viable method for specialized AI agents creation and augmentation of scarce real-world data through synthetically made datasets. Its impact lies in enabling businesses to deploy tailored, high-performing AI solutions for specific and knowledge-based tasks without the high costs of large-scale, general-purpose models.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248583",
+    "citations": 0
+  },
+  {
+    "title": "Use of ChatGPT in Low-Code Development: An Exploratory Study in the Salesforce Platform",
+    "authors": [
+      "Odimar Falcão Filho",
+      "Brenno Buarque",
+      "Camilo Almendra"
+    ],
+    "link": "https://www.semanticscholar.org/paper/97cd1c2a59fca8f767847d042ecac185ad9bc284",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Large Language Models (LLMs) have emerged as promising resources to support software development. Beyond code generation, these tools can serve as technical and educational support, assisting developers in learning and applying concepts in complex low-code development platforms (LCDP). Scientific and/or Practical Problem: While LCDPs lower entry barriers, organizations still struggle to adopt them. As a first step, we investigate whether LLMs can effectively assist LCDP’s newcomers in learning, producing and deploying quality enterprise applications. Proposed Solution and/or Analysis: This paper presents an exploratory study on the use of ChatGPT to support the development of a Salesforce application. We focus on a zero-shot learning approach to resemble the profile of newcomers. The study aims to identify the suitability of LLMs to assist beginner low-code developer. Related IS Theory: ChatGPT is seen as part of a socio-technical network that transforms low-code development. Information systems are complex and require interoperability; in this context, generative AI expands accessibility and innovation. Research Method: Development of a low-code application through prompts, using ChatGPT as support. Evaluation of the application based on quantitative and qualitative metrics. Summary of Results: Simple requirements were often solved with a single prompt, whereas the most complex required iterations and significant debugging, revealing the model’s limits. Expert reviewers found the AI-generated solutions correct and aligned with Salesforce best practices, but noted that the code lacked structural best practices. Contributions and Impact to IS area: Contributes to SI by demonstrating that ChatGPT is a co-creative, educational partner that can boost development productivity and democratize development by lowering technical barriers. However, human expertise remains critical. This work demonstrates how strategic AI integration can enhance system delivery while supporting developer learning.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248603",
+    "citations": 0
+  },
+  {
+    "title": "Automating Business Process Modeling: An LLM-Based Approach with Situation-Based Modeling Notation",
+    "authors": [
+      "Gean Paulo O. Souza",
+      "H. T. A. D. Oliveira",
+      "M. B. Costa"
+    ],
+    "link": "https://www.semanticscholar.org/paper/947d67fd704fc3701f8fb770a744cef7930120d6",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Although business process modeling is beneficial for clarifying organizational processes, it remains a task with little automation and requires significant human effort. Scientific and/or Practical Problem: To reduce this effort, research has advanced toward automating the task, mainly focusing on extracting imperative models from textual descriptions. However, imperative models may lead to a single solution that does not necessarily represent the best fit. Proposed Solution and/or Analysis: The declarative Situation-Based Modeling Notation (SBMN) allows modelers to generate multiple modeling structure alternatives, enabling them to choose the one that best fits the context. This work investigates the use of Large Language Models (LLMs) to identify core business process entities and constraints represented in SBMN from textual descriptions. Related IS Theory: This research is grounded in the Task-Technology Fit (TTF) theory, applied to evaluate the adequacy of LLMs in supporting business process analysts during modeling activities. Research Method: A dataset of 133 textual descriptions paired with SBMN models was employed. Each description was processed by three medium-scale LLMs and three extra-large LLMs using zero-shot prompts to identify domain situations and Active Flow Objects. The outputs were semantically compared with the corresponding SBMN models to measure their similarity. Summary of Results: Large-scale LLMs (e.g., Claude Sonnet and Qwen3-80B) were able to identify flow objects and situations in SBMN with relevant accuracy, demonstrating the feasibility of their use to support the modeling task. Contributions and Impact to IS area: This research provides: (i) empirical evidence highlighting the strengths and limitations of current LLMs in the process modeling domain; (ii) a dataset containing aligned pairs of textual descriptions and SBMN models; and (iii) a semantic–structural similarity metric enabling the quantitative evaluation of SBMN component extraction accuracy from text.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248349",
+    "citations": 0
+  },
+  {
+    "title": "Towards a Large Language Model Based Approach for the Management of Requirements Technical Debt",
+    "authors": [
+      "Fernando Guilhermino",
+      "M. Lencastre"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b3d6353294c82e8fa0eaeaeedc2a3ee203763cc",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study addresses the challenge of mitigating Requirements Technical Debt (RTD) by proposing an RTD management approach supported by Large Language Models (LLMs). The approach structures automated mechanisms for the identification, characterization, impact analysis, and evolutionary monitoring of debt throughout the software lifecycle. It articulates linguistic, technical, and decision-making aspects, allowing RTD to be treated as a continuous phenomenon that influences product quality, risk, and sustainability. The approach is expected to provide systematic support for RTD detection, prevention, and mitigation activities, based on the analysis of its potential impact and evolution over time.",
+    "summary": "",
+    "doi": "10.5753/sbsi_estendido.2026.249035",
+    "citations": 0
+  },
+  {
+    "title": "Quality Evaluation of Software Functional Requirements Generated by LLMs: A Systematic Mapping Study",
+    "authors": [
+      "Lucas Lourenço",
+      "C. Bezerra",
+      "A. Marques"
+    ],
+    "link": "https://www.semanticscholar.org/paper/72c1d21af46af759a3c3961a68c727effedf879a",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Large Language Models (LLMs) have been increasingly applied in software engineering, especially in the generation of functional requirements for information systems. Scientific and/or Practical Problem: However, the quality of these requirements still raises concerns, such as ambiguities, incompleteness, and dependency on prompts. Proposed Solution and/or Analysis: This study conducts a systematic mapping study to analyze how the literature has evaluated requirements generated by LLMs. Related IS Theory: The work is aligned with the sociotechnical perspective, considering information systems requirements as both technical and social artifacts. Research Method: A systematic mapping study was conducted, reviewing 1,875 studies and selecting 51 primary studies published between 2020 and 2025. Summary of Results: The findings indicate a diversity of evaluation practices, combining traditional criteria and NLP metrics, with advantages in automation and standardization, but limitations regarding the absence of benchmarks and validation in industrial contexts, especially in the development of information systems. Contributions and Impact to IS area: The study contributes to academia by consolidating evaluation approaches and identifying gaps, and to industry by supporting the understanding of risks and opportunities in the use of LLMs in the requirements engineering of information systems.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248317",
+    "citations": 0
+  },
+  {
+    "title": "BACK2SERIES: Designing a Backtesting Framework for Time Series Forecasting into a RESTful API",
+    "authors": [
+      "Eduardo Olinto",
+      "A. Baffa",
+      "Juliana Alves Pereira"
+    ],
+    "link": "https://www.semanticscholar.org/paper/691803c98e28a09eed1eebc9207b5dc3a55c0250",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Time series forecasting plays a crucial role in economics, finance, and other domains where accurately anticipating future outcomes is essential for informed decision-making. However, evaluating time series regression models requires specific methods to preserve temporal dependencies and ensure realistic assessments. Scientific and/or Practical Problem: Common validation approaches, such as random cross-validation, ignore time order, generating look-ahead bias and unreliable results. Existing libraries like skforecast and sktime provide partial solutions but lack comprehensive backtesting features, standardized procedures, and user-friendly interfaces for non-programmers. Proposed Solution and/or Analysis: This study introduces BACK2SERIES, a modular RESTful API for time series regression backtesting. It supports multiple scikit-learn estimators, expanding and rolling windows, periodic hyperparameter tuning, and proper data standardization to prevent information leakage. Its API architecture allows integration with Large Language Models (LLMs) for automated workflows. Related IS Theory: This work is grounded in Socio-technical Theory, as it integrates technical automation with human interaction, balancing system efficiency and user accessibility. It also draws on Process Virtualization Theory, enabling remote, automated, and reproducible workflows that make time series forecasting more accessible to both technical and non-technical users. Research Method: Following an exploratory case study methodology, the system was implemented in Python using FastAPI, Pandas, and scikit-learn. A case study was conducted forecasting the USD/BRL exchange rate using other emerging market currencies to validate the framework’s reproducibility and automation capabilities. Summary of Results: The API produced unbiased evaluations, automated hyperparameter tuning, and consistent model comparisons. Tests of LLM interaction confirmed that structured prompts enable complete, valid API calls. Contributions and Impact to IS Area: BACK2SERIES advances the Information Systems field by bridging rigorous time series evaluation with accessible deployment. It enables reproducible, automated, and explainable forecasting workflows, supporting both technical and non-technical users in data-driven decision-making.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248292",
+    "citations": 0
+  },
+  {
+    "title": "Julgamento Automatizado de Agentes Conversacionais: Usando LLM-as-a-Judge para avaliar um software baseado em Inteligência Artificial para o Ensino de Computação",
+    "authors": [
+      "Danilo Guimarães Souza Azevedo",
+      "Melques Santos Paiva",
+      "Ana Kessilly Chiachio Cerqueira",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4d259cb9edcdc2e11bd0ac0242a6d191a727fa63",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "A integração de Large Language Models (LLMs) em contextos educacionais exige validação rigorosa para evitar alucinações e garantir precisão. Este trabalho apresenta uma solução de avaliação automatizada baseada na técnica LLM-as-a-Judge, aplicada a um agente conversacional para o ensino de Ciência da Computação. O estudo descreve os fundamentos teóricos, a arquitetura da solução, a construção dos prompts e um fluxo de julgamento. Para validação, o consenso das IAs foi comparado à análise de um especialista humano. Os resultados indicam julgamentos coerentes e próximos aos do especialista, evidenciando o potencial da abordagem para apoiar a validação contínua de respostas tutoriais. Por fim, discutem-se limitações, desafios e perspectivas futuras.",
+    "summary": "",
+    "doi": "10.5753/sbsi_estendido.2026.249124",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing Declarative Business Process Management Availability Through Generative AI Extended Abstract – CTDG-SI 2027",
+    "authors": [
+      "Wesley da Silva Santos",
+      "Fernanda Baião",
+      "G. Spyrides",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3d3e4200a5084956ba3230384ba7e25972d5fe1e",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This work addresses the scarcity of multi-perspective declarative process models caused by privacy constraints and formalism adoption by introducing Terpsichora, a framework utilizing Large Language Models (LLM) for synthetic generation. Aligned with the “Grand Challenges of Information Systems Research in Brazil” (GranDSI-BR) 2016-2026, it bridges openness and privacy through synthetic artifacts for public benchmarking, tackles multi-perspective modeling across diverse domains, and evaluates cognitive comprehensibility. Validated through Representation Theory, the 2,000 produced models confirm syntactic rigor, semantic accuracy, and pragmatic validity.",
+    "summary": "",
+    "doi": "10.5753/sbsi_estendido.2026.249056",
+    "citations": 0
+  },
+  {
+    "title": "Text Message Routing System for Chat-Based Applications",
+    "authors": [
+      "Breno U. de Angelo",
+      "Guilherme G. Zanetti",
+      "A. F. D. Souza",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/23107984e38ed17f44142e9212e7dd33cf2858c9",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The integration of Large Language Models (LLMs) into banking customer service promises enhanced engagement but faces a trilemma of prohibitive operational costs, stochastic inaccuracy (hallucinations), and strict safety requirements. In the Brazilian financial sector, where inaccuracies can lead to direct financial harm, relying solely on monolithic LLMs is economically unsustainable and operationally risky. Practical Problem: Financial institutions struggle with the ”inference cost trap,” where token-based pricing scales linearly with usage, and the risk of hallucinations—where models generate plausible but incorrect responses for unfamiliar queries. Proposed Solution: This study validates a semantic routing architecture that functions as an intelligent decision layer, classifying user intent into four categories (Relevant, Unrelated, Chitchat, Spam) to route queries to cost-effective handlers. Five classification paradigms were benchmarked: Zero-shot GPT, Few-shot GPT, QLoRA fine-tuned GPT, Embedding Similarity Search, and BERT-based neural models. Related IS Theory: The research builds upon Task-Technology Fit (TTF) theory and contributes to the Green IS agenda by validating energy-efficient architectures. Research Method: A balanced dataset of 6,760 messages, curated from SMS spam data, SQuAD questions, private chats, and banking FAQs, was used to evaluate accuracy, resource usage, and cost. Summary of Results: Embedding Similarity (98.52%) and BERT-based models (98.96%) achieved superior accuracy compared to Zero-shot GPT (53.78%) and matched the performance of Fine-tuned GPT (97.93%). Crucially, the embedding approach reduced operational costs by 96% (from US$18.10 to US$0.32 per million requests) and slashed memory consumption from 6.52 GB to 1.04 GB. Contributions and Impact to IS Area: The study contributes a validated pattern for Frugal AI in Portuguese, demonstrating that open-source embedding models can effectively govern LLMs. This approach mitigates hallucination risks, reduces dependency on foreign APIs, and aligns with sustainable computing principles.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248585",
+    "citations": 0
+  },
+  {
+    "title": "Bridging AI and Ethics: An LLM-Based Framework for Transparent and Inclusive Credit Decisions",
+    "authors": [
+      "Marcelo Massashi Simonae",
+      "Marlon Marcon",
+      "Dalcimar Casanova"
+    ],
+    "link": "https://www.semanticscholar.org/paper/19b3c1367190907b125e9402406b88c07ba9c20c",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "1) Research Context: The integration of advanced Machine Learning (ML) models into Intelligent Information Systems (IS) has created highly accurate but opaque \"black-box\" systems, especially in sensitive domains like credit scoring. 2) Scientific and/or Practical Problem: This opacity undermines user trust, can perpetuate algorithmic bias, and challenges regulatory compliance (e.g., LGPD, GDPR). This creates a critical gap between AI’s technical power and the socio-technical need for accountability in IS. 3) Proposed Solution and/or Analysis: We propose and validate a two-layer framework that uses Large Language Models (LLMs) to translate technical outputs from Explainable AI (XAI) methods, like SHAP and LIME, into actionable, natural language narratives for non-expert users. 4) Related IS Theory: Grounded in Decision Support Systems (DSS) theory, this work extends the classical DSS goal. It enhances decision quality not just via predictive accuracy, but by improving the transparency, trustworthiness, and interpretability of the system’s reasoning for stakeholders. 5) Research Method: We conducted an applied, experimental study on a public retail credit dataset. The methodology involved data preprocessing, XGBoost predictive modeling, quantitative evaluation of explanation fidelity with the MEMC metric, and developing a functional web prototype. 6) Summary of Results: The framework effectively identified key credit denial factors with high fidelity, validated by the MEMC metric. The LLM-synthesis layer successfully transformed complex XAI data into clear, understandable, and practical explanations, enhancing the system’s clarity and actionability. 7) Contributions and Impact to IS area: This study contributes a validated framework for building more ethical, transparent, and socially inclusive intelligent systems. Its impact lies in bridging the gap between advanced AI and human-centric requirements, enabling responsible AI adoption and strengthening human-AI collaboration in decision-making.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248352",
+    "citations": 0
+  },
+  {
+    "title": "A Retrieval-Augmented Generation Information System for the Oil and Gas Industry",
+    "authors": [
+      "Rhuan Garcia de Assis Teixeira",
+      "Luciano Henrique Peixoto da Silva",
+      "Thiago Oliveira-Santos",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/18583082d11c3f6385f2fc64fac01ec6ae4bd023",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The oil and gas industry relies on extensive and complex technical documentation, making manual information retrieval slow and inefficient for engineers and technicians who require quick and reliable answers for decisions. Scientific and/or Practical Problem: Generalist Large Language Models (LLMs) often struggle with specialized domains, leading to inaccuracies, contextual errors (”hallucinations”), and an inability to handle specific technical jargon. Proposed Solution and/or Analysis: This paper presents ”RAG Petrolês”an information system assistant built using Retrieval-Augmented Generation (RAG) on ”Petrolês”, a collection of Portuguese theses and dissertations on the topic. It uses the IBM Granite model for embeddings, FAISS for similarity search, and a combination of the DeepSeek R1 and Mistral Small 3.2 LLMs to generate and refine answers. Related IS Theory: The work is grounded in the Information Processing theory where a Retrieval-Augmented Generation (RAG) system integrates external knowledge bases with LLMs to enhance accuracy, contextual relevance of their responses and reduce hallucinations. Research Method: A quantitative and qualitative evaluation was performed. The system’s performance was tested against a custom dataset of 1500 questions. The evaluation involved a manual analysis of 150 answers and a broader statistical analysis of all 1500 responses using an ”LLM-as-a-Judge”approach combined with Prediction-Powered Inference (PPI) to ensure robust results. Summary of Results: The proposed system achieved an accuracy of 88.88% in manual evaluation. The statistical analysis resulted in an accuracy range from 81.48% to 97.71% within a 95% confidence interval. Outperforming baseline models and demonstrating superior performance compared to a direct adaptation of a similar existing framework. Contributions and Impact to IS area: This research demonstrates the effectiveness of a specialized RAG system in a technical, non-English domain. It provides a viable architecture for creating highly accurate, specialized information systems assistants without resorting to retrain foundational models.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248691",
+    "citations": 0
+  },
+  {
+    "title": "Wildfire Monitor: Real-Time Prediction and Interpretable Alerts from Fused Satellite and Meteorological Data",
+    "authors": [
+      "Luís Fabrício de Freitas Souza",
+      "G. F. B. Severiano",
+      "J. J. D. C. Nascimento",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/13656960b17f2428e3ca3c373cf5e84010c000cd",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Wildfires cause significant environmental, economic, and social damage, requiring intelligent systems capable of supporting prevention and mitigation actions. Scientific and/or Practical Problem: The increasing frequency of wildfires in Brazil and worldwide demands innovative technological approaches for real-time monitoring and accurate prediction of fire outbreaks using reliable and official data sources. Proposed Solution and/or Analysis: This paper presents the Cariri Wildfire Monitor, a system for mapping and monitoring wildfires through a web portal that integrates Artificial Intelligence (AI) and official datasets. The proposal includes a technological solution for continuous monitoring and a predictive module for fire hotspots. Related IS Theory: The system design is grounded in Information Systems (IS) theories related to data-driven decision support, predictive analytics, and socio-environmental information integration for sustainable management. Research Method: The system performs data fusion from INPE and INMET sources, applies regression models to predict wildfire hotspots, and integrates a decision layer with Large Language Models (LLMs) to produce auditable alerts and qualitative insights. Summary of Results: Among the results, the ExtraTrees regressor achieved R2=0,9843. In the stratified audit of the LLM module with live threshold 0,758 (proxy 0,500; Npop=1000; Maudit used = 12), we obtained Accuracy (w) 0,7973±0,1165, and p95 latencies between 4,75s and 5,95s. Contributions and Impact to IS area: The system demonstrates the potential of predictive computational models and LLMs in environmental monitoring, contributing to the development of intelligent, auditable, and sustainable Information Systems solutions for wildfire management.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248736",
+    "citations": 0
+  },
+  {
+    "title": "A Systematic Review on Language Model Compression: Perspectives for Efficiency and Sustainability in Information Systems",
+    "authors": [
+      "Lair Anderson de P. Mesquita",
+      "Saulo Anderson F. de Oliveira"
+    ],
+    "link": "https://www.semanticscholar.org/paper/10d57c37c493876f441aa8c057322edd52c94759",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The rapid adoption of Large Language Models (LLMs) offers unprecedented opportunities for Intelligent Information Systems. However, their high computational cost creates significant deployment barriers in resource-constrained environments. This limited access for smaller organizations and developing regions reinforces social and economic disparities in the adoption of those systems. Scientific and/or Practical Problem: LLMs demand excessive resources, which hinders their integration into sustainable INFORMATION SYSTEMS. Furthermore, there is a lack of systematic evidence on how compression affects robustness, factuality, and applicability in different contexts. Proposed Solution and/or Analysis: This work presents a systematic literature review analyzing 30 peer-reviewed studies on LLM compression methods. The review identifies trade-offs, evaluate empirical results, and highlight gaps for future research. Related IS Theory: We interpret computational efficiency and accessibility as strategic resources (Resource-Based View) that enable the development of sustainable, and equitable digital infrastructures. Research Method: This study follows PICO structure with inclusion/exclusion criteria to works published between 2018 and January 2025. It was centered around eight research questions addressing efficiency, robustness, hardware compatibility, knowledge preservation, hybridization, architectural adaptation, evaluation metrics, and industrial viability. Summary of Results: Our study shows that efficiency and system-focused methods are the most developed and investigated for LLM compression for training and inference efficiency. Among these techniques, quantization consistently outperforms pruning and error-based methods, balancing performance and design savings. However, research on robustness, generalization, and practical use remains limited. Recent advances in shared hardware designs show potential for scalability and lower power consumption. However, practical studies on the long-term sustainability, ethical issues, and social impacts of LLM compression are rare in current scientific literature. Contributions and Impact to IS area: This work contributes by mapping key challenges in LLM compression research, offering insights to design efficient, sustainable, and socially responsible intelligent systems that align AI’s technical progress with goals of inclusion and environmental responsibility.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248723",
+    "citations": 0
+  },
+  {
+    "title": "LLM-Powered Educational Conversational Agent for Open Educational Resources",
+    "authors": [
+      "R. Z. D. Silva",
+      "P. C. R. Pinho",
+      "Ulian Gabriel Alff Ramires",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/01424995ebe024a44ff30ae224e17ec6c87544e8",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Transformer",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Educational repositories gather diverse Open Educational Resources (OER), yet sparse metadata and inconsistent terminology reduce findability. Large Language Models (LLMs) with retrieval-augmented generation (RAG) can bridge vocabulary gaps by capturing semantic similarity, thereby improving recall and user experience. Scientific and/or Practical Problem: The national OER repository (ProEdu) depends on a solely lexical engine. This dependence creates difficulties in handling synonyms, paraphrases, and domain shifts, resulting in suboptimal recall and inconsistent rankings. Proposed Solution and/or Analysis: We develop a prototype of an Educational Conversational Agent (ECA) that integrates retrieval and response generation. Three pipelines are evaluated: ProEdu, which employs a lexical approach; a field-weighted Elasticsearch (ES); and a semantic RAG system utilizing Sentence-Transformers (all-MiniLM-L6-v2) embeddings with a FAISS (Facebook AI Similarity Search) index and Llama for text generation, plus a lightweight reranking mechanism. Related IS Theory: We assert that AI-enhanced repositories diminish search obstacles and assist educators in effectively identifying suitable materials. Furthermore, the conversational interface alleviates the cognitive load by providing verified sources within context. Research Method: A comparative assessment involved 22 interdisciplinary prompts in ten domains. For each prompt, we established gold-standard datasets, formulated standardized queries, and calculated precision, recall, and F1-score. Summary of Results: The Llama/FAISS pipeline achieves the best coverage-relevance balance driven by high recall. ES attains a similar F1 through higher precision but lower recall. ProEdu performs poorly in F1. Error analysis shows semantic retrieval excels in cross-vocabulary matches and multi-facet intents. Contributions and Impact to IS area: We deliver a replicable benchmark for large-scale OER search (prompts, metrics, code) and a pragmatic architecture combining semantic RAG and ES to balance recall and precision on cost-efficient infrastructure. Prompt templates and evaluation scripts support adoption.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248280",
+    "citations": 0
+  }
+]

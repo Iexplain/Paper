@@ -1,5 +1,413 @@
 [
   {
+    "title": "Privacy Risks Associated with the Use of LLMs in Software Development",
+    "authors": [
+      "Diego Menegazzi",
+      "Edna Dias Canedo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f80dfb56f506303da41c600959085853898ac51c",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Large Language Models (LLMs), e.g., GPT-2 and GPT-4, are increasingly embedded in software development to assist with code generation, testing, and documentation. Adoption promises productivity gains but also raises challenges for Information Systems (IS), particularly data privacy and regulatory compliance. Scientific and/or Practical Problem: Developers may inadvertently include personal or sensitive information in prompts. LLMs can temporarily retain and reproduce this data in later outputs, causing privacy breaches. This creates technical, ethical, and legal concerns under the Brazilian LGPD and the European GDPR. While recent studies survey developer perceptions, empirical evidence showing violations in practice remains scarce. Proposed Solution and/or Analysis: We present an experiment simulating a Membership Inference Attack (MIA) on a local GPT-2 instance. Using synthetic personal data with realistic identifiers, we evaluate how sensitive information can be recalled by the model and propose mitigation strategies aligned with regulatory and organizational frameworks. Related IS Theory: The study is grounded in the Socio-Technical Systems Theory and Information Systems models such as the People-Process-Technology (PPT) framework, emphasizing the alignment of human, organizational, and technological dimensions. It also connects to the GranDSI-BR 2016–2026 research challenges on privacy, ethics, and security in intelligent IS. Research Method: We adopted a mixed-methods approach, combining an experimental MIA simulation on GPT-2 with a literature review and regulatory analysis. Synthetic Brazilian personal data ensured realistic and ethically compliant experimentation. Summary of Results: The experiment showed that GPT-2 can reproduce sensitive identifiers from prior prompts, even without fine-tuning or persistent memory. Contributions and Impact to IS area: The study provides reproducible experimental evidence of privacy risks in LLMs and reinforces the urgency of embedding privacy-by-design principles into IS development workflows.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248323",
+    "citations": 0
+  },
+  {
+    "title": "LLMs in Practice: Results from a Survey with Software Development Professionals in Brazil",
+    "authors": [
+      "Antônio Sergio Tolio",
+      "Enzo Zanini Becker",
+      "Felipe Colpo Bagesteiro",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f7d59961b4715abfab98c73162ed4f072b6627c2",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The emergence of Large Language Models (LLMs) has been transforming the development of information systems, directly impacting activities across the system life cycle. Understanding how these technologies affect work practices is essential for advancing the Information Systems (IS) field and for guiding their adoption by organizations. Scientific and/or Practical Problem: Despite the growing use of LLMs in information systems development, there is still limited knowledge on how professionals across different roles, levels of experience, and work modalities perceive the impact of generative AI on daily activities, decision-making, and team performance. Proposed Solution and/or Analysis: This study investigates the perceptions and experiences of Brazilian software developers regarding the integration of Generative AI (LLMs) into their professional practice. The analysis aims to identify which activities are most impacted by AI, the most frequently adopted tools, and the level of trust professionals place in AI-generated outputs. Related IS Theory: The study aligns with the Systemic and Socially Aware Perspective for Information Systems challenge of GranDSI-BR, by examining how emerging technologies reshape sociotechnical systems and the dynamics of professional work. Research Method: An online survey was conducted with 94 professionals in the field of information systems development, covering diverse profiles. Data were collected through customized Likert scales, multiple-choice checkboxes, and closed-ended questions. Summary of Results: Findings highlight that, although the adoption of LLMs significantly increases developers’ productivity, there is still a moderate level of trust in the outputs and the absence of consolidated governance policies. Contributions and Impact to IS area: The results provide both theoretical and practical insights into the adoption of generative AI in information systems development, offering valuable guidance for researchers, managers, and educators seeking to integrate these technologies into IS safely and ethically.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248579",
+    "citations": 0
+  },
+  {
+    "title": "Privacy, Data Protection, Risk, and Compliance in the Age of Generative AI Systems: A Systematic Mapping Study",
+    "authors": [
+      "Richardson B. da S. Andrade",
+      "G. P. Rocha Filho",
+      "Gilmar dos Santos Marques",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e26a26dfd35e4cea95fb708647e30f7c3084951b",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Generative Artificial Intelligence (GenAI), particularly Large Language Models (LLMs), is advancing rapidly, raising concerns about privacy, data protection, risk management, and regulatory compliance. Despite transformative potential, adoption remains immature and constrained by ethical, technical, and legal limits. Scientific and/or Practical Problem: Organizations, developers, and end users face risks of privacy violations, re-identification, model inversion, and opacity. Current frameworks such as GDPR and Brazil’s LGPD struggle to address GenAI’s complexity, leaving gaps between technical safeguards and legal obligations. Proposed Solution and/or Analysis: We performed a systematic mapping focused on privacy-preserving mechanisms, risk management frameworks, and compliance models applicable to GenAI. We synthesize state-of-the-art approaches, their strengths and limitations, and assess how they enable trustworthy adoption. Related IS Theory: The study is grounded in information systems governance, privacy by design, and responsible AI, using sociotechnical lenses integrating technological, organizational, and regulatory perspectives. Research Method: Following a protocol, we searched four major digital libraries (ACM DL, IEEE Xplore, ScienceDirect, SpringerLink), applied inclusion and exclusion criteria, and conducted quality assessment. From 1,138 initial studies, 44 were analyzed in depth, and 15 met all thresholds. Summary of Results: We identify four principal categories of privacy techniques (differential privacy, federated learning, cryptographic approaches, synthetic data), five risk management frameworks (e.g., NIST AI RMF, MITRE ATLAS/AI Security), and compliance instruments (DPIA, conformity assessment, FRIA). Comparative analyses reveal trade-offs among robustness, scalability, and regulatory alignment. Contributions and Impact to the IS area: This study consolidates mechanisms for addressing privacy, risk, and compliance in GenAI, highlights gaps between technical safeguards and legal requirements, and distills design implications for trustworthy systems. It supports scholars and practitioners in engineering responsible AI and informs IS research agendas, organizational policies, and regulatory strategies for intelligent information systems.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248735",
+    "citations": 0
+  },
+  {
+    "title": "Canopy-Guided Construction of ANN Search Graphs under Cosine Similarity",
+    "authors": [
+      "R. Pinheiro",
+      "Karla Roberta P. S. Lima"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cc30f5ac23c3f847b8679c3ebf67d331a0ab9c35",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Nearest Neighbor Search (NNS) is a fundamental problem in computing, with applications in recommendation systems, semantic search, information retrieval, and Retrieval-Augmented Generation (RAG) in Large Language Models (LLMs). High-dimensional datasets with millions of vectors make exact search computationally intractable, demanding efficient approximations. Practical Problem: Approximate Nearest Neighbor Search (ANNS) has become the standard approach, with graph-based methods standing out. However, structures such as Hierarchical Navigable Small World (HNSW) graphs impose high construction and update costs, which limits their scalability in real-world scenarios. Proposed Solution: This paper proposes the integration of Canopy Clustering as a divide-and-conquer heuristic to mitigate the computational burden of HNSW graph construction under cosine similarity, enabling more cost-effective ANNS pipelines in information retrieval systems. Related IS Theory: The research aligns with Information Systems theories on efficiency of knowledge retrieval, and the optimization of data-intensive processes in decision-support environments. It builds upon principles of data organization and access structures in IS, particularly the trade-offs between accuracy and computational feasibility in large-scale information retrieval. Research Method: Controlled experiments were conducted to evaluate the applicability of divide-and-conquer and Canopy Clustering prior to HNSW construction. Comparative analyses measured build time, query latency, and recall performance. Summary of Results: Preliminary findings suggest that Canopy Clustering can reduce construction costs while sustaining recall levels adequate for IS applications. Contributions and Impact to IS area: The work introduces a novel heuristic combination to enhance the scalability of graph-based similarity search indexing, providing methodological advances that may extend to other high-dimensional data processing tasks. It offers actionable insights for designing more efficient and viable intelligent information systems.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248343",
+    "citations": 0
+  },
+  {
+    "title": "A Hybrid Approach for Named Entity Recognition in Clinical Case Reports",
+    "authors": [
+      "Fernanda de O. Ramos",
+      "Cauã G. Marvila",
+      "C. D. S. Colombo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cb8dfc2ad2be13c57a73b098f0296e0d15f2c9e3",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Context: Natural Language Processing (NLP) has shown significant impact in healthcare by enabling knowledge extraction from unstructured texts. However, in Brazilian Portuguese, there remains a gap in developing models capable of processing clinical case reports, rich sources of crucial information for diagnostics, treatments, and decision-making. Problem: While some models exist (e.g., BioBERTpt), they are scarce and deliver limited performance for Portuguese clinical texts. The lack of accurate entity recognition reduces the ability to transform raw data into structured information that supports clinical decision-making. Solution: This work presents ClinptHyb, a hybrid Named Entity Recognition (NER) model combining a spaCy-based pipeline (ClinptCy, trained from scratch on SemClinBr) with a Large Language Model (Llama-3.3-70b) as reviewer. The hybrid design enhances entity identification and helps detect inconsistencies or omissions in the corpus. IS Theory: Grounded in the Organizational Information Processing Theory (OIPT), the study emphasizes how structuring clinical narratives reduces information uncertainty and increases organizational capacity to process data, thereby improving decision-making in healthcare contexts. Method: Following Design Science Research, the study included corpus preprocessing, stratified dataset splitting, spaCy model training, and prompt-based LLM revision. Evaluation employed Precision, Recall, and F1-score against the SemClinBr gold standard. Summary of Results: ClinptHyb consistently improved over the baseline ClinptCy and outperformed BioBERTpt in 8 of the 10 evaluated categories. The Negation class reached an F1-score of 0.97, a critical result for safe clinical interpretation. The model also revealed annotation inconsistencies, highlighting its potential as a support tool for dataset refinement. Contributions and Impact on the IS Area: This research presents the first hybrid NER approach that combines spaCy with an LLM for Portuguese clinical texts, aligned with IS for data, information, and knowledge management. It contributes to decision support systems, clinical annotation workflows, and the advancement of NLP technologies adapted to the Brazilian healthcare context.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248331",
+    "citations": 0
+  },
+  {
+    "title": "Catwalks and sales: fashion shows in live streaming",
+    "authors": [
+      "Yuhan Sun",
+      "Jichang Zhao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c6f9110ece9c8bbb1fab8cd5d74d17310423af2f",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Journal of Research in Interactive Marketing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study investigates the effects of fashion streamers' catwalks on product sales in live-streaming commerce. It examines the cross-modal interaction between catwalks and verbal explanations. It further explores the underlying mechanisms of these effects through the lens of vividness theory.\n \n \n \n We established a novel dataset from Douyin comprising 7,005 video clips and corresponding sales data from 298 livestream sessions. A cross-modal detection model temporally locates streamers' catwalks, outperforming MLLMs (Multimodal Large Language Models) and achieving a superior mean average precision (mAP) of 77.68%. We combine econometric analysis with online experiments to examine the effects of catwalks on sales and the underlying mechanism.\n \n \n \n Catwalks have an inverted U-shaped effect on sales, with an optimal frequency of nearly 3 catwalks per 100 s and this effect varies across product types. Streamers' verbal introductions notably moderate this effect. Online experiments demonstrate that catwalks affect purchase intention through an inverted U-shaped effect on mental imagery, whereas verbal introductions mitigate this effect by weakening the relationship between catwalks and mental imagery when catwalks are either excessive or insufficient.\n \n \n \n Our findings shed light on the nuanced effects of catwalks on consumer behavior and its interaction with verbal introductions. The results revealed the optimal levels for catwalks, providing practical guidance for professionals in the live-streaming industry.\n",
+    "summary": "",
+    "doi": "10.1108/jrim-12-2025-0776",
+    "citations": 0
+  },
+  {
+    "title": "FREEsum: A Conceptual Framework for Evaluating Text Summarization Approaches",
+    "authors": [
+      "Lucas V. Alves",
+      "C. Rocha"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b808ee86e284c0131e9d27ca474211b35ece4f0d",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The increasing amount of digital information in various areas, combined with the use of large language models (LLMs) in intelligent systems, chatbots, and LLM-based agents, underscores the importance of automatic text summarization for enhancing the efficiency of information processing and dissemination. Scientific and/or Practical Problem: Although advances in summarization techniques have been made, practitioners face difficulties in systematically comparing strategies, as automatic evaluations rely on metrics and tools with limited scope and insufficient integration with reproducible experimental pipelines, which creates challenges for rigorous benchmarking and the transparent selection of the best solutions. Proposed Solution and/or Analysis: This work proposes FREEsum—a conceptual, reproducible framework that enables the creation of end-to-end pipelines for automatic summarization evaluation, covering all stages of the experiment from data ingestion to results analysis, through declarative workflows and traceable artifacts, thus enabling systematic experimentation and direct comparison of summarization strategies. Related IS Theory: The framework applies Design Science Research principles and open-science practices, ensuring transparency, traceability, and reproducibility in Information Systems experiments. Research Method: FREEsum was developed and validated by implementing a configurable, reproducible experimental pipeline, including a proof-of-concept that demonstrates its applicability in realistic evaluation scenarios. Summary of Results: Experiments show that FREEsum standardizes benchmarking, streamlines configuration, supports method-and-metric trade-off analysis, and facilitates auditing across all experimental stages. Contributions and Impact to IS area: This work contributes to the field of Information Systems by connecting AI techniques for summarization (LLMand NLP-based) with core IS concerns, such as transparency, governance, and technological and economic impacts. A standardized, auditable, and reusable infrastructure for reliable and extensible summarization evaluation across domains, addressing IS demands for empirical rigor and transparent experimentation and supporting evidence-based adoption of AI methods, particularly in large-scale and complex-text settings where summarization mitigates information overload and improves interpretability.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248662",
+    "citations": 0
+  },
+  {
+    "title": "Specializing Small Language Models into Business and Industry Idea Reviewer Experts with Supervised Fine-Tuning",
+    "authors": [
+      "Gabriel Braga Ladislau",
+      "Guilherme Ratti Moraes",
+      "Guilherme G. Zanetti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b062a93f877d1d2d31180497035c4280119c7a0b",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Fine-tuning",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The application of Natural Language Models in industrial and business environments is rapidly expanding. While powerful, these models often require specialization to match the performance of human experts. Practical Problem: Large Language Models (LLMs) face two major barriers for enterprise adoption: 1) the lack of specific, private knowledge required for nuanced tasks, such as classifying internal company innovations, and 2) the operational costs are prohibitively high for long-term, large-scale use. Proposed Solution: We propose a cost-effective alternative by fine-tuning Small Language Models (SLMs) and encoder models (BERTs) in business ideas classification, transforming them into expert systems tailored to a company’s unique context. Related IS Theory: This research is grounded in Task-Technology Fit (TTF) theory, examining the alignment between the task’s characteristics (classifying specialized ideas) and the technology’s attributes (general-purpose LLMs vs. fine-tuned SLMs and BERTs) to determine the optimal fit. Research Method: The research involves developing and evaluating a training method for SLMs and BERTs, with real-world data augmented by an artificial dataset. Additionally, the artificial dataset creation pipeline is showcased by the research. The performance of the resulting SLMs and BERTs are then compared against that of larger, general-purpose LLMs. Results: The findings indicate that the fine-tuned SLMs and BERTs achieve superior performance on the specialized classification task compared to larger, non-fine-tuned LLMs, while significantly reducing operational costs. The results also highlight that augmenting scarce real-world data with diverse artificial data can lead to a more robust, generalizable and rich model. Contributions: This work contributes to a practical and economically viable method for specialized AI agents creation and augmentation of scarce real-world data through synthetically made datasets. Its impact lies in enabling businesses to deploy tailored, high-performing AI solutions for specific and knowledge-based tasks without the high costs of large-scale, general-purpose models.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248583",
+    "citations": 0
+  },
+  {
+    "title": "Use of ChatGPT in Low-Code Development: An Exploratory Study in the Salesforce Platform",
+    "authors": [
+      "Odimar Falcão Filho",
+      "Brenno Buarque",
+      "Camilo Almendra"
+    ],
+    "link": "https://www.semanticscholar.org/paper/97cd1c2a59fca8f767847d042ecac185ad9bc284",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Large Language Models (LLMs) have emerged as promising resources to support software development. Beyond code generation, these tools can serve as technical and educational support, assisting developers in learning and applying concepts in complex low-code development platforms (LCDP). Scientific and/or Practical Problem: While LCDPs lower entry barriers, organizations still struggle to adopt them. As a first step, we investigate whether LLMs can effectively assist LCDP’s newcomers in learning, producing and deploying quality enterprise applications. Proposed Solution and/or Analysis: This paper presents an exploratory study on the use of ChatGPT to support the development of a Salesforce application. We focus on a zero-shot learning approach to resemble the profile of newcomers. The study aims to identify the suitability of LLMs to assist beginner low-code developer. Related IS Theory: ChatGPT is seen as part of a socio-technical network that transforms low-code development. Information systems are complex and require interoperability; in this context, generative AI expands accessibility and innovation. Research Method: Development of a low-code application through prompts, using ChatGPT as support. Evaluation of the application based on quantitative and qualitative metrics. Summary of Results: Simple requirements were often solved with a single prompt, whereas the most complex required iterations and significant debugging, revealing the model’s limits. Expert reviewers found the AI-generated solutions correct and aligned with Salesforce best practices, but noted that the code lacked structural best practices. Contributions and Impact to IS area: Contributes to SI by demonstrating that ChatGPT is a co-creative, educational partner that can boost development productivity and democratize development by lowering technical barriers. However, human expertise remains critical. This work demonstrates how strategic AI integration can enhance system delivery while supporting developer learning.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248603",
+    "citations": 0
+  },
+  {
+    "title": "Automating Business Process Modeling: An LLM-Based Approach with Situation-Based Modeling Notation",
+    "authors": [
+      "Gean Paulo O. Souza",
+      "H. T. A. D. Oliveira",
+      "M. B. Costa"
+    ],
+    "link": "https://www.semanticscholar.org/paper/947d67fd704fc3701f8fb770a744cef7930120d6",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Although business process modeling is beneficial for clarifying organizational processes, it remains a task with little automation and requires significant human effort. Scientific and/or Practical Problem: To reduce this effort, research has advanced toward automating the task, mainly focusing on extracting imperative models from textual descriptions. However, imperative models may lead to a single solution that does not necessarily represent the best fit. Proposed Solution and/or Analysis: The declarative Situation-Based Modeling Notation (SBMN) allows modelers to generate multiple modeling structure alternatives, enabling them to choose the one that best fits the context. This work investigates the use of Large Language Models (LLMs) to identify core business process entities and constraints represented in SBMN from textual descriptions. Related IS Theory: This research is grounded in the Task-Technology Fit (TTF) theory, applied to evaluate the adequacy of LLMs in supporting business process analysts during modeling activities. Research Method: A dataset of 133 textual descriptions paired with SBMN models was employed. Each description was processed by three medium-scale LLMs and three extra-large LLMs using zero-shot prompts to identify domain situations and Active Flow Objects. The outputs were semantically compared with the corresponding SBMN models to measure their similarity. Summary of Results: Large-scale LLMs (e.g., Claude Sonnet and Qwen3-80B) were able to identify flow objects and situations in SBMN with relevant accuracy, demonstrating the feasibility of their use to support the modeling task. Contributions and Impact to IS area: This research provides: (i) empirical evidence highlighting the strengths and limitations of current LLMs in the process modeling domain; (ii) a dataset containing aligned pairs of textual descriptions and SBMN models; and (iii) a semantic–structural similarity metric enabling the quantitative evaluation of SBMN component extraction accuracy from text.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248349",
+    "citations": 0
+  },
+  {
+    "title": "Towards a Large Language Model Based Approach for the Management of Requirements Technical Debt",
+    "authors": [
+      "Fernando Guilhermino",
+      "M. Lencastre"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b3d6353294c82e8fa0eaeaeedc2a3ee203763cc",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study addresses the challenge of mitigating Requirements Technical Debt (RTD) by proposing an RTD management approach supported by Large Language Models (LLMs). The approach structures automated mechanisms for the identification, characterization, impact analysis, and evolutionary monitoring of debt throughout the software lifecycle. It articulates linguistic, technical, and decision-making aspects, allowing RTD to be treated as a continuous phenomenon that influences product quality, risk, and sustainability. The approach is expected to provide systematic support for RTD detection, prevention, and mitigation activities, based on the analysis of its potential impact and evolution over time.",
+    "summary": "",
+    "doi": "10.5753/sbsi_estendido.2026.249035",
+    "citations": 0
+  },
+  {
+    "title": "Quality Evaluation of Software Functional Requirements Generated by LLMs: A Systematic Mapping Study",
+    "authors": [
+      "Lucas Lourenço",
+      "C. Bezerra",
+      "A. Marques"
+    ],
+    "link": "https://www.semanticscholar.org/paper/72c1d21af46af759a3c3961a68c727effedf879a",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Large Language Models (LLMs) have been increasingly applied in software engineering, especially in the generation of functional requirements for information systems. Scientific and/or Practical Problem: However, the quality of these requirements still raises concerns, such as ambiguities, incompleteness, and dependency on prompts. Proposed Solution and/or Analysis: This study conducts a systematic mapping study to analyze how the literature has evaluated requirements generated by LLMs. Related IS Theory: The work is aligned with the sociotechnical perspective, considering information systems requirements as both technical and social artifacts. Research Method: A systematic mapping study was conducted, reviewing 1,875 studies and selecting 51 primary studies published between 2020 and 2025. Summary of Results: The findings indicate a diversity of evaluation practices, combining traditional criteria and NLP metrics, with advantages in automation and standardization, but limitations regarding the absence of benchmarks and validation in industrial contexts, especially in the development of information systems. Contributions and Impact to IS area: The study contributes to academia by consolidating evaluation approaches and identifying gaps, and to industry by supporting the understanding of risks and opportunities in the use of LLMs in the requirements engineering of information systems.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248317",
+    "citations": 0
+  },
+  {
+    "title": "BACK2SERIES: Designing a Backtesting Framework for Time Series Forecasting into a RESTful API",
+    "authors": [
+      "Eduardo Olinto",
+      "A. Baffa",
+      "Juliana Alves Pereira"
+    ],
+    "link": "https://www.semanticscholar.org/paper/691803c98e28a09eed1eebc9207b5dc3a55c0250",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Time series forecasting plays a crucial role in economics, finance, and other domains where accurately anticipating future outcomes is essential for informed decision-making. However, evaluating time series regression models requires specific methods to preserve temporal dependencies and ensure realistic assessments. Scientific and/or Practical Problem: Common validation approaches, such as random cross-validation, ignore time order, generating look-ahead bias and unreliable results. Existing libraries like skforecast and sktime provide partial solutions but lack comprehensive backtesting features, standardized procedures, and user-friendly interfaces for non-programmers. Proposed Solution and/or Analysis: This study introduces BACK2SERIES, a modular RESTful API for time series regression backtesting. It supports multiple scikit-learn estimators, expanding and rolling windows, periodic hyperparameter tuning, and proper data standardization to prevent information leakage. Its API architecture allows integration with Large Language Models (LLMs) for automated workflows. Related IS Theory: This work is grounded in Socio-technical Theory, as it integrates technical automation with human interaction, balancing system efficiency and user accessibility. It also draws on Process Virtualization Theory, enabling remote, automated, and reproducible workflows that make time series forecasting more accessible to both technical and non-technical users. Research Method: Following an exploratory case study methodology, the system was implemented in Python using FastAPI, Pandas, and scikit-learn. A case study was conducted forecasting the USD/BRL exchange rate using other emerging market currencies to validate the framework’s reproducibility and automation capabilities. Summary of Results: The API produced unbiased evaluations, automated hyperparameter tuning, and consistent model comparisons. Tests of LLM interaction confirmed that structured prompts enable complete, valid API calls. Contributions and Impact to IS Area: BACK2SERIES advances the Information Systems field by bridging rigorous time series evaluation with accessible deployment. It enables reproducible, automated, and explainable forecasting workflows, supporting both technical and non-technical users in data-driven decision-making.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248292",
+    "citations": 0
+  },
+  {
+    "title": "Julgamento Automatizado de Agentes Conversacionais: Usando LLM-as-a-Judge para avaliar um software baseado em Inteligência Artificial para o Ensino de Computação",
+    "authors": [
+      "Danilo Guimarães Souza Azevedo",
+      "Melques Santos Paiva",
+      "Ana Kessilly Chiachio Cerqueira",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4d259cb9edcdc2e11bd0ac0242a6d191a727fa63",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "A integração de Large Language Models (LLMs) em contextos educacionais exige validação rigorosa para evitar alucinações e garantir precisão. Este trabalho apresenta uma solução de avaliação automatizada baseada na técnica LLM-as-a-Judge, aplicada a um agente conversacional para o ensino de Ciência da Computação. O estudo descreve os fundamentos teóricos, a arquitetura da solução, a construção dos prompts e um fluxo de julgamento. Para validação, o consenso das IAs foi comparado à análise de um especialista humano. Os resultados indicam julgamentos coerentes e próximos aos do especialista, evidenciando o potencial da abordagem para apoiar a validação contínua de respostas tutoriais. Por fim, discutem-se limitações, desafios e perspectivas futuras.",
+    "summary": "",
+    "doi": "10.5753/sbsi_estendido.2026.249124",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing Declarative Business Process Management Availability Through Generative AI Extended Abstract – CTDG-SI 2027",
+    "authors": [
+      "Wesley da Silva Santos",
+      "Fernanda Baião",
+      "G. Spyrides",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3d3e4200a5084956ba3230384ba7e25972d5fe1e",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This work addresses the scarcity of multi-perspective declarative process models caused by privacy constraints and formalism adoption by introducing Terpsichora, a framework utilizing Large Language Models (LLM) for synthetic generation. Aligned with the “Grand Challenges of Information Systems Research in Brazil” (GranDSI-BR) 2016-2026, it bridges openness and privacy through synthetic artifacts for public benchmarking, tackles multi-perspective modeling across diverse domains, and evaluates cognitive comprehensibility. Validated through Representation Theory, the 2,000 produced models confirm syntactic rigor, semantic accuracy, and pragmatic validity.",
+    "summary": "",
+    "doi": "10.5753/sbsi_estendido.2026.249056",
+    "citations": 0
+  },
+  {
+    "title": "Text Message Routing System for Chat-Based Applications",
+    "authors": [
+      "Breno U. de Angelo",
+      "Guilherme G. Zanetti",
+      "A. F. D. Souza",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/23107984e38ed17f44142e9212e7dd33cf2858c9",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The integration of Large Language Models (LLMs) into banking customer service promises enhanced engagement but faces a trilemma of prohibitive operational costs, stochastic inaccuracy (hallucinations), and strict safety requirements. In the Brazilian financial sector, where inaccuracies can lead to direct financial harm, relying solely on monolithic LLMs is economically unsustainable and operationally risky. Practical Problem: Financial institutions struggle with the ”inference cost trap,” where token-based pricing scales linearly with usage, and the risk of hallucinations—where models generate plausible but incorrect responses for unfamiliar queries. Proposed Solution: This study validates a semantic routing architecture that functions as an intelligent decision layer, classifying user intent into four categories (Relevant, Unrelated, Chitchat, Spam) to route queries to cost-effective handlers. Five classification paradigms were benchmarked: Zero-shot GPT, Few-shot GPT, QLoRA fine-tuned GPT, Embedding Similarity Search, and BERT-based neural models. Related IS Theory: The research builds upon Task-Technology Fit (TTF) theory and contributes to the Green IS agenda by validating energy-efficient architectures. Research Method: A balanced dataset of 6,760 messages, curated from SMS spam data, SQuAD questions, private chats, and banking FAQs, was used to evaluate accuracy, resource usage, and cost. Summary of Results: Embedding Similarity (98.52%) and BERT-based models (98.96%) achieved superior accuracy compared to Zero-shot GPT (53.78%) and matched the performance of Fine-tuned GPT (97.93%). Crucially, the embedding approach reduced operational costs by 96% (from US$18.10 to US$0.32 per million requests) and slashed memory consumption from 6.52 GB to 1.04 GB. Contributions and Impact to IS Area: The study contributes a validated pattern for Frugal AI in Portuguese, demonstrating that open-source embedding models can effectively govern LLMs. This approach mitigates hallucination risks, reduces dependency on foreign APIs, and aligns with sustainable computing principles.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248585",
+    "citations": 0
+  },
+  {
+    "title": "Bridging AI and Ethics: An LLM-Based Framework for Transparent and Inclusive Credit Decisions",
+    "authors": [
+      "Marcelo Massashi Simonae",
+      "Marlon Marcon",
+      "Dalcimar Casanova"
+    ],
+    "link": "https://www.semanticscholar.org/paper/19b3c1367190907b125e9402406b88c07ba9c20c",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "1) Research Context: The integration of advanced Machine Learning (ML) models into Intelligent Information Systems (IS) has created highly accurate but opaque \"black-box\" systems, especially in sensitive domains like credit scoring. 2) Scientific and/or Practical Problem: This opacity undermines user trust, can perpetuate algorithmic bias, and challenges regulatory compliance (e.g., LGPD, GDPR). This creates a critical gap between AI’s technical power and the socio-technical need for accountability in IS. 3) Proposed Solution and/or Analysis: We propose and validate a two-layer framework that uses Large Language Models (LLMs) to translate technical outputs from Explainable AI (XAI) methods, like SHAP and LIME, into actionable, natural language narratives for non-expert users. 4) Related IS Theory: Grounded in Decision Support Systems (DSS) theory, this work extends the classical DSS goal. It enhances decision quality not just via predictive accuracy, but by improving the transparency, trustworthiness, and interpretability of the system’s reasoning for stakeholders. 5) Research Method: We conducted an applied, experimental study on a public retail credit dataset. The methodology involved data preprocessing, XGBoost predictive modeling, quantitative evaluation of explanation fidelity with the MEMC metric, and developing a functional web prototype. 6) Summary of Results: The framework effectively identified key credit denial factors with high fidelity, validated by the MEMC metric. The LLM-synthesis layer successfully transformed complex XAI data into clear, understandable, and practical explanations, enhancing the system’s clarity and actionability. 7) Contributions and Impact to IS area: This study contributes a validated framework for building more ethical, transparent, and socially inclusive intelligent systems. Its impact lies in bridging the gap between advanced AI and human-centric requirements, enabling responsible AI adoption and strengthening human-AI collaboration in decision-making.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248352",
+    "citations": 0
+  },
+  {
+    "title": "A Retrieval-Augmented Generation Information System for the Oil and Gas Industry",
+    "authors": [
+      "Rhuan Garcia de Assis Teixeira",
+      "Luciano Henrique Peixoto da Silva",
+      "Thiago Oliveira-Santos",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/18583082d11c3f6385f2fc64fac01ec6ae4bd023",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The oil and gas industry relies on extensive and complex technical documentation, making manual information retrieval slow and inefficient for engineers and technicians who require quick and reliable answers for decisions. Scientific and/or Practical Problem: Generalist Large Language Models (LLMs) often struggle with specialized domains, leading to inaccuracies, contextual errors (”hallucinations”), and an inability to handle specific technical jargon. Proposed Solution and/or Analysis: This paper presents ”RAG Petrolês”an information system assistant built using Retrieval-Augmented Generation (RAG) on ”Petrolês”, a collection of Portuguese theses and dissertations on the topic. It uses the IBM Granite model for embeddings, FAISS for similarity search, and a combination of the DeepSeek R1 and Mistral Small 3.2 LLMs to generate and refine answers. Related IS Theory: The work is grounded in the Information Processing theory where a Retrieval-Augmented Generation (RAG) system integrates external knowledge bases with LLMs to enhance accuracy, contextual relevance of their responses and reduce hallucinations. Research Method: A quantitative and qualitative evaluation was performed. The system’s performance was tested against a custom dataset of 1500 questions. The evaluation involved a manual analysis of 150 answers and a broader statistical analysis of all 1500 responses using an ”LLM-as-a-Judge”approach combined with Prediction-Powered Inference (PPI) to ensure robust results. Summary of Results: The proposed system achieved an accuracy of 88.88% in manual evaluation. The statistical analysis resulted in an accuracy range from 81.48% to 97.71% within a 95% confidence interval. Outperforming baseline models and demonstrating superior performance compared to a direct adaptation of a similar existing framework. Contributions and Impact to IS area: This research demonstrates the effectiveness of a specialized RAG system in a technical, non-English domain. It provides a viable architecture for creating highly accurate, specialized information systems assistants without resorting to retrain foundational models.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248691",
+    "citations": 0
+  },
+  {
+    "title": "Wildfire Monitor: Real-Time Prediction and Interpretable Alerts from Fused Satellite and Meteorological Data",
+    "authors": [
+      "Luís Fabrício de Freitas Souza",
+      "G. F. B. Severiano",
+      "J. J. D. C. Nascimento",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/13656960b17f2428e3ca3c373cf5e84010c000cd",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Wildfires cause significant environmental, economic, and social damage, requiring intelligent systems capable of supporting prevention and mitigation actions. Scientific and/or Practical Problem: The increasing frequency of wildfires in Brazil and worldwide demands innovative technological approaches for real-time monitoring and accurate prediction of fire outbreaks using reliable and official data sources. Proposed Solution and/or Analysis: This paper presents the Cariri Wildfire Monitor, a system for mapping and monitoring wildfires through a web portal that integrates Artificial Intelligence (AI) and official datasets. The proposal includes a technological solution for continuous monitoring and a predictive module for fire hotspots. Related IS Theory: The system design is grounded in Information Systems (IS) theories related to data-driven decision support, predictive analytics, and socio-environmental information integration for sustainable management. Research Method: The system performs data fusion from INPE and INMET sources, applies regression models to predict wildfire hotspots, and integrates a decision layer with Large Language Models (LLMs) to produce auditable alerts and qualitative insights. Summary of Results: Among the results, the ExtraTrees regressor achieved R2=0,9843. In the stratified audit of the LLM module with live threshold 0,758 (proxy 0,500; Npop=1000; Maudit used = 12), we obtained Accuracy (w) 0,7973±0,1165, and p95 latencies between 4,75s and 5,95s. Contributions and Impact to IS area: The system demonstrates the potential of predictive computational models and LLMs in environmental monitoring, contributing to the development of intelligent, auditable, and sustainable Information Systems solutions for wildfire management.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248736",
+    "citations": 0
+  },
+  {
+    "title": "A Systematic Review on Language Model Compression: Perspectives for Efficiency and Sustainability in Information Systems",
+    "authors": [
+      "Lair Anderson de P. Mesquita",
+      "Saulo Anderson F. de Oliveira"
+    ],
+    "link": "https://www.semanticscholar.org/paper/10d57c37c493876f441aa8c057322edd52c94759",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: The rapid adoption of Large Language Models (LLMs) offers unprecedented opportunities for Intelligent Information Systems. However, their high computational cost creates significant deployment barriers in resource-constrained environments. This limited access for smaller organizations and developing regions reinforces social and economic disparities in the adoption of those systems. Scientific and/or Practical Problem: LLMs demand excessive resources, which hinders their integration into sustainable INFORMATION SYSTEMS. Furthermore, there is a lack of systematic evidence on how compression affects robustness, factuality, and applicability in different contexts. Proposed Solution and/or Analysis: This work presents a systematic literature review analyzing 30 peer-reviewed studies on LLM compression methods. The review identifies trade-offs, evaluate empirical results, and highlight gaps for future research. Related IS Theory: We interpret computational efficiency and accessibility as strategic resources (Resource-Based View) that enable the development of sustainable, and equitable digital infrastructures. Research Method: This study follows PICO structure with inclusion/exclusion criteria to works published between 2018 and January 2025. It was centered around eight research questions addressing efficiency, robustness, hardware compatibility, knowledge preservation, hybridization, architectural adaptation, evaluation metrics, and industrial viability. Summary of Results: Our study shows that efficiency and system-focused methods are the most developed and investigated for LLM compression for training and inference efficiency. Among these techniques, quantization consistently outperforms pruning and error-based methods, balancing performance and design savings. However, research on robustness, generalization, and practical use remains limited. Recent advances in shared hardware designs show potential for scalability and lower power consumption. However, practical studies on the long-term sustainability, ethical issues, and social impacts of LLM compression are rare in current scientific literature. Contributions and Impact to IS area: This work contributes by mapping key challenges in LLM compression research, offering insights to design efficient, sustainable, and socially responsible intelligent systems that align AI’s technical progress with goals of inclusion and environmental responsibility.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248723",
+    "citations": 0
+  },
+  {
+    "title": "LLM-Powered Educational Conversational Agent for Open Educational Resources",
+    "authors": [
+      "R. Z. D. Silva",
+      "P. C. R. Pinho",
+      "Ulian Gabriel Alff Ramires",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/01424995ebe024a44ff30ae224e17ec6c87544e8",
+    "date": "2026-05-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Transformer",
+      "Brazilian Symposium on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Research Context: Educational repositories gather diverse Open Educational Resources (OER), yet sparse metadata and inconsistent terminology reduce findability. Large Language Models (LLMs) with retrieval-augmented generation (RAG) can bridge vocabulary gaps by capturing semantic similarity, thereby improving recall and user experience. Scientific and/or Practical Problem: The national OER repository (ProEdu) depends on a solely lexical engine. This dependence creates difficulties in handling synonyms, paraphrases, and domain shifts, resulting in suboptimal recall and inconsistent rankings. Proposed Solution and/or Analysis: We develop a prototype of an Educational Conversational Agent (ECA) that integrates retrieval and response generation. Three pipelines are evaluated: ProEdu, which employs a lexical approach; a field-weighted Elasticsearch (ES); and a semantic RAG system utilizing Sentence-Transformers (all-MiniLM-L6-v2) embeddings with a FAISS (Facebook AI Similarity Search) index and Llama for text generation, plus a lightweight reranking mechanism. Related IS Theory: We assert that AI-enhanced repositories diminish search obstacles and assist educators in effectively identifying suitable materials. Furthermore, the conversational interface alleviates the cognitive load by providing verified sources within context. Research Method: A comparative assessment involved 22 interdisciplinary prompts in ten domains. For each prompt, we established gold-standard datasets, formulated standardized queries, and calculated precision, recall, and F1-score. Summary of Results: The Llama/FAISS pipeline achieves the best coverage-relevance balance driven by high recall. ES attains a similar F1 through higher precision but lower recall. ProEdu performs poorly in F1. Error analysis shows semantic retrieval excels in cross-vocabulary matches and multi-facet intents. Contributions and Impact to IS area: We deliver a replicable benchmark for large-scale OER search (prompts, metrics, code) and a pragmatic architecture combining semantic RAG and ES to balance recall and precision on cost-efficient infrastructure. Prompt templates and evaluation scripts support adoption.",
+    "summary": "",
+    "doi": "10.5753/sbsi.2026.248280",
+    "citations": 0
+  },
+  {
     "title": "Contextual information-enhanced large language model for traffic data query",
     "authors": [
       "Baichuan Wang",
@@ -9,13 +417,91 @@
     "link": "https://www.semanticscholar.org/paper/78263d19769af43a52c1e45579a22ef3d0caff27",
     "date": "2026-05-23",
     "keywords": [
-      "今日上新",
       "Transportation Safety and Environment"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": "\n Intelligent transport systems generate vast traffic data with specific intricate business logics, necessitating efficient querying solutions. Traditional Structured Query Language (SQL) requires programming and domain expertise, whereas Natural Language to Structured Query Language (NL2SQL) enables natural language interaction for improved accessibility. This study tackles some challenges in the application of NL2SQL in the traffic field, including complex database structures, implied domain knowledge, and reliability issues with Large Language Model (LLM)-generated SQL. Existing approaches employ context optimization and schema linking but face two limitations: computational overhead increased by redundant context, and omission of critical columns and foreign keys risked by schema linking. To address the above issues, a NL2SQL framework for intelligent traffic data query is proposed, which integrates bidirectional schema linking, contextual information augmentation, binary selection strategy, multi-turn self-correction, and calibration with hints. Experimental results demonstrate that the proposed framework achieves an execution accuracy of 69.97% on the BIRD traffic dataset (a 5.54% improvement over DIN-SQL) and 65.51% on the complete BIRD development set. This demonstrates the framework’s robustness in handling complex traffic queries while maintaining competitive performance across diverse domains.",
     "summary": "",
     "doi": "10.1093/tse/tdag025",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Retrieval-Augmented Generation (RAG) Technology for Enhanced Accreditation Preparedness and Compliance in Physical Therapy Education",
+    "authors": [
+      "M. Seils",
+      "Melissa J. Lazinski",
+      "Michael Brown",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b38cb7c00cbcbaeb5c5181f1ce77ecfc2e995c96",
+    "date": "2026-05-22",
+    "keywords": [
+      "Journal of Physical Therapy Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Accreditation ensures educational program quality, public accountability, and professional readiness. Compliance demands substantial personnel effort and coordination. Although advances in artificial intelligence (AI), and more specifically large language models (LLMs), could streamline accreditation preparation, these models pose risks by producing plausible but inaccurate outputs, known as hallucinations. To mitigate risks, Retrieval-Augmented Generation (RAG) can improve the reliability and factual grounding of LLMs by incorporating retrieved source documents. Studies have shown that LLMs equipped with a RAG system reduce hallucinations and increase response accuracy.\n \n \n \n The aim of this position paper is to address the challenge of resource-intensive and human error–prone accreditation preparation by advocating for the strategic integration of RAG technology. A RAG system enables programs to analyze internal documents against accreditation standards to generate curricular maps, reports, and recommendations. Effective use depends upon the quality of source documents and prompts. Adoption of a RAG system requires examining university policies and program-specific needs and ensuring human oversight.\n \n \n \n The authors advocate for strategic integration of RAG technology for accreditation preparedness and continuous quality improvement in PT education. Institutions and stakeholders are encouraged to explore, implement, and evaluate RAG solutions to enhance operational efficiency, ensure data accuracy, and increase responsiveness to evolving educational and regulatory standards.\n",
+    "summary": "",
+    "doi": "10.1097/jte.0000000000000486",
+    "citations": 0
+  },
+  {
+    "title": "Transformative dynamics of geospatial foundation models in land use and land cover classification",
+    "authors": [
+      "Youngseok Hwang",
+      "Minjae Kim",
+      "Juseok Lee",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a5abebf98686b6519316eadf7057df5f8ab84190",
+    "date": "2026-05-22",
+    "keywords": [
+      "Foundation Model",
+      "Spatial Information Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s41324-026-00688-7",
+    "citations": 0
+  },
+  {
+    "title": "From Rules to Reasoning: A Survey of Large Language Model-Based Approaches to Scientific Hypothesis and Idea Generation",
+    "authors": [
+      "Emily Herron",
+      "Vanessa Lama",
+      "Sedrick Bouknight",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9e87588f7b557e301fadba8c14aae4db1315ca79",
+    "date": "2026-05-22",
+    "keywords": [
+      "Agent",
+      "Fine-tuning",
+      "ACM Computing Surveys"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Scientific hypothesis generation represents a fundamental challenge in contemporary research due to exponentially expanding literature volumes and increasing disciplinary specialization. Large language models (LLMs) have emerged as transformative tools for automated scientific discovery, moving beyond traditional rule-based and literature-mining approaches. Four paradigmatic approaches define current LLM-driven hypothesis generation: direct prompting and fine-tuning methods, knowledge-enhanced frameworks integrating retrieval-augmented generation (RAG), multi-agent collaborative systems simulating research teams, and reasoning-focused approaches implementing cognitive architectures. Domain-specific applications demonstrate statistical equivalence to human expert performance in social psychology, experimental validation in biomedical research, and near-expert quality in astronomy. Evaluation methodologies encompass human expert assessment, LLM-as-judge frameworks, and comprehensive benchmarking systems. Technical challenges include hallucination management, knowledge integration limitations, and balancing novelty with feasibility. Future directions emphasize hybrid neural-symbolic architectures and sophisticated human-AI collaboration models for responsible scientific discovery acceleration.",
+    "summary": "",
+    "doi": "10.1145/3815423",
+    "citations": 0
+  },
+  {
+    "title": "NS-Dep-KAN: An Explainable Neuro-Symbolic Framework with Kolmogorov–Arnold Networks for DSM-Guided Depression Assessment",
+    "authors": [
+      "Qiong Hong",
+      "L. Zakaria",
+      "Sabrina Tiun"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6b21c4981472fc5fd30a28aafdb140192bc73299",
+    "date": "2026-05-22",
+    "keywords": [
+      "Deep Learning",
+      "Information"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Automated depression assessment is critical for scalable mental healthcare but faces dual challenges: the lack of clinical interpretability in “black-box” deep learning models and the excessive computational cost of large-scale fusion architectures. To bridge this gap, we propose NS-Dep-KAN, a novel neuro-symbolic framework that harmonizes DSM-5-guided reasoning with Kolmogorov–Arnold Networks (KANs). Our approach leverages a Large Language Model (LLM) to extract symbolic symptom evidence aligned with diagnostic criteria, which then guides the aggregation of multimodal features from frozen pretrained encoders (WavLM and Qwen). Unlike traditional Multi-Layer Perceptrons, the proposed KAN prediction head employs learnable B-spline activation functions to capture complex nonlinear symptom–severity mappings with extreme parameter efficiency. Evaluations on the DAIC-WOZ benchmark demonstrate that NS-Dep-KAN achieves state-of-the-art performance among audio-text models (MAE 2.69, 13.5% improvement over the three-modality baseline MSGAF at MAE 3.11), with only ∼4.9 K trainable parameters. Moreover, the framework offers inherent interpretability, revealing granular symptom contribution profiles that align with clinical intuition. This work establishes a path toward explainable trustworthy AI for mental health screening.",
+    "summary": "",
+    "doi": "10.3390/info17060516",
     "citations": 0
   },
   {
@@ -55,6 +541,23 @@
     "citations": 0
   },
   {
+    "title": "Introduction: grief in the digital age",
+    "authors": [
+      "R. Fabry",
+      "Marilyn Stendera"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4abd7496790ddbe9ab0314ffc2371bd9705c5373",
+    "date": "2026-05-22",
+    "keywords": [
+      "Phenomenology and the Cognitive Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11097-026-10167-x",
+    "citations": 0
+  },
+  {
     "title": "Machine-Assisted Topic Analysis of Large-Scale Health Experience Data: Identifying Sociodemographic Differences and Evaluating Bias in Large Language Models",
     "authors": [
       "P. Bondaronek",
@@ -90,6 +593,24 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s00223-026-01546-2",
+    "citations": 0
+  },
+  {
+    "title": "Integrated analysis of usnic acid as a potential inhibitor of dengue NS2B/NS3 protease: DFT, molecular docking, MEP, ADMET, and drug-likeness evaluation",
+    "authors": [
+      "Neni Frimayanti",
+      "Ihsan Iktiarudin",
+      "Maydhea Syakirah"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2cd039883ef5a45e5d349b3bbaa62894952d2e9b",
+    "date": "2026-05-22",
+    "keywords": [
+      "BioTechnologia"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The present study aimed to evaluate the inhibitory capability of 10 pyrazole-usnic acid derivatives against dengue virus serotype 2 (DENV-2) NS2B/NS3 serine protease. The crystallographic structure model of the protease enzyme (PDB code: 2FOM) was used to conduct molecular docking studies of pyrazole-usnic acid derivatives with target proteins. Computational analysis was performed using the Molecular Operating Environment program, Gaussian View software, and ADMETLab platform.\n \n \n \n The inhibitory potential of the derivatives was tested by molecular docking using panduratin A as the positive control, together with density functional theory, molecular electrostatic potential analysis, drug-likeness assessment, and ADMET (absorption, distribution, metabolism, excretion, and toxicity) profiling.\n \n \n \n Among the tested derivatives, compounds 5 and 6 exhibited the most promising inhibitory effects against DENV-2 NS2B/NS3 serine protease. The binding free energy values for these compounds were –7.320 and –7.477 kcal/mol, respectively. These two compounds shared multiple amino acid residues with panduratin A, which was used as a reference inhibitor. Compounds 5 and 6 also displayed negative electrostatic regions surrounding their oxygen atoms, with gap energies of 0.133 and 0.137 eV and dipole moment values of 3.237 and 2.806 D, respectively.\n \n \n \n These computational findings suggest that compounds 5 and 6 may serve as preliminary candidates for dengue virus inhibition. However, further clinical and experimental studies are required to confirm their efficacy and safety.\n",
+    "summary": "",
+    "doi": "10.5114/bta/216303",
     "citations": 0
   },
   {
@@ -605,7 +1126,7 @@
   {
     "title": "Atomic Contrastive Verification: Fine-Grained Fact-Checking via Claim Decomposition and Knowledge Graph-Grounded Contrastive Reasoning",
     "authors": [
-      "Hyeong-Geun Kim",
+      "H. Kim",
       "T. Jun",
       "Taeseon Lee"
     ],
@@ -696,7 +1217,7 @@
     "title": "Few‐Shot Lung Cancer Classification via Electronic Nose Using Large Language Models: A Multicentre Prospective Study",
     "authors": [
       "Meng-Rui Lee",
-      "Chien‐Chi Huang",
+      "Chien-Wen Huang",
       "Joyce Yue Sun",
       "et al."
     ],
@@ -925,7 +1446,7 @@
     "authors": [
       "Jinwoo Park",
       "G. Kim",
-      "Hyeokjae Lee",
+      "H. Lee",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/5130a208b207a4203146b7fdf3cb1ba7c366fcdf",
@@ -980,7 +1501,7 @@
     "title": "Comparative Evaluation of Feature Extractors, Aggregation Strategies, and Classification Hierarchies for Ovarian Cancer Subtype Classification in Whole Slide Images",
     "authors": [
       "Hoyean Song",
-      "You Sang Cho",
+      "Yousang Cho",
       "Yong Suk Kim"
     ],
     "link": "https://www.semanticscholar.org/paper/4a06c254cab085075a8c801a54139a7517833d03",
@@ -1176,7 +1697,7 @@
       "PLoS ONE"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "\n Glioblastoma is an aggressive astrocytic neoplasm characterized by significant intratumoral heterogeneity and resistance to standard therapies. Despite advances such as the Stupp protocol, the prognosis remains poor, with a median survival of 12–15 months. Mast cells in the tumor microenvironment (TME) release pro-inflammatory mediators, promoting tumor progression and therapeutic resistance. The Mas-related G protein-coupled receptor X2 (MRGPRX2), expressed on mast cells, is implicated in neuroinflammatory regulation. This study evaluates hydroxychloroquine (HCQ), a 4-aminoquinoline derivative, as a potential MRGPRX2 inhibitor using a comprehensive multidisciplinary approach. Density Functional Theory (DFT) at the B3LYP/6–31 + G(d,p) level was employed to analyze the structural and electronic properties of HCQ, validated by FTIR and Raman spectroscopy. To ensure statistical robustness and address receptor specificity, 100 independent blind docking simulations were performed using the high-resolution MRGPRX2 structure (PDB ID: 7S8L). The docking protocol was rigorously validated through a cross-docking study using the 7S8N reference ligand, yielding a high spatial consensus with an RMSD of 3.06 Å. The results revealed that HCQ possesses a superior binding affinity of −7.0 kcal/mol, while comparative docking with the standard therapeutic Temozolomide (TMZ) yielded a lower affinity of −5.6 kcal/mol. Detailed residue-level analysis highlighted a distinct binding fingerprint for HCQ, involving specific interactions with residues such as Tyr137, Ser130, and Phe64, which were notably different from the TMZ-receptor complex. ADMET profiling confirmed HCQ’s favorable pharmacokinetic properties and its potential to cross the blood-brain barrier.\n In vitro\n validation on U87-MG glioblastoma cells demonstrated a time-dependent cytotoxic effect, where HCQ significantly reduced cell viability to approximately 70% at 72 hours (p < 0.01). This biological activity directly correlates with the strong binding profile and high affinity observed in the 100-run docking analysis\n .\n Our findings suggest that HCQ is predicted to interact with MRGPRX2 with a high binding affinity, supporting further functional validation and providing a novel structural basis for targeting mast cell-mediated neuroinflammation in glioblastoma treatment. These results advocate for the repositioning of HCQ as a targeted adjuvant therapy to overcome conventional treatment limitations.\n",
+    "abstract_raw": "Glioblastoma is an aggressive astrocytic neoplasm characterized by significant intratumoral heterogeneity and resistance to standard therapies. Despite advances such as the Stupp protocol, the prognosis remains poor, with a median survival of 12–15 months. Mast cells in the tumor microenvironment (TME) release pro-inflammatory mediators, promoting tumor progression and therapeutic resistance. The Mas-related G protein-coupled receptor X2 (MRGPRX2), expressed on mast cells, is implicated in neuroinflammatory regulation. This study evaluates hydroxychloroquine (HCQ), a 4-aminoquinoline derivative, as a potential MRGPRX2 inhibitor using a comprehensive multidisciplinary approach. Density Functional Theory (DFT) at the B3LYP/6–31 + G(d,p) level was employed to analyze the structural and electronic properties of HCQ, validated by FTIR and Raman spectroscopy. To ensure statistical robustness and address receptor specificity, 100 independent blind docking simulations were performed using the high-resolution MRGPRX2 structure (PDB ID: 7S8L). The docking protocol was rigorously validated through a cross-docking study using the 7S8N reference ligand, yielding a high spatial consensus with an RMSD of 3.06 Å. The results revealed that HCQ possesses a superior binding affinity of −7.0 kcal/mol, while comparative docking with the standard therapeutic Temozolomide (TMZ) yielded a lower affinity of −5.6 kcal/mol. Detailed residue-level analysis highlighted a distinct binding fingerprint for HCQ, involving specific interactions with residues such as Tyr137, Ser130, and Phe64, which were notably different from the TMZ-receptor complex. ADMET profiling confirmed HCQ’s favorable pharmacokinetic properties and its potential to cross the blood-brain barrier. In vitro validation on U87-MG glioblastoma cells demonstrated a time-dependent cytotoxic effect, where HCQ significantly reduced cell viability to approximately 70% at 72 hours (p < 0.01). This biological activity directly correlates with the strong binding profile and high affinity observed in the 100-run docking analysis. Our findings suggest that HCQ is predicted to interact with MRGPRX2 with a high binding affinity, supporting further functional validation and providing a novel structural basis for targeting mast cell-mediated neuroinflammation in glioblastoma treatment. These results advocate for the repositioning of HCQ as a targeted adjuvant therapy to overcome conventional treatment limitations.",
     "summary": "",
     "doi": "10.1371/journal.pone.0347956",
     "citations": 0
@@ -1409,6 +1930,26 @@
     "citations": 0
   },
   {
+    "title": "ChatDIA: A zero-shot large language model workflow for targeted analysis of data-independent acquisition mass spectrometry data",
+    "authors": [
+      "Jiayi Li",
+      "Joshua Charkow",
+      "Mingxuan Gao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f3aa1e304b29940e95b544e411a3f13b713514ff",
+    "date": "2026-05-20",
+    "keywords": [
+      "Cited: 1",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.02.11.705360",
+    "citations": 1
+  },
+  {
     "title": "Integrated machine learning, molecular dynamics, and density functional theory approaches for identifying potential inhibitor targeting TEM 𝛽-lactamase in Escherichia coli",
     "authors": [
       "Aditi Roy",
@@ -1575,7 +2116,7 @@
     "title": "A Culturally Aware LLM Framework for Analyzing Social Engineering Tactics in Korean Phishing Messages",
     "authors": [
       "Kiho Lee",
-      "Yongjoon Lee",
+      "Yong-Joon Lee",
       "Jaeyeong Jeong",
       "et al."
     ],
@@ -1784,6 +2325,26 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.05.18.725845",
+    "citations": 0
+  },
+  {
+    "title": "Content matters, context matters: unraveling behavior dynamics in an online health community for tobacco cessation",
+    "authors": [
+      "Tavleen Singh",
+      "Runzhi Zhou",
+      "Kayo Fujimoto",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b6aea79d2bb05801a7b9270b3982c9fe9f7924fc",
+    "date": "2026-05-20",
+    "keywords": [
+      "Deep Learning",
+      "JAMIA Open"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract Objectives The objective of this research was to examine the content and context-specific information diffusion patterns underlying communication pertaining to tobacco use from online health communities (OHCs). Materials and Methods We utilized a mixed-methods approach comprising multidimensional qualitative coding to identify themes and communication attributes, automated text analysis leveraging advances in large language models (LLMs) to classify message content and context, and social network analysis to examine the dynamics of peer interactions in this study. Using QuitNet, an online tobacco cessation forum (n = 64 632 members, n = 2.39 million forum messages spanning 2000-2015), we extracted message-level features (eg, topic, theory) and context-related communication attributes underlying tobacco use behaviors as manifested in peer interactions. We then utilized stochastic actor-oriented models (SAOMs) to examine how communication content and context impact social network topologies and behavior dynamics [n = 3055 members (Wave 1), 2475 members (Wave 2), and 2289 members (Wave 3)]. Results OHC members expressed themselves using a variety of content and context categories such as social support (communication themes), feedback and monitoring (behavior change techniques), and emotion (pragmatic context). For the classification of communication attributes, LLMs trained on domain datasets outperformed other deep learning models [average F1-score = 0.91 (communication themes), 0.81 (behavior change techniques), and 0.79 (pragmatic context)]. Content-specific SAOMs revealed that engaging in dense triads with specific content-context patterns [comparison of behavior (content) with questions (context)] significantly affected the abstinence status of community members (P < .05). Discussion These findings indicate that specific combinations of communication content and interaction context are associated with peer influence and abstinence outcomes in online health communities. Conclusions Novel behavior modeling approaches can identify latent peer interaction patterns in OHCs and advance the science of just-in-time digital behavioral interventions. Theory-enriched large language models combined with network analysis provide scalable and actionable insights for individual- and network-level strategies to support risky behavior modification such as tobacco cessation.",
+    "summary": "",
+    "doi": "10.1093/jamiaopen/ooag068",
     "citations": 0
   },
   {
@@ -3471,8 +4032,10 @@
   {
     "title": "Validation of LLM-Based Data Curation for Oncology Clinical Trials: A Review encompassing comparison with Manual Abstraction",
     "authors": [
-      "Karnaditya Rana, Shashidar Reddy Abbidi,",
-      "Debashree Sinha, Shalmali Joshi"
+      "Karnaditya Rana",
+      "Shashidar Reddy",
+      "D. Sinha",
+      "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/8c246a1fca7486e27bb56fff89961a001e58754a",
     "date": "2026-05-19",
@@ -6821,7 +7384,7 @@
       "bioRxiv"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": null,
+    "abstract_raw": "A central challenge in opsin engineering is identifying mutations that reliably improve desired functional properties, a task made difficult by the enormous mutation space and limited throughput of electrophysiological screening. Improving opsin properties such as photocurrent amplitude and light sensitivity have the potential to broaden the use of opsins to low-light and deep-tissue applications. With this goal, we applied zero-shot protein language models (ESM-1b/1v) to recommend ChrimsonR mutations and experimentally validated all 17 of these variants using whole-cell patch clamp electrophysiology (n=6 cells per mutation). Despite many mutations reducing function, protein language models identified both known functional residues and unconventional substitutions that produced large functional gains and synergized with K176R to improve kinetics. Two mutations, E300G and E300P, increased sustained photocurrents from 66 pA (control) to 305 pA and 255 pA at 635 nm, reduced EC50 at 575 nm from 0.19 mW to 0.07 mW, and altered kinetics (τoff increased from 0.06 s up to 0.40 s). Our results suggest that protein language models, even without task-specific training, can be used alongside electrophysiological measurements as a strategy for screening opsins for enhanced photocurrent.",
     "summary": "",
     "doi": "10.64898/2026.05.13.725064",
     "citations": 0
@@ -7334,10 +7897,13 @@
     "date": "2026-05-16",
     "keywords": [
       "Foundation Model",
+      "Protein Language Model",
+      "RNA-seq / Transcriptomics",
+      "Biological Large Model",
       "bioRxiv"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": null,
+    "abstract_raw": "Chromosome-scale assemblies are increasingly available for non-model organisms, but functional annotation remains limited when deep evolutionary divergence erodes primary amino-acid sequence identity even though protein structural similarity can remain conserved. We present a hybrid annotation framework that decouples gene-model discovery from cross-species similarity assignment by combining Evo2-based ab initio prediction of exon–intron structures with ESM-2 protein-embedding-based structural similarity mapping. Applied to the sea lamprey, the framework derives high- or medium-confidence cross-species similarity assignments for 73,485 Evo2-derived translated protein models, including 35,395 high-confidence calls, and expands the deduplicated structural catalog to 31,286 loci, including 20,871 additions absent from the Ensembl baseline. A joint alignment–structure classification identifies 21,391 structurally supported catalog loci that a fixed human DIAMOND protein search does not confidently assign on its own, including 21,184 loci with no detectable human protein-sequence match and 207 loci with only low-confidence matches in the classical 20–30% amino-acid-identity twilight zone. These rescue-space totals describe catalog loci rather than validated one-to-one human-absent genes. In a single-cell RNA sequencing application, a stricter UTR-aware Ensembl+Evo2 reference improves gene recovery and expands the interpretable feature space of the lamprey immune compartment relative to the Ensembl baseline. This enables more resolved annotation of four transcriptionally defined immune cell states, including VLRA+-associated T-like and VLRB+-associated B-like programs together with oxidative iron-handling and iron-associated VLR-linked states. Together, these results show that structural protein signal often persists beyond the limits of pairwise sequence alignment and that an embedding-based annotation layer can extend that signal to improve downstream comparative and single-cell analyses in evolutionarily divergent genomes.",
     "summary": "",
     "doi": "10.64898/2026.05.15.724572",
     "citations": 0
@@ -7994,10 +8560,13 @@
     "link": "https://www.semanticscholar.org/paper/e24686e6ee0658295631e17ec6b8da998e97f9c8",
     "date": "2026-05-15",
     "keywords": [
+      "Fine-tuning",
+      "Protein Language Model",
+      "Biological Large Model",
       "bioRxiv"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": null,
+    "abstract_raw": "Developing scientific hypotheses in biology requires integrating heterogeneous evidence across DNA sequence, gene context, protein function, and prior literature. Existing multimodal AI systems expose biological evidence to reasoning models through textification or by projecting biological embeddings into fine-tuned language models. However, these models are typically highly optimized the specific set of tasks for which they are fine-tuned. Here we present Bio-BLIP, a multimodal Q-former based architecture which leverages biological embeddings and a LLM to generalize to complex reasoning tasks without task-specific fine-tuning. The key to Bio-BLIP is a new neural network architecture that integrates four data modalities – DNA, genes, proteins, and text – through a master Qformer model, which integrates the modality-specific information into a fixed-length prefix for the LLM backbone. Bio-BLIP is pretrained on the task of human genetic variant annotation and achieves a 29.8% increase in generating accurate variant features over frontier LLMs. We evaluate Bio-BLIP zero-shot on downstream genomic tasks of variant prioritization and target gene prediction. Bio-BLIP outperforms two alignment-free genomic language models on regulatory variant prioritization for Mendelian disease. Across the target gene prediction task, Bio-BLIP improves accuracy over LLMs by leveraging learned genomic variant knowledge in difficult cases. Our model produces rich, transparent reasoning traces. In biological domains characterized by multiple scales of data and varied downstream tasks, Bio-BLIP offers a step toward natively multimodal, generalizable reasoning.",
     "summary": "",
     "doi": "10.64898/2026.05.12.724740",
     "citations": 0
@@ -9985,10 +10554,12 @@
     "link": "https://www.semanticscholar.org/paper/440fd2d7a6d6f3af0d8cfee5a8ff46c1f84081fa",
     "date": "2026-05-15",
     "keywords": [
+      "Agent",
+      "Fine-tuning",
       "medRxiv"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": null,
+    "abstract_raw": "Effective pandemic response requires accurate modeling of population compliance with non-pharmaceutical interventions (NPIs), yet most epidemic models treat behavioral change as fixed scenarios rather than an emergent process. Here, we test whether large language model (LLM)-based agents can generate individualized behavioral responses to time-varying NPIs and disease risk. We instantiate demographically representative agents in three U.S. cities (Boston, Denver, San Antonio) and condition them on evolving outbreak conditions and policies during the early COVID-19 pandemic, without fitting to observed mobility data. Across three frontier LLMs and their ensemble, agents generate zero-shot mobility changes across restaurants, retail, and entertainment venues, benchmarked against cellphone-derived foot-traffic records. The simulations recover average mobility trends across cities and venue types but exhibit overly narrow within-city variation. The three LLMs display distinct biases, while an ensemble approach improves robustness and overall performance. These findings establish LLM agents as a promising framework for modeling adherence to NPIs and highlight the need for further fine-tuning and empirical validation before they can support policy analysis.",
     "summary": "",
     "doi": "10.64898/2026.05.12.26352942",
     "citations": 0
@@ -11592,6 +12163,25 @@
     "citations": 0
   },
   {
+    "title": "Advancing conversational diagnostic AI with multimodal reasoning",
+    "authors": [
+      "Khaled Saab",
+      "Chunjong Park",
+      "Tim Strother",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c1d192833f4529222c465ccc6d40041c4b539656",
+    "date": "2026-05-14",
+    "keywords": [
+      "Nature Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Real-world clinical practice is inherently multimodal, relying on the synthesis of patient history with visual information such as medical imagery and clinical documents. Although large language models (LLMs) have shown promise in diagnostic dialogue, their evaluation has been largely restricted to text-only interactions, failing to capture the complexity of modern remote care delivery. Here we introduce a multimodal extension of the Articulate Medical Intelligence Explorer (multimodal AMIE), capable of gathering, interpreting and reasoning about multimodal data within a diagnostic conversation. To achieve this, we developed a state-aware dialogue framework that dynamically guides history-taking based on diagnostic uncertainty and evolving patient states, emulating the structured reasoning of experienced clinicians. We evaluated this updated, state-aware version of multimodal AMIE against primary care physicians (PCPs) in a randomized, blinded exploratory study comprising 105 simulated telehealth consultations, which included dermatology photographs, electrocardiograms and clinical documents. As assessed by 18 specialist physicians, multimodal AMIE outperformed PCPs not only in diagnostic accuracy but also in conversation quality, including history-taking and empathy. Specifically, multimodal AMIE demonstrated superior performance on 29 of 32 evaluation axes, including seven of nine metrics that assess multimodal reasoning. These results validate the efficacy of state-aware reasoning in bridging the gap between text and visual information and demonstrate the potential for artificial intelligence (AI) systems to augment clinicians in complex, multimodal diagnostic settings.",
+    "summary": "",
+    "doi": "10.1038/s41591-026-04371-0",
+    "citations": 0
+  },
+  {
     "title": "Protein solubility depends on centrifugation: Aiki-Sol, a per-regime predictor for E. coli",
     "authors": [
       "Riya Rajagopalan",
@@ -11857,10 +12447,12 @@
     "link": "https://www.semanticscholar.org/paper/a9aa161b9ff28306a46a0047968c395b9333d50e",
     "date": "2026-05-14",
     "keywords": [
+      "Agent",
+      "Biological Large Model",
       "bioRxiv"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": null,
+    "abstract_raw": "Summary DNA methylation datasets from public repositories such as NCBI Gene Expression Omnibus are central to the development and evaluation of epigenetic aging clocks, yet existing resources and tools do not fully resolve the bottlenecks of dataset retrieval and metadata harmonization. Current benchmarking frameworks often rely on static curated collections, support only a subset of available Gene Expression Omnibus studies, focus on specific tissues, or require substantial manual intervention when metadata fields and supplementary files are inconsistently structured across studies. We developed MethylCurate, an agentic AI framework that addresses these limitations by automating the retrieval of DNA methylation datasets from the Gene Expression Omnibus, harmonizing heterogeneous metadata, mapping datasets to a unified format, and enabling scalable evaluation of epigenetic aging clocks through an integrated, dialogue-driven workflow. Availability and Implementation MethylCurate is implemented in Python and combines deterministic modules for Gene Expression Omnibus dataset retrieval, quality control, and clock evaluation with large language model–assisted agents for metadata extraction, metadata harmonization, and DNA methylation data parsing. Source code, documentation, and example workflows are available at: https://github.com/Travyse/methylcurate Contact travyse.edwards@pennmedicine.upenn.edu Supplementary Information Supplementary data are available at Bioinformatics online. Graphical Abstract MethylCurate is an agentic-AI framework that converts user-specified NCBI Gene Expression Omnibus DNA methylation datasets into standardized metadata, beta matrices, artifacts, logs, and aging clock benchmarking outputs through automated retrieval, quality control, metadata extraction, harmonization, and evaluation workflows. Figure generated with Biorender. Key Messages Automated curation of DNA methylation datasets from the Gene Expression Omnibus. Standardized preprocessing and metadata harmonization. Integrated benchmarking of epigenetic aging clocks.",
     "summary": "",
     "doi": "10.64898/2026.05.11.723515",
     "citations": 0
@@ -17748,559 +18340,6 @@
     "abstract_raw": "Reinforcement learning has become a powerful paradigm for post-training large language model agents, yet credit assignment in multi-turn environments remains a challenge. Agents often receive sparse, trajectory-level rewards only at the end of an episode, making it difficult to determine which intermediate actions contributed to success or failure. As a result, propagating delayed outcomes back to individual decision steps without relying on costly auxiliary value models remains an open problem. We propose Generalized Advantage Grouped Policy Optimization (GAGPO), a critic-free reinforcement learning method for precise, step-aligned temporal credit assignment. GAGPO constructs a non-parametric grouped value proxy from sampled rollouts and uses it to compute TD/GAE-style temporal advantages, recursively propagating outcome supervision backward through time. Combined with group-wise advantage normalization and an action-level importance ratio, GAGPO extracts stable, localized optimization signals directly from multi-turn trajectories. Experiments on ALFWorld and WebShop show that GAGPO outperforms strong reinforcement learning baselines. Further analyses demonstrate faster early-stage learning, improved interaction efficiency, and smoother optimization dynamics, suggesting that GAGPO offers a simple yet effective framework for multi-turn agentic reinforcement learning.",
     "summary": "",
     "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "RS-Claw: Progressive Active Tool Exploration via Hierarchical Skill Trees for Remote Sensing Agents",
-    "authors": [
-      "Liang Liu",
-      "Zeyuan Wang",
-      "Ziyu Li",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4b4b030b311447a05517b0d4d1dfbf25bfa5a4e2",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The rise of multi-modal large language models (MLLMs) is shifting remote sensing (RS) intelligence from\"see\"to\"action\", as OpenClaw-style frameworks enable agents to autonomously operate massive RS image-processing tools for complex tasks. Existing RS agents adopt a passive selection paradigm for tool invocation, relying on either full tool registration (Flat) or retrieval-augmented generation (RAG). However, in the massive and multi-source heterogeneous RS tool ecosystem, such passive mechanisms struggle to dynamically balance\"context load\"and\"toolset completeness\"throughout task reasoning, thus exhibiting inherent limitations: full tool registration triggers context space deficits during long-horizon tasks, whereas RAG retrieval may omit critical tools in essential steps. To overcome these bottlenecks, this paper redefines tool selection by arguing that the agent should act as an active explorer within the tool space. Based on this perspective, we propose RS-Claw, a novel RS agent architecture. By leveraging Skill encapsulation technology at the tool end, this architecture hierarchically structures tool descriptions, enabling the agent to execute on-demand sequential decision-making: initially selecting relevant skill branches by reading only tool summaries, then dynamically loading detailed descriptions, and ultimately achieving precise invocation. This active paradigm not only significantly liberates the agent's context space but also effectively ensures the accurate hit rate of critical tools during long-horizon reasoning. Systematic experiments on the Earth-Bench benchmark demonstrate that RS-Claw's active exploration mechanism effectively filters semantic noise and substantially frees up reasoning space, achieving an input token compression ratio of up to 86%, and comprehensively outperforming existing Flat and RAG baselines across complex reasoning evaluations.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Evaluating LLMs for the Automated Generation of Operational Detection Rules in Enterprise EDR Environments",
-    "authors": [
-      "Ioannis Konstantaras",
-      "Efstratios Chatzoglou",
-      "Konstantinos E. Kampourakis",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4b4a937c62b00ffe5894d022329c279f063685d9",
-    "date": "2026-05-13",
-    "keywords": [
-      "Electronics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Modern Endpoint Detection and Response (EDR) platforms, such as Microsoft Defender for Endpoint (MDE), provide sophisticated telemetry but often leave Security Operations Centers (SOCs) struggling with a significant detection lag, namely the time required to manually translate emerging threat intelligence into operational logic. This paper presents a systematic empirical study of an LLM-integrated pipeline designed to automate the transformation of structured threat intelligence from OpenCTI into functional Kusto Query Language (KQL) detection rules. By utilizing Large Language Models (LLMs) as a contextual translation layer, we evaluate a framework that maps graph-based STIX metadata directly to proprietary EDR schemas. Our experiments, conducted within a high-fidelity Windows Server 2025 environment, reveal that LLM-augmented rules successfully addressed critical visibility gaps in reconnaissance and early-stage lateral movement where native MDE heuristics remained silent. Importantly, the implementation reduced the intelligence-to-logic latency from an average of 45 min of manual engineering to sub-5-min automated cycles. While the findings identify persistent challenges regarding schema hallucinations, the study concludes that LLM-assisted detection engineering serves as a significant operational force multiplier, enabling defensive postures to evolve at the velocity of the modern threat landscape.",
-    "summary": "",
-    "doi": "10.3390/electronics15102088",
-    "citations": 0
-  },
-  {
-    "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
-    "authors": [
-      "Harshita Chopra",
-      "Kshitish Ghate",
-      "Aylin Caliskan",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4b10f1c2e845c57d02f5be28778389ce3c656542",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large Language Model (LLM) agents are increasingly deployed in settings where they interact with a wide variety of people, including users who are unclear, impatient, or reluctant to share information. However, collecting real interaction data at scale remains expensive. The field has turned to LLM-based user simulators as stand-ins, but these simulators inherit the behavior of their underlying models: cooperative and homogeneous. As a result, agents that appear strong in simulation often fail under the unseen, diverse communication patterns of real users. To narrow this gap, we introduce Persona Policies (PPol), a plug-and-play control layer that induces realistic behavioral variation in user simulators while preserving the original task goals. Rather than hand-crafting personas, we cast persona generation as an LLM-driven evolutionary program search that optimizes a Python generator to discover behaviors and translate them into task-preserving roleplay policies. Candidate generators are guided by a multi-objective fitness score combining human-likeness with broad coverage of human behavioral patterns. Once optimized, the generator produces a diverse population of human-like personas for any task in the domain. Across tau^2-bench retail and airline domains, evolved PPol programs yield 33-62% absolute gains in fitness score over the baseline simulator. In a blinded evaluation, annotators rated PPol-conditioned users as human 80.4% of the time, close to real human traces and nearly twice as frequently as baseline simulators. Agents trained with PPol are more robust to challenging, out-of-distribution behaviors, improving task success by +17% relative to training only on existing simulated interactions. This offers a novel approach to strengthen simulator-based evaluation and training without changing tasks or rewards.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "ICRL: Learning to Internalize Self-Critique with Reinforcement Learning",
-    "authors": [
-      "Jianbo Lin",
-      "Xiaomin Yu",
-      "Yifei Xin",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4ae99968e357e499a093f16a3a3bf6edf87a626a",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's guidance into its underlying capability. Meanwhile, a frozen critic cannot improve its feedback quality over time, limiting the potential for iterative self-improvement. To address this, we propose learning to internalize self-critique with reinforcement learning(ICRL), a novel framework that jointly trains a solver and a critic from a shared backbone to convert critique-induced success into unassisted solver ability. The critic is rewarded based on the solver's subsequent performance gain, incentivizing actionable feedback. To address the distribution shift between critique-conditioned and critique-free behavior, ICRL introduces a distribution-calibration re-weighting ratio that selectively transfers critique-guided improvements compatible with the solver's own prompt distribution. Additionally, a role-wise group advantage estimation stabilizes joint optimization across the two roles. Together, these mechanisms ensure that the solver learns to improve itself without external critique, rather than becoming dependent on critique-conditioned behavior. We evaluate ICRL on diverse benchmarks spanning agentic and mathematical reasoning tasks, using Qwen3-4B and Qwen3-8B as backbones. Results show consistent improvements, with average gains of 6.4 points over GRPO on agentic tasks, and 7.0 points on mathematical reasoning. Notably, the learned 8B critic is comparable to 32B critics while using substantially fewer tokens. The code is available at https://github.com/brick-pid/ICRL.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "MOSAIC: A Cognitively Motivated Multi-Agent Framework for Interpretable and Training-Free Empathetic Dialogue",
-    "authors": [
-      "Kai Liu",
-      "Hangyu Xiong",
-      "Jinyi Zhang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4a0028f10e523e99b2b0410785f3e7fa1ffabc0c",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent",
-      "Fine-tuning",
-      "Electronics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Empathetic dialogue systems built upon large language models overwhelmingly adopt a monolithic inference paradigm that processes emotion perception, causal reasoning, memory retrieval, and response planning within a single forward pass without architecturally enforced intermediate representations, forfeiting intermediate-state transparency and long-horizon personalization. Drawing on neuroscientific and cognitive–psychological evidence that human empathy is functionally dissociable, we present MOSAIC (Multi-agent Orchestration with Structured Affective memory for Interpretable empathiC dialogue), a training-free framework that operationalizes empathetic dialogue as a four-stage cognitive pipeline: affective perception, causal appraisal, episodic memory retrieval, and response synthesis. Three innovations distinguish MOSAIC from prior work: (1) a cognitively motivated modular architecture whose functionally dissociable stages enable post hoc failure attribution through logged intermediate states; (2) a hierarchical three-tier emotional memory—perceptual, semantic, and episodic—coupled with adaptive three-dimensional retrieval over emotion, situation, and coping-strategy cues; and (3) a heterogeneous model orchestration strategy coordinating open-source and API-accessible models through role-specific chain-of-thought prompts, requiring no task-specific fine-tuning. We note that the EmpatheticDialogues evaluation pre-populates the memory store with 200 training-split episodes prior to test-set interaction, a data-access asymmetry relative to single-model baselines that must be borne in mind when interpreting comparative results. Experiments on EmpatheticDialogues and ESConv show that MOSAIC achieves a 76.4% weighted F1 and an empathy score of 3.87 (on a 1–5 Likert scale) and that it improves over single-model, training-free baselines on aggregate empathy and—most prominently—on human-rated personalization (3.67 vs. 3.24 against Claude-3.5 five-shot, d=0.48). We caution that the comparison against training-free baselines is not data access-controlled (see the cold-start discussion in Methods); the personalization advantage, supported by the ablation without the Event Agent, is the result we treat as the primary practical contribution of this work.",
-    "summary": "",
-    "doi": "10.3390/electronics15102078",
-    "citations": 0
-  },
-  {
-    "title": "From Rosetta to Match-Up: A Paired Corpus of Linguistic Puzzles with Human and LLM Benchmarks",
-    "authors": [
-      "Neh Majmudar",
-      "Anni Huang",
-      "Jinfang Hu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/46a010b9bc6e83e597bc93b91cdc23976f97e9b2",
-    "date": "2026-05-13",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "In this paper, we examine linguistic puzzles used in high school linguistics competitions, focusing on two common formats: Rosetta Stone and Match-Up. We propose a systematic procedure for converting existing Rosetta Stone puzzles into corresponding Match-Up counterparts. Because linguistic puzzle creation is complex and time-consuming, our method provides an efficient way to accelerate the generation of new puzzles. We evaluate the resulting Rosetta Stone-Match-Up pairs with both human participants and large language models (LLMs). Our results show that both expert human solvers and LLMs display an all-or-nothing pattern on Match-Up puzzles, either solving them completely or failing entirely. This work contributes a new dataset of paired puzzles and provides a detailed evaluation of puzzle difficulty across formats, offering insights into both human and machine linguistic reasoning.",
-    "summary": "",
-    "doi": "10.63317/3yq3khhygtya",
-    "citations": 0
-  },
-  {
-    "title": "A Risk-Tiered Validation Framework for Artificial Intelligence in Drug Discovery: From Reproducibility to Clinical Translation",
-    "authors": [
-      "Sarfaraz K. Niazi"
-    ],
-    "link": "https://www.semanticscholar.org/paper/43d9841ebca472dc79f967dd2c1872e7981c8ede",
-    "date": "2026-05-13",
-    "keywords": [
-      "Foundation Model",
-      "Protein Language Model",
-      "AIDD",
-      "International Journal of Molecular Sciences"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Artificial intelligence has advanced from merely predicting static protein structures to modeling equilibrium conformational ensembles. It now concurrently forecasts structure and binding affinity and actively participates in candidate selection during the initial stages of drug discovery. Foundation models introduced between 2024 and 2026, including BioEmu, AlphaFlow, DiG, Boltz-2, Chai-1, NeuralPLexer, and explicit-solvent prediction systems such as SuperWater, have begun to address issues previously identified as fundamental concerns in earlier critiques of AI in drug discovery. Nevertheless, many of these models are presently accessible only as preprints and require validation through independent peer review. Evidence indicates a shift in the primary bottleneck from representation challenges to validation difficulties. However, this transition remains incomplete and heavily dependent on context. The risks associated with AI-enabled drug discovery are increasingly not solely about the models’ capacity to accurately represent ensembles, but also about whether the evidentiary standards used to validate AI-derived predictions keep pace with the rapidity with which these predictions are generated and employed. This article introduces a four-tier validation framework designed to align the extent of computational and experimental evidence with the translational and regulatory risks associated with various artificial intelligence (AI) applications within the molecular sciences. These applications include machine learning (ML) models that analyze sequences, structures, conformational ensembles, protein–ligand complexes, and molecular dynamics trajectories. Tier 1 addresses the internal reproducibility of ML inference when applied to molecular inputs; Tier 2 pertains to the robustness of molecular-science benchmarks such as CASP, CASF-2016, PoseBusters, and OpenFE; Tier 3 involves prospective experimental validation against biophysical and biochemical measurements; and Tier 4 encompasses clinical and translational calibration within physiologically based pharmacokinetic (PBPK) and quantitative systems pharmacology (QSP) frameworks. This validation hierarchy functions as an explicit conceptual guide, serving as a framework rather than a regulatory requirement. It is firmly grounded in established principles derived from ICH Q8/Q9/Q10, the FDA model-informed drug development (MIDD) approach, the EMA reflection paper on AI in the medicinal product lifecycle, and the EU AI Act. The manuscript further incorporates recent evidence from ensemble-aware AI, prospective docking, free-energy campaigns, and clinical-stage AI-derived candidates. It concludes with specific recommendations pertaining to lifecycle governance, uncertainty reporting, and the adoption of harmonized evidentiary templates for AI/ML applications in the molecular sciences.",
-    "summary": "",
-    "doi": "10.3390/ijms27104349",
-    "citations": 0
-  },
-  {
-    "title": "Mistletoe: Stealthy Acceleration-Collapse Attacks on Speculative Decoding",
-    "authors": [
-      "Shuo Sun",
-      "Chang Da",
-      "Hao Fang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/42f8cd7b54084548ccf60e66728bf58180549616",
-    "date": "2026-05-13",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Speculative decoding has become a widely adopted technique for accelerating large language model (LLM) inference by drafting multiple candidate tokens and verifying them with a target model in parallel. Its efficiency, however, critically depends on the average accepted length $\\tau$, i.e., how many draft tokens survive each verification step. In this work, we identify a new mechanism-level vulnerability in model-based speculative decoding: the drafter is trained to approximate the target model distribution, but this approximation is inevitably imperfect. Such a drafter-target mismatch creates a hidden attack surface where small perturbations can preserve the target model's visible behavior while substantially reducing draft-token acceptability. We propose Mistletoe, a stealthy acceleration-collapse attack against speculative decoding. Mistletoe directly targets the acceptance mechanism of speculative decoding. It jointly optimizes a degradation objective that decreases drafter-target agreement and a semantic-preservation objective that constrains the target model's output distribution. To resolve the conflict between these objectives, we introduce a null-space projection mechanism, where degradation gradients are projected away from the local semantic-preserving direction, suppressing draft acceptance while minimizing semantic drift. Experiments on various speculative decoding systems show that Mistletoe substantially reduces average accepted length $\\tau$, collapses speedup, and lowers averaged token throughput, while preserving output quality and perplexity. Our work highlights that speculative decoding introduces a mechanism-level attack surface beyond existing output robustness, calling for more robust designs of LLM acceleration systems.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "From naive to foundation: benchmarking models for epidemic forecasting",
-    "authors": [
-      "D. Wang",
-      "Y. Li",
-      "N. Perra"
-    ],
-    "link": "https://www.semanticscholar.org/paper/4237b14067adbc3167117fba116be95036ed59ff",
-    "date": "2026-05-13",
-    "keywords": [
-      "medRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.05.11.26352889",
-    "citations": 0
-  },
-  {
-    "title": "SurF: A Generative Model for Multivariate Irregular Time Series Forecasting",
-    "authors": [
-      "Mohammad R. Rezaei",
-      "Tejas Balaji",
-      "Rahul G. Krishnan"
-    ],
-    "link": "https://www.semanticscholar.org/paper/419505d994e16274d167a19f27805c634b4e59e2",
-    "date": "2026-05-13",
-    "keywords": [
-      "Foundation Model",
-      "Transformer"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Irregularly sampled multivariate event streams remain a stubbornly difficult modality for generative modeling: tokenization-based approaches break down when inter-event intervals vary by orders of magnitude, and neural temporal point processes are bottlenecked by window-level numerical quadrature. We (i) propose SurF, a generative model that uses the Time Rescaling Theorem (TRT) as a learnable bijection between event sequences and i.i.d.\\ unit-rate exponential noise, enabling a single model to be trained across heterogeneous event-stream datasets; (ii) three efficient parameterizations of the cumulative intensity that scale to long sequences; and (iii) a Transformer-based encoder for multi-dataset pretraining. On six real-world benchmarks, SurF achieves the best reported time RMSE on Earthquake, Retweet, and Taobao, and is within trial-level noise of the strongest specialist on the remaining three. Under a strict leave-one-out protocol, the held-out checkpoint beats every classical and neural-autoregressive baseline on 5/6 datasets and beats every baseline on Amazon and Earthquake, an initial step toward foundation models over asynchronous event streams.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Decoupled and Divergence-Conditioned Prompt for Multi-domain Dynamic Graph Foundation Models",
-    "authors": [
-      "Haonan Yuan",
-      "Qingyu Sun",
-      "Junhua Shi",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4067c9d2c77eab5fd8358806b7a02ddef2e405d2",
-    "date": "2026-05-13",
-    "keywords": [
-      "Foundation Model",
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Dynamic graphs are ubiquitous in real-world systems, and building generalizable dynamic Graph Foundation Models has become a frontier in graph learning. However, dynamic graphs from different domains pose fundamental challenges to unified modeling, as their semantic and temporal patterns are inherently inconsistent, making the multi-domain pre-training difficult. Consequently, the widely used\"pretrain-then-finetune\"paradigm often suffers from severe negative knowledge transfer. To the best of our knowledge, there exists no multi-domain dynamic GFM. In this work, we propose DyGFM, a Dynamic Graph Foundation Model over multiple domains based on decoupled and divergence-conditioned prompting. To disentangle transferable semantics from the domain-specific dynamics, we introduce a dual-branch pre-training strategy with semantic-temporal decoupling. To alleviate negative transfer during domain adaptation, we further develop a cross-domain routing mechanism with divergence-aware expert selection. To enable efficient downstream fine-tuning, we design a divergence-conditioned prompt generator that injects lightweight, learnable graph prompts tailored to semantic and temporal traits. Extensive experiments on continuous dynamic graph benchmarks demonstrate that DyGFM consistently outperforms 12 state-of-the-art baselines on both node classification and link prediction tasks, achieving superior effectiveness and efficiency.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Weakly Supervised Segmentation as Semantic-Based Regularization",
-    "authors": [
-      "Stefano Colamonaco",
-      "A. Florea",
-      "Jaron Maene"
-    ],
-    "link": "https://www.semanticscholar.org/paper/3e2f473b189d13fef76096c71bde37a0bcbda40e",
-    "date": "2026-05-13",
-    "keywords": [
-      "Foundation Model",
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Weakly supervised semantic segmentation (WSSS) trains dense pixel-level segmentation models from partial or coarse annotations such as bounding boxes, scribbles, or image-level tags. While recent work leverages foundation models such as the Segment Anything Model (SAM) to generate pseudo-labels, these approaches typically depend on heuristic prompt choices and offer limited ways to incorporate prior knowledge or heterogeneous labels. We address this gap by taking a neurosymbolic perspective: integrating differentiable fuzzy logic with deep segmentation models. Weak annotations and domain-specific priors are unified as continuous logical constraints that fine-tune SAM under weak supervision. The refined foundation model then produces improved pseudo-labels, from which we train a second-stage prompt-free segmentation model. Experiments on Pascal VOC 2012 and the REFUGE2 optic disc/cup segmentation dataset show that our logic-guided fine-tuning yields higher-quality pseudo-labels, leading to state-of-the-art segmentation accuracy that often exceeds densely supervised baselines.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "A Multi-Agent Orchestration Framework for Venture Capital Due Diligence",
-    "authors": [
-      "Grigorios Alexandrou",
-      "K. Pramatari"
-    ],
-    "link": "https://www.semanticscholar.org/paper/3e11f028e0cc4481d66006fd43d4252db5cc3ee9",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "We present a fully automated multi-agent framework for corporate due diligence and market analysis in venture capital. The system runs on an event-driven orchestration architecture, combining Large Language Models (LLMs) with real-time web retrieval to synthesize unstructured data into structured investment intelligence. A central technical contribution is a programmatic extraction pipeline that reverse-engineers the frontend-to-backend communication of the Greek Business Registry ($\\Gamma$.E.MH.), querying dynamic endpoints to retrieve official financial filings that are then parsed using a layout-aware OCR extractor. A structural fallback mechanism explicitly flags data absence rather than generating unverified figures, directly targeting hallucination in financial contexts. All workflow artifacts are publicly available to support replication.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "RAG-Enhanced Large Language Models for Dynamic Content Expiration Prediction in Web Search",
-    "authors": [
-      "Tingyu Chen",
-      "Wenkai Zhang",
-      "Li Gao",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3d87a9f547da971ad280b628f45f61855cd7c83b",
-    "date": "2026-05-13",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "In commercial web search, aligning content freshness with user intent remains challenging due to the highly varied lifespans of information. Traditional industrial approaches rely on static time-window filtering, resulting in\"one-size-fits-all\"rankings where content may be chronologically recent but semantically expired. To address the limitation, we present a novel Large Language Models (LLMs)-based Query-Aware Dynamic Content Expiration Prediction Framework deployed in Baidu search, reformulating timeliness as a dynamic validity inference task. Our framework extracts fine-grained temporal contexts from documents and leverages LLMs to deduce a query-specific\"validity horizon\"-a semantic boundary defining when information becomes obsolete based on user intent. Integrated with robust hallucination mitigation strategies to ensure reliability, our approach has been evaluated through offline and online A/B testing on live production traffic. Results demonstrate significant improvements in search freshness and user experience metrics, validating the effectiveness of LLM-driven reasoning for solving semantic expiration at an industrial scale.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Know When To Fold'Em: Token-Efficient LLM Synthetic Data Generation via Multi-Stage In-Flight Rejection",
-    "authors": [
-      "Anjir Ahmed Chowdhury",
-      "Syed Zawad",
-      "Feng Yan"
-    ],
-    "link": "https://www.semanticscholar.org/paper/3c81e6c28d9603cec4f1a00a74241819cc5ec877",
-    "date": "2026-05-13",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "While synthetic data generation with large language models (LLMs) is widely used in post-training pipelines, existing approaches typically generate full outputs before applying quality filters, leading to substantial token waste on samples that are ultimately discarded. To address this, we propose Multi-Stage In-Flight Rejection (MSIFR), a lightweight, training-free framework that detects and terminates low-quality generation trajectories at intermediate checkpoints before they reach full completion. MSIFR decomposes the generation process into sequential stages and applies fast rule-based validators to identify arithmetic inconsistencies, hallucination patterns, and formatting violations, enabling early rejection of faulty samples. We formalize in-flight rejection as a sequential decision process and show that any non-trivial discard policy reduces expected token consumption, with stage-wise savings increasing when rejection occurs earlier in the generation pipeline. We further demonstrate that conditional utility estimates form a martingale, ensuring that early, in-flight rejection does not bias the expected utility of retained samples. Across five instruction-tuned models and seven reasoning benchmarks, MSIFR reduces token consumption by 11%-77% as a standalone method, and up to 78.2% when combined with early-exit methods, while preserving or improving evaluation accuracy. These results confirm that MSIFR provides a practical mechanism for improving the efficiency of LLM-based synthetic data generation without additional training or architectural changes.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "AI-Powered Academic Integrity Assistant for Detecting Copied & AI-Rephrased Plagiarism",
-    "authors": [
-      "Syeda Akeefa",
-      "G. D.",
-      "S. V",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3b6ebd831e74aa14eb3d6e14fb40e8d7e9f52679",
-    "date": "2026-05-13",
-    "keywords": [
-      "International Journal of Innovative Science and Research Technology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The rapid growth of Large Language Models (LLMs) has transformed writing assistance and simultaneously\nenabled sophisticated forms of academic deception. Students now leverage AI paraphrasing tools that preserve semantic\nmeaning while rewriting sentence structure, reducing lexical overlap, and masking direct borrowing from online sources.\nTraditional plagiarism detectors—designed primarily forever batim copying—struggle to detect these semantically\nequivalent but lexically divergent patterns. This paper presents a comprehensive, multi-layer AI-Powered Academic\nIntegrity Assistant capable of detecting direct plagiarism, AI-assisted paraphrasing, semantic similarity obfuscation, and\nstylistic inconsistencies in academic writing.The system integrates vector-based retrieval, semantic drift scoring,\nparaphrase classification, textual entailment modeling, stylometric forensics, perplexity-based AI text detection, and a\nfinal-layer meta-classifier. The manuscript expands the system description to a full-length research format by providing\nin-depth architectural analysis, extensive methodology, detailed experimental insights, robust discussion of limitations,\nand an ethics-centered framework for deployment in academic institutions. The goal is to support universities in\nestablishing reliable, transparent, and fair academic integrity monitoring infrastructures that evolve along side modern AI\ncapabilities.",
-    "summary": "",
-    "doi": "10.38124/ijisrt/26apr2482",
-    "citations": 0
-  },
-  {
-    "title": "EconAI: Dynamic Persona Evolution and Memory-Aware Agents in Evolving Economic Environments",
-    "authors": [
-      "Annie Liu",
-      "Zane Cao",
-      "Langfan Chen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3b5f8b69a134e691e1ccfa1ac0ded40f9b035191",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The integration of large language models (LLMs) in economic simulations has significantly enhanced agent-based modeling, yet existing frameworks struggle to capture the interplay between short-term optimization and long-term strategic planning. Conventional approaches rely on static data-driven predictions, failing to incorporate adaptive behaviors influenced by economic sentiment, market volatility, and individual goals. To address these limitations, we introduce a novel EconAI framework, incorporating economic sentiment indexing (ESI), memory weighting, and dynamic decision-making mechanisms. By quantifying economic belief, adjusting historical data influence, and linking work-consumption behaviors, EconAI achieves a more human-like decision process, where agents adapt their actions based on both market signals and long-term objectives. It is the first LLM-powered simulation system that can simulate the macro/microeconomic environment and interactions in a unified framework. Empirical evaluations show that EconAI improves stability in economic responses, better replicates real-world employment-consumption cycles, and enhances overall decision robustness. This advancement marks a crucial step towards more realistic, adaptive economic agent simulations.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "FlexInfer: a high-performance inference system for long-context large language models",
-    "authors": [
-      "Junlin Lv"
-    ],
-    "link": "https://www.semanticscholar.org/paper/3b3920eb7b4bff12f221c77d0059c86bed19da64",
-    "date": "2026-05-13",
-    "keywords": [
-      "Fifth International Conference on Electronic Information Engineering and Data Processing (EIEDP 2026)"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1117/12.3114918",
-    "citations": 0
-  },
-  {
-    "title": "SHM-Agents: A Generalist-Specialist Integrated Agent System for Structural Health Monitoring",
-    "authors": [
-      "Yuequan Bao",
-      "Xingyu Li",
-      "Huabin Sun",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3a0c8c9fb98cf2ccf73f9dd16d0201badb7b1bc7",
-    "date": "2026-05-13",
-    "keywords": [
-      "Deep Learning",
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Artificial intelligence is increasingly used to simplify complex tasks. In engineering applications of structural health monitoring (SHM), existing specialized algorithms, while effective, often face high implementation barriers, limited interoperability and complex training procedures. To overcome these challenges, this paper proposes SHM-Agents, a generalist-specialist agent system that integrates the reasoning and planning abilities of large language models with the problem-solving strengths of specialized algorithms. SHM-Agents enables end-to-end execution of single and combined SHM tasks via natural language, supports deep learning pre-training to simplify deployment and allows flexible expansion through a modular design. Experiments on a long-span cable-stayed bridge show that SHM-Agents can accurately and efficiently perform diverse SHM tasks, including data anomaly diagnosis and recovery, signal processing, statistical analysis, modal identification, damage identification, finite element model updating, vehicle load modeling, response calculation, reliability assessment, fatigue estimation and bridge knowledge Q\\&A.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Transferable spatial omics deconvolution with SpaRank",
-    "authors": [
-      "Xuhua Yan",
-      "Ruiqing Zheng",
-      "Jinmiao Chen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/38aba17e3e1b91038222adbeb304de1150a9f7ee",
-    "date": "2026-05-13",
-    "keywords": [
-      "bioRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.05.09.723936",
-    "citations": 0
-  },
-  {
-    "title": "EC-MFR: A Hierarchical Edge–Cloud Collaborative Framework for Multimodal Fact-Checking",
-    "authors": [
-      "Haoxiong Tao",
-      "Tao Chen"
-    ],
-    "link": "https://www.semanticscholar.org/paper/383591bfa9ece6d332acf2b6a8b8d4eaa1cab785",
-    "date": "2026-05-13",
-    "keywords": [
-      "Information"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The spread of multimodal misinformation demands verification that is both accurate and fast while keeping knowledge current. Large language models are powerful but costly and slow, and their static knowledge can lag behind events. We introduce EC-MFR, a hierarchical framework that divides work between edge and the cloud. The system first optionally decomposes the claim into a few targeted sub-claims to guide retrieval, retrieves text and image evidence, and then compresses it into a small set of question–answer items using a lightweight, quantized multimodal language model deployed at the edge. A compact verifier on the edge predicts a label with calibrated confidence. If confidence is high, the decision is returned immediately. If confidence is low, the claim is sent to the cloud where retrieval can be expanded and the reasoning can be redone by a stronger verifier. This design offers three core benefits. It makes reasoning explicit through question–answer items, which shortens prompts and improves auditability. It improves retrieval recall via a light decomposition step that produces targeted sub-queries. Finally, it lets most easy claims finish on the edge to reduce cost and latency while preserving accuracy on difficult claims by allowing the cloud to broaden evidence and refine reasoning. Experiments on MOCHEG and AVERITEC validate the approach. Notably, EC-MFR achieves highly competitive accuracy of 54.10% on the multimodal MOCHEG dataset, and reaches 68.80% on AVERITEC under realistic retrieval settings, outperforming the GPT-4o cloud-only baseline by 6.6 percentage points. Furthermore, system-level profiling on edge hardware demonstrates that EC-MFR reduces processing costs by 51.8% and accelerates inference latency by 2.4× for edge-resolved claims, confirming a highly favorable accuracy–efficiency trade-off compared to existing multimodal fact-checking systems. We also formalize routing and efficiency and analyze calibration and retrieval.",
-    "summary": "",
-    "doi": "10.3390/info17050480",
-    "citations": 0
-  },
-  {
-    "title": "DigMethpy: an AI-empowered digital catalysis platform for methane pyrolysis molten catalyst design",
-    "authors": [
-      "Zihao Cheng",
-      "Xuxuan Huang",
-      "Hangwei Liu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3746d181b8e672a998034caa55db47f7cf524a3d",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent",
-      "AI Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Methane pyrolysis via molten catalysts offers a transformative route for coke-free hydrogen production and high-value carbon capture. However, the development of molten catalysts is hindered by a vast compositional space and the disordered atomic structure of the molten state, which makes traditional trial-and-error experimentation inefficient. Here, we introduce an artificial intelligence-empowered digital catalysis platform (DigMethpy) to accelerate the development of molten catalysts. This platform integrates experimental and computational data with machine learning models, literature-based knowledge bases, and large language models, forming a closed-loop workflow of “data → model → prediction → validation”. It provides a data-centric framework for intelligent catalyst design by iteratively refining prediction models and intelligent agents through data feedback. The platform is poised to evolve from a single-agent workflow toward multi-agent collaboration and a self-driving system, offering a scalable digital infrastructure to connect the research community and accelerate the industrialization of methane pyrolysis.",
-    "summary": "",
-    "doi": "10.20517/aiagent.2026.11",
-    "citations": 0
-  },
-  {
-    "title": "A Hybrid AI Framework Combining Causal Nonmonotonic Reasoning with VMD-GNN and IGWO-DBN for Decision-Making under Big Data",
-    "authors": [
-      "Hui Li",
-      "Chao Xv",
-      "Ruijuan Liu"
-    ],
-    "link": "https://www.semanticscholar.org/paper/35db2163d497b6ca4ae1b61c119e388d03d73703",
-    "date": "2026-05-13",
-    "keywords": [
-      "Informatica"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "With the deep integration of big data and Artificial Intelligence, data-driven predictive models face key challenges such as missing causality and rigid reasoning. Traditional approaches rely on statistical correlations, which struggle to handle uncertainty, conflicting evidence, and sparse data in dynamic environments, resulting in poor interpretability of decision-making. This paper proposes an Artificial Intelligence decision-making model enhanced by causal nonmonotonic reasoning. This model combines Variational Mode Decomposition and Graph Neural Network to process dynamic temporal data and graph structures, and introduces an improved Grey Wolf Optimizer to optimize the parameters of Deep Belief Network, thus constructing a decision framework that integrates dynamic causal discovery, revocable rule inference, and counterfactual evaluation. The experimental results on the MIMIC-III medical dataset and IEEE-CIS financial dataset show that the proposed model achieves an average processing error as low as 0.02, which is superior to the three baseline models Graph Attention Network- Recurrent Neural Network, Particle Swarm Optimization-Ant Colony Optimization, and Genetic Algorithm-Long Short-Term Memory Network. In financial volatility prediction, the model achieved a root mean square error of 0.12, a coefficient of determination of 0.92, and a peak-valley capture rate of 0.89. It also maintained a robust recall rate ranging from 0.8 to 0.98 across confidence intervals of 0 to 0.6, demonstrating the best overall performance. These results indicate that the proposed model shows strong accuracy and adaptability in complex decision-making scenarios. It effectively addresses the problems of causal blindness and rigid reasoning in current Artificial Intelligence systems, offering a new approach to trustworthy Artificial Intelligence and promoting intelligent and efficient development in key fields such as healthcare and finance.",
-    "summary": "",
-    "doi": "10.31449/inf.v50i12.11287",
-    "citations": 0
-  },
-  {
-    "title": "Does Engram Do Memory Retrieval in Autoregressive Image Generation?",
-    "authors": [
-      "Jinghao Wang",
-      "Qiyuan He",
-      "Chunbin Gu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/353cc1c0a17fcd36a15fd1b9611e08ebdd32d5ec",
-    "date": "2026-05-13",
-    "keywords": [
-      "Transformer"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The Engram module -- a hash-keyed, O(1) associative memory injected into Transformer layers -- was recently shown to improve large language model pretraining, with the appealing interpretation that it provides a content-addressed shortcut to recurring local token patterns. We ask whether this interpretation transfers to autoregressive (AR) image generation, or whether the observed gains, if any, come from a different mechanism. We adapt the Engram module to vision with 2D spatial $n$-gram hashing, gated fusion, and KV-cache-compatible incremental inference, and inject it into a class-conditional AR generator trained on ImageNet 256x256. Across a sweep of backbone-to-memory budget ratios $\\rho{\\in}[0.17, 0.90]$, every Engram-augmented variant trails the pure AR baseline in FID, indicating that the module saves backbone FLOPs but does not, by itself, improve sample quality. We then probe how the module is used. A gate-clamp sweep shows that disabling the Engram pathway entirely is catastrophic, yet a tiny constant gate (g=0.10) matches or beats the learned gate -- inconsistent with a heavily content-addressed recall mechanism. A donor-probe experiment shows that swapping the hash inputs for matched, adversarial, or random same-class exemplars produces statistically indistinguishable next-token distributions, while collapsing or randomising the table degrades them by two to three orders of magnitude. Finally, training a model from scratch with the entire memory table frozen to $\\mathcal{N}(0, 1)$ noise costs only $\\Delta\\text{FID}{=}0.10$ and actually raises Inception Score. Together, these findings indicate that the Engram in AR image generation behaves not as a content-addressed retriever but as a gated architectural side-pathway: a hash-keyed residual stream whose benefit is dominated by the pathway itself, with the learned table contributing only a small distributional refinement.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Learning Perturbations to Extrapolate Your LLM",
-    "authors": [
-      "Zetai Cen",
-      "Chenfei Gu",
-      "Jinchang Zhu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/345692ba82efb62211d7ad410249ccf2ab262100",
-    "date": "2026-05-13",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent advancements in large language models demonstrate that injecting perturbations can substantially enhance extrapolation performance. However, current approaches often rely on discrete perturbations with fixed designs, which limits their flexibility. In this work, we propose a framework where token prefixes are perturbed by a learnable transformation of a continuous latent vector within an embedding space. To overcome the challenge of an intractable marginal likelihood, we derive unbiased estimating equations for model parameters and optimize them via stochastic gradient descent. We establish the statistical properties of the resulting estimator in over-parameterized regimes. Empirical evaluations on both synthetic and real-world datasets demonstrate that our proposal yields significant gains in out-of-domain settings over a range of state-of-the-art baseline methods.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "GeoBuildBench: A Benchmark for Interactive and Executable Geometry Construction from Natural Language",
-    "authors": [
-      "Jinwoong Kim",
-      "Ruiyi Yang",
-      "Huishuai Zhang"
-    ],
-    "link": "https://www.semanticscholar.org/paper/33fa0fe9f176c2c58bdd2913d691dfb8221ca189",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "We introduce GeoBuildBench, a benchmark designed to evaluate whether large language models and multimodal agents can ground informal natural-language plane geometry problems into executable geometric constructions. Unlike existing geometry benchmarks that focus on answer correctness or static diagram interpretation, GeoBuildBench treats geometry diagram as an interactive construction task: given a textual problem, an agent must generate a domain-specific language (DSL) program to produce a diagram satisfying explicitly specified geometric objects and verifiable constraints. The benchmark features 489 Chinese textbook-style problems, curated through automated filtering and human validation to ensure text-complete, constructible problem specifications. We evaluate several state-of-the-art multimodal models in a bounded iterative setting and show that, despite reasonable success rates, models frequently exhibit structural hallucinations, missing objects, and failures to satisfy geometric constraints, with limited ability to exploit visual and constraint-based feedback for self-correction. These results highlight geometry construction as a rigorous testbed for grounded, executable reasoning beyond textual or visual plausibility. Our benchmark and code are publicly available.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Steer-to-Detect: Probing Hidden Representations for Detection of LLM-Generated Texts",
-    "authors": [
-      "Luxu Liang",
-      "Xiang Li"
-    ],
-    "link": "https://www.semanticscholar.org/paper/33f9d2516697ba9e076e47bfdf3d6cdfcc3d8c1d",
-    "date": "2026-05-13",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The rapid advancement of large language models (LLMs) has made machine-generated text increasingly difficult to distinguish from human-written text. While recent studies explore leveraging internal representations of language models to uncover deeper detection signals, these raw features often exhibit substantial overlap between classes, limiting their discriminative power. To address this challenge, we propose Steer-to-Detect (\\texttt{S2D}), a two-stage framework for detecting LLM-generated text. In the first stage, \\texttt{S2D} learns a steering vector that is injected into the hidden states of a frozen observer LLM, producing representations with improved class separability. In the second stage, detection is performed via a hypothesis testing procedure based on the steered representations. We establish finite-sample, high-probability guarantees for Type I and Type II errors, providing a theoretical characterization of the procedure. Empirically, \\texttt{S2D} achieves strong and consistent performance across a range of settings, including out-of-distribution scenarios and adversarial perturbations.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "In Silico Evaluation of Goji Berry (Lycium barbarum) Bioactive Compounds Targeting BRAF V600E in Melanoma",
-    "authors": [
-      "Collin Angelicha",
-      "Azmi Rahmadani",
-      "Adinda Dwi Fajriati",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3317979d36fbf6efd264b6bd620205bf5e1f86ef",
-    "date": "2026-05-13",
-    "keywords": [
-      "Agent",
-      "Journal Syifa Sciences and Clinical Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Melanoma is the most aggressive form of skin cancer and is associated with high mortality, primarily due to aberrant activation of the mitogen-activated protein kinase (MAPK) pathway driven by mutations in the BRAF gene, particularly BRAF V600E. BRAF inhibitors such as vemurafenib have been used in the treatment of BRAF-mutant melanoma; however, their long-term clinical efficacy is often limited by acquired resistance and tumor adaptive mechanisms. Therefore, the exploration of natural product–based adjuvant candidates remains relevant to support melanoma therapy. This study aimed to evaluate the potential of bioactive compounds from goji berry (Lycium barbarum) as anti-melanoma candidates through an in silico approach targeting BRAF. Molecular docking was performed using the BRAF–vemurafenib complex structure (PDB ID: 3OG7), and the docking protocol was validated by redocking vemurafenib, yielding an RMSD value of 0.956 Å, which indicated the reliability of the docking procedure. Twelve bioactive compounds from Lycium barbarum were docked into the BRAF binding site, and their binding affinities, amino acid residue interactions, drug-likeness, and ADMET profiles were analyzed. The docking results showed that zeaxanthin, myricetin, quercetin, ellagic acid, galangin, kaempferol, and chlorogenic acid exhibited binding affinity values ≤ −8.0 kcal/mol, indicating favorable predicted interactions with BRAF. Among the tested compounds, quercetin showed one of the strongest binding affinities and conserved key amino acid interactions comparable to vemurafenib, whereas galangin demonstrated the most favorable drug-likeness and ADMET profile. These findings indicate two complementary prioritization criteria, in which quercetin is superior in predicted binding interaction, while galangin is superior in pharmacokinetic and drug-likeness suitability. Therefore, quercetin and galangin may serve as promising preliminary candidates for further investigation as BRAF-targeting adjuvant agents in melanoma therapy; however, experimental validation through BRAF kinase inhibition assays and melanoma cell-based studies is required to confirm their biological activity and therapeutic relevance.",
-    "summary": "",
-    "doi": "10.37311/jsscr.v8i2.37713",
-    "citations": 0
-  },
-  {
-    "title": "Automatic Speech Recognition and Large Language Models for Multilingual Pathology Report Generation: Proof-of-Concept Study",
-    "authors": [
-      "Kuan-Hsun Lin",
-      "Chia-Ping Chang",
-      "Chen-Tsung Kuo",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/32bbe1c0b0e0c1408fa358a208a48f71400390f3",
-    "date": "2026-05-13",
-    "keywords": [
-      "JMIR Formative Research"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Abstract Background Accurate transcription of pathology gross examination dictation is important for clinical documentation, but multilingual dictation remains challenging in settings where clinicians mix Chinese and English while final pathology reports are written in English. Objective This study aimed to evaluate whether a Whisper-based automatic speech recognition (ASR) pipeline guided by contextual system messages and combined with open-source large language models (LLMs; Qwen2:72b, Llama3.1:70b, Gemma2:27b) could improve multilingual (Chinese-English) pathology dictation transcription accuracy and generate clinically appropriate English gross description reports. Methods We conducted a controlled proof-of-concept study using 125 simulated mixed Chinese-English pathology gross examination audio recordings created by physicians or pathologists. Audio recordings were transcribed using Whisper ASR with and without a contextual system message. The ASR transcripts were then converted into English gross description reports using 3 open-source LLMs: Qwen2:72b, Llama3.1:70b, and Gemma2:27b. Outcomes included character error rate, Bilingual Evaluation Understudy, Recall-Oriented Understudy for Gisting Evaluation (ROUGE)-1, ROUGE-2, ROUGE-L, Metric for Evaluation of Translation with Explicit Ordering, pathologist Win-Tie-Lose rankings, report-level error categories, inference time, and interrater agreement. Results The ASR contextual system message reduced the mean character error rate from 0.344 (SD 0.176; 95% CI 0.313‐0.375) to 0.066 (SD 0.100; 95% CI 0.048‐0.084; P<.001). Qwen2:72b achieved the highest automated metric scores, including a Bilingual Evaluation Understudy of 0.644 (SD 0.307), ROUGE-1 of 0.866 (SD 0.163), ROUGE-2 of 0.771 (SD 0.235), ROUGE-L of 0.842 (SD 0.178), and Metric for Evaluation of Translation with Explicit Ordering of 0.805 (SD 0.214). Pathologist-coded total error rates were 16.8% (21/125) for Qwen2:72b, 45.6% (57/125) for Llama3.1:70b, and 92.8% (116/125) for Gemma2:27b. The exact agreement between the 2 pathologists across full ranking categories was 76.8% (96/125; Cohen κ=0.668), and agreement on the top-ranked model or tied top group was 81.6% (102/125; Cohen κ=0.722). Conclusions In this proof-of-concept evaluation, contextual prompting improved ASR transcription accuracy, and Qwen2:72b generated the most accurate English pathology reports among the evaluated LLMs. However, the study used simulated audio recordings, a local vocabulary prompt, and report-level rather than term-level clinical annotation. LLM-generated reports should therefore be considered draft documentation requiring pathologist verification, and prospective validation in real clinical workflows is needed before clinical deployment.",
-    "summary": "",
-    "doi": "10.2196/90814",
-    "citations": 0
-  },
-  {
-    "title": "Comparison between a conventional tool and deep learning models for RNA velocity analysis of scRNA-Seq data",
-    "authors": [
-      "Matheus Rodrigues Sauda",
-      "Ana Beatriz Rodrigues",
-      "Maria Letícia de Oliveira Lyra",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/3185ad26d11899e2fc3f213a9eb674c8cdbab57e",
-    "date": "2026-05-13",
-    "keywords": [
-      "Deep Learning",
-      "RNA-seq / Transcriptomics",
-      "Zeitschrift für Induktive Abstammungs- und Vererbungslehre"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Single-cell RNA sequencing (scRNA-Seq) enables analysis of gene expression at single-cell resolution. RNA velocity analysis infers the temporal dynamics of transcriptional states from the relative abundances of spliced/unspliced mRNA quantified via scRNA-Seq. Classical RNA velocity approaches, such as scVelo, implement gene-specific kinetic modeling. Deep learning methods including DeepVelo, VeloVI, LatentVelo, SymVelo, and scTour are based on variational autoencoders (VAEs), which allow to enhance the robustness and accuracy by leveraging nonlinear latent representations. Here, we systematically evaluated the performance of deep learning RNA velocity tools by comparing with the scVelo dynamical model to access the possible advantages of VAE-base methods. For this purpose, public datasets (GSE149689 and GSE203233) were initially processed using a standard scRNA-Seq pipeline. Comparisons among results of selected velocity tools were conducted using cosine similarity of velocity vectors to assess directional concordance, and by mean squared error analysis of trajectory continuity for the deep learning models. Overall, VAE methods produced significant, richer, and more directionally coherent and consistent velocity fields than the classical model. Our findings indicate that deep learning models provide more consistent and biologically plausible cell-state trajectories, although at the expense of higher computational demands and reliance on accurate splicing quantification. Altogether, our results underscore the relevance of VAE-based frameworks to advance RNA velocity analysis while highlighting the need for careful preprocessing. Supplementary Information The online version contains supplementary material available at 10.1007/s00438-026-02429-9.",
-    "summary": "",
-    "doi": "10.1007/s00438-026-02429-9",
     "citations": 0
   }
 ]
