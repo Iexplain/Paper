@@ -1,0 +1,58 @@
+[
+  {
+    "title": "The meaning of prompts: a semiotic approach to human–machine communication",
+    "authors": [
+      "M. Thellefsen",
+      "A. Dewi",
+      "Bent Sørensen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/82f2b0a3bff40ea35f2c28a132cd30c0a936d1c6",
+    "date": "2026-05-26",
+    "keywords": [
+      "今日上新",
+      "Journal of Documentation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper aims to explore prompts and prompting in large language models (LLMs) as dynamic semiotic phenomena, reconceptualizing the practice from a technical input mechanism to a communicative and epistemic act that involves iterative sign formation, interpretation and refinement.\n \n \n \n The theoretical foundation rests on Peirce's semiotics, utilizing the triadic model of signs (representamen, object, interpretant), his nine sign types and the Dynacom model of communication. Analytically, the LLM is positioned as a semiotic resource generating interpretants in response to user prompts to participate in meaning-making within a shared universe of discourse.\n \n \n \n Prompting constitutes a semiotic and communicative process that redefines how knowledge is organized, searched, interpreted and co-constructed in digital environments.\n \n \n \n This perspective invites a reimagination of the philosophical foundations of meaning, interpretation and epistemic agency in an age defined by human–machine communication and computational semiosis.\n",
+    "summary": "",
+    "doi": "10.1108/jd-03-2026-0140",
+    "citations": 0
+  },
+  {
+    "title": "Frontier Large Language Models for Comprehensive Medication Review in CKD Patients with Polypharmacy: A Trap-Embedded Synthetic Benchmark",
+    "authors": [
+      "K.-C. Chuang",
+      "H.-J. Lin",
+      "H.-M. Lin"
+    ],
+    "link": "https://www.semanticscholar.org/paper/648194f8aa92a7ec7a1478d195590343888aacee",
+    "date": "2026-05-26",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.23.26353939",
+    "citations": 0
+  },
+  {
+    "title": "Equitable Ranking in Heterogeneous Marketplace Ecosystems: A Foundation Model Framework for Quality-Aware Fairness",
+    "authors": [
+      "Saurabh Krishna Kansara"
+    ],
+    "link": "https://www.semanticscholar.org/paper/21e1794c22786ce5ab76be11def8d205cf4e1ca8",
+    "date": "2026-05-26",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the ACM Conference on AI and Agentic Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3786335.3813178",
+    "citations": 0
+  }
+]
