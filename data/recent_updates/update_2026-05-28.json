@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Entity-specific text classification with large language models: two applications on financial and brand news",
+    "authors": [
+      "Laiyi Meng",
+      "P. P. Wang",
+      "Huidi Lu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/42581d01ba8c765fc48cecc20df25be0d69c0840",
+    "date": "2026-05-27",
+    "keywords": [
+      "今日上新",
+      "China Accounting and Finance Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper evaluates the performance of off-the-shelf large language models (LLMs) on two distinct entity-specific classification challenges in empirical economic research: assessing sentiment toward individual financial assets and identifying brand involvement during a product-harm crisis. Multiple assets or brands may appear in the same article, thus rendering document-level analysis of little use when the goal is to extract information at a granular (specific asset or brand) level.\n \n \n \n In this paper, we attempt to benchmark recent Large Language Models (LLMs), such as OpenAI's GPT, on entity-specific text classification tasks. We illustrate their performance in two distinct applications. First, we demonstrate that LLMs can identify asset-specific sentiments in Wall Street Journal (WSJ) financial news. Second, we evaluate the effectiveness of these models in identifying brand involvement in a product-harm crisis, using a news corpus of the 2008 Chinese infant milk formula scandal. To assess the performance of these models, we compared machine coding results with human annotations. We calculated the F1 score, which helps measure how well a model works by balancing two key factors: precision (i.e. how often the model's positive predictions are correct) and recall (i.e. how many of the actual positive cases the model correctly identifies), providing a holistic evaluation of the models' overall performance. The two applications jointly illustrate that LLM-based entity-specific text classification works robustly in different scenarios and with different languages.\n \n \n \n Our results demonstrate that LLMs can achieve high accuracy in entity-specific classification while maintaining simplicity and cost-effectiveness.\n \n \n \n This research is of interest to various stakeholders. Using these new models, investors can leverage asset-level sentiment to make better decisions in complex markets. Lenders could benefit from improved risk evaluation models that incorporate more precise data related to a specific company. Managers can clinically tease apart sentiment towards their brands vis-à-vis others. For researchers, this research adds to the existing literature on the use of machine learning in text classification, specifically on extracting entity-specific information. Previous studies in this area have shown that machine learning models can be used to analyse texts in finance and psychology at the document level. Our study extends this line of work to an entity-focused case, which yields better insights. Our findings suggest increasing capabilities of machine learning models and show new opportunities for efficient and large-scale solutions in a field that has suffered from cost and scalability factors.\n",
+    "summary": "",
+    "doi": "10.1108/cafr-12-2025-0269",
+    "citations": 0
+  },
+  {
+    "title": "Association of a polygenic risk score with coronary atherosclerotic burden in clinical CT angiograms",
+    "authors": [
+      "K. Hartmann",
+      "M. Gannon",
+      "P. Natarajan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/219d9349fb46403b4c3eeb4f6f0077c27e02c2b4",
+    "date": "2026-05-27",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.26.26353801",
+    "citations": 0
+  },
+  {
+    "title": "Wearable and Interview-based Assessment of Psychological Risk in Alzheimers Caregivers: Machine Learning vs. Large Language Models",
+    "authors": [
+      "J. Xiao",
+      "Z. Zhao",
+      "Z. D. King",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/15c0a9d44a75c7b0b108837a4f19db29f176c694",
+    "date": "2026-05-27",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.24.26353993",
+    "citations": 0
+  }
+]
