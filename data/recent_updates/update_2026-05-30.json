@@ -1,0 +1,103 @@
+[
+  {
+    "title": "Pengembangan Chatbot Perpustakaan Berbasis Retrieval-Augmented Generation (RAG) pada Telegram",
+    "authors": [
+      "Elrica Meriana Isabel Tutu",
+      "B. Pinontoan",
+      "Edwin Tenda",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6bc1b5fb57457ff5df43ce82615e446cd1f3a04",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "InTech"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The library of Sam Ratulangi University (UNSRAT) has a large collection of books and academic resources; however, users still experience difficulties in obtaining book availability information quickly and efficiently. This study aims to develop and evaluate a Telegram-based chatbot using a Retrieval-Augmented Generation (RAG) approach integrated with the GPT-4.1-mini Large Language Model (LLM). The system was developed using the Waterfall method and implemented through the n8n workflow automation platform by integrating Telegram Bot, MySQL, and Pinecone as a vector database. The chatbot applies a Text-to-SQL RAG mechanism, where user questions are converted into embeddings, matched with database context, and transformed into SQL queries limited to SELECT operations. System evaluation was conducted using Black Box Testing, User Acceptance Testing (UAT), and RAG evaluation metrics consisting of Answer Relevancy and Faithfulness. The results show that the chatbot successfully performs its main functions and achieved a UAT score of 82.3%, while Answer Relevancy and Faithfulness obtained scores of 100%. The developed system is capable of providing relevant and interactive information regarding library collections.",
+    "summary": "",
+    "doi": "10.54895/intech.v7i1.3435",
+    "citations": 0
+  },
+  {
+    "title": "In Silico Study of Compounds Found in Temulawak (Curcuma xanthorrhiza) Against HER-2H Receptor in Breast Cancer",
+    "authors": [
+      "Maryam Zakiatun Nissa",
+      "Mayra Fauzia Rukmana",
+      "Muhammad Arya Hadianto",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c92ce8766b7657acb6750314612e588593c6c9ed",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Indo J Chem Res"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Breast cancer is prevalent and frequently occurring cancers in women, with the HER-2H receptor as one of its therapeutic targets. Temulawak is a medicinal plant frequently used for anticancer treatment. This study aimed to determine the potential of temulawak as an anticancer agent against breast cancer. The results of the Lipinski’s Rule of Five method indicated that all compounds meet the requirements for oral administration. In the Pre-ADMET testing, some chemical compounds in temulawak showed poor predictive results. In the pharmacophore screening test, curzerenone was identified as the best model with an AUC value >0.5 and a pharmacophore fit score of 34.35. The molecular docking test revealed that the best compound with the lowest Gibbs free energy was curcumin, with a value of -9.56 kcal/mol. Therefore, it can be concluded that the best compound for use as an anticancer agent against the HER-2H receptor is curcumin.",
+    "summary": "",
+    "doi": "10.15294/ijcs.v15i1.8967",
+    "citations": 0
+  },
+  {
+    "title": "Exploring Natural Product Primary Sulfamates as Carbonic Anhydrase II Ligands: A Computational Approach",
+    "authors": [
+      "Aden Dewi",
+      "Rhamal Amir",
+      "Aden Dhana Rizkita",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7320e3c14ac4f5cb953b0361cfa1ac286db3f8be",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "Indo J Chem Res"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Carbonic anhydrase II (CA II) is a validated metalloenzyme target, classically inhibited by primary sulfonamides such as acetazolamide (AZM), but issues with selectivity and physicochemical properties drive the search for alternative zinc-binding scaffolds. Here, seven naturally occurring primary sulfamates and sulfonamides—(−)-altemicidin, psammaplin C, nucleocidin, 5′-O-sulfamoyladenosine, 5′-O-sulfamoyl-2-chloroadenosine, 5′-O-sulfamoyl-2-bromoadenosine, and 5′-O-sulfamoyltubercidin—were evaluated as potential CA II inhibitor scaffolds using an integrated in silico strategy, with AZM as reference. SwissADME analysis showed all derivatives to be within an acceptable small-molecule space, with higher molecular weights (345–425 g/mol) and polarity than AZM (208.22 g/mol), yet comparable TPSA values for psammaplin C, 5′-O-sulfamoyltubercidin, and 5′-O-sulfamoyladenosine (150–197 Å² vs. 151.66 Å²). ADMET predictions indicated uniformly low gastrointestinal absorption, lack of blood–brain barrier permeability, non-substrate behavior for P-glycoprotein, and no CYP450 inhibition. PASS analysis revealed markedly higher predicted anticancer activity for 5′-O-sulfamoyl-2-chloroadenosine, 5′-O-sulfamoyladenosine, and 5′-O-sulfamoyl-2-bromoadenosine (Pa up to 0.927; IAP > 0.89) compared with AZM. Molecular docking showed all derivatives binding CA II at least as well as AZM (−6.7 kcal/mol), with top scores for 5′-O-sulfamoyl-2-chloroadenosine (−8.0 kcal/mol), 5′-O-sulfamoyl-2-bromoadenosine (−7.8 kcal/mol), and 5′-O-sulfamoyltubercidin (−7.7 kcal/mol), supported by extensive hydrogen bonding and hydrophobic contacts. Collectively, these nucleoside-based primary sulfamates emerge as promising natural scaffolds for next-generation CA II-targeted therapeutics.",
+    "summary": "",
+    "doi": "10.15294/ijcs.v15i1.38446",
+    "citations": 0
+  },
+  {
+    "title": "Use of large language models by academic hospitalists: results of a multicenter survey",
+    "authors": [
+      "E. Bressman",
+      "A. Auerbach",
+      "A. Keniston",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f00df8c2fcede17461e8616db64746148398519a",
+    "date": "2026-05-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.27.26353610",
+    "citations": 0
+  },
+  {
+    "title": "Utilization of artificial intelligence–based writing assistance in contemporary spine literature",
+    "authors": [
+      "Manjot Singh",
+      "Joseph E. Nassar",
+      "Michael J. Farias",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bc5e981f8bd9c1e4c577608cdeeafeaa58e1407f",
+    "date": "2026-05-29",
+    "keywords": [
+      "今日上新",
+      "Journal of Neurosurgery: Spine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n With the advent of artificial intelligence (AI), scientific research and writing has benefitted from large language models to generate hypotheses, evaluate data, and draft manuscripts. However, this brings into question the prevalence, impact, and ethics of AI writing assistance on published literature. The purpose of this study was to quantify the extent of AI involvement in published spine articles and establish a statistical threshold for scientific integrity.\n \n \n \n Spine-focused clinical journals were selected for their impact factor and comprehensive representation of the specialty. All full-length research articles published in 2005 and 2023–2024 in these journals were extracted. ZeroGPT was used to assess AI content in each article. Baseline AI utilization was evaluated on the 2005 data, with 2 standard deviations above the mean serving as the threshold for significant AI usage. Based on pre–AI era articles, a threshold ZeroGPT score of 48.8% was established. Articles exceeding this threshold in the 2023–2024 data were assessed across spine journals and years of publication.\n \n \n \n \n In total, 2790 post-AI articles published across 6 spine journals in 2023–2024 were examined. Among these spine journal articles, 25.7% were considered to have significant AI involvement. AI involvement varied significantly across spine journals, ranging from 20.2% for\n Spine (Phila Pa 1976)\n to 31.1% for\n Journal of Neurosurgery: Spine\n (p < 0.01). Likewise, AI involvement varied significantly across the years, with peak utilization at 32.0% at the start of 2023 and plateau in utilization at 20.7% by the second quarter of 2024 (p < 0.01).\n \n \n \n \n AI involvement in drafting manuscripts was observed in 25% of articles in recent spine literature. Although the use of AI has plateaued since mid-2024, likely due to the implementation of clear ethical guidelines and utilization of improved detection tools, continued efforts should be made with the evolving AI landscape to the ensure quality, authenticity, and integrity of spine research.\n",
+    "summary": "",
+    "doi": "10.3171/2025.8.spine25389",
+    "citations": 0
+  }
+]
