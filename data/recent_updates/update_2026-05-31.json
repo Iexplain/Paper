@@ -1,0 +1,1062 @@
+[
+  {
+    "title": "A New Approach on AI-Based Resume Analysis and Feedback System",
+    "authors": [
+      "P. Verma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f1632f0d1be9da2d04a7bbab654ce3110b95ed2d",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Traditional Applicant Tracking Systems (ATS) are based mostly on filtering based on keywords and usually do not\nprovide the semantic meaning, structural quality, and contextual relevance of resumes. Such a restriction causes incorrect\nanalysis of candidates and lower recruitment transparency. In order to deal with these issues, this paper suggests a resume\nanalysis and feedback system based on AI which incorporates all three concepts of semantic similarity, relevance, and heuristic\nstructural analysis into an integrated hybrid framework. This suggested system presents a Hybrid Semantic–Keyboard–Heuristic\n(HSK) scoring split, a hybrid of rule-based and contextual evaluation to offer balanced resume scores. The overall\ncorrespondence between resumes and job descriptions is captured with the help of semantic similarity, and the necessary skills\nare identified with the help of key words matching. The heuristic aspect considers the resume format, completeness and\nreadability. This is an operation that gives a weighted average of these elements to get the final score. Moreover, it will use a\nGemini-based Large Language Model to provide customized section-by-section feedbacks that allow candidates to effectively\namend their resumes. The results of the experiment show better accuracy, interpretability and correspondence with human\nassessment than traditional ATS methods. The suggested system is a clear, understandable, and easy-to-use solution to resume\nevaluation in the current era.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81717",
+    "citations": 0
+  },
+  {
+    "title": "A Multi-Agent Agentic Framework for Autonomous Cloud Infrastructure Monitoring, Anomaly Detection, and Self-Healing",
+    "authors": [
+      "Diddi Siddarth"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ec08bdde5490d5fa15c2f116a2a02c6d1a699c43",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Modern cloud infrastructure management demands continuous vigilance across distributed services, log streams, and\nresource metrics at a scale that overwhelms human operators and rule-based systems alike. This paper presents a novel agentic,\nmulti-tenant platform that deploys seven specialized AI agents—Log Intelligence, Crash Diagnostic, Resource Opti-mization,\nAnomaly Detection, Recovery, Recommendation, and Cost Optimization—coordinated by a central orchestrator. Each agent is\nbacked by large language models (LLMs) accessed through LangChain, supporting pluggable providers including Google\nGemini, OpenAI GPT, Anthropic Claude, and Groq. Asynchronous inter-agent communication is realized via Rab-bitMQ\nmessage queues, real-time state propagation through Redis Pub/Sub, and persistent storage on MongoDB. A statistical logfiltering pipeline reduces raw CloudWatch log volume by up to 98.8% before LLM inference, making the system economi-cally\nviable at production scale. Confidence-gated decision logic governs autonomous recovery actions: high-confidence diagnoses\ntrigger immediate auto-healing, while low-confidence scenarios escalate to collaborative multi-agent analysis or human review.\nExperimental results demonstrate 93.9% anomaly detection pre-cision, 85% recovery action accuracy, and a full-pipeline\nmedian latency of 20.3 seconds from log ingest to completed remediation, establishing our framework as a practical foundation\nfor next-generation AIOps platforms.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82058",
+    "citations": 0
+  },
+  {
+    "title": "Gen-AI Powered Student Academic Analysis System Large Language Models",
+    "authors": [
+      "V. Gavini"
+    ],
+    "link": "https://www.semanticscholar.org/paper/eb034c9707ed7f3158177592235b9ba2248cca9e",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper addresses the challenge of improving student academic outcomes through intelligent performance analysis\nand personalized advisory support aimed at reducing failure rates. The rapid digital transformation of higher education\ndemands academic platforms capable of providing predictive insights and adaptive guidance beyond traditional result-reporting\nsystems. This work presents an AI-driven Student Academic Analysis and Advisory System designed to enable proactive\nacademic monitoring within a multi-role institutional framework.\nThe proposed platform integrates academic performance trend analysis with generative artificial intelligence to deliver forwardlooking academic insights, individualized feedback, and interactive guidance. Implemented using a modular Django-based\narchitecture, the system provides role-based access for students, faculty, and management. Historical academic records—\nincluding semester performance, subject outcomes, and attendance patterns—are analysed to identify performance trajectories\nand detect potential academic risks at an early stage.\nA large language model (Gemini-2.5-flash) is utilized to generate context-aware study recommendations, structured\nperformance evaluations, and real-time chatbot-based academic assistance. The framework further incorporates percentilebased peer comparison, ranking analytics, attendance–performance correlation analysis, and visualization dashboards to\nenhance interpretability and institutional decision support.\nExperimental evaluation using institutional academic datasets demonstrates improved performance awareness and actionable\nAI-generated recommendations. The proposed architecture establishes a scalable foundation for AI-enabled academic advisory\nsystems in modern higher education environments",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81817",
+    "citations": 0
+  },
+  {
+    "title": "Adaptive AI Tutor - An Intelligent PDF-Based Learning System Using Local Large Language Models",
+    "authors": [
+      "Kanimozhi M"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e6f0a44a8db4a45e1585a0936a55df34bb7f7a39",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Personalized learning systems play a vital role in modern education by adapting instructional content to individual\nlearner needs. This paper presents the Adaptive AI Tutor, a web-based intelligent learning platform that leverages locally hosted\nLarge Language Models (LLMs) — specifically Mistral and Qwen2 via the Ollama framework — to deliver an end-to-end,\nprivacy-preserving educational experience. The system enables users to upload PDF documents, which are analyzed to identify\nup to five confusing paragraphs, each assigned a confusion score (0–100) and an understanding level (Low/Medium/High). For\nevery identified area, multimodal explanations are generated comprising textual elaboration, bullet summaries, real-world\nanalogies, visual schemas, and Mermaid.js conceptual diagrams. An adaptive quiz engine generates five-question multiplechoice quizzes with difficulty dynamically adjusted based on confusion score and historical quiz performance. Additional\nfeatures include AI-curated video recommendations, academic resource suggestions, multi-language support (English, Telugu,\nHindi), and per-user persistent document history with session restoration. Built entirely on open-source technologies including\nStreamlit, SQLite3, pdfplumber, and PyPDF2, the system operates fully offline with no cloud API dependency. Experimental\nevaluation confirms effectiveness in delivering contextually relevant, adaptive, and explainable educational content.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.80009",
+    "citations": 0
+  },
+  {
+    "title": "Design and implementation of generative Artificial Intelligence–driven automation for enterprise customer relationship management decision support systems",
+    "authors": [
+      "Fahad Khayyam"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e19b912c3178e4a217d9c9a8a06a999ebddf1a5e",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Global Journal of Engineering and Technology Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid growth of generative artificial intelligence (GenAI) is reshaping enterprise decision support systems, especially in customer relationship management (CRM). Many organizations now use intelligent automation to improve customer interaction analysis, predictive modeling, and managerial decision-making. This study proposes a Generative AI-Driven Automation Framework for CRM Decision Support Systems (GAI-CRM DSS) that integrates large language models, real-time analytics, and enterprise data ecosystems within a unified architecture. The framework supports automated customer insight generation, sentiment analysis, recommendation functions, and adaptive decision support. It also incorporates cloud-based microservices, data pipelines, and explainable AI components to support scalability, transparency, and governance requirements. The framework is examined through simulated enterprise use cases, including sales forecasting, customer segmentation, and customer support automation. The findings indicate improvements in decision accuracy, operational efficiency, and service responsiveness. The proposed framework offers a practical model for organizations seeking to modernize CRM decision support through generative AI technologies.",
+    "summary": "",
+    "doi": "10.30574/gjeta.2026.27.2.0089",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Class Lung Disease Classification Using Google's HeAR Foundation Model and MFCC Features: A Comparative Study of Performance and Data Efficiency",
+    "authors": [
+      "Brighton Mukundwi",
+      "Delvin Tadiwa Vengesai"
+    ],
+    "link": "https://www.semanticscholar.org/paper/da0674bc0f538438e33836b8117ef782ab17833e",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Over 454 million individuals worldwide suffer from chronic respiratory conditions, with low- and middle-income countries bearing a disproportionate burden due to inadequate diagnostic facilities. Although foundation audio models remain underexplored in this field, automated classification of respiratory sounds could support early disease detection at scale. This study evaluates Google's Health Acoustic Representations (HeAR) model for multi-class lung disease classification and directly compares it with conventional Mel-frequency cepstral coefficient (MFCC) features across five classifiers, including SVM, Gradient Boosting, and MLP. Using the Asthma Detection Dataset Version 2, audio was segmented into 3,602 two-second clips, balanced with SMOTE, and evaluated on a stratified held-out test set. Model performance was assessed using training data fractions ranging from 10% to 100% in a data efficiency experiment. The best HeAR-based model, MLP, achieved a macro F1-score of 84.5% and accuracy of 86.4%, while MFCC features combined with Gradient Boosting produced the highest overall performance, with 88% accuracy and 87% macro F1-score. HeAR embeddings consistently outperformed linear classifiers under limited data conditions. At 10% training data, HeAR SVM achieved a macro F1-score of 70%, compared to 55.8% for MFCC SVM. While MFCC features with non-linear ensembles delivered superior peak performance on controlled single-source data, HeAR embeddings produced a more linearly separable feature space, enabling stable classification with less labelled data, making them suitable for resource-limited clinical settings.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.30.2.1459",
+    "citations": 0
+  },
+  {
+    "title": "Security-by-design for large language model platforms in google cloud platform: preventative controls for vertex AI agents with controlled external tool access",
+    "authors": [
+      "Ranjan Kathuria"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9cea2053e3d62f3f34bc2eb0a85968309bccc55",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal of Science and Research Archive"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language model platforms are increasingly integrated into enterprise workflows, where internal artificial intelligence agents assist with tasks such as reviewing digital artifacts, summarizing technical content, and analyzing code, tickets, or documentation; code review with GitHub is one representative example of these patterns. While such systems improve productivity, they introduce new risks involving data exfiltration, over-privileged tool use, prompt injection, secret exposure, incomplete logging, and unauthorized automated actions0.\nThis research addresses the problem of securing an internal platform for large language model-based agents built on Google Cloud Platform using Vertex AI as the model layer and a Model Context Protocol style integration for interacting with external tools such as source control or issue-tracking systems. Following a secure-by-design methodology, the paper proposes a preventative security architecture that applies hard infrastructure, networking, identity, and monitoring boundaries before runtime interactions occur. The proposed design uses VPC Service Controls to place Vertex AI and related Google-managed services inside an API-level service perimeter that reduces data-exfiltration risk, combines Private Service Connect interfaces and egress proxies to keep agent traffic on controlled private paths, applies Identity and Access Management Deny policies to enforce non-bypassable guardrails on sensitive cloud operations, stores all tool credentials in Secret Manager with encryption at rest, and constrains agent behavior through narrowly scoped Model Context Protocol tools that expose only non-destructive actions to external systems.\nIn addition, the architecture centralizes observability by enabling detailed audit, access, and trace logging for large language model calls, network flows, and tool invocations, exporting this telemetry to a security information and event management platform to support detection, response, and quantitative risk assessment. The design is evaluated using a quantitative risk formula based on likelihood and impact, and the results show that the proposed architecture reduces modeled platform risk by approximately 91.33%, indicating that preventative infrastructure, identity, and monitoring controls can materially improve the security posture of enterprise large language model systems",
+    "summary": "",
+    "doi": "10.30574/ijsra.2026.19.2.0992",
+    "citations": 0
+  },
+  {
+    "title": "Comprehensive Survey of Retrieval-Augmented, Knowledge-Graph, and Multimodal Large Language Models for Inclusive Healthcare Guidance: Architectures, Benchmarks, and Clinical Deployment",
+    "authors": [
+      "P. J. Mali"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9ce3324be63f4fc58fde075b5a01906a998e775",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper surveys and compares Retrieval-Augmented Generation (RAG), Knowledge-Graph (KG) en-hanced\nreasoning, and Multimodal Large Language Models (LLMs) within medical contexts. Beyond model accuracy, it emphasizes\ninclusivity, multilingual access, and doctor-in-the-loop feedback. Synthesizing 41 key publications (2018–2025), it covers\narchitectures, datasets, reasoning mechanisms, safety metrics, and future challenges. The goal is to guide design of transparent,\nclinically validated, and equitable AI systems deployable in low-resource healthcare settings.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82260",
+    "citations": 0
+  },
+  {
+    "title": "AI-Powered Civic Issue Reporting and Resolution System",
+    "authors": [
+      "K. Abhirami"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d658fa26e686a32284f90bb2265a28ea845f31db",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Urban local bodies and municipal corporations frequently face challenges in efficiently managing citizen complaints\nrelated to public infrastructure such as potholes, garbage accumulation, broken streetlights, fallen trees, and damaged road\nsigns. Traditional complaint systems relying on telephone hotlines or manual web portal submissions are often slow, errorprone, and opaque. This paper presents an AI-powered web-based civic issue reporting and resolution system designed to\nsimplify and automate the entire complaint lifecycle. Citizens upload an image of an urban problem through a user-friendly web\ninterface; the system applies a custom-trained YOLOv8s convolutional object detection model to automatically identify and\nclassify the issue, and uses the Qwen/Qwen2.5-7B-Instruct large language model to generate a professionally worded\nmaintenance description, eliminating the need for citizens to compose reports manually. On the administrative side, municipal\nofficials access a role-based management dashboard displaying all reported issues with GPS coordinates on an interactive map,\nand can acknowledge, assign, and resolve complaints. Citizens track complaint status in real time through three lifecycle\nstages—Reported, Accepted, and Resolved—ensuring full transparency and accountability. The YOLOv8s model was trained on\na custom dataset of 32,960 annotated images across five urban issue categories and achieved an overall test-set mean Average\nPrecision at IoU 0.50 (mAP50) of 0.787. The platform is built on a React.js frontend, Spring Boot REST API backend,\nPostgreSQL database, and Python AI microservices, accessible from any browser-capable device without installation.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82771",
+    "citations": 0
+  },
+  {
+    "title": "SkyRoad-CutDepth: A Framework for Sky-Aware and Road-Geometric Pretext Learning in Monocular Metric Depth Estimation",
+    "authors": [
+      "Amit Bhoir",
+      "Deepanshu Sharma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d487d38525e1eb4c1c4194d9597be152443bb852",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Monocular metric depth estimation is important for autonomous driving, road-scene understanding, navigation, and\n3D perception from low-cost cameras. Recent foundation models such as Depth Anything V2, UniDepth, UniDepthV2, and\nMetric3D v2 have improved zero-shot generalization and metric depth prediction, while depth-specific augmentation methods\nsuch as CutDepth have shown that training strategies can improve depth learning without destroying object boundaries.\nHowever, dashcam imagery contains a difficult combination of road-plane geometry, horizon and vanishing-point structure, sky\nor infinity regions, and thin foreground objects such as poles, traffic signs, traffic lights, logos, wires, and distant roadside\nstructures. This paper presents a theoretical and qualitative framework called SkyRoad-CutDepth for sky-aware and roadgeometric pretext learning in metric monocular depth estimation. The work is motivated by qualitative outputs from a custom\ndashcam-dataset-trained Depth Anything V2 model with canonical-space transformations. The observations show that global\nroad depth can become more consistent after custom training, but finite foreground objects located near the sky region or\nvanishing point can still be suppressed, partially missed, or assigned invalid depth. The proposed framework combines roadregion priors, sky-region validity, sky-adjacent foreground preservation, boundary-aware losses, and region-guided CutDepth\naugmentation. By integrating these cues into a unified pretext-learning formulation, the framework aims to improve the\ngeometric reliability of metric depth estimation in regions where current foundation models often produce over-smoothed,\ninvalid, or semantically inconsistent depth predictions.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83049",
+    "citations": 0
+  },
+  {
+    "title": "Development of an Automated Question Generator for Undergraduate Computing Courses Using Large Language Modeling Approach",
+    "authors": [
+      "Akintoye A. Onamade",
+      "Ilerioluwa Israel Fagbayike",
+      "Saheed Opeyemi Abioye",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d419faa6a29f8dc33d3d08ad0871f255a55d4d7e",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Global Journal of Engineering and Technology Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study presents the development and evaluation of an Automated Question Generation (AQG) system designed to alleviate the assessment design burden for undergraduate computing lecturers in Nigeria. While Large Language Models (LLMs) have shown promise in educational contexts, a significant research gap exists concerning their application to heterogeneous, locally-authored lecture materials in sub-Saharan African institutions. The research adopted a Design Science Research (DSR) methodology, implementing a four-stage pipeline: dynamic dataset acquisition, client-side data preprocessing, AI-driven synthesis using GPT-4o, and human-in-the-loop validation. The system processed materials from eighteen courses across PDF, DOCX, and TXT formats. A critical technical contribution was a preprocessing layer that remediates file-format artefacts through systematic normalisation and 700-word text chunking. Evaluation by sixteen subject-matter experts on a five-point Likert scale yielded mean scores of 4.6 for Relevance, 4.6 for Clarity, 4.2 for Cognitive Level Accuracy, and an Overall Quality mean of 4.4 (Krippendorff's α = 0.78). With an average generation time of 18.2 seconds, the system is technically viable and pedagogically sound for resource-constrained academic environments.",
+    "summary": "",
+    "doi": "10.30574/gjeta.2026.27.2.0127",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence in Drug Discovery: Transforming Pharmaceutical Research and Development",
+    "authors": [
+      "Rahul Sunil Padvi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d3f3c3e3425085567d878590cbdcd735899ef269",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "AIDD",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial Intelligence (AI) has emerged as a transformative force in drug discovery, addressing the limitations of\ntraditional pharmaceutical research methods. Conventional drug development is a lengthy, costly, and high-risk process, often\ntaking more than a decade with significant financial investment. AI technologies, including machine learning, deep learning,\nand data analytics, enable rapid processing of vast biological and chemical datasets, thereby accelerating the identification of\npotential drug candidates and improving decision-making throughout the discovery pipeline.\nAI applications span multiple stages of drug discovery, including target identification, virtual screening, lead optimization, and\nclinical trial design. By leveraging predictive models and pattern recognition, AI enhances the accuracy of molecular\ninteractions, toxicity prediction, and pharmacokinetic profiling. Furthermore, AI-driven approaches facilitate drug repurposing,\nreducing development timelines and costs. The integration of AI with bioinformatics and cheminformatics has significantly\nimproved efficiency, productivity, and success rates in pharmaceutical research.\nDespite its advantages, the implementation of AI in drug discovery faces challenges such as data quality issues, lack of\ninterpretability, and regulatory concerns. However, ongoing advancements in computational power and algorithm development\ncontinue to overcome these limitations. AI is expected to play a pivotal role in the future of personalized medicine and precision\ntherapeutics, ultimately revolutionizing the pharmaceutical industry and improving global healthcare outcomes.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82792",
+    "citations": 0
+  },
+  {
+    "title": "Genetic Algorithm-based Architecture Search for Structural Pruning of Large Language Models",
+    "authors": [
+      "Dowon Kim",
+      "Jin-Yong Oh",
+      "Jeong-Won Cha"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cfe5aba8c56081ce341b847f27dea8db02a30062",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Journal of KIISE"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/jok.2026.53.5.372",
+    "citations": 0
+  },
+  {
+    "title": "Computational identification of insecticide candidates targeting vitellogenin receptor in Bemisia tabaci using docking and ADMET analysis",
+    "authors": [
+      "Igata David Franklin",
+      "Sheneni Duniya Victor",
+      "E. O. Okpala",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/be86239afd0b5a2a585614f27f2ff297f1786443",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "GSC Biological and Pharmaceutical Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Bemisia tabaci (whitefly) is a major agricultural pest responsible for significant crop losses worldwide, primarily due to its high reproductive capacity and resistance to conventional insecticides. The vitellogenin receptor (VgR), a key protein involved in yolk uptake during oocyte development, represents a promising molecular target for disrupting insect reproduction. In this study, a structure-based in silico workflow was employed to identify potential small-molecule inhibitors of the VgR of B. tabaci. The three-dimensional structure of VgR was obtained using AlphaFold and functionally annotated, identifying the β-propeller domain as the primary ligand-binding region. A library of bioactive compounds, including known insecticides and plant-derived flavonoids, was screened using molecular docking. The top-ranking compounds were further evaluated using in silico ADMET and toxicity prediction tools. Docking analysis revealed that afidopyropen exhibited the highest binding affinity (−9.2 kcal/mol), while several flavonoids, including quercetin (−8.8 kcal/mol), isorhamnetin (−8.7 kcal/mol), and genkwanin (−8.4 kcal/mol), showed comparable interaction strengths. Toxicity profiling, incorporating predicted acute oral LD₅₀ values, indicated that genkwanin (LD₅₀ ≈ 3,919 mg/kg) and isorhamnetin (LD₅₀ ≈ 5,000 mg/kg) possessed relatively favorable safety profiles with low acute toxicity (toxicity class 5). In contrast, afidopyropen (LD₅₀ > 2,000 mg/kg) and quercetin (LD₅₀ ≈ 159 mg/kg) showed multiple predicted organ toxicities, with quercetin indicating higher acute toxicity (toxicity class 3). Among all candidates, genkwanin demonstrated the most balanced profile, combining strong binding affinity with lower predicted acute toxicity and fewer organ-specific risks. Overall, this study highlights the vitellogenin receptor as a viable target for reproductive interference in B. tabaci and identifies genkwanin as a promising lead compound for further experimental validation. The findings support the use of integrated in silico screening strategies in the rational development of safer, more sustainable insect control agents.",
+    "summary": "",
+    "doi": "10.30574/gscbps.2026.35.2.0121",
+    "citations": 0
+  },
+  {
+    "title": "Real Time Traffic Condition Based Smart Signal System",
+    "authors": [
+      "G. Venkateswari"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b008234dec5899df66b9b812c6ad96fd3f686beb",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Intheeraofcrowddeliveryvehiclerouting and traffic management in smart cities, a complex challenge appears\nindistinctly, affecting both developed and developing nationsworldwide.Thischallengingprobleminvolvesoptimizing multi-depot\nroutes while addressing various hurdles: minimizing travel time, distance, fuel consumption, and carbon emissions,all while\nnavigating dynamic traffic congestion across diverse pathways.Existingapproachesoftenfocusonisolatedaspectslike\nshortestpaths,carbonemissions,ortrafficprediction,leavingthe comprehensive multi-depot traffic management problem unaddressed. In response, this research work proposes an Intelligent Multi-DepotVehicleRoutingandManagement(IM-VRM)model\nwhich provides a comprehensive and holistic solution. It employs aGraphNeuralNetwork(GNN)learning-basedroutingwith\nagreedyoptimizationtoestablishinitialoptimalpathways for multi-depot journeys. Subsequently, the IM-VRM model integrates\ntraffic congestion prediction with green parameter computation,engagingtheDijkstraalgorithmtoselectthe mostadmissibleroutes.\nThis consecutive steps-based travel route guidance process optimizes routing for heterogeneous vehicles, including both heavyduty and light-duty types. It accounts for load-dependentfuelconsumption,velocity,andcarbonemissions. By doing so, it simplifies\nthe complexities of multi-depot traffic routing and management. The proposed model has been rigor-ously evaluated using a\nreal-world multi-depot traffic dataset, demonstrating its practical viability. Notably, IM-VRM model achieves a remarkable\nimprovement in fuel savings, reduced carbonemissions,andshortertraveltimeoutperformingprevious state-of-the-art methods in\nboth efficiency and precision.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81829",
+    "citations": 0
+  },
+  {
+    "title": "AI-Driven Multistage Pipeline for Enhanced Student Feedback Analysis using Transformer Models",
+    "authors": [
+      "Parth Shrinivas Ekbote"
+    ],
+    "link": "https://www.semanticscholar.org/paper/aef217e183a49da4d5d2e947851249050b005442",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Student feedback is highly valued, but remains one of the most under-utilized assets within education systems today.\nTraditionally, analyzing feedback has been a manual process that lacks consistency and efficiency, and is often ineffective at\nderiving useful information that can help with faculty improvement. In this paper, we describe an AI-based Student Feedback\nAnalysis System, which is capable of automating the process of feedback classification, summarization, and reporting based on\nuser reviews gathered by coaching institutes. The model used within the system consists of a fine-tuned distilroberta-base\ntransformer, which is trained on an aggregation of different educator review datasets to carry out three-class sentiment\nclassification (positive, negative, and mixed). The class imbalance problem is addressed by balanced sampling and classweighted loss function. After classification, each review is put through a two-step Llama 3.3 70B Large Language Model (Groq\nAPI) pipeline, where they are processed for theme extraction and report structuring. The outcome of the process is a\nprofessionally-looking PDF feedback report that consists of a sentiment distribution chart, key themes, and recommendations.\nOverall, the system achieves a macro-average F1-score of 0.87, improving the recall of the mixed class from 0.00 to 0.82",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82234",
+    "citations": 0
+  },
+  {
+    "title": "Vocal Hire - Real-time AI Recruiter Voice Agent",
+    "authors": [
+      "V. Verma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/acf8ca6cc56d8f9468fdb80fa1c8874510849449",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In today’s world of global recruiting, we’re witnessing a significant evolution from old methods of selecting candidates\nthat are primarily reliant on human inter-vention (and therefore subject to bias) toward a fully automated means of screening\napplicants using a variety of sophisticated technologies designed specifically for the elimination of biasfromthe\nrecruitmentprocess.Inthispaperwe’lldescribethe framework we created for an AI-Based Recruiting Voice Assistant, and how the\nimplementation of this solution allows companies to communicate in real-time with applicants using the spoken word, in a\nhighly scalable Software as a Service (SaaS) model, built with Next.js, Firebase® and Vapi Orchestration\nServices.Theoutcomeofoureffortsisarecruitingpipeline that will leverage the capability of speech-to-text, reasoningbased upon\nlarge language models and text-to-speech; all of this can occur within sub-second response times.Based on extensive empirical\nstudies conducted in the field, the research finds that AI recruitment leads to more efficient hiring, with higher ratesof\nacceptance of job offers [12].",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81778",
+    "citations": 0
+  },
+  {
+    "title": "Towards Intelligent Government Grievance Redressal Systems: A Survey of Computational Methods and System Architectures",
+    "authors": [
+      "Navanidhi D J"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a61ac8e2189d06e6c7ca7114cd3bbeefe037918e",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Citizen grievance redressal has long suffered from systemicinefficienciesrootedinmanualtriage,opaquerout-ing, and\ndelayed resolution cycles. Citizens routinely encounter portals where complaints go unacknowledged, routing decisions remain\ninvisible, and resolution timelines stretch indefinitely, erodingpublictrustingovernanceitself.Asgovernmentsincreas-ingly deal\nwith large volumes of structured and unstructured complaint data, the demand for intelligent automated processing has become\nhard to ignore.\nThis survey examines 20 research papers from 2017 to 2026, tracing the full arc of AI-driven grievance management, from early\nNaive Bayes and SVM classifiers to transformer-based architectures, zero-shot LLM pipelines, Graph Neural Networks (GNNs)\nand blockchain-integrated multimodal frameworks. The analysis reveals a clear technological progression: statistical models\nestablished baseline classification capability but ran into scalability and generalization limits; deep learning methods like\nCNNsandLSTMsimprovedaccuracyatthecostofinterpretabil-ity; transformer models such as BERT and RoBERTa brought\ncomplaintunderstandingfarclosertohuman-levelperformance; and the latest graph-based and multimodal systems have further\nstrengthened civic complaint analysis by capturing relational, spatial, and contextual signals that text-only approaches tend to\nmiss.\nKey findings include the persistent challenge of multilingual support, the absence of standardized public benchmarks, the\nongoing tension between interpretability and performance, and thelargelyuntappedpotentialofLLMsinzero-shotcivic NLP. This\nsurvey identifies critical research gaps and outlines directions for building grievance intelligence systems that are scalable,\ntransparent, and grounded in fairness and inclusivity.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82085",
+    "citations": 0
+  },
+  {
+    "title": "From Machine Learning to Generative Artificial Intelligence in Urology: Technological Evolution and Future Perspectives",
+    "authors": [
+      "Sung-Jong Eun",
+      "Jong Mok Park",
+      "Y. Na"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a5937cc2a818876182f85c5e59b44eec5dc7e405",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "International Neurourology Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial intelligence (AI) is being applied across healthcare, including disease diagnosis, personalized treatment, and rehabilitation management. In urology, AI research has evolved from traditional machine learning to advanced deep learning and generative models. This review categorizes these developments into 3 primary domains. First, machine learning has been applied to mobile-based platforms for continuous urinary health monitoring and personalized healthcare. Second, deep learning- based diagnostic systems have improved the identification of conditions such as prostatic hyperplasia, ureteral strictures, and urinary stones, thereby supporting clinical decision-making. Finally, generative AI, including large language models and vision transformers, is reshaping medical image analysis through data augmentation and expanding patient education through natural language interactions. This review examines integrated applications of AI in urological diseases and discusses current research trends and future prospects for a digital healthcare ecosystem in urology.",
+    "summary": "",
+    "doi": "10.5213/inj.2652134.067",
+    "citations": 0
+  },
+  {
+    "title": "Intelligent Natural Language Programming System: GEN - AN AI Powered Compiler for Translating English Instructions into Executable Code",
+    "authors": [
+      "Nani Gedela"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a51e77fc6913dcea54acbc3ff204a2bce089a738",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Natural language programming has emerged as a promising paradigm for reducing the complexity of software\ndevelopment and making computational systems more accessible to non-expert users. Traditional programming languages\nrequire users to learn complex syntax and semantics, which often act as significant barriers for beginners. To address these\nchallenges, this paper presents the design and development of an intelligent Natural Language Programming Environment\n(NLPE) that enables users to write instructions in English and automatically converts them into executable code.\nThe proposed system integrates Natural Language Processing (NLP) techniques with Large Language Models (LLMs) to\ntranslate human language into a structured domain-specific programming language. An LLM-based parser, implemented using\nOllama (LLaMA 3) and guided by prompt engineering and fewshot learning, ensures accurate and consistent code generation. A\nrule-based interpreter, developed using Flask, executes the generated code in real time, supporting essential programming\nconstructs such as variables, arithmetic operations, conditional statements, loops, and function definitions.\nUnlike conventional AI-assisted coding tools that primarily focus on code generation, the proposed framework emphasizes\ncontrolled execution and deterministic behavior by separating language understanding from execution logic. This design\nimproves reliability, reduces ambiguity, and enhances user trust in generated outputs. Experimental evaluation demonstrates\nhigh accuracy for structured natural language inputs, consistent execution performance, and responsiveness suitable for\ninteractive environments",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81517",
+    "citations": 0
+  },
+  {
+    "title": "Towards Fair and Inclusive AI Education: A Review of Bias in LLM-Based Adaptive Learning Systems",
+    "authors": [
+      "L. Achar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a3268c9f44d5eb5bbcf13c8c6d48b8adffa956fd",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Adaptive learning platforms are undergoing a significant transformation with the introduction of large language\nmodels (LLMs). These models help personalize instruction by interpreting student inputs, offering feedback, and generating\nrelevant learning materials. While this brings tremendous value toeducation,italsoopensthedoortosomeseriouschallenges.\nOneofthemainconcernsisbias.BecauseLLMslearnfrom datacollectedacrosstheinternet,theyoftenabsorbandreplicate stereotype\nsorculturalimbalances foundinthatcontent. These biasescanshowupinthefeedbackstudentsreceiveortheeducational materials\ngenerated, particularly disadvantaging those from non-dominant cultures, regions, or language backgrounds.\nThispaperlookscloselyathowsuchbiasesappearintwo keyareasofadaptivelearning:feedbacksystemsandcontent creation.\nByanalyzing 50recentresearchstudies,wehighlight wheretheproblemslie,howthey’vebeenstudied,andwhat solutions are emerging.\nWe found that the way a student writesorthenametheyusecaninfluencetheresponsestheygetfroman AI.Somestudentsreceiveva\ngueoroverlycriticalfeedback,while othersmaynotseethemselvesreflectedinlearningexamplesatall.\nWe introduce a framework to help make sense of these issues, outlining specific categories of bias and exploring practical ways\nto reduce them. We also review important datasets and suggest tools for simulating diverse student profiles to test how well LLMs\nperform across different backgrounds. There’s a lot of work ahead if we want AI- powered education to be fair and\ninclusive.Butbybridgingthegapbetweentechnicaldevelopment andclassroomrealities,thispaperaimstoguidefutureefforts in\nbuilding systems that treat all learners equally—regardless of who they are or where they come from",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82475",
+    "citations": 0
+  },
+  {
+    "title": "A RAG-Based Approach for Automated Fake News Verification",
+    "authors": [
+      "Venna Chandra Sekhar Reddy"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9fa000f28576cdfb52ae0ff72aa62fe493dd4f0e",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper presents a real-time fake news detection system based on a Retrieval-Augmented Generation (RAG)\nframework integrated with Large Language Models (LLMs). Traditional fake news detection approaches rely on static datasets\nand require frequent retraining, making them inefficient in dynamic information environments. To address this limitation, the\nproposed system leverages live data retrieval from Google News, enabling up-to-date and evidencebased verification.The system\nemploys the all-MiniLM-L6-v2 SentenceTransformer model to generate semantic embeddings of retrieved news headlines and\nutilizes FAISS for efficient similarity search. By comparing user-provided claims with relevant news evidence, the system\ndetermines whether the claim is real or fake. Additionally, a caching mechanism is introduced to store previously retrieved\nresults and model responses, significantly reducing redundant computations and improving response time.To further enhance\nperformance, Particle Swarm Optimization (PSO) is applied to optimize the retrieval parameter (top-k), enabling the system to\nadaptively select the most relevant evidence. Experimental results demonstrate that the system achieves high accuracy,\nparticularly when operating with a smaller number of retrieved documents. The proposed approach is computationally efficient,\nscalable, and capable of delivering near real-time predictions, making it suitable for practical fake news detection applications.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81771",
+    "citations": 0
+  },
+  {
+    "title": "Drug-Drug Interaction Prediction in Polypharmacy Using Graph Learning and Transformer Models",
+    "authors": [
+      "Mayank Tiwari"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8f7f8ecc7a72138cb88c82a0d787e5f356a8af12",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Transformer",
+      "AIDD",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Drug-drug interactions are a significant concern in modern medicine, particularly because of the rising incidence\nof polypharmacy. While numerous computational models have been developed for DDI prediction and extraction, many constraints remain, such as inadequate molecular representation, limited multi-drug context handling, insufficient model interpretability, and insufficient annotated training data. We address these research gaps in the current study and present an integrated framework using graph neural networks, transformer-based NLP models, and data fusion strategies to overcome research\nchallenges. In addition to a critical assessment and theoretical framework of the proposed approach, we focused on the need for\ninterpretability and clinical sensitivity for the development of real-time decision-making or warning-based support systems. Open\nquestions remain around fine-tuning large language models on molecular graph data, building DDI pipelines that slot into live\nEHR systems without disrupting clinical workflows, and establishing evaluation standards that hold across heterogeneous\ndatasets. Until those gaps close, even a well-designed system will struggle to earn the kind of trust that clinical deployment\nactually requires.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82758",
+    "citations": 0
+  },
+  {
+    "title": "AI-Powered Vector Databases: Architecture, Integration Strategies, and Emerging Applications in Intelligent Systems",
+    "authors": [
+      "Vikram Khengare"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8df603ebccb60c7eba2f1d611671caa214b0dea3",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The exponential growth of unstructured data, powered by advancements in deep learning and large language models\n(LLMs), has introduced a compelling demand for specialized storage and retrieval systems. Traditional relational and documentbased databases are fundamentally inadequate for handling high-dimensional vector representations that emerge from modern\nAI models. Vector databases have emerged as a transformative data management paradigm, purpose-built to store, index, and\nquery embedding vectors with high-speed approximate nearest neighbor (ANN) search capabilities. This paper provides a\nthorough examination of vector database architecture, core indexing mechanisms including HNSW (Hierarchical Navigable\nSmall World) and IVF (Inverted File Index), and their seamless integration within AI pipelines. Additionally, the paper explores\nprominent use cases spanning semantic search, recommendation engines, retrieval-augmented generation (RAG), fraud\ndetection, and multimodal AI applications. A comparative evaluation of leading vector database platforms — Pinecone,\nWeaviate, Milvus, Qdrant, and ChromaDB — is presented based on scalability, latency, and ecosystem support. The paper also\nidentifies current limitations and outlines future research directions to advance vector database technology in intelligent systems.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82989",
+    "citations": 0
+  },
+  {
+    "title": "AI-Enabled Intelligent Teacher Robot forAutomated Attendance, Personalized Learning Assistance, and Real-Time Knowledge Retrieval",
+    "authors": [
+      "A. S"
+    ],
+    "link": "https://www.semanticscholar.org/paper/844a87b9d4a6a26feed989ba7b4540eb73db2430",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Traditional classroom management systems impose significant burdens on educators through time-consuming\nmanual attendance processes and the delivery of uniform instructional content that fails to account for diverse student\nlearning trajectories. The proliferation of low-cost embedded computing platforms and advances in on-device machine\nlearning now present a compelling opportunity to address these challenges through physically embodied intelligent\nrobotic systems. This paper presents an AI-enabled intelligent teacher robot that integrates three tightly coupled modules\nwithin a single autonomous platform deployable in undergraduate engineering classrooms. The first module implements\nautomated attendance management using an ensemble of VGG-Face and FaceNet deep embeddings computed via the\nDeepFace framework, achieving a face recognition accuracy of 97.6% across 1,350 recognition events with a false\nacceptance rate of 1.2% and a false rejection rate of 1.8% at a processing latency of 112 milliseconds per frame. The second\nmodule delivers personalized learning assistance through an adaptive difficulty engine that constructs longitudinal\nstudent performance profiles encompassing quiz scores, response latency, topic engagement, and difficulty rating and adjusts\ninstructional content dynamically; experimental evaluation across 45 undergraduate students over six weeks demonstrated a\nstatistically significant post-test learning gain of 21.4% in the experimental group versus 9.7% in the control group (p <\n0.01), together with a 34% increase in voluntary student engagement. The third module provides real-time knowledge\nretrieval through a Retrieval-Augmented Generation (RAG) pipeline that combines Vosk offline speech recognition,\nFAISS-indexed sentence-transformer embeddings, and a 7-billion-parameter quantized large language model, achieving a\nretrieval accuracy of 94.3%— substantially outperforming a standalone LLM (78.9%) and keyword-based retrieval (62.4%)—\nat a mean response latency of 1.8 seconds. All inference is executed entirely on-device on a Raspberry Pi 5 without cloud\ndependency, making the system accessible and privacy-preserving. The proposed architecture demonstrates that\nintegrated, physically embodied AI tutoring robots are technically feasible, educationally effective, and deployable\nwithin resource-constrained institutional settings.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82068",
+    "citations": 0
+  },
+  {
+    "title": "A Review on Artificial Intelligence in Pharmacy",
+    "authors": [
+      "Shishikant Hanmant Masal"
+    ],
+    "link": "https://www.semanticscholar.org/paper/835e900191bf8df4bf0c6fe2e04c8267f310e941",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "AIDD",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial Intelligence (AI) is one of the fastest growing technologies in healthcare and pharmaceutical sciences. AI\nrefers to computer systems that can perform tasks which normally require human intelligence such as learning, problem solving,\ndata analysis, prediction, and decision making. In pharmacy, AI is transforming drug discovery, drug development,\nmanufacturing, patient care, pharmacovigilance, hospital pharmacy services, and clinical research. The pharmaceutical\nindustry produces large amounts of data from research laboratories, hospitals, clinical trials, and patient records. AI technologies\nsuch as machine learning, deep learning, natural language processing, robotics, and predictive analytics help to analyze these\nlarge datasets accurately and quickly. AI improves efficiency, reduces human errors, decreases research costs, and accelerates\nthe development of new medicines. This review explains the role, applications, advantages, limitations, and future prospects of\nAI in pharmacy.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82593",
+    "citations": 0
+  },
+  {
+    "title": "TumorLens: AI-Based Brain Tumor Detection Using YOLOv8",
+    "authors": [
+      "Ashish Sanjay Phalle"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8217b0be5b2532a9a47706bf2c087cd7b45be526",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Brain tumors represent one of the most critical and life-threatening neurological conditions, requiring early detection\nfor improved treatment outcomes. Manual MRI analysis remains the primary diagnostic tool, but it is slow, subjective, and\ndepen- dent on radiological expertise. To address these limitations, this paper presents TumorLens, an end-to-end intelligent\ndiagnostic platform that integrates YOLOv8 deep learning architecture for tumor detection, MERN stack for scalable\ndeployment, Python-based inference services, and Large Language Model (LLM)–assisted diagnostic summarization. The\nsystem enables users to upload MRI scans through a secure web interface, where real-time preprocessing, feature\nextraction, and detection pipelines are executed to localize tumor regions with bounding boxes and confidence scores. The\nLLM further interprets detec- tions into a human-understandable diagnostic report, making the analysis accessible to\nnon-experts. Designed as a cloud- ready medical support tool, TumorLens demonstrates high us- ability, interoperability,\nand performance. Experimental findings indicate significant reduction in diagnostic latency, enhanced interpretability, and\nimproved detection accuracy. This survey paper provides a comprehensive overview of TumorLens, its architecture,\nsupporting technologies, and the associated research foundations that underline its contribution to AI-driven medical imaging",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81672",
+    "citations": 0
+  },
+  {
+    "title": "Data-Driven Clinical Decision Support Framework for Automated Pneumonia Detection",
+    "authors": [
+      "Tejonidhi M R"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7fe55124a24153ea870ee99e82b54240b0425516",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Pneumonia remains one of the leading respiratory diseases responsible for high mortality worldwide, particularly\namong children, elderly individuals, and immunocompromised patients. Chest X-ray imaging is widely used for diagnosis\nbecause of its affordability and accessibility; however, manual interpretation is time-consuming and highly dependent on radiological expertise. Recent advancements in Artificial Intelligence (AI) and deep learning have enabled automated pneumonia\ndetection systems capable of assisting clinicians in medical image analysis.\nThis paper presents a comprehensive survey and a proposed Data-Driven Clinical Decision Support Framework for auto-mated\npneumonia detection using chest X-ray images. Existing Convolutional Neural Network (CNN) architectures demonstrate strong\nlocal feature extraction capabilities but often fail to capture long-range contextual dependencies. Transformer-based\narchitectures improve contextual understanding but introduce high computational complexity and increased dataset requirements. Recent hybrid CNN–Transformer frameworks attempt to combine both local and global feature learning for improved\ndiagnostic performance.\nBased on the identified research gaps, a hybrid framework integrating DenseNet, Swin Transformer, and CBAM attention\nmechanisms is proposed. The framework also incorporates Ex-plainable Artificial Intelligence (XAI) techniques such as GradCAM and LIME to improve interpretability and physician trust. Furthermore, a Large Language Model (LLM)-based reporting\nmodule is introduced to generate automated clinical summaries and diagnostic explanations. The proposed framework aims to\nimprove prediction accuracy and contextual understanding while enhancing interpretability and clinical assistance. The work\nfocuses on integrating hybrid deep learning, Explainable AI, and LLM-based clinical reasoning into a unified clinical\ndecision support framework",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82986",
+    "citations": 0
+  },
+  {
+    "title": "A Survey on AI-Powered Adaptive Learning Using Concept Mapping and Grounded Response Generation Technology",
+    "authors": [
+      "P. C"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7912d9997415814f45f520a0554d54ff55e2bd24",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The proliferation of digital educational resources has intensified the demand for intelligent systems capable of\nunderstanding, organizing, and presenting knowledge in ways that align with individual learner needs. Conventional e-learning\nenvironments continue to rely on passive content delivery mechanisms, including static document repositories, manualrevision\nscheduling,andkeyword-basedretrieval,allof which failtocapturethesemanticstructureofa subject domain or the evolving\nretention state of a learner. This survey systematically examines the theoretical and technical foundations underlying intelligent\nadaptive learning, spanning Concept Graph construction, retrieval-supported generation, dense vector search, neural knowledge\ntracing, spaced-repetition scheduling, and AI-driven tutoring. Building on this review, the paper introduces Neuroweave, a\ncomprehensive adaptive learning framework that ingests uploaded educational documents, extracts domain concepts, and\norganizes them into a living Concept Graph. Memory retention is quantified per concept through theNeuroweave Adaptive\nMemoryAlgorithm (NAMA), which weighs review frequency, quiz performance, graph-level reinforcement from connected\nconcepts, and time-based exponential decay. Grounded question answering is delivered by coupling large language model\ngeneration with vector retrieval over thelearner's own studymaterial, ensuring factual accuracy and source transparency. The\npaper presents the architectural design, component interactions, algorithmic formulation, comparative analysis against related\nliterature, identified limitations, and directions for future research.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81894",
+    "citations": 0
+  },
+  {
+    "title": "Fine-Tuning Large Language Models for Automatic Sentence Generation in Augmentative and Alternative Communication",
+    "authors": [
+      "Youngwoo Choi",
+      "Youngsun Lee",
+      "Bowon Lee"
+    ],
+    "link": "https://www.semanticscholar.org/paper/77e51f6c1b16eb933450b5fa5548f9e4e084c7db",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Journal of KIISE"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/jok.2026.53.5.401",
+    "citations": 0
+  },
+  {
+    "title": "Open AGI - Multi-Agent Automation Framework for AI-Orchestrated Software Development",
+    "authors": [
+      "M. Patil"
+    ],
+    "link": "https://www.semanticscholar.org/paper/691ffc7304774db036419541ed456373a8a72a69",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The quick growth of Artificial Intelligence (AI) and Large Language Models (LLMs) has sped up the creation of\nautonomous systems that can handle complex tasks similar to those performed by humans. Even with these improvements,\nsoftware development still requires a lot of human effort, teamwork, and industry knowledge. This paper introduces Open AGI, a\nMulti-Agent Automation Framework designed for AI- managed software development. In this system, several intelligent agents\nwork together to turn natural language requirements into complete software solutions that can be deployed. Each agent in Open\nAGI has a specific role, such as Product Manager, Architect, Developer, and Quality Analyst, and follows set Standard Operating\nProcedures (SOPs) to ensure consistency, accuracy, and reliability throughout the development process.\nThe survey reviews current multi-agent and LLM-based frameworks like AutoGPT, LangChain, and MetaGPT, pointing out\ntheir strengths and weaknesses in automating software engineering tasks. By comparing these systems, the paper highlights the\nresearch gap that Open AGI fills: the lack of a combined, role-based automation framework capable of managing the entire\nsoftware development process using AI management. This new approach not only simplifies project execution but also\nencourages scalability, flexibility, and less reliance on human input in software creation.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.80037",
+    "citations": 0
+  },
+  {
+    "title": "HASC: Heterogeneity-aware Scheduling and Communication for Large Language Model Inference",
+    "authors": [
+      "Huize Hong",
+      "T. Han"
+    ],
+    "link": "https://www.semanticscholar.org/paper/630bfeb92a47da1816f112021049d3a71e28b3b1",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Journal of the Institute of Electronics and Information Engineers"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5573/ieie.2026.63.5.40",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation",
+    "authors": [
+      "S. Khan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/625a1cefe499a2cde59e0c643cf98650c92b0822",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Knowledge graphs (KGs) hold facts about the world as connected triples, and they have become a backbone for any\nsystem that needs to reason over linked information. The task of Knowledge Graph Question Answering (KGQA) is to map a\nnatural-language question onto the right entity, or set of entities, somewhere inside such a graph. Two communities have been\npulling at this problem from opposite ends. Large language models (LLMs) read a question fluently but tend to invent facts\nand stumble on multi-hop chains they cannot verify. Graph neural networks (GNNs), on the other side, are good at walking\nthrough neighbourhoods and weighing relations, but cannot phrase an answer the way a person would. In this work, we\ndescribe a practical hybrid that places the two inside a retrieval- augmented generation (RAG) loop. A GNN first prunes a\nsmall subgraph around the question's seed entities and ranks candidate answers; we then extract shortest paths between the\nseeds and the top candidates, score each path with a lightweight function that combines GNN attention with degree\ncentrality, and finally verbalise the surviving paths into plain-English sentences before passing them to a 7-8B open-source\nLLM. The proposed entity-priority scoring step is training-free and runs in milliseconds, yet it lifts Hits@1 by roughly\n4-5 percentage points on the harder questions of ComplexWebQuestions. Experiments on WebQuestionsSP and\nComplexWebQuestions show competitive or superior results against recent baselines, with the largest gains on multi-entity and\nthree-or-more hop queries. The pipeline uses about one LLM call per question, runs comfortably on a single mid-range GPU, and\nexposes its reasoning as a short list of human-readable paths that anyone can audit. We argue that this combination of grounded\nretrieval, lightweight path scoring, and modest model size makes the approach particularly suited to academic and resourceconstrained settings.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82233",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid Verification Systems for Misinformation Detection: A Framework-Based Analysis",
+    "authors": [
+      "Legesse Yeabsira Mesfin"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5d8eea7c1fa845a79e429f637693ee1599111138",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Misinformation detection has often been formulated as a classification problem in which a model assigns a label such\nas fake, real, manipulated, or AI-generated to a piece of content. That formulation is increasingly inadequate. Contemporary\ninformation disorder involves human-written false claims, machine-generated but accurate text, authentic media used out of\ncontext, synthetic media that does not express a false claim, and retrieval systems that can produce fluent but poorly grounded\nrationales. This paper presents a framework-based analytical review of hybrid verification systems for misinformation detection.\nHybrid verification systems are defined as systems that combine two or more verification functions, including content\nclassification, provenance analysis, claim decomposition, evidence retrieval, multimodal consistency checking, uncertainty\nestimation, and human review. Drawing on automated fact-checking, fake-news detection, large language model, multimodal\nmisinformation, provenance, and human-in-the-loop research, the paper argues that robust verification should not collapse\nauthorship, authenticity, evidence quality, and truth into a single label. It proposes a four-check framework for evaluating\nwhether a system is provenance-aware, claim-specific, evidence-sensitive, and review-ready. The analysis shows that the\nstrongest systems are not necessarily those with the highest standalone classification accuracy, but those that expose the\nevidence path through which a claim is judged, distinguish evidence confidence from verdict confidence, handle insufficient\ninformation, and provide reviewers with inspectable reasons for action. The framework is intended to support more precise\nevaluation of hybrid systems and to clarify where technical progress is still needed.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82563",
+    "citations": 0
+  },
+  {
+    "title": "Improving Large Language Model Responses Using Shot-Oriented Learning",
+    "authors": [
+      "Dr. M. Venu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5706f3af44e735a6535e1f23ad7567108e938832",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "All shot-based learning techniques are very much useful for train the models just with a small number of datasets. The\nmodels are trained by large datasets always producing a better result but it is very challenging, tough or expensive task to\ncollecting the large datasets. So, with the help of prior knowledge and small datasets, all these learning approaches providing\nbenefits to different domains like Natural Language Processing (NLP), robotics and image recognitions. All these learning\napproaches faced a lot of challenges because of the complexity of their learning process with a small dataset and it leads to in\naccurate results and it is also toughest job to generalize unseen data. So, this research work aims to educate the end users with\ndifferent query formats while their interaction with ChatGPT and also enhancing the model’s accuracy by adopting techniques\nlike transformers and fine-tuning. Each shot-based approach provides different types of levels of accuracy that is totally\ndepending upon user’s request, but N-shot learning approach always produced better result consistently when compared to other\nlearning approaches. By utilizing well-structured query formats helps to the end users to get more effective and accurate\nresponses from AI models like ChatGPT with N-shot learning approach.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82782",
+    "citations": 0
+  },
+  {
+    "title": "Offline Retrieval-Agumented Generation for Secure Document Intelligence",
+    "authors": [
+      "P. Pravallika"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5635f4a8a8c9292bdf54615038382f2ac428c725",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Retrieval-Augmented Generation (RAG) has been identified as an effective way to achieve the context accuracy of\nLarge Language Models (LLMs) through the incorporation of knowledge retrieval systems. However, the vast majority of the\nexistingRAG-basedsystemshavereliedoncloudservicestoboost theperformanceofthemodel.Thishasledtosignificantconcerns\nregardingtheissueofdataprivacyandconfidentiality.Thispaper, therefore, aims to introduce an Offline Retrieval-Augmented\nGeneration model to boost the security and confidentiality of the document intelligence process. This model will process PDF\ndocuments offline and utilize the light transformer-based embeddingmodeltocreatethesemanticembeddingandstoreitin the vector\ndatabase. \"Retrieval-Augmented Generation\" has proveditselfasanefficientmethodforimprovingtheaccuracyof contextinLarge\nLanguageModels.However,mostoftheexisting Retrieval-Augmented Generation-based systems are utilizing\ncloudservicesforimprovingtheefficiencyofthemodel.However, it is causing a major concern regarding the privacy and\nconfidentialityofthesystem. In orderto improvethesecurityand confidentiality of the document intelligence system, this paper\nfocuses on introducing an \"Offline Retrieval-Augmented Generation\" model. In this method, a PDF document will be processed\noffline using a lightweight transformer-based embedding model.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81658",
+    "citations": 0
+  },
+  {
+    "title": "Cyber-Mediation in Interfaith Disputes: The Malaysian Context",
+    "authors": [],
+    "link": "https://www.semanticscholar.org/paper/53689e489dae1451fabdde02b7eb994a9d256224",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Asian Journal of Research in Education and Social Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Malaysia’s multicultural and multireligious composition presents both opportunities and challenges for sustaining social harmony in the digital age. With the growing prevalence of online interaction and interfaith discourse on social media, the emergence of cyber-mediation offers a timely innovation in conflict resolution. Although Malaysia’s Mediation Act 2012 and existing sulh mechanisms within the Shariah courts have institutionalised face-to-face mediation, a significant research gap remains regarding a specialized framework for interfaith dispute management within the Online Dispute Resolution (ODR) ecosystem. Existing models are primarily designed for intra-religious settings and do not adequately address the cross-cultural sensitivities and digital ethical protocols required for interfaith conflicts. This study explores the conceptual and practical dimensions of cyber-mediation as an ethical, inclusive and digitally competent framework for Malaysia. Employing a qualitative descriptive design and document analysis of official Syariah Court guidelines and indexed scholarly literature, the study utilizes thematic analysis to derive its findings. The findings identify seven interrelated dimensions: (1) mediator’s role as neutral facilitator and spiritual guide; (2) digital process integrity; (3) ethics and confidentiality; (4) digital literacy and mediator competency; (5) user experience and satisfaction; (6) implementation challenges; and (7) social impact and restorative justice. Collectively, these dimensions emphasise the integration of religious ethics such as amanah, ihsan, and ‘adl, with professional standards and technological efficiency. The study concludes that cyber-mediation, grounded in faith-based ethics and supported by secure digital infrastructure, can serve as a transformative instrument for restorative justice, social reconciliation and interfaith peacebuilding in Malaysia’s plural society. The proposed framework offers a foundational model for policymakers and religious institutions seeking to institutionalise ODR-based mediation within Malaysia’s digital justice ecosystem.",
+    "summary": "",
+    "doi": "10.55057/ajress.2026.8.5.9",
+    "citations": 0
+  },
+  {
+    "title": "The Impact of Demographic Attributes on the Ethical Judgment of Korean Large Language Models",
+    "authors": [
+      "Hyeran Kang",
+      "Mirae Han",
+      "Harksoo Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/52a2560fd8adcd342272bbec14be9adbce720197",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Journal of KIISE"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/jok.2026.53.5.412",
+    "citations": 0
+  },
+  {
+    "title": "LLM-Driven NPC Interaction for Enhanced Immersion in Videogame Environments",
+    "authors": [
+      "Viraj Zende"
+    ],
+    "link": "https://www.semanticscholar.org/paper/51b3d9eb2a5431f210f1b79dc8d8fe807f40c55c",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This research aims to incorporate large language models (LLMs) in the real-time gaming experience, adding depth to\ngameplay mechanics and enhancing player immersion through rich dialogue. In existing videogames, non-player character\n(NPC) interactions are mostly static due to their scripting and simple state machine logic. In this research, we showcase a sample\nvideo game environment populated by three different kinds of NPCs powered by AI: (1) an NPC merchant with the ability to\ndynamically negotiate prices, (2) a task giver who can create contextually relevant tasks for the player, and (3) a NPC storyteller\nwho can share lore-related stories based on a pre-made knowledge document. All NPCs communicate using predefined prompts\nand responses generated by a large language model. The implemented system consists of dialogue handling, user interface\nintegration, prompt engineering, and external models communication modules. The results indicate a significant improvement\nin realism when using AI-powered dialogue compared to statically defined ones.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82707",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid neural model for Hausa text auto completion: addressing data scarcity for a low-resource language",
+    "authors": [
+      "Abubakar Safiyanu",
+      "Buhari Aliyu",
+      "H. Aminu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b5cc0796938ee22e80131792bda49547db579c5",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Hausa language, a major linguistic vehicle for over 70 million people in West Africa, remains critically underserved by contemporary Natural Language Processing (NLP) technologies, exacerbating the digital divide. This paper presents the design and evaluation of a dedicated neural text autocomplete system to address this gap. Confronting the fundamental challenge of data scarcity, we developed a hybrid corpus of 50,000 sentences, merging authentic Hausa text with algorithmically generated sentences created via a rule-based generator. For prediction, we implemented a stacked Long Short-Term Memory (LSTM) neural network, enhanced with a large language model (LLM) fallback mechanism for robustness. The system achieved a Top-1 accuracy of 92.4% and a Top-5 accuracy of 98.6% on a held-out test set, significantly outperforming traditional trigram (Top-3: 82.5%) and simple RNN (Top-3: 89.1%) baselines. A user study with 30 Hausa speakers confirmed its practical utility, demonstrating a 35% average increase in typing speed and a 91% acceptance rate for the primary suggestion. This work provides a reproducible framework for developing NLP tools in low-resource settings, introduces a novel hybrid dataset for Hausa which we publicly release, and delivers empirical evidence of tangible benefits for users. Our findings offer a scalable blueprint for enhancing digital inclusivity for underserved language communities.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.30.2.1199",
+    "citations": 0
+  },
+  {
+    "title": "A Comparative Study of Small Language Models for Resource?Constrained AI Systems",
+    "authors": [
+      "Omkar Sanjay Pomendkar",
+      "Deepanshi Thakur"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b358fca55dce8ae888eba3e9c6a190938d721a0",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) have achieved remarkable success in natural language processing tasks, but their\ndeployment requires high computational resources, large memory capacity, and significant energy consumption.\nThese limitations make them unsuitable for deployment on resource‑constrained devices such as mobile phones,\nembedded systems, and Internet of Things (IoT) devices. Small Language Models (SLMs) provide an efficient alternative\nby reducing the number of parameters while maintaining acceptable performance across many NLP tasks.\nThis paper presents a comparative study of several small language models including Phi‑3 Mini, Gemma, TinyLlama,\nand StableLM. The research analyzes architectural design, parameter efficiency, computational cost, and inference\nperformance for deployment in constrained environments. The study highlights advantages of model compression\ntechniques such as quantization, pruning, and knowledge distillation in improving efficiency without significantly\naffecting accuracy. Experimental analysis and literature insights indicate that SLMs provide a practical balance\nbetween performance and efficiency for edge‑based AI systems",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82681",
+    "citations": 0
+  },
+  {
+    "title": "A Deep Learning Model for Predicting Essential Proteins Based on Attention Mechanism in Computational Genomics",
+    "authors": [
+      "S. Rajarajeswari"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4473644c8a34b5188cb05c3f777e4a0f9253973a",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "AIDD",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Identifying essential proteins is a critical task in computational genomics, with implications in drug discovery, disease\nunderstanding, and systems biology. Traditional experimental methods are expensive and time-consuming, necessitating\ncomputational approaches for efficient prediction. This study proposes a deep learning-based framework integrating attention\nmechanisms to predict essential proteins using protein-protein interaction (PPI) networks and sequence-based features. The\nmodel leverages a hybrid architecture combining Convolutional Neural Networks (CNN), Bidirectional Long Short-Term\nMemory (BiLSTM), and attention layers to capture both local and global dependencies. Experimental results demonstrate that\nthe proposed model significantly outperforms baseline machine learning and deep learning models in terms of accuracy,\nprecision, recall, and F1-score. The attention mechanism enhances interpretability by identifying biologically relevant features\ncontributing to essentiality.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82004",
+    "citations": 0
+  },
+  {
+    "title": "A Survey on Assistive Vision Technologies for Visually Impaired Individuals: Approaches, Techniques, and Future Directions",
+    "authors": [
+      "Sahil Pramod Warade"
+    ],
+    "link": "https://www.semanticscholar.org/paper/32bdc7419611f6187c25b9a6aee4d85659c708e2",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This survey reviews advances and deployment strategies for assistive vision systems that combine continuous on-device\nobject detection with selective, high-fidelity scene segmentation and succinct audio narration. We synthesize evidence\nconcerning mobile-optimized detectors (including YOLO family and recent YOLOv8 variants), promptable segmentation\nfoundation models (SAM and SAM2), vision-language approaches for narration, and hybrid on-device/edge/cloud architectures\nthat trade latency, privacy and capability. We discuss datasets captured by visually impaired users (VizWiz family, ORBIT),\npropose evaluation metrics beyond classical mAP (latency, answerability, safety- critical misses), and identify open problems and\nnear-term re- search directions for making hybrid detection–segmentation–TTS pipelines practical.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.80312",
+    "citations": 0
+  },
+  {
+    "title": "AI Content Writer & Summarizer (MirageAI)",
+    "authors": [
+      "Sahil Patel"
+    ],
+    "link": "https://www.semanticscholar.org/paper/291e1a128beefe853c3699f5970990cb92793264",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid evolution of large language models (LLMs) has enabled the development of intelligent applications capable\nof natural language understanding and generation. MirageAI is a modern AI-powered web application that provides multiple\nintelligent tools including chat, summarization, translation, and text improvement. The system is built using ReactJS, FastAPI,\nand PostgreSQL, and integrates Groq API for high-speed AI responses. The application ensures secure authentication, scalable\narchitecture, and real-time interaction, offering a unified platform for AI-driven productivity.\nMirageAi is a Ai powered Chatbot with some additional features like Summary, Translation, Prompt improvement all in one\nplatform. The main objective of MirageAi is to provide these features in a single platform for access which makes it more\nproductive and efficient. Unlike conventional tools that offer isolated features, MirageAI focuses on unifying these capabilities\nto improve accessibility and workflow efficiency.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81902",
+    "citations": 0
+  },
+  {
+    "title": "From default output to guided translation: Effect of prompt engineering on AI literary translation quality",
+    "authors": [
+      "Cheryl Amaka Udogu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/28f7e66bf7ae8c725f61ae7bbaa3c2c4c8449e34",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal of Science and Research Archive"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) are developing tools for literary translation thanks to breakthroughs in artificial intelligence (AI), but their default outputs frequently fail to capture the stylistic and aesthetic elements of literary texts. This work investigates the use of rapid engineering as mediating method for increasing the quality of AI generated literary translation. Using extracts from selected literary text, the study compares AI outputs to prompt guided translations, focusing on semantic fidelity, stylistic coherence, imagery and tone. The approach, which is based on descriptive translation studies and literary stylistics, examines how focused prompting can affect translation outcomes. The findings show a higher semantic and stylistic correctness in prompt-guided translation with the source text. The paper argues that prompt engineering is a significant type of human intervention in AI-assisted translation, establishing the active role of a human translator in shaping the translational intent rather than just a post-editor.",
+    "summary": "",
+    "doi": "10.30574/ijsra.2026.19.2.1044",
+    "citations": 0
+  },
+  {
+    "title": "Crop Yield Prediction and Disease Detection",
+    "authors": [
+      "A. Vinod"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2214122b6433d41fdc58b4a553ea6d187cedcd53",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Agriculture plays a vital role in ensuring food security and economic sustainability, yet it faces significant challenges\nsuch as climate variability, pest infestations, and plant diseases that adversely affect crop productivity. This paper proposes an\nintelligent agricultural management system that integrates machine learning and deep learning techniques for crop yield\nprediction, plant disease detection, and crop recommendation. A hybrid approach using SARIMAX and XGBoost models is\nemployed for crop yield prediction by capturing both temporal patterns and nonlinear relationships in environmental and\nhistorical data, including rainfall, temperature, and location-specific factors. For disease detection, YOLOv5 is utilized to accurately\nidentify and localize diseases in leaf images, while a Large Language Model (Groq) is used to generate detailed explanations and\ntreatment recommendations.The system incorporates a weather analysis and crop recommendation module that provides short-term\nweather forecasts and suggests suitable crops based on environmental conditions. A user-friendly chatbot powered by a Large\nLanguage Model enables farmers to interact with the system, upload images, and receive real-time guidance. The proposed\nsystem offers a scalable and automated solution for precision agriculture, enhancing decision-making, reducing crop losses, and\npromoting sustainable farming practices",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81934",
+    "citations": 0
+  },
+  {
+    "title": "Exploring Transformer-based LLMs Models, Applications, and Challenges in Law: A Survey",
+    "authors": [
+      "P. Lai",
+      "L. Liao",
+      "Jie Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1e58957fd2771c924f84ea7c1f758dbc4b511ab1",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Journal of Internet Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Transformer-based Large Language Models (LLMs) have rapidly advanced the state of natural language processing, offering powerful capabilities in understanding text, and automating drafting. Given that law is a text-driven domain, such models transform workflows in legal practice. This survey provides a comprehensive overview of 80 publications on Transformer-based LLM classes and their datasets in the legal domain. It simplifies the categorization of these models into three groups: general Transformer models, legal (domain-specific) LLMs, and task-specific models. For general models, we examine the encoder-only, decoder-only, and encoder–decoder structure, as well as domain-specific and commercial legal LLMs. We also provide legal datasets for LLM training and evaluation and identify open challenges and research directions that enhance deployment. By reviewing current Transformer model applications and limitations, this survey provides a task-based view of legal LLM classes and performance, in order to better understand the application implications for natural language processing and legal researchers, and future directions for legal LLMs to become effective and reliable tools for client-centred service and judicial economy.",
+    "summary": "",
+    "doi": "10.70003/160792642026052703003",
+    "citations": 0
+  },
+  {
+    "title": "NEIL: Design of an AI-Driven Multi-Agent System for Accounts Payable Automation",
+    "authors": [
+      "Amaan Khan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1e10a9dc58cc019526db43250b12e5c3ec081cfb",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accounts payable (AP) departments continue to rely on template-based optical character recognition tools, manual\ndata entry with five-to-ten-per-cent error rates, and rule-based engines that scale poorly across vendors, languages, and tax\njurisdictions. This paper presents the design of NEIL (Next-Generation Enterprise Invoice Learning), an AI-driven multi-agent\nplatform built on a microservices architecture for end-to-end AP automation. The system separates concerns into two\ncooperating services: an Agent Service (Eddie) built on FastAPI and LangGraph that hosts specialised state-machine agents for\ndocument preprocessing, template-agnostic extraction using multimodal Large Language Models, validation with semantic\nmatching, and tax-code mapping; and a Workflow Service (Neil) built on Django REST Framework, PostgreSQL, and Celery\nthat handles multi-channel ingestion, invoice lifecycle, configurable approval routing, audit trails, and ERP integration. We\ndescribe the service decomposition, the inter-service REST contract, the Django app structure, the Celery task-queue topology,\nand the Kubernetes deployment posture that together enable straight-through processing. The architecture is positioned against\nthe limitations of monolithic legacy AP platforms and is shown to support independent scalability, swappable AI providers,\nconfiguration-driven workflows, and observable agent state.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82698",
+    "citations": 0
+  },
+  {
+    "title": "MediKitAI: A Multimodal Multi-Agent AI System for Intelligent Emergency Healthcare Assistance",
+    "authors": [
+      "M. Patil"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1744bfafd921230a8ed483083ca09531b35784b6",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Timely decisionmaking and immediate intervention are critical in medical emergencies to prevent severe\ncomplications or loss of life. However, in many real-world scenarios,particularly in rural areas of developing countries,the\nabsence of prompt medical guidance and limited access to healthcare facilities often result in delayed or inappropriate\nresponses. To address these challenges, this paper presents MedikitAI, an artificial intelligence–driven emergency healthcare\nassistance system designed to provide real-time first-aid guidance, emergency classification, and hospital recommendations prior\nto professional medical intervention.\nThe proposed system integrates Large Language Models, a multi-agent architecture, and computer vision techniques to deliver a\ncomprehensive and intelligent emergency response framework. Users can input symptoms through natural language text or\nupload images depicting visible injuries such as burns or lacerations. Multiple specialized AI agents collaboratively process the\ninput to analyze the condition, generate step-by-step first-aid instructions, and identify nearby hospitals and medical\nprofessionals using Global Positioning System-based services. Experimental results demonstrate that the proposed system\nachieves an average accuracy of approximately 85%, indicating its effectiveness in supporting timely and informed\ndecisionmaking during critical situations.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82950",
+    "citations": 0
+  },
+  {
+    "title": "AI-Driven Career Intelligence and Job Fraud Detection Platform Using Machine Learning and Natural Language Processing",
+    "authors": [
+      "NathishKumar S"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1680995ec67a17b5da5d3ee5dd64eb863de9d3fb",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid proliferation of online recruitment platforms has significantly increased career exploration opportunities but\nhas simultaneously exposed users to sophisticated employment scams. Traditional career guidance systems often provide static\nrecommendations that fail to account for individual personality nuances or the security vulnerabilities present in the modern job\nmarket. This paper presents AegisPath, an AI-driven platform that integrates vocational synthesis with employment threat\nintelligence under a unified framework. The system utilizes an MBTI-based psychometric assessment engine to computationally\nderive personality types and generate personalized 6-month career roadmaps enriched with real-time India 2025 salary\nbenchmarks. Simultaneously, it deploys an 8-signal Natural Language Processing (NLP) fraud detection engine that evaluates\njob postings for linguistic manipulation indicators, fee-extraction patterns, and URL legitimacy signals. The Career Intelligence\nEngine leverages a Large Language Model (LLM) backend with a Naive Bayes-grounded classification layer and content-based\nfiltering to produce explainable, ranked career recommendations. Experimental evaluation on 140 student respondents\ndemonstrated an overall recommendation accuracy of 88.6% and a fraud detection precision of 91.3%, with user satisfaction\nexceeding 86% across coverage, novelty, and diversity metrics. AegisPath is the first platform to simultaneously address the\nGuidance Gap and the Security Gap in online vocational systems.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82179",
+    "citations": 0
+  },
+  {
+    "title": "A Durable, LLM-Aware Workflow Automation Platform Built on Serverless Step Functions",
+    "authors": [
+      "Aniket Kumar Mahato"
+    ],
+    "link": "https://www.semanticscholar.org/paper/140c8883c413a9d3894315ba262b931344f83d83",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Modern business automation increasingly mixes deterministic operations such as HTTP requests and message dispatch\nwith non-deterministic generative steps powered by Large Language Models. Existing low-code automation tools, including\nZapier, Make and n8n, treat LLM calls as opaque HTTP nodes and offer little support for the reliability, observability and\ncredential safety that production LLM workflows demand. This paper presents Nodebase, a self-hosted workflow automation\nplatform that treats LLMs as first-class nodes in a directed acyclic graph and delegates durable execution to a checkpointed\nserverless step substrate. Workflows are constructed in a browser-based visual editor and executed by an Inngest-backed\nfunction whose individual node steps are independently retried, memoized and streamed back to the editor through per-node\nreal-time channels. We describe the system architecture, the workflow data model, the executor registry pattern that makes new\nnode types a closed-form extension, and the prompt-templating layer that lets downstream nodes consume upstream outputs by\nname. A controlled evaluation on workflows of varying size shows that automated execution reduces end-to-end completion time\nby 12× to 26× relative to a human operator performing the same steps manually, with sub-15-second wall-clock latency for sixnode workflows and a measured 96.4% success rate under simulated transient API failures. We discuss limitations, in particular\nthe dependence on a hosted durability layer, and outline a path toward conditional, looping and agentic node types",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81656",
+    "citations": 0
+  },
+  {
+    "title": "An AI-Driven System for Automatic Code Explanation and Program Visualization",
+    "authors": [
+      "Meghana V. Bandiwadekar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e1faaae59eaa607b307f32181942b9c067bee68",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Beginners frequently find learning programming difficult because of its intricate syntax and abstract logical\nstructures. Current AI-based coding tools prioritize code generation and completion over conceptual comprehension. This paper\nintroduces CodeMindAI, a clever AI-powered platform that uses visual representation of program logic and automatic natural\nlanguage explanation to enhance code comprehension. The suggested system uses large language models to analyze user-written\ncode and produces flow-based visualizations and simplified explanations. Learners can investigate real-world projects with AIassisted guidance thanks to integration with software repositories. Comparing the system to conventional development\nenvironments, experimental evaluation shows that it improves comprehension of control flow and functional behavior. The\nfindings show that AI-powered multimodal learning platforms can efficiently enhance programming instruction and lessen the\ncognitive load on inexperienced programmers.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82571",
+    "citations": 0
+  },
+  {
+    "title": "AgroAI: An AI-Powered Intelligent Smart Agriculture Assistant Using Artificial Intelligence and Multimodal Interaction",
+    "authors": [
+      "Shivam Sharma"
+    ],
+    "link": "https://www.semanticscholar.org/paper/07af6fa6a3e496af21f17d8b0a60aa7585395834",
+    "date": "2026-05-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The productivity of agriculture in developing economies like India is not yet advanced owing to the disjointed access\nto advice, soil erosion, unpredictable weather conditions, and continuous absence of professional advice in the rural areas.\nThe case described in this paper is AgroAI that is a multimodal AI-based smart farming assistant comprising of a YOLOv8-\nCLS convolutional neural network (CNN) to detect crop diseases, supervised machine learning models to recommend crops\nand fertilizers based on soil, and a large language model (LLM) chatbot to interact with the region using voice recognition.\nThe module of disease detection was trained on the dataset of PlantVillage that covered 15 classes of diseases and healthy\nplants. The model obtained a total classification accuracy of 98.8 using transfer learning, data augmentation, and AdamW\noptimiser with automatic mixed precision with a macro-averaged precision, recall, and F1-score of 0.99. The crop\nrecommendation module uses parameter data of the soil nutrients, weather history, and market price feeds to produce\nexplainable profit-conscious advisory decisions. Progressive Web App (PWA) architecture provides offline capabilities to rural\nareas with low-connectivity conditions, caching services workers and fallback logic based on rules. The confusion matrix\nanalysis test proves that there is little non-inter-class misclassification mainly between the similar tomato pathologies visually.\nThese results make AgroAI a comprehensive, all-inclusive and deployable platform in support of Indian smallholder farmers",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.80909",
+    "citations": 0
+  },
+  {
+    "title": "Pengembangan Chatbot Perpustakaan Berbasis Retrieval-Augmented Generation (RAG) pada Telegram",
+    "authors": [
+      "Elrica Meriana Isabel Tutu",
+      "B. Pinontoan",
+      "Edwin Tenda",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6bc1b5fb57457ff5df43ce82615e446cd1f3a04",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "InTech"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The library of Sam Ratulangi University (UNSRAT) has a large collection of books and academic resources; however, users still experience difficulties in obtaining book availability information quickly and efficiently. This study aims to develop and evaluate a Telegram-based chatbot using a Retrieval-Augmented Generation (RAG) approach integrated with the GPT-4.1-mini Large Language Model (LLM). The system was developed using the Waterfall method and implemented through the n8n workflow automation platform by integrating Telegram Bot, MySQL, and Pinecone as a vector database. The chatbot applies a Text-to-SQL RAG mechanism, where user questions are converted into embeddings, matched with database context, and transformed into SQL queries limited to SELECT operations. System evaluation was conducted using Black Box Testing, User Acceptance Testing (UAT), and RAG evaluation metrics consisting of Answer Relevancy and Faithfulness. The results show that the chatbot successfully performs its main functions and achieved a UAT score of 82.3%, while Answer Relevancy and Faithfulness obtained scores of 100%. The developed system is capable of providing relevant and interactive information regarding library collections.",
+    "summary": "",
+    "doi": "10.54895/intech.v7i1.3435",
+    "citations": 0
+  },
+  {
+    "title": "Boundary-Specific Failure Modes and Safety Trade-offs of Large Language Models in ChronicKidney Disease Renoprotective Therapy Review:A Stratified Synthetic Benchmark",
+    "authors": [
+      "Shang-En Yeh",
+      "H.-J. Lin",
+      "W. Lai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e0d3781f9c4225d56c9a2442400f954882033026",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.28.26353938",
+    "citations": 0
+  },
+  {
+    "title": "In Silico Study of Compounds Found in Temulawak (Curcuma xanthorrhiza) Against HER-2H Receptor in Breast Cancer",
+    "authors": [
+      "Maryam Zakiatun Nissa",
+      "Mayra Fauzia Rukmana",
+      "Muhammad Arya Hadianto",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c92ce8766b7657acb6750314612e588593c6c9ed",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Indo J Chem Res"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Breast cancer is prevalent and frequently occurring cancers in women, with the HER-2H receptor as one of its therapeutic targets. Temulawak is a medicinal plant frequently used for anticancer treatment. This study aimed to determine the potential of temulawak as an anticancer agent against breast cancer. The results of the Lipinski’s Rule of Five method indicated that all compounds meet the requirements for oral administration. In the Pre-ADMET testing, some chemical compounds in temulawak showed poor predictive results. In the pharmacophore screening test, curzerenone was identified as the best model with an AUC value >0.5 and a pharmacophore fit score of 34.35. The molecular docking test revealed that the best compound with the lowest Gibbs free energy was curcumin, with a value of -9.56 kcal/mol. Therefore, it can be concluded that the best compound for use as an anticancer agent against the HER-2H receptor is curcumin.",
+    "summary": "",
+    "doi": "10.15294/ijcs.v15i1.8967",
+    "citations": 0
+  },
+  {
+    "title": "Towards A Foundation Model for Clinical Voice Biomarkers",
+    "authors": [
+      "O. Elemento",
+      "Alexandros Sigaras",
+      "J. Colonel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b9d8acc7078d96d7108c4e163554cbf54b62ac1d",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.28.26354346",
+    "citations": 0
+  },
+  {
+    "title": "Exploring Natural Product Primary Sulfamates as Carbonic Anhydrase II Ligands: A Computational Approach",
+    "authors": [
+      "Aden Dewi",
+      "Rhamal Amir",
+      "Aden Dhana Rizkita",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7320e3c14ac4f5cb953b0361cfa1ac286db3f8be",
+    "date": "2026-05-30",
+    "keywords": [
+      "今日上新",
+      "Indo J Chem Res"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Carbonic anhydrase II (CA II) is a validated metalloenzyme target, classically inhibited by primary sulfonamides such as acetazolamide (AZM), but issues with selectivity and physicochemical properties drive the search for alternative zinc-binding scaffolds. Here, seven naturally occurring primary sulfamates and sulfonamides—(−)-altemicidin, psammaplin C, nucleocidin, 5′-O-sulfamoyladenosine, 5′-O-sulfamoyl-2-chloroadenosine, 5′-O-sulfamoyl-2-bromoadenosine, and 5′-O-sulfamoyltubercidin—were evaluated as potential CA II inhibitor scaffolds using an integrated in silico strategy, with AZM as reference. SwissADME analysis showed all derivatives to be within an acceptable small-molecule space, with higher molecular weights (345–425 g/mol) and polarity than AZM (208.22 g/mol), yet comparable TPSA values for psammaplin C, 5′-O-sulfamoyltubercidin, and 5′-O-sulfamoyladenosine (150–197 Å² vs. 151.66 Å²). ADMET predictions indicated uniformly low gastrointestinal absorption, lack of blood–brain barrier permeability, non-substrate behavior for P-glycoprotein, and no CYP450 inhibition. PASS analysis revealed markedly higher predicted anticancer activity for 5′-O-sulfamoyl-2-chloroadenosine, 5′-O-sulfamoyladenosine, and 5′-O-sulfamoyl-2-bromoadenosine (Pa up to 0.927; IAP > 0.89) compared with AZM. Molecular docking showed all derivatives binding CA II at least as well as AZM (−6.7 kcal/mol), with top scores for 5′-O-sulfamoyl-2-chloroadenosine (−8.0 kcal/mol), 5′-O-sulfamoyl-2-bromoadenosine (−7.8 kcal/mol), and 5′-O-sulfamoyltubercidin (−7.7 kcal/mol), supported by extensive hydrogen bonding and hydrophobic contacts. Collectively, these nucleoside-based primary sulfamates emerge as promising natural scaffolds for next-generation CA II-targeted therapeutics.",
+    "summary": "",
+    "doi": "10.15294/ijcs.v15i1.38446",
+    "citations": 0
+  }
+]
