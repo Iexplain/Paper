@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Context-Dependent Age-Group performance hierarchies limit fairness interventions in PPG-based heart rate prediction",
+    "authors": [
+      "L. Y. Panchumarthi",
+      "S. Kataria",
+      "Y. Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9371e620973e1c9718b3da745fb1d8427581e98",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.04.26352929",
+    "citations": 0
+  },
+  {
+    "title": "Quantifying Cancer Clinical Trial Eligibility Using Artificial Intelligence-Based Matching",
+    "authors": [
+      "K. Goel",
+      "N. Myall",
+      "J. Dickerson",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cae8ba7a20b3939e3023b698b1564661fda0dc36",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.03.26354859",
+    "citations": 0
+  },
+  {
+    "title": "The Multimodal Anonymizer: a fully local multi-agent AI system for medical data deidentification",
+    "authors": [
+      "A. Hirsch",
+      "F. Ten",
+      "K. Krueger",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c49dd4e85d3c952cc7d08234514a8b1090ab4455",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.28.26353952",
+    "citations": 0
+  },
+  {
+    "title": "Personalized Learning Pathways in Engineering Education Driven by Large Language Models: Framework Development and Empirical Analysis",
+    "authors": [
+      "N. Xie",
+      "G. Dantes",
+      "D. Divayana",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ac7cf805039c081c9f13546219c44efbb3ca67d0",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "International Journal of Drug Delivery Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid development of large language models (LLMs) can increase possibilities for personalized learning\napproaches in engineering education. However, there are insufficient empirical studies regarding theoretical\napproaches that would incorporate LLM features into a personalized learning approach based on the adaptive learning\nconcept. The study develops a four-module framework for a learner-centric personalization learning path enabled by\nLLMs that consists of modules for learner profiling, knowledge graph creation, LLM-enabled learning paths creation,\nand feedback adaptation. To identify the basis for the development of the framework through establishing the\nnecessary evidence, a large-scale secondary data analysis was carried out employing the Open University Learning\nAnalytics Dataset. The dataset comprised 4,480 students undertaking science, technology, engineering, and\nmathematics (STEM) courses and classified into two groups, namely, High Adaptation group and Low Adaptation\ngroup in accordance with the alignment between the Virtual Learning Environment interaction pattern of students and\nthe recommended course content pattern. Between-group differences were examined based on five dependent\nvariables relating to evaluation results, pathway attainment, and learners' engagement through independent samples ttest and Cohen's d for measuring effect size. The results show that the High-Adaptation group significantly performed\nbetter than the Low-Adaptation group on all dependent variables (mean scores: 62.43 vs. 51.89; submission rates: 0.63\nvs. 0.49; active learning days: 125.75 vs. 86.13), with the effect sizes varying from small (d = 0.427) to large (d =\n1.072). These results serve to provide a baseline for the impact of structured pathway alignment that precedes the\nLLM framework design process; therefore, they contribute to the discussion, rather than being used to test its validity.",
+    "summary": "",
+    "doi": "10.25258/ijddt.16.51s.7",
+    "citations": 0
+  },
+  {
+    "title": "Performance evaluation and benchmarking across 16 large language models on a comprehensive real-world emergency department triage data set",
+    "authors": [
+      "L. Benning",
+      "A. Hirsch",
+      "M. Groeschel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/89b6776b8a4fb88fc6ea4e9c5cb83d7097ed3334",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.28.26353935",
+    "citations": 0
+  },
+  {
+    "title": "Closing the Paediatric Gap: Adult-Trained AI Generalises Robustly to Paediatric Coeliac Disease Diagnosis",
+    "authors": [
+      "F. Jaeckle",
+      "P. Gillett",
+      "K. Kirkwood",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b1f1e0594360b25c97ca7deaf4401fdfbc83997",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.04.26354889",
+    "citations": 0
+  },
+  {
+    "title": "Clinician-Centered Evaluation of Large Language Model-Generated Discharge Summaries for Longer Hospitalizations: Insights from Hospitalists and Primary Care Physicians",
+    "authors": [
+      "T. Osborne",
+      "T. Mahmud",
+      "X. Zheng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3e7ad6e05439bece44c36acbc3b908233f88dfe9",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.03.26354858",
+    "citations": 0
+  },
+  {
+    "title": "Genosolver: Rare Disease Diagnosis through Holistic Integration of Unstructured Clinical Narratives Using Large Language and Reasoning Models",
+    "authors": [
+      "T. Islam",
+      "M. Danner",
+      "Z. Ziad",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0af3018e40d0b05ca2f1de3bc142c4d51fdd1dea",
+    "date": "2026-06-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.04.26354845",
+    "citations": 0
+  }
+]
