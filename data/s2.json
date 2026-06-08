@@ -1,5 +1,63 @@
 [
   {
+    "title": "Learner Engagement State Typologies in AI Tutoring: A Clustering Analysis of Dialogue Behaviors in Introductory Programming Sessions",
+    "authors": [
+      "January F. Naga",
+      "Julieto E. Perez"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f709b07803a5c56249e2e832cc2f68e9a84e630b",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Models (LLMs) become increasingly embedded in intelligent tutoring systems (ITSs), a growing need exists to understand how learners engage with these tools, especially in cognitively demanding domains such as computer programming. While prior research has focused mainly on LLM-generated scaffolding, less attention has been paid to student-side engagement, including how learners think, respond, and regulate their learning during natural language tutoring sessions. This study addresses that gap by identifying learner engagement state profiles based on behavioral and metacognitive patterns in student dialogue. Drawing on data from 36 recorded LLM-mediated C introductory programming tutorials, 1,046 dual-annotated student utterances were analyzed using K-means clustering. The analysis revealed three distinct learner engagement state profiles: Passive Reactors, Clarification Seekers, and Reflective Performers. These engagement states differed in response accuracy, metacognitive expression, and interaction style. Passive Reactors showed low initiative and limited self-regulation; Clarification Seekers demonstrated moderate accuracy and reactive help-seeking; Reflective Performers exhibited strategic engagement and high metacognitive activity. This study introduces an exploratory, scalable approach to learner profiling through natural language dialogue, advancing the design of adaptive, learner-aware LLM tutoring systems. The findings support the development of real-time learner modeling techniques that move beyond correctness, offering actionable insights for delivering more personalized and effective AI-assisted instruction in programming education.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.03.10",
+    "citations": 0
+  },
+  {
+    "title": "Transformer Framework Enhanced by Large Language Models for Image-based Multi-class Malware Detection",
+    "authors": [
+      "Gaurav Mehta",
+      "P. Sarangi",
+      "Shaily Jain",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8dabb991707d60c3611940c8ed64dc230499569a",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal of Information Technology and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the rapid proliferation of electronic devices, the volume and sophistication of malware have surged, posing critical cybersecurity threats. Traditional malware detection approaches face challenges such as limited generalization, unbalanced datasets, and high computational costs. To address these issues, this study introduces the LLM-Powered Transformer Framework for Multi-Class Malware Detection, an image-based approach integrating Large Language Models (LLMs) and transformer architectures with Convolutional Neural Networks (CNNs). The proposed framework enhances malware classification by leveraging data visualization, balanced sampling, and data augmentation techniques, achieving over 98.86% accuracy across four open-source datasets. Furthermore, this study makes two key contributions: first, it provides granular insights into malware classification performance using confusion matrix analysis, aiding cybersecurity professionals in refining detection strategies. Second, the balanced sampling approach eliminates the need for additional datasets, minimizes hardware overhead, and dynamically adjusts sampling weights for optimal learning. Additionally, data augmentation techniques mitigate overfitting, enhancing the model's adaptability to diverse malware variants. Comparative analysis with state-of-the-art methods demonstrates the proposed framework's efficiency in achieving high accuracy while maintaining computational feasibility. These advancements establish a robust foundation for real-world malware detection and cybersecurity applications.",
+    "summary": "",
+    "doi": "10.5815/ijitcs.2026.03.11",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating LLM-Assisted CLO–PLO Alignment Decisions for AUN-QA–Aligned Curriculum Mapping",
+    "authors": [
+      "Suwut Tumthong",
+      "Nichanun Samakthai",
+      "Pinyaphat Tasatanattakool"
+    ],
+    "link": "https://www.semanticscholar.org/paper/56b36395a68741dc6f94db5fbc136f3bbde3addd",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Curriculum mapping for AUN-QA is often time-consuming and prone to inconsistency because learning-outcome evidence is scattered across multiple courses and program documents. This study examines the reliability of large language models in supporting course learning outcome–program learning outcome (CLO–PLO) alignment decisions for AUN-QA–aligned curriculum mapping. Using Mechatronics Engineering curriculum materials (2022–2024), AUN-QA v4.0 indicators were operationalized into a structured evidence schema to guide prompting and interpretation. GPT-4 produced 120 CLO–PLO alignment decisions, which were independently annotated by two domain experts and adjudicated by a third expert to establish reference labels. Model–reference agreement was evaluated using precision, recall, F1-score, and Cohen’s kappa (κ), yielding 0.89, 0.85, 0.87, and 0.81, respectively. We also developed a dashboard that summarizes alignment coverage and supports PDCA-based curriculum improvement by flagging potential gaps and redundancies. The findings suggest that LLM-assisted alignment can reduce mapping workload and improve auditability while remaining consistent with expert judgment, enabling more scalable evidence-based AUN-QA evaluation.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.03.08",
+    "citations": 0
+  },
+  {
     "title": "Increasing Editor Trust in News Personalization Systems with Fact-checked Large Language Models",
     "authors": [
       "Tobias Jovall Wessel",
@@ -279,13 +337,31 @@
     "link": "https://www.semanticscholar.org/paper/d54a0c6f9163bbb01306417b426be49fc30db65b",
     "date": "2026-06-06",
     "keywords": [
-      "今日上新",
       "medRxiv"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.06.04.26354950",
+    "citations": 0
+  },
+  {
+    "title": "1479-P: GK Charger: An LLM-Empowered Knowledge Platform for Interactive Education in Glucokinase-Based Diabetes Therapy",
+    "authors": [
+      "LINGGE FENG",
+      "TUNG-LIN WU",
+      "Quanle Guo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/dc32378f8f6305d9d6cd6c5dc4a38590c0d9109d",
+    "date": "2026-06-05",
+    "keywords": [
+      "Diabetes"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Introduction and Objective: Glucokinase (GK) is a central regulator of glucose homeostasis, with dysfunction closely linked to T2DM. As GK activators enter clinical practice, efficient and accurate knowledge transfer is required to support clinical decision-making and individualized therapy. However, GK biology spans complex multi-organ networks (pancreas-liver, gut-pancreas, and pancreas-brain), exceeding the capacity of conventional manual curation.\n Methods: We developed GK Charger, an intelligent interactive platform integrating large language models (LLMs) with a structured knowledge base (GK Brain). The system includes: (1) a curated, modular GK knowledge base derived from literature, clinical guidelines, expert consensus, and drug information; (2) an LLM-enabled knowledge graph capturing entities and semantic relationships; and (3) attention-based embedding models enabling semantic association, reasoning, and identification of users’ knowledge gaps. Natural language interaction supports physician education, pharmaceutical training, and patient consultation. All outputs undergo periodic expert review to ensure scientific accuracy.\n Results: Pilot implementation demonstrated enhanced clinical teams’ efficiency and depth of understanding of GK-mediated glucose regulation. Literature-linked outputs improved scientific rigor, while semantic simplification translated complex mechanisms into patient-comprehensible information, supporting clinical management adherence. User interaction-driven learning enabled automated identification of knowledge gaps and iterative optimization of the knowledge base, establishing a closed-loop knowledge management system.\n Conclusion: GK Charger illustrates a scalable and reproducible paradigm integrating artificial intelligence with authoritative medical knowledge, supporting precision education and digital healthcare delivery in T2DM.\n \n \n L. Feng: None. T. Wu: None. Q. Guo: None. L. Liu: None. C. Li: None. F. Tang: None. Y. Zhang: None. L. Chen: None.\n",
+    "summary": "",
+    "doi": "10.2337/db26-1479-p",
     "citations": 0
   },
   {
@@ -385,6 +461,24 @@
     "citations": 0
   },
   {
+    "title": "1771-P: Practice-Based Fine-Tuning of Local Large Language Models Achieves Superior Performance in Clinical Decision Support for Diabetes Management",
+    "authors": [
+      "Hyeong-Kyu Park",
+      "SANGJOON PARK"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7be3b313266353712d9430af91b8580f22c3b63e",
+    "date": "2026-06-05",
+    "keywords": [
+      "Fine-tuning",
+      "Diabetes"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Introduction and Objective: Large language models (LLMs) show limited subspecialty accuracy in type 2 diabetes (T2D) management. Current cloud-based medical artificial intelligence (AI) systems have privacy concerns and lack subspecialty expertise. We developed OLYMPUS (On-premise Local LLM for Medical Practice Under Secure environment), a privacy-preserving framework enabling knowledge distillation from expert teacher models to deployable student models using guideline-based synthetic data.\n Methods: Sophia (Llama 70B) was fine-tuned on the clinical data of 80 subjects with T2D to create an expert teacher model. Chiron generated 744 synthetic T2D cases, and fine-tuned Sophia generated expert-level solutions for all 744 cases. One endocrinologist validated each case-solution pair. Asclepius, a Qwen 14B model, was fine-tuned via low-rank adaptation on these 744 validated pairs using consumer hardware (Mac mini M4 Pro, 64GB RAM) with complete local processing. Performance was compared with GPT-4o through blinded evaluation of 40 randomly selected cases by three independent endocrinologists for treatment appropriateness, quality, guideline adherence, and clinical reasoning.\n Results: Asclepius significantly outperformed GPT-4o (4.08±1.00 vs 3.88±1.00, p=0.002), showing 5.3% improvement. Asclepius consistently exceeded GPT-4o across all domains: treatment appropriateness (+5.4%), treatment quality (+5.5%), guideline adherence (+4.2%), and clinical reasoning (+5.9%). All three evaluators independently rated Asclepius higher.\n Conclusion: In conclusion, knowledge distillation from expert teacher to deployable student model using guideline-based synthetic data achieved superior performance compared to state-of-the-art general medical AI while maintaining complete patient privacy through local processing.\n \n \n H. Park: None. S. Park: None.\n",
+    "summary": "",
+    "doi": "10.2337/db26-1771-p",
+    "citations": 0
+  },
+  {
     "title": "CarotidMamba: Foundation Model-Enabled CTA Phenotyping of Symptomatic Carotid Plaques in a Multi-Center Retrospective Study",
     "authors": [
       "Y.-S. Liu",
@@ -402,6 +496,25 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.06.02.26354776",
+    "citations": 0
+  },
+  {
+    "title": "Large language models in software development learning",
+    "authors": [
+      "Salvador Contreras-Hernández",
+      "María Patricia Tzili-Cruz",
+      "José Martín Espínola-Sánchez",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6691070e5776cc2dde21ff90e6cc0ba8d15b7433",
+    "date": "2026-06-05",
+    "keywords": [
+      "Discover Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44217-026-01750-0",
     "citations": 0
   },
   {
@@ -443,6 +556,47 @@
     "citations": 0
   },
   {
+    "title": "A Bond-Level Sequence Framework for Molecular Representation Learning with Structural Constraints",
+    "authors": [
+      "Haoran Fan",
+      "Haoqiang Qi",
+      "Xin Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3baf37cad6397cab4125f1a73c37f59ee188c1b9",
+    "date": "2026-06-05",
+    "keywords": [
+      "Fine-tuning",
+      "Transformer",
+      "AIDD",
+      "Molecules"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Molecular property prediction is a fundamental task in drug discovery and materials design. While graph neural networks (GNNs) and SMILES-based Transformers have made significant strides, the former are often limited by local message-passing bottlenecks such as over-squashing, while the latter frequently lack explicit topological constraints and suffer from severe vocabulary imbalance. In this work, we revisit the granularity of molecular modeling and propose a representation learning framework built upon bond-level sequences. Our framework models molecules as sequences of directed bond tokens and introduces a structure-aware hybrid attention mechanism. By imposing hard topological constraints on a subset of attention heads to reinforce local connectivity while preserving global receptive fields in the remaining heads, the design is intended to separate short-range chemical bonding from long-range contextual dependencies. For pre-training, we implemented a multi-scale consistency learning paradigm, which utilizes an atom-centric group masking strategy to induce a hierarchical loss of local structural information and employs contrastive and triplet losses to ensure identity consistency across varying scales of structural degradation. Furthermore, by incorporating macro-scale physicochemical descriptors (e.g., LogP, TPSA) as global anchors, we examined how the inclusion of global attribute bias can provide weak physicochemical priors during pre-training, while its effect during downstream fine-tuning remains task-dependent. Experimental results demonstrate that our lightweight model, with approximately 3.5 million parameters, exhibits a dataset-dependent performance profile across MoleculeNet benchmarks and shows promising behavior on selected topology-sensitive tasks, particularly MUV. Ablation studies further analyze the contribution of bond-level connectivity, the stage-dependent dynamics of global attribute bias, structured masking, and pre-training configurations. Ultimately, this work provides an alternative representation design for molecular modeling, offering a parameter-efficient option for future molecular learning systems alongside traditional SMILES-based and graph-based formulations.",
+    "summary": "",
+    "doi": "10.3390/molecules31111972",
+    "citations": 0
+  },
+  {
+    "title": "Hop-wise Planning with Iterative Explainable Self-Correction for Knowledge Base Question Answering",
+    "authors": [
+      "Dian Huang",
+      "Jianqi Gao",
+      "Xiangfeng Luo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/312f9267dde90cb315e1ec54ef1ce93d1e5d837c",
+    "date": "2026-06-05",
+    "keywords": [
+      "ACM Transactions on Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n Knowledge base question answering (KBQA) aims to answer natural language questions by reasoning over large-scale structured knowledge bases (KBs). Among existing approaches, semantic parsing-based methods have emerged as a mainstream solution, where large language models (LLMs) are employed to translate questions into structured graph queries such as logical forms (LFs). However, this paradigm faces two critical challenges: (1) The complex semantic mapping and graph retrieval operations render direct one-shot LF generation difficult; (2) LLMs suffer from inherent hallucination issues, generating semantically plausible-seeming but factually incorrect or invalid LFs, which are non-executable. To address these challenges, this paper proposes\n HP-Corr\n , a novel framework that integrates\n H\n op-wise\n P\n lanning with iterative explainable self-\n Corr\n ection for faithful knowledge reasoning. Specifically, the system utilizes a fine-tuned open-source LLM for query planning and explainable self-correction. The query planner generates reasoning paths hop-by-hop, while an explainable self-correction provides hop-wise feedback, enabling interpretable path editing based on existing reasoning paths and retrieved KB knowledge. By introducing the dual-module cooperative architecture, our system performs iterative plan-then-correct to refine query paths progressively, ensuring answer reliability and LFs executability. Experimental results demonstrate significant improvements, with our approach achieving higher accuracy while substantially reducing the search space, particularly in complex multi-hop KBQA scenarios.\n",
+    "summary": "",
+    "doi": "10.1145/3819823",
+    "citations": 0
+  },
+  {
     "title": "Genosolver: Rare Disease Diagnosis through Holistic Integration of Unstructured Clinical Narratives Using Large Language and Reasoning Models",
     "authors": [
       "T. Islam",
@@ -481,7 +635,7 @@
   {
     "title": "Tangram: Unlocking Non-Uniform KV Cache for Efficient Multi-turn LLM Serving",
     "authors": [
-      "Hyungmin Kim",
+      "Hyung-Se Kim",
       "Minsoo Kim",
       "Hongseok Kim",
       "et al."
@@ -772,7 +926,7 @@
     "title": "PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation",
     "authors": [
       "Nicolas Bougie",
-      "Xiaotong Ye",
+      "Xi Ye",
       "G. Marconi",
       "et al."
     ],
@@ -808,29 +962,29 @@
     "citations": 0
   },
   {
-    "title": "Flow-based Policy Adaptation without Policy Updates",
+    "title": "A Large Language Model–Powered Multiagent Framework Emulating Standardized Patients in Clinical Communication Skills Training: Development and Evaluation Study",
     "authors": [
-      "Luzhe Sun",
-      "Jingtian Ji",
-      "Haoran Chen",
+      "Yufei Qu",
+      "Xiaowei Xu",
+      "Yunzi Long",
       "et al."
     ],
-    "link": "https://www.semanticscholar.org/paper/d15d66c667c11e4d1728f1f8085eece06172a6f5",
+    "link": "https://www.semanticscholar.org/paper/d0774ce5cce38f9d470ba562764e85266148f969",
     "date": "2026-06-04",
     "keywords": [
-      "Foundation Model",
-      "Agent"
+      "Agent",
+      "Journal of Medical Internet Research"
     ],
     "source": "Semantic Scholar",
-    "abstract_raw": "Leveraging prior knowledge from pretrained policies, foundation models, or human operators offers an efficient alternative to learning robot skills from scratch. However, these agents often provide actions that are suboptimal, noisy, or misaligned with task-specific expert behavior. We propose GLOVES, a family of flow-based adaptation methods that correct non-expert actions by transporting them toward an expert action distribution. Rather than replacing agentic control with full autonomy, GLOVES performs selective action-level adaptation, improving task success while preserving agent intent. The learned flow also provides a natural in-distribution scoring mechanism through reverse flow evaluation. We use this signal as an intervention gate: actions that appear consistent with the expert distribution are passed through unchanged, while anomalous or out-of-distribution (OOD) actions are corrected. In this way, assistance is only provided when necessary. GLOVES requires only limited expert supervision, using a small number of demonstrations or reusable successful skill segments. By learning local expert action patterns and stitching them during execution, GLOVES provides a lightweight shared-control module for robust action adaptation across tasks and environments. Code and demos are available at ripl.github.io/GLOVES_web.",
+    "abstract_raw": "Abstract Background Effective clinical communication is essential for medical practice, with standardized patients (SPs) being a reliable standard training method despite resource limitations. While large language models (LLMs) show strong role-playing abilities, current virtual patients (VPs) based on single LLMs face fidelity and interaction challenges. Recent advances in multiagent frameworks, which have demonstrated considerable potential in handling complex tasks, offer a new perspective for creating VPs in medical education. Objective This study aimed to develop and evaluate a novel multiagent VP framework that simulates SPs through a collaborative agent design, thereby enhancing human-like fidelity and interaction performance in clinical communication training–oriented VP simulation. Methods Our multiagent framework constructed 5 specialized subagents by simulating the functional partitioning of brain regions, collaboratively simulating the entire process, from case reception to interactive consultation scenarios, designed for medical students. To enhance the interaction performance of VPs, we incorporated retrieval-augmented technology, while deep character reasoning was used to improve response richness and realism. We evaluated the proposed framework through a 2-phase experiment in which the metrics of response quality, role-playing performance, interaction efficiency, information accumulation, and perceived educational utility were applied consistently: first, to compare different base models, and second, to benchmark the complete framework against a single-LLM baseline. Results The multiagent framework outperformed single-LLM baselines across multiple evaluation settings, achieving high information accuracy and role-playing scores under standardized dialogue conditions. Specifically, the GPT-4o–based implementation achieved peak factual consistency of 0.769 (SD 0.04), while all configurations maintained >94% clinical accuracy. The Qwen3-32B–based framework achieved the lowest misleading rate of 1.28% (SD 1.20), compared to 4.72% (SD 1.53%) for single-LLM scoring. In assessments using standard dialogue scripts, the Qwen3-32B–based framework attained the highest role-playing competency score of 39.67 (SD 0.71) and received high expert praise. However, limited discriminative power against specific leading questions on low-quality inquiries indicated that while these findings specifically establish high fidelity under structured conditions, further adaptation is required for authentic student interactions. Interaction efficiency remained practical with acceptable latency (~3 s) based on Qwen3-32B while maintaining a stable information pace during multiturn dialogues. Furthermore, a preliminary exploration of factual consistency and role-playing ability across 5 clinical departments demonstrated potential scalability. Conclusions The multiagent framework offers a viable simulation of SPs through the coordinated interaction of multiple LLM-based agents. This approach enhances the performance of VP simulation, providing a customizable and scalable solution for medical communication training, without compromising patient confidentiality. The framework holds substantial potential for advancing medical education approaches.",
     "summary": "",
-    "doi": "",
+    "doi": "10.2196/84747",
     "citations": 0
   },
   {
     "title": "Beyond Greedy Chunking: SLO-Aware Sliding-Window Scheduling for LLM Inference",
     "authors": [
-      "Yuansheng Chen",
+      "Yuan Chen",
       "Yue Zhang",
       "Xuan Mo",
       "et al."
@@ -868,7 +1022,7 @@
     "authors": [
       "Yang Liu",
       "ZhaoKai Luo",
-      "HuaYi Jin",
+      "Huayi Jin",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/c9f14a8a9341e7ceb7d4954597d6d7ed55b6123a",
@@ -887,7 +1041,7 @@
     "authors": [
       "Ziwen Kan",
       "Yishuo Chen",
-      "Kecheng Li",
+      "Ke Li",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/c9742be0136c22998aad34a17417a405cc24f15f",
@@ -961,7 +1115,7 @@
     "title": "Agentic Molecular Recovery via Molecule-Aware Exploration",
     "authors": [
       "Suwan Yoon",
-      "Changhee Lee"
+      "C. Lee"
     ],
     "link": "https://www.semanticscholar.org/paper/bb39d764e02490ff3bd88c06be4c726c6f02fa78",
     "date": "2026-06-04",
@@ -1050,7 +1204,7 @@
     "authors": [
       "Jianzong Wu",
       "Haonan Lian",
-      "Jiongfan Yang",
+      "Jiong Yang",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/b2d83b4e2bafd4a5a88cdd6919c2434884a057e7",
@@ -1153,6 +1307,25 @@
     "citations": 0
   },
   {
+    "title": "Academic Trajectory Graphs for Temporal Modelling of Student Academic Progression",
+    "authors": [
+      "Ghaidaa Ali Ahmed",
+      "J. Ávila-Jiménez",
+      "Mohamed Al-Twijri",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/abeaf6ef49ed169c730a96e8fd7e25b6fc35a901",
+    "date": "2026-06-04",
+    "keywords": [
+      "Applied Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate prediction of student success is important for improving retention and supporting academic decision-making. This study investigates the use of Graph Neural Networks (GNNs) for modelling academic progression across 13 university faculties, focusing on how structured trajectory representations can capture temporal and relational dependencies in student records. Conventional machine learning approaches frequently rely on aggregated tabular indicators, which may obscure the temporal ordering and relational structure of academic trajectories. We propose a graph-based representation, termed the Academic Trajectory Graph (ATG), which encodes semester-to-semester course transitions and temporal relationships between enrollments. To evaluate its effectiveness, graph-based approaches (DGCNN, GCN, and node2vec-based embeddings) are compared with conventional machine learning models trained on aggregated tabular indicators. Experimental results show that aggregated academic indicators provide strong predictive performance, confirming the importance of cumulative progression signals. Among the graph-based approaches, DGCNN achieved the most consistent performance across faculties, reaching AUC values up to 0.988, accuracy up to 0.945, and F1-scores above 0.94 in several faculties. Although traditional tabular models generally achieved the strongest overall predictive performance, the ATG preserves temporal and relational information that is not captured by flat feature vectors, enabling trajectory-level analysis of academic pathways. The results indicate that graph-based trajectory modelling may provide additional structural insights in faculties exhibiting heterogeneous academic progression patterns, while offering competitive predictive performance. These findings highlight both the potential and the limitations of graph-based approaches for modelling structured educational data, suggesting that their effectiveness depends on the structural diversity of the underlying academic domain.",
+    "summary": "",
+    "doi": "10.3390/app16115642",
+    "citations": 0
+  },
+  {
     "title": "Towards the Readability of LLM-Generated Codes through Multitask Representation Engineering",
     "authors": [
       "Huifan Gao",
@@ -1189,7 +1362,7 @@
     "title": "CollabSim: A CSCW-Grounded Methodology for Investigating Collaborative Competence of LLM Agents through Controlled Multi-Agent Experiments",
     "authors": [
       "Jiaju Chen",
-      "Bo Sun",
+      "B. Sun",
       "Yuxuan Lu",
       "et al."
     ],
@@ -1219,6 +1392,24 @@
     "abstract_raw": "Current evaluations for Multimodal Large Language Models (MLLMs) overwhelmingly focus on utility-driven objectives, leaving model behavior under logic-neutral scenarios largely underexplored. Stochasticity is essential in scenarios where multiple actions are equally valid, such as recommending travel itineraries or daily schedules where multiple options have similar utility. In such settings, deterministic policies may lead to repetitive behaviors and reduced coverage of valid alternatives. To bridge this gap, we propose RandomBench, a benchmark designed to evaluate whether MLLMs can maintain distributionally neutral behavior when selecting among equivalent options. We further introduce three metrics, including RI, BCI, BII, to quantify entropy and distributional bias. Experiments reveal a pervasive phenomenon termed Stochastic Collapse, where MLLMs fail to maintain uniform randomness under explicit random instructions, with top-1 probabilities reaching 97% from the ideal one quarter baseline and RI dropping to 0.068 in Claude Sonnet 4.6. Extensive ablation studies further demonstrate that these deviations persist across languages and representation formats, highlighting the robustness of distributional collapse in logic-neutral decision settings.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Spatiotemporal weather forecasting via multi-scale graph neural networks and latent diffusion models",
+    "authors": [
+      "Zhipeng Wu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9a6b5ffa9f778ddd603d161381b1b56e4428ce1a",
+    "date": "2026-06-04",
+    "keywords": [
+      "Deep Learning",
+      "Diffusion Model",
+      "PLoS ONE"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate weather prediction is crucial in agriculture, disaster prevention, and public safety. Challenge: Traditional numerical models have high computational costs and struggle with atmospheric nonlinearity and chaos, while existing deep learning methods face limitations in handling spatial heterogeneity and non-Euclidean data. Solution: This paper introduces the STGLDWeather method. It combines multi-scale spatiotemporal graph neural networks (MS-ST-GNN) and latent diffusion models (LDM) to capture multi-scale spatiotemporal dependencies in weather data and model the temporal evolution of weather conditions in latent space. Conclusion: Experiments on real weather datasets show that STGLDWeather significantly outperforms existing state-of-the-art baselines in prediction accuracy and computational efficiency, particularly excelling in temperature, geopotential height, and wind speed forecasts.",
+    "summary": "",
+    "doi": "10.1371/journal.pone.0348354",
     "citations": 0
   },
   {
@@ -1409,6 +1600,28 @@
     "citations": 0
   },
   {
+    "title": "PpF: a density functional fine-tuned for noncovalent interactions of protein and peptide residues",
+    "authors": [
+      "Yini Zhou",
+      "Tao Li",
+      "Yaqi Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/86dea7a34dc5506d70d8c6594a73216f51d8d9a4",
+    "date": "2026-06-04",
+    "keywords": [
+      "Foundation Model",
+      "Fine-tuning",
+      "Protein Language Model",
+      "Chemical Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The essence of protein–peptide interactions lies in the noncovalent interactions between amino-acid pairs; accurately calculating interaction energies of these pairs is crucial for modelling the tertiary structure and protein–peptide interactions. However, available functionals for density functional theory have insufficient accuracy for many noncovalent interactions. To address this challenge, we developed a new functional called PpF by starting with the broadly trained CF22D model as a foundation model and fine tuning it by using it with more specific data on interactions of capped amino acids. The PpF model is specifically designed for noncovalent interactions of pairs of amino acids. First, based on the LEADS-PEP dataset for assessing peptide docking performance, we constructed the amino-acid pair structures dataset (called AAPS260) containing 260 pairs of noncovalently interacting capped amino acids, from which we selected 36 representatives. We performed DLPNO-CCSD(T) calculations on these pairs to determine reference energies for a new training dataset with 12 interaction energies and a new testing dataset with 24 interaction energies. We used an iterative supervised training strategy to optimize parameters for an exchange–correlation functional with a damped dispersion term; the loss function involves 89 previously defined datasets augmented by the new training dataset (AAIE12) with a performance-triggered determination of its weight. This produces the PpF functional. We find that the PpF functional outperforms other functionals on the training set (AAIE12), test set (AAIE24) and the Side Chain Atlas of Interactions (SCAI) dataset. It also does very well on the JSCH, GMTKN55, and MGCDB84_NC databases. The PpF functional is then used to establish the Amino-Acid Interaction Energy benchmark dataset, which is called AAIE260. This work produces a new density functional, a structural dataset of pairs of capped amino acids, a benchmark dataset of the interaction energies of these pairs, and a reliable computational method for exploring protein–peptide binding mechanisms.",
+    "summary": "",
+    "doi": "10.1039/d6sc01551d",
+    "citations": 0
+  },
+  {
     "title": "SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks",
     "authors": [
       "Seungwon Jeong",
@@ -1457,6 +1670,26 @@
     "keywords": [],
     "source": "Semantic Scholar",
     "abstract_raw": "The efficacy of continued pre-training for Large Language Models (LLMs) hinges upon hyperparameter configurations, such as learning rate and batch size. However, current practices often rely on heuristics or grid searches, leading to training instability and excessive costs. In this work, we first empirically discover that optimal hyperparameters follow stable and predictable scaling laws throughout the continued pre-training process. Leveraging these insights, we propose a novel framework to establish quantitative relationships between compute budget and optimal hyperparameters for a given checkpoint. Our approach has two stages: (1) \\textit{Empirical Law Discovery}, where we train small-scale proxy models to derive functions mapping compute budget to optimal hyperparameters via standard loss-compute scaling laws; and (2) \\textit{State-Aware Hyperparameter Prediction}, where we evaluate an initial checkpoint's validation loss and use the inverse scaling law to estimate its \\textit{equivalent pre-training compute} -- the compute needed to achieve the same loss from scratch. Combining this with the planned compute budget, we predict optimal hyperparameters for the target run. Empirical results demonstrate that our method reduces the hyperparameter search overhead by up to 90\\% while achieving comparable or superior performance relative to baselines. This model-agnostic framework generalizes across architectures, providing a principled and efficient methodology for diverse continued pre-training scenarios starting from any given point.",
+    "summary": "",
+    "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "Flow-based Policy Adaptation without Policy Updates",
+    "authors": [
+      "Luzhe Sun",
+      "Jingtian Ji",
+      "Haoran Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7d465794dc955777dfa28e865549d35ac3064d1c",
+    "date": "2026-06-04",
+    "keywords": [
+      "Foundation Model",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Leveraging prior knowledge from pretrained policies, foundation models, or human operators offers an efficient alternative to learning robot skills from scratch. However, these agents often provide actions that are suboptimal, noisy, or misaligned with task-specific expert behavior. We propose GLOVES, a family of flow-based adaptation methods that correct non-expert actions by transporting them toward an expert action distribution. Rather than replacing agentic control with full autonomy, GLOVES performs selective action-level adaptation, improving task success while preserving agent intent. The learned flow also provides a natural in-distribution scoring mechanism through reverse flow evaluation. We use this signal as an intervention gate: actions that appear consistent with the expert distribution are passed through unchanged, while anomalous or out-of-distribution (OOD) actions are corrected. In this way, assistance is only provided when necessary. GLOVES requires only limited expert supervision, using a small number of demonstrations or reusable successful skill segments. By learning local expert action patterns and stitching them during execution, GLOVES provides a lightweight shared-control module for robust action adaptation across tasks and environments. Code and demos are available at ripl.github.io/GLOVES_web.",
     "summary": "",
     "doi": "",
     "citations": 0
@@ -1588,7 +1821,7 @@
     "title": "Enhancing Software Engineering Through Closed-Loop Memory Optimization",
     "authors": [
       "Xuehang Guo",
-      "Zora Zhiruo Wang",
+      "Z. Wang",
       "Qingyun Wang",
       "et al."
     ],
@@ -1741,7 +1974,7 @@
     "authors": [
       "Huajian Ruan",
       "Jinyang Li",
-      "Xingyu Guo",
+      "Xin Guo",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/5a96dad74b2ecde10dce6b0d6a524990fceacafc",
@@ -1757,7 +1990,7 @@
     "title": "Beyond WER: A Paired Acoustic Stress Test for Ambient Clinical Scribes",
     "authors": [
       "Xiao-Hang Jiang",
-      "Han-Jie Guo",
+      "Han Guo",
       "Ying-Si Liang",
       "et al."
     ],
@@ -1969,7 +2202,7 @@
     "authors": [
       "J. Shangguan",
       "Jing Xu",
-      "Hang Ye",
+      "Hangjun Ye",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/44fb198780f9f77c2879ce2591a9b81f6c6c5689",
@@ -2005,7 +2238,7 @@
     "authors": [
       "Psbc Llm Team",
       "Hua Long",
-      "Junjie Wu",
+      "J. Wu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3cdba985ea54baae7a15a54d44527807dd490035",
@@ -2110,7 +2343,7 @@
   {
     "title": "TokenMizer: Graph-Structured Session Memory for Long-Horizon LLM Context Management",
     "authors": [
-      "Shweta Mishra"
+      "S. Mishra"
     ],
     "link": "https://www.semanticscholar.org/paper/34d616ef1b5b43f88d449df17b4334aa230c6cfb",
     "date": "2026-06-04",
@@ -2144,7 +2377,7 @@
     "title": "An Embarrassingly Simple Detector for Model Extraction Attacks in Large Language Model API Traffic",
     "authors": [
       "Shuze Liu",
-      "Qianwen Guo",
+      "Qi Guo",
       "Yushun Dong"
     ],
     "link": "https://www.semanticscholar.org/paper/3314f4868f252aa218f5cc305248bab9e295cbb1",
@@ -2347,7 +2580,7 @@
     "title": "Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense",
     "authors": [
       "Minseok Choi",
-      "Seungbin Yang",
+      "Seung-Moo Yang",
       "Dongjin Kim",
       "et al."
     ],
@@ -2401,7 +2634,7 @@
   {
     "title": "LatentWave: JEPA Pretraining for Wireless Foundation Models",
     "authors": [
-      "Ahmed Mohamed",
+      "Ahmed P. Mohamed",
       "Ahmed Aboulfotouh",
       "Hatem Abou-Zeid"
     ],
@@ -2491,7 +2724,7 @@
     "title": "Latent Reasoning with Normalizing Flows",
     "authors": [
       "Guancheng Tu",
-      "Xiangjun Fu",
+      "Xiang Fu",
       "Suhao Yu",
       "et al."
     ],
@@ -2668,6 +2901,24 @@
     "citations": 0
   },
   {
+    "title": "AI-Assisted Formative Assessment in Clinical Education: From Algorithms to Agency",
+    "authors": [
+      "Q. T. Nguyen",
+      "Thuy Minh Ha",
+      "Tina Mai"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0357d00a5155d803a56ef9c1922073313f551380",
+    "date": "2026-06-04",
+    "keywords": [
+      "JMIR Medical Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract Artificial intelligence (AI) is rapidly reshaping clinical education by embedding assessment and feedback into everyday learning activities. Medical students can now use machine learning dashboards, generative AI, large language models, and emerging agentic systems to practice clinical reasoning, communication, and procedural skills while receiving individualized feedback within seconds. However, the availability of more data and more feedback does not necessarily produce better learning. This Viewpoint is intended for clinical educators, assessment leaders, curriculum committees, faculty developers, and institutional leaders who must decide how AI should be used in formative activities without reducing education to automated scoring. AI-assisted formative assessment is defined in this paper as the intentional use of AI tools to generate, organize, and support interpretation of performance information for learning rather than grading. Its distinctive contribution lies in the scale, adaptivity, conversational simulation, pattern detection, and possible autonomy of AI systems. However, AI outputs become formative only when learners and educators interpret them critically, judge their trustworthiness, and translate them into a small number of focused follow-on learning actions. This paper synthesizes the current evidence base while noting that much of it remains early, heterogeneous, and concentrated in short-term or single-setting studies. It examines key risks, including hallucination, automation bias, epistemic overtrust, hidden curricular effects, and broader concerns related to professional identity, power asymmetries, data privacy, and inequitable access. It also presents context-specific implementation examples for preclinical case-based learning, communication and objective structured clinical examination preparation, procedural skill laboratories, clerkship learning, and programmatic assessment portfolios, together with practical implications for faculty development, institutional governance, and phased local implementation. As a Viewpoint rather than an empirical study or systematic review, the framework and examples should be interpreted as evidence-informed design propositions that require local evaluation and validation. Overall, the value of AI-assisted formative assessment depends less on the volume of AI-generated feedback than on educational designs that preserve learner agency, professional judgment, and human accountability.",
+    "summary": "",
+    "doi": "10.2196/93710",
+    "citations": 0
+  },
+  {
     "title": "From Symbolic to Geometric: Enabling Spatial Reasoning in Large Language Models",
     "authors": [
       "Chen Chu",
@@ -2790,7 +3041,7 @@
   {
     "title": "Description-Code Inconsistency in Real-world MCP Servers: Measurement, Detection, and Security Implications",
     "authors": [
-      "Yutao Shi",
+      "Yu Shi",
       "Xiaohan Zhang",
       "Xiang Zhang",
       "et al."
@@ -3375,6 +3626,24 @@
     "citations": 0
   },
   {
+    "title": "Divergent evolution of the PRPS enzymes across the tree of life",
+    "authors": [
+      "B. Karki",
+      "Jarek Meller",
+      "J. T. Cunningham"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cc0e845579db4890b859f73393601bd05441b24c",
+    "date": "2026-06-03",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.01.728777",
+    "citations": 0
+  },
+  {
     "title": "LDARNet: DNA Adaptive Representation Network with Learnable Tokenization for Genomic Modeling",
     "authors": [
       "Daria Ledneva",
@@ -3412,6 +3681,26 @@
     "abstract_raw": "Foundation models in atomistic machine learning encode interaction physics across diverse atomic environments, but whether that structure can be transferred when building specialist potentials at quantum-chemical accuracy remains open. Here we show that knowledge distillation from a pretrained universal machine-learning interatomic potential (MLIP), followed by coupled-cluster fine-tuning with single and double excitations and perturbative triples [CCSD(T)], transfers not only low-cost labels but a physically meaningful prior on interaction length scales, anisotropy, and the repulsive-dispersive balance, which CCSD(T) data then sharpens to quantum-chemical accuracy. For He--benzene, fine-tuning with 30% of the CCSD(T) data outperforms direct training using the full 80%; a 60% reduction in the high-fidelity compute budget. A symmetry-adapted perturbation theory (SAPT)-informed adaptive short-range/long-range architecture further lowers the validation MAE from 0.75 1/cm to 0.49 1/cm. Across a circumarene series of polycyclic aromatic hydrocarbons (PAHs), swapping the MLIP teacher under an otherwise identical pipeline changes the coronene error by an order of magnitude while leaving the larger PAHs stable, direct evidence that distillation transfers physical structure, not labels alone. Together, these results identify the choice of pretrained teacher as a primary design axis for data-efficient quantum-chemical-accuracy potentials, alongside architecture and training protocol.",
     "summary": "",
     "doi": "",
+    "citations": 0
+  },
+  {
+    "title": "MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models",
+    "authors": [
+      "Dan Ofer",
+      "Stav Zok",
+      "M. Linial"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c5723854a6728717766c1ba65a6a5549528618ad",
+    "date": "2026-06-03",
+    "keywords": [
+      "Foundation Model",
+      "Biological Large Model",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.31.729117",
     "citations": 0
   },
   {
@@ -3869,7 +4158,7 @@
     "authors": [
       "He Liu",
       "Boyuan Gu",
-      "Shuaiqi Cheng",
+      "Shuai Cheng",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/9e6f89a5dfc56116c5837d66665724a608b24a2b",
@@ -3942,7 +4231,7 @@
   {
     "title": "STaR-Quant: State-Time Consistent Post-Training Quantization for Diffusion Large Language Models",
     "authors": [
-      "Xin Yan",
+      "Xinya Yan",
       "Aqiang Wang",
       "Zhenglin Wan",
       "et al."
@@ -4110,7 +4399,7 @@
     "authors": [
       "Faria Binte Kader",
       "Mohtasim Hadi Rafi",
-      "Shah Wasif Sajjad",
+      "Shahida Sajjad",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/8e0df6f3c0a0a9ad287477c79e99c8d6daa89631",
@@ -4267,6 +4556,27 @@
     "citations": 0
   },
   {
+    "title": "SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology",
+    "authors": [
+      "Xinyu Xiao",
+      "Yunfei Li",
+      "Zheni Zeng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8598caf61e9b30be6a50a1038568d2375f413c47",
+    "date": "2026-06-03",
+    "keywords": [
+      "Foundation Model",
+      "RNA-seq / Transcriptomics",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.30.728937",
+    "citations": 0
+  },
+  {
     "title": "GENEB: Why Genomic Models Are Hard to Compare",
     "authors": [
       "Daria Ledneva",
@@ -4290,7 +4600,7 @@
     "authors": [
       "Na Li",
       "Chengda Wang",
-      "Mingju Gao",
+      "M. Gao",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/83a45e75c461101d231af4795d99f203912f94b0",
@@ -5070,7 +5380,7 @@
   {
     "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
     "authors": [
-      "Chen Huang",
+      "Chengen Huang",
       "Yuhao Wu",
       "Wenxuan Zhang"
     ],
@@ -5235,11 +5545,31 @@
     "citations": 0
   },
   {
+    "title": "Use of AI agents to assess preoperative frailty in cancer patients",
+    "authors": [
+      "Denise Lee",
+      "S. Yen",
+      "G. Smits",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/43703b43e471c1246d7349d354b84864f2446974",
+    "date": "2026-06-03",
+    "keywords": [
+      "Agent",
+      "Npj Digital Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Assessment of preoperative frailty is essential for risk stratification and optimization of patients undergoing major abdominal surgery for hepatobiliary (HPB) and gastrointestinal (GI) malignancies. Large language model (LLM)-based agents may facilitate automated frailty scoring, thereby supporting targeted prehabilitation efforts to improve surgical outcomes. We compared the performance of an agentic LLM system with a single LLM system in calculating frailty scores and classifying frailty status. Using real-world preoperative notes documented within 60 days prior to surgery, we evaluated both approaches. The agentic LLM system outperformed the single LLM system in 4 out of 6 models for a binary frailty classification task and in 5 out of 6 models for generating patient Risk Assessment Index (RAI) scores. The greatest improvements were observed among lower-parameter models (Llama 3.1 8b, Qwen 2.5 7b). These findings suggest than an agentic workflow may enhance frailty assessment performance. Automating frailty score calculation from Electronic Health Record (EHR) data may enhance clinical efficiency and enable targeted prehabilitation strategies for patients with cancer undergoing surgery.",
+    "summary": "",
+    "doi": "10.1038/s44484-026-00012-8",
+    "citations": 0
+  },
+  {
     "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
     "authors": [
       "Tianyi Xie",
       "Haotian Zhang",
-      "Jinhyung Park",
+      "Jinhyung D. Park",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/3c50a0e71eafabf0d926001cae15107e4200cdf6",
@@ -5377,7 +5707,7 @@
     "authors": [
       "Rayyan Abdalla",
       "Amir Hussein",
-      "Min Wu",
+      "Minchong Wu",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/2c90751ec98c78f5fcbdcb7c83ee0a4b570d1f90",
@@ -5480,7 +5810,7 @@
     "title": "Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have",
     "authors": [
       "Elouan Gardes",
-      "Seung Eun Yi",
+      "Seungeun Yi",
       "Kartik Ahuja",
       "et al."
     ],
@@ -5609,7 +5939,7 @@
     "title": "Risk of Guideline Overselling and Certainty Inflation in GPT-5 Responses: A Statement-Based Analysis of Four ESGE Colorectal Guidelines",
     "authors": [
       "M. Maida",
-      "Antonio Facciorusso",
+      "A. Facciorusso",
       "L. Fuccio",
       "et al."
     ],
@@ -5677,6 +6007,25 @@
     "citations": 0
   },
   {
+    "title": "GalaxyVS: Exploring 100-Billion Compounds in Seconds",
+    "authors": [
+      "Xin Hong",
+      "Peishun Li",
+      "Wenyu Zhu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0b59066ee904b4e544a6469024ad7f8aa0df8fe5",
+    "date": "2026-06-03",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.05.29.728912",
+    "citations": 0
+  },
+  {
     "title": "Fast&Faithful Function Vectors",
     "authors": [
       "Minh-Quang Pham",
@@ -5694,9 +6043,28 @@
     "citations": 0
   },
   {
+    "title": "GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference",
+    "authors": [
+      "Claudia Skok Gibbs",
+      "Angelica Chen",
+      "Richard Bonneau",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/083044ef26cfcced6a042ece19c2b2cbc6d6d2df",
+    "date": "2026-06-03",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1101/2025.06.29.662198",
+    "citations": 0
+  },
+  {
     "title": "A Pathology Foundation Model for Gastric Cancer with Real-World Validation",
     "authors": [
-      "Ling Liang",
+      "Li Liang",
       "Jiabo Ma",
       "Zhengyu Zhang",
       "et al."
@@ -11137,6 +11505,27 @@
     "citations": 0
   },
   {
+    "title": "Integrating AI with Neurogenetics: Applications in Precision Medicine for Neurological Disorders",
+    "authors": [
+      "H. K. Biswas",
+      "K.K. Jha",
+      "V. Jakhmola",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e748fde2ac9224db1fb02af363106843c9f0eea6",
+    "date": "2026-06-01",
+    "keywords": [
+      "Deep Learning",
+      "AIDD",
+      "Biomedical &amp; Pharmacology Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial Intelligence (AI) is revolutionizing the field of neurology by significantly enhancing disease detection, therapeutic strategies, and patient management. Neurological disorders such as Alzheimer’s disease, Parkinson’s disease, epilepsy, and multiple sclerosis have traditionally been challenging to diagnose and treat due to their complex and heterogeneous nature. Recent advancements in AI, particularly in machine learning and deep learning, enable the analysis of neuroimaging, electroencephalogram (EEG) signals, and genomic data with high precision, facilitating early and more accurate diagnoses. Beyond diagnostics, AI contributes to the development of personalized treatment plans by integrating a patient’s genetic information, medical history, and lifestyle factors. This personalized approach improves therapeutic outcomes and minimizes adverse effects. Wearable AI-powered devices further enhance care by allowing continuous, real-time monitoring of cognitive and motor functions, enabling timely clinical interventions and adjustments in treatment protocols. Moreover, AI is transforming the drug discovery landscape. It assists in identifying novel therapeutic targets, predicting drug responses, repurposing existing drugs, and optimizing clinical trial design, thus reducing the time and cost involved in bringing new treatments to market. Despite its enormous promise, the widespread clinical integration of AI faces challenges such as data privacy concerns, the need for transparent decision-making algorithms, and the establishment of standardized regulatory frameworks. This review explores the evolving applications of AI in neurogenetics and neurology, emphasizing its role in early diagnosis, precision medicine, long-term monitoring, and drug development. Continued interdisciplinary collaboration is essential to harness AI’s full potential in improving neurological healthcare outcomes.",
+    "summary": "",
+    "doi": "10.13005/bpj/3403",
+    "citations": 0
+  },
+  {
     "title": "WorldCoder-Bench: Benchmarking Physically Grounded 3D World Synthesis",
     "authors": [
       "Shuo Lu",
@@ -13186,6 +13575,26 @@
     "abstract_raw": "Mental health problems are common worldwide, but the available support systems and healthcare services are insufficient and inadequate. Social robots offer a promising solution to achieve social interaction and emotional connection. Nature-inspired architectural robotics can seamlessly blend into human daily life by reshaping future living environments. In this work, inspired by natural flowers, we designed a flower robot with a realistic morphology that simulates the opening-closing, rhythmic movements, and stem-bending movement. Building on the morphological design, we integrated a flex sensor into the petals to enable touch-induced tactile feedback, mimicking the touch-induced plant-like seismonastic movement. Furthermore, we incorporated voice interaction powered by a local large language model (LLM) to achieve adaptive intent understanding and personalized semantic engagement, thereby enhancing interaction flexibility compared to the repetitive tasks and rigid protocols of traditional social robots. Finally, the human-robot interaction (HRI) experiment demonstrated that the flower robot significantly reduced participants' negative emotions and provided positive social engagement. This work developed a bio-inspired flower robot, offering a promising pathway to social interaction and soothing presence.",
     "summary": "",
     "doi": "10.1109/LRA.2026.3686643",
+    "citations": 0
+  },
+  {
+    "title": "When large language models meet data-driven modeling: Heuristic multimodal deep learning network for industrial quality prediction",
+    "authors": [
+      "Yalin Wang",
+      "Yuxin Deng",
+      "Cao Song",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1eb473a41a25c3b4c444602aa22a3a8c32db27d",
+    "date": "2026-06-01",
+    "keywords": [
+      "Deep Learning",
+      "Chemometrics and Intelligent Laboratory Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.chemolab.2026.105782",
     "citations": 0
   },
   {
@@ -17814,406 +18223,6 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s00405-026-10356-z",
-    "citations": 0
-  },
-  {
-    "title": "Breaking the Information Silo: Semantic Personas for Cross-Domain Recommendation",
-    "authors": [
-      "J. Mayo",
-      "Moshe Unger",
-      "Konstantin Bauman"
-    ],
-    "link": "https://www.semanticscholar.org/paper/4f9e08d749a52480bb8d99467d955497d1486de5",
-    "date": "2026-06-01",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Digital platforms increasingly operate as isolated information silos, limiting their ability to construct comprehensive user representations across domains. Cross-domain recommender systems seek to overcome this limitation by transferring knowledge from a source domain to a target domain, yet most existing approaches depend on shared users, shared items, or structurally similar interaction graphs. These assumptions are often unrealistic across independent platforms. We propose SPHERE (Semantic Personas for Heterogeneous cross-domain Recommendation), a design artifact that enables recommendation knowledge transfer across strictly disjoint domains with no shared users or items. Rather than aligning domains through identity or graph structure, SPHERE uses large language models to induce a shared behavioral vocabulary, generate structured semantic personas for users, and retrieve behaviorally similar source-domain communities that form a Community Source Persona. This semantic signal is integrated with collaborative signals through a dual-tower architecture and dynamic fusion gate, allowing SPHERE to augment standard recommender backbones. Empirical evaluation across Amazon Books, Goodreads, and Steam demonstrates consistent improvements over NCF, SVD++, and LightGCN baselines under full-ranking evaluation. The results show that cross-domain transfer effectiveness is not determined solely by semantic proximity between domains; rather, it depends critically on the structural density and native predictive strength of the target domain. The study contributes to information systems research by reframing cross-domain personalization as behavior-based semantic alignment, offering a practical mechanism for overcoming information silos while preserving interpretability and modularity.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Applying a large language model to detect immune-related adverse events in electronic health records: Effect of integrating prescription and laboratory data on accuracy.",
-    "authors": [
-      "Y. Igawa",
-      "H. Horinouchi",
-      "Toshiki Takeuchi",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4e977177cdf44f5429d7a38c87400166fe138ce9",
-    "date": "2026-06-01",
-    "keywords": [
-      "Journal of Clinical Oncology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "<jats:p>\n                    <jats:bold>12133</jats:bold>\n                  </jats:p>\n                  <jats:p>\n                    <jats:bold>Background:</jats:bold>\n                    Accurate identification of immune-related adverse events (irAEs) is essential; however, manual review of electronic health records poses a significant burden on clinicians. Furthermore, conventional text-only approaches may fail to capture clinically important events. In this study, we evaluated whether a Large Language Model (LLM) with a multimodal approach could improve patient-level identification of irAEs.\n                    <jats:bold>Methods:</jats:bold>\n                    Among patients who received immune checkpoint inhibitors (ICIs) monotherapy at National Cancer Center Hospital, Tokyo, Japan between October 2014 and July 2023, a subset of patients was randomly sampled for analysis. A zero-shot prompt was designed to identify irAEs. Using a standalone local LLM (gpt-oss-20b), single-modal analysis utilized clinical notes alone, whereas multimodal analysis additionally incorporated systemic steroid prescriptions and laboratory data. Patient-level predictions were aggregated, using the threshold that maximizes the micro-averaged F1-score. The irAEs were clinically adjudicated by board-certified oncologists. Analyses were limited to major irAEs, and performance was evaluated using precision, recall, and the F1-score (α = 0.05).\n                    <jats:bold>Results:</jats:bold>\n                    The median number of cases reviewed per day by physicians was 18, whereas the LLM processed 25. During the study period, 296 patients (207 with irAEs and 89 without irAEs) were randomly sampled. Among patients with irAEs, irAE types included rash, pneumonitis, endocrine disorders, colitis, and hepatitis. For the identification of irAE occurrence, the precision of the multimodal approach was significantly higher than that of the single-modal approach (88.7% to 83.7%, p = 0.01). In organ-specific analyses, precision for colitis and rash and recall for endocrine were significantly improved. In addition, the multimodal approach reduced false-positive classifications from 33% to 22% and false-negative classifications from 37% to 35%. IrAE onset timing also differed significantly between the two approaches, with earlier identification by the multimodal LLM (−21.9 vs −17.7 days, p = 0.04); both approaches detected onset earlier than clinical adjudication.\n                    <jats:bold>Conclusions:</jats:bold>\n                    A multimodal LLM framework improves irAE detection accuracy and may reduce clinician workload.\n                    <jats:table-wrap orientation=\"portrait\" position=\"anchor\">\n                      <jats:caption content-type=\"mtgabstract-table-title\">\n                        <jats:p>IrAEs with significant differences between single-modal and multimodal analyses.</jats:p>\n                      </jats:caption>\n                      <jats:table content-type=\"mtgabstract\">\n                        <jats:thead content-type=\"mtgabstract\">\n                          <jats:tr>\n                            <jats:th colspan=\"1\" content-type=\"border-bottom align-left\" rowspan=\"1\"/>\n                            <jats:th colspan=\"1\" content-type=\"border-bottom\" rowspan=\"1\"/>\n                            <jats:th colspan=\"3\" content-type=\"border-bottom\" rowspan=\"1\">Precision</jats:th>\n                            <jats:th colspan=\"3\" content-type=\"border-bottom\" rowspan=\"1\">Recall</jats:th>\n                            <jats:th colspan=\"1\" content-type=\"border-bottom\" rowspan=\"1\">F1-score</jats:th>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:th colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\"/>\n                            <jats:th colspan=\"1\" rowspan=\"1\"/>\n                            <jats:th colspan=\"1\" rowspan=\"1\">%</jats:th>\n                            <jats:th colspan=\"1\" rowspan=\"1\">95%CI</jats:th>\n                            <jats:th colspan=\"1\" rowspan=\"1\">P</jats:th>\n                            <jats:th colspan=\"1\" rowspan=\"1\">%</jats:th>\n                            <jats:th colspan=\"1\" rowspan=\"1\">95%CI</jats:th>\n                            <jats:th colspan=\"1\" rowspan=\"1\">P</jats:th>\n                            <jats:th colspan=\"1\" rowspan=\"1\">%</jats:th>\n                          </jats:tr>\n                        </jats:thead>\n                        <jats:tbody>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\">Any irAE</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Multi</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">88.7</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">84.2-93.1</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.01</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">83.1</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">78.0-88.2</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.62</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">85.8</jats:td>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Single</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">83.7</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">78.7-88.8</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">82.1</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">76.9-87.3</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">82.9</jats:td>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\">Rash</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Multi</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">64.5</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">53.7-75.2</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.03</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">60.5</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">49.8-71.1</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.10</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">62.4</jats:td>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Single</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">58.9</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">48.7-69.1</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">65.4</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">55.1-75.8</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">62.0</jats:td>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\">Colitis</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Multi</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">80.4</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">69.5-91.3</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"><0.01</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">77.4</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">66.1-88.6</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.32</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">78.8</jats:td>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Single</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">61.8</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">50.2-73.3</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">79.2</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">68.3-90.2</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\"/>\n                            <jats:td colspan=\"1\" rowspan=\"1\">69.4</jats:td>\n                          </jats:tr>\n                          <jats:tr>\n                            <jats:td colspan=\"1\" content-type=\"row-heading\" rowspan=\"1\">Endocrine</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">Multi</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">71.2</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">59.6-82.7</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.37</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">75.0</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">63.7-86.3</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">0.03</jats:td>\n                            <jats:td colspan=\"1\" rowspan=\"1\">73.0</jats:td>\n                          </jats:tr>\n                          <jats",
-    "summary": "",
-    "doi": "10.1200/jco.2026.44.16_suppl.12133",
-    "citations": 0
-  },
-  {
-    "title": "Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation",
-    "authors": [
-      "Wenbin Wu"
-    ],
-    "link": "https://www.semanticscholar.org/paper/4dfdfb9a4bb99e88ffe4239990bfe16ba8463337",
-    "date": "2026-06-01",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models now power robo-advisors and trading agents, yet whether they carry built-in biases toward specific assets is largely untested. We ask three questions: do LLMs systematically prefer certain financial instruments; can an internal representation with causal leverage over those preferences be identified; and does that representation affect downstream financial decisions? We develop a three-level audit protocol and apply it to Bitcoin. First, a behavioral audit of eight frontier LLMs shows that Bitcoin's ranking among money-like instruments is frame-dependent: models place it around rank 5 of 8 as\"reliable money\"but near the top under crisis and autonomous-agent frames, and an attribute-swap experiment confirms rankings track functional properties, not names. Second, we open a model's internals: a search across thousands of sparse-autoencoder features in Gemma 3 identifies a dominant Bitcoin-selective feature. Amplifying it shifts the model toward the asset and suppressing it shifts the model away, even when\"Bitcoin\"never appears in the prompt. Third, we test financial consequences: amplification raises Bitcoin's portfolio share by 5.2 percentage points while suppression lowers it by 4.6 pp, with amplification reallocating within crypto and suppression cutting total crypto exposure. We characterize this as bounded behavioral leverage (leverage meaning causal influence over outputs, not financial leverage): an identifiable internal feature can be perturbed to move financial choices, but only within measurable limits. The framework links internal representations to external recommendations, validated with random controls and mechanism boundaries. As LLMs become autonomous financial agents, this is a first step toward a behavioral layer for emerging know-your-agent (KYA) standards: knowing what an agent prefers, and how far that preference can be moved.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models",
-    "authors": [
-      "Yingzi Ma",
-      "Zhengyue Zhao",
-      "Xiaogeng Liu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4d70aa9addc224d08b81e12349b1c13208d9fc84",
-    "date": "2026-06-01",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Diffusion large language models (dLLMs) generate text by iteratively denoising partially masked sequences under bidirectional context, exposing a safety surface distinct from autoregressive LLMs. Because mask tokens are native inputs and tokens are committed by confidence rather than position, harmful content can be induced through infilling and outside the monitored prefix. Existing jailbreaks either miss this native infill capability or rely on low-diversity mask-bearing templates applied uniformly across goals, with little structural adaptation or accumulated attack experience. We propose MaskForge, a fully black-box adaptive attack that casts dLLM red-teaming as optimized search over a growing library of structural patterns. MaskForge abstracts successful attempts into reusable schemas, selects goal-compatible patterns with a UCB bandit, and invokes a scorer-guided fallback when the current library fails. Successful attempts are distilled back into the pattern library, enabling experience to accumulate across goals. Across five public dLLMs and three benchmarks, MaskForge achieves an average attack success rate of 79.3%, a 17.6% relative improvement over the strongest competing dLLM baseline. The matured pattern library further transfers to AdvBench without any updates, achieving a 88.2% attack success rate and a 67% relative improvement over the strongest competing baseline.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts",
-    "authors": [
-      "Nahyun Lee",
-      "Dongkeun Yoon",
-      "Guijin Son",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4cd7691beebac41d12ddba30c5616d8bc60676fc",
-    "date": "2026-06-01",
-    "keywords": [
-      "Foundation Model",
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Frontier model evaluations are shifting from foundational capabilities (e.g., instruction following and reasoning) toward compositional, agentic ones, but Korean agentic benchmarks remain scarce. We introduce K-BrowseComp, a web-browsing agent benchmark grounded in Korean contexts, consisting of 400 problems. The 300-problem K-BrowseComp-Verified subset is manually constructed and validated by native Korean speakers. On this subset, frontier LLMs, including GPT-5.5, DeepSeek-V4-Pro, and GLM-5.1, reach only 30.00--45.67\\%, a substantial drop from BrowseComp, while Korean LLMs released through Korea's Proprietary AI Foundation Model program obtain only 0.00--10.33\\%. We further construct a 100-problem synthetic split using hard few-shot exemplars and failure-mode-targeted generation to exploit the asymmetry between solving and creating web browsing problems. On the adversarially filtered synthetic diagnostic split, the strongest model reaches only 26.00\\%, and we report this split separately as a targeted stress test. We publicly release our data and code.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Elucidation of Dioscorea Alata Peel as a Multi-Target Neuroprotective Agent Against Alzheimer'S Disease Using Network Pharmacology, Molecular Docking, and ADMET Analysis",
-    "authors": [
-      "Sagar S Pethkar",
-      "Omkar R Rankhamb",
-      "Shalini B Pendkar",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4c9dfeb9586bebd83cd7ca8941c69be13afaa48b",
-    "date": "2026-06-01",
-    "keywords": [
-      "Agent",
-      "International Journal of Drug Delivery Technology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Background: Alzheimer's disease (AD) is a complex, progressive neurodegenerative disorder whose pathogenesis encompasses amyloid-β plaque deposition, tau neurofibrillary tangle formation, chronic neuroinflammation, oxidative stress, and cholinergic deficit. Existing pharmaco-therapeutic agents address only symptomatic manifestations, leaving a substantial unmet need for disease-modifying, multi-target interventions. Objectives: To systematically evaluate the multi-target neuroprotective capacity of six phytoconstituents isolated from the peel of Dioscorea alata L. against AD targets using an integrated network pharmacology and molecular docking framework. Methods: Six bioactive compounds — Diosgenin, Quercetin, Cyanidin-3-O-glucoside, Apigenin, Beta-sitosterol, and Ferulic acid — were retrieved from Dr. Duke'S Phytochemical Database and TCMSP following ADMETbased screening. Protein targets (n = 255) were predicted using SwissTargetPrediction and BindingDB. Alzheimer's disease genes (n = 657) were sourced from GeneCards, DisGeNET, and OMIM. Venn diagram intersection identified 109 overlapping targets that were subjected to compound–target–disease (CTD) network construction in Cytoscape (v3.10.2), protein–protein interaction (PPI) network analysis via STRING (confidence ≥0.7), hub-gene identification by CytoHubba (MCC), and GO/KEGG enrichment through ShinyGO. Molecular docking of all six compounds against AKT1, 2ZHR, 1PYX was performed using AutoDock Vina. Results: The PPI network yielded 70 nodes and 663 edges. AKT1 (degree = 56), EGFR (49), TNF (48), ESR1 (47), and SRC (46) ranked as the foremost hub genes. KEGG enrichment highlighted 20 significant pathways (p < 0.05); the PI3K–Akt1 signaling pathway, MAPK cascade, apoptosis, and cholinergic synapse pathways carried the strongest relevance to AD pathogenesis. All six phytoconstituents yielded binding energies against AKT1, 2ZHR, 1PYX validating predicted compound–target interactions. Conclusion: Dioscorea alata peel phytoconstituents demonstrate noteworthy multi-target neuroprotective activity, primarily through AKT1-centred PI3K–Akt1, MAPK, and pro-apoptotic signaling modulation. Apigenin and Quercetin emerge as priority lead candidates. These findings constitute a rational computational basis for forthcoming in vitro and in vivo validation.",
-    "summary": "",
-    "doi": "10.25258/ijddt.16.43s.13",
-    "citations": 0
-  },
-  {
-    "title": "Using a Large Language Model to Assess Documentation of Electronically Reported Symptoms in Oncology",
-    "authors": [
-      "Rachel A. Pozzar",
-      "Zachary Tentor",
-      "Thomas Sounack",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4c9abbee1418578902769cd0d1f66cae758ea9c8",
-    "date": "2026-06-01",
-    "keywords": [
-      "Journal of Pain and Symptom Management"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1016/j.jpainsymman.2026.04.171",
-    "citations": 0
-  },
-  {
-    "title": "MAP: evaluation and multi-agent enhancement of large language models for inpatient pathways",
-    "authors": [
-      "Zhen Chen",
-      "Zhihao Peng",
-      "Xusheng Liang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4c6b51c1226ea6c334f8392e886d6e5e2ab19b02",
-    "date": "2026-06-01",
-    "keywords": [
-      "Agent",
-      "npj Health Systems"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1038/s44401-026-00085-0",
-    "citations": 0
-  },
-  {
-    "title": "STEGMN: Spatiotemporal Equivariant Graph Mechanics Networks for Molecular Trajectory Prediction",
-    "authors": [
-      "Yangyang Miao",
-      "Quan Qian"
-    ],
-    "link": "https://www.semanticscholar.org/paper/4c215e583f73ac8bdba15377164443c1de40571c",
-    "date": "2026-06-01",
-    "keywords": [
-      "AIDD",
-      "Electronics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Molecular trajectory prediction is fundamental to computational chemistry, drug discovery, and materials simulation, enabling insights into dynamics, reaction pathways, and conformational stability. Its natural alignment with graph-structured spatiotemporal data has made it a key frontier in GNN research. However, current mainstream spatiotemporal GNNs, while enforcing E(3)-equivariance, treat atoms as unconstrained point masses and lack explicit rigid geometric constraints, often yielding unphysical deformations that compromise predictive interpretability. To address this challenge, we propose STEGMN—the first spatiotemporal graph architecture for molecular trajectory prediction that explicitly encodes rigid constraints. Inspired by Graph Mechanics Networks, we design a constraint-preserving equivariant spatiotemporal attention mechanism that captures temporal dependencies while rigorously maintaining both E(3)-equivariance and rigid-body constraints. Additionally, we introduce a constraint-preserving equivariant pooling module that generates future states by performing a learnable weighted aggregation of historical angular velocities, followed by forward kinematics mapping. This ensures that all outputs simultaneously satisfy E(3)-equivariance and strict bond-length conservation. Evaluated on real-world molecular dynamics datasets, STEGMN consistently outperforms strong baselines. On the rMD17 benchmark, it achieves an average ∼40% reduction in prediction MSE relative to representative spatiotemporal graph models (ST-GNN, ST-GCN, and ST-EGNN) across eight small-molecule systems, highlighting the critical value of explicit constraint modeling for physically stable trajectory prediction.",
-    "summary": "",
-    "doi": "10.3390/electronics15112403",
-    "citations": 0
-  },
-  {
-    "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
-    "authors": [
-      "Shalfun Li",
-      "Victor Yao",
-      "Charles Yang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4b9af18e8b225dd6bf92bd352c57f3fd4944e4ff",
-    "date": "2026-06-01",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "WALL-WM is a World Action Model that shifts video-action learning from chunk-centric optimization to event-grounded Vision-Language-Action pretraining, using semantically coherent action events as the atomic unit of learning. Existing WAMs commonly initialize from multimodal or video foundation models and then optimize fixed-length action chunks conditioned directly on the current observation and instruction. Although convenient, this chunk-centric formulation creates a fundamental granularity mismatch. Language describes semantic goals and events, vision evolves through continuous scene dynamics, and actions operate at control-level timescales; forcing all three into the same fixed-length prediction window turns VLA training into short-horizon correlation fitting. WALL-WM addresses this mismatch by organizing both supervision and data around semantic events. Specifically, it pairs event-grounded VLA pretraining with a data ecosystem built from event-level captions and cluster-balanced sampling, enabling scalable learning over diverse behaviors, scenes, and task structures. From the same event-pretrained backbone, WALL-WM supports two complementary inference modes. The event mode consumes next-event descriptions and enables variable-length execution chunks, while the unified mode uses a VLM with Staircase Decoding to condition conventional fixed-length chunk inference while preserving a gradient-continuous VLA path. Together with Muon-optimizer-based large-scale pretraining infrastructure, WALL-WM provides a practical scale-up recipe for general-purpose WAMs. Experiments show that WALL-WM generalizes broadly across language, scenes, and tasks, achieving state-of-the-art performance in large-scale real-world generalization evaluation.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "DyTopK: Accelerating Top-K SpMV on Embedded FPGAs via Dynamic Floating-Point Quantization",
-    "authors": [
-      "Shangshang Yao",
-      "Jingyu Liu",
-      "Li Shen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4a684cad7915e3ac8a1d9f6110b1b87456021850",
-    "date": "2026-06-01",
-    "keywords": [
-      "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Top-K sparse matrix–vector multiplication is the computational backbone of modern recommendation systems and graph neural networks (GNNs). While shifting these workloads to the edge offers the potential for ultralow latency and enhanced privacy, it presents significant architectural challenges. Recent HBM-based field-programmable gate array (FPGA) accelerators deployed in data centers have shown promise, but their designs are ill-suited for power-constrained embedded FPGAs, which suffer from the limited bandwidth of standard DDR interfaces and restricted on-chip logic resources. In this article, we propose DyTopK, a hardware–software codesigned accelerator tailored specifically for embedded edge devices. Unlike prior approaches that rely on coarse-grained blockwise quantization or complex filtering, DyTopK introduces a novel Dynamic FP4/FP8 Quantization scheme. This mechanism adapts the numerical format at the granularity of individual nonzero elements. To maximize the utility of restricted off-chip bandwidth, we further propose a bandwidth-maximal sparse matrix compression format named packet CSR (PCSR), perfectly aligning with the 64-bit data bus width of standard DDR4 interfaces. Complementing these data-centric optimizations, we design a high-efficiency hardware architecture featuring a scalable processing element array, allowing for flexible expansion based on available logic resources. Experimental results demonstrate that DyTopK achieves significant improvements, delivering <inline-formula> <tex-math notation=\"LaTeX\">$12.4\\times $ </tex-math></inline-formula> speedup in effective bandwidth utilization and <inline-formula> <tex-math notation=\"LaTeX\">$8.6\\times $ </tex-math></inline-formula> higher computational throughput compared to state-of-the-art CPU baselines. Furthermore, it outperforms prior FPGA implementations by <inline-formula> <tex-math notation=\"LaTeX\">$2.3\\times $ </tex-math></inline-formula> in energy efficiency while maintaining negligible accuracy loss (less than 0.5% recall drop) at K = 100.",
-    "summary": "",
-    "doi": "10.1109/TVLSI.2026.3673262",
-    "citations": 0
-  },
-  {
-    "title": "Bayesian Network-Based Uncertainty Handling Framework for Generative AI Large Language Models",
-    "authors": [
-      "Dr. B. Naveen Kumar",
-      "Dr. J. Goverdhan",
-      "J. Anand Kumar"
-    ],
-    "link": "https://www.semanticscholar.org/paper/47e7a4e33e8879b71c66ad8919610d7d3060e2df",
-    "date": "2026-06-01",
-    "keywords": [
-      "Agent",
-      "Transformer",
-      "International Journal of Scientific Research in Computer Science Engineering and Information Technology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large Language Models (LLMs) have significantly advanced Generative Artificial Intelligence by enabling human-like text generation, code generation, reasoning, and conversational capabilities. However, these models frequently suffer from uncertainty-related challenges such as hallucination generation, confidence ambiguity, inconsistent outputs, and lack of explainability. These issues arise because Large Language Models (LLMs) generate responses based on probabilistic pattern prediction rather than true semantic understanding. As a result, the generated content may sometimes be factually incorrect, logically inconsistent, or overconfident despite limited supporting evidence. Existing transformer-based architectures primarily depends on probabilistic token prediction without incorporating explicit uncertainty management mechanisms. This research proposes a Bayesian Network-Based Uncertainty Handling Framework designed to improve the reliability and interpretability of Generative AI systems. The proposed framework integrates Bayesian inference capability with Large Language Model outputs to estimate confidence scores, validate generated responses, and reduce hallucination probabilities. A probabilistic validation layer is introduced to analyze contextual dependencies and evaluate the likelihood of response correctness. The framework also enhances explainability through probabilistic reasoning and confidence calibration. The proposed approach can be applied in critical AI applications including education, healthcare, decision-support systems, and intelligent conversational agents.",
-    "summary": "",
-    "doi": "10.32628/cseit26123338",
-    "citations": 0
-  },
-  {
-    "title": "Multimodal AI prediction of head and neck cancer treatment outcomes with whole slide imaging.",
-    "authors": [
-      "Jiaxiang Sun",
-      "Yusuf Sadek",
-      "Yiming Zhu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/465d53026b12cc1a4c260d97f8ca52fa77315cbf",
-    "date": "2026-06-01",
-    "keywords": [
-      "Foundation Model",
-      "Journal of Clinical Oncology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n \n e18000\n \n \n Background:\n Current risk stratification and adjuvant treatment decisions for head and neck cancer following surgical resection rely primarily on pathological risk factors. The growing adoption of digital pathology presents an opportunity to leverage histopathological image features to enhance risk stratification accuracy. This study investigated the performance of machine learning models for treatment outcome prediction using image features and traditional clinical variables, and identified optimal strategies for combining these modalities.\n Methods:\n We analyzed data from 645 patients in the publicly available HANCOCK dataset for model development and testing. All patients had head and neck cancers treated with primary surgery with or without adjuvant therapy. For each patient, H&E-stained whole slide images of the primary tumor and nine clinical variables served as model inputs. Slide-level image embeddings were extracted using a pretrained vision-language pathology foundation model (TITAN). Clinical variables included tumor site, pT classification, pN classification, histologic grade, perineural invasion, lymphovascular invasion, extranodal extension, margin status, and smoking history. Models were trained to predict survival, with performance measured by Harrell's concordance index (C-index), using an machine learning-based Cox proportional hazards model (DeepSurv). We compared unimodal models (using either clinical variables or image features alone) with multimodal models utilizing different fusion strategies (concatenation, late fusion, and cross-attention). Five-fold cross-validation with early stopping was implemented during training.\n Results:\n Unimodal models achieved C-indices of 0.62 +/- 0.04 (clinical variables) and 0.65 +/- 0.07 (image features). Multimodal models demonstrated progressive improvement: late fusion (0.63 +/- 0.05), concatenation (0.67 +/- 0.07), and cross-attention (0.69 +/- 0.07), with cross-attention achieving the highest performance.\n Conclusions:\n H&E-stained whole slide images from resected head and neck cancers contain significant prognostic information. Multimodal AI models integrating histopathological images with clinical variables, particularly using cross-attention fusion, enhance prognostic prediction and may improve risk stratification for adjuvant therapy decisions.\n \n \n Harrell's concordance index for each type of model input and feature fusion methods.\n \n \n \n \n Model input\n C-index (mean +/- std)\n \n \n \n \n Clinical variables alone\n 0.62 +/- 0.04\n \n \n Image features alone\n 0.65 +/- 0.07\n \n \n Multimodal (late fusion)\n 0.63 +/- 0.05\n \n \n Multimodal (concatenation)\n 0.67 +/- 0.07\n \n \n Multimodal (cross attention)\n 0.69 +/- 0.07\n \n \n \n \n \n",
-    "summary": "",
-    "doi": "10.1200/jco.2026.44.16_suppl.e18000",
-    "citations": 0
-  },
-  {
-    "title": "Structure-Aware Prediction of PROTAC-Mediated Protein Degradability via Graph Neural Networks",
-    "authors": [
-      "Bryan Cheng",
-      "Austin Jin"
-    ],
-    "link": "https://www.semanticscholar.org/paper/4625bcadc6b112fae167dbb0e4b5f0a7f017648b",
-    "date": "2026-06-01",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Proteolysis-targeting chimeras (PROTACs) can selectively degrade disease-causing proteins, yet predicting which targets are amenable to degradation remains a critical bottleneck: existing computational methods require the complete PROTAC molecular structure, information unavailable before synthesis. We present DegradoMap, a graph neural network that predicts PROTAC-mediated degradability from protein structure and E3 ligase identity alone -- the minimal information available at the target selection stage. The model encodes biophysical priors through lysine-weighted graph pooling with per-protein normalization, models protein-E3 compatibility via cross-attention, and integrates cellular context from the Cancer Dependency Map. On the PROTAC-8K benchmark (3,101 samples, 155 targets, 10 E3 ligases), DegradoMap achieves 0.646+-0.124 AUROC on target-unseen evaluation (best seed: 0.7449) and 0.811 AUROC on CRBN->VHL E3-unseen transfer, outperforming GNN and machine learning baselines. The model additionally recommends optimal E3 ligases with 74% Hit@3 accuracy. Two findings carry broader implications: E(3)-equivariant architectures underperform the simpler invariant design for this scalar prediction task, and ESM-2 embeddings improve peak performance only with careful regularization -- naive integration fails. DegradoMap provides pre-synthesis computational guidance for degradability assessment; its well-calibrated confidence scores (ECE = 0.029, target-unseen) enable practitioners to prioritize high-confidence predictions for experimental follow-up. However, the high seed variance (std = 0.124) and limited E3 coverage require ensembling for reliable deployment.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "FSSM-DDI: Fusion State Space Model for predicting drug-drug interaction using social-media and drug descriptions",
-    "authors": [
-      "Shanwen Zhang",
-      "Ting Zhang",
-      "Dengwu Wang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/461416a899b3a70ea0a4e14de9170224b414307b",
-    "date": "2026-06-01",
-    "keywords": [
-      "Deep Learning",
-      "Transformer",
-      "AIDD",
-      "BMC Biology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Background Predicting drug-drug interactions (DDIs) from social-media and drug descriptions is crucial for healthcare, drug regulation, and pharmaceutical research, yet remains a challenging task. Existing deep learning and Transformer-based approaches often struggle with modeling long-range dependencies within sentences or entail high computational costs, limiting their practical applicability in large-scale drug safety screening. Results To overcome these limitations, we propose a Fusion State Space Model (FSSM) for DDI prediction (DDIP). FSSM leverages a selective State Space Model (SSM) to efficiently capture long-range syntactic and semantic dependencies within sentences, while an Interaction-based Selective Filtering (ISF) module mitigates information redundancy from multimodal inputs. Experiments on the DDIExtraction-2013 corpus demonstrate that FSSM achieves an F1-score of 75.23%, matching state-of-the-art Transformer models while requiring significantly less training time. Ablation studies confirm that each architectural component contributes meaningfully, with social-media embedding providing the largest performance gain (8.93% drop upon removal) and the ISF module contributing a 4.80% improvement. Conclusions FSSM offers a promising balance of predictive performance and computational efficiency for drug-drug interaction prediction. The model’s linear complexity enables large-scale screening, real-time applications, and deployment in resource-constrained settings, making it a valuable tool for drug discovery and drug safety assessment.",
-    "summary": "",
-    "doi": "10.1186/s12915-026-02648-x",
-    "citations": 0
-  },
-  {
-    "title": "Estimating individual benefit from adjuvant chemotherapy in hormone receptor–positive breast cancer using causal multimodal artificial intelligence.",
-    "authors": [
-      "F. Howard",
-      "J. Abdelsattar",
-      "D. Biswas",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/45a33fa767d645c0f6c17654158dab589a7e08e1",
-    "date": "2026-06-01",
-    "keywords": [
-      "Deep Learning",
-      "Foundation Model",
-      "Biological Large Model",
-      "Journal of Clinical Oncology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n 551\n \n \n Background:\n Adjuvant chemotherapy decisions in HR+/HER2– early breast cancer are often guided by prognostic gene expression assays. However, assessment of recurrence risk may not yield a predictive biomarker that accurately estimates treatment benefit. Here, we combine advances in deep learning and causality research to address this problem using routine histopathology and clinical data. We develop and validate a causal multimodal artificial intelligence (AI) model that predicts the patient-specific benefit of adding chemotherapy to endocrine therapy in HR+/HER2– early breast cancer.\n Methods:\n De-identified whole-slide histopathology images (WSIs) and clinical covariates from 9,269 patients across 12 observational cohorts were used to develop the Ataraxis Breast model (ATX). The locked model was then externally validated in a cohort from the University of Chicago (n = 435, stage I-III HR+/HER2– breast cancer, median age = 56, median follow-up = 7.2 years), grouped by adjuvant therapy received (endocrine therapy [ET] n = 322, chemoendocrine therapy [CET] n = 113). The primary endpoint was 5-year recurrence-free interval (RFI). WSIs were encoded via a pathology foundation model and integrated with clinical variables (including T/N stage, age, ductal vs lobular histology). ATX predicted counterfactual RFIs, assuming CET or ET, with the difference taken as the predicted treatment-benefit score. Discrimination was evaluated using Harrell’s C-index. Multivariate Cox proportional hazards models were fitted, adjusting for clinicopathological factors (age and T/N stage), to estimate hazard ratios (HR). Subgroup differences were assessed using inverse-propensity-weighted Kaplan-Meier estimates and two-sided log-rank tests.\n Results:\n In the external validation cohort, ATX was significantly associated with the primary endpoint (adjusted HR = 1.65, 95% CI 1.05-2.6; p = 0.029), and demonstrated good discrimination at the patient-level (C-index = 0.704, 95% CI 0.588-0.821). Notably, ATX stratified patients into subgroups with differential chemotherapy effects: patients in the top tertile of predicted treatment benefit experienced improved RFI with CET (ET RFI = 0.744, CET RFI = 0.980; p < 0.001), with no difference observed in patients with low predicted treatment benefit (ET RFI = 0.975, CET RFI = 0.970; p = 0.85). The interaction between ATX and the magnitude of chemotherapy benefit, when adjusted for clinicopathological factors, was significant (p-interaction = 0.005).\n Conclusions:\n A causal multimodal AI model accurately estimates chemotherapy benefit for patients with HR+/HER2– early breast cancer, meeting the criteria for a predictive biomarker. The causal AI methodology presented here may provide a generalizable framework to optimize scalable, predictive biomarkers for other therapies and cancer types.\n",
-    "summary": "",
-    "doi": "10.1200/jco.2026.44.16_suppl.551",
-    "citations": 0
-  },
-  {
-    "title": "KDG-Rec: Enhanced Dual-GNN Programming Exercise Recommendation via LLM-Powered Knowledge Annotation and Preference-Decoupling",
-    "authors": [
-      "Bangqi Li",
-      "Qing Sun",
-      "Tianyi Zhu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/45544bbb75818fe225a2569e515e87ec0c76deec",
-    "date": "2026-06-01",
-    "keywords": [
-      "Agent",
-      "Fine-tuning",
-      "IEEE Transactions on Computational Social Systems"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The rapid expansion of online programming exercise platforms has brought abundant learning resources for programming education, but also presents challenges for personalized exercise recommendation due to missing or imprecise knowledge annotations and the sparsity of learner-exercise interaction records, which together lead to reduced accuracy and a lack of explainability in the recommendation results. Existing natural language processing and large language models (LLM)-based annotation methods struggle to capture implicit knowledge and often generate redundant or inconsistent results. Moreover, mainstream recommendation systems are ineffective at handling the severe sparsity of interaction sequences in programming exercise datasets, and typically model student preferences in a single dimension—overlooking key educational factors such as knowledge gaps, difficulty tolerance, and preferred learning rhythm. To address these challenges, we propose KDG-Rec, a novel framework that first introduces AgentCo-KAS, a multiagent LLM-based collaborative annotation method with role-specific fine-tuning and cross-agent verification for high-precision, fine-grained knowledge annotation. Building on these enriched annotations, we develop a disentangled graph neural network model that constructs dual exercise-interaction graphs to effectively capture learning patterns at multiple granularities in interaction sequences and explicitly decouples student preferences into four interpretable dimensions for adaptive fusion. Extensive experiments on real-world datasets demonstrate that KDG-Rec outperforms nine state-of-the-art methods across multiple metrics, significantly advancing personalized programming exercise recommendation.",
-    "summary": "",
-    "doi": "10.1109/TCSS.2026.3669970",
-    "citations": 0
-  },
-  {
-    "title": "Multimodal immunoprofiling of peripheral blood using foundation models of the immune system for predicting immunotherapy response and toxicity in the RADIOHEAD pan-cancer cohort.",
-    "authors": [
-      "Artemii Nikitin",
-      "Alena Frank",
-      "Evgeny Barykin",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/44e2a71e2879cd7cb7f07867c4f67b450ffa9df8",
-    "date": "2026-06-01",
-    "keywords": [
-      "Foundation Model",
-      "RNA-seq / Transcriptomics",
-      "Biological Large Model",
-      "Journal of Clinical Oncology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n 2533\n \n \n Background:\n While immune checkpoint inhibition (ICI) is an emerging gold standard for cancer therapy, positive response is limited among treated patients and up to 70% experience toxicity. Early and accurate response prediction that accounts for immune-related adverse events (irAEs) is crucial for identifying patients who may benefit from ICI. We present AI-powered approaches for predicting ICI response by transcriptional and cellular profiling of blood immune cells from a pan-cancer cohort.\n Methods:\n Peripheral blood mononuclear cells (PBMC) were isolated at pre- (baseline) and early on-treatment for flow cytometry and RNA-seq profiling from the RADIOHEAD cohort\n (Quandt et al. 2025)\n receiving ICI (n=1,070). Patients were clustered based on variational autoencoder embeddings for real-world progression-free survival (rwPFS) and irAEs derived by a peripheral immune system encoder trained on the BostonGene patient database (n=45,000). The logrank test and Fisher’s exact test were used to analyze survival and compare irAE frequencies between clusters, respectively. RNA-seq trajectory features were identified using hierarchical clustering, along with elastic net-regularized and simple multivariate Cox regression models for feature selection.\n Results:\n Pre-trained immunotype models (Dyikanov et al. 2024)\n \n applied to baseline PBMC revealed that G2-primed (memory CD4+ T cell-enriched) and G5-suppressive (monocyte enriched) immunotype scores stratified patients into responders (R) and non-responders (NR) (p = 0.00001). T cell receptor (TCR) dynamics revealed a significantly greater decrease in TCR diversity in NR during treatment (p = 0.046). We discovered a baseline gene set containing immune checkpoint and cancer antigen genes as well as a longitudinal trajectory set of monocyte and myeloid cell activation markers that both stratified patients by rwPFS (p=0.006; 0.03). Trained immune system embeddings identified a novel severe-risk patient group with both a high irAE incidence (p = 0.025) and short rwPFS. This group displayed both active inflammatory and tolerance pathways that stratified patients with irAEs by rwPFS (p = 0.003).\n Conclusions:\n Using pre-trained multimodal immune system projections, we 1) independently confirmed the association of peripheral immunotypes with ICI response; and 2) identified a novel severe-risk signature from patients with high irAE incidence (≥Grade 3) and short rwPFS. We also found that greater TCR diversity and T cell differentiation were associated with ICI response, while innate myeloid activation and trafficking correlated with non-response. Our unique AI-driven analytical framework underscores the potential of peripheral blood immunoprofiling for ICI treatment selection and patient stratification in prospective trials.\n",
-    "summary": "",
-    "doi": "10.1200/jco.2026.44.16_suppl.2533",
-    "citations": 0
-  },
-  {
-    "title": "Will the widespread use of large language models in scientific writing undermine scientists’ critical thinking?",
-    "authors": [
-      "L. Bietti",
-      "Adrian Bangerter"
-    ],
-    "link": "https://www.semanticscholar.org/paper/44bcd37ea87fb1b8c107e802a21bebf7e34feef7",
-    "date": "2026-06-01",
-    "keywords": [
-      "PLoS Biology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Artificial intelligence (AI) is rapidly transforming scientific writing by expanding access and efficiency, yet it risks decoupling writing from thinking. Scientific writing is a core cognitive and epistemic practice that must be cultivated and preserved alongside AI use.",
-    "summary": "",
-    "doi": "10.1371/journal.pbio.3003801",
-    "citations": 0
-  },
-  {
-    "title": "Open-source large language model-based on-premises pipeline for automated data extraction from unstructured electronic health records: a pilot study",
-    "authors": [
-      "Vasileios Ntinopoulos",
-      "Hector Rodriguez Cetina Biefer",
-      "L. Rings",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/449b06438821a1d7c526c2d5ffcfb78ec2c27985",
-    "date": "2026-06-01",
-    "keywords": [
-      "BMJ Health &amp; Care Informatics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n We evaluated an on-premises, open-source large language model (LLM)-based data extraction pipeline for automated data extraction from unstructured electronic health records (EHRs).\n \n \n \n Automated script-based EHR data preprocessing extracted 50 medical texts in German, which were entered into the LLM pipeline. 4-bit and 8-bit quantizations of 14 mid-sized LLMs (30B–90B parameters) were evaluated in 6 information extraction, 11 binary classification and 5 multilevel classification tasks comprising all variables of the European System for Cardiac Operative Risk Evaluation 2 (EuroSCORE 2) model for 1100 predictions each. LLM response consistency was assessed over three same-prompt iterations.\n \n \n \n In overall accuracy, Qwen3-30b-a3b-q8 presented the highest value (0.954) and 13 LLMs had values over 0.90. In information extraction accuracy, 12 LLMs exhibited a value of 1.0 and all 14 LLMs had values over 0.96. In binary classification accuracy, Llama3.2-vision-90b-q4 exhibited the highest value (0.972), 5 LLMs had values of at least 0.95 and all 14 LLMs showed values over 0.93. In multilevel classification accuracy, Qwen3-30b-a3b-q8 exhibited the highest value (0.940), four LLMs had values over 0.90 and all LLMs presented values over 0.80. Nine LLMs exhibited perfect response consistency and the remaining five LLMs had a Krippendorff’s alpha value of 0.999.\n \n \n \n Multiple LLMs exhibited high accuracy in information extraction, binary classification, multilevel classification and response consistency and seem able to reliably automate data extraction from EHRs.\n \n \n \n This pilot study demonstrates the feasibility of on-premises, privacy-preserving, LLM-based automated EHR data extraction pipelines. Larger-scope studies are warranted to validate their potential in healthcare.\n",
-    "summary": "",
-    "doi": "10.1136/bmjhci-2025-101956",
-    "citations": 0
-  },
-  {
-    "title": "Enhancing Recommendations Using an Intelligent System for Mothers to Combat Intestinal Parasitic Infections",
-    "authors": [
-      "M. Elsawy",
-      "F. A. Mousa",
-      "A. Y. Abdelwahed",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/4479e9661d72908d35bf79a92f3177b6ac2d403b",
-    "date": "2026-06-01",
-    "keywords": [
-      "Healthcare"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Background: Intestinal parasitic infection is widespread worldwide and a serious public health problem. It is responsible for enormous morbidity and mortality around the world, particularly in developing countries. Artificial intelligence can create therapeutic suggestions that are individually tailored to each client’s unique traits. This study aimed to develop an intelligent system for mothers to provide future recommendations for more effective interventions to combat intestinal parasitic infections. Methods: A quasi-experimental research design (pre/post-test) was utilized to achieve the aim of the current study. The study was conducted at Dar Al Salam Family Health Center in Cairo Governorate, Egypt. A purposive sample of 200 mothers was included in this study. Two tools were used for data collection: First tool: Structured knowledge questionnaire that has four parts: Part I: Demographic data; Part II: Family history for intestinal parasitic infection; Part III: Home environment; Part IV: Mothers’ knowledge regarding intestinal parasitic infection. Second tool: Mothers’ reported preventive measures checklist. Results: There was a highly significant statistical difference in the mothers’ total knowledge level and total preventive measures regarding intestinal parasitic infection between pre and posttest. Moreover, there was highly significant statistical positive correlation between mothers’ total knowledge and total preventive measures at pre and post-test. The integration of large language model driven insights, quick engineering, and tailored treatments demonstrated favorable outcomes in enhancing mothers’ cleanliness routines. The novelty of this study lies in integrating K-Means clustering, large language models (GPT-4o), and prompt engineering to generate culturally tailored and behavior-specific preventive recommendations for mothers regarding intestinal parasitic infections. Conclusions: Preventive educational programs have a significant positive effect on improving mothers’ knowledge and preventive measures to combat intestinal parasitic infections. This study effectively underscores the significance of artificial intelligence-driven analysis and large language models in producing tailored suggestions to enhance mothers’ hygiene routines.",
-    "summary": "",
-    "doi": "10.3390/healthcare14111541",
     "citations": 0
   }
 ]

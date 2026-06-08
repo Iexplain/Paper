@@ -1,0 +1,329 @@
+[
+  {
+    "title": "Learner Engagement State Typologies in AI Tutoring: A Clustering Analysis of Dialogue Behaviors in Introductory Programming Sessions",
+    "authors": [
+      "January F. Naga",
+      "Julieto E. Perez"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f709b07803a5c56249e2e832cc2f68e9a84e630b",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Models (LLMs) become increasingly embedded in intelligent tutoring systems (ITSs), a growing need exists to understand how learners engage with these tools, especially in cognitively demanding domains such as computer programming. While prior research has focused mainly on LLM-generated scaffolding, less attention has been paid to student-side engagement, including how learners think, respond, and regulate their learning during natural language tutoring sessions. This study addresses that gap by identifying learner engagement state profiles based on behavioral and metacognitive patterns in student dialogue. Drawing on data from 36 recorded LLM-mediated C introductory programming tutorials, 1,046 dual-annotated student utterances were analyzed using K-means clustering. The analysis revealed three distinct learner engagement state profiles: Passive Reactors, Clarification Seekers, and Reflective Performers. These engagement states differed in response accuracy, metacognitive expression, and interaction style. Passive Reactors showed low initiative and limited self-regulation; Clarification Seekers demonstrated moderate accuracy and reactive help-seeking; Reflective Performers exhibited strategic engagement and high metacognitive activity. This study introduces an exploratory, scalable approach to learner profiling through natural language dialogue, advancing the design of adaptive, learner-aware LLM tutoring systems. The findings support the development of real-time learner modeling techniques that move beyond correctness, offering actionable insights for delivering more personalized and effective AI-assisted instruction in programming education.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.03.10",
+    "citations": 0
+  },
+  {
+    "title": "Transformer Framework Enhanced by Large Language Models for Image-based Multi-class Malware Detection",
+    "authors": [
+      "Gaurav Mehta",
+      "P. Sarangi",
+      "Shaily Jain",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8dabb991707d60c3611940c8ed64dc230499569a",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal of Information Technology and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the rapid proliferation of electronic devices, the volume and sophistication of malware have surged, posing critical cybersecurity threats. Traditional malware detection approaches face challenges such as limited generalization, unbalanced datasets, and high computational costs. To address these issues, this study introduces the LLM-Powered Transformer Framework for Multi-Class Malware Detection, an image-based approach integrating Large Language Models (LLMs) and transformer architectures with Convolutional Neural Networks (CNNs). The proposed framework enhances malware classification by leveraging data visualization, balanced sampling, and data augmentation techniques, achieving over 98.86% accuracy across four open-source datasets. Furthermore, this study makes two key contributions: first, it provides granular insights into malware classification performance using confusion matrix analysis, aiding cybersecurity professionals in refining detection strategies. Second, the balanced sampling approach eliminates the need for additional datasets, minimizes hardware overhead, and dynamically adjusts sampling weights for optimal learning. Additionally, data augmentation techniques mitigate overfitting, enhancing the model's adaptability to diverse malware variants. Comparative analysis with state-of-the-art methods demonstrates the proposed framework's efficiency in achieving high accuracy while maintaining computational feasibility. These advancements establish a robust foundation for real-world malware detection and cybersecurity applications.",
+    "summary": "",
+    "doi": "10.5815/ijitcs.2026.03.11",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating LLM-Assisted CLO–PLO Alignment Decisions for AUN-QA–Aligned Curriculum Mapping",
+    "authors": [
+      "Suwut Tumthong",
+      "Nichanun Samakthai",
+      "Pinyaphat Tasatanattakool"
+    ],
+    "link": "https://www.semanticscholar.org/paper/56b36395a68741dc6f94db5fbc136f3bbde3addd",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Curriculum mapping for AUN-QA is often time-consuming and prone to inconsistency because learning-outcome evidence is scattered across multiple courses and program documents. This study examines the reliability of large language models in supporting course learning outcome–program learning outcome (CLO–PLO) alignment decisions for AUN-QA–aligned curriculum mapping. Using Mechatronics Engineering curriculum materials (2022–2024), AUN-QA v4.0 indicators were operationalized into a structured evidence schema to guide prompting and interpretation. GPT-4 produced 120 CLO–PLO alignment decisions, which were independently annotated by two domain experts and adjudicated by a third expert to establish reference labels. Model–reference agreement was evaluated using precision, recall, F1-score, and Cohen’s kappa (κ), yielding 0.89, 0.85, 0.87, and 0.81, respectively. We also developed a dashboard that summarizes alignment coverage and supports PDCA-based curriculum improvement by flagging potential gaps and redundancies. The findings suggest that LLM-assisted alignment can reduce mapping workload and improve auditability while remaining consistent with expert judgment, enabling more scalable evidence-based AUN-QA evaluation.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.03.08",
+    "citations": 0
+  },
+  {
+    "title": "Increasing Editor Trust in News Personalization Systems with Fact-checked Large Language Models",
+    "authors": [
+      "Tobias Jovall Wessel",
+      "Christoph Trattner",
+      "Alain D. Starke"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f2f2f841839ddeac17123198afa40b3eda16af6c",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3806175",
+    "citations": 0
+  },
+  {
+    "title": "Knowledge Graphs and Large Language Models for Continuous Adaptation in Lifelong Learning",
+    "authors": [
+      "Giulia Coucourde"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ee3dd5a9f748c67a9f6e19481e1e110123a93353",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3803063",
+    "citations": 0
+  },
+  {
+    "title": "Toward the Open World: Closed-Loop Psychophysiological Intervention Systems Driven by Biosignal Foundation Models",
+    "authors": [
+      "Jingyu Liu",
+      "Xuan Zhang",
+      "Yang Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e7b365034623d6f9ff6a4a6f0c5616b3b0dcaa13",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE Transactions on Computational Social Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/tcss.2026.3691055",
+    "citations": 0
+  },
+  {
+    "title": "Who is the Fairest of Them All? Using Large Language Models for Fairness Assessments",
+    "authors": [
+      "Cedric Waterschoot",
+      "N. Tintarev",
+      "Francesco Barile"
+    ],
+    "link": "https://www.semanticscholar.org/paper/dd5000e0c51b2d59f5763dfd65defce5f4a150ab",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3812703",
+    "citations": 0
+  },
+  {
+    "title": "LLM4Good: The 2nd Workshop on Sustainable and Trustworthy Large Language Models for Personalization",
+    "authors": [
+      "A. Wagne",
+      "T. E. Kolb",
+      "Ashmi Banerjee",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/dd1035c69dde25338e41ade980c24e51db032ff6",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3802536",
+    "citations": 0
+  },
+  {
+    "title": "Personalized Human–Robot Interaction through Ontology-Based Knowledge Graphs and Large Language Models",
+    "authors": [
+      "Aurora Toma",
+      "Davide Lofrese",
+      "Giuseppe Palestra"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d93502c6dd1ed141c6f83cdac35922edabb29ead",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3806169",
+    "citations": 0
+  },
+  {
+    "title": "EmoArc: Interactive Emotion Graph for Human-AI Collaborative Writing",
+    "authors": [
+      "Rifat Mehreen Amin",
+      "Seyit Baran Özdemir",
+      "Sven Mayer",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d3c1dff5429b18b0a07b398366d65aa3b3918d63",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 International Conference on Advanced Visual Interfaces"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the advent of large language models, creative writers can get support for refinement, co-writing, and text generation. Yet, writers often struggle to understand how model-driven rewrites affect the emotional trajectory of their narratives. We investigate how interactive visualizations can help writers gain awareness, agency",
+    "summary": "",
+    "doi": "10.1145/3811427.3811429",
+    "citations": 0
+  },
+  {
+    "title": "DataForager: Integrating and Visualizing Datasets From the Web Using Large Language Models",
+    "authors": [
+      "Alexander Bendeck",
+      "Harry Li",
+      "Steven Gomez",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9c0a8a28cf76b28efb905ec9b8dc49da96d54dc7",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 International Conference on Advanced Visual Interfaces"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3811427.3811434",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Large Language Models for Alt-Text Evaluation in E-Commerce: A Data-Driven Study",
+    "authors": [
+      "Nicola Leonardi",
+      "Marco Manca",
+      "Fabio Paternò"
+    ],
+    "link": "https://www.semanticscholar.org/paper/89418eb7881766ab32f4ce0ccf30bfd4d7cbe904",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 International Conference on Advanced Visual Interfaces"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3811427.3811431",
+    "citations": 0
+  },
+  {
+    "title": "MRP-LLM: Multitask Reflective Large Language Models for Privacy-Preserving Next POI Recommendation",
+    "authors": [
+      "Ziqing Wu",
+      "Zhu Sun",
+      "Dongxia Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/65291a623621b8aa4a0c0759769f0cd4ef16fa00",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3806151",
+    "citations": 0
+  },
+  {
+    "title": "Conceptual Alignment through Large Language Models: A Case Study in an Educational Context",
+    "authors": [
+      "Simone Ciciliano",
+      "R. Gennari"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5a4152858d9b157b958d1484a0adaa02ce8edce8",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 International Conference on Advanced Visual Interfaces"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3811427.3811462",
+    "citations": 0
+  },
+  {
+    "title": "From Labels to Context: Context-Sensitive User Modeling of Affect with Large Language Models",
+    "authors": [
+      "Irina Nalis",
+      "Nils Klüwer",
+      "Julia Neidhardt"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3bed17f97a111785a2a0e1d0bbb373b19b86c089",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3812706",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Participatory Personas for Reflexive Co-design of Personalization in Large Language Models",
+    "authors": [
+      "Kathleen W. Guan",
+      "Sarthak Giri",
+      "Mohammed Al Owayyed",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/35b0e9fb740c4acb9071ce31d96aed5540330caf",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774935.3812729",
+    "citations": 0
+  },
+  {
+    "title": "Towards Design Guidelines to Support Young Adults' Digital Wellbeing with Large Language Models",
+    "authors": [
+      "Giuseppe Arbore",
+      "Luigi De Russis"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1c1145accf0015aeae3d2109ac105a07847e56ad",
+    "date": "2026-06-07",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 International Conference on Advanced Visual Interfaces"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3811427.3811525",
+    "citations": 0
+  }
+]
