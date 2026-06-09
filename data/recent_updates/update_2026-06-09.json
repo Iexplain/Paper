@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Learner Engagement State Typologies in AI Tutoring: A Clustering Analysis of Dialogue Behaviors in Introductory Programming Sessions",
+    "authors": [
+      "January F. Naga",
+      "Julieto E. Perez"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f709b07803a5c56249e2e832cc2f68e9a84e630b",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Models (LLMs) become increasingly embedded in intelligent tutoring systems (ITSs), a growing need exists to understand how learners engage with these tools, especially in cognitively demanding domains such as computer programming. While prior research has focused mainly on LLM-generated scaffolding, less attention has been paid to student-side engagement, including how learners think, respond, and regulate their learning during natural language tutoring sessions. This study addresses that gap by identifying learner engagement state profiles based on behavioral and metacognitive patterns in student dialogue. Drawing on data from 36 recorded LLM-mediated C introductory programming tutorials, 1,046 dual-annotated student utterances were analyzed using K-means clustering. The analysis revealed three distinct learner engagement state profiles: Passive Reactors, Clarification Seekers, and Reflective Performers. These engagement states differed in response accuracy, metacognitive expression, and interaction style. Passive Reactors showed low initiative and limited self-regulation; Clarification Seekers demonstrated moderate accuracy and reactive help-seeking; Reflective Performers exhibited strategic engagement and high metacognitive activity. This study introduces an exploratory, scalable approach to learner profiling through natural language dialogue, advancing the design of adaptive, learner-aware LLM tutoring systems. The findings support the development of real-time learner modeling techniques that move beyond correctness, offering actionable insights for delivering more personalized and effective AI-assisted instruction in programming education.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.03.10",
+    "citations": 0
+  },
+  {
+    "title": "Transformer Framework Enhanced by Large Language Models for Image-based Multi-class Malware Detection",
+    "authors": [
+      "Gaurav Mehta",
+      "P. Sarangi",
+      "Shaily Jain",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8dabb991707d60c3611940c8ed64dc230499569a",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal of Information Technology and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the rapid proliferation of electronic devices, the volume and sophistication of malware have surged, posing critical cybersecurity threats. Traditional malware detection approaches face challenges such as limited generalization, unbalanced datasets, and high computational costs. To address these issues, this study introduces the LLM-Powered Transformer Framework for Multi-Class Malware Detection, an image-based approach integrating Large Language Models (LLMs) and transformer architectures with Convolutional Neural Networks (CNNs). The proposed framework enhances malware classification by leveraging data visualization, balanced sampling, and data augmentation techniques, achieving over 98.86% accuracy across four open-source datasets. Furthermore, this study makes two key contributions: first, it provides granular insights into malware classification performance using confusion matrix analysis, aiding cybersecurity professionals in refining detection strategies. Second, the balanced sampling approach eliminates the need for additional datasets, minimizes hardware overhead, and dynamically adjusts sampling weights for optimal learning. Additionally, data augmentation techniques mitigate overfitting, enhancing the model's adaptability to diverse malware variants. Comparative analysis with state-of-the-art methods demonstrates the proposed framework's efficiency in achieving high accuracy while maintaining computational feasibility. These advancements establish a robust foundation for real-world malware detection and cybersecurity applications.",
+    "summary": "",
+    "doi": "10.5815/ijitcs.2026.03.11",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating LLM-Assisted CLO–PLO Alignment Decisions for AUN-QA–Aligned Curriculum Mapping",
+    "authors": [
+      "Suwut Tumthong",
+      "Nichanun Samakthai",
+      "Pinyaphat Tasatanattakool"
+    ],
+    "link": "https://www.semanticscholar.org/paper/56b36395a68741dc6f94db5fbc136f3bbde3addd",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Curriculum mapping for AUN-QA is often time-consuming and prone to inconsistency because learning-outcome evidence is scattered across multiple courses and program documents. This study examines the reliability of large language models in supporting course learning outcome–program learning outcome (CLO–PLO) alignment decisions for AUN-QA–aligned curriculum mapping. Using Mechatronics Engineering curriculum materials (2022–2024), AUN-QA v4.0 indicators were operationalized into a structured evidence schema to guide prompting and interpretation. GPT-4 produced 120 CLO–PLO alignment decisions, which were independently annotated by two domain experts and adjudicated by a third expert to establish reference labels. Model–reference agreement was evaluated using precision, recall, F1-score, and Cohen’s kappa (κ), yielding 0.89, 0.85, 0.87, and 0.81, respectively. We also developed a dashboard that summarizes alignment coverage and supports PDCA-based curriculum improvement by flagging potential gaps and redundancies. The findings suggest that LLM-assisted alignment can reduce mapping workload and improve auditability while remaining consistent with expert judgment, enabling more scalable evidence-based AUN-QA evaluation.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.03.08",
+    "citations": 0
+  },
+  {
+    "title": "Reasoning Under Encryption: Assessing the Use of Large Language Models in Privacy-Preserving Drug Research",
+    "authors": [
+      "Amit Chakraborty",
+      "Rajan Keshri",
+      "Rajdeep Chakraborty",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/320034817d0334b4e300756b05aad75fb9918a57",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "International Journal of Drug Delivery Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the adoption of large language models (LLMs) into highly sensitive fields like healthcare, finance, and legal\nservices, safeguarding user information in the course of model inference has become the most critical issue.\nConventional deployment pipelines of LLM require access to plaintext user inputs, which means that the raw data\nhave to be visible to the model to create an output. These solutions reveal extremely sensitive data, which may be\ngoing against privacy laws, including HIPAA and GDPR, and deceive any user. In this regard, there has emerged a\nhopeful cryptographic tool of homomorphic encryption (HE) since it allows one to compute on the encrypted\ninformation and does not require it to be decrypted at any point. Hypothetically, it allows privacy-preserving\ninference of the LLM, where the user can make encrypted inquiries and get encrypted responses, ignoring that the\nmodel does not know anything about the particular content of the information. Nevertheless, despite its conceptual\nstrength, homomorphic encryption faces serious difficulties in the case of large scale deep learning models like\ntransformers. HE schemes are computationally heavy and have significant overhead in terms of time and memory.\nAlso, multiple computations of encrypted data acquire noise in the encrypted data, which may ultimately distort\ncomputations unless handled carefully. These bottlenecks make the straightforward use of HE to full-sized LLMs,\ninvolving billions of parameters and intricate attention mechanisms impracticable. Therefore, there has to be a\nbalance between privacy and calculations in practice. The paper is limited to the potentially realistic discussion of\nthe prospects of homomorphic encryption to the inference of the LLM, especially in the context of situations in\nwhich the absolute confidentiality of data is of paramount importance, like in asking clinical questions. Instead of\ntrying to encrypt very advanced models, we explore the performance of reduced and shallow transformer-based\nmodels in combination with algorithmic HE designs. Our experiments measure important trade-offs between model\naccuracy, inference latency, and cryptographic security, and gives a systematic study of current capabilities. These\nfindings suggest that all homomorphic implementation of deep transformer nets is still not a viable solution to realtime prediction as they have very high computational requirements. Times of inference with HE may go up\nhundreds of milliseconds to several minutes or even minutes, and make interactive application unrealistic. Besides,\nnoise in cipher text restricts sequential operations, which restricts the depth and expressiveness of the model.\nNonetheless, our research reports that, actually, with a tedious selection of parameters and with reduced model\narchitectures, relatively basic reasoning tasks, which may include binary classification or even simple clinical\nquestion answering, can be performed with sufficiently low latency with only small losses in precision. We also\ndetermine major research directions that allow us to facilitate future improvement. They consist of creation of HE\nfriendly model architectures, the minimization of the number of polynomials in attention systems and the means of\nbinding cryptographic libraries and machine learning systems more closely to one another. As well, hybrid schemes\ninvolving the application of both homomorphic encryption with communication schemes like secure multiparty\ncomputation (MPC) or trusted execution environments (TEEs) are promising to be more efficient and at the same\ntime offer strong privacy assurance. To conclude, this paper is a methodical analysis of the potential and restriction\nof homomorphic encryption in the inference of privacy-preserving language models. Today, even partial deployment\nwith full-scale encryption of the LLM is beyond the capability of current technology, but great improvements can be\nachieved with customized architectures and optimization of cryptography. We would like to inform the researchers\nand practitioners who may desire to apply secure and privacy-conscious AI systems across settings that place\nconfidentiality above negotiable using this paper to inform and present the trade-offs and practical limitations.",
+    "summary": "",
+    "doi": "10.25258/ijddt.16.47s.91",
+    "citations": 0
+  },
+  {
+    "title": "ECG-derived age deviation predicts cardiovascular diseases across lead configurations and cohorts",
+    "authors": [
+      "D. Aydoğdu",
+      "F. Gaber",
+      "A. Sorooshmehr",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/19fd990b37a67e1e456c9c8a87b3b49ee811d5b7",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.05.26354974",
+    "citations": 0
+  },
+  {
+    "title": "Quality and Safety profiles of AI-Generated vs Clinician-Generated Handoffs in Hospital Medicine",
+    "authors": [
+      "K. P. Shah",
+      "S. Airan Javia",
+      "T. Savage",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0935db19ff57a086e419c6c5c8fc9875056f0b45",
+    "date": "2026-06-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.05.26354946",
+    "citations": 0
+  }
+]
