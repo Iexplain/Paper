@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Smalltalk-KG: A Knowledge Graph Construction Framework for Dialog Personalization in Human-Robot Interaction",
+    "authors": [
+      "N. Wils",
+      "Sergio Peral Garijo",
+      "Kai M. Blum",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/acea261e7b6dd0e0716f4a608934617f7451c552",
+    "date": "2026-06-10",
+    "keywords": [
+      "今日上新",
+      "Workshop on Advanced Robotics and its Social Impacts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "For older adults, sustained loneliness is a major risk factor for mental and physical health, motivating the use of socially assistive robots as long-term companions rather than short-term interfaces. Current research in the field of social robotics is attempting to attain a health-supporting role, bolstered by Large Language Models (LLMs). However, general dialogs that are not tailored to the specific interaction partner quickly undermine trust, perceived social presence, and long-term acceptance in Human–Robot Interaction (HRI). The required personalization in HRI for older adults therefore demands long-term episodic memory. However, relying on cloud-based LLMs introduces personalization issues and latency bottlenecks. Existing Retrieval-Augmented Generation (RAG) approaches often fail to balance data usage with the need for coherent, longitudinal dialog history. To address this, we present Smalltalk-KG, a local architecture that grounds conversational AI in an on-device knowledge graph powered by episodic memory. Smalltalk-KG utilizes a two-layer memory model to enforce personalization and ensure verifiable provenance. We evaluate the system through an 8-week offline simulation (N= 2,880 turns). Results demonstrate that Smalltalk-KG reduces retrieval latency to 43 ms relative to history length while maintaining high factual consistency and strictly adhering to local-only data processing constraints.",
+    "summary": "",
+    "doi": "10.1109/ARSO68304.2026.11536127",
+    "citations": 0
+  },
+  {
+    "title": "Feasibility Study of Programming Compliant Bimanual Tasks with Reasoning LLMs",
+    "authors": [],
+    "link": "https://www.semanticscholar.org/paper/a78d2853c0351eaf4836ce4e51b5e312305c77d7",
+    "date": "2026-06-10",
+    "keywords": [
+      "今日上新",
+      "Workshop on Advanced Robotics and its Social Impacts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Programming bimanual robot manipulation in contact-aware environments is a complex process, requiring the simultaneous tuning of trajectories, coordination strategies, and impedance parameters. This feasibility study investigates the potential of Large Language Models (LLMs) with reasoning capabilities to automate this workflow, moving beyond high-level planning to direct low-level controller parameterization. This approach is validated on two setups: Softbank's Pepper robot (hardware) and a dual-arm Franka FR3 system (simulation). It is demonstrated that reasoning models can generate a unified control policy, encompassing Cartesian trajectories, impedance gains, and coupling stiffness, from natural language instructions. This work provides a framework for reasoning-based code generation in compliant manipulation, feasibility results on physical hardware, and the first implementation of such compliant tasks on the Pepper robot.",
+    "summary": "",
+    "doi": "10.1109/ARSO68304.2026.11536117",
+    "citations": 0
+  },
+  {
+    "title": "Can only LLMs do Reasoning?: Potential of Small Language Models in Task Planning",
+    "authors": [
+      "Gawon Choi",
+      "Haechan Chong",
+      "SeongHyeon Kim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3df8c78a41a1bc45e07448eb27b3589ce0033e7e",
+    "date": "2026-06-10",
+    "keywords": [
+      "今日上新",
+      "Workshop on Advanced Robotics and its Social Impacts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In recent robotics, Large Language Models (LLMs) have been noted as domain-agnostic task planners due to their advanced perception and reasoning capabilities. Especially, the reasoning capability of LLMs based on Chain-of-Thought (CoT) is gaining attention for robotic task planning. However, we claim that LLMs are excessive for robotic task planning for two reasons. First, the language commands given to robots have much lower linguistic complexity than what LLMs can handle. Second, modern robots in practice are primarily tailored to a specific domain or environment (i.e., kitchen). Building on this, we further believe that within a single, specific environment, small language models (LMs) also have the potential to be effective robotic task planners. To explore this, we generate ‘COmmand-STeps dataset’ (COST) via LLMs, which is a dataset designed for environment-specific robotic task planning. This dataset is then used to fine-tune small LMs to plan action steps for robots in response to given human commands. The applicability of COST dataset to real-world robots is verified by showing that the action steps generated by fine-tuned small LMs on COST dataset are practically executable by the robot. Furthermore, through comparison between LLMs and small LMs fine-tuned on COST dataset within specific task environments, it is demonstrated that the fine-tuned GPT-2 medium is comparable to GPT-3.5 in environment-specific task planning.",
+    "summary": "",
+    "doi": "10.1109/ARSO68304.2026.11536123",
+    "citations": 0
+  }
+]
