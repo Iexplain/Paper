@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Large Language Model-empowered Course Recommendation with Learning Interest-Goal Contrastive Learning",
+    "authors": [
+      "Weiqiang Yao",
+      "Xiaoxuan Hu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a5e2b3a8004a72843e044e18ead39c06bfa1216e",
+    "date": "2026-06-12",
+    "keywords": [
+      "今日上新",
+      "Journal of Systems Science and Systems Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11518-025-5702-8",
+    "citations": 0
+  },
+  {
+    "title": "Mapping functional units: comparing the brain’s CBGTC loop to transformer architectures in large language models",
+    "authors": [
+      "Oseiwe Zion Ohonsi",
+      "Suhas Poturaju",
+      "Sravani Varanasi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/157d073250b321781baa572e8bcfa59b05fee0c1",
+    "date": "2026-06-12",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Smart Biomedical and Physiological Sensor Technology XXIII"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1117/12.3095133",
+    "citations": 0
+  },
+  {
+    "title": "Foundation model-based tool for automated ulcerative colitis histology scoring demonstrates non-inferiority to pathologists across multiple scoring indices",
+    "authors": [
+      "W. Tahir",
+      "J. Shamshoian",
+      "J. Tauber",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/62184e3eb9eca23f8f0f65ee90cf8cfb80e3c725",
+    "date": "2026-06-11",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.09.26355212",
+    "citations": 0
+  },
+  {
+    "title": "From taxi trajectories to transit networks: a two-stage DQN-GNN framework for large-scale urban routing",
+    "authors": [
+      "Tao Tang",
+      "Ruilong Yang",
+      "Yunni Xia"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0240219363985955238417a63838f3a9d7b19f26",
+    "date": "2026-06-11",
+    "keywords": [
+      "今日上新",
+      "International Journal of Intelligent Computing and Cybernetics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to propose a complete data-driven framework for the Transit Network Design Problem (TNDP) using large-scale taxi GPS trajectories to infer travel patterns and optimize transit routes.\n \n \n \n The proposed framework consists of two stages. First, a convolutional weighted multi-objective stop selection (CWMSS) algorithm is introduced to identify high-demand stop areas by integrating passenger demand, coverage strength, and walking distance using a distance exponential decay mechanism. Second, a Deep Q-Network (DQN) combined with a Graph Neural Network (GNN) is developed. This model uses a fine-grained neighbor-extension strategy to incrementally construct transit routes, optimizing a tunable multi-objective cost function that balances passenger experience and operational cost.\n \n \n \n Evaluations using a decade-long New York City (NYC) taxi dataset show the CWMSS algorithm improves Pickup and Drop-off Records (PDRs) and Effective Coverage Area (ECA) by 9.39% and 21.07% against state-of-the-art stop selection methods. Furthermore, the DQN-GNN model outperforms two advanced heuristics and two state-of-the-art Reinforcement Learning (RL) baselines in passenger-operator balanced and passenger-oriented scenarios. Friedman and Wilcoxon signed-rank tests indicate that the observed improvements are statistically significant (p < 0.05).\n \n \n \n This research addresses the limitations of applying RL to TNDP on large-scale real-world networks. It contributes a novel stop selection algorithm using convolutional operations and a DQN-GNN model. This approach not only resolves the curse of dimensionality inherent in large-scale urban environments but also successfully designs transit networks that simultaneously improve passenger experience and lower operational costs.\n",
+    "summary": "",
+    "doi": "10.1108/ijicc-12-2025-0857",
+    "citations": 0
+  }
+]
