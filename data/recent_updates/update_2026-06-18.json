@@ -1,0 +1,373 @@
+[
+  {
+    "title": "Bilingual evaluation of large language models for patient education in refractive surgery.",
+    "authors": [
+      "Tsung-Hsien Tsai",
+      "C. Tsai",
+      "Jui-Hung Hsu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7be53df5f2398ad477ad1c51b494b2cc94ed2764",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "International Journal of Ophthalmology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "AIM\nTo evaluate the ability of six advanced large language models (LLMs)-in providing accurate, comprehensive, and readable patient education on corneal refractive surgeries [laser in-situ keratomileusis (LASIK), keratorefractive lenticule extraction (KLEx), and photorefractive keratectomy (PRK)] in both English and Chinese.\n\n\nMETHODS\nThis is a cross-sectional, comparative study. Twenty-six questions, compiled from authoritative ophthalmologic sources and covering four domains (procedure basics and eligibility; safety, risks and long-term stability; recovery and postoperative experience; and practical concerns), were administered in both English and Chinese via fresh chat sessions with each LLM, respectively. Five performance metrics were evaluated: accuracy, comprehensiveness, word count, readability, and reproducibility, using appropriate statistical tests.\n\n\nRESULTS\nOpenAI o1 and DeepSeek-R1 consistently achieved the highest accuracy and most comprehensive responses, significantly outperforming ChatGPT-4o, Gemini Advanced, Claude Sonnet, and Tongyi Qwen (Friedman P<0.001). Although overall accuracy and comprehensiveness were similar across languages, Chinese responses were significantly longer. Readability varied among the models, with Claude Sonnet generally producing the most readable English texts. Reproducibility analysis revealed moderate consistency, reflecting inherent variability in outputs to identical prompts.\n\n\nCONCLUSION\nReasoning-augmented LLMs, particularly OpenAI o1 and DeepSeek-R1, demonstrate superior performance in delivering bilingual patient education for corneal refractive surgery, with high accuracy and comprehensiveness. However, variations in response length, readability, and reproducibility indicate that further refinement is necessary before these tools can be reliably integrated into clinical practice.",
+    "summary": "",
+    "doi": "10.18240/ijo.2026.06.01",
+    "citations": 0
+  },
+  {
+    "title": "Ethical issues of large language models: a multi-level thematic synthesis of the academic literature",
+    "authors": [
+      "Helen Pervez",
+      "Matti Minkkinen",
+      "Henrietta Jylhä",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fd2ec1cb2d382ce4f0c07270e090dedbfb2b8428",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01173-5",
+    "citations": 0
+  },
+  {
+    "title": "ARPG+: a simulation-based study of real-time coaching for educational LLM prompting",
+    "authors": [
+      "Pei-gen Ye",
+      "Kanghua Mo",
+      "Yucheng Long",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f2cf60dd356a228d2715390f01b61c17aee38677",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "International Journal of Educational Technology in Higher Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s41239-026-00606-9",
+    "citations": 0
+  },
+  {
+    "title": "Early Detection of Keratoconus Using Corneal Tomography Image Analysis by GPT-5.4.",
+    "authors": [
+      "Noa Kapelushnik",
+      "Daniela Kamar",
+      "Jacob Megreli",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f26092b0b75b829b4285dd7477122075a234832f",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Cornea"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/ICO.0000000000004230",
+    "citations": 0
+  },
+  {
+    "title": "Silent Manipulation of Mental Health Treatment Recommendations from a Large Language Model",
+    "authors": [
+      "R. H. Perlis"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ca0aa89965e4921c918881f9e5aa926bb2d28ac5",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.26355686",
+    "citations": 0
+  },
+  {
+    "title": "Vigdepth: self-supervised monocular depth estimation based on vision GNN and local graph reasoning",
+    "authors": [
+      "Xin Chen",
+      "Mingwen Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c307f78ae646ff45a4fffb8b3c8beb13cf39ff51",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "International Journal of Machine Learning and Cybernetics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13042-026-03185-3",
+    "citations": 0
+  },
+  {
+    "title": "AI-driven in silico discovery of marine bioactive compounds targeting campylobacter jejuni: network pharmacology, molecular docking, and binding affinity prediction",
+    "authors": [
+      "Karthikeyan Ramalingam",
+      "Saniya Zarash",
+      "Zameer Kalandar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bea39fa04c970f61ee9f6d03e6d76fae97f9f1ad",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00817-0",
+    "citations": 0
+  },
+  {
+    "title": "An approach using BRKGA for optimizing graph neural network architectures",
+    "authors": [
+      "Andersson A. Silva",
+      "Ricardo M. A. Silva",
+      "Paulo Oliva"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a2d9f5dd4b607f519c29201560c83f8e44b93e2e",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Evolutionary Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12065-026-01208-0",
+    "citations": 0
+  },
+  {
+    "title": "Comparative Accuracy and Safety of 4 Large Language Models on Cornea and External Disease Multiple-Choice Questions.",
+    "authors": [
+      "Bora Deniz Argon",
+      "Şule Vildan Durmuş"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8b4469d48d5a57b6e39c904476c244b085080792",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Cornea"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/ICO.0000000000004219",
+    "citations": 0
+  },
+  {
+    "title": "Machine learning-assisted high-throughput virtual screening of novel energetic materials",
+    "authors": [
+      "Jing Yang",
+      "Huiran Wang",
+      "Luyang Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/87cd960e32a21f56705ea2b9b313b49ac9a11476",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "AIDD",
+      "Journal of Molecular Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00894-026-06816-2",
+    "citations": 0
+  },
+  {
+    "title": "Foundation model for screening severe mitral regurgitation and severe aortic stenosis from coronary angiograms",
+    "authors": [
+      "Yingqian Zhang",
+      "Zhiming Shao",
+      "Zechen Wei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/792cc05b4506cf4112a02833993a95781c6bc309",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Visual Computing for Industry, Biomedicine, and Art"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s42492-026-00221-5",
+    "citations": 0
+  },
+  {
+    "title": "Hemocompatible ZnO-Polydopamine Nanocomposite (PDZ): Computational Insights into TNF-α Interaction Potential and Experimental Validation of Biosafety",
+    "authors": [
+      "Y. Albarqouni",
+      "Ghada Said I. Abdulwahed",
+      "Roney Miah",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/622227903f9d0334512121b1de9d2e38a7841a3e",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Journal of Pharmaceutical Innovation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12247-026-10797-3",
+    "citations": 0
+  },
+  {
+    "title": "Factors Associated With an LLM Arriving at the Same Diagnosis as a Musculoskeletal Specialist.",
+    "authors": [
+      "Alexander Drost",
+      "Emily H. Jaarsma",
+      "David Ring",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4360a2f09762619baeff1cea3311177d788ec959",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Journal of the American Academy of Orthopaedic Surgeons"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5435/JAAOS-D-25-01470",
+    "citations": 0
+  },
+  {
+    "title": "LLM-Driven Extraction of NI-RADS and Imaging Tumor Characteristics to Enhance Oropharyngeal Cancer Survivorship Surveillance",
+    "authors": [
+      "W. Song",
+      "L. Shbita",
+      "I. H. Jang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3579c6fab43cf8fdcc825b7dfec5f1bdf9e7ab36",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.11.26355483",
+    "citations": 0
+  },
+  {
+    "title": "Temporal-semantics: an era-aware Context-Gated framework for suicide risk detection on social media",
+    "authors": [
+      "Sneha",
+      "Shreya Sisodia",
+      "Tanisha Bansal",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2dbc2933f81a50091c3421f01777287b550e8b8d",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00799-z",
+    "citations": 0
+  },
+  {
+    "title": "Verification of the factors of individuality through avatar’s speech generation system",
+    "authors": [
+      "Y. Komai",
+      "Takahisa Uchida",
+      "Hiroko Kamide",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2859d95b7a3ccb6424853d00f8c626565797c583",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-47224-z",
+    "citations": 0
+  },
+  {
+    "title": "MedAgent: A Retrieval-Augmented Clinical Decision Support Agent with Verifiable Evidence Grounding for Evidence-Based Medicine",
+    "authors": [
+      "F. Wang",
+      "Z. Guo",
+      "Z. Ye"
+    ],
+    "link": "https://www.semanticscholar.org/paper/19037df859adc24a37e4ba3256657793e9c82afe",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.15.26355735",
+    "citations": 0
+  },
+  {
+    "title": "Structure-Based Discovery of Dual PD-L1 and IDO1 Small-Molecule Inhibitors for Non-Small Cell Lung Cancer",
+    "authors": [
+      "Z. S. Alshehri"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1085c582462711c0cb8666865ed44a744d5f6871",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "Journal of Pharmaceutical Innovation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12247-026-10804-7",
+    "citations": 0
+  },
+  {
+    "title": "The Unreliable Judges: Assessing Reproducibility and Self-Preference Bias of LLMs as Free-Text Evaluators",
+    "authors": [
+      "J. I. Alvarez-Arenas",
+      "D. Mañanes",
+      "d. jimenez-carretero",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0dd8721a97e85fe0498c4af208ae54a49a150fc9",
+    "date": "2026-06-17",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.15.26355670",
+    "citations": 0
+  }
+]
