@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Accuracy and reproducibility of ChatGPT responses to parent and patient inquiries on attention-deficit/hyperactivity disorder",
+    "authors": [
+      "Berrin Bilgiç",
+      "Serkan Turan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6dae333d96245535e0be8c2405b164dca83f5f9b",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "World Journal of Psychiatry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "BACKGROUND\n Children and adolescents with attention-deficit/hyperactivity disorder (ADHD) and their caregivers increasingly turn to artificial intelligence-based chatbots for information about symptoms, functional difficulties, and treatment-related concerns. Large language models (LLMs), such as ChatGPT, are of particular interest due to their ability to generate fluent, natural-language responses. However, empirical evidence regarding their clinical performance in child and adolescent psychiatry remains limited, especially with respect to the reproducibility and clinical reliability of ADHD-related responses.\n AIM\n To systematically evaluate the accuracy and reproducibility of ChatGPT (GPT-4o)-generated responses to commonly asked ADHD-related questions from parents and patients.\n METHODS\n In this cross-sectional study, 88 frequently asked ADHD-related questions were identified through internet search engines, parent-oriented forums, and professional organization websites. Questions were categorized into four domains: Basic knowledge (n = 30), diagnosis and assessment (n = 22), treatment and medication use (n = 21), and long-term outcomes and psychosocial impact (n = 15). Each question was submitted twice to the subscription-based version of ChatGPT (GPT-4o) in separate chat sessions. Two blinded child and adolescent psychiatrists independently evaluated responses for accuracy (comprehensive/correct, incomplete, mixed or potentially misleading, or inaccurate) and reproducibility. Inter-rater agreement and domain-specific differences were analyzed statistically.\n RESULTS\n Overall, 59.1% (52/88) of responses were rated as comprehensive/correct, 27.3% (24/88) as incomplete, and 13.6% (12/88) as mixed or potentially misleading; no inaccurate or irrelevant responses were identified. Accuracy was highest for basic knowledge questions (66.7%) and lowest for treatment and medication-related questions (47.6%). Overall reproducibility was 87.5% (77/88), with no significant differences across domains (χ ², P = 0.61). Inter-rater reliability was moderate (Cohen’s κ = 0.52).\n CONCLUSION\n ChatGPT (GPT-4o) demonstrated relatively higher accuracy and reproducibility overall, with stronger performance in basic informational and diagnostic domains, but greater variability observed in clinically sensitive areas such as treatment, medication use, and long-term outcomes. These findings highlight both the potential utility and important limitations of LLM-based chatbots in ADHD-related information-seeking, underscoring the need for cautious interpretation-particularly in treatment-related contexts where responses may require professional clinical guidance.",
+    "summary": "",
+    "doi": "10.5498/wjp.v16.i6.119773",
+    "citations": 0
+  },
+  {
+    "title": "Can large language models generate novel scientific ideas? A comprehensive study on data-driven astronomy",
+    "authors": [
+      "Fuyong Zhao",
+      "Yuyang Li",
+      "Cunshi Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c6aa7ee99daeec683c49be520b9b091c103147f3",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "EPJ Data Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1140/epjds/s13688-026-00672-z",
+    "citations": 0
+  },
+  {
+    "title": "Hard to Halt: Automation Bias in Agent-Driven Sequencing Prior Authorization Workflows",
+    "authors": [
+      "M. Nie",
+      "W. Chung",
+      "J. Waxler",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8cfab2805153b435283f81fd88bc34385fd1c5bd",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.26355782",
+    "citations": 0
+  },
+  {
+    "title": "Comparative Evaluation of Pretrained Large Language Models for Suicide Risk Prediction from Clinical Notes in U.S. Veterans",
+    "authors": [
+      "J. Levy",
+      "M. Levis",
+      "M. Dimambro",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8aad388b2cd8a1f973cc19fdb421b0c7ce851cd4",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.26355804",
+    "citations": 0
+  },
+  {
+    "title": "Bilingual evaluation of large language models for patient education in refractive surgery.",
+    "authors": [
+      "Tsung-Hsien Tsai",
+      "C. Tsai",
+      "Jui-Hung Hsu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7be53df5f2398ad477ad1c51b494b2cc94ed2764",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "International Journal of Ophthalmology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "AIM\nTo evaluate the ability of six advanced large language models (LLMs)-in providing accurate, comprehensive, and readable patient education on corneal refractive surgeries [laser in-situ keratomileusis (LASIK), keratorefractive lenticule extraction (KLEx), and photorefractive keratectomy (PRK)] in both English and Chinese.\n\n\nMETHODS\nThis is a cross-sectional, comparative study. Twenty-six questions, compiled from authoritative ophthalmologic sources and covering four domains (procedure basics and eligibility; safety, risks and long-term stability; recovery and postoperative experience; and practical concerns), were administered in both English and Chinese via fresh chat sessions with each LLM, respectively. Five performance metrics were evaluated: accuracy, comprehensiveness, word count, readability, and reproducibility, using appropriate statistical tests.\n\n\nRESULTS\nOpenAI o1 and DeepSeek-R1 consistently achieved the highest accuracy and most comprehensive responses, significantly outperforming ChatGPT-4o, Gemini Advanced, Claude Sonnet, and Tongyi Qwen (Friedman P<0.001). Although overall accuracy and comprehensiveness were similar across languages, Chinese responses were significantly longer. Readability varied among the models, with Claude Sonnet generally producing the most readable English texts. Reproducibility analysis revealed moderate consistency, reflecting inherent variability in outputs to identical prompts.\n\n\nCONCLUSION\nReasoning-augmented LLMs, particularly OpenAI o1 and DeepSeek-R1, demonstrate superior performance in delivering bilingual patient education for corneal refractive surgery, with high accuracy and comprehensiveness. However, variations in response length, readability, and reproducibility indicate that further refinement is necessary before these tools can be reliably integrated into clinical practice.",
+    "summary": "",
+    "doi": "10.18240/ijo.2026.06.01",
+    "citations": 0
+  },
+  {
+    "title": "QSAR, docking and molecular dynamics study guided repurposing of 2,4 substituted pyrimidine derivatives as 5 HT2C receptor antagonists for Parkinson’s disease",
+    "authors": [
+      "Pushp",
+      "Ajita Paliwal",
+      "Somdatta Chaudhari",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/60474536e16a4c9d516b90a03671ee81586952d7",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00795-2",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Models Provide Accurate but Potentially Unsafe Answers to Multimodal Critical Care Medicine Board Review Questions.",
+    "authors": [
+      "Ish Sethi",
+      "Sharaf Khan",
+      "P. Lyons",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5b6a6b6aa9a7e45beaa70d9e33b696610b12be1b",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "Critical Care Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/CCM.0000000000007228",
+    "citations": 0
+  },
+  {
+    "title": "Interpretation Without a Subject? The Epistemic Status of AI-Generated Historical Narrative and Hermeneutic Reflections",
+    "authors": [
+      "Xuejing Chen",
+      "Kamal Solhaimi Fadzil"
+    ],
+    "link": "https://www.semanticscholar.org/paper/33565df9d53f14a53dbd5f5a604c9f61e22e07f6",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "Global Philosophy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10516-026-09790-9",
+    "citations": 0
+  },
+  {
+    "title": "Beyond the Data: Architectural Choices for Imbalanced Learning in Vulnerability Detection",
+    "authors": [
+      "Rosmaël Zidane Lekeufack Foulefack",
+      "Ulrich Duplex Djifack",
+      "Alessandro Marchetto"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2fe86823a56c36ad12019860527b22d7924cccdb",
+    "date": "2026-06-18",
+    "keywords": [
+      "今日上新",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05164-5",
+    "citations": 0
+  }
+]
