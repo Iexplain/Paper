@@ -1,0 +1,297 @@
+[
+  {
+    "title": "Biases of large language models in diagnosing Cushing's syndrome.",
+    "authors": [
+      "Christos Savvidis",
+      "Costas Liakopoulos",
+      "Ioannis Ilias"
+    ],
+    "link": "https://www.semanticscholar.org/paper/41eb7a6c44d70f18e33cc8a00e07b41f72ed1df2",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "World Journal of Methodology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The diagnosis of endogenous Cushing's syndrome (CS) can be complicated and often delayed, given its low incidence (estimated globally at 1.8 cases to 4.5 cases per million people per year) and its clinical features that mimic far more prevalent metabolic disorders, such as central obesity, hypertension, and glucose intolerance. In clinical practice, physicians rely on cognitive heuristics that are prone to error, contributing to diagnostic delays (on average around 34 months pass from symptom onset to diagnosis of CS). Large language models and machine learning algorithms could be potential decision-support tools for screening and differential diagnosis of CS. However, these systems are at risk of inheriting and even amplifying existing cognitive biases and data-driven distortions embedded in their training data. Machine learning models designed for CS could be vulnerable to methodological flaws, notably spectrum bias and the exclusion of clinically relevant demographic variables, demanding attention from the endocrine and medical informatics communities. This paper examines how cognitive and algorithmic biases intersect in diagnostic models for CS, highlighting parallels between human diagnostic heuristics (e.g., anchoring, availability, and framing) and data-driven distortions (e.g., spectrum and measurement bias) in artificial intelligence.",
+    "summary": "",
+    "doi": "10.5662/wjm.v16.i2.115059",
+    "citations": 0
+  },
+  {
+    "title": "PERSE: A PERsonalised SEizure prediction system based on large-scale EEG foundation models",
+    "authors": [
+      "Loic Lorente Lemoine",
+      "K. Huynh",
+      "J. Beuchert",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/29f7c578216d96aee35731a8b6f0c368856caa28",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Workshops"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3812836.3814759",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Task Mental Health Detection with Large Language Models under Class Imbalance",
+    "authors": [
+      "Xiangyuan Xue",
+      "Tianyi Zhang",
+      "V. Kostakos",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/20aad3f75fb8a39d02b1f9ea6d6b50ad09c798cf",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Workshops"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3812836.3814757",
+    "citations": 0
+  },
+  {
+    "title": "Identification of memory clinic patients diagnosed with alzheimer disease using electronic health records data and large language models",
+    "authors": [
+      "W. J. B. Powell",
+      "Anna Hofmann",
+      "Inez Y. Oh",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d5e1681780cddd9c1d9f15b9a0f4496e13cd039c",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "npj Dementia"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44400-026-00098-4",
+    "citations": 0
+  },
+  {
+    "title": "Speech-to-trajectory: learning intuitive verbal guidance for robot motion",
+    "authors": [
+      "E. Bamani",
+      "Eden Nissinman",
+      "Rotem Atari",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d5210ae51ed05fe6a357010bc426f12dc91564e2",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Intelligent Service Robotics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11370-026-00727-0",
+    "citations": 0
+  },
+  {
+    "title": "Elucidating binding mechanisms of pyrimidinone derivatives at the Eg5 kinesin active site: in silico drug discovery approach",
+    "authors": [
+      "Anand Patil",
+      "K. C. Sawant",
+      "G. Gupta",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/af70f03d12d3d3533dcdeb5bcd45b703556ae2a6",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00798-z",
+    "citations": 0
+  },
+  {
+    "title": "Extraction of Glaucoma Diagnosis, Type, and Severity from Clinical Notes using Secure Cloud-based Large Language Models",
+    "authors": [
+      "G. A. Samico",
+      "N. Solages",
+      "R. Scherer",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/adb430cffdfb3829063c0a22b9ed28674e4e16a9",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.18.26355532",
+    "citations": 0
+  },
+  {
+    "title": "Validation of an Artificial Intelligence-Assisted Mobile Application for Dietary Oxalate Assessment in Kidney Stone Prevention",
+    "authors": [
+      "K. Scotland",
+      "O. Ojo",
+      "F. Anokwuru",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ad81630a51ecde94815cc0e58beda4210df9aef0",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.26355631",
+    "citations": 0
+  },
+  {
+    "title": "Synthetic social media creation for social-cybersecurity training",
+    "authors": [
+      "M. Hicks",
+      "Mohamed A. Farag",
+      "Kathleen M. Carley"
+    ],
+    "link": "https://www.semanticscholar.org/paper/800959f14313bfc6dacb8cc844da5574f4661695",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Computational and mathematical organization theory"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10588-026-09421-z",
+    "citations": 0
+  },
+  {
+    "title": "Consciousness, creativity, and understanding are not obstacles to machine intelligence",
+    "authors": [
+      "Renne Pesonen",
+      "Samuli Reijula"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e75c13f1a7be63a649652fd3252b622177a82f2",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Synthese"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11229-026-05655-1",
+    "citations": 0
+  },
+  {
+    "title": "RACES: reward-aligned consistent essay scoring with large language models",
+    "authors": [
+      "Zhenxing Zhang",
+      "Ziyu Ding",
+      "Mengyun Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e733eac22c0e0de5fafc3d01719aadd94364623",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "International Journal of Educational Technology in Higher Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s41239-026-00607-8",
+    "citations": 0
+  },
+  {
+    "title": "Accuracy and reproducibility of ChatGPT responses to parent and patient inquiries on attention-deficit/hyperactivity disorder",
+    "authors": [
+      "Berrin Bilgiç",
+      "Serkan Turan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6dae333d96245535e0be8c2405b164dca83f5f9b",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "World Journal of Psychiatry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "BACKGROUND\n Children and adolescents with attention-deficit/hyperactivity disorder (ADHD) and their caregivers increasingly turn to artificial intelligence-based chatbots for information about symptoms, functional difficulties, and treatment-related concerns. Large language models (LLMs), such as ChatGPT, are of particular interest due to their ability to generate fluent, natural-language responses. However, empirical evidence regarding their clinical performance in child and adolescent psychiatry remains limited, especially with respect to the reproducibility and clinical reliability of ADHD-related responses.\n AIM\n To systematically evaluate the accuracy and reproducibility of ChatGPT (GPT-4o)-generated responses to commonly asked ADHD-related questions from parents and patients.\n METHODS\n In this cross-sectional study, 88 frequently asked ADHD-related questions were identified through internet search engines, parent-oriented forums, and professional organization websites. Questions were categorized into four domains: Basic knowledge (n = 30), diagnosis and assessment (n = 22), treatment and medication use (n = 21), and long-term outcomes and psychosocial impact (n = 15). Each question was submitted twice to the subscription-based version of ChatGPT (GPT-4o) in separate chat sessions. Two blinded child and adolescent psychiatrists independently evaluated responses for accuracy (comprehensive/correct, incomplete, mixed or potentially misleading, or inaccurate) and reproducibility. Inter-rater agreement and domain-specific differences were analyzed statistically.\n RESULTS\n Overall, 59.1% (52/88) of responses were rated as comprehensive/correct, 27.3% (24/88) as incomplete, and 13.6% (12/88) as mixed or potentially misleading; no inaccurate or irrelevant responses were identified. Accuracy was highest for basic knowledge questions (66.7%) and lowest for treatment and medication-related questions (47.6%). Overall reproducibility was 87.5% (77/88), with no significant differences across domains (χ ², P = 0.61). Inter-rater reliability was moderate (Cohen’s κ = 0.52).\n CONCLUSION\n ChatGPT (GPT-4o) demonstrated relatively higher accuracy and reproducibility overall, with stronger performance in basic informational and diagnostic domains, but greater variability observed in clinically sensitive areas such as treatment, medication use, and long-term outcomes. These findings highlight both the potential utility and important limitations of LLM-based chatbots in ADHD-related information-seeking, underscoring the need for cautious interpretation-particularly in treatment-related contexts where responses may require professional clinical guidance.",
+    "summary": "",
+    "doi": "10.5498/wjp.v16.i6.119773",
+    "citations": 0
+  },
+  {
+    "title": "Comparative analysis of antimicrobial property of local and improved varieties of Cucumis callosus against food pathogens",
+    "authors": [
+      "Deepika",
+      "R. K. Jha",
+      "Sujata Negi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/372117e03a9a091fde339ee576149d876030799c",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00808-0",
+    "citations": 0
+  },
+  {
+    "title": "Identification of spiropyrrolidinoxindoles as SARS-CoV-2 main protease inhibitor hits from virtual screening",
+    "authors": [
+      "Chao-Yu Chen",
+      "Li-Wen Lee",
+      "Ting-Yao Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/172aa51c33b9f2a360f3c444dddbf51e1ae91036",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00860-z",
+    "citations": 0
+  },
+  {
+    "title": "In-silico evaluation of novel quercetin derivatives targeting Plasmodium falciparum dihydrofolate reductase for antimalarial activity",
+    "authors": [
+      "Mansita Saha",
+      "Krishna Jyoti Deka",
+      "Sabnam Nargis",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/005767c150f0d07729ca53d0e8bf5601b4933f24",
+    "date": "2026-06-19",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00799-y",
+    "citations": 0
+  }
+]
