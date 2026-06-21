@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Exploring zingerone 2-thiohydantoins as anticancer agents against breast adenocarcinoma: Cytotoxicity, HSA and DNA binding, molecular docking and ADMET prediction",
+    "authors": [
+      "P. Stanić",
+      "Ana Rilak-Simović",
+      "Katarina D. Virijević",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f98354537864f650f5d8e553e231518f61e5b56e",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Acta Chimica Slovenica"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study investigates a series of zingerone 2-thiohydantoins for anticancer activity towards human breast adenocarcinoma and explores possible mechanisms of anticancer action. Cytotoxicity was tested on highly invasive triple negative breast cancer MDA-MB-231 cells and healthy MRC-5 cells. The most active compound 2e exerted a significant cytotoxic effect on breast cancer cells, while exhibiting no measurable toxicity on healthy cells. Fluorescence measurements of interactions with human serum albumin, combined with molecular docking, showed strong binding and transport capabilities, suggesting good bioavailability. Fluorescence and hydrodynamic measurements with DNA displayed lower binding affinity, suggesting that protein targets are responsible for anticancer action. Thorough molecular docking screening on 36 possible breast adenocarcinoma protein targets was performed and results suggest competitive inhibition of DNA methyltransferase 1 as the mechanism of anticancer action. ADMET analysis predicted favorable physicochemical and pharmacokinetic properties.",
+    "summary": "",
+    "doi": "10.17344/acsi.2025.9631",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating Decision-Making in Large Language Models Under Risk and Uncertainty: Expected Utility Violations in ChatGPT, Claude and DeepSeek",
+    "authors": [
+      "T. A. Puutio",
+      "Matthew Do"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c65256f615aa4051299fe1c5cb1a4ce18bf4ed75",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Group Decision and Negotiation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10726-026-10006-z",
+    "citations": 0
+  },
+  {
+    "title": "Optimal Confidence Bounds for Sparse Random Projections",
+    "authors": [
+      "Maciej Skorski"
+    ],
+    "link": "https://www.semanticscholar.org/paper/acfab26eb3fd8a9231e19a324fb79f06aecd8d6e",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Machine-mediated learning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10994-026-07057-3",
+    "citations": 0
+  },
+  {
+    "title": "Design and one-pot synthesis of new 1,4-disubstituted 1,2,3-triazoles: acetylcholinesterase inhibitory activity and in silico studies",
+    "authors": [
+      "Sarra Lasmari",
+      "Sofiane Ikhlef",
+      "Mohamed Abdesselem Dems",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9ec8f07aefc9b3c3a1913a6d5431d073218b496f",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Acta Chimica Slovenica"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In this study, two novel 1,2,3-triazole derivatives were designed and synthesized from 1-(4-(bromomethyl)phenyl)-3,5-dimethyladamantane precursors via reactions with sodium azide and terminal alkynes. The synthesized compounds were evaluated for their anticholinesterase potential and compared with standard reference inhibitors, showing moderate to excellent inhibitory activity against both acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE). Among them, 3a emerged as the most potent dual inhibitor, with IC50 values of 8.56 ± 1.17 μM (AChE) and 13.27 ± 1.20 μM (BuChE). To further elucidate their behavior, a comparative theoretical and experimental investigation of 3a and 3b was performed using frontier molecular orbital, quantum descriptor, ESP, IR, and TD-DFT analyses, which revealed distinct electronic and conformational features influencing their biological interactions. Molecular docking confirmed stronger binding and inhibitory activity of 3a toward both enzymes, while ADMET predictions highlighted its CNS drug-likeness. These integrated findings underscore the potential of adamantane-based triazoles as promising scaffolds for the design of novel cholinesterase inhibitors.",
+    "summary": "",
+    "doi": "10.17344/acsi.2026.9748",
+    "citations": 0
+  },
+  {
+    "title": "A neutrosophic set-based hybrid Swin transformer and graph neural network model for monkeypox diagnosis",
+    "authors": [
+      "Miyase Coban",
+      "E. Sert",
+      "Fatih Topaloğlu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/98c5f980007362f97cb538e9e550c5ea30d9f575",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10273-z",
+    "citations": 0
+  },
+  {
+    "title": "Scalable code generation with large language models: an open-source ensemble and reinforcement learning–based selector",
+    "authors": [
+      "Mohammed A. Shehab",
+      "Safwan Omari",
+      "Mohammad Wardat",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8d62dd91f631afc88820e6caec56684004a7f171",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Software quality journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11219-026-09766-3",
+    "citations": 0
+  },
+  {
+    "title": "Biases of large language models in diagnosing Cushing's syndrome.",
+    "authors": [
+      "Christos Savvidis",
+      "Costas Liakopoulos",
+      "Ioannis Ilias"
+    ],
+    "link": "https://www.semanticscholar.org/paper/41eb7a6c44d70f18e33cc8a00e07b41f72ed1df2",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "World Journal of Methodology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The diagnosis of endogenous Cushing's syndrome (CS) can be complicated and often delayed, given its low incidence (estimated globally at 1.8 cases to 4.5 cases per million people per year) and its clinical features that mimic far more prevalent metabolic disorders, such as central obesity, hypertension, and glucose intolerance. In clinical practice, physicians rely on cognitive heuristics that are prone to error, contributing to diagnostic delays (on average around 34 months pass from symptom onset to diagnosis of CS). Large language models and machine learning algorithms could be potential decision-support tools for screening and differential diagnosis of CS. However, these systems are at risk of inheriting and even amplifying existing cognitive biases and data-driven distortions embedded in their training data. Machine learning models designed for CS could be vulnerable to methodological flaws, notably spectrum bias and the exclusion of clinically relevant demographic variables, demanding attention from the endocrine and medical informatics communities. This paper examines how cognitive and algorithmic biases intersect in diagnostic models for CS, highlighting parallels between human diagnostic heuristics (e.g., anchoring, availability, and framing) and data-driven distortions (e.g., spectrum and measurement bias) in artificial intelligence.",
+    "summary": "",
+    "doi": "10.5662/wjm.v16.i2.115059",
+    "citations": 0
+  },
+  {
+    "title": "PERSE: A PERsonalised SEizure prediction system based on large-scale EEG foundation models",
+    "authors": [
+      "Loic Lorente Lemoine",
+      "K. Huynh",
+      "J. Beuchert",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/29f7c578216d96aee35731a8b6f0c368856caa28",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Workshops"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3812836.3814759",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Task Mental Health Detection with Large Language Models under Class Imbalance",
+    "authors": [
+      "Xiangyuan Xue",
+      "Tianyi Zhang",
+      "V. Kostakos",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/20aad3f75fb8a39d02b1f9ea6d6b50ad09c798cf",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Workshops"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3812836.3814757",
+    "citations": 0
+  },
+  {
+    "title": "RNA-binding proteins in aging and age-related diseases: roles, mechanisms, and a large language model analysis",
+    "authors": [
+      "Qunhua Han",
+      "Shunmei Huang",
+      "Suisui Luo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/207747f957e5695f726b4e2e64829a2e08c6a6e6",
+    "date": "2026-06-20",
+    "keywords": [
+      "今日上新",
+      "Protein Language Model",
+      "Biological Large Model",
+      "Biogerontology (Dordrecht)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10522-026-10464-7",
+    "citations": 0
+  }
+]
