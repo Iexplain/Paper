@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Conceptualizing virtual event quality: a mixed-methods approach to presence and continuance",
+    "authors": [
+      "H. Kim",
+      "Z. Piao",
+      "Sung-Eun Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bb121ed336a023fe6136dd7ea3685c8ec3a4fe28",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Journal of Hospitality and Tourism Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to examine the key dimensions of perceived virtual event quality (VEQual) and investigate their relationships with telepresence and social presence, which are in turn associated with attendee satisfaction and continuance intention.\n \n \n \n Using a sequential mixed-methods design, qualitative interviews with virtual event stakeholders were conducted to explore VEQual dimensions. These findings informed the development of a quantitative survey, which was administered to 699 US participants and analyzed using structural equation modeling.\n \n \n \n Six VEQual dimensions – vividness; entertainment; ease of use; fulfillment; responsiveness; and privacy and security – were identified. All dimensions were positively associated with telepresence and social presence, which were significantly related to attendee satisfaction and continuance intention.\n \n \n \n This study is among the first, to the best of the authors’ knowledge, to conceptualize a structured framework for VEQual and empirically examine its relationships with presence-related constructs. By integrating hedonic and utilitarian dimensions, it offers a foundational model for understanding and designing high-quality virtual event experiences in hospitality and tourism contexts.\n",
+    "summary": "",
+    "doi": "10.1108/jhtt-07-2025-0624",
+    "citations": 0
+  },
+  {
+    "title": "ThermoStill: Distilling Time Series Foundation Model into Thermal Dynamics Model for HVAC Model Predictive Control",
+    "authors": [
+      "Rui Liang",
+      "Yang Deng",
+      "Yaohui Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a0143af83da789b09bc5aa99b5c468c9fd2d39b9",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 17th ACM International Conference on Future and Sustainable Energy Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3744255.3811745",
+    "citations": 0
+  },
+  {
+    "title": "Patient Trust in AI-generated Medication Information and the Role of Clinical Pharmacists in Preventing Medication-related Safety Risks: A Cross-sectional Survey.",
+    "authors": [
+      "Rajalakshimi Vasudevan",
+      "G. Kandasamy",
+      "K. Venkatesan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9564702941fe6271818baa8780dc3a13940bfcc1",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Journal of patient safety"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "BACKGROUND\nTo assess patient trust in AI-generated medication information, examine associated behavioral safety risks, and evaluate patient expectations regarding the role of clinical pharmacists in preventing medication-related harm.\n\n\nMETHODS\nA cross-sectional survey was conducted among adult patients attending outpatient clinics and community pharmacies in Abha, Saudi Arabia. Data were collected across 3 sites (King Khalid University Hospital outpatient department and 2 affiliated community pharmacies) over a 10-week period (December 2025-January 2026), after ethical approval (KKU-147-2025-31). A structured questionnaire assessed demographic characteristics, AI use patterns, trust in AI-generated medication information, verification behaviors, and perceptions of pharmacist involvement. Psychometric evaluation demonstrated good internal consistency of the trust in AI scale. Data were analyzed using descriptive statistics, nonparametric tests, exploratory factor analysis, and ordinal logistic regression.\n\n\nRESULTS\nAmong 167 participants, trust in AI-generated medication information varied significantly across demographic groups and AI platforms, with higher trust reported for large language model-based tools. Participants without health care backgrounds demonstrated higher trust than health care professionals. Increasing trust was associated with higher behavioral risk, including acting on AI-generated medication advice without verification (P=0.002). Factor analysis identified distinct cognitive trust and behavioral engagement dimensions. Strong support was observed for pharmacist involvement in verifying AI-generated medication information.\n\n\nCONCLUSIONS\nPatient trust in AI-generated medication information is closely linked to behaviors that may increase medication-related safety risks. Clinical pharmacists play a critical role as a safety barrier, underscoring the need to integrate pharmacist-led verification into AI-informed medication counseling to enhance patient safety.",
+    "summary": "",
+    "doi": "10.1097/PTS.0000000000001546",
+    "citations": 0
+  },
+  {
+    "title": "An Evolutionary Black-Box Framework for Adversarial Prompt Generation in Large Language Models",
+    "authors": [
+      "Qiyang Sun",
+      "Erisa Karafili"
+    ],
+    "link": "https://www.semanticscholar.org/paper/85db59f77d97d657d3b7cb3c007c35fbea81e1d0",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Sixteenth ACM Conference on Data and Application Security and Privacy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3800506.3803495",
+    "citations": 0
+  },
+  {
+    "title": "NetLossBench: A Tiered Benchmark for GNN Hardware Trojan Detectors under Partial Netlist Observations",
+    "authors": [
+      "Liangtao Dai",
+      "Yimin Gao",
+      "Melika Morsali",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2b2f6134f189c720b44cce2e1690f5511fcccba9",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Great Lakes Symposium on VLSI 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3787109.3815316",
+    "citations": 0
+  },
+  {
+    "title": "Quantum–classical hybrid learning framework for molecular property prediction and molecule optimization in drug discovery",
+    "authors": [
+      "S. Sree",
+      "Medepalli Sandhya",
+      "A. Jayanthi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e048d67828042ee28371122d9a26c84dae2b0fed",
+    "date": "2026-06-21",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10240-8",
+    "citations": 0
+  },
+  {
+    "title": "ResGNN: a residual GNN approach for leveraging general user preferences in session-based recommender systems",
+    "authors": [
+      "Mouloud Amine Djenane",
+      "Boudjemaa Boudaa",
+      "A. Abouaissa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6e0fd389dc9502724dee84193b634af22c247359",
+    "date": "2026-06-21",
+    "keywords": [
+      "今日上新",
+      "Knowledge and Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10115-026-02823-0",
+    "citations": 0
+  }
+]
