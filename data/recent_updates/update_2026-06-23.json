@@ -1,0 +1,539 @@
+[
+  {
+    "title": "Transfer Learning for Low-resource Genomic Mutation Detection",
+    "authors": [
+      "Smah Gayser Musa",
+      "Zeinab A. Mustafa",
+      "Zein A.M."
+    ],
+    "link": "https://www.semanticscholar.org/paper/efed69fd05b688ed7718c04240c211a2030805e4",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "Journal of Clinical Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The detection of genomic mutations plays a central role in understanding cancer biology, enabling more precise diagnostic, prognostic, and therapeutic strategies. However, accurate mutation detection is often hindered in low-resource settings due to the limited availability of high-quality sequencing data, computational infrastructure, and expert annotation. These constraints are particularly problematic for key cancer-related genes such as TP53, which is frequently mutated in breast cancer and strongly associated with disease progression and treatment resistance. In recent years, deep learning approaches have shown significant promise in various genomics tasks, including variant calling, sequence classification, and gene expression analysis. Nevertheless, such models typically require large, well-annotated datasets to achieve reliable performance—a condition that is not always feasible in clinical or resource-constrained environments. Transfer learning, a machine learning technique in which knowledge learned from a large source dataset is transferred to a related target task, offers a potential solution to this limitation. It allows for the reuse of pretrained models, reducing the need for large amounts of labeled data while improving generalization. In this study, we propose and evaluate a deep learning framework for detecting TP53 mutations in breast cancer using either gene expression data or DNA sequences. We benchmark the performance of several architectures—namely, fully connected neural networks (FCNN), convolutional neural networks (CNN), bidirectional long short-term memory networks (BiLSTM), Transformers trained from scratch, and DNABERT models both trained from scratch and fine-tuned via transfer learning. All models were trained and tested on a curated subset of TCGA-BRCA samples labeled with TP53 mutation status. Our results show that DNABERT with transfer learning achieved the highest performance across all evaluation metrics, with an accuracy of 92%, F1-score of 0.90, and AUROC of 0.95. In contrast, traditional models such as FCNN and CNN using gene expression data yielded moderate performance (accuracy: 0.81–0.83), while models trained from scratch—including BiLSTM and Transformer—performed better when applied to DNA sequences (accuracy: 0.85–0.87). The consistent superiority of DNABERT highlights the value of pretrained genomic language models and transfer learning in resource-constrained scenarios. These findings underscore the promise of transformer-based models for scalable and accurate mutation detection, especially in clinical settings with limited-data availability. On the basis of our findings, we recommend adopting transfer learning approaches such as DNABERT in clinical genomics applications, integrating gene expression and sequence data to boost accuracy, and extending this framework to additional cancer-related genes to improve model generalizability.",
+    "summary": "",
+    "doi": "10.1097/jce.0000000000000763",
+    "citations": 0
+  },
+  {
+    "title": "Clinical accuracy and applications of large language models in pediatric orthopedics: a systematic review.",
+    "authors": [
+      "Ibraheem Qureshi",
+      "Nithya Thomas",
+      "Matthew Heffelfinger",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a7a82e3c528521e34a715dcc058370e1aea191b5",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Journal of pediatric orthopedics. Part B"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "To systematically evaluate the accuracy, reliability, and clinical applicability of artificial intelligence and large language models (LLMs) in pediatric orthopedics, comparing their performance against established clinical guidelines and assessing their utility for patient education and clinical decision support. A search of PubMed and ScienceDirect (2020-2025) identified 2624 articles using the keywords 'ChatGPT', 'Gemini', 'Claude' and 'orthopedic pediatrics'. After screening and refinement using Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 guidelines, 15 studies met inclusion criteria. Studies evaluated ChatGPT, Google Gemini, Meta AI, Microsoft Copilot, and Claude across multiple pediatric orthopedic conditions across conditions like developmental dysplasia of the hip, slipped capital femoral epiphysis, and scoliosis. Heterogeneity was assessed using Cochran's Q and I2 statistics, and publication bias was evaluated using funnel plots and Egger's test. LLM accuracy ranged from 44.3 to 93% (pooled: 74.1%), with pooled accuracy of 74.1%. Reproducibility was moderate, with ChatGPT demonstrating a Spearman coefficient of 0.55 for complex queries. Regional expert consensus scores varied significantly (Europe: 80, North America: 65; P = 0.034; Fleiss\\kappa = 0.113). Up to 33% of responses to guideline-based questions were rated neutral or inaccurate. Reading complexity was elevated (Flesch-Kincaid grade: 12.7), exceeding the recommended sixth-grade level. Parent surveys indicated 82% trust in artificial intelligence as supplementary tools with professional oversight. Minimal statistical heterogeneity was observed (I2 = 0.00%), though publication bias was detected (Egger's test P = 0.0001). LLMs show potential for education and triage but lack consistency in complex scenarios, elevated reading complexity, and significant regional variability in expert assessments. These tools should be used as educational supplements under professional medical supervision rather than for independent clinical decision-making. Broader clinical application requires domain-specific tuning, standardized evaluation, and readability optimization.\n\n\nLEVEL OF EVIDENCE\nLevel V- systematic review.",
+    "summary": "",
+    "doi": "10.1097/BPB.0000000000001368",
+    "citations": 0
+  },
+  {
+    "title": "Three multimodal large language models fail at clinically actionable breast pathology in three different directions",
+    "authors": [
+      "Y.-J. Kang",
+      "Shi Jun",
+      "S. Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f234d252ff295a4822fd87b95101c6e38c2372eb",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.18.26355928",
+    "citations": 0
+  },
+  {
+    "title": "Algebraic effects for bounded prompt pipelines: Lawvere theories, handlers, and outcome traces",
+    "authors": [
+      "J. Segura"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ee0da2e9b78c3e080ec47fc9ff45f9f8f5a7ff5b",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00607-026-01699-w",
+    "citations": 0
+  },
+  {
+    "title": "Cross-attention guided explainable deep transformer model for multi-level classification of rare neurological disorders using MRI images",
+    "authors": [
+      "Preethi Veerlapalli",
+      "E. Laxmi Lydia",
+      "K. Radhika",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d0fbb3c9ae2514cb2b05b329932941a2cdbdf176",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-58491-1",
+    "citations": 0
+  },
+  {
+    "title": "Conceptualizing virtual event quality: a mixed-methods approach to presence and continuance",
+    "authors": [
+      "H. Kim",
+      "Z. Piao",
+      "Sung-Eun Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bb121ed336a023fe6136dd7ea3685c8ec3a4fe28",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Journal of Hospitality and Tourism Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to examine the key dimensions of perceived virtual event quality (VEQual) and investigate their relationships with telepresence and social presence, which are in turn associated with attendee satisfaction and continuance intention.\n \n \n \n Using a sequential mixed-methods design, qualitative interviews with virtual event stakeholders were conducted to explore VEQual dimensions. These findings informed the development of a quantitative survey, which was administered to 699 US participants and analyzed using structural equation modeling.\n \n \n \n Six VEQual dimensions – vividness; entertainment; ease of use; fulfillment; responsiveness; and privacy and security – were identified. All dimensions were positively associated with telepresence and social presence, which were significantly related to attendee satisfaction and continuance intention.\n \n \n \n This study is among the first, to the best of the authors’ knowledge, to conceptualize a structured framework for VEQual and empirically examine its relationships with presence-related constructs. By integrating hedonic and utilitarian dimensions, it offers a foundational model for understanding and designing high-quality virtual event experiences in hospitality and tourism contexts.\n",
+    "summary": "",
+    "doi": "10.1108/jhtt-07-2025-0624",
+    "citations": 0
+  },
+  {
+    "title": "FM4EAD: Towards Training-Free Energy Anomaly Detection with Large Language Models and Time-Series Foundation Models",
+    "authors": [
+      "Ganesh Islavath",
+      "Kajeeth Kumar G",
+      "Arun Kumar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b2ebf054c60a41589dd0505bd608fa180bce9a5f",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815485",
+    "citations": 0
+  },
+  {
+    "title": "Zero-Shot Building Energy Forecasting Using Chronos-2 Foundation Models",
+    "authors": [
+      "Chun Fu",
+      "Li-Wei Cheng",
+      "Tzu-Han Chuang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a2891a9bed52daf92a434483a50fc0c73a074e1c",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815488",
+    "citations": 0
+  },
+  {
+    "title": "ThermoStill: Distilling Time Series Foundation Model into Thermal Dynamics Model for HVAC Model Predictive Control",
+    "authors": [
+      "Rui Liang",
+      "Yang Deng",
+      "Yaohui Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a0143af83da789b09bc5aa99b5c468c9fd2d39b9",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 17th ACM International Conference on Future and Sustainable Energy Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3744255.3811745",
+    "citations": 0
+  },
+  {
+    "title": "In-silico analysis of Pterocarpus santalinoides constituents as potential oxytocin receptor modulators",
+    "authors": [
+      "N. Ani",
+      "B. Salifu",
+      "U. H. Uzoka",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/96880351a521b06d86f1091ddbc4bb41d4b4d277",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "In Silico Pharmacology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s40203-026-00686-5",
+    "citations": 0
+  },
+  {
+    "title": "Patient Trust in AI-generated Medication Information and the Role of Clinical Pharmacists in Preventing Medication-related Safety Risks: A Cross-sectional Survey.",
+    "authors": [
+      "Rajalakshimi Vasudevan",
+      "G. Kandasamy",
+      "K. Venkatesan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9564702941fe6271818baa8780dc3a13940bfcc1",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Journal of patient safety"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "BACKGROUND\nTo assess patient trust in AI-generated medication information, examine associated behavioral safety risks, and evaluate patient expectations regarding the role of clinical pharmacists in preventing medication-related harm.\n\n\nMETHODS\nA cross-sectional survey was conducted among adult patients attending outpatient clinics and community pharmacies in Abha, Saudi Arabia. Data were collected across 3 sites (King Khalid University Hospital outpatient department and 2 affiliated community pharmacies) over a 10-week period (December 2025-January 2026), after ethical approval (KKU-147-2025-31). A structured questionnaire assessed demographic characteristics, AI use patterns, trust in AI-generated medication information, verification behaviors, and perceptions of pharmacist involvement. Psychometric evaluation demonstrated good internal consistency of the trust in AI scale. Data were analyzed using descriptive statistics, nonparametric tests, exploratory factor analysis, and ordinal logistic regression.\n\n\nRESULTS\nAmong 167 participants, trust in AI-generated medication information varied significantly across demographic groups and AI platforms, with higher trust reported for large language model-based tools. Participants without health care backgrounds demonstrated higher trust than health care professionals. Increasing trust was associated with higher behavioral risk, including acting on AI-generated medication advice without verification (P=0.002). Factor analysis identified distinct cognitive trust and behavioral engagement dimensions. Strong support was observed for pharmacist involvement in verifying AI-generated medication information.\n\n\nCONCLUSIONS\nPatient trust in AI-generated medication information is closely linked to behaviors that may increase medication-related safety risks. Clinical pharmacists play a critical role as a safety barrier, underscoring the need to integrate pharmacist-led verification into AI-informed medication counseling to enhance patient safety.",
+    "summary": "",
+    "doi": "10.1097/PTS.0000000000001546",
+    "citations": 0
+  },
+  {
+    "title": "Using AI to support rapid qualitative data analysis of survey and interview data in public health: a proof-of-concept study.",
+    "authors": [
+      "T. White",
+      "R. Pae",
+      "C. Hoerst",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8da1906f69b2f3c6d604a82afcfb4bed259e1d0a",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.19.26356035",
+    "citations": 0
+  },
+  {
+    "title": "A KAN-enhanced graphSAGE model for ethereum account classification on heterophilic graphs",
+    "authors": [
+      "Hengliang Guo",
+      "Yizhe Sui",
+      "Jiaru Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8c923b43866636a2d505539d701af4b19a7fc164",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Peer-to-Peer Networking and Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12083-026-02223-9",
+    "citations": 0
+  },
+  {
+    "title": "Integrated machine learning and molecular dynamics–driven multi-target virtual screening of FDA-approved drugs for drug repurposing in breast cancer",
+    "authors": [
+      "K. K. Kırboğa",
+      "Şükran Acar",
+      "Metehan Şen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/881362ead2d4838823b4bd63e5eb514141005f6d",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "AIDD",
+      "In Silico Pharmacology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s40203-026-00681-w",
+    "citations": 0
+  },
+  {
+    "title": "An Evolutionary Black-Box Framework for Adversarial Prompt Generation in Large Language Models",
+    "authors": [
+      "Qiyang Sun",
+      "Erisa Karafili"
+    ],
+    "link": "https://www.semanticscholar.org/paper/85db59f77d97d657d3b7cb3c007c35fbea81e1d0",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Sixteenth ACM Conference on Data and Application Security and Privacy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3800506.3803495",
+    "citations": 0
+  },
+  {
+    "title": "GridStratLLM: Agent Framework for Coordinated Cyberattacks on the Smart Grid with Large Language Models",
+    "authors": [
+      "Nicolai Kellerer",
+      "V. Hagenmeyer"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7949a581d855b544c865e3975f3c4c3f8fdc15cc",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815147",
+    "citations": 0
+  },
+  {
+    "title": "Covariates Are the Key to Accurate Probabilistic Building Energy Forecasting with Time Series Foundation Models",
+    "authors": [
+      "Alexander Kreusel",
+      "Matthias Hertel",
+      "Moritz Noskiewicz",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7829cc9543244c92adf31e5454df4cfca98021af",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815507",
+    "citations": 0
+  },
+  {
+    "title": "FROST: Foundation-model Representations with Domain Knowledge for Spatially and Temporally Robust Frost Prediction",
+    "authors": [
+      "Hui Wei",
+      "D. Lee",
+      "Shijia Pan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6d90ceda68d6267085bedced7ff7427a2a2b5de0",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815487",
+    "citations": 0
+  },
+  {
+    "title": "Computational identification of DprE1 and InhA inhibitors from Azadirachta indica using docking, MD simulation and DFT analysis",
+    "authors": [
+      "Md. Ramjan Sheikh",
+      "Mobin Mahmud Shawon",
+      "J. Tasnim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/640cbe7d71b643e66b90b66567a725ec79c5c947",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Beni-Suef University Journal of Basic and Applied Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s43088-026-00788-1",
+    "citations": 0
+  },
+  {
+    "title": "Toward Explainable GNN-Based Dynamic Stability Assessment via Joint Feature Attribution",
+    "authors": [
+      "M. Sadric",
+      "B. Schäfer"
+    ],
+    "link": "https://www.semanticscholar.org/paper/459a9b7626ad56bce49773677a6610d8940bf07a",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815370",
+    "citations": 0
+  },
+  {
+    "title": "Generative Artificial Intelligence in Psychotherapy Practice: A Global Online Survey of Mental Health Professionals' Adoption",
+    "authors": [
+      "C. Blease",
+      "J. HagstroÌm",
+      "J. Gaab",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/44fedd303465b62eed06b4ab2ebbff859d8debab",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.18.26355962",
+    "citations": 0
+  },
+  {
+    "title": "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology",
+    "authors": [
+      "K. Nonchev",
+      "S. Dawo",
+      "K. Silina",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/341927299737f89abe9bec619b9f6d3008f807b2",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "RNA-seq / Transcriptomics",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.19.26356060",
+    "citations": 0
+  },
+  {
+    "title": "NetLossBench: A Tiered Benchmark for GNN Hardware Trojan Detectors under Partial Netlist Observations",
+    "authors": [
+      "Liangtao Dai",
+      "Yimin Gao",
+      "Melika Morsali",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2b2f6134f189c720b44cce2e1690f5511fcccba9",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Great Lakes Symposium on VLSI 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3787109.3815316",
+    "citations": 0
+  },
+  {
+    "title": "Evidence-guided AI regularization for suicidal ideation prediction in pediatric bipolar disorder",
+    "authors": [
+      "H. Jabbar Abdl Sattar Hamoudi",
+      "M.-J. Wu",
+      "M. Sanches",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/223efb94c19ea1a0beb19f565c90dc463d0ea9e8",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.18.26355841",
+    "citations": 0
+  },
+  {
+    "title": "Heterogeneous Mixture-of-Experts Adaptation for Finetuning Pretrained Time-series Foundation Models",
+    "authors": [
+      "Priyanka Nihalchandani",
+      "Naman Srivastava",
+      "Varun Ojha",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0a92f078fae618af20dc90e599c0cfe14190a22c",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the 2026 ACM Sustainability Week"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765611.3815482",
+    "citations": 0
+  },
+  {
+    "title": "Agentic Artificial Intelligence for Hospital Readmission Review: A Single-Center Blinded Evaluation and Exploratory Qualitative Analysis",
+    "authors": [
+      "M. Gensheimer",
+      "R. Adhikari",
+      "C. Parmer-Chow",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0415e9eb6fab8e4a2103b9760aaeeda92f83ef2e",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.17.26355917",
+    "citations": 0
+  },
+  {
+    "title": "Safe integration of Large Language Models into industrial process control: a multi-agent architecture with P&ID-grounded validation",
+    "authors": [
+      "Daniel Schall"
+    ],
+    "link": "https://www.semanticscholar.org/paper/010afedd3328293c9d353ebb002ffc3ea16d7f3f",
+    "date": "2026-06-22",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Autonomous Intelligent Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43684-026-00136-1",
+    "citations": 0
+  }
+]
