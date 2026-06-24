@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Transfer Learning for Low-resource Genomic Mutation Detection",
+    "authors": [
+      "Smah Gayser Musa",
+      "Zeinab A. Mustafa",
+      "Zein A.M."
+    ],
+    "link": "https://www.semanticscholar.org/paper/efed69fd05b688ed7718c04240c211a2030805e4",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "Journal of Clinical Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The detection of genomic mutations plays a central role in understanding cancer biology, enabling more precise diagnostic, prognostic, and therapeutic strategies. However, accurate mutation detection is often hindered in low-resource settings due to the limited availability of high-quality sequencing data, computational infrastructure, and expert annotation. These constraints are particularly problematic for key cancer-related genes such as TP53, which is frequently mutated in breast cancer and strongly associated with disease progression and treatment resistance. In recent years, deep learning approaches have shown significant promise in various genomics tasks, including variant calling, sequence classification, and gene expression analysis. Nevertheless, such models typically require large, well-annotated datasets to achieve reliable performance—a condition that is not always feasible in clinical or resource-constrained environments. Transfer learning, a machine learning technique in which knowledge learned from a large source dataset is transferred to a related target task, offers a potential solution to this limitation. It allows for the reuse of pretrained models, reducing the need for large amounts of labeled data while improving generalization. In this study, we propose and evaluate a deep learning framework for detecting TP53 mutations in breast cancer using either gene expression data or DNA sequences. We benchmark the performance of several architectures—namely, fully connected neural networks (FCNN), convolutional neural networks (CNN), bidirectional long short-term memory networks (BiLSTM), Transformers trained from scratch, and DNABERT models both trained from scratch and fine-tuned via transfer learning. All models were trained and tested on a curated subset of TCGA-BRCA samples labeled with TP53 mutation status. Our results show that DNABERT with transfer learning achieved the highest performance across all evaluation metrics, with an accuracy of 92%, F1-score of 0.90, and AUROC of 0.95. In contrast, traditional models such as FCNN and CNN using gene expression data yielded moderate performance (accuracy: 0.81–0.83), while models trained from scratch—including BiLSTM and Transformer—performed better when applied to DNA sequences (accuracy: 0.85–0.87). The consistent superiority of DNABERT highlights the value of pretrained genomic language models and transfer learning in resource-constrained scenarios. These findings underscore the promise of transformer-based models for scalable and accurate mutation detection, especially in clinical settings with limited-data availability. On the basis of our findings, we recommend adopting transfer learning approaches such as DNABERT in clinical genomics applications, integrating gene expression and sequence data to boost accuracy, and extending this framework to additional cancer-related genes to improve model generalizability.",
+    "summary": "",
+    "doi": "10.1097/jce.0000000000000763",
+    "citations": 0
+  },
+  {
+    "title": "The meek shall inherit the Earth: personality, empathy, and the human shaping of LLMs",
+    "authors": [
+      "Madhur Mangalam"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e8c978a024de9631caf1d3d3a7f31298cb55447f",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01215-y",
+    "citations": 0
+  },
+  {
+    "title": "Performance variation and implementation barriers of large language models in clinical healthcare: a systematic review",
+    "authors": [
+      "Samer Mohammed",
+      "Khalid Abdulhussein Abdulameer",
+      "Mahmood Salih",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e0cd171b0e0e27d4ba3aab7501b93e39ae5d7ead",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Journal of Umm Al-Qura University for Medical Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44361-026-00045-1",
+    "citations": 0
+  },
+  {
+    "title": "Indirect prompt injection in large language models",
+    "authors": [
+      "Alfredo Milani",
+      "Valentina Franzoni",
+      "Emanuele Florindi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/deb43c5a66d7188b4a83af3dc6d9b1b7a02fc302",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Neural computing & applications (Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00521-026-12266-x",
+    "citations": 0
+  },
+  {
+    "title": "Machine and deep learning for sentinel-based land use and land cover change detection: a systematic review and future outlook",
+    "authors": [
+      "Anam Nigar",
+      "Yang Li",
+      "M. Y. Jat Baloch",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d67ab9ec7277aaed88ad41482635e21fdaba574f",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Environmental Monitoring & Assessment"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10661-026-15558-w",
+    "citations": 0
+  },
+  {
+    "title": "Computational Insights in Identification of Proficient Transient Receptor Potential Vanilloid 1 Inhibitors: A Pathway for Extenuating Chemotherapy-Induced Peripheral Neuropathy",
+    "authors": [
+      "Dinesh Kumar Chandanapalli",
+      "Shristi Arya",
+      "Shailesh Mani Tripathi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c476e8fcdfce7a966dd2f2e979038cc8017715d4",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Journal of Pharmaceutical Innovation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12247-026-10851-0",
+    "citations": 0
+  },
+  {
+    "title": "Exploring the HNE-inhibitory potential of in silico selected Moringa oleifera defense proteins",
+    "authors": [
+      "Izuddin Abdul Rahman",
+      "Norliza Abu Bakar",
+      "B. Muhialdin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/af044129d7291d96a0fb6f9e0388e945bab04b85",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00864-9",
+    "citations": 0
+  },
+  {
+    "title": "Agentic Autodiscovery of Diastolic Dysfunction Phenotypes from Surface Electrocardiogram",
+    "authors": [
+      "A. Jamthikar",
+      "A. Shanmugham",
+      "S. Singh",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/acc4bf94f74361cec2643ac1cb91480c9148dbd4",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.17.26355897",
+    "citations": 0
+  },
+  {
+    "title": "Clinical accuracy and applications of large language models in pediatric orthopedics: a systematic review.",
+    "authors": [
+      "Ibraheem Qureshi",
+      "Nithya Thomas",
+      "Matthew Heffelfinger",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a7a82e3c528521e34a715dcc058370e1aea191b5",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Journal of pediatric orthopedics. Part B"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "To systematically evaluate the accuracy, reliability, and clinical applicability of artificial intelligence and large language models (LLMs) in pediatric orthopedics, comparing their performance against established clinical guidelines and assessing their utility for patient education and clinical decision support. A search of PubMed and ScienceDirect (2020-2025) identified 2624 articles using the keywords 'ChatGPT', 'Gemini', 'Claude' and 'orthopedic pediatrics'. After screening and refinement using Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 guidelines, 15 studies met inclusion criteria. Studies evaluated ChatGPT, Google Gemini, Meta AI, Microsoft Copilot, and Claude across multiple pediatric orthopedic conditions across conditions like developmental dysplasia of the hip, slipped capital femoral epiphysis, and scoliosis. Heterogeneity was assessed using Cochran's Q and I2 statistics, and publication bias was evaluated using funnel plots and Egger's test. LLM accuracy ranged from 44.3 to 93% (pooled: 74.1%), with pooled accuracy of 74.1%. Reproducibility was moderate, with ChatGPT demonstrating a Spearman coefficient of 0.55 for complex queries. Regional expert consensus scores varied significantly (Europe: 80, North America: 65; P = 0.034; Fleiss\\kappa = 0.113). Up to 33% of responses to guideline-based questions were rated neutral or inaccurate. Reading complexity was elevated (Flesch-Kincaid grade: 12.7), exceeding the recommended sixth-grade level. Parent surveys indicated 82% trust in artificial intelligence as supplementary tools with professional oversight. Minimal statistical heterogeneity was observed (I2 = 0.00%), though publication bias was detected (Egger's test P = 0.0001). LLMs show potential for education and triage but lack consistency in complex scenarios, elevated reading complexity, and significant regional variability in expert assessments. These tools should be used as educational supplements under professional medical supervision rather than for independent clinical decision-making. Broader clinical application requires domain-specific tuning, standardized evaluation, and readability optimization.\n\n\nLEVEL OF EVIDENCE\nLevel V- systematic review.",
+    "summary": "",
+    "doi": "10.1097/BPB.0000000000001368",
+    "citations": 0
+  },
+  {
+    "title": "Data protection in the era of large language models: challenges and opportunities",
+    "authors": [
+      "Zvinodashe Revesai",
+      "C. T. Chipfumbu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/75be29a8b92426712a6f2290e2abe82534958c94",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01223-y",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal machine learning and deep graph neural networks for the prediction of molecular inhibitory activity and disease associations",
+    "authors": [
+      "Dileep Kumar Murala",
+      "S. Panda"
+    ],
+    "link": "https://www.semanticscholar.org/paper/66904920a4c9966861ef6db60f8382464ede8f5e",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00858-7",
+    "citations": 0
+  },
+  {
+    "title": "The implications of AI chatbots built on large language models for youth mental health",
+    "authors": [
+      "H. LaMonica",
+      "Ian B. Hickie",
+      "A. Poulsen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f1d69bf92486255d409efe88f1b5c6fa6e6e0aa",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01199-9",
+    "citations": 0
+  },
+  {
+    "title": "Retrieval-augmented large multimodal models for pathology",
+    "authors": [
+      "Xinhui Chu",
+      "Yuxuan Sun",
+      "Binbin Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/37dc85ca70f69f674d97976844b01d33488c01fb",
+    "date": "2026-06-23",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10263-1",
+    "citations": 0
+  }
+]
