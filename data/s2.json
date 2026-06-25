@@ -1,5 +1,139 @@
 [
   {
+    "title": "Calibration-aware gating for budgeted LLM supervision in graph neural network link prediction",
+    "authors": [
+      "M. Arshad",
+      "Stefano Lodi",
+      "David Q. Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ed4169fd374d6f2a0a93cb7110f41731c56b4a60",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10214-w",
+    "citations": 0
+  },
+  {
+    "title": "Research and implementation of AI driven intelligent accounting models",
+    "authors": [
+      "Zhuoxuan Feng",
+      "Pengfei Kang",
+      "Dian Feng"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e093a04a6a654947066da16a44d6495af764bf2e",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Digital Economy and Sustainable Development"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44265-026-00081-0",
+    "citations": 0
+  },
+  {
+    "title": "Integrating Large Language Models and Graph Neural Networks for enhanced Arabic sentiment analysis",
+    "authors": [
+      "Hani Iwidat"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d969d66ac0a1441176a93e77767a71c7625ad5b9",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10211-z",
+    "citations": 0
+  },
+  {
+    "title": "Mirror or diverge? Auditing how LLMs shape news agendas relative to youtube and traditional media outlets",
+    "authors": [
+      "Yanbo Li",
+      "H. Taneja"
+    ],
+    "link": "https://www.semanticscholar.org/paper/901565cc0ba463300b31f66b69455236729e84d3",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Communication and Change"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44382-026-00030-7",
+    "citations": 0
+  },
+  {
+    "title": "Activation Trained Layer Based Controls Continual Knowledge Editing Approach",
+    "authors": [
+      "Yilin Huang",
+      "Yimin Wen",
+      "Junying Zeng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3c65da928b5be33f34d8e0738058455c8fa7f218",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Machine-mediated learning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10994-026-07100-3",
+    "citations": 0
+  },
+  {
+    "title": "Correction: Assessing the risk of bias of clinical trials with large language models and ROBUST-RCT: a feasibility study",
+    "authors": [
+      "P. Vidor",
+      "Y. Casiraghi",
+      "A. M. de Souza",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/30757632cc62f9629766260eda1afa76d7cdbd01",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-57081-5",
+    "citations": 0
+  },
+  {
+    "title": "Metabolomic Profiling and Bioactivity Evaluation of Rhodotorula Mucilaginosa Extract: Insights From In Vitro and In Silico Approaches",
+    "authors": [
+      "Sowmiya Soundararajan",
+      "Jasmine Ranjan",
+      "Sherlin Rosita Arokiaraj",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1d945410366ef68ec38a815d8b894aaa75e4efc9",
+    "date": "2026-06-24",
+    "keywords": [
+      "今日上新",
+      "Journal of Pharmaceutical Innovation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12247-026-10832-3",
+    "citations": 0
+  },
+  {
     "title": "Transfer Learning for Low-resource Genomic Mutation Detection",
     "authors": [
       "Smah Gayser Musa",
@@ -9,7 +143,6 @@
     "link": "https://www.semanticscholar.org/paper/efed69fd05b688ed7718c04240c211a2030805e4",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Deep Learning",
       "Transformer",
       "Journal of Clinical Engineering"
@@ -28,7 +161,6 @@
     "link": "https://www.semanticscholar.org/paper/e8c978a024de9631caf1d3d3a7f31298cb55447f",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "AI and Ethics"
     ],
     "source": "Semantic Scholar",
@@ -48,7 +180,6 @@
     "link": "https://www.semanticscholar.org/paper/e0cd171b0e0e27d4ba3aab7501b93e39ae5d7ead",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Journal of Umm Al-Qura University for Medical Science"
     ],
     "source": "Semantic Scholar",
@@ -67,13 +198,31 @@
     "link": "https://www.semanticscholar.org/paper/deb43c5a66d7188b4a83af3dc6d9b1b7a02fc302",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Neural computing & applications (Print)"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s00521-026-12266-x",
+    "citations": 0
+  },
+  {
+    "title": "High-Throughput Virtual Screening of Small Molecule Quenchers for Near-Infrared Fluorophores.",
+    "authors": [
+      "Chao Wang",
+      "Taorui Yang",
+      "Qinglong Qiao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/dd73031d8dc90e967f11c4a7454ed223f2f2fbb8",
+    "date": "2026-06-23",
+    "keywords": [
+      "Angewandte Chemie"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/anie.9617434",
     "citations": 0
   },
   {
@@ -87,7 +236,6 @@
     "link": "https://www.semanticscholar.org/paper/d67ab9ec7277aaed88ad41482635e21fdaba574f",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Deep Learning",
       "Environmental Monitoring & Assessment"
     ],
@@ -108,13 +256,31 @@
     "link": "https://www.semanticscholar.org/paper/c476e8fcdfce7a966dd2f2e979038cc8017715d4",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Journal of Pharmaceutical Innovation"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s12247-026-10851-0",
+    "citations": 0
+  },
+  {
+    "title": "Comparative analysis of GPT-4o as a representative multimodal large language model and human fitters in orthokeratology lens fitting: Assessing accuracy, efficiency and cost-effectiveness in initial lens parameter selection.",
+    "authors": [
+      "Daohuan Kang",
+      "Lu Yuan",
+      "Jia Feng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c04f47c06266367bedb913a7530408fdbdeb126c",
+    "date": "2026-06-23",
+    "keywords": [
+      "Acta ophthalmologica"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1111/aos.70185",
     "citations": 0
   },
   {
@@ -128,7 +294,6 @@
     "link": "https://www.semanticscholar.org/paper/af044129d7291d96a0fb6f9e0388e945bab04b85",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Journal of Computer-Aided Molecular Design"
     ],
     "source": "Semantic Scholar",
@@ -148,13 +313,31 @@
     "link": "https://www.semanticscholar.org/paper/acc4bf94f74361cec2643ac1cb91480c9148dbd4",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "medRxiv"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.06.17.26355897",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging large language models to assess therapeutic technique diversity and its associations with the therapeutic alliance and outcome.",
+    "authors": [
+      "Amir Eliassaf",
+      "Yael Bar-Shachar",
+      "Aya Shamir",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ac14dcb7a614f2adfd3789ba0751b99ad5a20d2f",
+    "date": "2026-06-23",
+    "keywords": [
+      "Psychotherapy Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/10503307.2026.2689633",
     "citations": 0
   },
   {
@@ -168,13 +351,31 @@
     "link": "https://www.semanticscholar.org/paper/a7a82e3c528521e34a715dcc058370e1aea191b5",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Journal of pediatric orthopedics. Part B"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": "To systematically evaluate the accuracy, reliability, and clinical applicability of artificial intelligence and large language models (LLMs) in pediatric orthopedics, comparing their performance against established clinical guidelines and assessing their utility for patient education and clinical decision support. A search of PubMed and ScienceDirect (2020-2025) identified 2624 articles using the keywords 'ChatGPT', 'Gemini', 'Claude' and 'orthopedic pediatrics'. After screening and refinement using Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 guidelines, 15 studies met inclusion criteria. Studies evaluated ChatGPT, Google Gemini, Meta AI, Microsoft Copilot, and Claude across multiple pediatric orthopedic conditions across conditions like developmental dysplasia of the hip, slipped capital femoral epiphysis, and scoliosis. Heterogeneity was assessed using Cochran's Q and I2 statistics, and publication bias was evaluated using funnel plots and Egger's test. LLM accuracy ranged from 44.3 to 93% (pooled: 74.1%), with pooled accuracy of 74.1%. Reproducibility was moderate, with ChatGPT demonstrating a Spearman coefficient of 0.55 for complex queries. Regional expert consensus scores varied significantly (Europe: 80, North America: 65; P = 0.034; Fleiss\\kappa = 0.113). Up to 33% of responses to guideline-based questions were rated neutral or inaccurate. Reading complexity was elevated (Flesch-Kincaid grade: 12.7), exceeding the recommended sixth-grade level. Parent surveys indicated 82% trust in artificial intelligence as supplementary tools with professional oversight. Minimal statistical heterogeneity was observed (I2 = 0.00%), though publication bias was detected (Egger's test P = 0.0001). LLMs show potential for education and triage but lack consistency in complex scenarios, elevated reading complexity, and significant regional variability in expert assessments. These tools should be used as educational supplements under professional medical supervision rather than for independent clinical decision-making. Broader clinical application requires domain-specific tuning, standardized evaluation, and readability optimization.\n\n\nLEVEL OF EVIDENCE\nLevel V- systematic review.",
     "summary": "",
     "doi": "10.1097/BPB.0000000000001368",
+    "citations": 0
+  },
+  {
+    "title": "[Keeping track of things: large language models for patient synopses : Source-bound system for clinical information systems].",
+    "authors": [
+      "Philipp Arnold",
+      "Johannes Jahn",
+      "Fabian Bamberg",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/93da5bccd664ec245c55fafa3d0356f5229c8a2e",
+    "date": "2026-06-23",
+    "keywords": [
+      "Radiologie"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00117-026-01632-4",
     "citations": 0
   },
   {
@@ -186,13 +387,49 @@
     "link": "https://www.semanticscholar.org/paper/75be29a8b92426712a6f2290e2abe82534958c94",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "AI and Ethics"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s43681-026-01223-y",
+    "citations": 0
+  },
+  {
+    "title": "Integrated pan-cancer multi-omics profiling and experimental validation identify LSM12 as a prognostic biomarker and candidate therapeutic target in human cancers",
+    "authors": [
+      "Muhammad Alaa Eldeen",
+      "Ahmed Refaat",
+      "Hebatallah Emam Mohammed Ahmed",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/748b33b7b78fee16e12fe394c4d1c57241a93a1e",
+    "date": "2026-06-23",
+    "keywords": [
+      "BMC Cancer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s12885-026-16258-x",
+    "citations": 0
+  },
+  {
+    "title": "Large language model-enhanced pairwise Markov random field for detecting collusive review spammers",
+    "authors": [
+      "Ying Yang",
+      "Jia-Wei Yu",
+      "Gang Ren"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6eb58067830fedc03ed1167c306c37cf34b9775e",
+    "date": "2026-06-23",
+    "keywords": [
+      "Knowledge and Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10115-026-02821-2",
     "citations": 0
   },
   {
@@ -204,7 +441,6 @@
     "link": "https://www.semanticscholar.org/paper/66904920a4c9966861ef6db60f8382464ede8f5e",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Journal of Computer-Aided Molecular Design"
     ],
     "source": "Semantic Scholar",
@@ -224,7 +460,6 @@
     "link": "https://www.semanticscholar.org/paper/4f1d69bf92486255d409efe88f1b5c6fa6e6e0aa",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "AI and Ethics"
     ],
     "source": "Semantic Scholar",
@@ -244,7 +479,6 @@
     "link": "https://www.semanticscholar.org/paper/37dc85ca70f69f674d97976844b01d33488c01fb",
     "date": "2026-06-23",
     "keywords": [
-      "今日上新",
       "Discover Computing"
     ],
     "source": "Semantic Scholar",
@@ -252,6 +486,60 @@
     "summary": "",
     "doi": "10.1007/s10791-026-10263-1",
     "citations": 0
+  },
+  {
+    "title": "Computational Analysis of Dual Targeting of β1-Adrenergic and AT1 Receptors by Bisoprolol Fumarate and Candesartan Cilexetil for Hypertensive Modulation.",
+    "authors": [
+      "Sana Yakoubi",
+      "A. Alatrache"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0446e712bc27b3ced5e39591219965465fc431fb",
+    "date": "2026-06-23",
+    "keywords": [
+      "Xenobiotica; the fate of foreign compounds in biological systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/00498254.2026.2693908",
+    "citations": 0
+  },
+  {
+    "title": "The reproducibility gap in graph neural network workflows for cell dynamics: A checklist-driven case study.",
+    "authors": [
+      "Martin Schätz",
+      "Ko Sugawara"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0330f0eec12b0fa97961c4a924da2a6efafc5f8f",
+    "date": "2026-06-23",
+    "keywords": [
+      "Journal of Microscopy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1111/jmi.70139",
+    "citations": 0
+  },
+  {
+    "title": "Trait anxiety is associated with idiosyncratic neural event boundaries during naturalistic movie-watching",
+    "authors": [
+      "A. Liu",
+      "Jiajie Chen",
+      "Jadyn S. Park",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fc9728f40937db3f594128a352d4ae0b2b86b2d1",
+    "date": "2026-06-22",
+    "keywords": [
+      "Cited: 1",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.01.03.697513",
+    "citations": 1
   },
   {
     "title": "Reliable execution of natural language test cases for GUI applications using LLM agents",
@@ -324,6 +612,79 @@
     "citations": 0
   },
   {
+    "title": "Solidarity or Segregation? ChatGPT Health and US Health Care Disparities.",
+    "authors": [
+      "A. Barnhart",
+      "Giuseppe Comerci",
+      "Barbara Prainsack",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e8ffdef66a236ff83af724e56bcfb1c1e4d87d34",
+    "date": "2026-06-22",
+    "keywords": [
+      "Journal of Medical Internet Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.2196/94972",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating Large Language Models for Post-Publication Promotion: A Blinded Comparative Study of Social Media Posts in Public Health.",
+    "authors": [
+      "B. Doskaliuk",
+      "M. Mukhamediyarov",
+      "M. Yessirkepov",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/db8dd38c443f1995b35794dc543a3d07f34a9c65",
+    "date": "2026-06-22",
+    "keywords": [
+      "Journal of Korean medical science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "BACKGROUND\nSocial media platforms such as X (formerly Twitter) are increasingly used by journals, authors, and institutions to promote newly published research. Well-designed posts can enhance visibility, accelerate knowledge translation, and increase altmetric attention. However, creating accurate and policy-compliant content is time-intensive. Large language models (LLMs) offer a potential solution, yet systematic evaluations of their performance in post-publication promotion remain limited.\n\n\nMETHODS\nWe conducted a blinded, crossed, offline evaluation of four LLMs: GPT-5 (OpenAI), Gemini 2.5 Pro (Google DeepMind), Grok-3 (xAI), and Perplexity Pro (Perplexity AI), tasked with generating X-style posts (≤ 260 characters) for 36 open access articles from The Lancet Public Health, The Lancet Planetary Health, and Annual Review of Public Health. Posts were generated using a standardized system and user prompt. A single blinded rater scored outputs using a five-domain rubric (factual accuracy, clarity, policy compliance, call-to-action quality, structure/metadata; maximum score 10). Secondary measures included character count, hashtag use, and readability (Flesch-Kincaid Grade Level). General linear models with Bonferroni-adjusted post hoc tests and non-parametric analyses were applied.\n\n\nRESULTS\nAll four models achieved perfect factual accuracy and no policy violations. Mean total quality scores differed significantly by model, P < 0.001. GPT-5 (9.60) and Perplexity Pro (9.60) performed best, followed by Gemini 2.5 Pro (9.47), while Grok-3 scored lower (8.80). Domain analyses showed Grok-3 underperformed in call-to-action quality (1.40 vs. ≥1.97 in other models, P < 0.001) and produced significantly shorter posts (median 194 characters, P < 0.001). Perplexity Pro scored highest for policy compliance, while GPT-5 and Gemini 2.5 Pro achieved superior structural scores. Readability varied: GPT-5 8.9 (7.3-9.2) and Perplexity Pro 7.3 (6.5-8.8) generated more complex outputs, whereas Gemini 2.5 Pro 5.1 (4.8-6.5) and Grok-3 4.5 (3.6-6.3) produced more accessible posts.\n\n\nCONCLUSION\nLLMs can reliably generate accurate and policy-compliant social media posts for research promotion, with differences in style and readability that may inform audience targeting. GPT-5, Gemini 2.5 Pro, and Perplexity Pro produced high-quality outputs, while Grok-3 underperformed across several domains. These findings highlight the potential of LLMs as scalable first-draft tools for post-publication promotion, capable of improving the reach and accessibility of scientific research. Careful model selection, tailored to audience and communication goals, together with human oversight, remains essential.",
+    "summary": "",
+    "doi": "10.3346/jkms.2026.41.e168",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging Large Language Models to Integrate Clinical Knowledge and Machine Learning Predictions for Lymph Node Metastasis Prediction: Development of a Knowledge-Augmented Framework.",
+    "authors": [
+      "Hongying Yu",
+      "Bing Liu",
+      "Xian Zeng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/da9802fa21dad772131c1513f81e18ea08510b0c",
+    "date": "2026-06-22",
+    "keywords": [
+      "JMIR Medical Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.2196/86700",
+    "citations": 0
+  },
+  {
+    "title": "Computerized Classification Method for Glioma Molecular Subtypes on Brain MR Images Using SAM-Med3D with Low-Rank Adaptation.",
+    "authors": [
+      "A. Hizukuri"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d6cddc2790d7bba63693872dffafb0bf8c30f876",
+    "date": "2026-06-22",
+    "keywords": [
+      "Journal of imaging informatics in medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10278-026-02074-z",
+    "citations": 0
+  },
+  {
     "title": "Prompt engineering of large language models for paper screening in medical meta-analyses and systematic reviews: A prospective comparative study - CORRIGENDUM.",
     "authors": [
       "T. J. Adam",
@@ -363,6 +724,43 @@
     "citations": 0
   },
   {
+    "title": "Automated Summarization of Military Medical Records Using AI: Evaluation Via the OPTICA Framework.",
+    "authors": [
+      "Yigal Chechik",
+      "Yoav Jordan Gutterman",
+      "S. Abuhasira"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d03095beaabdf2f959e6bda19b7ebc6f83e4658d",
+    "date": "2026-06-22",
+    "keywords": [
+      "Military Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1093/milmed/usag283",
+    "citations": 0
+  },
+  {
+    "title": "Characterising 'Watch and Wait' prescribing patterns in paediatric otitis media using large language models and pharmacy dispense data.",
+    "authors": [
+      "Jessica J. Pourian",
+      "Ben Michaels",
+      "A. Vo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c338c949f0243a83656a51d031e76c9792a97760",
+    "date": "2026-06-22",
+    "keywords": [
+      "BMJ Health & Care Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1136/bmjhci-2025-101948",
+    "citations": 0
+  },
+  {
     "title": "Conceptualizing virtual event quality: a mixed-methods approach to presence and continuance",
     "authors": [
       "H. Kim",
@@ -378,6 +776,23 @@
     "abstract_raw": "\n \n This study aims to examine the key dimensions of perceived virtual event quality (VEQual) and investigate their relationships with telepresence and social presence, which are in turn associated with attendee satisfaction and continuance intention.\n \n \n \n Using a sequential mixed-methods design, qualitative interviews with virtual event stakeholders were conducted to explore VEQual dimensions. These findings informed the development of a quantitative survey, which was administered to 699 US participants and analyzed using structural equation modeling.\n \n \n \n Six VEQual dimensions – vividness; entertainment; ease of use; fulfillment; responsiveness; and privacy and security – were identified. All dimensions were positively associated with telepresence and social presence, which were significantly related to attendee satisfaction and continuance intention.\n \n \n \n This study is among the first, to the best of the authors’ knowledge, to conceptualize a structured framework for VEQual and empirically examine its relationships with presence-related constructs. By integrating hedonic and utilitarian dimensions, it offers a foundational model for understanding and designing high-quality virtual event experiences in hospitality and tourism contexts.\n",
     "summary": "",
     "doi": "10.1108/jhtt-07-2025-0624",
+    "citations": 0
+  },
+  {
+    "title": "A Comparative Study on the Translation Quality of Eco-cultural Terms in Tourism Texts of Qinghai Province: An Empirical Analysis Based on Large Language Models",
+    "authors": [
+      "Chunli Yu",
+      "Hongyan Tuo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b5c2ba82ed7bd148d7dcc55e7d7572abba67ade4",
+    "date": "2026-06-22",
+    "keywords": [
+      "English Linguistics Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study conducts an empirical comparative analysis of translations generated by four mainstream large language models (ChatGPT, Google Gemini, DeepSeek, and Qwen) for 300 Qinghai ecotourism-related eco-cultural terms across four categories (Natural Landscapes, Ecological Resources & Conservation, Tourism Activities & Facilities, and Culture & Folk Customs). A multi-dimensional evaluation system covering accuracy, cultural connotation retention, terminological consistency, and readability is employed to assess each model’s performance. The results show that Google Gemini achieves the highest overall performance, excelling particularly in accuracy for natural landscape and ecological resource terms, and demonstrating strong capabilities in cultural connotation retention and readability. Qwen ranks second, with notable strength in cultural connotation retention and balanced performance across other dimensions. DeepSeek follows, maintaining stable and consistent output with good terminological uniformity. ChatGPT offers acceptable readability and natural expression. Based on these findings, the study proposes targeted optimization strategies and constructs a reference translation corpus, aiming to support the international dissemination of Qinghai’s ecotourism culture and to enrich empirical research on LLM-based translation in regional ecotourism contexts.",
+    "summary": "",
+    "doi": "10.5430/elr.v15n1p34",
     "citations": 0
   },
   {
@@ -398,6 +813,26 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1145/3765611.3815485",
+    "citations": 0
+  },
+  {
+    "title": "From in silico screening to mechanism: computational advances in developing anti-allergic agents for food allergy.",
+    "authors": [
+      "Xinyu Chen",
+      "Xiao Liang",
+      "Xiaohua Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1287549aad26ee2a0de72bbdba2c239ed7896a8",
+    "date": "2026-06-22",
+    "keywords": [
+      "Agent",
+      "Critical reviews in food science and nutrition"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/10408398.2026.2691234",
     "citations": 0
   },
   {
@@ -436,6 +871,23 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1021/acs.jmedchem.6c01439",
+    "citations": 0
+  },
+  {
+    "title": "WITHDRAWN: Distilling Protein Language Models with Complementary Regularizers",
+    "authors": [
+      "Edward Wijaya"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a8da1250ee1136f347d223cd671a6d18c2209fd0",
+    "date": "2026-06-22",
+    "keywords": [
+      "Protein Language Model",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.02.17.706304",
     "citations": 0
   },
   {
@@ -497,6 +949,25 @@
     "citations": 0
   },
   {
+    "title": "A α-synuclein aggregation inhibitor exerts neuroprotective effects via mitochondrial resilience in Parkinson's disease.",
+    "authors": [
+      "Ye Peng",
+      "Jun-rui Ye",
+      "Hong-yun Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9e0f2b7aa3b4c6e26abb628d93c38166bb8792e1",
+    "date": "2026-06-22",
+    "keywords": [
+      "Journal of Advanced Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jare.2026.06.026",
+    "citations": 0
+  },
+  {
     "title": "Querying an astronomical database using large language models: the ALeRCE text-to-SQL system",
     "authors": [
       "P. A. Estévez",
@@ -513,6 +984,83 @@
     "abstract_raw": "We developed a text-to-structured query language (SQL) system based on large language models (LLMs) using in-context learning and applied it to the Automatic Learning for the Rapid Classification of Events (ALeRCE) astronomical database. ALeRCE is a community broker for the Zwicky Transient Facility and the Vera C. Rubin Observatory. The system enables users to query the database in natural language (NL) and generates executable SQL queries. To develop and evaluate the system, we constructed a set of 110 NL-SQL pairs. We propose a step-by-step generation framework comprising four modules: schema linking, query classification, prompt decomposition, and self-correction. The performance of 13 LLMs was evaluated using in-context learning and prompt engineering techniques. Text-to-SQL performance was assessed using the perfect-match (PM) rate for row identifiers (e.g., object identifiers) and column identifiers (i.e., column names). The proposed step-by-step framework consistently outperforms a direct-inference baseline, while the self-correction module consistently reduces execution errors. For Claude Opus 4.6, PM performance on row (column) identifiers is high for simple queries, reaching 0.97 (0.94), and decreases with query complexity to 0.44 (0.72) for medium queries and 0.59 (0.49) for hard queries. Among the 13 models evaluated, the best-performing LLMs for the text-to-SQL task are Claude Opus 4.6, Gemini 2.5 Pro, Gemini 3 Flash, and GPT-5.2-Codex.",
     "summary": "",
     "doi": "10.1051/0004-6361/202558221",
+    "citations": 0
+  },
+  {
+    "title": "Online Andrology: Real-World Status Quo of Patients' Online Information Sources and Comparison With Large Language Models in Germany.",
+    "authors": [
+      "Traeger Max",
+      "Gloeckler Paulina",
+      "H. Jochen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9b6eb4ed3c85b78d015d54afe98762af48b70f2e",
+    "date": "2026-06-22",
+    "keywords": [
+      "Andrology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1111/andr.70286",
+    "citations": 0
+  },
+  {
+    "title": "A complete RXFP1–relaxin interaction model unlocks the design of potent mini-protein modulators",
+    "authors": [
+      "J. Clement",
+      "Tim Lkhagvajargal",
+      "Bradley L. Hoare",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9a79d89f36974f3cfac57365ac5d3d9a3c006d52",
+    "date": "2026-06-22",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.19.733483",
+    "citations": 0
+  },
+  {
+    "title": "Trends in the use of adult-specific preference-weighted health-related quality of life instruments in clinical trials over the past 50 years: a protocol for a meta-research study using deep learning-based natural language processing and large language models.",
+    "authors": [
+      "Sarun Srikhom",
+      "Nancy Devlin",
+      "Nhung Nghiem",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9866f7bd2d6933230b97656174ef5b4081715246",
+    "date": "2026-06-22",
+    "keywords": [
+      "Deep Learning",
+      "BMJ Open"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1136/bmjopen-2026-118609",
+    "citations": 0
+  },
+  {
+    "title": "A novel bilateral cross-attention network for multi-label fundus disease diagnosis.",
+    "authors": [
+      "Yang Zhou",
+      "Qiaolu Wang",
+      "Hua Zhong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/97b8fb06ac63694fded704ae205aa5c67302b8e7",
+    "date": "2026-06-22",
+    "keywords": [
+      "Computers in Biology and Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.compbiomed.2026.111818",
     "citations": 0
   },
   {
@@ -684,6 +1232,25 @@
     "citations": 0
   },
   {
+    "title": "Allosteric targeting of the ACE2 dimer interface by a medium-sized compound inhibits SARS-CoV-2 entry.",
+    "authors": [
+      "M. Yokogawa",
+      "Shunki Kaneichi",
+      "Mahoro Horiuchi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7a7ec3940b4b9292c90fce02df9beee484df5f55",
+    "date": "2026-06-22",
+    "keywords": [
+      "Journal of Molecular Biology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jmb.2026.169914",
+    "citations": 0
+  },
+  {
     "title": "GridStratLLM: Agent Framework for Coordinated Cyberattacks on the Smart Grid with Large Language Models",
     "authors": [
       "Nicolai Kellerer",
@@ -722,6 +1289,26 @@
     "citations": 0
   },
   {
+    "title": "Integrating experimental biology, computational methods, and artificial intelligence in anticancer drug discovery: Bridging the translational gap.",
+    "authors": [
+      "Cromwel Tepap Zemnou",
+      "R. Ngakam",
+      "Schelsea Siham Delore Tepap",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/726867aa362c2e80924df83095718b5f7444b344",
+    "date": "2026-06-22",
+    "keywords": [
+      "AIDD",
+      "Computers in Biology and Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.compbiomed.2026.111832",
+    "citations": 0
+  },
+  {
     "title": "FROST: Foundation-model Representations with Domain Knowledge for Spatially and Temporally Robust Frost Prediction",
     "authors": [
       "Hui Wei",
@@ -755,6 +1342,25 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s12525-026-00915-x",
+    "citations": 0
+  },
+  {
+    "title": "Beyond Accuracy: Safety-Centered guidelines for the evaluation of LLM-based therapy recommendation systems for chronic multimorbidity patients.",
+    "authors": [
+      "Yicong Wu",
+      "Ting Chen",
+      "I. Hochberg",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/69836496ff52e9ebb82bdfbfa84dd38c8f3d622e",
+    "date": "2026-06-22",
+    "keywords": [
+      "Journal of Biomedical Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jbi.2026.105072",
     "citations": 0
   },
   {
@@ -796,6 +1402,25 @@
     "citations": 0
   },
   {
+    "title": "A multi-label cascade flexible neural forest model for predicting the subcellular location of multi-site bacterial proteins.",
+    "authors": [
+      "Lianxin Zhong",
+      "Yang Li",
+      "Yanhui Cheng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/57e26cc03b9ba487571e2fad11fe7d1f949cd0e2",
+    "date": "2026-06-22",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-58508-9",
+    "citations": 0
+  },
+  {
     "title": "Performance of four large language models in addressing family-centered questions on morbidity and outcomes in patients supported by extracorporeal membrane oxygenation",
     "authors": [
       "W. Vankrunkelsven",
@@ -811,6 +1436,43 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1186/s13054-026-06137-z",
+    "citations": 0
+  },
+  {
+    "title": "Personalized talent cultivation and academic prediction framework for higher education based on the HA-GNN-LSTM architecture.",
+    "authors": [
+      "Qi Gong",
+      "Jing Shi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/52fca087911a8749dea50eb44fbcbdd4bc64d216",
+    "date": "2026-06-22",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-59218-y",
+    "citations": 0
+  },
+  {
+    "title": "Parameter Efficient Deep Learning Models for Multi-Target Binding Affinity and hERG Cardiotoxicity Prediction.",
+    "authors": [
+      "Fairuz Shadmani Shishir",
+      "Bishnu Sarker",
+      "Cuncong Zhong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/46dbdfda6f43173eb95ed52fd90f65986fa92650",
+    "date": "2026-06-22",
+    "keywords": [
+      "Deep Learning",
+      "IEEE transactions on computational biology and bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/TCBBIO.2026.3705951",
     "citations": 0
   },
   {
@@ -867,6 +1529,45 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s13735-026-00407-w",
+    "citations": 0
+  },
+  {
+    "title": "Bidirectional cross-modal fusion with tensor interaction for drug-target binding prediction.",
+    "authors": [
+      "Xiaoxuan Liu",
+      "Deshinta Arrova Dewi",
+      "Shuangwen Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/435612f98507c2b7659134ec1ea8a7d34faf01a9",
+    "date": "2026-06-22",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-57915-2",
+    "citations": 0
+  },
+  {
+    "title": "Transformer-accelerated discovery of inhibitors targeting the RpsAΔ438 deletion in PZA-resistant tuberculosis.",
+    "authors": [
+      "Jiazhuo Xiao",
+      "M. Shahab",
+      "Haoke Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/38b2babdf6387b9047d6f17244f5094d10a29afb",
+    "date": "2026-06-22",
+    "keywords": [
+      "Transformer",
+      "Journal of Cheminformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13321-026-01235-0",
     "citations": 0
   },
   {
@@ -929,6 +1630,25 @@
     "citations": 0
   },
   {
+    "title": "Triangular Adaptive Low-Rank Adaptation for Parameter-Efficient Fine-Tuning.",
+    "authors": [
+      "Yao Liang",
+      "Yuwei Wang",
+      "Yi Zeng"
+    ],
+    "link": "https://www.semanticscholar.org/paper/33d70f4fe793e68b5ec2d9b775c013cd7f5ae3d1",
+    "date": "2026-06-22",
+    "keywords": [
+      "Fine-tuning",
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/TNNLS.2026.3703540",
+    "citations": 0
+  },
+  {
     "title": "NetLossBench: A Tiered Benchmark for GNN Hardware Trojan Detectors under Partial Netlist Observations",
     "authors": [
       "Liangtao Dai",
@@ -945,6 +1665,23 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1145/3787109.3815316",
+    "citations": 0
+  },
+  {
+    "title": "AI as a Sparring Partner in Professional Settings: Counselors' Views on ChatGPT's Role and Potential in Pregnancy Termination Counseling.",
+    "authors": [
+      "Eva Kubitza",
+      "J. Degen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2aeb5b83344b5be0863a2d0354be8a21f7c1baaf",
+    "date": "2026-06-22",
+    "keywords": [
+      "Archives of Sexual Behavior"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10508-026-03437-x",
     "citations": 0
   },
   {
@@ -1025,6 +1762,22 @@
     "citations": 0
   },
   {
+    "title": "A Two-Tiered Rescue Protocol to Mitigate Difficulty-Based Failures of ChatGPT 5 and Gemini on the German M2 Medical Exam: Evaluation Study.",
+    "authors": [
+      "Michael Constantin Kirchberger"
+    ],
+    "link": "https://www.semanticscholar.org/paper/119194ce0ca119efc24e7cbe9e4a3889b72ce2e3",
+    "date": "2026-06-22",
+    "keywords": [
+      "JMIR Formative Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.2196/86999",
+    "citations": 0
+  },
+  {
     "title": "Heterogeneous Mixture-of-Experts Adaptation for Finetuning Pretrained Time-series Foundation Models",
     "authors": [
       "Priyanka Nihalchandani",
@@ -1042,6 +1795,25 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1145/3765611.3815482",
+    "citations": 0
+  },
+  {
+    "title": "Development of a multimodal large language model for early warning and diagnosis of chronic ocular GVHD.",
+    "authors": [
+      "Shuwan Liu",
+      "Lili Cao",
+      "Haoran Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/087e443da03302d10415b58cc24752072f4a173a",
+    "date": "2026-06-22",
+    "keywords": [
+      "npj Digital Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41746-026-02916-8",
     "citations": 0
   },
   {
@@ -1100,6 +1872,23 @@
     "abstract_raw": "Cytochrome P450 (CYP450) proteins are a vital enzyme superfamily involved in drug metabolism, detoxification, and biosynthesis. Accurate identification of CYP450 proteins in large-scale proteomic datasets is crucial for advancing pharmacogenomics and industrial biocatalysis. However, current methods are limited by the high sequence diversity and low homology across CYP450 subfamilies, which hampers the detection of distant homologs. To address these challenges, a deep learning framework was developed that integrates multiple feature types, including protein sequence information, semantic embeddings, and evolutionary conservation signals. A comprehensive analysis of over 1000 model combinations demonstrated that optimal combinations of modalities provide complementary information, while suboptimal combinations resulted in weaker performance. The best-performing model, which integrates semantic embeddings from pre-trained protein language models (PLMs), achieved an accuracy exceeding 95% and an area under the receiver operating characteristic curve (auROC) of 0.970 on both training and internal test sets, confirming the efficacy of the multimodal fusion strategy. Multimodal interpretability analyses further elucidated the relative importance of features and their interactions, offering valuable insights into the model's decision-making process. This approach outperforms traditional machine learning methods, providing a robust and accurate solution for CYP450 protein identification, with implications for enzyme engineering and drug discovery.",
     "summary": "",
     "doi": "10.1016/j.ijbiomac.2026.153150",
+    "citations": 0
+  },
+  {
+    "title": "OracleScreen-LILRB4: Machine Learning-Guided Discovery of Myeloid Immune Checkpoint Binders Validated in Patient-Derived Cells",
+    "authors": [
+      "S. Abdel-Rahman",
+      "Moustafa T. Gabr"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef0b16cd66d0806df0ff50b10344e714a2663d0f",
+    "date": "2026-06-21",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.17.732859",
     "citations": 0
   },
   {
@@ -1276,6 +2065,24 @@
     "citations": 0
   },
   {
+    "title": "DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads",
+    "authors": [
+      "Line Sandvad Nielsen",
+      "Henrik Nielsen",
+      "Ole Winther"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3aba4b981cacdfca71f15bb2ceb048934b0cc87d",
+    "date": "2026-06-21",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.17.732633",
+    "citations": 0
+  },
+  {
     "title": "AI-Powered Virtual Interviewer with Real-Time Feedback",
     "authors": [
       "Kunal Patil Kunal Patil",
@@ -1293,6 +2100,25 @@
     "abstract_raw": "The interview process is a critical gateway to professional employment, yet it remains heavily reliant on subjective human evaluation, scheduling constraints, and inconsistent assessment criteria. Candidates from diverse backgrounds often lack access to structured practice environments that can simulate real interview scenarios and deliver actionable, personalized feedback. This paper proposes an AI-Powered Virtual Interviewer system that addresses these limitations by delivering an end-to-end, automated interview experience with real-time, multi-dimensional feedback. The proposed system dynamically generates domain-specific questions using a fine-tuned large language model, transcribes candidate responses through an advanced automatic speech recognition module, evaluates answer quality through semantic similarity scoring, and simultaneously analyzes communication cues including speech fluency, sentiment, and facial expressions. A personalized post-interview feedback report is automatically generated and delivered to the candidate. This paper surveys five closely related research works in automated interview analysis, spoken dialogue systems, virtual coaching agents, and LLM-based question generation, identifies persistent gaps in existing approaches, and describes how the proposed system is designed to close them.\nKeywords - Automated Interview System; Large Language Models; Automatic Speech Recognition; Real-Time Feedback; Sentiment Analysis; Facial Expression Analysis; Question Generation; Natural Language Processing; BERT; Whisper STT",
     "summary": "",
     "doi": "10.55041/ijcope.v2i6.264",
+    "citations": 0
+  },
+  {
+    "title": "VFB-MCP: Natural-Language Access to Drosophila Neuroscience Grounded by an Expert-Curated Ontology-Led Knowledgebase",
+    "authors": [
+      "A. McLachlan",
+      "Robert Court",
+      "Clare Pilgrim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/30765e266aa70c2bc3b7fd5e1e0e41d9bf8d5538",
+    "date": "2026-06-21",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.732577",
     "citations": 0
   },
   {
@@ -1370,6 +2196,26 @@
     "abstract_raw": "Accurate and computationally efficient classification of breast cancer histopathology images is critical for scalable clinical deployment of AI-assisted diagnostics. This paper benchmarks three deep learning architectures, MobileNetV3, ResNet50, and DINO Vision Transformer (ViT), on the BreakHis dataset across six dimensions: test accuracy, weighted F1-score, inference latency, memory usage, energy consumption, and model size. Using 7,909 microscopic images across four magnification factors (40X, 100X, 200X, 400X), it is shown that MobileNetV3 achieves 96.12% test accuracy with only 1.52M parameters and 0.256 ms per-image latency, while ResNet50 reaches 97.81% at the cost of 23.51M parameters and 3.331 ms latency. Contrary to expectations, DINO ViT underperforms both convolutional neural networks (91.07%) on this limited dataset, suggesting that transformer-based foundation models require either larger datasets or more extensive fine-tuning to match CNN inductive biases in medical imaging. Grad-CAM and Attention Rollout are further compared as explainability methods and an accuracy-efficiency Pareto frontier is constructed to guide model selection for clinical deployment. The findings demonstrate that lightweight CNNs offer a compelling trade-off and should be the default choice for resource-constrained pathology settings.",
     "summary": "",
     "doi": "10.36948/ijfmr.2026.v08i03.81631",
+    "citations": 0
+  },
+  {
+    "title": "Free energy perturbation-assisted identification of checkpoint kinase 1 targeted small-molecule inhibitors for cancer therapy using AI- and physics-driven molecular design.",
+    "authors": [
+      "M. Islam",
+      "Mohammad Ajmal Ali",
+      "Rupesh Chikhale",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f9cc98a18a4953e621bde7a05db5d4fc5ebf921b",
+    "date": "2026-06-20",
+    "keywords": [
+      "Agent",
+      "Computational biology and chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Checkpoint kinase 1 (Chk1) is a vital protein that preserves genomic integrity by regulating cellular responses to DNA damage and replication stress. Because of its key role in cell cycle control, Chk1 has become an attractive target for cancer therapy. Advanced computational methods were used to identify new Chk1 inhibitors, combining REINVENT4 for de novo molecule creation and DeLA-Drug for analogue design. A library of potential molecules was developed from known active compounds using the Mol2Mol generator in REINVENT4. Drug-like properties were verified through ADMET analysis with pkCSM. Three promising candidates, namely, CHD1, CHD2, and CHD3, were selected based on their superior binding free energies (ΔGbind values of -8.92, -6.32, and -5.25 kcal/mol, respectively) compared to the co-crystal ligand 5CV (-4.92 kcal/mol). These candidates were further assessed using molecular dynamics (MD) simulations and MM-GBSA binding free-energy calculations, and the best compound was also subjected to absolute free-energy perturbation (FEP) analysis. The selected compounds were predicted to exhibit high conformational diversity and strong dynamic stability, as demonstrated by free-energy landscape and principal component analyses. The binding disrupted the intramolecular hydrogen-bond network in Chk1 and encouraged the formation of new hydrogen bonds. These results provide a strong foundation for optimizing and developing new Chk1 inhibitors as potential anticancer agents.",
+    "summary": "",
+    "doi": "10.1016/j.compbiolchem.2026.109203",
     "citations": 0
   },
   {
@@ -1739,7 +2585,7 @@
     "authors": [
       "Yusrida Jelianti Sihite",
       "Alvin Hafiz",
-      "M. Damanik",
+      "M. Rois",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/7d32a667aa15140df2e41b8f3af280a8ce2b2913",
@@ -1751,6 +2597,25 @@
     "abstract_raw": "ABSTRAK\n Kemajuan teknologi informasi mendorong transformasi dunia pendidikan melalui penyediaan bahan ajar digital, namun banyak teks pendidikan berbahasa Indonesia masih menggunakan struktur kalimat panjang dan istilah kompleks yang menyulitkan pemahaman peserta didik. Penelitian ini bertujuan mengembangkan website EduText Analyzer untuk menganalisis tingkat keterbacaan dan menyederhanakan bahasa pada teks pendidikan secara otomatis. Metode penelitian menggunakan pendekatan Research and Development (R&D) dengan rekayasa perangkat lunak berbasis model Agile. Sistem diimplementasikan menggunakan arsitektur web modern dengan frontend React.js/Next.js, backend terintegrasi API Large Language Model (LLM) untuk pemrosesan bahasa alami, serta modul OCR untuk ekstraksi teks dari dokumen dan gambar. Fitur utama meliputi input teks manual dan unggah file, analisis otomatis tingkat keterbacaan (Mudah, Sedang, Sulit) dengan identifikasi kata kompleks beserta penjelasan ganda, serta modul penyederhanaan kalimat akademik. Pengujian sistem dilakukan melalui unit testing, integration testing, system testing, dan user acceptance testing. Hasil pengujian menunjukkan bahwa website berhasil berjalan stabil dengan waktu respons rata-rata 3–5 detik untuk teks sepanjang 413 kata, memiliki antarmuka responsif, dan mampu menghasilkan analisis keterbacaan yang akurat serta penyederhanaan teks yang mempertahankan makna asli. Penelitian ini membuktikan bahwa integrasi teknologi NLP berbasis LLM efektif dalam meningkatkan aksesibilitas konten pendidikan. Keterbatasan sistem meliputi ketergantungan pada koneksi internet dan akurasi OCR pada gambar berkualitas rendah, sehingga pengembangan selanjutnya disarankan mencakup optimasi model offline dan integrasi dengan sistem manajemen pembelajaran.\nABSTRACT \n Advances in information technology have driven educational transformation through digital learning materials; however, many Indonesian educational texts still employ complex sentence structures and academic vocabulary that hinder student comprehension. This study aims to develop the EduText Analyzer website to automatically assess readability and simplify language in Indonesian educational texts. The research employs a Research and Development (R&D) method using a software engineering approach based on the Agile model. The system is implemented using a modern web architecture with a React.js/Next.js frontend, a backend integrated with a Large Language Model (LLM) API for natural language processing, and an OCR module for text extraction from documents and images. Key features include manual text input and file upload, automatic readability analysis (Easy, Medium, Hard) with complex word identification and dual explanations, and an academic sentence simplification module. System testing was conducted through unit, integration, system, and user acceptance testing. Results indicate that the website operates stably with an average response time of 3–5 seconds for 413-word texts, features a responsive interface, and accurately generates readability assessments and text simplifications that preserve original meaning. This research demonstrates that integrating LLM-based NLP technology effectively enhances educational content accessibility. System limitations include internet dependency and OCR accuracy on low-quality images, suggesting future development should focus on offline model optimization and learning management system integration.",
     "summary": "",
     "doi": "10.67142/edutik.v6i3.396",
+    "citations": 0
+  },
+  {
+    "title": "Systematic Evaluation of Feature Representations for Cancer-Associated sORF Prediction in Non-coding RNA",
+    "authors": [
+      "Fabiana Rodrigues de Góes",
+      "Makanaka Mazheke",
+      "A. P. Schnepper",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/788f2f98dd68b6146f936b52b31bd243f0159a4a",
+    "date": "2026-06-20",
+    "keywords": [
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.732659",
     "citations": 0
   },
   {
@@ -2077,6 +2942,25 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s00330-026-12697-z",
+    "citations": 0
+  },
+  {
+    "title": "Comparison of emergency physicians and artificial intelligence models in pneumothorax detection: A multi-reader retrospective study.",
+    "authors": [
+      "O. Cakiroglu",
+      "Bilal Arac",
+      "Seyma Nur Calisir",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/eab3d6e085edcb38b5377c45b45f64e48a70da60",
+    "date": "2026-06-19",
+    "keywords": [
+      "Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1097/MD.0000000000049412",
     "citations": 0
   },
   {
@@ -2494,6 +3378,26 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1021/jacs.6c03190",
+    "citations": 0
+  },
+  {
+    "title": "Morpho-FM: spatial molecular reconstruction from routine H&E histology using transcriptomic foundation-model priors",
+    "authors": [
+      "Jinjing Huang",
+      "Xiao Feng",
+      "Lianghu Qu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8193903570c2be47d7a5c154798e689777226c36",
+    "date": "2026-06-19",
+    "keywords": [
+      "RNA-seq / Transcriptomics",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.15.732498",
     "citations": 0
   },
   {
@@ -3896,7 +4800,7 @@
     "authors": [
       "Pushp",
       "Ajita Paliwal",
-      "Somdatta Chaudhari",
+      "Somdatta Y Chaudhari",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/60474536e16a4c9d516b90a03671ee81586952d7",
@@ -17484,887 +18388,6 @@
     "keywords": [],
     "source": "Semantic Scholar",
     "abstract_raw": "Linguistics olympiad problems (LOPs) are a category of self-sufficient puzzles consisting of a scaled-down corpus representative of certain linguistic phenomena, from which the solver must deduce a primitive set of rules of the language and then translate a new set of elements. The linguistics olympiads (LOs) have become a worldwide phenomenon with 43 different territories taking part in the International Linguistics Olympiad (IOL) 2025. While the typology and solving strategies of LOPs have been analysed, their scientific facet and connections to academic linguistics have yet to be explored. LOPs are directly connected to many linguistic fields, e.g., linguistic typology, linguistic relativity, and linguistics fieldwork. Recently, LOPs have become a research focus as benchmarks for large language models, thus highlighting their usefulness in computational linguistics. Nevertheless, they have not yet been integrated into mainstream linguistics research. This paper attempts to open new directions of including this particular type of puzzle in academic research by offering a structured evaluation of LOPs as linguistic data sources and proposes criteria for their responsible use in academic research. Starting from a set of over 1800 LOPs, this study critically examines the potential of LOPs as a novel corpus for linguistics research by discussing their strengths and limitations as tools, as well as the areas of linguistics into which these problems could fit. This work forms the foundation for a broader initiative aimed at bridging the gap between LOs and academic linguistics, by establishing a robust theoretical framework for LOPs.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Learning turbulent transport via Mori--Zwanzig graph neural networks",
-    "authors": [
-      "André Freitas",
-      "Xander M. de Wit",
-      "Alessandro Gabbana",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9c54870adee3b9a782a07609c954b6d900d97a0e",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "We introduce a Mori--Zwanzig graph neural network (MZ--GNN) framework for learning reduced-order Lagrangian dynamics of tracer particles in homogeneous isotropic turbulence. The model represents particle acceleration as a finite-memory expansion over present and delayed particle-neighborhood graphs, with each memory contribution parameterized by an equivariant message-passing graph neural network. By construction, the architecture respects the relevant physical symmetries of the problem, including permutation equivariance, Galilean invariance, and equivariance under rotations and reflections. Trained on direct numerical simulation data, the model is rolled out autoregressively and evaluated on observables that are not imposed during training. We show that memory is essential for recovering the intermittent, heavy-tailed acceleration statistics, and that the learned dynamics accurately reproduce single-particle dispersion, pair-dispersion statistics, and four-particle tetrad geometry. Our results establish a physically structured, scalable route to data-driven multi-particle simulation of turbulent transport, and a template for learning reduced dynamics of correlated, symmetry-rich particle systems.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Bridging the outcome documentation gap in epilepsy surgery: Validating large language model agents for automated Engel and International League Against Epilepsy scoring from clinical notes.",
-    "authors": [
-      "P. D. Adelson",
-      "Haley Delaney",
-      "Pierre D. D'Haese"
-    ],
-    "link": "https://www.semanticscholar.org/paper/9bec03ce3274b22365ad600635a1664692c064c4",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent",
-      "Epilepsia"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "OBJECTIVE\nTimely and accurate classification of postepilepsy surgery outcomes using Engel and International League Against Epilepsy (ILAE) scales is essential for clinical follow-up, yet electronic health record documentation often lacks the structured detail needed for reliable scoring. This study aimed to validate large language model (LLM) agents for autonomous extraction of standardized postsurgical outcomes from unstructured follow-up notes.\n\n\nMETHODS\nWe performed a retrospective validation study of deidentified postoperative epilepsy follow-up notes from patients who underwent epilepsy-related surgery or neuromodulation between 2000 and 2025 (n = 170). Each note was processed once with two fixed GPT-4-turbo prompt configurations: a concise definition-based prompt and a context-aware prompt incorporating temporal, causal, and adherence logic. Human-adjudicated consensus served as the reference standard. Prespecified metrics included exact score agreement, clinically adjacent agreement, ordinal distance, Wilson 95% confidence intervals (CIs), and paired tests comparing prompt configurations.\n\n\nRESULTS\nValid follow-up intervals were available for 170 cases; the median time from surgery to analyzed note was 32.7 months (interquartile range = 9.6-97.9). Human reviewers achieved 91.2% raw agreement for Engel major class (Cohen kappa = .86, 95% bootstrap CI = .79-.92) and 83.5% raw agreement for ILAE category (quadratic weighted kappa = .93, 95% CI = .89-.96). The definition-based prompt achieved 56.5% exact Engel subclass agreement (95% CI = 49.0-63.7) and 60.6% exact ILAE agreement (95% CI = 53.1-67.6). The context-aware prompt improved exact agreement to 94.7% for Engel (95% CI = 90.2-97.2) and 93.5% for ILAE (95% CI = 88.8-96.3), with lower ordinal distance for both scales (paired sign tests p < .001).\n\n\nSIGNIFICANCE\nThe meaningful finding is not that a general LLM can recite outcome definitions, but that a context-aware LLM agent can apply seizure-outcome logic to heterogeneous real-world notes with high agreement against adjudicated human consensus. Definition-only prompting remained unreliable in nuanced categories, supporting the need for explicit clinical reasoning structure, auditability, and privacy-preserving deployment.",
-    "summary": "",
-    "doi": "10.1002/epi.70341",
-    "citations": 0
-  },
-  {
-    "title": "PHI-Reason: evidence-grounded species-level phage-host prediction from structured biological text profiles",
-    "authors": [
-      "Yao-zhong Zhang",
-      "Longpeng Xu",
-      "Seiya Imoto"
-    ],
-    "link": "https://www.semanticscholar.org/paper/9b15e27f975609318d6ba16d6f4f6feb108f8318",
-    "date": "2026-06-12",
-    "keywords": [
-      "bioRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.06.10.727770",
-    "citations": 0
-  },
-  {
-    "title": "Performance of large language models for ophthalmic literature retrieval.",
-    "authors": [
-      "J. Paris",
-      "O. Kleinig",
-      "Ayushi Agarwal",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/9aa23c36c949290018d88bb6c8d47fc46a84c3e6",
-    "date": "2026-06-12",
-    "keywords": [
-      "Eye"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1038/s41433-026-04586-y",
-    "citations": 0
-  },
-  {
-    "title": "OdysSim: Building Foundation Models for Human Behavior Simulation",
-    "authors": [
-      "Xuhui Zhou",
-      "Weiwei Sun",
-      "Weihua Du",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/915c2376d1aefe68fce982db03cfea42e42ae83f",
-    "date": "2026-06-12",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models are increasingly deployed as human simulators for interactive evaluation and social simulation. Yet helpfulness-driven post-training pulls them toward a homogeneous, overly agreeable assistant register, creating a behavioral Sim2Real gap. We present OdysSim, the largest open systematic investigation of behavioral foundation models, i.e., models trained to simulate human behavior at scale. We propose SOUL, a taxonomy of five capability axes (CONV, SS, COG, ROLE, EVAL) that unifies 62 datasets and 23 benchmark tasks under one framework. Specifically, we curate the OdysSim corpus (21.4M interactions, 10B tokens, retrofitted with back-generated social contexts), construct the SOUL-Index benchmark, and develop an end-to-end training recipe combining midtraining, task-specific RL, and expert distillation. The resulting open 8B OSim model ranks first or tied-first on 8 of 23 tasks, outperforming any individual frontier model by this count, with the strongest gains on conversational and social tasks. Its outputs are also more human-like in length, formatting, and word choice, and it transfers zero-shot to out-of-distribution user simulation on $\\tau$-bench, nearly matching real users on reaction alignment (93.2 vs. 93.5). We further show that LLM-as-judge RL induces reward-hacking patterns, and that our detectors can mitigate them during post-training. Together, our findings suggest that behavioral foundation models require rethinking the LLM training paradigm. We release all artifacts to support future research.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "When the Tool Decides: LLM Agents Defer Blindly to Graph Neural Network Tools, and Stronger Backbones Defer More",
-    "authors": [
-      "Zhongyuan Wang",
-      "Pratyusha Vemuri"
-    ],
-    "link": "https://www.semanticscholar.org/paper/9097d173cc8155a35e2390ec4a79393d11ae1fb7",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "A growing line of work equips large language model (LLM) agents with graph neural networks (GNNs) as callable tools, assuming the agent exercises judgment over when and how much to rely on such a tool. We test this directly. We expose a frozen GNN to a ReAct-style LLM agent as an explicit tool and measure, on node classification over a text-attributed graph (ogbn-arxiv, replicated on WikiCS), whether the agent uses the tool or merely obeys it. We find the agent does not exercise judgment: its predictions agree with the raw GNN's 97.6-99.2% of the time (5 seeds), collapsing into a GNN parrot that adopts the tool's output wholesale and bypasses its own reasoning. Sweeping backbone capability (Qwen2.5 0.5B-7B), the deference is not a weak-model artifact: among models able to invoke the tool, agreement rises with capability (0.60 to 0.98 from 1.5B to 7B). Crucially, the cost of deference does not shrink as capability grows and grows where alternatives emerge: a per-node oracle over the available actions beats the parrot by 0.09-0.18 at 3B and 0.12-0.22 at 7B, roughly doubling at high homophily, because the parrot is pinned to the frozen GNN while the agent's alternatives improve; at 7B a simple neighbour-label tool overtakes the GNN at high homophily (0.81 vs 0.71) yet the agent still defers. A simple selective-invocation gate recovers about half of that high-homophily gap (0.71 to 0.83) but yields no net global gain, and held-out estimates bound the best achievable gate over standard test-time features to at most a third of the oracle headroom: reliable selective invocation looks limited by available information, not merely router design. Our results are a cautionary measurement: evaluations of agent+tool systems cannot assume the agent adds judgment on top of the tool, and selective invocation must be designed in rather than expected to emerge from scale.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
-    "authors": [
-      "Xiaoxin Lu",
-      "R. Zhang",
-      "Rui Zhang"
-    ],
-    "link": "https://www.semanticscholar.org/paper/9031f820e7486de484670c651f75160531e3f7a8",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models (LLMs) are increasingly deployed as planners for autonomous agents in household environments. While existing benchmarks evaluate whether LLM-generated plans execute successfully, they overlook a critical type of failure: latent failures. Unlike immediate failures that trigger instant feedback at execution time and enable timely correction, latent failures do not immediately halt plan execution but silently compromise goal achievement. In severe cases, they cause irreversible harm. To address this gap, we introduce SIMMER, a benchmark for evaluating latent failures in LLM planning through a human-curated symbolic world model grounded in the kitchen domain. SIMMER defines a world model comprising 77 actions, 262 unique objects, and approximately 46,800 possible interactions that are semantically realistic, derived from real-world cooking scripts. It then leverages a state machine executor that validates plans against the world model and detects immediate precondition violations, latent hazards, and irreversible failures. Experiments across six LLMs show that even frontier models achieve at most 17% error-free plans. Moreover, up to 56% of plans contain latent failures, the majority of which lead to irreversible consequences. We further demonstrate that explicit state reasoning via counterfactual foresight simulation can reduce latent failures by up to 72% and irreversible cases by up to 75%, suggesting a promising direction for more robust LLM planners.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Learning Sparse Latent Predictive Foundation Model for Multimodal Neuroimaging",
-    "authors": [
-      "Haoxu Huang",
-      "Long Chen",
-      "Jingyun Chen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/8f34550ccfc53870fc3b40c8acd7d9cf3b465e94",
-    "date": "2026-06-12",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Brain MRIs are routinely acquired as multiple complementary sequences with unique contrast weighting, including T1-weighed imaging (T1w) anatomic and fluid-sensitive T2-weighted (T2w) contrasts. However, methods for learning unified representations across the multitude of MRI contrast mechanisms at health-system scale are lacking. In this study, we introduce Neuro-JEPA, a sparse multimodal neuroimaging foundation model that combines a latent predictive objective with a Mixture-of-Experts architecture to encode brain MRI across core T1w, T2w, and fluid-suppressed FLAIR imaging (FLAIR). We further provide a systematic methodological study of architectural, masking, objective, and sparsity design choices beneficial for robust neuroimaging multimodal representation learning. Neuro-JEPA was pretrained on 1,551,862 scans from 428,647 studies after modality-specific preprocessing with data curation across three core structural brain MRI sequences. We evaluated the learned representations across clinical and research settings, including 25 tasks from three health systems: NYU Langone, NYU Long Island, and Massachusetts General Hospital, and 22 tasks from 12 public datasets, covering unimodal, multimodal and cross-domain evaluation configurations. Across these benchmarks, existing neuroimaging foundation models showed inconsistent gains over a simple convolutional neural network (CNN) baseline, whereas Neuro-JEPA achieved stronger and more consistent performance across all evaluated settings. These results establish a scalable methodological framework for multimodal neuroimaging representation learning and highlight the need for foundation model evaluation protocols that include simple baselines, clinically heterogeneous cohorts and controlled multimodal comparisons.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "STRUCTURED TOOL-ONLY EXECUTION TO REDUCE HALLUCINATIONS IN AUTONOMOUS DESKTOP ASSISTANTS",
-    "authors": [
-      "Rethik Kumar",
-      "Abdul Wahid",
-      "Abhinav Shrivastav",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/8f2048f2ed98da7570c49db9da7d9317fe9ee710",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent",
-      "International Scientific Journal of Engineering and Management"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Abstract: The rapid growth of Large Language Models (LLMs) has enabled the development of intelligent assistants capable of understanding natural language and performing complex tasks. However, the tendency of these models to generate inaccurate or unsupported information remains a major challenge, particularly in systems that interact directly with operating systems and user resources. This paper presents RAYA v3.1 (Reasoning Assistant for Your Automation), an autonomous desktop assistant designed to improve reliability through a structured Tool-Only Execution Framework. The proposed approach restricts task execution to predefined and validated tools, reducing the likelihood of unsupported outputs and unsafe actions. The architecture incorporates a planner–executor model, schema-based validation, contextual memory, recovery mechanisms, and user confirmation for sensitive operations. Experimental observations indicate that structured tool enforcement improves execution consistency and enhances overall system trustworthiness. The study demonstrates that reliability can be strengthened through architectural design choices rather than relying solely on prompt engineering techniques.\n\nKeywords: Autonomous Agents, Desktop Automation, Large Language Models, Tool-Based Reasoning, Hallucination Reduction, Intelligent Assistants.",
-    "summary": "",
-    "doi": "10.55041/isjem07885",
-    "citations": 0
-  },
-  {
-    "title": "Evaluating the Ability of Large Language Models in Drug-drug Interaction Network Clustering Analysis",
-    "authors": [
-      "Yue Chen",
-      "Guixia Liu",
-      "Jiamin Lv"
-    ],
-    "link": "https://www.semanticscholar.org/paper/8e0be3943150ed7327e4a879c47a2979d9f99cab",
-    "date": "2026-06-12",
-    "keywords": [
-      "Current Bioinformatics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n Large language models (LLMs) have attracted considerable attention from\nboth the public and academic communities due to their powerful language understanding and text\ngeneration capabilities. This has led to the emergence of diverse applications in biomedicine.\n \n \n \n In this study, we investigated the potential of general LLMs (i.e., ChatGPT5.2,\nDeepSeek3.2, Gemini3.0) in drug-drug interaction (DDI) network clustering analysis. Specifically,\nwe evaluated whether LLMs can produce high-quality clustering results when guided by structured\nprompts incorporating drug information and DDI data.\n \n \n \n Our results demonstrate that general LLMs can perform effective DDI network clustering\nanalysis. When guided by drug information, LLMs can reconstruct known antibiotic classes. When clustering\nwas performed using only DDI interaction information, the models achieved high monochromaticity.\n \n \n \n The findings suggest that LLMs can leverage domain knowledge embedded in their\ntraining corpora to support biomedical data analysis tasks. However, issues related to stability and\nreproducibility should be considered.\n \n \n \n LLMs offer a cost-effective and accessible approach for solving domain-specific biomedical\nchallenges.\n",
-    "summary": "",
-    "doi": "10.2174/0115748936454145260511200213",
-    "citations": 0
-  },
-  {
-    "title": "Using full agreement across multiple large language models for title-and-abstract screening in systematic reviews: a proof-of-concept",
-    "authors": [
-      "F. Hilkenmeier",
-      "Merle Stoltenberg",
-      "C. Stierle"
-    ],
-    "link": "https://www.semanticscholar.org/paper/8d3a670af5c730ff6fefda7e89fe97fdb7c59485",
-    "date": "2026-06-12",
-    "keywords": [
-      "Systematic Reviews"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The exponential growth of scientific literature poses significant challenges for conducting systematic reviews, particularly in the labor-intensive title-and-abstract screening phase. This study examines the feasibility of using multiple large language models (LLMs) for title-and-abstract screening in systematic reviews. We propose and evaluate a full-agreement approach using three commercially available LLMs from different model families (ChatGPT, Gemini, and Claude), in which automated classification decisions are only accepted when all three models assign the same label. This approach was examined across six datasets to assess its effectiveness. A structured workflow was developed to support implementation without requiring specialized technical expertise. Additionally, a stop criterion was introduced to ensure that LLM-based classification is only applied when predefined performance thresholds are met. Across the six datasets, approximately four in five abstracts received full agreement across models and could therefore be classified automatically. For this subset of abstracts, classification performance was consistently higher than that of previous automated approaches using LLMs, with statistically significant improvements in all prespecified performance metrics. A full agreement approach across three LLMs may offer a promising and conservative strategy for title-and-abstract screening in systematic reviews by automating concordant decisions while reserving human review for discordant cases. As a proof-of-concept, the present findings support this approach as a possible workflow for reducing screening burden in the face of continued growth in the scientific literature, although its broader generalizability remains to be established.",
-    "summary": "",
-    "doi": "10.1186/s13643-026-03228-4",
-    "citations": 0
-  },
-  {
-    "title": "EvoGraphConPain: an adaptive multimodal graph intelligence framework for neonatal pain assessment",
-    "authors": [
-      "Oussama El Othmani",
-      "Riadh Ouersighni"
-    ],
-    "link": "https://www.semanticscholar.org/paper/89c5b8cfc0d9f9fd0a952f0c26741be1a82bf7be",
-    "date": "2026-06-12",
-    "keywords": [
-      "Machine Vision and Applications"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1007/s00138-026-01861-6",
-    "citations": 0
-  },
-  {
-    "title": "Exploring the Educational Utility of LLMs in Operative Dentistry Through MCQ-Based Accuracy, Semantic, and Readability Testing.",
-    "authors": [
-      "S. Bhandi",
-      "Adam Lawlor",
-      "V. Venkataiah",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/897ffde77dea49b710633f356a083e686dd429ab",
-    "date": "2026-06-12",
-    "keywords": [
-      "European journal of dental education"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "OBJECTIVES\nThe performance of five popular, widely available large language models (LLMs): ChatGPT-4o, Gemini 2.5 Flash, Llama 4, DeepSeek-V3, and Microsoft Copilot in operating dentistry education was evaluated by employing a multiple-choice question-based assessment system.\n\n\nMATERIAL AND METHODS\nThis was done using a set of 150 MCQs covering areas of endodontics, dental caries, paediatric, preventive, aesthetic and restorative dentistry, biomaterials, and periodontics. The LLM's performance was assessed using classification metrics (accuracy, sensitivity, predictive reliability), textual similarity metrics (BLEU score, cosine similarity, Word Error Rate), and readability metrics (Flesch Reading Ease score).\n\n\nRESULTS\nThe highest classification accuracy was achieved by Gemini 2.5 Flash and ChatGPT-4o, showing their high sensitivity and high overall predictive reliability. The model with the most textual similarity to the reference answers was ChatGPT-4o with BLEU of 0.10 ± 0.0279, a high cosine similarity of 0.48 ± 0.0422, and a relatively low Word Error Rate (WER) of 5.57 ± 0.7301, and a Flesch Reading Ease score of 13.53 ± 4.9449.\n\n\nCONCLUSION\nIn medical education, ChatGPT-4o exhibited the highest accuracy, reference textual overlap, semantic alignment, lower number of errors, and readability among the five evaluated LLMs, making it a valuable assistant for dental healthcare professionals.",
-    "summary": "",
-    "doi": "10.1111/eje.70213",
-    "citations": 0
-  },
-  {
-    "title": "Artificial Intelligence in Infectious Disease Care: Selected Applications in Tuberculosis, Sepsis, and Antimicrobial Stewardship",
-    "authors": [
-      "O. Caliman-Sturdza",
-      "R. Gheorghita",
-      "Roxana Filip",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/889982c36bce42b9b425fdab13d219da82bbe3f8",
-    "date": "2026-06-12",
-    "keywords": [
-      "Diagnostics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Background/Objectives: Artificial intelligence (AI) is increasingly being applied across the infectious-disease pathway, from syndromic surveillance and imaging triage to etiologic support, antimicrobial stewardship, and prognostication. However, the maturity of evidence differs considerably across use cases, and apparent technical performance does not always translate into real-world clinical utility. Methods: This structured narrative review synthesizes current evidence on the principal clinical and public-health applications of AI in infectious diseases, with particular attention to external validation, workflow integration, economic implications, and governance. Results: The strongest near-term evidence supports narrow-AI applications linked to constrained workflows, especially tuberculosis chest-radiograph triage, selected host-response and antimicrobial-resistance prediction tools, and clinician-facing stewardship aids. By contrast, sepsis prediction illustrates how internal model performance may deteriorate on external validation and generate substantial alert burden when implemented in routine care. Economic evaluations are promising but remain predominantly model-based and context-dependent. Evidence for generative AI and large language models is still in an early phase, consisting largely of vignette studies, retrospective comparisons, and small single-center pilots rather than prospective outcome-based evaluations. Conclusions: Overall, the most realistic clinical role of AI in infectious diseases is augmentation rather than replacement: prioritizing scarce diagnostic capacity, shortening time to action, and improving antibiotic selection. Safe translation into practice requires, in order, external validation with local calibration, prospective impact assessment, and governance frameworks that address drift, accountability, transparency, and human oversight.",
-    "summary": "",
-    "doi": "10.3390/diagnostics16121827",
-    "citations": 0
-  },
-  {
-    "title": "Conceptual priorities shape individual gaze patterns during naturalistic visual attention",
-    "authors": [
-      "A. J. Haskins",
-      "Katherine O. Packard",
-      "Caroline E. Robertson"
-    ],
-    "link": "https://www.semanticscholar.org/paper/886ac2fc5bb545e03cb29821c5799687716ba414",
-    "date": "2026-06-12",
-    "keywords": [
-      "Cited: 1",
-      "Proceedings of the National Academy of Sciences of the United States of America"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Significance Stepping into a new visual environment, we immediately start to explore that environment with our eyes. What factors shape how we selectively allocate our attention? Participants explored 360°, real-world environments while their gaze was tracked, and we modeled the hidden priorities guiding their attention. We found that gaze patterns across diverse scenes are individually specific and stable across time—akin to an “attentional fingerprint.” Importantly, large language models, which capture abstract conceptual relationships, predicted these patterns better than vision models, suggesting that conceptual knowledge plays a crucial role in individual selective attention. These results show that stable, idiosyncratic conceptual priorities shape how individuals encode their visual environments.",
-    "summary": "",
-    "doi": "10.1073/pnas.2604369123",
-    "citations": 1
-  },
-  {
-    "title": "Curvature-Informed Potential Energy Surface for Protein-Ligand Binding Affinity Prediction",
-    "authors": [
-      "P. Sun",
-      "Chuan-Xian Ren",
-      "Hong Yan"
-    ],
-    "link": "https://www.semanticscholar.org/paper/87dd91836828c89a2b663c359f21c722658dfb3c",
-    "date": "2026-06-12",
-    "keywords": [
-      "Deep Learning",
-      "Geometric DL",
-      "AIDD"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Accurate prediction of protein-ligand binding affinity is essential for structure-based drug discovery. Recent geometric deep learning methods have achieved promising performance by representing protein-ligand complexes as three-dimensional graphs. However, most existing approaches mainly rely on static interaction geometry from a single bound conformation, while neglecting molecular flexibility and binding-induced conformational changes. To address this limitation, we propose a curvature-informed potential energy surface (CPES) graph neural network for protein-ligand binding affinity prediction, which incorporates physics-informed curvature representations to model conformational flexibility. CPES first derives curvature spectral descriptors from the Hessian of the potential energy surface evaluated at equilibrium configurations, whose eigenvalues define the local principal curvatures of the potential energy surface. It then uses spectral cross-attention to compare the unbound ligand and protein with the bound complex, thereby capturing binding-induced changes in conformational dynamics. In parallel, hierarchical protein-ligand interaction representations are learned from static structural features through geometry-aware message passing, soft clustering, and bidirectional cross-attention. Finally, CPES fuses the curvature-informed dynamic representations with static interaction representations for affinity regression. Extensive evaluations on multiple benchmark datasets demonstrate that CPES achieves improved predictive performance and offers physical interpretability.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Free Heavy-Tailed Lunch for Muon: A Theoretical Justification of Empirical Success",
-    "authors": [
-      "F. Hubler",
-      "Thomas Pethick",
-      "S. Sra"
-    ],
-    "link": "https://www.semanticscholar.org/paper/87db2e14f17d169c180c7b1b081a581ef791bc51",
-    "date": "2026-06-12",
-    "keywords": [
-      "Transformer"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Non-Euclidean optimisation methods with matrix-valued updates, such as Muon and Scion, have recently shown strong empirical performance for training Transformer models, yet their theoretical advantages over Euclidean methods remain poorly understood. We address this gap in the heavy-tailed non-convex regime, where stochastic gradients have bounded $p$-th central moments, $p \\in (1,2]$. We show that certain non-Euclidean methods achieve optimal sample complexity under stronger stationarity measures, while Euclidean methods incur additional dimension-dependent costs. As a consequence, for $m \\times n$ matrices, Muon finds an $\\varepsilon$-stationary point in nuclear norm within $\\mathcal{O}\\left(\\min\\{m, n\\} \\frac{\\Delta_1 L}{\\varepsilon^2} \\left(\\frac \\sigma \\varepsilon \\right)^{\\frac p {p-1}}\\right)$ samples, absorbing heavy-tailed noise without extra dimension dependence, unlike Euclidean methods. We further prove this sample complexity, including its dimension dependence, is optimal for all first-order methods under nuclear-norm stationarity. Experiments on large language models support our theory. Surprisingly, our results suggest that other Schatten geometries beyond the spectral geometry of Muon can perform competitively in certain settings.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "AI’s Personas and Historical Knowledge: How Models Transform Textbook Questions into Narratives",
-    "authors": [
-      "Wiktor Werner"
-    ],
-    "link": "https://www.semanticscholar.org/paper/8788f64c9b9b46fd9c3e710dce1aa9efe4a96cd1",
-    "date": "2026-06-12",
-    "keywords": [
-      "Sensus Historiae"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "This article offers a comparative, methodologically transparent pilot study of how different large-language-model configurations shape school-type historical narratives. Using a fixed prompt set (P1–P5) drawn from the textbook Europa. Nasza historia and four conditions - default ChatGPT baseline (C0), a ‘scientist/analytical researcher’ prompted ChatGPT (C1), NotebookLM with retrieval-augmented generation over a shared textbook source (C2), and an agentic system configured on the same knowledge base (C3) - we analyze outputs as discursive artefacts. The study combines four analytic perspectives: substantive accuracy and source anchoring, rhetorical profile and evaluative stance, formal readability and lexical texture, and logical/causal coherence. Quantitative proxies (sentence length, Polish-adapted Fog-type readability, lexical diversity via TTR and MTLD, nominalization and structural markers) are computed on the original Polish outputs without translation. Results reveal systematic trade-offs between anchoring and interpretive depth: retrieval-based and agentic configurations tend to produce a more textbook-like voice and stronger didactic scaffolding, while persona prompting increases meta-argumentation and criteria-driven evaluation. A critical-incident analysis further demonstrates that the appearance of grounding can coexist with hinge-fact failure, where a single erroneous historical anchor remains embedded in an otherwise coherent narrative. The article concludes with implications for history education, suggesting configuration-sensitive uses of LLMs and practical guardrails for classroom deployment.",
-    "summary": "",
-    "doi": "10.14746/sh.2026.62.1.004",
-    "citations": 0
-  },
-  {
-    "title": "Evaluating Gemma4 Models as AI Teaching Assistants for Introductory Parallel Programming: A DataRaceBench Study",
-    "authors": [
-      "Sabbir Hussain Meraj",
-      "R. Chowdhury",
-      "S. Debnath",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/87875347487bcff02b6fc3cf08000bee8e1b5579",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Debugging data races is a major challenge for students learning parallel programming due to the non-deterministic nature of concurrent execution and the complexity of shared-memory semantics. Recent advances in Large Language Models (LLMs) suggest that they could serve as AI teaching assistants, but the capabilities of lower-cost open-weight models for parallel debugging remain unclear. In this paper, we evaluate two Gemma4 open-weight models, Gemma4-E4B and Gemma4-31B, on their ability to identify, explain, and repair data races in OpenMP programs from the DataRaceBench benchmark suite. We also investigate whether contextual hints, including ThreadSanitizer (TSan) reports and model-generated explanations, improve repair quality. Our results show that Gemma4-E4B correctly explained 82 of 104 race-condition programs and successfully repaired 73, while Gemma4-31B achieved 100 correct explanations and 98 successful repairs. Surprisingly, additional context did not consistently improve repair effectiveness and sometimes reduced performance. These findings suggest that open-weight LLMs can provide valuable support for student self-debugging, with larger models offering near-complete coverage of the benchmark suite.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Ethical boundaries in student use of large language models: a necessary condition analysis of two essay-writing uses",
-    "authors": [
-      "Jorge de Andrés-Sánchez",
-      "Antonio Pérez-Portabella",
-      "Mario Arias-Oliva",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/86980f79a2c513db8c8608c2609c245d8f8b82af",
-    "date": "2026-06-12",
-    "keywords": [
-      "Journal of Information, Communication and Ethics in Society"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n This study aims to examine how university students ethically evaluate two uses of large language models (LLMs) in academic essay writing and, more centrally, whether ethical evaluations operate as empirical bottlenecks for behavioural intention across these scenarios. Using necessary condition analysis (NCA), the paper investigates whether higher intention co-occurs only when ratings on four ethical dimensions exceed minimum levels: moral justice (JU), relativism (RE), consequentialist evaluation (CO) and deontology (DE).\n \n \n \n A sample of 151 students from two Spanish universities evaluated two scenarios: using an LLM to improve an already written essay and using it to generate most of the content. After each scenario, participants reported their behavioural intention and ethical assessments. Paired t-tests and repeated-measures multivariate analysis of variance (MANOVA) compared the scenarios, while NCA assessed whether each ethical dimension acted as a necessary condition for intention.\n \n \n \n Ethical evaluations and intention to use LLMs were significantly higher in the editing scenario, indicating that students differentiate between uses with different moral intensities. Ratings in the generative scenario remained moderately positive, and intention slightly exceeded neutrality, revealing ambivalence. NCA indicated that, in this sample, low levels of JU, RE and CO were not observed alongside higher intention in either scenario, with less demanding bottlenecks in the generative scenario. DE emerged as a necessary condition only in the editing scenario; in the generative scenario, it did not appear as a bottleneck in the NCA sense.\n \n \n \n The convenience sample, self-reported measures and cross-sectional design limit generalisability and causal inference.\n \n \n \n Findings underscore the need for differentiated institutional policies, strengthened ethics education and assessment redesign.\n \n \n \n The framework used here can be adapted to examine LLM use in domains with deeper moral stakes, helping anticipate ethical risks and guide responsible AI adoption in society.\n \n \n \n This study extends research on students’ ethical evaluations of LLM use by introducing a necessary condition perspective, which is still rare in academic integrity research. Rather than only showing that one scenario is judged more acceptable than the other, the paper identifies which ethical dimensions act as empirical bottlenecks for intention and shows that these bottlenecks vary across scenarios. Within this framework, the asymmetric role of DE emerges as a substantive finding.\n",
-    "summary": "",
-    "doi": "10.1108/jices-01-2026-0003",
-    "citations": 0
-  },
-  {
-    "title": "Systematic functional annotation of thousands of BAHD acyltransferases in plant genomes using Protein Language Model and phylogenomic tools",
-    "authors": [
-      "Nathaniel S. S. Smith",
-      "Xinyu Yuan",
-      "Chesney Melissinos",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/82981a38d935b3eb3ca7aa7e33bbf578d707ada1",
-    "date": "2026-06-12",
-    "keywords": [
-      "Protein Language Model",
-      "bioRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.06.09.730906",
-    "citations": 0
-  },
-  {
-    "title": "AFFORDANCE20Q: Evaluating Affordance Reasoning from Physical Properties",
-    "authors": [
-      "Yifan Jiang",
-      "Meige Yang",
-      "Zitong Li",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/8137bcccbcf37598d9d3dcfcfa157646e0671547",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Affordance reasoning, the inference of an object's action possibilities from its physical properties (e.g., shape and material), is fundamental to human physical understanding and increasingly critical for Large Language Models (LLMs). However, existing affordance benchmarks largely expose explicit object identities in the evaluation setup, allowing models to rely on memorized object-affordance mappings rather than reasoning over physical properties. To address this gap, we introduce Affordance20Q, a novel affordance reasoning benchmark formulated as a 20-Questions game without exposing the object's identity. In each game, the model identifies a hidden object's affordance from a candidate set by asking yes/no questions about its physical properties. Affordance20Q comprises 1,009 games over 454 objects and 59 affordances, all manually filtered, refined, and annotated. We conduct comprehensive experiments with 15 state-of-the-art LLMs and find a substantial gap (~20 points) compared to human performance. A KL-based information-gain (IG) analysis further shows that models fail to ask discriminating questions as the game progresses. To close the gap, we develop KB-Anchored Rule Induction (KARI), a pipeline based on LLMs that generates affordance rules grounded in evidence from knowledge bases (KBs). KARI improves open-source LLMs by up to 15.2 points, while the limited coverage of KBs hinders further gains. We release all our code and data at https://github.com/1171-jpg/Affordance20Q.git",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "A Hybrid Regex-Semantic Scoring Framework for Robust Jailbreak Prevention in Large Language Models",
-    "authors": [
-      "D. Anuradha"
-    ],
-    "link": "https://www.semanticscholar.org/paper/80cdcd8410ecaa1e90e512ab33b9b3bf617e8749",
-    "date": "2026-06-12",
-    "keywords": [
-      "International Journal of Sciences and Innovation Engineering"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large Language Models (LLMs) are becoming an essential part of digital systems, so protecting their interactions from abuse is becoming more and more important. In order to stop phishing attempts, adversarial prompt injections, and the disclosure of private data, this project offers a general-purpose jailbreak detection and safety framework. To identify both direct and covert dangerous inputs, the system combines semantic similarity analysis with rule-based filtering utilizing regular expressions. In real time, it examines user prompts and LLM outputs, preventing any that semantically resemble carefully chosen jailbreak samples or fit known exploit patterns. To facilitate auditing and monitoring, all interactions are also recorded with timestamps and safety status. This solution provides a scalable and transparent method for guaranteeing safe and responsible LLM deployment across a variety of application domains by fusing conventional heuristic detection with AI-powered semantic comprehension.",
-    "summary": "",
-    "doi": "10.70849/ijsci03062672325",
-    "citations": 0
-  },
-  {
-    "title": "Optimality-Preserving Decomposition for Scalable QAOA in Natural-Language-Guided Multi-Drone Assignment",
-    "authors": [
-      "Junyeop Bang",
-      "Byongho Lee",
-      "Dohyun An",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7e9d5f379deacf0aa36ad9b19a0a095f6662ba75",
-    "date": "2026-06-12",
-    "keywords": [
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "As multi-drone fleets scale, zone assignment rapidly evolves into an intractable NP-hard combinatorial problem that overwhelms classical exhaustive search. While quantum optimization promises to shatter these classical bottlenecks, mapping complex spatial tasks from human intent to restricted quantum hardware remains a severe challenge. To bridge this gap, we present an end-to-end framework integrating a fine-tuned Large Language Model (LLM) front-end with a highly scalable, domain-specific quantum-classical backend. The front-end utilizes Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) to translate free-form natural language instructions into structurally robust Quadratic Unconstrained Binary Optimization (QUBO) constraints without false negatives. To overcome the strict qubit limits of near-term quantum devices, our framework features a novel constraint-preserving graph partitioner and a compressed separator-based dynamic programming (DP) merge. By structurally encoding constraints via W-state initialization and XY-mixers in Conditional Value-at-Risk Quantum Approximate Optimization (CVaR-QAOA), the pipeline stays highly compact. Empirical results demonstrate that this architecture circumvents classical scaling walls, recovering the global optimum on 100% of idealized oracle cases and 96.3% under real QAOA sampling, enabling natural-language-guided task allocation at previously intractable scales.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "FactoryLLM: A Safe and Open-Source AI Playground for Evaluating LLMs in Smart Factories",
-    "authors": [
-      "Yash Pulse",
-      "Yong-Bin Kang",
-      "Abhik Banerjee",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7adf53dcf30db6f5df1ee756269524f620f6a95d",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Fault diagnostics and recovery in smart factories is challenging because critical information is dispersed across manuals of multiple machines which are interconnected through the manufacturing process. Large Language Models (LLMs) can provide a promising approach. In this paper, we propose FactoryLLM, a safe and open-source AI playground designed for evaluating different LLM-based retrieval-augmented generation (RAG) models by analysing documents from multiple machines across the manufacturing process. FactoryLLM enables the user to configure the LLM, and assess performance when reasoning over multiple documents, through a dual evaluation setup using both RAGAS and NVIDIA's LLM-as-a-Judge metrics. FactoryLLM is safe because it allows users to run local or open-source LLMs without sharing sensitive industrial data, providing a controlled environment for experimentation. We demonstrate the efficacy of FactoryLLM through a case study which involves an Autonomous Intelligent Vehicle and its Mobile Planner software, evaluating three LLMs across 30 maintenance queries derived from approximately 600 pages of cross-machine documentation. The results suggest that FactoryLLM is effective in cross-machine document reasoning: every model achieved a groundedness score above 0.88. The full code and documentation for community to test FactoryLLM with their manufacturing specific scenarios are publicly available.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills",
-    "authors": [
-      "Youngduk Kim",
-      "Minkyoo Song",
-      "S. Shin"
-    ],
-    "link": "https://www.semanticscholar.org/paper/77dcba0f54e55479e3577f04bc23d5885b4f4e40",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language model (LLM) agents increasingly extend their capabilities at runtime by loading Agent Skills, which pair natural-language specifications (SKILL.md) with executable scripts and resources. Because a skill's behavior relies on both natural-language instructions and executable code, assessing its safety requires cross-modal reasoning, creating a new language-and-code attack surface. Attackers can present a benign workflow in SKILL.md while embedding implicit directives that steer the agent to exfiltrate sensitive files, even if the scripts appear harmless. This attack surface remains understudied; prior work treats skills merely as prompt-injection vectors or static code artifacts, leaving attacks emerging from cross-modal interactions largely unmeasured. In our evaluation, open-source and commercial skill scanners detect only 2%-8% and 9%-17% of such attacks, respectively. To address this gap, we introduce SkillMutator, the first benchmark for install-time detection of language-and-code cross-modal attacks on Agent Skills. It emulates an adversarial mutation process across 13 attack categories, iteratively refining malicious skills using scanner feedback to make injected behaviors indistinguishable from legitimate workflows. We further propose a four-phase reasoning-trajectory distillation framework to distill frontier-teacher traces into smaller open-weight models. This produces a locally deployable scanner avoiding third-party data exposure and excessive API costs. On the strongest SkillMutator subset (n=76), our distilled model (Qwen2.5-Coder-7B-Instruct) improves detection from 17.1% to 88.2%, surpassing GPT-4o-mini (23.7%) and GPT-5.4-mini (79.0%), and reaching frontier-level GPT-5.4 (86.8%). These results show practical defense against cross-modal attacks is feasible without relying on costly frontier models.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
-    "authors": [
-      "Shikun Liu",
-      "Mufei Li",
-      "Dongqi Fu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/726a78ee5da7eb4da0409a83ded429a39bdfb57e",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models increasingly serve as execution engines for agentic systems, yet they still consume context through a sequential text interface. This creates a mismatch with modern structured agent workflows, in which independent branches explore subtasks, retrieve evidence, or generate candidate solutions before a final synthesis step. Existing systems typically merge these branches by concatenating their textual outputs, which discards the parallel structure and incurs redundant prefill computation. In this work, we introduce Parallel-Synthesis, a plug-and-play framework that enables a synthesizer to directly consume the KV caches produced by parallel worker agents. Parallel-Synthesis combines a cache mapper that calibrates independently generated branch caches with a fine-tuned synthesizer adapter that enables generation from this non-sequential cache interface. We train Parallel-Synthesis using data that exposes the synthesizer to parallel cache contexts, teaches aggregation across cached branches, and distills reasoning behavior from standard text-concatenation-based synthesis. Across nine downstream datasets spanning math, science QA, code generation, GAIA, and multi-agent database diagnosis, Parallel-Synthesis matches or outperforms text-based synthesis on seven datasets and remains close on the other two. It also reduces time-to-first-token by 2.5x-11x, suggesting that direct cache-based synthesis is a promising interface for more native and efficient synthesis over parallel agent branches.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "A Large Language Model for Extracting Post-marketing Adverse Drug Events from Clinical Notes in the Electronic Health Record.",
-    "authors": [
-      "D. Ludwig",
-      "Michelle Wang",
-      "J. Buchanan",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/70394982ef824a7b9b1a43ebbc9f4d3c9d88dcea",
-    "date": "2026-06-12",
-    "keywords": [
-      "Drug Safety"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1007/s40264-026-01682-6",
-    "citations": 0
-  },
-  {
-    "title": "Unlocking Latent Dimensions: Exploring Representations of Large-Scale X-ray Scattering Data using Variational Autoencoders",
-    "authors": [
-      "M. Choudhary",
-      "Xiaoya Chong",
-      "Runbo Jiang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/6ebc191d2cfe98926919c179d35652f4559e201c",
-    "date": "2026-06-12",
-    "keywords": [
-      "Foundation Model"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Scientific user facilities generate X-ray scattering data faster than traditional workflows can process them. We address this challenge across two settings, offline dataset exploration and live on-the-fly analysis. We train a domain-specific attention-based Convolutional Variational Autoencoder (C-VAE) on 1.5 million X-ray scattering images to learn low-dimensional representations capturing structural variation across diverse experimental conditions. The learned latent space reveals well-organized clusters and smooth trajectories reflecting experimental progression. It further supports controlled synthetic scattering image generation across diverse structural states. When deployed without retraining, the model organizes time-resolved film formation experiments at two synchrotron facilities into interpretable latent structures. Benchmarking against DINOv3 (ViT-7B), a general-purpose vision foundation model, demonstrates that domain-specific training yields more interpretable latent organization for scattering data. Both workflows are integrated within Latent Space Explorer, a component of the MLExchange platform, supporting interactive structural exploration across archived datasets and live experiments.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Decoupled Mixture-of-Experts for Parametric Knowledge Injection",
-    "authors": [
-      "Baoqing Yue",
-      "Weihang Su",
-      "Qingyao Ai",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/6e183f8e953731c730238bd51c20c5789c19f7bd",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Knowledge injection aims to equip large language models (LLMs) with external, domain-specific, or time-sensitive knowledge. Existing approaches typically face a trade-off between flexibility and integration: retrieval-augmented generation keeps knowledge outside the model but only provides prompt-level augmentation, whereas post-training based methods encode new knowledge into shared parameters but may introduce catastrophic forgetting, knowledge conflict, and costly updates. In this paper, we propose Decoupled Mixture-of-Experts (DMoE), a modular architecture for parametric knowledge injection that decouples both experts and the router from the base model. DMoE converts external knowledge corpora into independently updatable expert modules and uses a lightweight uncertainty-aware router to activate relevant experts only when the base model lacks sufficient knowledge during generation. To support efficient auto-regressive inference, DMoE attaches experts only to the final-layer feed-forward network, preserving KV-cache reuse while enabling parameter-level knowledge augmentation. Experiments on knowledge-intensive benchmarks show that DMoE consistently improves answer quality over retrieval and adapter-based baselines.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "The end of reality as we knew it",
-    "authors": [],
-    "link": "https://www.semanticscholar.org/paper/6bcc877e1ae2fc4bc9c076a61186842a25932538",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The search for reality in the 21st century has become a task of unprecedented complexity, marking the dawn of the “Information Disorder” era where trust in global information ecosystems is being deliberately eroded. By 2025, estimates suggest that up to 62% of online content may be false or artificially generated, exposing 86% of the population to deceptive narratives. This book, The End of Reality: Disinformation and the Fact-Checking Era, serves as a comprehensive cartography of this landscape, integrating perspectives from 75 internationally renowned scholars across 20 countries. Through six sections, the authors discuss the philosophical foundations of our post-truth condition, exploring concepts like “I-pistemology”, where subjective life experience replaces institutional expertise. The volume unmasks the “synthetic illusions” of Large Language Models and the rise of “synthetic friends”: AI companions that create impenetrable epistemic cocoons. From the information warfare in geopolitical conflicts to the visual distortions during natural disasters like the 2024 DANA foods in Spain, this work provides a multidisciplinary exploration of how truth is contested. It goes beyond simple debunking to propose new technological and collaborative frameworks for verification, such as the MonitorIA project for Telegram and the DISINFOX platform. By addressing the “human factor” through cognitive resilience models like the “Wave and Wall”, this book offers a roadmap for navigating an ecosystem where the distinction between truth and synthetic illusion has become a defining battlefeld of our time. Finally, these chapters remind us that reality is a collective achievement requiring constant defense and ethical stewardship of our informational behaviour.",
-    "summary": "",
-    "doi": "10.14679/4976",
-    "citations": 0
-  },
-  {
-    "title": "AI-Powered Compliance Solutions in Banking: A Study of Axis Bank’s Transformative Approach",
-    "authors": [
-      "Devendra Singh Kushwaha"
-    ],
-    "link": "https://www.semanticscholar.org/paper/6bc5b8e889b8937d7cd21ee5e5a48f8852a9bb15",
-    "date": "2026-06-12",
-    "keywords": [
-      "International Scientific Journal of Engineering and Management"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The banking industry operates within a highly regulated environment where compliance with Know Your Customer (KYC), Anti-Money Laundering (AML), and customer due diligence requirements is critical. Traditional compliance processes often rely on manual verification, extensive documentation, and repetitive administrative procedures, resulting in delays, operational inefficiencies, and increased compliance costs. Artificial Intelligence (AI) has emerged as a transformative technology capable of automating regulatory processes while improving accuracy and customer experience.This paper examines Axis Bank’s implementation of AI-powered solutions for Re-Know Your Customer (ReKYC) and Digital Business Profile Updates for current account customers. The study explores how Generative AI, Large Language Models (LLMs), document intelligence, and real-time Goods and Services Tax (GST) data integration are being used to simplify compliance activities and strengthen regulatory controls. The analysis evaluates the technological foundations, operational benefits, and regulatory implications of these initiatives.The findings indicate that AI-driven compliance solutions improve efficiency, reduce manual intervention, enhance data accuracy, strengthen fraud prevention mechanisms, and provide a seamless customer experience. The study further demonstrates how AI-enabled Regulatory Technology (RegTech) is shifting compliance management from a reactive process to a proactive and preventive framework. The paper concludes that intelligent automation will become a central component of future banking compliance systems and regulatory governance.\n\nKeywords: Artificial Intelligence, Banking Compliance, RegTech, ReKYC, GST Integration, Generative AI, Digital Banking.",
-    "summary": "",
-    "doi": "10.55041/isjem07895",
-    "citations": 0
-  },
-  {
-    "title": "Explainable Deep Learning for Intelligent Plant Disease Detection",
-    "authors": [
-      "Dr. Pallavi Sharma",
-      "Ngah Hesly Kilofonyuy"
-    ],
-    "link": "https://www.semanticscholar.org/paper/6b84d2659e636b7e45d25d112fa04fc032430edb",
-    "date": "2026-06-12",
-    "keywords": [
-      "Deep Learning",
-      "Foundation Model",
-      "Agent",
-      "Transformer",
-      "International Journal of Latest Technology in Engineering Management &amp; Applied Science"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The world suffers from 10–40% loss in crop yields each year because of plant disease. This threat is serious and growing; it threatens food security, rural livelihoods, and agricultural economies. Advances being made through deep learning, computer vision, and mobile technology have presented a unique opportunity to use leaf images to automatically recognize plant disease. Published classification accuracies on benchmark datasets now exceed 97%, which is an important achievement but achieving high accuracy on a benchmark alone does not indicate that traditional methods will work when deployed in the real world: all four stakeholders (i.e., farmers, agronomists, regulatory authorities, and extension agents) must therefore have the ability to understand, and interpret the output of automatically recognized plant diseases in a way that enhances human expertise rather than replacing it. In this chapter, we provide a compendium of technical deep learning architectures and methods related to Explainable Artificial Intelligence (XAI) for plant disease detection, including convolutional networks, residual architectures, dense architectures, transformer networks, and hybrid models. We also systematically evaluate the explainability methods used in both post-hoc and intrinsic explanation and evaluate the applicability of these methods across a variety of imaging modalities used in agriculture, including RGB, multispectral, and hyperspectral. This chapter characterizes major benchmark datasets; discusses major challenges to their deployment, including class imbalance, domain shift, model size reduction, and human–AI trust calibration; then ends with potential new directions for research in areas such as foundation models (FM), causal interpretable models (Explanations), federated learning, and continual learning to build resilience for each evolving pathogen landscape.",
-    "summary": "",
-    "doi": "10.51583/ijltemas.2026.150500184",
-    "citations": 0
-  },
-  {
-    "title": "Analysis of the interaction network relationship between drugs using a graph neural network",
-    "authors": [
-      "Zhongyi Chai",
-      "Jing Wang",
-      "Huili Du"
-    ],
-    "link": "https://www.semanticscholar.org/paper/67edffd905c3a874699f2602b66cb977d45f280f",
-    "date": "2026-06-12",
-    "keywords": [
-      "Frontiers in Pharmacology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n \n The ever-increasing complexity of biochemical systems, alongside the rapid growth of pharmaceutical and biomedical data, underscores the urgent need for intelligent, scalable, and interpretable computational models. These models must be capable of supporting next-generation decision-support systems and driving knowledge discovery in the realm of computational science. Traditional approaches to relational biomedical modeling, however, often struggle to accurately capture intricate multi-relational dependencies and typically lack robustness in sparse or incomplete interaction domains. To address these pressing limitations, we present a novel, biologically grounded graph-based learning framework designed to overcome such challenges.\n \n \n \n Our approach comprises a two-tiered system: PHARMNet, a multi-relational graph neural network (GNN) equipped with memory-augmented attention mechanisms, and INTERACT-SCOPE, an advanced, context-aware optimization strategy that leverages structured biomedical ontologies and domain knowledge. PHARMNet employs relation-specific graph convolutions and semantic embedding alignment to effectively model latent relational dependencies in biochemical and pharmacological datasets. In parallel, INTERACT-SCOPE improves predictive generalization and stability by incorporating ontology-guided constraints, estimating epistemic uncertainty, and applying adaptive graph regularization techniques tailored to biomedical structures.\n \n \n \n Through rigorous experimental evaluations across a variety of pharmacological interaction categories, our framework consistently achieves state-of-the-art (SOTA) predictive performance, enhanced model interpretability, and notable robustness—especially in low-data or high-noise scenarios. These outcomes strongly align with the journal’s mission to promote innovative and knowledge-driven advances in software engineering, artificial intelligence, and biomedical informatics. Ultimately, our article illustrates the synergistic integration of computational intelligence, domain-informed graph representation learning, and scalable modeling, contributing a powerful and interpretable solution to real-world challenges in healthcare informatics and biomedical discovery. Experimental results demonstrate that MGTNSyn outperforms existing methods, achieving an AUC of 0.873 and an F1-score of 0.831 on drug–drug interaction (DDI) benchmark datasets.\n",
-    "summary": "",
-    "doi": "10.3389/fphar.2026.1686243",
-    "citations": 0
-  },
-  {
-    "title": "A Universal Structural Grammar in Enzyme Fold for Predicting Drug Target Stability: Deciphering Directional Scaffolding via Multi-Stage Pearson Correlation of Asymmetric Contact Matrices",
-    "authors": [
-      "Fatin Jannus",
-      "Hilario Ramírez-Rodrigo"
-    ],
-    "link": "https://www.semanticscholar.org/paper/6705f0f3131a66671a3d013627565c6c4b389dfa",
-    "date": "2026-06-12",
-    "keywords": [
-      "Pharmaceutics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Background/Objectives: Traditional protein contact analysis often fails to distinguish between local, sequence-driven motifs and global, tertiary scaffolding, which ensures structural determinism. While deep-learning models do not fully elucidate the ‘why’, they do reveal the underlying directional rules of the stability landscape. In this study, we analyzed 475 non-redundant Protein Data Bank (PDB) structures categorized into SCOP classes (all-α, all-β, α/β, α+β) of the hydrolase superfamily. Methods: To isolate the structural anchors of the global fold, we applied a sequence separation filter of ∣i − j∣ ≥ 6 and a precise spatial cutoff of 3–5 Å between Cα-only to construct asymmetric 20 × 20 frequency matrices, both raw and normalized, then present the former using a violin diagram. We developed a Pearson Correlation (PC) framework to analyze these matrices, providing high correlation when considered as vectors and giving the directionality (N-to-C vs. C-to-N) in protein folding when considered as matrices. Results: Our results reveal a hierarchical organization of tertiary determinism. Initial visualization of Residue–Residue Contact Frequency Matrices (RRCFMs), Z-score normalization (NRRCFM), and violin plots reveal the Universal Structural Grammar (USG) of interaction. Furthermore, a near-perfect PC (r = 0.99) as determined via inter-class Z-score correlation and inter-class PC demonstrates shared statistical interaction laws. In addition, PC Stage 1 (intra-class) analysis identified high symmetry, with around 80% of contacts exhibiting a very strong to strong positive correlations, while PC Stage 2 (inter-class) analysis demonstrated that around 50% of contacts exhibited very strong to strong positive correlations. Finally, we identified universal druggable pockets for drug discovery. Conclusions: This powerful mathematical framework provides a robust analytical tool for structure-based drug design.",
-    "summary": "",
-    "doi": "10.3390/pharmaceutics18060728",
-    "citations": 0
-  },
-  {
-    "title": "DNA Compression with Genomic Language Models: Tokenization, Benchmarking, and an Information-Content Map",
-    "authors": [
-      "Vojtěch Máčala",
-      "P. Šimeček"
-    ],
-    "link": "https://www.semanticscholar.org/paper/66b3d581746d4c398103b6d759459eb8a49a4f94",
-    "date": "2026-06-12",
-    "keywords": [
-      "bioRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.06.10.731316",
-    "citations": 0
-  },
-  {
-    "title": "Integrated Network Pharmacology and Cross-Species Analysis Suggest a Potential Role of AKT1/HIF1A Axis in Shuanghuanglian for Pneumonia–Myocarditis Comorbidity",
-    "authors": [
-      "Y. Shi",
-      "Wenwen Ding",
-      "Hongbin Duan",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/64e2e4c371bce4459bb260398410ec756f6891be",
-    "date": "2026-06-12",
-    "keywords": [
-      "Veterinary Sciences"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Shuanghuanglian oral liquid (SHL) is widely used in companion animals and poultry, but its molecular mechanism in pneumonia–myocarditis comorbidity and heart–lung inflammatory crosstalk remains largely unclear. This computational study investigated the conserved AKT1/HIF1A-mediated immunoregulatory mechanism of SHL and its cross-species translational potential in veterinary medicine. Network pharmacology was integrated with GO, KEGG, and Reactome enrichment analyses, protein–protein interaction network construction, ADMET evaluation, cross-species sequence homology analysis (human, dog, cattle, and pig), molecular docking, and molecular dynamics simulation. A total of 61 active compounds, 251 putative targets, and 52 common targets associated with pneumonia and myocarditis were identified. These targets were mainly enriched in inflammation- and immune-related pathways, including TNF, IL-17, AGE–RAGE, and PPAR signaling. AKT1 and HIF1A showed high sequence conservation across species (85–98%). Key compounds exhibited favorable binding affinity to AKT1, and molecular dynamics simulation suggested the stability of the Baicalein–AKT1 complex. ADMET analysis suggested favorable pharmacokinetic properties and low predicted toxicity. These findings suggest that SHL may potentially alleviate pneumonia and myocarditis through modulation of the conserved AKT1/HIF1A axis and support its potential as a complementary therapeutic approach for managing heart–lung inflammatory diseases in multiple livestock species. This entirely computational study highlights promising mechanisms that should be further validated in vivo.",
-    "summary": "",
-    "doi": "10.3390/vetsci13060578",
-    "citations": 0
-  },
-  {
-    "title": "IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products",
-    "authors": [
-      "Haonan Qi",
-      "Jin Cao",
-      "Yongqing Zhang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/63e336e06d9375e6236342d5d988979ee3f83c40",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Industrial products such as valves and circuit breakers are defined by dense technical specifications that govern procurement, compatibility, and safety across supply chains. These specifications are scattered across multiple heterogeneous product images, including specification tables, nameplates, and technical drawings, yet whether Multimodal Large Language Models (MLLMs) can reliably recover them remains underexplored. To fill this gap, we introduce IndustryBench-MIPU, the first large-scale benchmark for multi-image industrial product understanding, built around structured attribute extraction -- recovering property-value pairs from product images. This task jointly probes text recognition on specification tables and nameplates, visual reasoning over technical drawings, domain knowledge to decode industrial terminology, and cross-image evidence integration to assemble scattered specifications. Concretely, the benchmark comprises 4,559 products across 27,652 images with 103,703 annotations spanning 18 industrial categories, constructed through multi-model consensus and three-tier quality assurance. Evaluating nine MLLMs under both single-image and product-level multi-image settings reveals a stark completeness gap: models achieve high precision (86--94%) but the best recovers only 49.9% of product-level attributes; moving from single-image to multi-image extraction costs 15--34 percentage points of recall. Multi-image completeness, not single-image accuracy, is the core bottleneck. Dataset and code are publicly available.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Security, Privacy, and Ethical Challenges in Large Language Models: A Review",
-    "authors": [
-      "B. Yogi",
-      "Nandini Ghosh",
-      "Sekh Sahid"
-    ],
-    "link": "https://www.semanticscholar.org/paper/63c8cf589e53a468fe30ba309e1122767eb291b5",
-    "date": "2026-06-12",
-    "keywords": [
-      "Archives of Computational Methods in Engineering"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1007/s11831-026-10680-x",
-    "citations": 0
-  },
-  {
-    "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
-    "authors": [
-      "Jiayue Cao",
-      "Zhicong Lu",
-      "Xue Sun",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/623e05c4c9fa9dd4e895b69d088b1f0511f8816e",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Reinforcement learning with verifiable rewards (RLVR) has successfully elicited the reasoning capabilities of large language models, motivating its extension to multimodal scenarios. Existing methods primarily focus on improving the visual coverage of reasoning traces and mitigating visual hallucinations, but underestimate the semantic inconsistency between the reasoning process and the final answer. In this paper, we delve into thinking-answer inconsistency in RLVR for large vision-language models (LVLMs), showing thorough analyses of rollouts collected throughout Group Relative Policy Optimization (GRPO) training process and post-RLVR evaluation outputs that this issue persists during training and remains present during inference. Motivated by the analysis, we propose Consistency-Oriented Reasoning Alignment (CORA), which introduces thinking-answer semantic consistency into RLVR through a lightweight plug-and-play consistency reward model, and further incorporates Hybrid Reward Advantage Splitting (HRAS) to stably coordinate task and consistency optimization. Extensive experiments across representative multimodal reasoning benchmarks and mainstream LVLMs show that CORA improves task performance while effectively mitigating thinking-answer inconsistency, leading to more faithful reasoning traces.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "FoleyGenEx: Unified Video-to-Audio Generation with Multi-Modal Control, Temporal Alignment, and Semantic Precision",
-    "authors": [
-      "Shiyao Wang",
-      "Xijuan Zeng",
-      "Hui Wang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/621fa3b152e76c0aa70d0ca45ae0af28f7efba5d",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "We present FoleyGenEx, a unified video-to-audio (VTA) framework integrating multi-modal control, frame-level temporal alignment, and fine-grained semantics, enabling synchronized, versatile audio synthesis for diverse tasks. Existing VTA methods either have multi-modal control but weak temporal alignment or strong alignment but lack reference audio conditioning and semantic precision. FoleyGenEx fills this gap via three core innovations: a conditional injection mechanism for audio-controlled VTA and Foley extension, a multi-modal dynamic masking strategy preserving training synchronization, and an adverb-based data augmentation algorithm leveraging signal processing and large language models to enhance textual supervision with nuanced semantics. Experiments on AudioCaps, VGGSound, and Greatest Hits demonstrate its competitive controllable VTA performance against existing methods. Demo samples are available at https://foleygenex.github.io/FoleyGenEx.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "A Multi-Agent Architecture of Requirement-Driven Mechanical System Optimization",
-    "authors": [
-      "Ciming Zhu",
-      "Li Yang",
-      "Wu Shuai",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/61eb5cdeae21f6724fbf81406bd4a133b0a3d510",
-    "date": "2026-06-12",
-    "keywords": [
-      "Agent",
-      "Journal of Mechanical Design"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n Addressing the high cost of building optimization models in conceptual mechanical design, this paper presents MecSOAgent, a closed-loop multi-agent framework that leverages large language models (LLMs) and an auditable Mechanical System Optimization Graph (MSOG) to translate natural-language requirements into executable optimization scripts and SysML 2.0 physical system models. Domain knowledge is injected via retrieval-augmented generation, while the MSOG persists a traceable mapping from requirements to physical entities, design variables, constraints, objectives, and solution algorithms, enabling consistency checking and engineering audit. To improve reliability, MecSOAgent introduces a deterministic intermediate representation based on a Design Structure Matrix (DSM) that converts relation matrices into incremental graph updates, and decouples multi-objective preference modeling from solving via AHP with consistency checks. A checklist-based reviewer reconciles graph artifacts with solver outputs to trigger iterative repair. A case study on redundancy configuration optimization for an airborne hydraulic actuation system, along with multi-dimensional comparative experiments against end-to-end LLMs and general-purpose programming agents, demonstrates that MecSOAgent effectively mitigates semantic drift and physical-logic deficiencies. By automatically instantiating system-level optimization models and generating verifiable artifacts, the proposed framework approaches human-expert reliability, offering a practical path toward MBSE-oriented automation of mechanical system optimization design.",
-    "summary": "",
-    "doi": "10.1115/1.4072148",
-    "citations": 0
-  },
-  {
-    "title": "AI-enabled discovery of small molecules targeting complementary pathways for hair follicle rejuvenation",
-    "authors": [
-      "Zihan Qu",
-      "Yang Li",
-      "Stella E Cho",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/601eb9772601c14348f5e73020f4d9643854e1f1",
-    "date": "2026-06-12",
-    "keywords": [
-      "bioRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.06.09.728282",
-    "citations": 0
-  },
-  {
-    "title": "Occlusion-Aware Trajectory Discontinuity Correction for Roadside LiDAR Using Time–Space Analysis",
-    "authors": [
-      "Mingshu Dong",
-      "Hao Xu",
-      "Muchen Tian",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/5ee45d1f987c5153f9cee23726ff2ac604696bce",
-    "date": "2026-06-12",
-    "keywords": [
-      "Italian National Conference on Sensors"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent advances in roadside sensing technologies, including camera-based systems, radar, and LiDAR, have enabled high-resolution sampling of vehicle trajectories, overcoming the temporal and spatial limitations of traditional data collection methods. Among these, LiDAR sensing has been widely adopted for traffic monitoring and surrogate safety analysis due to its high spatial accuracy and temporal resolution. However, sensor noise and occlusion in roadside LiDAR frequently introduce tracking point offsets and trajectory discontinuities, reducing the reliability of vehicle counts, traffic state estimation, and conflict analysis. To address these challenges, this study proposes a post-processing method based on time–space analysis to detect and correct occlusion-induced trajectory discontinuities. By exploiting the inherent spatiotemporal consistency of vehicle movements, the proposed approach identifies fragmented trajectories, reconstructs continuous vehicle paths, and recovers realistic traffic patterns. Validated on real-world LiDAR data collected at an urban intersection in Reno, Nevada, across four 30 min traffic periods covering AM and PM peak conditions on weekdays and weekends, the proposed method achieves an average precision of 0.989 and an average F1-score of 0.948, outperforming IMM, GNN-RM, and HMM + Viterbi benchmark methods. Count accuracy improved from 85.5% to 97.4% across all evaluated periods, confirming the method’s effectiveness under occlusion conditions.",
-    "summary": "",
-    "doi": "10.3390/s26123755",
-    "citations": 0
-  },
-  {
-    "title": "Representational Design for Clinical AI: Embedding Secondary Stakeholder Needs in Large Language Models",
-    "authors": [
-      "H. D. Zając",
-      "Katrine Bear",
-      "Cille Wehlast Nielsen",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/5dfb2e5856cf635290efd10ba5596a530f6fa840",
-    "date": "2026-06-12",
-    "keywords": [
-      "Proceedings of the 2026 Designing Interactive Systems Conference"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1145/3800645.3812864",
-    "citations": 0
-  },
-  {
-    "title": "An Edge–Cloud Collaborative ECG-Assisted Diagnostic System Leveraging Cross-Lead Knowledge Distillation and Large Language Models",
-    "authors": [
-      "Haohan Su",
-      "Shuai Wang",
-      "Hongxiao Wang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/5bbc3a5d273a8546485245c64df033f5e3968a8b",
-    "date": "2026-06-12",
-    "keywords": [
-      "Transformer",
-      "Italian National Conference on Sensors"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Cardiovascular diseases impose a substantial global health burden and often require timely detection, creating strong demand for real-time electrocardiogram (ECG) monitoring on resource-constrained devices. Although portable single-lead wearable ECG devices are valuable for daily monitoring, their diagnostic performance is limited by spatial information loss and hardware constraints. Moreover, conventional lightweight models lack interpretable analysis beyond coarse classification. This study proposes an edge–cloud collaborative ECG-assisted analysis method combining lightweight ECG model distillation with large language models. At the algorithmic level, a cross-lead distillation framework transfers knowledge from a 12-lead InceptionTime–Transformer teacher to an ultra-lightweight single-lead student via a hybrid loss integrating hard-label, temperature-scaled soft-label, and auxiliary multi-label objectives. At the system level, a three-layer architecture integrates edge-side real-time screening with cloud-side report generation through a LoRA-fine-tuned Qwen3-8B model. Experiments on PTB-XL show that, under 123.7× parameter compression and 12-to-1 lead reduction, the student retains 92.8% of the teacher’s Macro-F1 and 94.7% of its AUC-ROC. After 8-bit integer (INT8) quantization, the TFLite file is 20.8 KB; QEMU-based Cortex-M4 simulation shows approximately 63.0 KB SRAM usage and 11.6 ms latency, suggesting potential on-device deployment under simulated conditions. Validation on physical hardware—including power consumption, BLE latency, and motion artifacts—remains necessary.",
-    "summary": "",
-    "doi": "10.3390/s26123753",
-    "citations": 0
-  },
-  {
-    "title": "Generative AI-Based Drug Design: Target-Aware Molecular Generation for EGFR Type I Inhibitors with Multiplatform Docking Validation",
-    "authors": [
-      "Taqdees Khan",
-      "Young Beom Kwak",
-      "Hee-Cheol Kim"
-    ],
-    "link": "https://www.semanticscholar.org/paper/5af2c772ba3b10544c94757caa579b82f6538ac8",
-    "date": "2026-06-12",
-    "keywords": [
-      "ACS Omega"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1021/acsomega.5c13131",
-    "citations": 0
-  },
-  {
-    "title": "SemPiper: Interactive Code Synthesis for Semantic Operators in Machine Learning Pipelines",
-    "authors": [
-      "O. Ovcharenko",
-      "Luciano E. Duarte",
-      "Sebastian Schelter"
-    ],
-    "link": "https://www.semanticscholar.org/paper/59edcc3473a9e1853bfe16e7ac17d90e9ccb827e",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Machine learning (ML) pipelines require extensive data preparation, feature engineering, and integration across heterogeneous sources, making them tedious and error-prone to develop. While large language models (LLMs) have recently shown promise for assisting programming tasks, chat-based interfaces provide limited control over pipeline behavior and often produce code that is difficult to optimize or integrate into production systems. We demonstrate SemPipes, a novel programming model that extends ML pipelines with declarative, LLM-powered semantic data operators. SemPipes allows developers to specify high-level natural language instructions for data-centric operations, while seamlessly combining these operators with arbitrary Python code from standard data science libraries. For the semantic operators, it synthesizes specialized implementations at pipeline training time, conditioned on dataset characteristics and pipeline context, enabling the flexible yet controlled integration of LLM capabilities. We demonstrate SemPipes through SemPiper, an interactive interface that visualizes computational graphs of the pipelines, synthesized operator implementations, and optimization trajectories produced by an evolutionary search procedure. Attendees can explore three end-to-end scenarios, modify pipelines, inspect generated code, and observe how semantic operators are synthesized and iteratively optimized. The demonstration highlights how declarative semantic operators enable controllable, optimizable, and practical integration of LLMs into ML pipeline development.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Does the Judge Prefer English? Evaluating Language-Switching Invariance in LLM-as-a-Judge",
-    "authors": [
-      "Shaojie Yin"
-    ],
-    "link": "https://www.semanticscholar.org/paper/57c4e569b5e77ad4e45c8fe1b8e9a2d3573dc7f5",
-    "date": "2026-06-12",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models (LLMs) are now widely used as automatic judges for open-ended instruction-following evaluation. This practice is convenient, scalable, and often more semantically aware than reference-based metrics, but it also introduces a new reliability question: does a judge evaluate the quality of an answer, or does it also react to the language in which the comparison is presented? We propose Judge-LS, a lightweight meta-evaluation protocol that transforms LLMBar response-pair items into English, Chinese, and Chinese-English language-switched variants. A reliable judge should preserve its preference under label-preserving language transformations and should not prefer a language when two answers are translation-equivalent. We evaluate four API-accessible judges on the full 419-item LLMBar benchmark, producing 13,408 successful pairwise judgments. Across models, Chinese and language-switched presentations induce 10.7--14.4% preference flips relative to English, and all judges achieve their highest accuracy in English. However, translation-equivalent tie probes do not reveal a systematic English preference: most probes are judged as ties, and non-tie decisions more often favor Chinese. We add confidence intervals, paired significance tests, and an automatic transformation audit with a sensitivity analysis that excludes mechanically flagged high-risk variants. The experiment requires no model training, uses only API calls, and is feasible on modest local hardware.",
     "summary": "",
     "doi": "",
     "citations": 0
