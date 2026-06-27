@@ -1,0 +1,259 @@
+[
+  {
+    "title": "Can chatGPT-4o reliably standardize PSMA PET/CT and PET/MRI reports using PROMISE V2 criteria? - An exploratory study",
+    "authors": [
+      "A. Hinterberger",
+      "M. Mangold",
+      "Caroline Weigel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fa6f7ed0cb9d6e60109fafc50a27210c748a4d23",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "EJNMMI Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13550-026-01475-z",
+    "citations": 0
+  },
+  {
+    "title": "A large language model-driven semantic inference framework for business logic vulnerability discovery in power system microservice APIs",
+    "authors": [
+      "Xuhua Ai",
+      "Yuan Yin",
+      "Yiting Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/df0533319baf84b4c56305520fc5b58f1feb8136",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "Journal of engineering and applied sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s44147-026-01100-9",
+    "citations": 0
+  },
+  {
+    "title": "Performance of Google NotebookLM for AI-assisted data extraction and consensus statement generation in a heterogenous systematic review on inflammatory bowel disease, obesity, and cardiometabolic comorbidities: A Methodological Report",
+    "authors": [
+      "S. Samaan",
+      "J. Devi",
+      "M. Vincent",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a0c870c6cc7824cd128e324a274d7dd31dac7937",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.16.26355773",
+    "citations": 0
+  },
+  {
+    "title": "Grounding the right to refuse AI chatbot use in higher education",
+    "authors": [
+      "Timothy Daly"
+    ],
+    "link": "https://www.semanticscholar.org/paper/95bec3d4bf9935e435e56dd5e283619e58a223b7",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01233-w",
+    "citations": 0
+  },
+  {
+    "title": "Response consistency of ChatGPT-4o for Type 2 Diabetes Nutrition and Physical-activity Recommendations: A Pilot NLP-based Assessment of GPT outputs",
+    "authors": [
+      "Y. Zhang",
+      "X.-J. Liu",
+      "Q. Hu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/946d859ae4aa367ad2479d492961e50f0531db4c",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.23.26356399",
+    "citations": 0
+  },
+  {
+    "title": "Calibration of Self-Reported Confidence and Accuracy of Large Language Models in Medical Question Answering",
+    "authors": [
+      "S. Boie",
+      "Florian Reis",
+      "N. Frey",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8fbed7872c661bca0b7c9609faa2ab57bb84f143",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "Journal of medical systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10916-026-02430-0",
+    "citations": 0
+  },
+  {
+    "title": "Adaptive Multimodal Deep Networks for Climate Change Impact Prediction on Agriculture",
+    "authors": [
+      "Sultan Ahmad",
+      "A. Rajawat",
+      "Mohd. Muqeem",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/73a31ea9c1fd4535edbd848bc357a3f9a4689526",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05171-6",
+    "citations": 0
+  },
+  {
+    "title": "Llm-Based Farmer Advisory System Using Retrieval and Tool-Augmented Reasoning",
+    "authors": [
+      "Pooja Sutar",
+      "Vaibhavi Kalase",
+      "Harsh Kalyankar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/569f22e1d8e8f476776e2358085748fe0c1a66c0",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "International Research Journal on Advanced Engineering Hub (IRJAEH)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Timely, accurate, and context-aware advisory support is essential for improving agricultural productivity and decision-making. Traditional agricultural advisory systems often provide generalized recommendations and lack real-time adaptability to individual farmer requirements. To address these limitations, this paper presents an intelligent LLM-based Farmer Advisory System that integrates conversational artificial intelligence with Retrieval-Augmented Generation (RAG), tool-based reasoning, and multimodal analysis. The proposed system utilizes a LangGraph-based orchestration framework in which the Large Language Model dynamically determines whether to retrieve information from a FAISS-based knowledge repository, invoke external tools such as weather APIs, or generate responses directly based on user queries. The system further incorporates farmer-specific contextual information, including crop type, geographical location, and soil conditions, to provide personalized and relevant recommendations. In addition, a vision-based crop disease detection module is integrated to analyze crop images and assist farmers in identifying possible diseases. The system is implemented as a web-based application using Flask, enabling seamless interaction through a user-friendly interface. The proposed hybrid framework improves the reliability, adaptability, and usability of agricultural advisory services compared to conventional approaches. Experimental observations indicate that combining LLM reasoning with retrieval mechanisms and external tools significantly enhances the effectiveness of AI-driven agricultural assistance systems in real-world farming environments.",
+    "summary": "",
+    "doi": "10.47392/irjaeh.2026.0576",
+    "citations": 0
+  },
+  {
+    "title": "Digital Twin Sync: A Context-Aware Cognitive Architecture for Proactive Productivity and Behavioral Inference Using LLM-Driven Telemetry Analysis",
+    "authors": [
+      "Sushobhan Limbole",
+      "Samarth Shete",
+      "Varad Gole",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3b25336f239714753f520963bec068118f04a1f6",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "International Research Journal on Advanced Engineering Hub (IRJAEH)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The exponential proliferation of digital tasks, asynchronous communications, and fragmented application ecosystems has subjected modern professionals to unprecedented levels of cognitive overload. Conventional productivity tools function as static repositories that depend on exhaustive manual input and fail to adapt to the fluctuating psychological states of their users. This paper presents Digital Twin Sync, a context-aware software ecosystem built on a Digital Twin paradigm that passively analyzes user behavioral patterns to boost longitudinal productivity. The framework unifies a Flutter-based cross-platform mobile client with an asynchronous, decoupled Node.js and MongoDB backend. The system ingests multidimensional behavioral telemetry—encompassing task-completion velocities, application-interaction intervals, and secure contextual extraction from the Gmail API—and fuses these signals with the native inferential capabilities of the Gemini 2.5 Flash Large Language Model (LLM). Scheduled overnight inference batches synthesize psychological state vectors, calculating fluid metrics such as momentary stress levels, communication styles, and trajectory-based growth areas. The paper further describes the decoupled system architecture, passive data ingestion schema, and the methodological construction of the psychological inference engine. Furthermore, n8n-driven HTTP-triggered automation pipelines realize proactive task management, while a nature-preserving ethical memory model enforces sustainable decision-making. Empirical evaluation demonstrates workflow automation with sub-1.5-second average latency and AI prediction accuracy exceeding 91% after multiple learning cycles.",
+    "summary": "",
+    "doi": "10.47392/irjaeh.2026.0563",
+    "citations": 0
+  },
+  {
+    "title": "HeRoN: a mediated RL-LLM framework for adaptive NPC behavior in interactive environments",
+    "authors": [
+      "Gaetano Cimino",
+      "Vincenzo Deufemia",
+      "Andrea Selice"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2811f80471ee7afb7fbd40393b601aa10376f734",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "Neural computing & applications (Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00521-026-12275-w",
+    "citations": 0
+  },
+  {
+    "title": "Detection without calibration: benchmarking domestic and international large language models for quality control of Mandarin 18F-FDG PET/CT reports",
+    "authors": [
+      "J. Wang",
+      "W. Tang",
+      "X. Ma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/208830305ef1888d9e2109726309688b2ea128c5",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.24.26356406",
+    "citations": 0
+  },
+  {
+    "title": "A language model framework for sequence modeling of EHR audit logs to characterize clinician-EHR interactions",
+    "authors": [
+      "S. Kim",
+      "S. Lou",
+      "A. Cobb",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1f991bc557a0672e4921f90e7053384a8091576c",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.24.26356449",
+    "citations": 0
+  },
+  {
+    "title": "Review Of Ai-Driven Farmer Support Systems Using Llm’s and Real-Time Data Integration",
+    "authors": [
+      "Pooja Sutar",
+      "Vaibhavi Kalase",
+      "Harsh Kalyankar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1b3425061671a724b5b338142542dea773cbafdc",
+    "date": "2026-06-26",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Research Journal on Advanced Engineering Hub (IRJAEH)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Agriculture plays a vital role in economic development and food security, particularly in developing countries where farmers rely on timely and accurate agricultural guidance. Conventional advisory systems generally provide static and generalized information, limiting their effectiveness in real-time decision-making and personalized support. Recent advancements in Artificial Intelligence (AI), Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and multimodal learning have enabled the development of intelligent and interactive agricultural advisory systems capable of delivering context-aware recommendations. This review paper presents a comprehensive overview of AI-based farmer advisory systems with a focus on conversational AI, retrieval-based frameworks, tool-augmented reasoning, and image-based crop disease detection. The study reviews existing research on machine learning-based crop recommendation systems, IoT-enabled smart agriculture, deep learning approaches, and LLM-powered agricultural assistants. The role of vector databases, external tool integration, and real-time data processing in improving the accuracy, relevance, and personalization of agricultural responses is also examined. Furthermore, the paper discusses major challenges, limitations, and future research opportunities associated with designing efficient, scalable, and reliable smart agricultural advisory systems. The review highlights the growing potential of integrating LLMs with retrieval mechanisms and multimodal technologies to enhance the effectiveness of next-generation agricultural support systems.",
+    "summary": "",
+    "doi": "10.47392/irjaeh.2026.0575",
+    "citations": 0
+  }
+]
