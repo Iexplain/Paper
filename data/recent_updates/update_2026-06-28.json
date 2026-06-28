@@ -1,0 +1,211 @@
+[
+  {
+    "title": "LLM Teams: Harnessing Large Language Models as Multi-Agent Teammates for Joint Problem-Solving",
+    "authors": [
+      "Ching Nam Hang",
+      "Chee Wei Tan",
+      "D. Chiu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f30bd60e8a2e9936729ef3ea36a2355d116c3b1c",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Proceedings of the Thirteenth ACM Conference on Learning @ Scale"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774398.3811571",
+    "citations": 0
+  },
+  {
+    "title": "How Well Do Large Language Models Recognize Instructional Moves? Establishing Baselines for Foundation Models in Educational Discourse",
+    "authors": [
+      "Kirk P. Vanacore",
+      "René F. Kizilcec"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ea05b713e96e1f2f35e041e4d571a19352f3312e",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Proceedings of the Thirteenth ACM Conference on Learning @ Scale"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774398.3811605",
+    "citations": 0
+  },
+  {
+    "title": "Probing Maximally Divergent Conceptual Regions in Large Language Models Through Prompt Engineering",
+    "authors": [
+      "Davut Çulha"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c9269fa150e469df824037e21b557ea920d5ff17",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) have shown impressive capabilities in natural language understanding and reasoning; however, their internal conceptual organization remains largely opaque. This study introduces a novel prompt engineering approach to explore the latent conceptual spaces of LLMs by identifying maximally divergent conceptual regions. It draws on the conceptual spaces framework, in which knowledge is represented as geometric regions defined by quality dimensions. Within this framework, a proxy metric referred to as the conceptual divergence count is proposed. This metric represents the number of maximally divergent conceptual regions identified through structured prompts. Although the metric does not measure dimensionality in the geometric or architectural sense, it serves as an indicator of a model’s conceptual diversity. The method is applied to a range of LLMs, including models from the Gemini, GPT, and Claude families, as well as additional models such as Llama-3.3-70B-Instruct, Mistral-7B-Instruct-v0.3, Gemma-3-12B-IT, and Grok-3. The results show substantial variation in diversity, with gemini-2.5-flash-preview-05-20 achieving the highest value of 91 and claude-3-7-sonnet-20250219 recording the lowest value of 7. These findings suggest that diversity, as measured by this method, may provide insights into the internal organization of conceptual representations. While the metric is to be an indicator of a model’s factual knowledge structure, providing complementary insight into its internal organization, it does not directly measure knowledge accuracy. The proposed approach contributes a geometric perspective to the evaluation of LLM knowledge, complementing existing benchmarks and supporting interpretability.",
+    "summary": "",
+    "doi": "10.3897/jucs.168955",
+    "citations": 0
+  },
+  {
+    "title": "Are Large Language Models Smart Coders? Evaluating Correctness and Efficiency of LLM-generated Algorithms",
+    "authors": [
+      "Jefferson Martins",
+      "Rodrigo Andrade",
+      "L. F. A. Pereira"
+    ],
+    "link": "https://www.semanticscholar.org/paper/884ac79636183f95e5990b0b7c568eedbb3b525d",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Skilled software developers play a crucial role in creating energy-efficient code, contributing to the reduction of carbon emissions and promoting sustainable computing practices. In parallel, Large Language Models (LLMs) have recently emerged as powerful programming assistants, providing support for developers in complex coding tasks. In this context, this study investigates the ability of LLMs to generate computationally efficient implementations of classic algorithms - such as Heap Sort and Binary Search - across different programming languages, with a primary focus on optimizing energy consumption, memory usage, and execution time. Our results show that, in most cases, different LLMs are able to generate these algorithm implementations correctly. Furthermore, in the majority of the evaluated scenarios, LLM-generated code demonstrates superior performance over human-written algorithm code with regard to energy consumption, memory efficiency, and execution time.",
+    "summary": "",
+    "doi": "10.3897/jucs.169476",
+    "citations": 0
+  },
+  {
+    "title": "From Analysis to Feedback: Using Large Language Models to Support Self-Regulated Learning",
+    "authors": [
+      "Saerok Park",
+      "Ha Nguyen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7335788e10de415786e08c690a2bf227c8fd1e7d",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Thirteenth ACM Conference on Learning @ Scale"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774398.3811565",
+    "citations": 0
+  },
+  {
+    "title": "PALM: Scaling Physiologically-Aware AI Tutoring Through Consumer Wearables and Large Language Models",
+    "authors": [
+      "Chia-Kai Chang",
+      "Kuei-Hao Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d23161149e8a1717d52473572976aa7ef86e9fd",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Thirteenth ACM Conference on Learning @ Scale"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774398.3811576",
+    "citations": 0
+  },
+  {
+    "title": "Measuring Creativity at Scale via Multimodal Large Language Models",
+    "authors": [
+      "Armand Salvador B. Helen A. Lewis",
+      "Xavier Ochoa"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2cafa289bfcb55142d0f966b72dae234a1782ab0",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the Thirteenth ACM Conference on Learning @ Scale"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3774398.3811607",
+    "citations": 0
+  },
+  {
+    "title": "Comparative evaluation of multimodal large language models for Mayo Endoscopic Subscore grading in ulcerative colitis",
+    "authors": [
+      "Xiaoyi Zhao",
+      "Yue Shen",
+      "Jun-Jie He",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1560cc3d3e8cfae53b9f6e44b13429bffde7a95b",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "World Journal of Gastroenterology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "BACKGROUND\n Ulcerative colitis (UC) is a chronic inflammatory disorder that typically affects adults aged 20-40 years and presents with hematochezia and diarrhea. Endoscopic evaluation using the Mayo Endoscopic Subscore (MES; 0-3) is standard for assessing disease severity, but grading depends heavily on endoscopist experience and is prone to interobserver variability. Recent advances in multimodal large language models (MLLMs), such as GPT and Gemini, enable automated interpretation of medical images and text, offering potential for objective and reproducible MES grading. However, their accuracy and consistency across intestinal segments remain largely untested.\n AIM\n To compare the diagnostic accuracy of five MLLMs in UC MES evaluation and to assess consistency across segments and grades.\n METHODS\n We collected 402 endoscopic images from patients with UC covering the entire colon. Three experienced experts independently graded all images according to MES criteria, and 283 images with a unanimous consensus were included as the reference standard. These images were evaluated by five MLLMs and two senior physicians under two conditions: Without segmental context and with anatomical segmental information. Model and physician performance were compared, and stratified analyses were conducted by intestinal segment and MES grade.\n RESULTS\n The diagnostic accuracies of the two inflammatory bowel disease physicians were 81.6% and 78.4%, respectively, with strong interobserver agreement (κ = 0.692). Among the MLLMs, GPT-5 achieved the highest overall performance (F1 = 0.720) with accuracy comparable with that of physician 2 (71.7% vs 78.4%, P = 0.068). Other models exhibited significantly lower performance (all P < 0.001). The sigmoid colon was the most accurately assessed region (mean F1 = 0.682), whereas the rectum and ileocecal region were the most challenging (0.447 and 0.493, respectively). The addition of segmental information improved the accuracy of lower-performing models. Both models and physicians showed the lowest accuracy for MES = 1, reflecting the subjective nature of mild disease activity.\n CONCLUSION\n This study suggested that GPT-5 holds potential for static-image-based MES grading, but performance varies and requires external validation and optimization. Future work will optimize artificial intelligence endoscopy through tuning and multimodality.",
+    "summary": "",
+    "doi": "10.3748/wjg.118690",
+    "citations": 0
+  },
+  {
+    "title": "Virulence modulation and biofilm inhibition of Streptococcus pyogenes by metabolites from endophytic fungi associated with Vanda tessellata",
+    "authors": [
+      "Parvathi Rajeevan",
+      "Ansiya Aneesa",
+      "Gangaprasad Appukuttannair",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/720f6eba0bfd24109d957b02c293a869e6e5d1be",
+    "date": "2026-06-27",
+    "keywords": [
+      "今日上新",
+      "Molecular Biology Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11033-026-12197-9",
+    "citations": 0
+  },
+  {
+    "title": "Study of the electronic structure and pharmacokinetic properties of substituted thiourea linkages using density functional theory",
+    "authors": [
+      "Rahul Verma",
+      "P. K. Kushwaha",
+      "Anoop Kumar Panday",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2dd151de2d284dfa1f6ebeaa50ead7b051836e78",
+    "date": "2026-06-27",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00820-4",
+    "citations": 0
+  },
+  {
+    "title": "Predicting Job Turnaround Time in Large-Scale Distributed Computing Environments with Graph Neural Networks",
+    "authors": [
+      "Tasnuva Chowdhury",
+      "T. Maeno",
+      "Fatih Furkan Akman",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/261ac1accfd5e5ce5a6f522b666e1b2151db529e",
+    "date": "2026-06-27",
+    "keywords": [
+      "今日上新",
+      "EPJ Research Infrastructures"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s41781-026-00167-6",
+    "citations": 0
+  }
+]
