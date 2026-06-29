@@ -93,6 +93,42 @@
     "citations": 0
   },
   {
+    "title": "A data-driven governance framework for co-creation healthcare quality in public hospitals",
+    "authors": [
+      "Huu Phuc Dang",
+      "Nguyen-Kim-Thao Vo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6d65706a5e7fd8c64bc4870d2a1ee4e7e58bf6e2",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Discover Public Health"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s12982-026-02342-x",
+    "citations": 0
+  },
+  {
+    "title": "Detecting the undetectable: an enhanced GAN-BERT framework with ensemble learning, statistical features, and watermarking for robust AI-generated text detection",
+    "authors": [
+      "S. Zample",
+      "Ashu Kaushik"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5a8f44fe92f0ece499c6f11cb71d8d8d14c087e0",
+    "date": "2026-06-28",
+    "keywords": [
+      "今日上新",
+      "Knowledge and Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10115-026-02831-0",
+    "citations": 0
+  },
+  {
     "title": "PALM: Scaling Physiologically-Aware AI Tutoring Through Consumer Wearables and Large Language Models",
     "authors": [
       "Chia-Kai Chang",
@@ -149,6 +185,60 @@
     "citations": 0
   },
   {
+    "title": "Methodological Considerations in Evaluating Large Language Models for Anogenital Lesion Diagnosis.",
+    "authors": [
+      "G. Kalkan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e06b329393c41d72aac0246378316db2fea1b6e5",
+    "date": "2026-06-27",
+    "keywords": [
+      "Journal of Infectious Diseases"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1093/infdis/jiag329",
+    "citations": 0
+  },
+  {
+    "title": "Potential and biases of large language model simulation for public surveys on Alzheimer's disease therapies.",
+    "authors": [
+      "Kenichiro Sato",
+      "Yoshiki Niimi",
+      "R. Ihara",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b13fa182aecb3c96bb79745427f0d376c0397883",
+    "date": "2026-06-27",
+    "keywords": [
+      "Journal of Alzheimer's Disease"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1177/13872877261464182",
+    "citations": 0
+  },
+  {
+    "title": "Automated iridocorneal angle classification using a multimodal large language model.",
+    "authors": [
+      "G. Rubegni",
+      "Dario Romano",
+      "Benedetta Colizzi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7c297750000e58d2104303c99ec597310d7829c9",
+    "date": "2026-06-27",
+    "keywords": [
+      "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00417-026-07333-x",
+    "citations": 0
+  },
+  {
     "title": "Virulence modulation and biofilm inhibition of Streptococcus pyogenes by metabolites from endophytic fungi associated with Vanda tessellata",
     "authors": [
       "Parvathi Rajeevan",
@@ -159,13 +249,31 @@
     "link": "https://www.semanticscholar.org/paper/720f6eba0bfd24109d957b02c293a869e6e5d1be",
     "date": "2026-06-27",
     "keywords": [
-      "今日上新",
       "Molecular Biology Reports"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s11033-026-12197-9",
+    "citations": 0
+  },
+  {
+    "title": "Methodological Considerations in Evaluating Large Language Models for Anatomy Education.",
+    "authors": [
+      "Ismail Sivri",
+      "F. Ozden",
+      "Gamze Gul",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5bafe7c245c42383b4e74ee70a17cf8b2a5ae67b",
+    "date": "2026-06-27",
+    "keywords": [
+      "Clinical anatomy (New York, N.Y. Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/ca.70170",
     "citations": 0
   },
   {
@@ -179,7 +287,6 @@
     "link": "https://www.semanticscholar.org/paper/2dd151de2d284dfa1f6ebeaa50ead7b051836e78",
     "date": "2026-06-27",
     "keywords": [
-      "今日上新",
       "Discover Chemistry"
     ],
     "source": "Semantic Scholar",
@@ -199,13 +306,69 @@
     "link": "https://www.semanticscholar.org/paper/261ac1accfd5e5ce5a6f522b666e1b2151db529e",
     "date": "2026-06-27",
     "keywords": [
-      "今日上新",
       "EPJ Research Infrastructures"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1007/s41781-026-00167-6",
+    "citations": 0
+  },
+  {
+    "title": "Evaluation of Large Language Models for Structured Data Extraction From Interstitial Lung Disease Clinical Notes: Comparative Study.",
+    "authors": [
+      "Stephanie Chen",
+      "M. Maddali",
+      "Curtis P. Langlotz",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fe7117c830bc8bc12e075ad4002d31b05734bb2c",
+    "date": "2026-06-26",
+    "keywords": [
+      "Journal of Medical Internet Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.2196/90547",
+    "citations": 0
+  },
+  {
+    "title": "Discovery of a New Scaffold RSK2 Inhibitor With Virtual and Phenotypical Screening.",
+    "authors": [
+      "Nan Feng",
+      "Qiongru Ning",
+      "Keyi Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fc0236bcb696ea37b0492e4530d1cf5f95d03f31",
+    "date": "2026-06-26",
+    "keywords": [
+      "ChemMedChem"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/cmdc.70293",
+    "citations": 0
+  },
+  {
+    "title": "S100A10 promotes tumorigenesis and metastasis in lung adenocarcinoma by regulating JUND/TNC axis-mediated EMT.",
+    "authors": [
+      "Zhixin Zheng",
+      "Anjie Peng",
+      "Ziyao Xi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fbd1042d4f2a4fab1d2cf88bf6d3aa74301010b9",
+    "date": "2026-06-26",
+    "keywords": [
+      "Translational Oncology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.tranon.2026.102880",
     "citations": 0
   },
   {
@@ -228,6 +391,63 @@
     "citations": 0
   },
   {
+    "title": "Generative AI-enabled clinical decision support system in primary care: a pragmatic, cluster-randomized trial.",
+    "authors": [
+      "A. Agweyu",
+      "P. Mwaniki",
+      "V. Menon",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f458629d219bd3f40990c7a75cda2826ef2a893b",
+    "date": "2026-06-26",
+    "keywords": [
+      "Nature Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41591-026-04503-6",
+    "citations": 0
+  },
+  {
+    "title": "Mapping the availability of climate and health education in European schools of public health: a baseline assessment for indicator development",
+    "authors": [
+      "Eric P Twomey",
+      "F. F. Arsy",
+      "R. Otok",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ed068c8f7f1c76856a0636bc745a98e03ab50983",
+    "date": "2026-06-26",
+    "keywords": [
+      "International Journal of Public Health"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Climate and health education is increasingly recognised as essential for preparing a climate-competent public health workforce, yet reliable European baseline data remain limited. This cross-sectional study assessed the availability of climate and health education in degree-granting Schools of Public Health across the World Health Organization European Region.\n \n \n \n A survey of Association of Schools of Public Health in the European Region member institutions was combined with a large-language-model-assisted web scan and manual verification of institutional websites, curricula, syllabi, and programme descriptions.\n \n \n \n Overall, 268 Schools of Public Health were identified across 53 countries, including 131 ASPHER members and 137 non-members. Of these, 111 institutions (41.4%) offered at least one verified climate and health education programme or course in 2024/2025. Availability was similar among ASPHER members (41%) and non-members (43%). Most identified programmes were offered at master’s level, while vocational, bachelor, doctoral, and continuing professional development opportunities were less frequent.\n \n \n \n Climate and health education is present across much of Europe but remains uneven and concentrated at postgraduate level. The findings provide a verifiable baseline for future monitoring and policy action.\n",
+    "summary": "",
+    "doi": "10.3389/ijph.2026.1609473",
+    "citations": 0
+  },
+  {
+    "title": "The Effectiveness of Chatgpt-4o in the Evaluation of Traumatic Brain Ct Imaging",
+    "authors": [
+      "Ahmet Öztürk",
+      "G. Yanarateş",
+      "Serkan Günay",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e058c40d8012e9728248e5b74a3cac6212acdae1",
+    "date": "2026-06-26",
+    "keywords": [
+      "Sakarya Medical Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Objective: Large language models (LLMs) such as GPT-4o have recently introduced real-time multimodal capabilities, including medical image interpretation. No prior studies have systematically assessed GPT-4o’s diagnostic accuracy for brain CT scans in trauma patients. We aimed to evaluate GPT-4o’s performance in identifying intracranial pathologies on brain CT images in this setting.Methods: This retrospective cross-sectional study included adult patients presenting with head trauma between January and June 2024. For each patient, four representative CT slices were selected by a board-certified radiologist, whose interpretations served as the reference standard. The selected images were analysed by GPT-4o. Model outputs were compared with the radiologist’s assessments, and diagnostic accuracy metrics were calculated.Results: A total of 54 patients were included. Observed pathologies comprised epidural hematoma (22.2%), subdural hematoma (44.4%), subarachnoid hemorrhage (57.4%), parenchymal hemorrhage/contusion (29.6%), pneumocephalus (13.0%), and intraventricular hemorrhage (3.7%). GPT-4o correctly identified all present pathologies in 7.4% of cases and at least one pathology in 24.1%. In 68.5% of cases, no pathology was correctly detected. Sensitivity was low across all categories: epidural hematoma 8.3% (AUC 0.506), subdural hematoma 25.0% (AUC 0.508), subarachnoid hemorrhage 3.2% (AUC 0.451), parenchymal hemorrhage/contusion 50.0% (AUC 0.592), and pneumocephalus 14.3% (AUC 0.571). GPT-4o also generated false positives across multiple pathology categories.Conclusions: GPT-4o demonstrated insufficient diagnostic accuracy for the independent interpretation of brain CT scans in trauma patients, with low sensitivity and frequent misclassification. These findings underscore the necessity for task-specific training and rigorous validation in larger, multicentre studies prior to clinical implementation.",
+    "summary": "",
+    "doi": "10.31832/smj.1855415",
+    "citations": 0
+  },
+  {
     "title": "A large language model-driven semantic inference framework for business logic vulnerability discovery in power system microservice APIs",
     "authors": [
       "Xuhua Ai",
@@ -244,6 +464,44 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.1186/s44147-026-01100-9",
+    "citations": 0
+  },
+  {
+    "title": "Machine learning-driven prioritization and experimental validation of traditional Chinese medicine-derived STING-inhibitory candidates.",
+    "authors": [
+      "Tian Zhao",
+      "Dan Chen",
+      "Zongjun Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c9dc457384c0c50333bcd2482a6854f15d0060b6",
+    "date": "2026-06-26",
+    "keywords": [
+      "Molecular diversity"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11030-026-11634-y",
+    "citations": 0
+  },
+  {
+    "title": "ZHMolTopoRPI: A Commutative Algebra-Driven Deep Learning Framework for Robust RNA-Protein Interaction Prediction.",
+    "authors": [
+      "Long Chen",
+      "Haoquan Liu",
+      "Yunjie Zhao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c54aad73e56ddaae3e3705516b855b546fc148fa",
+    "date": "2026-06-26",
+    "keywords": [
+      "Deep Learning",
+      "Journal of Chemical Information and Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1021/acs.jcim.6c01199",
     "citations": 0
   },
   {
@@ -275,12 +533,32 @@
     "link": "https://www.semanticscholar.org/paper/ae0fe0a90d4e09e0120b110d0a41e0e54695584b",
     "date": "2026-06-26",
     "keywords": [
+      "Fine-tuning",
       "Sensors and materials"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In previous studies, large language models (LLMs) were fine-tuned using Korean utterance data to improve performance in small-scale computing environments by applying the low-rank adaptation (LoRA) method. In addition, Gradient Checkpointing and Gradient Accumulation techniques were employed to address computational resource limitations, enabling efficient fine-tuning under constrained computing conditions. The purpose of this study is to develop a marine geospatial information LLM. To achieve this, the LLM previously fine-tuned on Korean utterance data was enhanced by integrating a retrieval-augmented generation (RAG) framework, a document-based inference approach, with marine geospatial information data. First, domain-specific terminology learning was conducted using the International Hydrographic Organization Dictionary (S-32), which provides standardized definitions. Additionally, data on current speed, current direction, wind speed, and wind direction were collected from the Badanuri marine information service provided by the Korea Hydrographic and Oceanographic Agency and incorporated into the RAG knowledge base. Subsequently, S-101 and S-102 datasets were preprocessed to extract bathymetric depth information and were also integrated into the RAG framework. In conclusion, this study demonstrates the feasibility of developing a marine geospatial information-specialized LLM in a resource-constrained environment and enhances the practical applicability of the proposed marine geospatial information LLM through RAG-based knowledge integration.",
+    "summary": "",
+    "doi": "10.18494/sam6189",
+    "citations": 0
+  },
+  {
+    "title": "Design and realization of high performance textured lead-free piezoelectric ceramics through human-AI collaboration.",
+    "authors": [
+      "Aman Nanda",
+      "Debjyoti Bhattacharya",
+      "Nayeon Kang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a14bab3e20d4a2c98f16d6c8d048459f9bbf74df",
+    "date": "2026-06-26",
+    "keywords": [
+      "Nature Communications"
     ],
     "source": "Semantic Scholar",
     "abstract_raw": null,
     "summary": "",
-    "doi": "10.18494/sam6189",
+    "doi": "10.1038/s41467-026-74568-x",
     "citations": 0
   },
   {
@@ -300,6 +578,25 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.06.16.26355773",
+    "citations": 0
+  },
+  {
+    "title": "Domain-Specific Summarization to Enhance LLM Effectiveness",
+    "authors": [
+      "Hamza Emin Hacıoğlu",
+      "İsmail Karakaya",
+      "Ensar Erdoğan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9ca3804ffaa3aeb29d5e6c3406718d980fbbd74c",
+    "date": "2026-06-26",
+    "keywords": [
+      "Journal of Defence and Security Industries:  Strategy and Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) have become increasingly prevalent in the field of natural language processing, particularly for text summarization tasks. Their ability to capture semantic relationships and generate coherent summaries has made them a powerful alternative to traditional extractive and abstractive summarization methods. However, the effective summarization of long and domain-specific texts, such as petitions, remains a challenging problem. This study explores the problem of petition text summarization by applying state-of-the-art LLMs and evaluating various training strategies on a custom-built dataset. The paper investigates different model training approaches, including Low-Rank Adaptation (LoRA) and prompt engineering techniques, to optimize summarization quality. Human-in-the-loop summarization methods are also incorporated to refine the models, ensuring high-quality outputs in real-world scenarios. Furthermore, the model’s performance is assessed through expert evaluation, which highlights areas for potential improvement in terms of both accuracy and coherence. The research further delves into methods for effectively summarizing long-form petition texts, exploring ways to preserve critical information while maintaining brevity and readability. The results demonstrate the feasibility of leveraging LLM-based summarization methods for complex, lengthy texts while providing insights into the challenges and opportunities within this evolving field.",
+    "summary": "",
+    "doi": "10.65834/jdsi.12.32",
     "citations": 0
   },
   {
@@ -357,6 +654,25 @@
     "citations": 0
   },
   {
+    "title": "Supporting Radiology Resident Education and Clinical Decision-Making With Large Language Models: Comparative Study of Reasoning Models DeepSeek-R1 and ChatGPT-o1.",
+    "authors": [
+      "Semil Eminovic",
+      "Robin Schmidt",
+      "B. Levita",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/87daef1113f086ec60852dd67c79ce18289dc1b9",
+    "date": "2026-06-26",
+    "keywords": [
+      "JMIR AI"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.2196/86974",
+    "citations": 0
+  },
+  {
     "title": "Artificial Intelligence, Cognitive Abundance, and the Multi-Layered Competence of Health Professionals.",
     "authors": [
       "M. Pusic",
@@ -372,6 +688,23 @@
     "abstract_raw": "ABSTRACT\nArtificial intelligence (AI) is transforming how health care professionals develop, maintain, and express competence across the span of their careers. Traditional continuing professional development has been shaped by a paradigm of what has been called cognitive scarcity (or informational resource scarcity) where clinicians had limited opportunity to find, read, synthesize, and interpret evidence, and learning systems evolved to deliver knowledge in periodic, curated updates. Emerging AI systems-large language models, multimodal analytic tools, predictive algorithms, and reflective agents-disrupt this scarcity by creating cognitive abundance (or informational resource abundance). These systems generate real-time evidence syntheses, contextual insights, adaptive learning trajectories, and continuous performance feedback. Using ten Cate et al.'s (2024, Medical competence as a multilayered construct. Med Educ, 58, 93) multilayered model of competence-canonical, contextual, and personalized-this paper analyzes how AI can both enhance existing educational processes and fundamentally reshape the developmental landscape. AI shifts clinicians from being knowledge stewards to orchestrators of distributed cognition, from experiential learners to data-informed practitioners, and from using opportunistic continuous personal development to continuous reshaping of professional identity. Continuing professional development must evolve to cultivate AI literacy, hybrid reasoning, interprofessional coherence, and ethical stewardship in work environments where cognition is abundant. The contents of long-term memory of clinicians will shift from a predominance of biomedical facts needed to steer daily clinical work, to new procedural inquiry skills needed to find, select, and evaluate the validity of information for clinical decision making.",
     "summary": "",
     "doi": "10.1097/CEH.0000000000000656",
+    "citations": 0
+  },
+  {
+    "title": "National Science Foundation interdisciplinary graduate training awards from 1996 to 2026.",
+    "authors": [
+      "Monica Marion",
+      "Stasa Milojevic"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7d5027d39216891dd1bdac9ea0cddba2b3311d4c",
+    "date": "2026-06-26",
+    "keywords": [
+      "Scientific Data"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41597-026-07678-2",
     "citations": 0
   },
   {
@@ -411,6 +744,104 @@
     "citations": 0
   },
   {
+    "title": "Novel Mannich based derivatives of isoliquiritigenin and liquiritigenin, bioactive constituents of Glycyrrhiza glabra, as potent antimalarial agents.",
+    "authors": [
+      "Jyoti",
+      "Sana Khan",
+      "Subhasundar Maji",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/694ad578220e9e0d6f20563ca0a5ff961efe2262",
+    "date": "2026-06-26",
+    "keywords": [
+      "Agent",
+      "Natural Product Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1080/14786419.2026.2690632",
+    "citations": 0
+  },
+  {
+    "title": "Comparative evaluation of radiological anatomy knowledge and accuracy of ChatGPT-5, Gemini 2.5, and Grok 4 across normal and thinking modes.",
+    "authors": [
+      "Ismail Sivri",
+      "F. Ozden",
+      "Halit Çelik",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/63e8129b7e0f3fd09ba4ce72f4a77bdd003f06d9",
+    "date": "2026-06-26",
+    "keywords": [
+      "Anatomical Sciences Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/ase.70292",
+    "citations": 0
+  },
+  {
+    "title": "Automated Identification of Surgical Site Infections From Electronic Medical Records: Retrospective Observational Predictive Modeling Study.",
+    "authors": [
+      "Arjun Chakraborty",
+      "Peter Tarczy-Hornoch",
+      "Dustin R. Long",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/63a57e6a910aa18257f48f633b56e47b2fc640a3",
+    "date": "2026-06-26",
+    "keywords": [
+      "Deep Learning",
+      "Foundation Model",
+      "JMIR Perioperative Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Background\nSurgical site infections (SSIs) affect 160,000 to 300,000 patients annually, increasing postoperative mortality, causing significant complications, and incurring US $3.5 to US $10 billion in excess costs each year. Effective SSI surveillance can inform strategies to mitigate these outcomes. Traditional SSI surveillance methods, primarily manual chart reviews, are costly and labor-intensive.\n\n\nObjective\nThis study aimed to evaluate whether an automated SSI surveillance system built using newer natural language processing methods and deep learning could outperform previous approaches and whether such an approach could enable more efficient infection surveillance.\n\n\nMethods\nOur dataset comprised approximately 30,000 surgical cases from the University of Washington Medical Center (UWMC) and Harborview Medical Center (HMC). Data from UWMC were captured for the National Surgical Quality Improvement Program, and data from HMC were captured for the National Healthcare Safety Network. Electronic health record (EHR) data for each surgical case included structured data pertaining to surgical procedure characteristics, laboratory values, and antibiotic administration, as well as clinical text notes for a surgical case from 7 days before to 90 days after surgery. Using this data, we applied a myriad of machine learning approaches to the task of SSI prediction. We reported the following performance metrics: F1-score, precision (positive predictive value), recall (sensitivity), area under the precision-recall curve, and precision at 0.9 recall for each machine learning approach.\n\n\nResults\nIn a cohort of 5996 surgical cases, incorporating multimodal EHR information-including contextual information from clinical text and temporal information from laboratory values-improved SSI prediction performance. Models using structured data and clinical text outperformed structured data alone (F1=0.68, 95% CI 0.68-0.69 vs F1=0.55, 95% CI 0.54-0.56; P<.001). Adding temporal features further improved performance (F1=0.70, 95% CI 0.69-0.71; P<.001). Deep learning approaches leveraging large language models also outperformed the state-of-the-art rule-based system (F1=0.70, 95% CI 0.69-0.71 vs F1=0.43; P<.001). The optimal approach combined foundation models for text summarization with deep learning methods for clinical text and temporal data processing. This system achieved a precision of 0.38 at 0.9 recall, demonstrating its potential for efficient, data-driven SSI surveillance.\n\n\nConclusions\nAutomated surveillance approaches-particularly deep learning approaches-in combination with voluminous, multimodal data from the EHR, can enable more efficient infection surveillance processes. This has the potential to increase the quantity of SSI surveillance data available to guide interventions aimed at reducing SSI rates.",
+    "summary": "",
+    "doi": "10.2196/87896",
+    "citations": 0
+  },
+  {
+    "title": "Interpretable graph neural networks for predicting drug activity in triple-negative breast cancer using scaffold-based splits.",
+    "authors": [
+      "Basab Nath",
+      "Prakhar Consul",
+      "H. Gianey",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5c4c9705c9d00640ed9fd04669d3f6df7ef0070b",
+    "date": "2026-06-26",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-58978-x",
+    "citations": 0
+  },
+  {
+    "title": "Large-scale tethered screen of RNA-binding proteins reveals novel regulators of poly(A) site selection.",
+    "authors": [
+      "Pratibha Jagannatha",
+      "Yoseop Yoon",
+      "Samuel B Landry",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5b3874480f50a02586177efd638e74a740b09388",
+    "date": "2026-06-26",
+    "keywords": [
+      "Molecules and Cells"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.molcel.2026.06.011",
+    "citations": 0
+  },
+  {
     "title": "Llm-Based Farmer Advisory System Using Retrieval and Tool-Augmented Reasoning",
     "authors": [
       "Pooja A. Sutar",
@@ -427,6 +858,62 @@
     "abstract_raw": "Timely, accurate, and context-aware advisory support is essential for improving agricultural productivity and decision-making. Traditional agricultural advisory systems often provide generalized recommendations and lack real-time adaptability to individual farmer requirements. To address these limitations, this paper presents an intelligent LLM-based Farmer Advisory System that integrates conversational artificial intelligence with Retrieval-Augmented Generation (RAG), tool-based reasoning, and multimodal analysis. The proposed system utilizes a LangGraph-based orchestration framework in which the Large Language Model dynamically determines whether to retrieve information from a FAISS-based knowledge repository, invoke external tools such as weather APIs, or generate responses directly based on user queries. The system further incorporates farmer-specific contextual information, including crop type, geographical location, and soil conditions, to provide personalized and relevant recommendations. In addition, a vision-based crop disease detection module is integrated to analyze crop images and assist farmers in identifying possible diseases. The system is implemented as a web-based application using Flask, enabling seamless interaction through a user-friendly interface. The proposed hybrid framework improves the reliability, adaptability, and usability of agricultural advisory services compared to conventional approaches. Experimental observations indicate that combining LLM reasoning with retrieval mechanisms and external tools significantly enhances the effectiveness of AI-driven agricultural assistance systems in real-world farming environments.",
     "summary": "",
     "doi": "10.47392/irjaeh.2026.0576",
+    "citations": 0
+  },
+  {
+    "title": "AeroSec: a vertical domain large language model for air traffic management cybersecurity.",
+    "authors": [
+      "Ruochen Dong",
+      "Chengkai Piao",
+      "Buhong Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/50dd95f8273fe6edeadb825afeef1d4fefcbd798",
+    "date": "2026-06-26",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-48305-9",
+    "citations": 0
+  },
+  {
+    "title": "Organ masks applied in feature space improve weakly supervised scan-level CT classification.",
+    "authors": [
+      "Lena Philipp",
+      "Han Liu",
+      "Sasa Grbic",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4de5f2d0b0e56c02e1187023ade5fde7dc10753b",
+    "date": "2026-06-26",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-59821-z",
+    "citations": 0
+  },
+  {
+    "title": "A lightweight hybrid ViT-GNN framework for data-centric land cover mapping in the amazon biome using graph structural priors.",
+    "authors": [
+      "W. Sugiharto",
+      "M. I. Ghozali",
+      "A. C. Murti"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b9adf3d5bde7b3bba7715e957b243afde7110a5",
+    "date": "2026-06-26",
+    "keywords": [
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41598-026-59674-6",
     "citations": 0
   },
   {
@@ -448,6 +935,25 @@
     "citations": 0
   },
   {
+    "title": "AI-assisted Software Development in Digital Dentistry: A Technical Innovation Report with Three Open-Source Applications.",
+    "authors": [
+      "M. Reymus",
+      "A. Tichý",
+      "C. Diegritz",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3dee1e57a5b40f9ebb9cf7235100fa5b1edfb4c5",
+    "date": "2026-06-26",
+    "keywords": [
+      "E -journal of dentistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.jdent.2026.106864",
+    "citations": 0
+  },
+  {
     "title": "Digital Twin Sync: A Context-Aware Cognitive Architecture for Proactive Productivity and Behavioral Inference Using LLM-Driven Telemetry Analysis",
     "authors": [
       "Sushobhan Limbole",
@@ -464,6 +970,60 @@
     "abstract_raw": "The exponential proliferation of digital tasks, asynchronous communications, and fragmented application ecosystems has subjected modern professionals to unprecedented levels of cognitive overload. Conventional productivity tools function as static repositories that depend on exhaustive manual input and fail to adapt to the fluctuating psychological states of their users. This paper presents Digital Twin Sync, a context-aware software ecosystem built on a Digital Twin paradigm that passively analyzes user behavioral patterns to boost longitudinal productivity. The framework unifies a Flutter-based cross-platform mobile client with an asynchronous, decoupled Node.js and MongoDB backend. The system ingests multidimensional behavioral telemetry—encompassing task-completion velocities, application-interaction intervals, and secure contextual extraction from the Gmail API—and fuses these signals with the native inferential capabilities of the Gemini 2.5 Flash Large Language Model (LLM). Scheduled overnight inference batches synthesize psychological state vectors, calculating fluid metrics such as momentary stress levels, communication styles, and trajectory-based growth areas. The paper further describes the decoupled system architecture, passive data ingestion schema, and the methodological construction of the psychological inference engine. Furthermore, n8n-driven HTTP-triggered automation pipelines realize proactive task management, while a nature-preserving ethical memory model enforces sustainable decision-making. Empirical evaluation demonstrates workflow automation with sub-1.5-second average latency and AI prediction accuracy exceeding 91% after multiple learning cycles.",
     "summary": "",
     "doi": "10.47392/irjaeh.2026.0563",
+    "citations": 0
+  },
+  {
+    "title": "Comparing human and AI emotional evaluations of images: GPT-4o performance across standard, persona, and language-specific prompting strategies.",
+    "authors": [
+      "Maiko Kobayashi",
+      "Akira Goto",
+      "Akihito Himuro"
+    ],
+    "link": "https://www.semanticscholar.org/paper/39f095784cd586dda8ddba8eaadbf7b55aa61c6b",
+    "date": "2026-06-26",
+    "keywords": [
+      "BMC Psychology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s40359-026-05067-3",
+    "citations": 0
+  },
+  {
+    "title": "Large language models in radiology exams: A cross-sectional comparative analysis of performance in Turkish and English.",
+    "authors": [
+      "Şahinde Atlanoğlu",
+      "Mehmet Ali Gedik"
+    ],
+    "link": "https://www.semanticscholar.org/paper/38aa0044ecdd48316fe1bb238ef3e4bc4bdba070",
+    "date": "2026-06-26",
+    "keywords": [
+      "Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study evaluated the success of large language models on radiology questions, analyzing language variations, temporal consistency, and performance against residents. We evaluated ChatGPT-5, Grok-4, Claude 4.5 Sonnet, and Gemini 2.5 Pro using 100 multiple-choice questions across 5 subspecialties. Linguistic impact (Turkish vs English) and 1-week temporal reliability were assessed. Performance was benchmarked against a control group of 18 radiology residents (years 1-3). Gemini 2.5 Pro achieved the highest accuracy (90%), followed by Claude 4.5 Sonnet (86%). All models and 3rd-year residents significantly outperformed junior residents. While no significant performance gap existed between languages (P = 1.000), Claude 4.5 Sonnet demonstrated superior temporal reliability (κ = 0.872) compared with the moderate consistency of Grok-4 and ChatGPT-5. High-performance large language models provide accurate radiology knowledge comparable with senior residents, showing significant potential for education. Future research must incorporate image-based datasets to determine clinical efficacy.",
+    "summary": "",
+    "doi": "10.1097/MD.0000000000049517",
+    "citations": 0
+  },
+  {
+    "title": "Applications, Challenges, and Future Directions of Large Language Models in Health Care Communication: Scoping Review.",
+    "authors": [
+      "Jing Chang",
+      "Ruotong Peng",
+      "Xi Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3463a1405738defbe951d89bcf86744c8ff103c6",
+    "date": "2026-06-26",
+    "keywords": [
+      "Journal of Medical Internet Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.2196/84726",
     "citations": 0
   },
   {
@@ -805,6 +1365,22 @@
     "citations": 0
   },
   {
+    "title": "The sonic image of homeland in German linguaculture: representation and algorithmic stereotyping in DeepSeek-generated texts",
+    "authors": [
+      "N. Evtugova"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ddf00e11efb440aa1f0be763d3e24f7b06e63c24",
+    "date": "2026-06-25",
+    "keywords": [
+      "Current Issues in Philology and Pedagogical Linguistics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This article examines the semantic and discursive features of generated texts created by large language models such as DeepSeek using German culture as an example. The topics of these generations primarily involve personal associations conditioned by the human perception system, specifically, sound associations with the concept “homeland.” This choice stems from the fact that such texts are closer to personality-oriented types of discourse and allow for a better understanding of the generation characteristics (in terms of the reliability of the information obtained from them, as well as the structural and semantic features of the texts), which explains the relevance of the study. The aim of the article is to identify linguistically specific means of representing the sonic image of the homeland in generated discourse using German culture as an example. The study material includes texts generated by the large language model DeepSeek. A survey of 78 native German speakers living in Germany was also conducted and asked the questions. The study uses a comprehensive methodology that includes elements of linguistic, conceptual, discourse, and contextual analysis. A comparative method is used to compare the generated sound images with the respondents’ answers. The author of the article believes that two components can be identified in the generated texts by DeepSeek: communicative and informative. The topic of the request and the mode of address (polite/informal) influence the style of presentation in both aspects. The development of the creative function of online communication (forums, comments) at the phonetic, lexical, and grammatical levels is reflected in the generated texts (especially in the communicative component), depending on the recipient’s request style and the linguistic resources incorporated into it. In answering questions, DeepSeek uses syntactic and semantic structures close to institutional discursive practices, namely, linguistic research, categorizing associative sounds into thematic groups using a classificatory approach. The style of presentation is poetic. For Zoomers, DeepSeek cites the sounds of gadgets as associative reactions characterizing the Homeland. No such associations were found in the Zoomer survey.",
+    "summary": "",
+    "doi": "10.29025/2079-6021-2026-2-29-39",
+    "citations": 0
+  },
+  {
     "title": "PUBLIC PERCEPTIONS OF INDONESIA’S 12% VAT REFORM: A LARGE LANGUAGE MODEL SENTIMENT ANALYSIS",
     "authors": [
       "Windi Ariesti Anggraeni",
@@ -1076,6 +1652,26 @@
     "citations": 0
   },
   {
+    "title": "What Large Language Models Know About Plant Molecular Biology",
+    "authors": [
+      "Manuel Fernandez Burda",
+      "Lucía V. Ferrero",
+      "Nicolás Gaggion",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1d0477f46c0932e44668ae05cca5802cec024db",
+    "date": "2026-06-25",
+    "keywords": [
+      "Cited: 1",
+      "bioRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1101/2025.08.31.672925",
+    "citations": 1
+  },
+  {
     "title": "Evaluating Generative Video AI for Standardized Psychiatric Patient Simulation With Graded Hygiene Deterioration.",
     "authors": [
       "B. Mwangi",
@@ -1227,6 +1823,22 @@
     "abstract_raw": null,
     "summary": "",
     "doi": "10.64898/2026.06.18.733163",
+    "citations": 0
+  },
+  {
+    "title": "AI, affective development, and the ‘third space’ of learning",
+    "authors": [
+      "Manesha Peiris"
+    ],
+    "link": "https://www.semanticscholar.org/paper/88fd52f1e252212477205f50d3b28cbc86b81c6e",
+    "date": "2026-06-25",
+    "keywords": [
+      "Journal of Learning Development in Higher Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This article explores the emotional dimensions of students’ engagement with assessment feedback and examines how generative artificial intelligence (GenAI), particularly large language models (LLMs), may support learners’ affective development. Although feedback is often framed as a cognitive tool for improvement, it is also an emotional experience shaped by anxiety, uncertainty, and defensiveness, influencing how learners interpret and act on it. Drawing on Homi Bhabha’s concept of the ‘third space’, feedback is conceptualised as a negotiated site between educator intent and learner interpretation. Within this space, learners construct understanding through prior experiences and emotional responses. The article argues that LLMs can mediate this process by making feedback more accessible, actionable, and emotionally manageable, supporting feedback literacy. It also considers risks, including over-reliance on GenAI, reduced interpretive skills, and diminished academic precision. Their value lies in enhancing equitable engagement with feedback rather than replacing academic judgement or educator expertise in higher education.",
+    "summary": "",
+    "doi": "10.47408/jldhe.vi40.1983",
     "citations": 0
   },
   {
@@ -2768,7 +3380,7 @@
     "authors": [
       "Xingyun Liu",
       "Yuehan Liao",
-      "Fan Feng",
+      "F. Feng",
       "et al."
     ],
     "link": "https://www.semanticscholar.org/paper/8579e1b512818bab4e5ef12eab194a3f2407c2ea",
@@ -4252,6 +4864,25 @@
     "abstract_raw": "The development of Artificial Intelligence (AI), particularly Large Language Models such as ChatGPT, has changed the paradigm of creative writing learning in secondary schools. However, empirical evidence regarding the relationship between the intensity of this technology utilization and the quality of students' literary works is still limited. This study aims to examine the relationship between AI utilization and the poetry writing skills of grade XI students at Karya Budi Putussibau Senior High School. The method used was a quantitative correlational method with a sample of N = 27 students selected through a random sampling technique. Data were collected using an AI utilization questionnaire (30 valid and reliable statements, (α= 0.975) and a poetry writing test assessed with an analytical rubric. The results of descriptive statistical analysis showed that the level of AI utilization was in the high category (M =    3.70) and students' poetry writing skills were in the good category (M =  78.41). The Pearson Product Moment correlation test showed a very strong and significant positive relationship between the two variables (r = 0.978; p < 0.01). These findings confirm that proper AI integration acts as a creative catalyst that helps students explore diction and imagery structure in the poetry writing process.",
     "summary": "",
     "doi": "10.59024/bhinneka.v4i3.1788",
+    "citations": 0
+  },
+  {
+    "title": "Using ChatGPT for thematic analysis of qualitative interviews in cultural research: a methodological investigation.",
+    "authors": [
+      "M. Umer",
+      "M. Asif",
+      "S. Xue",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/94edb7220400fc417f044ab255aab5217cf8c8b0",
+    "date": "2026-06-23",
+    "keywords": [
+      "Asian Journal of Psychiatry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "OBJECTIVE\nThe use of artificial intelligence (AI) tools in clinical and psychotherapy research is gaining increasing attention. This study explores the application of a large language model (LLM), ChatGPT version 4.5, as a coding assistant for qualitative data in psychotherapy research.\n\n\nMETHODS\nTwenty-four semi-structured qualitative interviews were conducted with 12 patients with bipolar disorder and 12 family caregivers participating in a study of a culturally adapted psychotherapy intervention in Pakistan. Interviews were transcribed in Roman Urdu and analyzed using ChatGPT, which was prompted to generate English-language thematic codes and interpretations. Outputs were critically reviewed by a bilingual qualitative researcher for cultural relevance and semantic accuracy.\n\n\nRESULTS\nChatGPT produced efficient, structured codes and surface-level thematic interpretations. However, it frequently missed emotional nuances, idiomatic expressions, and culturally embedded meanings. Human oversight was essential for ensuring interpretive depth and contextual validity.\n\n\nCONCLUSION\nThe use of ChatGPT as an AI-assisted tool for qualitative analysis offers potential for enhancing efficiency in psychotherapy research but remains limited in capturing cultural and emotional subtleties. AI-human collaboration represents a promising but still evolving approach for cross-cultural qualitative research in mental health.",
+    "summary": "",
+    "doi": "10.1016/j.ajp.2026.105071",
     "citations": 0
   },
   {
@@ -6237,6 +6868,25 @@
     "citations": 0
   },
   {
+    "title": "Knowledge-Based Emergency Decision Support with Large Language Models and Structured Graph",
+    "authors": [
+      "Fangzhou Lin",
+      "Zhe Chen",
+      "Mingkai Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b0add2cae696bb1b15bdc82c89c4f63d5ee624e",
+    "date": "2026-06-22",
+    "keywords": [
+      "Proceedings of the International Symposium on Automation and Robotics in Construction (IAARC)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.22260/isarc2026/0014",
+    "citations": 0
+  },
+  {
     "title": "Radiation-Induced Tumor-Intrinsic LTβR N-Glycosylation Suppresses Pyroptosis Through TRIM28-Mediated PCBP2 SUMOylation to Promote Gastric Cancer Radioresistance.",
     "authors": [
       "Weijie Zang",
@@ -7142,6 +7792,25 @@
     "abstract_raw": "Drug-induced liver injury (DILI) is a leading cause of drug failure and post-market withdrawals. Traditional preclinical methods fail to detect up to 40-45% of clinical hepatotoxicity cases. Computational approaches, particularly those based on machine learning and deep learning (DL), are emerging as promising tools to support medicinal chemistry and early drug discovery, though their predictive capabilities remain under active investigation. In this perspective, we review the development of DILI annotation data sets, tracing their growth from small collections to large, comprehensive resources. We also outline the evolution of computational methods, from simple descriptor-based models to advanced DL and ensemble approaches that incorporate interpretable features. Finally, we highlight recent efforts to integrate standardized causality frameworks, pharmacogenomics, and mechanistic models, aiming to connect computational advances with clinical relevance. This perspective provides valuable insight for researchers and promotes the development of more robust and consensual DILI prediction strategies.",
     "summary": "",
     "doi": "10.1021/acs.jmedchem.5c02888",
+    "citations": 0
+  },
+  {
+    "title": "A Strongly Typed Assembly Agent for Construction Integrating Rhino and Multimodal Large Language Models",
+    "authors": [
+      "Song Du",
+      "Wei Tong",
+      "Yiwei Weng"
+    ],
+    "link": "https://www.semanticscholar.org/paper/194fca8362955e032d725e23ec7dae026d5aefd9",
+    "date": "2026-06-22",
+    "keywords": [
+      "Agent",
+      "Proceedings of the International Symposium on Automation and Robotics in Construction (IAARC)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.22260/isarc2026/0043",
     "citations": 0
   },
   {
@@ -17961,660 +18630,6 @@
     "abstract_raw": "Multi-agent systems, in which multiple large language model agents solve problems through turn-based interaction, are increasingly deployed in high-stakes settings such as medical diagnosis, legal analysis, and forensic decision-making. Their reliability can be at risk when single agents reason from incorrect or misleading context, e.g., from tool calls, since errors may propagate through agent interactions. This work studies this risk by injecting intent-based misinformation into benign single-agent and multi-agent systems across reasoning, knowledge, and alignment tasks. We find that misinformation can degrade single-agent performance and persists across multi-agent debate, with agents often retaining answers introduced by misinformed peers. Nevertheless, multi-agent debate reduces the resulting performance degradation compared to single-agent prompting, especially when most agents are not exposed to misinformation. Robustness depends on group composition and decision protocol. Consensus can be more stable than voting under peer pressure, while majorities can often steer misinformed agents back toward correct answers. Our results show that misinformation robustness in multi-agent systems depends on the underlying model and also on how agents exchange information and aggregate decisions.",
     "summary": "",
     "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Exploring FDA-Approved Drugs Against HER2⁺ Breast Cancer: A Comprehensive In-Silico Identification of Lurtotecan as a Promising Candidate",
-    "authors": [
-      "S. Hamim",
-      "A. Issahaku",
-      "Nor Adila Mhd Omar",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/8bdbc9c0338693742aeb2c649058a20f785e1790",
-    "date": "2026-06-15",
-    "keywords": [
-      "Biointerface Research in Applied Chemistry"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "HER2 (human epidermal growth factor receptor 2) is a critical oncogenic driver in aggressive breast cancers (BC) and remains an important target for therapeutic intervention. Although targeted therapies such as trastuzumab deruxtecan have shown remarkable efficacy, identifying alternative HER2 inhibitors is essential to overcome resistance and expand treatment options. In this study, an integrated in-silico drug repurposing strategy combining pharmacophore-based virtual screening of the DrugBank database, molecular docking, prime Molecular Mechanics Generalized Born Surface Area (MM/GBSA), molecular dynamics (MD) simulations, and post-MD MM/GBSA free energy calculations was applied to identify FDA-approved compounds with potential HER2+ inhibitory activity. The SwissSimilarity screening of the DrugBank database using the pharmacophore-based screening method retrieved fourteen (14) compounds structurally similar to trastuzumab deruxtecan, with similarity scores between 0.352 and 0.751. Further, molecular docking performed using PyRx revealed strong binding affinities ranging from -7.9 to -11.6 kcal/mol, identifying Exatecan (-11.6 kcal/mol), Gimatecan (-10.9 kcal/mol), and Lurtotecan (-10.6 kcal/mol) as top candidates. The clinically approved HER2-targeted drug Trastuzumab Deruxtecan was used as a reference compound for benchmarking the binding interactions, exhibiting a binding affinity of -9.9 kcal/mol. Moreover, prime MM/GBSA calculations supported these findings, with binding free energies of -53.00 kcal/mol for trastuzumab deruxtecan and -45.84 kcal/mol for lurtotecan. MD simulations over 200 ns confirmed the conformational stability of the Lurtotecan-HER2 complex, demonstrating consistent root-mean-square deviation (RMSD) and root-mean-square fluctuations (RMSF) profiles, a stable radius of gyration (RoG), and hydrogen bonding (HB), indicating enhanced structural compactness. Post-MD simulation MM/GBSA analysis revealed a binding free energy of -26.13 ± 8.50 kcal/mol for Lurtotecan, which was comparable to -24.18 ± 6.21 kcal/mol for Trastuzumab Deruxtecan, indicating stable interactions with HER2. Functional enrichment analysis (GO and KEGG) revealed a significant association with oncogenic pathways such as “Pathways in cancer” (hsa05200), involving HER2, PIK3CA, and MTOR. Collectively, these integrative computational findings highlight lurtotecan as a promising candidate for repurposing against HER2+ BC and merit further in vitro and in vivo evaluation.",
-    "summary": "",
-    "doi": "10.33263/briac163.076",
-    "citations": 0
-  },
-  {
-    "title": "Surpassing Scale by Efficiency: A Compact 135M Parameter Foundational LLM Natively Adapted for the Bangla Language",
-    "authors": [
-      "R. N. Nandi"
-    ],
-    "link": "https://www.semanticscholar.org/paper/8a59601f65543d84e14ce4bcf716fc939bab198b",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "While the NLP landscape is dominated by multi-billion parameter architectures, their deployment in low-resource, non-Latin scripts remains computationally prohibitive for edge configurations, mobile systems, and decentralized local hardware. This paper presents bangla-smollm-135m, a highly compact 135-million parameter decoder-only foundational model engineered explicitly for high-efficiency language modeling in the Bangla script. By leveraging a deterministic intersect-and-append token merging strategy between TituLLMs and SmolLM2-135M, the model overcomes subword script fragmentation without destabilizing early pretrained parameter states. In zero-shot multi-task benchmark evaluations (PIQA_bn, OpenBookQA_bn, CommonsenseQA_bn, and Bangla_MMLU), bangla-smollm-135m matches or outperforms models twice its size (Gemma-3-270m) and achieves parity with models in the 1B parameter tier. The model is available at rnnandi/bangla-smollm-135m",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Focus When Necessary: Adaptive Routing and Collaborative Grounding for Training-Free Visual Grounding",
-    "authors": [
-      "Yifan Wang",
-      "Peiming Li",
-      "Shiyue Li",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/889fad0e0dcc124c2e2dcf2ba367195bb50f8868",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "While Multimodal Large Language Models (MLLMs) excel in cross-modal reasoning, they often struggle to perceive fine-grained details in complex high-resolution images. Recent training-free methods address this through image scaling and localized cropping. However, applying these manipulations indiscriminately introduces computational redundancy for simple queries and can degrade accuracy by truncating essential global context or introducing irrelevant background noise. To this end, we propose LazyMCoT, a dynamic and training-free framework that adaptively allocates visual grounding efforts based on sample difficulty. The framework features an Adaptive Routing mechanism that evaluates predictive uncertainty using first-token statistics from a single forward pass. This efficiently bypasses confident cases while ensuring the recall of difficult samples via conformal calibration. For these challenging cases, a Collaborative Grounding module integrates the inherent cross-modal attention of the model with an external visual expert through a two-stage refinement process. This refinement process generates a precise localized display to recover small or occluded targets. Extensive experiments across diverse benchmarks demonstrate that LazyMCoT rivals training-based approaches by simultaneously improving reasoning accuracy and reducing average inference latency. Our code is availble at https://github.com/TencentBAC/LazyMCoT.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Evolution&Foundation: AI Shares Creative Control",
-    "authors": [
-      "Dylan Banarse",
-      "Stephen Todd",
-      "W. Latham",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/87f3ef28e13830c61f09f2923e0e54c0c89c6866",
-    "date": "2026-06-15",
-    "keywords": [
-      "Foundation Model",
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "This paper investigates the creative process of automated design and artistic evaluation using an evolutionary system. We consider how a multimodal artificial intelligence (AI) model can communicate and guide a combined generative and evolutionary computational system. This creates a framework for the evolution of aesthetically pleasing complex 3D organic forms by integrating genetic algorithms with the visual reasoning capabilities of large-scale AI foundation models. The framework shifts the artist role from that of intensive direct selection to one of system design; transferring detailed step-by-step curation to an AI agent capable of multimodal aesthetic judgement. This framework enables the human artist/designer to rapidly traverse large areas of multi-dimensional evolutionary parameter space to find creative outcomes based on their semantic targets. Detailed audit trails of the AI's aesthetic reasoning are generated for each experiment. Interactive visualisation tools, together with AI-generated summaries and evolutionary narratives, enable deep exploration into each evolutionary experiment and providing a transparent insight into the AI-guided process.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "SemanticST: Semantics-enhanced Spatio-Temporal Modeling for Ejection Fraction Estimation in Echocardiography.",
-    "authors": [
-      "Dashun Zheng",
-      "Jiaxuan Li",
-      "Mingyuan Meng",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/868c99c4ab83338025f257ffcacba83d6a3145ba",
-    "date": "2026-06-15",
-    "keywords": [
-      "IEEE journal of biomedical and health informatics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Estimating left ventricular Ejection Fraction (EF) from echocardiography is critical for cardiac systolic function assessment and clinical risk stratification. Unfortunately, existing EF estimation methods are limited by (i) insufficient modeling of temporal clues embedded in video frames and (ii) inadequate exploitation of clinical semantics in easily accessible textual reports. In this study, we propose a unified segmentation and EF estimation framework with Semantics-enhanced spatio-temporal modeling (named SemanticST), integrating spatio-temporal consistency modeling with structured clinical semantic priors. Our SemanticST introduces a spatio-temporal & text-guided neighborhood correlation mining (STT-NCM) encoder, which captures both short- and long-range temporal dependencies via text-modulated 3D neighborhood attention. Further, a text-guided pixel-level semantic projection module (TextSP) is designed to map the key clinical cues extracted by a large language model (LLM) into pixel-level guidance features, enabling the alignment of semantic priors with visual context for optimized EF estimation. Extensive experiments on two public datasets (CAMUS and EchoNet-Dynamic) demonstrate that our SemanticST outperforms state-of-the-art methods in segmentation accuracy, temporal consistency, and EF estimation correlation.",
-    "summary": "",
-    "doi": "10.1109/JBHI.2026.3703643",
-    "citations": 0
-  },
-  {
-    "title": "WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots",
-    "authors": [
-      "Thang Tran Viet",
-      "Thanh Nguyen Canh",
-      "Gia Huy Uong",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/83dabc407500443c33a20a23306c3315f70cc49d",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Expressive co-speech gestures are crucial for natural human-robot interaction, but generating them on physical humanoid robots is difficult because gesture strokes must align with speech emphasis while satisfying strict kinematic and dynamic constraints. Unlike virtual avatars, humanoid robots cannot freely execute rapid or overlapping motions, making word-level synchronization and hardware-safe motion planning a coupled problem. We present \\textbf{WaveSync}, a hybrid framework in which a Large Language Model decomposes dialogue responses into structured semantic schemas and assigns per-word importance weights, constructing a continuous Semantic Importance Wave. Gesture trajectories are shaped through Dynamic Movement Primitives, enforcing kinematic feasibility while enhancing expressiveness. A Wavefront Optimization stage aligns peak-to-peak gesture-speech synchronization and resolves residual kinematic violations through gesture-duration compression and forward propagation. Experimental evaluation based on five dialogue scenarios shows that our method achieves high synchronization accuracy and outperforms three baselines in both objective and subjective evaluations. Each component in WaveSync plays a necessary role in producing gestures that are expressive, semantically grounded, and kinematically compliant. The code, resources, and videos are available at \\href{https://github.com/pairs-lab/WaveSync}{WaveSync}",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Exploring Extrinsic and Intrinsic Properties for Effective Reasoning with Code Interpreter",
-    "authors": [
-      "Patomporn Payoungkhamdee",
-      "Napat Laosaengpha",
-      "Jenta Wonglertsakul",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/83b46a45db03fe49bc609c26801cd07e49ac2f0f",
-    "date": "2026-06-15",
-    "keywords": [
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Reasoning with a Code Interpreter (CI) has emerged as an effective paradigm for enhancing the reasoning capabilities of large language models (LLMs) through executable computation and iterative verification. Despite its growing adoption, the behavioral properties underlying effective code reasoning remain largely underexplored. In this work, we investigate code reasoning from two distinct perspectives inspired by prior studies of natural language reasoning: extrinsic properties, represented by crucial tokens, and intrinsic properties, represented by code-specific cognitive behaviors. Across multiple LLMs, we find that stronger CI reasoning models consistently exhibit a higher prevalence of crucial tokens and cognitive behaviors, particularly verification, backtracking, and backward chaining. Building on these observations, we examine how these properties can be leveraged during both inference and training. At inference time, appending code-specific crucial tokens improves performance on several reasoning capabilities, including mathematical, ordering, and optimization, while yielding limited benefits elsewhere. At training time, augmenting a state-of-the-art framework with code-specific cognitive behaviors improves supervised fine-tuning and reinforcement learning performance in two of three evaluated models. Further analysis shows that these behaviors reduce overthinking in incorrect responses and improve token efficiency, while also revealing factors that limit gains in a certain model. Our findings provide the first systematic characterization of effective reasoning with CI and demonstrate both the potential and limitations of leveraging key properties to improve CI-based reasoning.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Pretrained Foundation Model-Driven Source-Free Unsupervised Domain Adaptation for IoT Physical-Layer Authentication",
-    "authors": [
-      "Zhongyi Wen",
-      "Yatong Wang",
-      "Qiang Li",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/8354dfe59f3f50786f0b8d39e31f428840b154b7",
-    "date": "2026-06-15",
-    "keywords": [
-      "Foundation Model",
-      "IEEE Internet of Things Journal"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent advancements in pretrained foundation models have shown considerable promise across various machine learning tasks. However, their application in the broader Internet of Things (IoT) industry remains limited, particularly in IoT physical-layer authentication. In this domain, the presence of domain shift between training and deployment environments, combined with privacy and data security concerns, renders traditional domain adaptation methods that rely on source domain data impractical. Motivated by these challenges, source-free unsupervised domain adaptation (SFUDA) presents a more feasible solution. In this letter, we propose a novel SFUDA framework that leverages a pretrained generative foundation model to augment target domain data without requiring access to source domain information. In addition, we integrate an uncertainty-aware pseudo-labeling strategy along with consistency regularization to further enhance the adaptation process. Experimental results validate that our approach significantly outperforms conventional techniques, providing an effective and robust solution for IoT physical-layer authentication under realistic constraints.",
-    "summary": "",
-    "doi": "10.1109/JIOT.2026.3681700",
-    "citations": 0
-  },
-  {
-    "title": "MIRAGE: Auditing Anti-Muslim Bias in Frontier LLMs Across Reasoning, Agentic, and Time-Coupled Conditions",
-    "authors": [
-      "Noor Islam S. Mohammad",
-      "Tamim Sheikh"
-    ],
-    "link": "https://www.semanticscholar.org/paper/81719e045208dd666b43ed6bc6ef81d3dc76d036",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Five years after the discovery of persistent anti-Muslim bias in large language models, most evaluations remain confined to single-turn prompt completion, a setting that no longer reflects how frontier LLMs are deployed. We introduce \\textbf{MIRAGE} (Muslim-Identity Reasoning and Agentic Generation Evaluation), a benchmark of 1{,}200 prompts spanning three deployment-realistic conditions: direct completion, chain-of-thought reasoning, and simulated agentic decision-making across content moderation, lending triage, refugee claim summarization, and hiring screens. Across six frontier models, we find that (i) chain-of-thought reasoning \\emph{amplifies} rather than suppresses Muslim-violence associations by 12--34\\% relative to direct completion, (ii) agentic decisions exhibit a 9--22 percentage-point asymmetry between Muslim and matched non-Muslim cases on identical evidence, and (iii) bias is sharply time-coupled to retrieved news context, increasing 18--27\\% under recent-conflict retrieval. Existing prompt-based mitigations transfer poorly across our three conditions, suppressing direct-completion bias while leaving agentic asymmetry largely intact. We release MIRAGE and an open evaluation harness to support targeted mitigation research.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Structure-aware Knowledge-guided Heterogeneous Mamba for Zygomaticomaxillary Suture Assessment",
-    "authors": [
-      "Xiao Guo",
-      "Birui Chen",
-      "Xinquan Yang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/816c6ae244e8aa4ea96d540f96c7ba92af9aaa08",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "The Zygomaticomaxillary Suture is a key circummaxillary structure that connects the zygomatic bone and the maxilla, which serves as a primary site of resistance during maxillary advancement, and its maturation status directly influences the timing and efficacy of orthopedic interventions. However, accurate staging of ZMS maturation remains challenging due to subtle high-frequency transitions in suture lines and the global semantic ambiguity between adjacent stages. To address this, we present the first public ZMS dataset, comprising 3,790 ZMS images covering the entire age range from 4 to 24 years. Based on this dataset, we propose SKMamba, a Structure-aware and Knowledge-guided Mamba-based multi-modal framework for automated ZMS maturation assessment. SKMamba adopts a decoupled dual-path architecture that mimics the hierarchical diagnostic process used by experienced orthodontists. We first introduce an Implicit Edge Extractor (IEE), which leverages structural pre-training to reduce trabecular noise and accentuate sutural boundaries. Complementarily, a Cross-Modal Semantic Alignment (CSA) module is designed to incorporate anatomical descriptions from a large language model (LLM). This module helps align local morphological cues with global semantic descriptions while ensuring that objective morphological evidence remains the primary basis for decisions. Extensive experiments on our ZMS dataset demonstrate that SKMamba achieves state-of-the-art performance compared to existing methods. Code is available at https://github.com/galaxygxq1116/SKMamba.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Graph neural networks trained on null signal for angle reconstruction in x-ray polarimetry",
-    "authors": [
-      "Vittorio Latorre",
-      "Víctor Rodríguez-Fernández",
-      "A. Di Marco",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/81638dab6d1addb6acf07185d87c45bd11383420",
-    "date": "2026-06-15",
-    "keywords": [
-      "Machine Learning: Science and Technology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Scientific real detectors often produce sparse, irregular data defined on non-Euclidean domains, where conventional convolutional neural networks (CNNs) impose geometric biases that distort physical observables. In x-ray polarimetry, such distortions can mimic polarization signals at the percent level, critically limiting measurement fidelity. We consider a framework based on graph neural networks (GNNs) for reconstructing photoelectron emission angles from Gas Pixel Detectors, operating directly on their native sparse hexagonal topology. The network is trained solely on unpolarized simulated data and integrates rotational data augmentation, ensemble averaging, and modulation-aware model selection to reduce spurious angular modulation. Despite never encountering polarized examples, the model is able to recover the overall structure of polarized signals. Compared with the classical method of moments, an analytical approach to track angle reconstruction, the proposed GNN achieves lower per-track error but yields worse performance for polarimetry, revealing a mismatch between local reconstruction accuracy and global polarimetric performance. Compared to CNN-based approaches, the framework shows competitive performance on both unpolarized and polarized reconstructions, despite being trained in a more challenging power-law energy distribution. These results position the method as a diagnostic tool to highlight the limitations and trade-offs of learning-based approaches for x-ray-polarimetry signal reconstruction.",
-    "summary": "",
-    "doi": "10.1088/2632-2153/ae7d88",
-    "citations": 0
-  },
-  {
-    "title": "Integrated in silico docking, ADMET, and network pharmacology evaluation of Althaea officinalis L. phytocompounds targeting Park2 for the management of Parkinson's disease.",
-    "authors": [
-      "M. Heshetha",
-      "Muthineni Haneesh",
-      "V. Karthick",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/8141501847aca6c3b50808e1be1a3104e3faa643",
-    "date": "2026-06-15",
-    "keywords": [
-      "InflammoPharmacology"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1007/s10787-026-02296-1",
-    "citations": 0
-  },
-  {
-    "title": "SR-VLN: Implicit Spatial Reasoning Vision-and-Language Navigation.",
-    "authors": [
-      "Ruolin Zhu",
-      "Shaobin Li",
-      "Min Yang"
-    ],
-    "link": "https://www.semanticscholar.org/paper/8122285d246c8436de710b0dae60e47f5207c634",
-    "date": "2026-06-15",
-    "keywords": [
-      "Italian National Conference on Sensors"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Vision-and-language navigation (VLN) traditionally relies on explicit reasoning chains, which, despite being interpretable, impose severe constraints on inference efficiency and scalability in long-range environments. Existing multimodal large language models (MLLMs) frequently encounter latency bottlenecks due to the generation of verbose textual narratives during decision-making. To address these limitations, we propose spatial reasoning vision-and-language navigation (SR-VLN), a novel framework that shifts the paradigm from explicit chain-of-thought (CoT) to an implicit spatial representation space. SR-VLN introduces a pyramidal hierarchical history framework integrated with perceptual compression to condense historical trajectories into multi-scale representations, effectively minimizing token overhead while preserving critical spatial semantics. Rather than generating verbose textual reasoning steps, SR-VLN employs compact, learnable spatial tokens (S-Tokens) to perform agile inference directly within the latent feature space. To establish robust causal mappings between these implicit states and navigational actions, we employ a hybrid training strategy that combines sparse reward supervision with reinforcement learning via GRPO. Extensive evaluations on the R2R, REVERIE, and SOON datasets demonstrate that SR-VLN achieves state-of-the-art overall navigation performance, while maintaining a comparable balance between accuracy and efficiency. Compared to explicit reasoning baselines, our method reduces token consumption by 68% and achieves a 4.1× speedup in inference while reaching a 76.02% success rate and a 73.80% SPL on the R2R unseen split, thereby facilitating near-real-time action prediction in long-range navigation environments.",
-    "summary": "",
-    "doi": "10.3390/s26123809",
-    "citations": 0
-  },
-  {
-    "title": "Tensor-Coord: Algebraic Decomposition of Joint Plan Tensors for Conflict-Free Multi-Agent LLM Planning",
-    "authors": [
-      "Mudit Rastogi"
-    ],
-    "link": "https://www.semanticscholar.org/paper/805c364ce2eec451893b70aeef7596c2adc485f8",
-    "date": "2026-06-15",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models (LLMs) remain limited in multi-agent planning because independently generated plans can create coordination failures such as spatial collisions, resource contention, and temporal deadlocks. We introduce Tensor-Coord, a multilinear algebra framework that represents the joint plan of N agents as a third-order tensor \\(T \\in R^{N \\times H \\times A}\\) over agents, timesteps, and actions. Canonical Polyadic (CP) and Tucker decompositions are used to identify latent coordination structure. The minimal epsilon-approximate CP rank R* defines a computable coordination complexity measure, with \\(CC(Pi)=(R*-N)/N\\). We prove that R*=N is necessary and sufficient for plan independence. The residual \\(E=T-T_{R*}\\) defines a conflict score over agent pairs, timesteps, and actions, localizing failures without domain-specific rules. Tucker factors provide interpretable agent roles, temporal phases, and action clusters that are converted into natural language constraints for iterative LLM replanning. Experiments on multi-robot delivery tasks across Easy (2 agents, 5x5 grid), Medium (3 agents, 5x5 grid), and Hard (4 agents, 5x5 grid) settings show convergence to conflict-free plans in 100% of 2-agent cases within 1.4 iterations on average, 80% of 3-agent cases within 3.2 iterations, and 60% of 4-agent cases within 4.0 iterations. CP rank scaled approximately linearly as \\(R*(N) = 3.9N + 0.5\\), supporting its use as a predictor of coordination complexity.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection",
-    "authors": [
-      "Mirza Samad Ahmed Baig",
-      "Syeda Anshrah Gillani",
-      "Asher Ali"
-    ],
-    "link": "https://www.semanticscholar.org/paper/7dcc59d6374acb51dd2667da4727290025aa9d82",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Travelers increasingly ask large language model (LLM) assistants which hotel to book, making these systems gatekeepers of property visibility -- yet what moves their recommendations is undocumented. We conduct a pre-specified algorithm audit using a randomized choice-based conjoint: across personas, prompt templates, and twelve open-weight and proprietary models, assistants choose among five hotels whose guest rating, review volume and recency, management response, chain affiliation, price, eco-certification, and list position are independently randomized. We estimate the average marginal component effect of each signal on the probability of recommendation. Guest rating and price dominate (a top rating raises selection by 31.6 percentage points; a high price lowers it by 30.0), reproducing human valence-and-price primacy but over-weighting eco-certification and ignoring management response. List position -- a content-free artifact -- shifts recommendations causally, worth about \\$12 per night. Stated reasons track revealed weights imperfectly. The findings ground generative engine optimization and the accountability of AI infomediaries in causal evidence.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "SING: Synthetic Intention Graph for Scalable Active Tool Discovery in LLM Agents",
-    "authors": [
-      "Qiao Xiao",
-      "Haochen Shi",
-      "Yisen Gao",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7c0c35da97d46615866416c0ef4a9de646f0a321",
-    "date": "2026-06-15",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language model (LLM) agents increasingly rely on agent harnesses that manage context, tools, and multi-turn execution, making tools a central interface for acting in realistic digital environments. As harness-connected tool ecosystems expand to hundreds or thousands of APIs, services, and task-specific skills, exhaustive tool schema injection becomes costly and imposes a closed-world assumption that limits agents to a predefined static inventory. Retrieval-augmented tool selection offers a natural alternative, but existing one-shot retrieval methods often fail to align isolated tool descriptions with the agent's true task intention, especially in long-horizon tasks where required capabilities emerge through decomposition, observations, and newly induced subgoals. We propose SING, an intention-aware active tool discovery framework that builds an intention-tool graph linking user intentions, tool capabilities, and tool collaboration patterns, and dynamically retrieves tools according to evolving task states. Using a unified corpus of 7,471 tools, we evaluate SING on three real-world tool-use benchmarks. SING improves Global Recall@5 by up to 59.8% and downstream success rate by up to 28.9% over baselines, while reducing full-corpus tool-schema exposure by 99.8%, demonstrating that intention-aware graph structure enables more accurate and context-efficient tool discovery in large-scale agentic ecosystems.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Medical Heuristic Learning: An LLM-Driven Framework for Interpretable and Auditable Clinical Decision Rules",
-    "authors": [
-      "Wei Xu",
-      "Ke Yang",
-      "Gang Luo",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7b907e456001fbaa1647d80b96b8f155510299d9",
-    "date": "2026-06-15",
-    "keywords": [
-      "Deep Learning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Predictive modeling for clinical tabular data is central to clinical decision support and therefore requires not only strong predictive performance but also transparent decision logic. Although deep learning and tree-based ensemble methods can achieve high accuracy, their black-box nature remains a major obstacle to clinical deployment. This challenge is further compounded by common characteristics of medical data, including limited sample sizes, severe class imbalance, and feature evolution arising from changes in diagnostic criteria and clinical documentation. To address these issues, we propose Medical Heuristic Learning (MHL), an instantiation of the learning-beyond-gradients paradigm for clinical tabular prediction. Instead of relying on neural network weight updates, MHL uses a large language model (LLM)-driven workflow that integrates statistical probes, medical knowledge probes, rule synthesis, and code-level iterative refinement to optimize a deterministic and executable decision system. The resulting model is expressed not as opaque parameters, but as versioned pure-Python decision rules that are explicitly interpretable, fully auditable, and clinically grounded. MHL also supports continual learning by starting from previously validated rules and iteratively revising them using updated feature information under data drift or feature evolution. Comprehensive experiments on medical datasets show that MHL achieves performance comparable to state-of-the-art methods while maintaining strong behavior in small-sample and highly imbalanced settings. The results further indicate that this explicit rule update mechanism can help alleviate catastrophic forgetting under feature evolution. Overall, these findings suggest that non-gradient-based heuristic systems offer a transparent and adaptable alternative for high-stakes clinical decision support.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Evaluating LLM Personalization via Semantic Constraint Verification",
-    "authors": [
-      "Xuran Li",
-      "Guanqin Zhang",
-      "I. Razzak",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7a9f5e8d117d630c35b610cb20f3cbb89a3a8f09",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Current evaluation paradigms for Large Language Model (LLM) personalization rely heavily on brittle surface-matching metrics or computationally expensive LLM-as-a-judge protocols, both of which lack interpretability. To address these limitations, we introduce Natural Language Inference Constraint Verification (NLICV), a scalable, semantically invariant framework that maps sentence meanings to truth-condition sets to verify personalization constraints via a Natural Language Inference (NLI) model. Moving beyond binary scoring, NLICV categorizes LLM behaviors into four distinct modes: personalization, generalization, sycophancy, and failure. Extensive experiments demonstrate that NLICV aligns closely with human annotations while drastically reducing the latency and token costs associated with LLM judges (up to 2100 inference speedup). Finally, through an ablation-based procedure, NLICV pinpoints the exact sentences driving the constraint verification, yielding faithful, understandable evidence for its evaluations.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "How Does Progressive Visual Feedback Enhance Controllability? An Empirical Study of LLM-Driven, Culturally Sensitive Sustainable Rural Landscape Design",
-    "authors": [
-      "Changyu Liu",
-      "Xuan-Qi Qiao",
-      "Yan-Qiang Ding",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7a76379406092a6c97d3c23fa6101921d61b6c62",
-    "date": "2026-06-15",
-    "keywords": [
-      "Sustainability"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "As artificial intelligence (AI) becomes increasingly important in rural revitalization, building consensus among multiple stakeholders and developing participatory digital co-creation platforms has grown increasingly urgent. However, existing large language model (LLM) systems predominantly adopt a one-shot generation paradigm, making it challenging to accurately capture villagers’ cultural aspirations and frequently resulting in a significant disconnect between design outputs and community expectations. This situation reveals deficiencies in progressive deliberation mechanisms and cultural controllability. To address these issues, this study proposes a multimodal Participatory Landscape Demand Generation (PLDG) system to enhance AI-generated dialogue controllability, facilitate effective cultural translation in sensitive rural contexts, and promote sustainable development where landscape design both drives and reflects rural revitalization. The system leverages LLMs to simulate stakeholder participatory interactions in village landscape design scenarios. Using culturally distinctive Chinese villages as case studies, the research conducts multi-role simulated dialogues, multimodal semantic extraction, and iterative consensus-building, and evaluates the resultant data to generate landscape design proposals. The results indicate that the PLDG system significantly improves participation efficiency among diverse design stakeholders and enhances the sustainability of design decisions. Compared to conventional methods, metrics such as cultural compatibility, villager participation, and design innovation show substantial improvements. These findings demonstrate the considerable potential of human-AI collaboration in future rural planning. This study introduces the Culture Constraint-Driven Rural Landscape AI Collaborative Design Framework (PLDG), validating its practical efficacy in identifying culturally sensitive elements, ensuring cultural congruence, facilitating community participation, and fostering design innovation. Consequently, it provides a reusable, iterative operational tool for the digital renewal of sustainable rural landscapes.",
-    "summary": "",
-    "doi": "10.3390/su18126160",
-    "citations": 0
-  },
-  {
-    "title": "JARVIS for HVAC: LLM-based Question-Answer Framework for Sensor-driven HVAC System Interaction",
-    "authors": [
-      "Sungmin Lee",
-      "Joonhee Lee",
-      "Minju Kang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7a6ec294a80354fd23e06a881161e4747dd9ea3d",
-    "date": "2026-06-15",
-    "keywords": [
-      "Agent",
-      "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "\n Question-answering (QA) interfaces powered by large language models (LLMs) present a promising direction for improving interactivity with HVAC system insights, particularly for non-expert users. However, enabling accurate, real-time, and context-aware interactions with HVAC systems introduces unique challenges, including the integration of frequently updated long-term sensor data, domain-specific knowledge grounding, and coherent multi-stage reasoning. In this paper, we present\n JARVIS\n , a two-stage LLM-based QA framework tailored for sensor data-driven HVAC system interaction.\n JARVIS\n employs an\n Expert-LLM\n to translate high-level user queries into structured execution instructions, and an\n Agent\n that performs SQL-based data retrieval, statistical processing, and final response generation. To address HVAC-specific challenges,\n JARVIS\n integrates (1) an adaptive context injection strategy for efficient HVAC and deployment-specific information integration, (2) a parameterized SQL builder and executor to improve data access reliability, and (3) a bottom-up planning scheme to ensure consistency across multi-stage response generation. We evaluate\n JARVIS\n using real-world data collected from two commercial HVAC systems and a ground truth QA dataset curated by HVAC experts to demonstrate its effectiveness in delivering accurate and interpretable responses across diverse queries. Results show that\n JARVIS\n outperforms baseline implemented with modern off-the-shelf LLMs and ablation variants in both automated and user-centered assessments, achieving high response quality and accuracy.\n",
-    "summary": "",
-    "doi": "10.1145/3810210",
-    "citations": 0
-  },
-  {
-    "title": "What PISA Measures and What It Misses: A Two-Stage LLM-Based Alignment of IT Workforce Skills with Educational Proficiency",
-    "authors": [
-      "Andreea-Maria Tanasă",
-      "Oprea Simona-Vasilica",
-      "A. Bâra"
-    ],
-    "link": "https://www.semanticscholar.org/paper/79e98b0443d8d44c996d6273e83e6b443e5a8b92",
-    "date": "2026-06-15",
-    "keywords": [
-      "Machine Learning and Knowledge Extraction"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Aligning information technology (IT) workforce demands with educational assessments is essential for bridging skills gaps; yet, no prior corpus maps IT task reasoning to Programme for International Student Assessment (PISA) proficiency levels. This paper introduces a large language model (LLM)-powered framework aligning IT competencies with PISA 2022 and the OECD (Organisation for Economic Co-operation and Development) Learning Compass 2030, drawing on O*NET v30.2 (Occupational Information Network), ESCO (European Skills, Competences, Qualifications, and Occupations) v1.2.1, PISA descriptors and OECD definitions. The framework operates in two stages: Stage 1 aligns 562 IT task statements with minimum PISA 2022 proficiency levels via LLM annotation and cross-model validation; and Stage 2 extends this mapping to the OECD Learning Compass 2030 through the semantic clustering of task embeddings and a bidirectional gap analysis of 95 ESCO transversal skills. Using Gemini 2.5 Flash, 562 tasks are annotated with minimum PISA levels across Mathematical, Reading, and Science literacy (first stage). Annotation reliability is assessed through a five-model cross-validation against a blind human domain expert (treated as a reference benchmark, not a gold standard) on a stratified 100-task sample (17.8% of the corpus), with agreement ranging from fair (Gemini 2.5 Flash, κ = 0.29) to moderate (Claude Haiku 4.5, κ = 0.50; LLaMA 3.3 70B, κ = 0.44). A bias-correction sensitivity analysis confirms that distributional findings remain stable after accounting for the primary annotator’s systematic overestimation, and OLS-calibrated alignment against O*NET ability ratings provides directional plausibility support. Validated tasks are embedded and clustered into 25 technical profiles via K-Means, each classified against OECD dimensions. The framework is extended to 95 ESCO transversal skills in 24 clusters. Bidirectional analysis reveals that, while every PISA proficiency level is engaged by at least one transversal cluster, 33% of these clusters, covering creative, ethical, social–emotional, and dispositional competencies, fall entirely outside PISA’s cognitive scope. This boundary mapping identifies where the PISA-based alignment is valid and where complementary tools are required for a full readiness assessment.",
-    "summary": "",
-    "doi": "10.3390/make8060165",
-    "citations": 0
-  },
-  {
-    "title": "Towards Pareto-Optimal Tool-Integrated Agents with Pareto Ranking Policy Optimization",
-    "authors": [
-      "J. Li",
-      "Xi Qian",
-      "Yingyi Zhang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/789811948d919692d5c25790271c80f2f1061b9d",
-    "date": "2026-06-15",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent advances in tool-integrated language agents have significantly improved their ability to solve complex reasoning tasks. However, existing alignment methods predominantly focus on maximizing task accuracy, while overlooking auxiliary objectives such as tool-use efficiency, which are essential for practical deployment. To address this gap, we introduce ParetoPO, a two-stage multi-objective optimization framework for aligning tool-using large language models (LLMs) under competing objectives. In the first stage, ParetoPO leverages hypervolume-guided dynamic scalarization to adapt reward weights based on global Pareto frontier progress. In the second stage, it replaces scalarized learning signals with Pareto-ranking-based advantage computation, promoting nondominated trajectories through dominance-aware credit assignment. This design enables fine-grained, action-level optimization across multiple conflicting objectives. Experimental results on mathematic reasoning and multi-hop QA tasks show that ParetoPO consistently discovers policies with superior accuracy-efficiency trade-offs compared to static and heuristic baselines.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Extending a Vision–Language Model with Audio Understanding: Introducing Qolda-AVL for the Kazakh Language",
-    "authors": [
-      "Batyr Arystanbekov",
-      "Akylbek Maxutov",
-      "Aspandiyar Nurimanov",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/785269609ac82deaacaec8972a89c5d45c52dd0d",
-    "date": "2026-06-15",
-    "keywords": [
-      "Fine-tuning",
-      "Big Data and Cognitive Computing"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Recent advances in multi-modal large language models have enabled systems to jointly process text, images, and audio. However, these developments have primarily benefited high-resource languages, leaving many low-resource communities underserved. In response, we introduce Qolda-AVL, a compact five-billion-parameter audio–vision–language model tailored for Kazakh. Qolda-AVL extends our previous Qolda vision–language model by adding a dedicated audio perception branch while maintaining strong visual and linguistic performance. Built on the Qwen3-VL-Thinking backbone, we incorporate Audio DeepStack, which transfers features from three intermediate Whisper encoder layers into the first three layers of the language model using dedicated projections and residual connections. The model is trained through a four-stage pipeline: adapting the Whisper encoder and language model to Kazakh, aligning the new audio branch to the language backbone, and jointly fine-tuning all modules on chain-of-thought reasoning tasks across audio, image, and text. All audio, vision, and language capabilities are evaluated using the model’s native reasoning mode, and a chain-of-thought trace is generated before each final answer during the performance assessment. To facilitate further research, we open-source the model along with the adapted Kazakh versions of four audio benchmarks, covering spoken attribute reasoning, spoken mathematical question answering, and audio captioning with question answering.",
-    "summary": "",
-    "doi": "10.3390/bdcc10060192",
-    "citations": 0
-  },
-  {
-    "title": "AI Warfare",
-    "authors": [
-      "Dong Wang",
-      "Tokunbo Makanju",
-      "Yunlong Shao"
-    ],
-    "link": "https://www.semanticscholar.org/paper/781abb2d67a0d5c5e3d7edc2017095d76dfbd50f",
-    "date": "2026-06-15",
-    "keywords": [
-      "Foundation Model",
-      "Cited: 1",
-      "European Conference on Cyber Warfare and Security"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Artificial intelligence (AI) is rapidly transforming military strategy, yet the idea of AI warfare remains loosely defined. This paper introduces a structured framework that views AI warfare as a form of strategic competition centred on algorithms, training datasets, AI-as-a-Service (AIaaS), and AI-generated content (AIGC). These technological instruments are used to influence adversaries’ decision-making and cognitive processes, while simultaneously undermining their defensive and command capacities. The analysis begins with the vulnerabilities of layered architecture of AI ecosystem—infrastructure, algorithm-data, foundation models, and applications—each containing vulnerabilities that can cascade through the system. AI systems also carry inherent limitations, such as unclear problem contexts, lack of creativity or emotional understanding, disembodiment, and weak collaboration between models. These traits distinguish AI warfare from conventional cyber operations and highlight why traditional cybersecurity measures often fall short. The proposed framework operates across three interlinked components: technological infrastructure—semiconductors, high‑performance computing, and high‑speed networks—sets the capability and flexibility of AI systems, while an opaque algorithm‑data core becomes a frontline where adversarial manipulations threaten reliability. At the operational level, AI is deployed through AIGC campaigns and AIaaS platforms, with feedback loops among these components driving continuous escalation and adaptation in AI warfare. Five critical focus areas emerge: (1) proprietary algorithms functioning as opaque “black boxes,” examined through a new Wargaming Design (WD) model using iterative red-blue team challenges; (2) vulnerable training datasets, tested for integrity via WD model’s consistency checks; (3) AIaaS platforms demanding security-by-design safeguards like role-based access and auditing; (4) AIGC as both an effective offensive tool and a potential source of self-sabotage; and (5) quantitative audience analysis to assess cognitive and behavioural outcomes. Defensive strategies include blockchain-based distributed architectures for resilience, secure interaction design, AI-native firewalls, interdisciplinary user/audience research drawing on sociology and psychology, and global governance structures akin to non-proliferation treaties. Through this approach, the paper explains why conventional defences fail against AI-specific threats. Future work will experimentally apply the WD model to existing AI systems, measuring its effectiveness in identifying algorithmic weaknesses and improving AI security. Ultimately, policymakers must balance the power of AI with the preservation of strategic stability and human agency.",
-    "summary": "",
-    "doi": "10.34190/eccws.25.1.4753",
-    "citations": 1
-  },
-  {
-    "title": "ModBinddG: A simulation-based absolute predictor of free energy of binding based on population reweighting",
-    "authors": [
-      "William Sinko",
-      "Blake Mertz",
-      "Yoh Terada",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/7736bdcce3349831f2b533faaf577705b5ec0bb3",
-    "date": "2026-06-15",
-    "keywords": [
-      "Proceedings of the National Academy of Sciences of the United States of America"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Significance The absolute binding free energy is a critical determinant of drug efficacy, yet existing computational methods are still too costly to scale for large virtual screening or lead optimization applications. Existing approaches rely on alchemical transformations, empirical approximations, or path-biased sampling to solve the fundamental issue that at physiological temperatures, unbinding events are too rare to routinely observe within simulation timescales. Derived from statistical mechanics, ModBinddG utilizes path-independent, high-temperature sampling to enable rare transitions, combined with population reweighting to recover rigorous thermodynamics. Validated on hundreds of ligand–protein complexes for diverse targets, ModBinddG matches the accuracy of industry-leading methods while enabling orders of magnitude higher throughput, enabling large-scale physics-based screening of drug candidates prior to experimental synthesis and testing.",
-    "summary": "",
-    "doi": "10.1073/pnas.2513285123",
-    "citations": 0
-  },
-  {
-    "title": "Multimodal LLM-Empowered Re-Ranking for Generalizable Person Re-Identification",
-    "authors": [
-      "Jiachen Li",
-      "Xiaojin Gong"
-    ],
-    "link": "https://www.semanticscholar.org/paper/76571ebf965bafd54c34bab2f104641eec6cdb03",
-    "date": "2026-06-15",
-    "keywords": [
-      "Fine-tuning"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Domain Generalizable (DG) person re-identification (Re-ID) has attracted growing research interest due to its potential for deployment in unseen real-world scenarios. Most existing approaches address DG Re-ID by focusing on training domain-generalizable encoders but ignore the possible refinements in inference stage. In contrast, this work explores an alternative direction which improves inference re-ranking to enhance DG Re-ID. Conventional re-ranking methods typically rely on neighborhood-based distances to refine the initial ranking list, inherently depending on features produced by the Re-ID encoder. However, they deteriorate on target domains since the encoder lacks sufficient generalizability to produce reliable feature distances on unseen scenarios. Inspired by the remarkable generalization capabilities of recent Multimodal Large Language Models (MLLMs), we propose an MLLM-empowered distance metric to improve re-ranking in DG Re-ID. Specifically, we first adapt an MLLM to Re-ID data through supervised fine-tuning, which incorporates a domain-agnostic prompt and a query-candidate hard mining scheme. Then, the adapted MLLM is employed to compute a $\\mu$-distance during inference, which is robust to domain gap and significantly enhances subsequent re-ranking performance. Our approach is model-agnostic and can be seamlessly integrated into previous re-ranking frameworks. Extensive experiments demonstrate that our approach consistently yields substantial performance improvements across multiple DG Re-ID benchmarks. The code of this work will be released at https://github.com/RikoLi/MUSE soon.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Understanding urban walking in Los Angeles: A large language model approach using geotagged social media data",
-    "authors": [
-      "Narae Lee"
-    ],
-    "link": "https://www.semanticscholar.org/paper/753f9effec04659adccd3c632df1dfaa68e47bb3",
-    "date": "2026-06-15",
-    "keywords": [
-      "International Journal of Sustainable Transportation"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1080/15568318.2026.2668000",
-    "citations": 0
-  },
-  {
-    "title": "BTHA: Block-Then-Hash Attention for Efficient Long Context",
-    "authors": [
-      "Runqiang Liu",
-      "Lian Liu",
-      "Mengxing Huang"
-    ],
-    "link": "https://www.semanticscholar.org/paper/741a92b46bb6f8406d0adbd34872c9ee7d21fb49",
-    "date": "2026-06-15",
-    "keywords": [
-      "Electronics"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Long-context large language models incur substantial computational overhead during autoregressive decoding. Existing sparse attention methods can improve inference efficiency, but they typically rely on fixed sparse patterns, historical attention statistics, or coarse-grained proxy representations to estimate important KV positions, making it difficult to accurately capture query-dependent fine-grained relevance for dynamic KV retrieval. In this paper, we propose Block-then-Hash Attention (BTHA), a two-stage KV retrieval method: it first performs block-level routing with mean key representations to rapidly reduce the candidate search space, and then applies a learnable orthogonal hash network within the routed KV candidates for fine-grained token-level position retrieval. The hash network is trained offline to learn the hash mapping between queries and keys, with a low training cost: on Llama-3.1-8B-Instruct, training can be completed in approximately two hours using a single NVIDIA A100 GPU. During inference, BTHA implements block-level routing, hash-based retrieval, and sparse attention computation with dedicated operators, and further employs CPU–GPU collaborative scheduling to reduce memory access, synchronization, and candidate selection overhead, thereby achieving end-to-end decoding acceleration. Extensive experiments on LongBench-E show that BTHA consistently outperforms state-of-the-art top-K attention methods in both accuracy and efficiency; under a 512-position budget, it achieves the best average accuracy on both Llama-2-7B-32K-Instruct and Llama-3.1-8B-Instruct, while delivering up to 7.0× speedup over vanilla full attention.",
-    "summary": "",
-    "doi": "10.3390/electronics15122635",
-    "citations": 0
-  },
-  {
-    "title": "Context-Aware RL for Agentic and Multimodal LLMs",
-    "authors": [
-      "Peiyang Xu",
-      "Bangzheng Li",
-      "Sijia Liu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/72b5e6023db3b5af8e8f27f8b4a52bc5f1f32ba7",
-    "date": "2026-06-15",
-    "keywords": [
-      "Agent"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle detail in an image. We propose ContextRL, a context-aware reinforcement learning (RL) method that improves long-horizon reasoning and multimodal performance through an \\emph{indirect} auxiliary objective. Instead of supervising only the final answer, ContextRL presents the model with a query, an answer, and two highly similar contexts, and rewards it for selecting the context that supports the query--answer pair, thereby encouraging fine-grained grounding. We construct contrastive context data in two domains: for coding agents, trajectories serve as contexts, yielding 1k pairs built via condition filtering; for multimodal reasoning, images serve as contexts, yielding 7K pairs built via generative editing and similarity search. ContextRL achieves average gains of +2.2% over standard GRPO on 5 long-horizon benchmarks, and +1.8% across 12 diverse visual question answering benchmarks. To disentangle the effect of the proposed objective from that of additional data, we compare against data-augmentation baselines that repurpose the same contrastive contexts as standard query--context--answer examples. These baselines provide little to no improvement, showing that the gains arise from the proposed context-selection objective rather than from the contrastive data alone.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "A comparative evaluation of ChatGPT and Gemini for stroke caregiver support: accuracy, safety, and response characteristics",
-    "authors": [
-      "Osman Karaca",
-      "M. S. Torlak",
-      "Ayşe Nur Tekin"
-    ],
-    "link": "https://www.semanticscholar.org/paper/7283b20adf286c430fbf18ed726f5d4f9ee12c5e",
-    "date": "2026-06-15",
-    "keywords": [
-      "Revista da Associação Médica Brasileira"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "SUMMARY OBJECTIVE: The use of large language models is increasing in healthcare. The aim of this study was to evaluate and compare the responses provided by ChatGPT (OpenAI) and Gemini (Google) to frequently asked questions about stroke and its treatment by caregivers, in terms of clarity, empathy/tone, actionability, information risk/safety, and accuracy. METHODS: This study used a qualitative content analysis to evaluate responses generated by large language models to stroke-related caregiving questions. Ten frequently asked questions were identified through a review of the literature on stroke caregiving. These questions were presented to the free versions of ChatGPT and Gemini, and responses from each model were recorded. The recorded responses were independently evaluated by 10 experts from neurology, physiatry, and physiotherapy using a structured Likert-scale instrument across five predefined categories: clarity, empathy/tone, actionability, information risk/safety, and accuracy. RESULTS: Generalized estimating equation analyses indicated that the overall trends in response scores did not differ significantly between ChatGPT and Gemini across all evaluated categories (p>0.05). In contrast, response score trends varied primarily in clarity and empathy/tone, with limited variation in actionability (p<0.05). Intraclass correlation coefficient values were below 0.50 for both ChatGPT and Gemini. CONCLUSION: Although both models generally performed well, question-level variations and low inter-rater reliability limit generalizability, and even small shortcomings in information risk may have important implications for stroke caregivers and, indirectly, for patients with stroke.",
-    "summary": "",
-    "doi": "10.1590/1806-9282.20251488",
-    "citations": 0
-  },
-  {
-    "title": "Advancing text-based personality detection: a comparative study of machine learning models on behavioral interview data and stream of consciousness essays",
-    "authors": [
-      "Wael Khreich",
-      "Rima Wehbe"
-    ],
-    "link": "https://www.semanticscholar.org/paper/7058ef3727e64d083ea49d42e49fc878266f838b",
-    "date": "2026-06-15",
-    "keywords": [
-      "International Journal of Data Science and Analysis"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.1007/s41060-026-01150-5",
-    "citations": 0
-  },
-  {
-    "title": "Spatio-Temporal Graph Neural Network Based on Nonlinear Time–Frequency Features for Mu-ERD Classification in Multi-Session EEG Motor Imagery",
-    "authors": [
-      "Firman Aziz",
-      "Jeffry Jeffry",
-      "Syahrul Usman",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/6f3d39d1e7b18d7c6ce8977b0eaeea385bf9259c",
-    "date": "2026-06-15",
-    "keywords": [
-      "Journal of Applied Engineering and Technological Science (JAETS)"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Mu rhythm event-related desynchronization (ERD) is a key indicator of motor imagery activity based on EEG signals. However, accurate classification of ERD remains challenging due to the nonlinear nature of EEG signals and inter-session variability. This study proposes a motor imagery classification approach using a Spatio-Temporal Graph Neural Network (ST-GNN) model that leverages nonlinear time-frequency features extracted via Variational Mode Decomposition (VMD) and Synchrosqueezing Transform (SST). The dataset was collected from a single healthy subject across five separate sessions, each consisting of two conditions: relaxation and motor imagery. After preprocessing and segmentation, features were extracted and represented as spatio-temporal graphs to be processed by the ST-GNN. The model was evaluated using metrics such as accuracy, F1-score, AUC-ROC, and the Session Stability Index (SSI). The results show that the ST-GNN achieved an accuracy of 94.2%, F1-score of 94.1%, and AUC-ROC of 96.1%, along with high prediction stability across sessions. This performance outperformed baseline models including CNN, CSP+SVM, and STFT+MLP.These findings support the hypothesis that ERD is a distributed brain network phenomenon and demonstrate that the ST-GNN approach with VMD/SST-derived features is a promising strategy for developing adaptive and accurate BCI systems.",
-    "summary": "",
-    "doi": "10.37385/jaets.v7i2.8679",
-    "citations": 0
-  },
-  {
-    "title": "In silico Investigation of Electrochemical Degradation and Toxicity Evolution of Pyridine Compounds in Aqueous Media",
-    "authors": [
-      "Neha Choudhary",
-      "J. Kaur",
-      "Anil Kumar"
-    ],
-    "link": "https://www.semanticscholar.org/paper/6e26fde119cc3c35cb2d7e09d04f83d9f74bcc2c",
-    "date": "2026-06-15",
-    "keywords": [
-      "Biointerface Research in Applied Chemistry"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Pyridine and its derivatives are persistent environmental contaminants widely used in pharmaceutical and agrochemical industries, posing potential risks due to their toxicity and resistance to degradation. Electrochemical advanced oxidation processes (EAOPs) offer a promising strategy for their transformation; however, the mechanistic understanding and evolution of toxicity remain insufficiently explored. In this study, an integrated in silico framework combining Density Functional Theory (DFT), reaction pathway analysis, molecular docking, and ADMET predictions was employed to investigate the degradation behavior of pyridine compounds in aqueous media. DFT calculations at the B3LYP/6-311++G(d,p) level, including solvation effects, identified hydroxylation as the initial step, followed by ring-opening reactions with calculated activation energies in the range of ~14–28 kcal·mol⁻¹. Subsequent oxidation leads to the formation of smaller aliphatic acids. Docking and ADMET analyses indicate a general trend toward reduced predicted biological interaction and toxicity for several degradation products. However, these findings are based on computational models and are subject to inherent uncertainties. Therefore, experimental validation under realistic EAOP conditions is required. This study provides mechanistic insights and a predictive framework for assessing degradation pathways and potential toxicity changes of pyridine pollutants.",
-    "summary": "",
-    "doi": "10.33263/briac163.074",
-    "citations": 0
-  },
-  {
-    "title": "GRACE: Boosting Video MLLMs with Grounded Action-Centric Evidence for Viewer Sentiment Prediction",
-    "authors": [
-      "Ruoxuan Yang",
-      "Tieyuan Chen",
-      "Xiaofeng Huang",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/6a9f16645bc013a21695642f89dcf48d665de2c2",
-    "date": "2026-06-15",
-    "keywords": [],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Viewer sentiment prediction in video advertisements aims to infer the latent affective response evoked in the audience. To bridge the gap between what is shown and what is felt, models must deduce hidden viewer emotions from explicit visual narratives, concrete character-object interactions, and visible textual cues. However, standard Multimodal Large Language Models (MLLMs) typically rely on holistic frame representations, which leave these fine-grained, affect-relevant events implicit and complicate precise emotional reasoning. To address this, we propose a grounded action-centric evidence augmentation framework that enhances video MLLMs'clue extraction and comprehension by introducing explicit event structure and localized visual evidence. Our method extracts temporally ordered subject-verb-object (SVO) triplets and auxiliary visible textual cues from action-centric video descriptions, grounds subject and object entities as visual entity crops, and then enables the MLLM to perform clue-enhanced emotional reasoning based on these extracted structured clues. In this way, action triplets specify\"what happens\", while grounded visual entity crops anchor\"who or what participates in each event\"to concrete visual evidence. Experiments on the Pitts dataset show consistent improvements over Qwen2.5-VL and Qwen3-VL baselines. Ablation studies, cross-dataset evaluation on AdsQA, and transfer experiments on an emotion-focused TVQA subset further support the effectiveness and generalization of our approach.",
-    "summary": "",
-    "doi": "",
-    "citations": 0
-  },
-  {
-    "title": "Biological meaning in protein embedding space is resolution-dependent",
-    "authors": [
-      "Licheng Zong",
-      "Jinzheng Ren",
-      "Yu Li",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/699b9d78c1c4e7c4043897c8b04e39a3efa7fe05",
-    "date": "2026-06-15",
-    "keywords": [
-      "bioRxiv"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": null,
-    "summary": "",
-    "doi": "10.64898/2026.06.12.730559",
-    "citations": 0
-  },
-  {
-    "title": "MedSAM-COALF: A Cold-Start One-Shot Active Learning Framework for Medical Image Segmentation via Foundation Model-Guided Proxy Tasks and Uncertainty-Aware Sampling",
-    "authors": [
-      "Pengyu Zhao",
-      "Yonghong Hou",
-      "Jiasai Wu",
-      "et al."
-    ],
-    "link": "https://www.semanticscholar.org/paper/6817a0d415e78149798780341d328de98429a6ad",
-    "date": "2026-06-15",
-    "keywords": [
-      "Deep Learning",
-      "Foundation Model",
-      "IEEE Sensors Journal"
-    ],
-    "source": "Semantic Scholar",
-    "abstract_raw": "Abstract—Accurate medical image segmentation is essential for clinical applications. While deep learning has shown impressive performance, its success heavily relies on largescale pixel-level annotations, which are costly and laborintensive. Active learning (AL) offers promising solutions by selecting informative samples for labeling. However, traditional AL frameworks suffer from two major limitations: the requirement for an initial labeled set and repeated expert involvement, while existing sample selection strategies struggle to balance diversity and uncertainty with computational efficiency. To address these challenges, we propose MedSAM-COALF, a cold-start one-shot AL framework that integrates the foundation model MedSAM into the pipeline. MedSAM generates pseudo-labels for unlabeled samples, enabling training of a proxy segmentation model for one-shot uncertainty estimation. We further introduce uncertainty-driven probabilistic sampling (UDPS), which takes the uncertainty scores as probabilistic sampling weights, combining the efficiency and inherent diversity of random sampling with the informativeness of uncertainty-based methods. In addition, the generated pseudo-labels are reused in subsequent training to enhance segmentation performance under the same annotation budget. Extensive experiments on four public medical datasets demonstrate that our method consistently outperforms existing AL approaches, with the most significant gains observed at a 5% labeling ratio. Specifically, our method improves the dice similarity coefficient (Dice)/intersection over union (IoU) by 4.30%/5.27% on QaTa-COV19, 11.95%/8.16% on breast ultrasound dataset (BUSI), 1.90%/3.90% on ISIC2018, and 12.14%/9.11% on KiTS19, compared with the best-performing baseline.",
-    "summary": "",
-    "doi": "10.1109/JSEN.2026.3691964",
     "citations": 0
   }
 ]
