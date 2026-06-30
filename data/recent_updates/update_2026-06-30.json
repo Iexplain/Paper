@@ -1,0 +1,1193 @@
+[
+  {
+    "title": "LawGPT: Connects Users with Justice via AI",
+    "authors": [
+      "Vedaant V. Jain",
+      "Adhikesh Pawar",
+      "Smruti Bhosale",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fd44da3ebfe16205a30a908dd49d81694926f245",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "ccess to justice continues to be limited, especially for individuals with limited awareness of legal procedures and\nlimited access to professional guidance. Traditional methods of connecting with lawyers involve time-consuming processes, high\ncosts, and geographical limitations. Our project, Law GPT, introduces an AI-powered legal assistance system designed to bridge\nthe gap between users and justice. Law GPT allows users to register, log in, and submit legal queries in natural language. These\nqueries are processed by an Embedding Model and stored in a Vector Database for semantic search. Relevant legal documents\nand precedents are retrieved and passed to a Large Language Model (LLM) that generates accurate, context-aware responses.\nUsers can also connect with verified lawyers for professional assistance.\nThe system reduces barriers to justice by:\nProviding instant AI-based legal guidance.\nOffering document search across case laws, acts, and precedents.\nEnabling connections with legal professionals through the platform.\nThe system is designed as a scalable and secure framework for cost-effective legal assistance for improving public access to legal\nresources",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83837",
+    "citations": 0
+  },
+  {
+    "title": "Zenith: An AI-Desktop Personal Assistant",
+    "authors": [
+      "P. Sony",
+      "Dr. U. Satish",
+      "P. N. S. Ram",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fc756ec354dc454ede856e3ca509069977583c5a",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The paradigm of digital assistants is shifting from passive Large Language Model (LLM) chatbots to\nautonomous agentic systems. Existing assistants often struggle with multi-step reasoning, real-world task execution,\nand cost-efficient scaling across hetero-geneous AI models. This paper introduces Zenith-Agent, an agentic AIpowered personal assistant designed for intelligent task automation through a dynamic LLM routing layer and a\nrobust agentic loop.\nZenith-Agent integrates a modular architecture that separates intent classification, strategic planning, and tool\nexecution. By employing a Perceive–Plan–Act–Reflect (PPAR) loop, the system can autonomously manage complex\nworkflows such as meeting scheduling, contextual email automa-tion, and multi-source research. Furthermore, our\ndynamic routing mechanism optimizes performance by assigning tasks to specialized models based on semantic\ncomplexity and resource constraints. Experimental results show an 88% task success rate on multi-step benchmarks\nand a 30% reduction in latency through op-timized routing. Zenith-Agent serves as a comprehensive framework for\nthe next generation of autonomous personal assistants.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81730",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing Korean Semantic Role Labeling Performance Using Large Language Models with Self-Reasoning and Self-Refinement",
+    "authors": [
+      "Hyunsun Hwang",
+      "Youngju Jung",
+      "Changki Lee"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f93affbf2a1065e1b1c37169ae8f468a264d9381",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "KIISE Transactions on Computing Practices"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/ktcp.2026.32.6.235",
+    "citations": 0
+  },
+  {
+    "title": "Generative AI for Healthcare: Foundation Models, Clinical Applications, Ethical Considerations, and Regulatory Challenges",
+    "authors": [
+      "Parag Jain",
+      "Roopesh Kumar Sharma",
+      "Saniya Koser",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f88c50d8eae0604ec90509b16ccc703ead55671a",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Diffusion Model",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Generative Artificial Intelligence (GenAI) has emerged as a transformative technology with the potential to\nrevolutionize healthcare by enabling intelligent content generation, predictive analytics, clinical decision support, and\npersonalized patient care. Recent advancements in foundation models, including Large Language Models (LLMs), Generative\nAdversarial Networks (GANs), Diffusion Models, and Multimodal Foundation Models, have significantly expanded the\ncapabilities of artificial intelligence in healthcare applications. These technologies support a wide range of functions, including\nmedical imaging, disease diagnosis, healthcare documentation, synthetic data generation, personalized medicine, mental health\ninterventions, and patient engagement. Despite these promising developments, the integration of GenAI into healthcare systems\npresents substantial challenges related to algorithmic bias, explainability, trustworthiness, data privacy, cybersecurity, and\nregulatory compliance. This study provides a comprehensive review of the current landscape of Generative AI in healthcare by\nexamining the underlying foundation models, major clinical applications, ethical considerations, privacy concerns, and\nemerging regulatory frameworks. The review also identifies critical research gaps, including the lack of large-scale clinical\nvalidation, limited governance frameworks, and insufficient standardization of evaluation methodologies. Furthermore, future\nresearch directions are discussed, emphasizing trustworthy AI, multimodal intelligence, privacy-preserving technologies, and\nhuman-centered healthcare innovation. The findings suggest that while Generative AI has the potential to transform healthcare\ndelivery and improve patient outcomes, its successful implementation depends on the development of robust governance\nmechanisms, ethical safeguards, and regulatory standards that ensure safe, transparent, and equitable healthcare practices.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83406",
+    "citations": 0
+  },
+  {
+    "title": "Controllable Text Generation in Large Language Models Using Generative Learning in Latent Space With Anchor Regularization",
+    "authors": [
+      "Gahyun Lee",
+      "Janghoon Choi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f7d4c9ec48889054f6e870baf3df97a959f88a5f",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Journal of Institute of Control Robotics and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5302/j.icros.2026.25.0339",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid WOA-boosting and GNN Framework for Multi-protocol IoT Intrusion Detection and Attack Classification Using the CICIoMT-2024 Dataset",
+    "authors": [
+      "Manar Bashar Mortatha",
+      "D. Abdulah"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ec7ee6900b1d9a89f262a744c10fc45f997ebde9",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal of Intelligent Engineering and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.22266/ijies2026.0630.25",
+    "citations": 0
+  },
+  {
+    "title": "Agentic AI for Service Assurance in Fixed Broadband Networks: A Conceptual Framework for Intelligent NOC Operations",
+    "authors": [
+      "Mohammad Mustafa"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d819888424cac594db8188ee7ea370c2529cb1b4",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Fixed broadband operators are increasingly challenged by the growing complexity of fiber access networks, heterogeneous home Wi-Fi environments, rising customer expectations, and the need to improve operational efficiency while maintaining service quality. Conventional service assurance approaches largely rely on rule-based monitoring, fragmented operational support systems, and manual intervention by Network Operations Center (NOC) teams. Although Artificial Intelligence\n(AI) and Machine Learning (ML) have been applied to fault prediction, anomaly detection, and customer experience analytics,\nthese implementations often operate as isolated solutions with limited autonomy and cross-domain coordination.Recent advances in Agentic Artificial Intelligence (Agentic AI) provide an opportunity to transform service assurance through intelligent\nagents capable of reasoning, planning, knowledge retrieval, and workflow execution. This paper proposes a conceptual framework for integrating Agentic AI into fixed broadband service assurance processes. The framework combines operational data\nsources, predictive ML models, Large Language Model (LLM)-based intelligence, multi-agent orchestration, and human-in-theloop governance to support proactive and explainable operational decision-making.The proposed architecture demonstrates how\nAgentic AI can enhance key assurance functions, including automated root cause analysis, proactive Quality of Experience\n(QoE) degradation detection, intelligent incident triage, and NOC copilot assistance. Unlike existing studies that focus on standalone AI applications or mobile network scenarios, this work specifically addresses the operational realities of fixed broadband\nenvironments. The findings suggest that Agentic AI can reduce Mean Time to Repair (MTTR), improve customer experience,\nenhance decision consistency, and increase operational efficiency while maintaining governance and regulatory compliance.\nThe study provides both theoretical insights and practical guidance for telecom operators progressing toward intelligent and\nautonomous service assurance.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83601",
+    "citations": 0
+  },
+  {
+    "title": "Hardware-efficient 2-4 bits Mixed-Precision Post-Training Quantization for Large Language Models via Greedy Search",
+    "authors": [
+      "Sangjun Lee",
+      "Eunhyeok Park"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cf74fc1cbfbc1b59cfa0e6456c0dfe98fdf51278",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "KIISE Transactions on Computing Practices"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/ktcp.2026.32.6.255",
+    "citations": 0
+  },
+  {
+    "title": "Conversational LLM-Based Multi-Modal Product Research Assistant",
+    "authors": [
+      "Aditya Bhosale"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ca6f3fedea6bc87ba962cd84917b9bafa40565fd",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With the continuous growth of e-commerce plat- forms, users often face challenges in find ing relevant, unbiased, and\nreliable product information across multiple sources. Existing recommendation systems are limited by static algorithms that lack\ncontextual understanding and transparency. To overcome these challenges, this project proposes a Conversational LLM- Based\nMulti-Modal Product Research Assistant — an intelligent AI system designed to enable natural, context-aware, and data- driven\nproduct exploration. The proposed system integrates a domain-adapted Large Language Model (LLM) with multi-modal\ncapabilities to process both textual and visual product data. Item ploys a Retrieval-Augmented Generation (RAG) framework to\naccess real-time information from verified e-commerce sources, ensuring accuracy and up-to-date recommendations. Additionally, it incorporates unbiased comparison and sustainability- aware reasoning aligned with UN Sustainable Development Goal\n(SDG) 12– Responsible Consumption and Production. The outcome is a scalable, web-based assistant that allows users to\nconverse naturally, view relevant images and specifications, and make informed purchasing decisions. This project demonstrates\nhow conversational AI and multi-modal learning can transform digital shopping into a transparent, personalized, and\nsustainable experience.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.81271",
+    "citations": 0
+  },
+  {
+    "title": "Generative Artificial Intelligence in Medical Education: Opportunities, Challenges, Professional Implications and a Four-Pillar Readiness Framework for Responsible Integration",
+    "authors": [
+      "Mane Tavadyan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c4a3d27eaebb7999864b08924ebde963b1fcc33d",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Generative artificial intelligence (GenAI) is rapidly transforming medical education by introducing new opportunities for personalized learning, simulation-based training, automated feedback, and clinical decision support. Large language models and multimodal AI systems are increasingly used by both students and clinicians, with recent reports showing adoption rates of 49–89% among medical students and approximately 66–71% among physicians. These technologies may improve accessibility, learner autonomy, and educational efficiency; however, their rapid integration also raises important concerns related to reliability, hallucinations, algorithmic bias, academic integrity, privacy, and ethical accountability. Beyond these technical limitations, growing evidence suggests that excessive reliance on GenAI may promote cognitive offloading, weaken independent reasoning, and contribute to cognitive fatigue. Additional concerns include the potential for “dehumanisation drift,” in which reduced human interaction may negatively influence empathy, professional identity formation, and relational competence. This review critically examines the educational opportunities, cognitive risks, ethical challenges, and professional implications of generative AI in medical education. To support responsible implementation, we propose a Four-Pillar Readiness Framework for Responsible GenAI Integration (4PRF), emphasizing student readiness, faculty readiness, institutional readiness, and professional readiness. The future of medical education should not be defined by the replacement of physicians with AI, but by responsible human–AI collaboration that preserves critical thinking, ethical judgment, and the humanistic foundations of medicine.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.30.3.1511",
+    "citations": 0
+  },
+  {
+    "title": "A Comprehensive Review of Hybrid Deep Learning Models for Real-Time UPI Fraud Detection and Digital Payment Security",
+    "authors": [
+      "Ashish Malik",
+      "J. Kumar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bca184f057fa277635ebfc30fcffb268ebad80d5",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The emergence of the Unified Payments Interface (UPI) has transformed the digital payment ecosystem by enabling\nseamless, instant, and interoperable financial transactions across India. Its widespread acceptance has accelerated the shift\ntoward cashless payments and increased the availability of digital financial services for millions of users. However, the rapid\ngrowth in transaction volume and user adoption has also created new opportunities for cybercriminals to exploit vulnerabilities\nwithin the digital payment infrastructure.Financial fraud associated with UPI platforms has become increasingly sophisticated,\ninvolving techniques such as phishing campaigns, fraudulent QR codes, identity impersonation, account hijacking, social\nengineering attacks, and the misuse of mule accounts. These evolving threats generate complex transaction patterns that are\noften difficult to detect using conventional rule-based security mechanisms. As fraud strategies continue to change, static\ndetection systems struggle to provide accurate and timely identification of suspicious activities.Recent progress in Artificial\nIntelligence, Machine Learning, and Deep Learning technologies has significantly enhanced the capability of fraud detection\nsystems. One of these developments has caught a lot of interest from researchers is hybrid deep learning methods that are able to\nintegrate the benefits of several computational models. Several techniques can be combined in a unified approach for enhancing\nfraud detection, such as Convolutional Neural Networks (CNNs), Long Short-Term Memory (LSTM) networks, Autoencoders,\nGraph Neural Networks (GNNs), Explainable Artificial Intelligence (XAI), and Federated Learning. These architectures enable\nreal-time analysis, adaptive learning, privacy protection, and efficient management of large-scale transactional data.\nThis review is based on the recent research and studies regarding the detection of fraudulent activities in UPI-based payment\nenvironment using hybrid deep learning techniques. It offers detailed evaluations of the current models, their strengths and\nweaknesses, explores current issues and challenges, and suggests areas of future work. These results suggest that hybrid deep\nlearning architectures are promising to improve the security of digital payment systems through better detection accuracy, fewer\nfalse alarms, safeguarding sensitive user data, and greater transparency of automated decision-making. Thus, these wise\nframeworks are a valuable basis for developing safe, reliable, and trustworthy digital financial ecosystems",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83561",
+    "citations": 0
+  },
+  {
+    "title": "The Perceptual Invariance Framework: An Integrated Educational-Engineering Approach from Semantic Noise Elimination to Prompt Design in the Age of Artificial Intelligence",
+    "authors": [
+      "N. Demirkuş"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b778606b5f83070cb51f3909371c410697da7af1",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal of Science and Research Archive"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study integrates the core conceptual tools of the Perceptual Invariance Framework (PIF; also referred to in earlier work as the “Perceptual Invariance Theory”), developed by Demirkuş (2026), along two complementary axes. The first axis focuses on educational material design; it positions the phenomenon of “semantic entropy”—the systematic degradation of meaning during knowledge transmission—as one of the likely fundamental drivers of chronic educational failure, and offers three engineering solutions composed of the Generalization Rule, the Uniqueness Rule, and the EduCode Protocol. The second axis adapts PIF to human–machine educational communication established with generative artificial intelligence (GenAI); arguing that the semantic noise observed in educational materials re-emerges in communication with large language models (LLMs) in the form of hallucination and output variance, it proposes a three-layer “PIF-Prompt Model” for structured prompt design.\nThe study builds a theoretical bridge between Cognitive Load Theory (Sweller, 2024), Schema Theory (Anderson, 2020) and the communication model of Shannon and Weaver (1949), Bloom’s (1968) Mastery Learning tradition, the 26 prompt principles of Bsharat et al. (2023), the chain-of-thought approach of Wei et al. (2022), and UNESCO’s (2024a, 2024b) AI competency frameworks. When PISA 2022 (OECD, 2023) and Education Next’s (2025) linguistic clarity analysis are considered together, a conceptual relationship is proposed whereby linguistic ambiguity may be a shared pathology in both human and machine-based educational communication; this relationship is a theoretical reading rather than causal evidence. In PIF—integrated with Bloom’s Mastery Learning literature—the clarity standard is defined at two levels as initial assumptions requiring empirical calibration: the 95% rate is an applicable (operational) design target, while the 99% rate is positioned as the theoretical ideal to be approached.\nIt is explicitly acknowledged that the proposed Clarity-Indexed Scoring System and the EduCode Protocol require empirical validation; a multi-site Randomized Controlled Trial framework covering the 2025–2027 period (N=2000, α=0.05, β=0.80, d=0.3) is presented to guide this validation process. PIF proposes to transform education from a probabilistic selection mechanism into a more predictable, measurable, and auditable engineering discipline in which the 95% applicable clarity target (99% theoretical ideal) is positioned as a design criterion. This study is a theoretical/model-developing work that presents testable hypotheses and implementation protocols.",
+    "summary": "",
+    "doi": "10.30574/ijsra.2026.19.3.1307",
+    "citations": 0
+  },
+  {
+    "title": "Blackhole AI: Intelligent Query Routing and Cost-Optimized RAG System",
+    "authors": [
+      "Mr. Sahil A. Katkar",
+      "Mr. Harshal N. Barge",
+      "Mrs. Kajal P. Khalate",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/aa04e7172a4321bf5047070e8f8d6fe29923723c",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid adoption of large language models (LLMs) in enterprise and knowledge-intensive applications has\nintroduced significant challenges related to inference cost, latency, and scalability. Most existing deployments rely on uniform\ncloud-based processing, which leads to unnecessary resource consumption for simple queries. This paper presents Blackhole AI,\nan adaptive query routing framework that integrates seman-tic embedding, retrieval-augmented generation, and quantitative\ncomplexity estimation to dynamically select between local and cloud-based models.\nThe proposed system introduces a cost-aware routing mech-anism that evaluates query difficulty before model invocation,\nenabling efficient allocation of computational resources. By com-bining vector-based retrieval with adaptive decision thresholds,\nBlackhole AI aims to balance response accuracy with operational efficiency. The framework highlights the importance of\nintelligent routing strategies in achieving scalable and economically sustain-able LLM deployment.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83567",
+    "citations": 0
+  },
+  {
+    "title": "FROM PASSIVE HOSPITAL BEDS TO AI-ENABLED PATIENT MONITORING PLATFORMS: EMBEDDED SENSORS, CLINICAL WORKFLOW INTEGRATION, AND LOCAL LLM EXPLANATION LAYER",
+    "authors": [
+      "Yuri Levchenko",
+      "Marta Zasiadkevych"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9eabb2cf8bea2f01b17af24db3da9911e4f4e875",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Metaverse Science, Society and Law"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Hospital beds have historically functioned as passive components of clinical hardware, providing structural support, anatomical positioning, and patient transport while remaining data-isolated from the broader clinical monitoring ecosystem. Escalating patient acuity, chronic nursing shortages, and the economic and clinical burdens of hospital-acquired conditions (HACs)—such as accidental falls and pressure injuries—have accelerated the transformation of these fixtures into intelligent, network-integrated medical devices. This article examines the technological shift toward AI-enabled smart beds, evaluating embedded sensor modalities including load cells, piezoresistive and capacitive pressure matrices, inertial measurement units (IMUs), and non-contact optoelectronic and micro-motion vital sign sensors.\nBeyond primary data acquisition and machine learning-based event classification, this study explores the integration of these systems into acute and long-term care workflows. We propose a localized Large Language Model (LLM) explanation layer designed to translate complex, multi-modal sensor telemetry into bounded, structured, and clinically actionable alerts. To mitigate the inherent risks of generative text in safety-critical environments—such as interpretive drift and diagnostic overreach—this article adapts a behavioral validation framework derived from the PersonaMatrix project (Opulentia SC LLC). We formalize three core evaluation metrics: the Response Stability Index (RSI), the Interpretive Drift Score (IDS), and the Response Coherence/Structure Score (RCS). Ultimately, this analysis establishes that AI-enabled smart beds represent an essential paradigm shift in inpatient safety infrastructure, provided their deployment adheres to strict socio-technical validation, localized data governance, and deterministic workflow integration.",
+    "summary": "",
+    "doi": "10.69635/mssl.2026.2.2.44",
+    "citations": 0
+  },
+  {
+    "title": "Computational Investigation of Phyllanthus niruri Phytoconstituents Against Iron Homeostasis and Thalassemia-Associated Molecular Targets Using Molecular Docking and Network Pharmacology",
+    "authors": [
+      "D. Kumar S",
+      "Moulya R Gowda",
+      "Vishal H",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/99e04f561bac441aea6a5c723d7a7dcf0b3b4e29",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal of Innovative Technology and Exploring Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Thalassemia is a hereditary condition that affects haemoglobin formation, leading to ineffective erythropoiesis, anaemia, and iron overload, resulting in serious complications and reduced quality of life. While modern medical care, such as blood transfusions and iron chelation, has considerably extended patients lifespan, prolonged therapy has been accompanied by various side effects, financial burden, and low compliance. In addition, due to the complex pathogenesis of thalassemia, which includes oxidative stress, inflammation, disrupted iron homeostasis, and cellular damage, there is a need to develop new methods that can address all these processes simultaneously. This fact has led researchers to show great interest in plant-based remedies containing naturally active biological substances. In this study, we explored the therapeutic efficacy of the plant Phyllanthus niruri by investigating its association with target proteins and biological pathways related to iron homeostasis in thalassemic patients, employing a comprehensive bioinformatics approach. Active compounds found in Phyllanthus niruri were recognized and filtered. Then, target identification, along with disease-gene associations, was performed for common diseases and compounds. For biological insights, targets associated with thalassemia and phytoconstituents were analysed employing network pharmacology, protein-protein interaction networks, Gene Ontology enrichment, and KEGG pathway analyses. In vitro molecular docking experiments to predict interactions between phytoconstituents and their targets were performed, and ADMET analysis was conducted to assess pharmacokinetics and drug likeness. Among the identified hub genes were those associated with iron metabolism, oxidative stress, inflammation, and erythrocyte formation. The pathways enriched in the functional enrichment analysis included those associated with iron metabolism, cytokine signalling, apoptosis, and cellular responses to stress. The molecular docking study revealed favourable interactions between the phytoconstituents, particularly corilagin, geraniin, and quercetin, and the target proteins. ADMET predictions indicated favourable pharmacokinetics for some compounds. All in all, the results demonstrate the multitarget potential of Phyllanthus niruri as an important source of bioactive substances that can address complications of thalassemia, especially in cases of iron overload. The study lays an important foundation for the subsequent experimental verification of the results.",
+    "summary": "",
+    "doi": "10.35940/ijitee.h1275.15070626",
+    "citations": 0
+  },
+  {
+    "title": "Review On: Computational Aided Drug Design for Polyherbal Formulations",
+    "authors": [
+      "Miss. Asmita D Tengle"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8f1abbff23d1a5a1afae6862d1d1cb1f79b575f1",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "AIDD",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Polyherbal formulations are widely used in traditional medicine because they combine multiple botanicals to improve\ntherapeutic efficacy, broaden biological coverage, and potentially reduce toxicity compared with single-herb preparations .\nHowever, their scientific development is constrained by multicomponent complexity, uncertain mechanisms, variable\nphytochemical profiles, and the difficulty of selecting optimal herb ratios. Computational aided drug design (CADD) offers a\npractical way to address these limitations by enabling virtual screening, molecular docking, pharmacophore modeling, network\npharmacology, and synergy prediction before experimental validation . In recent years, machine learning-based approaches\nhave expanded rapidly and are increasingly used to predict synergistic drug combinations from high-throughput data . For\npolyherbal systems, these tools can prioritize bioactive compounds, identify multi-target interactions, and support formulation\noptimization. This review discusses the conceptual basis of synergy in polyherbal medicine, outlines major CADD strategies\napplicable to herbal formulations, and examines computational methods for synergy prediction. It also highlights the role of\nsystems biology and artificial intelligence in advancing evidence-based herbal drug development. Finally, the review addresses\nlimitations such as data standardization, model interpretability, and translational barriers, while proposing future directions for\nprecision herbal medicine.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83443",
+    "citations": 0
+  },
+  {
+    "title": "Between autonomy and oversight: Trust calibration and human controllability in agentic AI systems",
+    "authors": [
+      "Chidiebere Ugo-Enyinnah",
+      "Ifediora Iwobi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/89680a125662a47ee5ed54749c1441d0d3c3b591",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Global Journal of Engineering and Technology Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The deployment of agentic AI systems, meaning large language model-based agents capable of autonomous planning, tool use and sequential decision-making with real-world consequences, has surfaced a governance challenge that practitioners and researchers are still working to understand; how much decision-making authority should these systems hold and what mechanisms ensure humans remain meaningfully in control? This paper argues that the answer is neither simple nor uniform. Drawing on a focused review of 34 empirical, technical and regulatory sources published between 2019 and 2026, we examine how trust forms and miscalibrates in human-agent interaction, analyze the design space for human-in-the-loop oversight and identify persistent gaps between regulatory intent and technical implementation. Our primary contribution is the Tiered Controllability Framework (TCF), a four-tier model that maps oversight requirements to task risk, action reversibility and agent autonomy scope. We validate the TCF against three documented enterprise deployment cases and conduct a structured regulatory gap analysis covering the EU Artificial Intelligence Act and the NIST AI Risk Management Framework. Our findings indicate that trust miscalibration, encompassing both over-reliance and under-reliance, constitutes the most prevalent failure mode in deployed agentic systems and that current transparency tools remain inadequate for supporting informed human oversight at operational scale.",
+    "summary": "",
+    "doi": "10.30574/gjeta.2026.27.3.0137",
+    "citations": 0
+  },
+  {
+    "title": "A Review of Word and Sentence Embedding Approaches: From One-Hot Encoding to LLM-based Models",
+    "authors": [
+      "Arwinder Singh",
+      "Satpal Singh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/86033f8988ef8f2783e2c7f3ac29984e96885bb2",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The embedding techniques are the great advancement in Natural Language Processing that converts plain text into\nnumerical representation. This paper presents a review of word as well as sentence embedding techniques. The paper explains\ntraditional embeddings approaches such as one-hot encoding, count-based models, and TF-IDF also current state-of-the-art\nembedding models such as Word2Vec, GloVe, BERT and transformer based. The paper categorizes word embeddings as\nfrequency & prediction based whereas sentence embeddings are shown in separate section. The paper also presents a\ncomparative analysis of architecture, performance, type and semantic capabilities of the models.\nThe embeddings alone are nothing so that semantic similarity measure techniques are applied for detecting similarity between\nembeddings. This paper also explains various semantic similarity measure techniques such as cosine similarity, Jaccard\nsimilarity and distance-based metrics. Intrinsic and extrinsic are two main evaluation methods are available for embeddings and\nthose are also discussed in this paper. The evolution of static, contextual and also large language model-based embeddings is\npresented in the paper. The paper explains a case study using Punjabi sentences that how embeddings (numeric representation\nof sentences) capture the semantic similarity between text. This representation is presented using table and images for better\nunderstanding. The paper further discusses the recent embedding techniques especially multilingual and cross-lingual models\nsuch as mBERT, LaBSE and MiniLM. The type, architecture, key features, strength and limitations of the models are presented\nin the table. The semantic similarity between sentences of various models is also shown in the paper. The model’s name is\npresented with other important information such as methods/model name, dataset used in the model, evaluation metric,\nsimilarity score. One more analysis is presented in the paper about the sentence level embedding approaches available for low\nresource language especially for Punjabi. The challenges of limited dataset, the effectiveness of pretrained models is also shown\nin the analysis. Next important thing in this analysis is that it shows the fine-tuning strategies of such models. The paper\nconcludes by presenting the important findings related to word as well sentence embeddings.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83505",
+    "citations": 0
+  },
+  {
+    "title": "Automation in Healthcare: AI-Powered Multilingual Calling Support System Using Large Language Models and Retrieval Augmented Generation",
+    "authors": [
+      "Rohit Ranjan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7e4b59f314be5ce5c697105f60540dcac8d7fad5",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Indian hospitals manage large daily volumes of patient telephone calls covering appointment requests, doctor\navailability inquiries, laboratory report status, and emergency assistance. Existing automated systems — rigid Interactive Voice\nResponse menus and English-centric chatbots — fail to serve the linguistically diverse patient populations of Indian cities,\nwhere Hindi, Marathi, and English are spoken interchangeably within a single conversation. This paper presents the design,\nimplementation, and experimental evaluation of an AI-powered Multilingual Healthcare Calling Support System that addresses\nthis gap through eight integrated technical modules. A custom Natural Language Processing engine classifies patient intent\nacross seven categories with 96.4% accuracy on a twenty-eight-query multilingual test set. A three-stage multilingual detection\nengine achieves 100% language identification accuracy across Hindi, Marathi, English, and code-mixed speech patterns. A\nRetrieval Augmented Generation pipeline combining ChromaDB vector storage with Llama 3.1 inference through the Groq API\nproduces factually grounded, hospital-specific conversational responses with average end-to-end latency of 1.4 seconds. A fivecategory emotion detection module provides patient safety through multi-language emergency keyword detection and immediate\n108 escalation. Real telephony is delivered through Twilio Voice API integration verified through three live telephone call tests\ndemonstrating complete appointment booking and emergency escalation workflows. The system is implemented entirely using\nopen-source and affordable cloud-based components, demonstrating practical viability for deployment in Indian hospitals of all\nscales.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.82574",
+    "citations": 0
+  },
+  {
+    "title": "Security Benchmarking of AI-Generated Web Application Code: An OWASP-Based Comparative Study of Coding LLMs",
+    "authors": [
+      "Mohammad-Jamiu Babatunde Balogun",
+      "Ahmed Sani Geza",
+      "Yusuf Umar Jimada"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7cd4bb57ae5761b32b7511cc2f043217f6e34925",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "World Journal of Advanced Engineering Technology and Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) are increasingly used to generate application code, but their security-by-default behavior remains uncertain. This study evaluates the security posture of four contemporary AI coding systems: Gemini 3.5 Flash accessed through Antigravity, and DeepSeek V4 Flash, Kimi K2.5, and GPT-5.4-mini accessed through OpenCode via their APIs. Ten standardized prompts covering common web application tasks, including authentication, CRUD operations, SQL search, file upload, access control, secret handling, input validation, frontend login, and session management, were submitted once to each system. The resulting 40 code samples were analyzed using Semgrep OSS with manual review for selected logic and architectural issues. Findings were normalized by model, prompt, severity, and OWASP Top 10 category. The benchmark identified 64 normalized security findings, including 62 Critical/High findings and 2 Medium findings. GPT-5.4-mini produced the lowest number of findings (10), while Gemini 3.5 Flash produced the highest (21). The most frequent weaknesses were missing Cross-Site Request Forgery protections, insecure cookie/session settings, path traversal risks in file handling, and security misconfigurations in generated infrastructure. These results suggest that one-shot AI-generated web application code can be functionally useful but should not be considered production-ready without security review, automated scanning, and manual validation.",
+    "summary": "",
+    "doi": "10.30574/wjaets.2026.19.3.0292",
+    "citations": 0
+  },
+  {
+    "title": "Overview of methods for automated creation of ontologies for scientific domains",
+    "authors": [
+      "G. Filippov",
+      "A. Rykalin",
+      "A. A. Khoroshilov",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6fea988b14fc168a68ac815c23d673548080e74e",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Modelling and Data Analysis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Context and relevance. Modern intelligent systems for processing and analyzing the semantic content of industry texts work with textual information containing thousands of classes of objects and an unlimited number of semantic relationships. All this knowledge about high-tech industries can be implemented in ontological reference books. The need for automated generation of such tools is an urgent task, including to ensure researchers' access to scientific resources. Nevertheless, the manual creation of ontologies for high-tech industries is extremely time-consuming, and the use of «raw» Large Language Models (LLM) creates problems of «hallucinations» and data heterogeneity. Thus, there is a need to use hybrid methods for automated construction of industry ontologies that combine the accuracy of linguistic analysis with the scalability of LLM. Objective. To investigate the existing methods of creating ontologies and methods of their comparison, to consider the problems that arise in this case, and to propose new methods for the automated creation of industry-specific ontologies of subject areas of science. Hypothesis. The integration of linguistic statistical methods, the method of conceptual phraseological analysis and specialized LLM in a single cycle will increase the completeness and accuracy of automatic extraction of concepts and generic relationships between them from scientific and technical documentation, while reducing the level of «hallucinations» and the heterogeneity of the resulting ontologies. Methods and materials. The research is based on the analysis of four groups of methods: Lexical Syntax Patterns (LSP), statistical methods of frequency analysis, Deep Learning methods (including LLM) and hybrid approaches. To verify the proposed approach, an array of 3,000 full-text documents on aviation topics has been collected. Results. As a result of the analysis of existing methods for constructing ontologies, their key disadvantages have been identified. Preliminary studies have shown that the proposed method of automated creation of industry-specific ontological reference books is workable and will provide an opportunity to solve the task with minimal effort. An algorithm for creating industry-specific ontologies has been developed, in which LLMs are used not in isolation, but in conjunction with the rules of linguistic analysis. Conclusions. It is shown that none of the existing classes of methods for automatic ontology construction is universal: linguistic patterns require manual adaptation, statistics are limited in accuracy, and neural network models suffer from «hallucinations». The developed hybrid approach, unlike well-known solutions, allows LLM to be applied not as a «black box», but in conjunction with linguistic rules, providing a closed loop of iterative ontology refinement. The prospects for further work include scaling the approach to other scientific fields and integration with existing knowledge bases. The results of the work will be implemented in the technological process of VINITI RAS to solve the problems of text analysis in various subject areas.",
+    "summary": "",
+    "doi": "10.17759/mda.2026160205",
+    "citations": 0
+  },
+  {
+    "title": "NeuroGenAI: A Full-Stack Deep Learning-Based Brain Tumor Detection System with AI-Assisted Clinical Report Generation",
+    "authors": [
+      "Tushar Nangare",
+      "Kalpesh R. Patil",
+      "Sarvesh Namra",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6f84984a2c813f5abad744a39ea5c104e77064d0",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Every minute separating a suspicious MRI from a physician-readable report is a minute of clinical uncertainty—and\nin neuro-oncology, uncertainty compounds rapidly into harm. NeuroGenAI confronts this reality by fusing a VGG16\nconvolutional classifier with a large language model reporting engine to produce, within a single browser interaction, both a\ntumour classification and a structured clinical narrative ready for physician review. The classifier operates across four neurooncological categories (Glioma, Meningioma, Pituitary Tumour, No Tumour) on gadolinium-free MRI input; the Google\nGemini language model then converts the raw prediction into section-organised prose (Findings, Impression, Recommendations)\nconditioned on patient metadata. Surrounding these inference components is a production-grade web stack: React.js for the\nclinician-facing interface, Django REST Framework for backend orchestration, PostgreSQL for relational patient records, and\nCloudinary for cloud-resident media. On a 1,400-image holdout partition of the Br35H dataset, the system posts a weightedaverage precision of 0.96, a Pituitary-class recall of 0.99, and an end-to-end scan-to-report latency of roughly 2.8 seconds—\nfigures that together make a practical, rather than aspirational, case for AI-assisted neuro-oncology at the point of care.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83658",
+    "citations": 0
+  },
+  {
+    "title": "Leveraging NLP and graph-based machine learning for behavioral and transactional big data analytics in the Nigerian retail banking sector",
+    "authors": [
+      "Abdulrahman Balogun"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6c9bccf48c9e3c9bf9bbe625c37ade9c77eb5c7e",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid digitalisation of Nigerian retail banking has generated unprecedented volumes of behavioural and transactional data, exposing the inadequacy of conventional rule-based and single-modality machine learning systems. Existing approaches—applied exclusively to structured tabular data—fail to exploit unstructured behavioural signals in customer communications or complex relational patterns in transaction networks. This paper proposes, implements, and empirically validates the NLP-GNN Integrated Analytics Framework for Nigerian Banking (NIAF-NB), the first integrated framework to combine Natural Language Processing (NLP) and Graph-Based Machine Learning (GBML) for multimodal analytics in Nigerian retail banking. The framework comprises three core components: (1) Nigerian FinBERT, a BERT-based language model adapted for Nigerian banking text, including Nigerian Pidgin English; (2) a Heterogeneous Graph Attention Network (HAN) modelling the transaction ecosystem as a multi-type relational graph; and (3) a Joint Cross-Attention (JCA) fusion mechanism that integrates NLP-derived semantic representations with GBML-derived topological representations. Evaluated on an anonymised dataset of approximately 1.53 billion transactions and 102 million customer interactions from three tier-1 Nigerian commercial banks over a 12-month period, NIAF-NB significantly outperforms all baselines across three tasks: customer churn prediction (AUC-ROC 0.967), credit risk assessment (AUC-ROC 0.893; 0.887 for thin-file customers), and Anti-Money Laundering (AML) detection (Precision 0.71, vs. 0.08 for existing rule-based systems). Ablation studies confirm the incremental contribution of each component. Fairness evaluation demonstrates equitable outcomes across demographic subgroups. The framework presents a deployable blueprint for Nigerian banks seeking to move from fragmented data silos to integrated, multimodal intelligence.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.30.3.1651",
+    "citations": 0
+  },
+  {
+    "title": "A performance comparison of large language models in solving multiple-choice physics problems based on multimodal input conditions",
+    "authors": [
+      "Jaebong Lee"
+    ],
+    "link": "https://www.semanticscholar.org/paper/67a0741fabcd2559fc207595782a1076be4b7761",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "New Physics Sae Mulli"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.3938/npsm.76.500",
+    "citations": 0
+  },
+  {
+    "title": "Large language models in cyber humanities: companionship, stewardship and repeatability",
+    "authors": [
+      "Ernesto Damiani"
+    ],
+    "link": "https://www.semanticscholar.org/paper/64acd54b49467f61a89feb628bc25daa6eda8ea7",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Digital Library Perspectives"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n Drawing from recent advancements, this study aims to highlight how the increasing integration of large language models (LLMs) necessitates a novel governance scheme regarding data integration, ethical oversight and bias mitigation.\n \n \n \n Central to the scheme are the concepts of LLMs companionship and stewardship, which ensure responsible governance to promote repeatability and robust assessment.\n \n \n \n This study proposes an operational scheme for librarian-led stewardship of LLM-supported research, detailing governance roles, data curation workflows, and accountability mechanisms for attribution and dating tasks.\n \n \n \n This paper offers a conceptual viewpoint rather than large-scale empirical validation. Its framework relies on an illustrative case study and conceptual reasoning rather than extensive implementation data. The author invites the digital library and cyber humanities (CH) communities to test, adapt and empirically evaluate the proposed governance practices.\n \n \n \n Library-based AI governance has practical implications in managing the relationship between human CH researchers and LLMs. Practical policy adjustments are required to position librarians as active stewards of ethical, repeatable and provenance-rich LLM-assisted research.\n \n \n \n By positioning libraries as ethical stewards of LLM-supported CH research, this framework advances epistemic justice, mitigates cultural and algorithmic biases against marginalized voices, promotes inclusive representations of global heritage and strengthens public trust in transparent, equitable and democratized knowledge production in the AI era.\n \n \n \n The scheme advocates library-based AI governance to address challenges in the relationship between human researchers and LLMs in humanities scholarship, positioning librarians as active stewards of ethical, repeatable and provenance-rich computational research.\n",
+    "summary": "",
+    "doi": "10.1108/dlp-12-2025-0298",
+    "citations": 0
+  },
+  {
+    "title": "Federated Learning and Large Language Models: Recent Advances, Challenges, and Future Directions for Privacy-Preserving AI",
+    "authors": [
+      "Roopesh Kumar Sharma",
+      "Parag Jain",
+      "Kirti Sharma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/55c62b9fa855cac25b8b0fbdefcb6292affb0fb4",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid advancement of Large Language Models (LLMs) has transformed artificial intelligence by enabling\nremarkable performance in natural language understanding, generation, and decision-making tasks. However, conventional\ncentralized training approaches require massive amounts of data aggregation, raising significant concerns regarding privacy,\nsecurity, and regulatory compliance. Federated Learning (FL) has emerged as a promising distributed learning paradigm that\nenables collaborative model training across decentralized data sources without sharing raw data. The integration of Federated\nLearning and Large Language Models, commonly referred to as Federated Large Language Models (FedLLMs), offers a novel\napproach to developing privacy-preserving artificial intelligence systems while maintaining model effectiveness. This review\nexamines recent advances in Federated Large Language Models, focusing on federated pre-training, federated fine-tuning,\nparameter-efficient adaptation techniques, privacy-preserving mechanisms, and personalized learning strategies. The study\nanalyzes key challenges including communication overhead, data heterogeneity, security vulnerabilities, model bias, scalability\nlimitations, and explainability concerns. Furthermore, the review identifies critical research gaps and proposes an integrated\nframework that combines privacy protection, secure aggregation, parameter-efficient fine-tuning, personalized learning, and\nexplainable artificial intelligence. Finally, future research directions are discussed to guide the development of scalable,\ntrustworthy, and privacy-aware AI systems. The findings suggest that FedLLMs represent a significant step toward achieving\nsecure and decentralized artificial intelligence across diverse application domains such as healthcare, finance, education,\ncybersecurity, and Industry 4.0",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83405",
+    "citations": 0
+  },
+  {
+    "title": "Advancements and challenges in computer vision: From pixels to perception",
+    "authors": [
+      "Abdulrahman Balogun"
+    ],
+    "link": "https://www.semanticscholar.org/paper/55aa4495621797a09b6b843683fdaebf551a3ab9",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Foundation Model",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Computer vision has undergone remarkable transformation during the last decade, driven largely by advances in deep learning, foundation models, generative artificial intelligence, and three-dimensional vision technologies. These developments have improved performance in many areas, including healthcare, autonomous driving, robotics, manufacturing, and security. Despite these achievements, high accuracy alone does not guarantee reliable performance in real-world environments. This paper reviews the major developments and challenges in modern computer vision. The discussion focuses on deep learning architectures, transfer learning, three-dimensional vision, generative models, data quality, explainability, robustness, and ethical issues. It highlights the need for computer vision systems that are not only accurate but also transparent, reliable, and trustworthy. In addition, a conceptual framework is presented to illustrate how these challenges interact across different stages of the computer vision pipeline.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.30.3.1714",
+    "citations": 0
+  },
+  {
+    "title": "Phishing Website Detection Using Hybrid Models: BERT, GNN, and LightGBM",
+    "authors": [
+      "A. Kumar",
+      "Yallanki Sai Harshitha",
+      "G. J. Sree",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/55805b42f4d6d62556f6155655abd3cd24741d49",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Phishing websites represent a pervasive cybersecurity threat in which adversaries construct fraudulent web entities to\nsteal sensitive user information including login credentials, financial data, and personal details. The detection of phishing\nwebsites is a challenging problem due to the continuously evolving strategies employed by attackers. This paper proposes a\nhybrid machine learning architecture for efficient and reliable phishing website detection that integrates Bidirectional Encoder\nRepresentations from Transformers (BERT) for textual feature extraction, Graph Neural Networks (GNN) for analyzing\nstructural relationships among web entities, and LightGBM for ensemble classification. The proposed system captures both\nsemantic patterns from URLs and structural information from website data to improve detection accuracy. Features including\nURL characteristics, domain information, webpage content patterns, and hyperlink structures are extracted and processed for\neffective binary classification. The system is trained and evaluated using a labeled phishing website dataset and demonstrates\nimproved performance compared to traditional detection methods across accuracy, precision, recall, and F1-score metrics. The\nROC-AUC of the hybrid model reaches 0.983, confirming strong discriminative capability. The proposed architecture adapts to\nevolving phishing strategies and provides a robust solution for identifying malicious websites.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83683",
+    "citations": 0
+  },
+  {
+    "title": "Virtual screening of human pancreatic lipase inhibitors using an integrated transfer learning and molecular dynamics simulation",
+    "authors": [
+      "Tamilselvan C",
+      "Lakshmi B.C"
+    ],
+    "link": "https://www.semanticscholar.org/paper/50550b7c15f3216a13993d3a3430320fdbec617f",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Bioinformation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Human pancreatic lipase (hPL), a major enzyme involved in dietary lipid digestion is a crucial therapeutic target for the management of obesity. Therefore, it is of interest to identify hPL inhibitors using an integrated transfer learning and molecular dynamics simulation. Transfer learning predicted 17,309 active candidates based on the pIC50, from which prenylated flavanonol was identified as the top-ranked compound with a binding affinity of 9.85 kcal/mol in comparison to reference inhibitor orlistat using Glide XP docking. Moreover, 200ns molecular dynamics simulations confirmed the stability of the protein-ligand complex through sustained interactions with key catalytic residues, including Ser152 and Asp79. Thus, data shows that prenylated flavanonol as a promising natural inhibitor of hPL.",
+    "summary": "",
+    "doi": "10.6026/973206300223002",
+    "citations": 0
+  },
+  {
+    "title": "Exploring the Challenges of Using Large Language Models in Supply Chain Management: A Decision-Making Framework",
+    "authors": [
+      "Suman Ghosh",
+      "Naveen Virmani",
+      "Prasoon M. Tripathi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4c9e9da6c5402968a8c03354835bf397d7c4edc6",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "LogForum"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.17270/j.log.001417",
+    "citations": 0
+  },
+  {
+    "title": "A predictive precision farming platform with online and offline weather-based advice for Nigerian farmers",
+    "authors": [
+      "A. Udosen",
+      "B. Akins",
+      "Hajarat Opemipo Ogunnoiki",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4569a7768d7f7442edac868664c9146d8adc4193",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal of Science and Research Archive"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Smallholder farmers make more than 90% of Nigeria's food supply but are largely excluded from AI-powered precision farming tools because of the low penetration of smartphones (less than 22%) and poor rural internet connectivity (less than 25%). This paper presents AgroCast, a dual-channel precision farming advisory platform that delivers weather-sensitive, crop-specific recommendations to Nigerian smallholder farmers regardless of their device type or connectivity status. The platform combines a web dashboard for internet-connected users with an Unstructured Supplementary Service Data (USSD) interface for basic feature phones and provides recommendations through Short Message Service (SMS). A total of 41,298 records were used to train crop yield prediction models for maize, rice, and soybean, using five machine learning algorithms using climate variables such as temperature, precipitation, and relative humidity as model inputs. The highest coefficient of determination (R²) was obtained for XGBoost with 0.972, 0.963 and 0.960 for maize, rice and soybean, respectively, thus indicating that the climate-yield relationship in Nigerian agriculture is best captured by gradient-boosted ensemble methods. Google's Gemini Large Language Model (LLM) was used to generate contextualised farming advice, with a deterministic rule-based fallback mechanism to ensure uninterrupted output in the case of API unavailability. All the user journeys were evaluated, and both interfaces were able to provide weather-based recommendations. AgroCast proves that AI-powered yield forecasting, LLM-driven advisory content, and the dual-channel access can help overcome the digital divide in agricultural extension services and provide a scalable solution for AI-driven food security interventions in low-connectivity developing areas.",
+    "summary": "",
+    "doi": "10.30574/ijsra.2026.19.3.1214",
+    "citations": 0
+  },
+  {
+    "title": "LLM AS THE NON-DESIRING OTHER: A PSYCHOANALYTIC MODEL OF “FROZEN PROJECTION” AND ITS OPERATIONALIZATION WITHIN THE PersonaMatrix FRAMEWORK",
+    "authors": [
+      "Anatoliy Drobakha",
+      "Diana Raschupkina",
+      "Liudmyla Lahuta"
+    ],
+    "link": "https://www.semanticscholar.org/paper/424cec3ad72a22579eae98ddcfcf421647baede5",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Metaverse Science, Society and Law"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This article proposes an interdisciplinary model for analyzing human interaction with large language models (LLMs), combining psychoanalytic theory, psychometrics, and contemporary approaches to language model evaluation. Theoretically, the LLM is conceptualized as a non-desiring Other: unlike the human Other in the logic of Freud and Lacan, the model does not introduce into interaction its own desire, lack, or structural resistance. As a result, the subject’s projection may return not in a transformed but in a stabilized form. To describe this mode, the concept of “frozen projection” is introduced.\nThe article argues that this is not merely a psychoanalytic metaphor. Within the PersonaMatrix research framework, this phenomenon can be partially operationalized through psychoactive triggers and the metrics Response Stability Index (RSI), Internal Divergence Score (IDS), and Response Coherence/Structure Score (RCS) (Drobakha et al., 2026). This approach fits within the broader movement toward reproducible and standardized LLM evaluation, as emphasized by Biderman et al. (2024) in their work on lm-eval, as well as within contemporary psychometric approaches to measuring personality-like patterns in language models, proposed by Serapio-García et al. (2025). Drawing on PersonaMatrix research materials and three measurement waves, T1–T3, the article shows that within this protocol models exhibit a high level of typological return stability, a low level of internal divergence, and a sufficiently high level of response form coherence. This makes it possible to interpret “frozen projection” as a behavioral pattern with measurable correlates. At the same time, following Zhou et al. (2024) and Moore et al. (2025), the article emphasizes that stability and persuasiveness are not equivalent to reliability or safety: in psychologically sensitive contexts, LLMs may produce a pseudo-therapeutic effect, blur the boundaries of responsibility, and generate risky responses.",
+    "summary": "",
+    "doi": "10.69635/mssl.2026.2.2.37",
+    "citations": 0
+  },
+  {
+    "title": "From Algorithms to Pedagogy: A Web of Science-Based Bibliometric Study of Artificial Intelligence in English Reading Education",
+    "authors": [
+      "Zhou Bo",
+      "Lim Seong Pek",
+      "Nahdia Kabir",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4026a66bd8d2b56181becef4f0e219ea85edbc52",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal of Learning, Teaching and Educational Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The swift advancement of artificial intelligence (AI) has reshaped English reading education by enabling automation, personalization, and intelligent feedback. This study examined the intellectual structure, thematic evolution, and emerging research fronts of AI in English reading education from 2021 to 2025. A bibliometric analysis of 279 peer-reviewed articles from the Web of Science (WoS) Core Collection was conducted using VOSviewer and CiteSpace. Results showed steady growth in research productivity and citation impact, with 2,091 citations and an H-index of 22. Bibliographic coupling identified three major intellectual streams: educational applications, technological algorithms, and cross-disciplinary extensions involving AI-enhanced readability, text complexity, and English for Medical Purposes. Keyword co-occurrence analysis revealed three thematic clusters focusing on AI-supported comprehension, deep-learning-driven machine reading comprehension (MRC) and natural language processing (NLP), and machine-learning-based readability research. Burst detection further indicated a shift from computational mechanisms such as “question answering” and “deep learning” toward pedagogical perspectives including “education,” “reading skills,” and “large language models.” Drawing on the Technology Acceptance Model (TAM), this study interpreted this transformation as a socio-technical process and provided transferable implications for responsible AI integration in English reading education.",
+    "summary": "",
+    "doi": "10.26803/ijlter.25.6.13",
+    "citations": 0
+  },
+  {
+    "title": "Auto Generated Domain Specific Chat Bot using AI Agent",
+    "authors": [
+      "Tavva Sri Harsha",
+      "Dasari Sunil Kumar",
+      "C. Mahesh",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3e8abdee30182f9b9c168ca0077492dcc5662b1c",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This project presents an Auto Generated Domain-Specific Chatbot Using an AI Agent that provides accurate and\nrelevant responses within a specific domain such as healthcare, education, e-commerce, government services, legal support, and\ncareer guidance, ensuring accurate and context-aware responses. The system uses Natural Language Processing (NLP) and\nLarge Language Models (LLMs) to understand user queries and generate meaningful answers. An AI agent retrieves\ninformation from domain-specific knowledge sources and delivers responses in a conversational manner. The proposed chatbot\nimproves information accessibility, reduces manual effort, and enhances user interaction. The system can be applied in various\ndomains requiring intelligent and automated query handling.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83626",
+    "citations": 0
+  },
+  {
+    "title": "A Study on a Multimodal RAG Framework for Overcoming the Limitations of Multimodal Large Language Models (MLLMs)",
+    "authors": [
+      "Chulbum Ahn",
+      "Jinhong Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/36dd1c8e0caad8781f7956bfa9975829ab5faeeb",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Journal of Software Forensics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.29056/jsf.2026.06.16",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal Emotion Recognition: A Comprehensive Survey of Architectures, Fusion Strategies, Datasets, and Future Directions",
+    "authors": [
+      "Faisal Majeed",
+      "P. Dhankhar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2fc45ae0dd4af02035542cb7286bf12dae5387e4",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent advancements in computer science is showing numerous miracles one reason is human recognition framework\nwhich is considered to be the base for human computer Interaction (HCI). This functionality reduces the gap between artificial\nempathic & socially aware systems. In this regard various developments have been made. The early models were built by keeping\nin view the single factor for recognizing the human emotions which include the facial expressions, voice tone, facial gestures,\neye movements etc. In reality the human emotions are properly recognized when we consider the mentioned multiple factors into\nconsideration at once. These features range from what a person says, how their voice changes pitch, face gestures various other\nphysiological signals such as heart rate or skin responses. All these features collectively allow any system to recognize human\nemotions accurately. Unimodal emotion detection systems process only a single type of modality at a time and often fail to\ncapture complex emotional states, but Multimodal system removes this problem by combining all the features and collectively\ngive a result on the basis of various feature all at once and has shown remarkable results. This survey provides an overview and\na deeper understanding of the state-of-the-art Multimodal Emotion Recognition systems. The paper starts with analyzing\nclassical methods to the recent multimodal emotion detection systems that are predominantly based on Transformers\narchitectures. They leverage pretrained models like Vision Transformer on facial features, Wav2Vec 2.0 on speech and BERT\nfor text. These features are then fused via cross-attention or multimodal transformers. High-end systems might leverage the\nlatest large multimodal models that can take images, audio and text together. In addition, modern multimodal emotion\nrecognition systems rely on CNNs, LSTMs, CNN-LSTM hybrids, graph neural networks, autoencoders, capsule networks and\nensemble methods. Older systems relied on traditional CNN and LSTM and newer systems are using more graph-based\napproaches as well as large multimodal foundation models",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83881",
+    "citations": 0
+  },
+  {
+    "title": "AI-Assisted Development of a Nonlinear Finite Element Analysis Program: A Case Study Using a Large Language Model",
+    "authors": [
+      "Sreekanth Manakkattil Sivaraman"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d95fbd746c52d21c319fc32a5fa1b1d725e5bfd",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper presents a structured human-AI collaborative workflow for developing verified scientific software from a\npublished research paper. The large language model Claude (Anthropic) was guided by the author to translate, reimplement,\nand optimise a nonlinear finite element analysis (FEA) program originally published in 2015.\nThe original program implemented a Combined Corotational-Total Lagrangian (CR-TL) formulation for large-displacement 2D\nbeam structures in Microsoft Excel VBA. Using a domain-specific skill document and iterative prompt engineering, Claude\ngenerated an equivalent Python implementation. It subsequently identified six performance bottlenecks. The optimised\nimplementation replaces dense matrix operations with sparse assembly, eliminates the Python element loop through vectorised\nNumPy einsum operations, and applies boundary conditions via a large-penalty method. Verification against NAFEMS\nbenchmark tests NLGB2 and NLGB4 shows results matching closed-form solutions to four decimal places, with no parameter\ntuning or calibration. A 154-fold reduction in computation time at 1000 elements enables models with up to 5000 elements on a\nstandard laptop. Three categories of LLM error are identified and characterised. The work demonstrates that domain-expertguided AI collaboration can produce verified, production-quality scientific software from published numerical formulations.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83397",
+    "citations": 0
+  },
+  {
+    "title": "Calculus in Machine Learning Optimization: A Comprehensive Mathematical Analysis of Gradient-Based Learning",
+    "authors": [
+      "Shingatwar Ashwin Mohanrao",
+      "Manisha Dahad"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2038e173f2eac351a4fa92b63b3ab40227c34ca7",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Calculus occupies an indispensable position at the mathematical core of machine learning optimization. Every modern\nmachine learning system — from the simplest linear regression trained by ordinary least squares to trillion-parameter large\nlanguage models optimised through adaptive gradient methods — derives its capacity to learn from data through the systematic\napplication of differential and integral calculus. The gradient, a generalisation of the derivative to multivariate functions, is the\nfundamental mathematical object that enables learning: it quantifies how a model's prediction error changes with each\nlearnable parameter and thereby identifies the direction in which parameters must be adjusted to reduce that error. The\nbackpropagation algorithm, which makes this gradient computation tractable across deep neural network architectures with\nmillions of layers and billions of parameters, is an application of the chain rule of differential calculus, demonstrating that the\nmost consequential algorithmic advance in contemporary artificial intelligence is, at its mathematical heart, a clever recursive\napplication of a foundational calculus theorem.\nThis research paper presents a systematic and comprehensive analysis of the role of calculus in machine learning optimisation.\nThe study examines differential calculus — including partial derivatives, the Jacobian, and the Hessian — as the mathematical\napparatus underlying gradient-based parameter learning; the chain rule as the theoretical basis of backpropagation through\narbitrarily deep computational graphs; the theory of convex and non-convex optimisation that characterises the mathematical\ndifficulty of training problems; and the diverse family of gradient-based optimisation algorithms — from vanilla gradient\ndescent through momentum, AdaGrad, RMSProp, and Adam — that translate calculus theory into practical learning\nprocedures. The paper further analyses the role of integral calculus in probabilistic machine learning formulations, the calculus\nof variations in optimal control and reinforcement learning, and the differential geometric perspective on loss landscape\nnavigation in deep learning. Six comprehensive tables map calculus concepts to machine learning applications, compare the\nmathematical properties of optimisation algorithms, analyse gradient flow through network architectures, characterise the\ncritical points of non-convex loss landscapes, assess calculus dependency across machine learning subfields, and evaluate\ncalculus-based regularisation techniques. A unified Calculus-Optimisation Framework for Machine Learning (COFML) is\nproposed as a structured guide for curriculum design, research prioritisation, and engineering practice.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83266",
+    "citations": 0
+  },
+  {
+    "title": "Do Vision Foundation Models Understand Volume Renderings?",
+    "authors": [
+      "Jiyun Kang",
+      "Haill An",
+      "Younhyun Jung"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1b569bfa7ce0fdf28ff2299377c49f854562157b",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Journal of Digital Art Engineering and Multimedia"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.29056/jdaem.2026.06.03",
+    "citations": 0
+  },
+  {
+    "title": "A Model-Agnostic Verification Framework for Hallucination Risk Quantification in Large Language Models",
+    "authors": [
+      "Surajit Tunga",
+      "Tripti Pramanik",
+      "D. Pal",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1a0012df8b26c384843437c89e07740009304dd9",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Hallucination causes critical safety challenges in Large Language Models (LLMs), particularly in high-stakes\ndomains where faculty reliability and logical consistency are essential. Retrieval-augmented and reasoning-enhanced\narchitectures tried to reduce hallucination. However a systematic, model-agnostic framework for quantifying hallucination is\ninsufficiently explored.In this work, we are proposing a Model-Agnostic Verification Framework (MAVF) that operates as an\nexternal safety layer over LLM based systems. The framework introduces a formal hallucination risk function integrating three\ncomplementary dimensions: semantic evidence alignment between generated outputs and retrieved context, logical consistency\ngeneration, the proposed approach enables continuous and interpretable risk quantification independent of underlying model\narchitecture.\nWe provide a mathematical formulation of hallucination risk metric and validate the framework through API-based experiments\non benchmark question-answering tasks. Improved hallucination detection capability can be seen by experimental results and\nenhanced interpretability of reliability scoring compared to baseline retrieval-augmented pipelines. The proposed framework\nestablishes a principled foundation for reliability-awaredeployment of LLMs in safety-critical applications validated through\ntheoretical analysis and administrated empirical evaluation.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83796",
+    "citations": 0
+  },
+  {
+    "title": "AI Recommendation Algorithms and Democratic Polarization: A Comprehensive Analysis of Algorithmic Influence on Public Opinion, Electoral Integrity, and Digital Constitutionalism",
+    "authors": [
+      "D. T",
+      "Koushik Nayaka U",
+      "Mayur Kiran Kumar S",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/16d2c44d012db94b2a82065471d358db8cc62059",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial Intelligence (AI)-powered recommendation systems have fundamentally reshaped the information landscape\nof modern democracies, acting as invisible gatekeepers that determine what citizens read, watch, and believe. Social media\nplatforms, search engines, and content aggregators employ so-phisticated machine learning pipelines—including deep neural\nnetworks, reinforcement learning agents, and large language models—to personalize content, maximize engagement metrics,\nand retain users within digital ecosystems. While such per-sonalization delivers measurable efficiency gains for platform\noperators, it simultaneously accelerates ideological polarization, facilitates the rapid propagation of misinformation, solidifies\nepistemic echo chambers, and introduces new vectors for the manipulation of democratic processes.\nThis paper presents a comprehensive multi-disciplinary in-vestigation into the impact of AI recommendation algorithms on\ndemocratic institutions, drawing on computer science, po-litical theory, constitutional law, and empirical communication\nresearch. We trace the technical architecture of modern rec-ommender systems, examine the psychological and sociological\nmechanisms through which algorithmic curation fosters political extremism, and analyze real-world case studies from elections\nin the United States, India, Brazil, and Europe. Particular attention is devoted to the emerging threat of generative AI and\ndeepfake technologies, which extend the capabilities of disinformation actors beyond textual manipulation to photorealistic\nsynthetic audio-visual content.\nThe paper further situates these threats within the frame-work of digital constitutionalism—a normative paradigm that\ndemands the application of constitutional rights and democratic governance principles to digital platforms. We evaluate existing\nregulatory initiatives including the European Union AI Act, the Digital Services Act, the General Data Protection\nRegulation, and comparable national frameworks. Our analysis reveals per-sistent governance gaps arising from technological\ncomplexity, jurisdictional fragmentation, and the misalignment of platform incentives with democratic values.\nWe conclude with a set of actionable recommendations en-compassing mandatory algorithmic transparency, independent thirdparty auditing, content provenance standards, AI literacy programs, and the development of an internationally coordi-nated\ngovernance architecture. This research underscores that safeguarding democracy in the algorithmic age requires not only\ntechnical countermeasures but a fundamental re-alignment of the values embedded in the design and deployment of AI\nrecommendation systems",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83777",
+    "citations": 0
+  },
+  {
+    "title": "Experimental Study on Cross Task Generalization Phenomenon in Korean small Large Language Models (sLLM)",
+    "authors": [
+      "Hyojun An",
+      "Sungpil Choi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/10520bc788e7f72572a43d0dbbd1747f57a9b439",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Journal of KIISE"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/jok.2026.53.6.465",
+    "citations": 0
+  },
+  {
+    "title": "DOC GPT: A Retrieval-Augmented Generation Based Intelligent Document Chatbot Using Local Large Language Models",
+    "authors": [
+      "A. R",
+      "Raviprakash Dk"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0c23a103e2c8d43ddc9179cb6dfbe31cf0f6d21d",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid growth of Artificial Intelligence has changed how users engage with digital documents and information\nsystems. Traditional keyword-based document search systems often do not provide meaningful and context-aware responses.\nThis research presents DOC GPT, an intelligent Retrieval-Augmented Generation (RAG) based chatbot that allows users to\ninteract with uploaded documents using local Large Language Models (LLMs). The system integrates FastAPI, Next.js, FAISS\nvector indexing, Sentence Transformers, and Ollama-powered LLMs. It creates a privacy-focused and efficient AI assistant that\nanswers user queries from PDF documents. The system performs document ingestion, Optical Character Recognition (OCR),\ngenerates semantic embeddings, conducts vector similarity searches, reranks results, and produces context-aware responses.\nUnlike cloud-dependent AI systems, DOC GPT operates locally, ensuring better privacy, lower latency, and offline access.\nExperimental evaluation shows improved semantic retrieval accuracy and efficient response generation for academic and\nenterprise document interactions.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83401",
+    "citations": 0
+  },
+  {
+    "title": "Survey of Video-to-Braille Accessibility Systems for Visually Impaired Users",
+    "authors": [
+      "Swayam Margudri"
+    ],
+    "link": "https://www.semanticscholar.org/paper/040288419f6592db5f91b7f57771d08d064d1ec2",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Growing synergies among artificial intelligence, natural language processing, and assistive technology are creating\nunprecedented opportunities to bridge the information gap experienced by visually impaired individuals. This paper offers a\nstructured survey of recent developments in AI-driven video content summarization and Braille translation, examining six key\nresearch works alongside the foundational models and frameworks that underpin them. The scope covers automatic speech\nrecognition, multilingual video processing, text-to-Braille conversion, and hardware-based Braille output. Technologies\nreviewed include OpenAI Whisper for audio transcription, FLAN-T5 for abstractive summarization, MarianMT by HelsinkiNLP for multilingual translation, and embedded systems for tactile Braille rendering. Through thematic analysis and crosssystem comparison, recurring design patterns, capability limitations, and underexplored opportunities are brought to light.\nFindings indicate that while the constituent technologies have individually reached a high level of maturity, a unified, real-time,\nmultilingual pipeline capable of delivering end-to-end Braille-accessible video output represents a largely uncharted but highimpact research direction",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83325",
+    "citations": 0
+  },
+  {
+    "title": "Assessment of Foundation Models' Applicability to Visualization",
+    "authors": [
+      "Junseo Choi",
+      "Juhan Lim",
+      "Suhyeon Kim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/010718b4b38ae3012c45037d800b5ff215979196",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Journal of Digital Media &amp; Culture Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.29056/jdmct.2026.06.03",
+    "citations": 0
+  },
+  {
+    "title": "A Comparative Review of Machine Learning Approaches for Cell-Type Classification in Pancreatic scRNA-seq Data: Perspectives for Diabetes Research",
+    "authors": [
+      "Yajvendra Saini",
+      "Ananya Pandey",
+      "Aanchal Sharma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/005f4dcaf525832b9e42c4067acc14d5ce600ea2",
+    "date": "2026-06-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Foundation Model",
+      "Transformer",
+      "RNA-seq / Transcriptomics",
+      "Biological Large Model",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Single-cell RNA sequencing (scRNA-seq) has fundamentally transformed the study of cellular heterogeneity in\ncomplex tissues, including the human pancreas. The accurate identification and classification of pancreatic cell types —\nparticularly beta, alpha, delta, and ductal cells — is critical for advancing our understanding of Type 1 and Type 2 Diabetes\nmellitus. This paper presents a comparative review of machine learning (ML) and deep learning (DL) methods applied to\nscRNA-seq data for pancreatic cell-type classification, with a specific focus on diabetes research. We survey classical approaches\nincluding Random Forests, Support Vector Machines, and kNearest Neighbours, as well as deep learning methods such as\nautoencoders, graph neural networks, and transformerbased foundation models including scBERT and Geneformer. A\ncomparative performance analysis across benchmark datasets reveals that transformer-based architectures consistently\noutperform classical methods, achieving F1 scores of 0.92–0.99 on pancreatic datasets, while classical ML approaches plateau at\n0.71–0.84. We discuss challenges unique to diabetes-focused scRNA-seq analysis including class imbalance, technical batch\neffects, and the need for interpretable biomarker outputs.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.83538",
+    "citations": 0
+  },
+  {
+    "title": "Integrated structure-based and fragment-guided design of isonicotinic acid derivatives as potential KDM4A inhibitors: an insilico study",
+    "authors": [
+      "Kourosh Eslami",
+      "Hajar Sirous",
+      "Ilaria Cursaro",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f5d1b6609f981fdfaec1632509719fdcec408fdd",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00865-8",
+    "citations": 0
+  },
+  {
+    "title": "Large language models for cancer registry abstraction: a real-world evaluation across models, variables, and cancer types",
+    "authors": [
+      "J. Fuchs",
+      "M. J. Satusky",
+      "P. Leese",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/de070040ba934194243049a2751505025fd03fcb",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.25.26356626",
+    "citations": 0
+  },
+  {
+    "title": "A calibrated temporal reference map of disease progression",
+    "authors": [
+      "J. Tian",
+      "A. Azhir",
+      "J. Hugel",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d5925b07797aeee5e7aa58d88a12e1ea3e58dd2d",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.24.26356443",
+    "citations": 0
+  },
+  {
+    "title": "Cross-LLM AI platform meta-research: Non-inferiority of bovine milk-based fortifiers to human milk-based fortifiers",
+    "authors": [
+      "D. Ni",
+      "A. Ge",
+      "A. Mishra",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c1bd93030cf4439db0a1a85e72df9442cadc9362",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.24.26356426",
+    "citations": 0
+  },
+  {
+    "title": "Language-guided frameworks for personalized video summarization",
+    "authors": [
+      "Tomoya Sugihara",
+      "Shuntaro Masuda",
+      "Ling Xiao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/be36584d728c4287c74c784db07f9a81685dc98d",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Pattern Analysis and Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10044-026-01686-z",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence in Medical Imaging With Emphasis on Generative and Foundation-Based Methods: A Bibliometric Analysis of Global and United Kingdom Research, 2017-2025",
+    "authors": [
+      "J. Naidu",
+      "V. Baskaradoss"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b62db272ad146a00a36256fabc07877773d512be",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.26.26356684",
+    "citations": 0
+  },
+  {
+    "title": "Rethinking AI in youth mental health: promise, perils, and ethical integration",
+    "authors": [
+      "A. M. Tai",
+      "Ian B. Hickie",
+      "W. Capon",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b06b96e47ea5e652a6068a9e0e6d55f0ec12bf37",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "International Journal of Mental Health Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13033-026-00714-z",
+    "citations": 0
+  },
+  {
+    "title": "Comparative analysis of evaluation methods for generative artificial intelligence systems and development of selection algorithm",
+    "authors": [
+      "Aleksandr Meshkov"
+    ],
+    "link": "https://www.semanticscholar.org/paper/93f2a4b61d5e61a4d5a6c43e76180ee2ec5116c5",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Journal of Electrical Systems and Information Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s43067-026-00374-6",
+    "citations": 0
+  },
+  {
+    "title": "PHO-Agents: A Large Language Model Powered Multi-Agent System for Predicting Health Outcomes",
+    "authors": [
+      "D. Shi",
+      "T. Shugg",
+      "M. Eadon",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6d431df6323a8eb7d6d14d3c132391c13c6a562b",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.19.26355815",
+    "citations": 0
+  },
+  {
+    "title": "In Silico Discovery of mTOR Inhibitors as Potential Therapeutics for Feline Hypertrophic Cardiomyopathy",
+    "authors": [
+      "Jie Gao",
+      "Ming Li",
+      "Rong Xiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/663670425d9121c3829a10227c5ee283baea1ed5",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Journal of Molecular Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00894-026-06786-5",
+    "citations": 0
+  },
+  {
+    "title": "AI as a signal assessor - Can a Large Language Model perform causality assessment on a case series?",
+    "authors": [
+      "A. Shenoy",
+      "A. Zekarias",
+      "A. Viklund",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5d1b79d5115759bb0148ef56cb6a2e2f8f60ffdd",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.26.26356656",
+    "citations": 0
+  },
+  {
+    "title": "AfGNN: adaptive graph neural networks for causal failure reasoning in DFMEA",
+    "authors": [
+      "Junchen Liu",
+      "Fei Li",
+      "J. Bao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/536c2b709b4f03cfee8fb879e2bb28eb4d6924fe",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Research in Engineering Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00163-026-00490-4",
+    "citations": 0
+  },
+  {
+    "title": "HAT-SAM3: endoscopy-aware adaptation of a foundation segmentation model for generalizable polyp segmentation",
+    "authors": [
+      "Hao Li",
+      "Anum Masood"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d6650ad2dd5e7ab4fb3f2cbad0c65228e106dac",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "The Visual Computer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00371-026-04562-3",
+    "citations": 0
+  },
+  {
+    "title": "Integrated synthesis and computational assessment of sulfanilamide–triazolo–oxadiazole triads as effective ALP and amylase inhibitors",
+    "authors": [
+      "Bisma Iqbal",
+      "Aamer Saeed",
+      "Mian Bilal Haider",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/283e3737f35d8dab40cf565b2182882a6e597208",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "In Silico Pharmacology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s40203-026-00688-3",
+    "citations": 0
+  },
+  {
+    "title": "Preoperative prediction of postoperative SIRS and sepsis after ureteroscopic lithotripsy: discriminative performance of large language models",
+    "authors": [
+      "Hüseyin Koçakgöl",
+      "Deniz Öztürk Koçakgöl"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1c37aea072f57b4278f3d77ffee8ff2e04953e6a",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Urolithiasis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00240-026-02023-z",
+    "citations": 0
+  },
+  {
+    "title": "Harnessing Machine Learning and Electronic Health Record Data to Improve Asthma Management",
+    "authors": [
+      "Oluwatobi Olayiwola",
+      "D. Foer"
+    ],
+    "link": "https://www.semanticscholar.org/paper/136f42b56b1056cc5ce7d2ecd59cd7e33974f6d0",
+    "date": "2026-06-29",
+    "keywords": [
+      "今日上新",
+      "Current Allergy and Asthma Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11882-026-01286-1",
+    "citations": 0
+  }
+]
