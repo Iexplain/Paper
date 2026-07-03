@@ -1,0 +1,185 @@
+[
+  {
+    "title": "Automation is not evidence of efficiency",
+    "authors": [
+      "Matthew J. Grainger",
+      "S. Savilaakso",
+      "Neal R Haddaway",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ecf68079a9b4f2dc9af7cc331e0768936dee9a52",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "Environmental Evidence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13750-026-00388-7",
+    "citations": 0
+  },
+  {
+    "title": "A foundation model of wearable pulse oximetry reveals physiological signatures of health and cardiometabolic risk",
+    "authors": [
+      "S. Kohn",
+      "G. Lutsker",
+      "A. Diament",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cc973583d723027e54ba7ec3dfe475d823509730",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.01.26356992",
+    "citations": 0
+  },
+  {
+    "title": "Physician epistemic framing alters the accuracy of large language models for medical second opinions",
+    "authors": [
+      "F. Reis",
+      "W. Kunde",
+      "F. Balzer",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cc4c3e70be8a6a0c808ccd4c6d70ad04af754cc3",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.30.26356911",
+    "citations": 0
+  },
+  {
+    "title": "Shades of Commitment in Hope Speech Detection",
+    "authors": [
+      "Tulio Ferreira Leite Da Silva",
+      "Gonzalo Freijedo Aduna",
+      "Priya Dharshini Krishnaraj",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c88045048cb856535b1e6e7f1561f3cf54066130",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Cognitive Computation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Background: Hope Speech (HpS) has been proposed as a strategy to shift online moderation from purely punitive approaches toward positive reinforcement, amplifying expressions of aspiration, resilience, and support. Despite substantial research in psychology, philosophy, and linguistics highlighting the multifaceted nature of hope, most computational models treat HpS as a coarse, binary phenomenon, neglecting the linguistic and cognitive nuances that underpin real-world hopeful discourse. Objective: We introduce C-Hope, a linguistically grounded framework for fine-grained Hope Speech Detection (HpSD) that differentiates between distinct notional categories of hope (Counterfactual, Desire, Belief, Plan) and considers temporal orientation, modality, and commitment level in speaker stance. Our goal is to improve the interpretability and practical utility of HpSD models, addressing the gap between broad affective categories and the complex reality of hope in discourse. Methods: We re-annotate existing HpS datasets with the C-Hope scheme, assembling a fine-grained, linguistically-grounded benchmark capturing degrees of speaker commitment in hope speech, comprising 4,370 English texts. C-Hope distinguishes five main groups of linguistic markers, including modal verbs, propositional attitude verbs, mood, tense, and grammatical constructions. We evaluate both fine-tuned transformer models and prompted large language models (LLMs), designing structured prompts that incorporate theoretical insights into the nature of hope. Results: Our findings show that models trained on the C-Hope scheme outperform binary HpS models, demonstrating improved detection of nuanced categories such as counterfactual and plan-based hope. Moreover, prompt-based LLMs leveraging structured linguistic knowledge achieve competitive results, suggesting that grounding AI models in linguistic theory is a promising avenue beyond purely data-driven approaches. Conclusion: Our study demonstrates the viability of a linguistically informed, multi-category framework for HpSD, paving the way for future research integrating fine-grained semantic distinctions and speaker stance modeling. The new benchmark corpus and methods provide tools for developing more transparent, ethical, and context-aware NLP systems.",
+    "summary": "",
+    "doi": "10.1007/s12559-026-10604-8",
+    "citations": 0
+  },
+  {
+    "title": "Disrupting virulence: in silico discovery of MexL inhibitors to block pyocyanin biosynthesis in Pseudomonas aeruginosa",
+    "authors": [
+      "U. Asghar",
+      "Irfa Asghar",
+      "Samavia Akhter",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/71ff747552d6fdf86eb1c644aaa64c67432bdf86",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "Archives of Microbiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00203-026-05017-y",
+    "citations": 0
+  },
+  {
+    "title": "GutCore: An Endoscopy Foundation Model for Whole-Case Gastric Cancer Analysis",
+    "authors": [
+      "S. Kim",
+      "H. Yoo",
+      "S.-K. Yoo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5d854cddfacece237313f2ab6a470de3cf4e056c",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.01.26356993",
+    "citations": 0
+  },
+  {
+    "title": "LLM-assisted screening method for large-scale transportation model calibration",
+    "authors": [
+      "Huy Le",
+      "Hai L. Vu",
+      "Vu Nguyen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d81e9c472f16011a7561d0a5c92652458c53f38",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "npj Sustainable Mobility and Transport"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44333-026-00115-2",
+    "citations": 0
+  },
+  {
+    "title": "Algorithmic implementation of pancreatic cancer staging guidelines: comparison with a retrieval-augmented large language model",
+    "authors": [
+      "A. Komaba",
+      "A. Amakawa",
+      "R. Tozuka",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1db8c32284e1ab805bcbd3aa5debccf33fde419a",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.30.26356912",
+    "citations": 0
+  },
+  {
+    "title": "Clinical drug report generation using multi-phase prompt large language models",
+    "authors": [
+      "Shaian Khan",
+      "Mohammadreza Akbari Lor",
+      "M. Sperry",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0efa41dd2bb5b99bf7ce61422a00135bd48aed76",
+    "date": "2026-07-02",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "Scientific Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate and timely synthesis of clinical drug information is essential for pharmacists engaged in evidence-based practice and formulary evaluation. However, generating structured summaries from diverse data sources remains time-intensive. Advances in large language models (LLMs) offer new opportunities to automate this process. To establish and evaluate a pilot inference framework that automatically generates structured preliminary clinical drug reports by integrating outputs from multiple prompt-specific language models. The framework was designed for compatibility with transformer-based LLMs, including domain-adapted and instruction-tuned variants. Nine independent prompts were implemented to extract key clinical sections: FDA-approved indications, efficacy evidence, summary of clinical findings, dosing recommendations, and adverse reaction profiles. Each section was processed individually, standardized, and automatically merged into a cohesive, human-readable report. Output reproducibility, formatting consistency, and clinical usability were qualitatively assessed across models. The framework generated structured, readable reports that preserved section-level accuracy and coherence across all evaluated models. Outputs demonstrated uniform formatting, reproducibility, and clinical interpretability, independent of the underlying LLM. The automated process effectively reduced manual synthesis time and maintained fidelity to primary clinical content. This inference framework demonstrates the feasibility of using multiple prompt-specific LLMs to automate generation of preliminary clinical drug reports. Its modular, reproducible design supports integration into pharmacy informatics and drug evaluation workflows, offering a scalable tool to enhance clinical decision-making and streamline literature synthesis.",
+    "summary": "",
+    "doi": "10.1038/s41598-026-47707-z",
+    "citations": 0
+  }
+]
