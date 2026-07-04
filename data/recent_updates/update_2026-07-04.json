@@ -1,0 +1,156 @@
+[
+  {
+    "title": "AI and the Future of Publishing: Not Detection, but Answerability",
+    "authors": [
+      "Luciano Floridi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f45d8ee3dfefa9a96a18f28aadb8c7816ca91ae2",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "Philosophy & Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13347-026-01148-8",
+    "citations": 0
+  },
+  {
+    "title": "Comparing the algorithmic fidelity of large language models in predicting human decision making: a case study of vaccination choice",
+    "authors": [
+      "Shaochong Xu",
+      "Liyue Zhang",
+      "Amelia M. Jamison",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef8c2ef52f3040f3d4a109e45619a68062a533e7",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "npj Digital Public Health"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44482-026-00026-6",
+    "citations": 0
+  },
+  {
+    "title": "RAG in clinical practice: a cautionary tale of AI ‘Truthfulness’",
+    "authors": [
+      "Hyoje Jung",
+      "Kyusok Cho",
+      "T. Jun",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d5b9e38378f55ed283f58e7c6a4e02458f9c589a",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "npj Health Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44401-026-00115-x",
+    "citations": 0
+  },
+  {
+    "title": "LIGR: Label Informativeness-guided Graph Rewiring",
+    "authors": [
+      "Rucha Bhalchandra Joshi",
+      "Subhankar Mishra"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b0fb7331b75160f480eaf1d54d618da5505ef851",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "Data mining and knowledge discovery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10618-026-01236-5",
+    "citations": 0
+  },
+  {
+    "title": "A model-driven knowledge graph treatment for process-centric cyber threat mitigation",
+    "authors": [
+      "Andrei Chiș",
+      "Ana-Maria Ghiran",
+      "R. Buchmann"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8fe451a0fe8ecd476b8691f58b186d61315c819f",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "Knowledge and Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Cybersecurity analysis touches on diverse interdisciplinary aspects, both technical and business-oriented, and diverse stakeholders from different backgrounds must be supported with a knowledge capture environment that operationalizes the “secure by design” principles while also ensuring semantic traceability of the design decisions, to enable AI-based analysis. This paper introduces a domain-specific modeling method supported by a process-centric visual language (a BPMN extension) to enable a knowledge graph treatment for designing cyber threats mitigations in tandem with business process engineering activities and associated data flows. The treatment is intended to be leveraged by LLM (large language model) services, therefore experimentation leans towards AI integration. The domain-specific modeling language (DSML) hybridizes BPMN and threat modeling, further subjected to model transformations into RDF graphs. A demonstrator is implemented on the ADOxx metamodeling platform and its interoperability/adapters for integration with triplestores and LLMs—this makes possible both SPARQL and natural language queries over the prescriptive diagrammatic designs, as analysis approaches. The proposed method can be used to describe contextualized cybersecurity threats during the design phase of a system or during IT system auditing. The integration bridge with knowledge graphs and large language models enhances the system analysis capabilities by streamlining heterogeneous knowledge flows comprising diagrammatic representation, RDF graphs and generative AI, towards an emerging flavor of model-driven engineering. The method was developed iteratively according to the Design Science framework, with its development activities specialized for the DSML-focused Agile Modeling Method Engineering framework.",
+    "summary": "",
+    "doi": "10.1007/s10115-026-02819-w",
+    "citations": 0
+  },
+  {
+    "title": "The role of large language models in the writing of surgical reviews: fact or fantasy?",
+    "authors": [
+      "D. DeTemple",
+      "Simon Störzer",
+      "Sahar Arbabzadah",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7ba7e19ef53f22e510c02385adcd537b775ec796",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "Langenbeck's archives of surgery (Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Amidst the current enthusiasm concerning artificial intelligence and its possible application in the composition of different kinds of scientific and non-scientific written documents, we evaluated the usage of artificial intelligence for writing surgical short reviews. In order to assess the formal and content quality of AI-generated texts compared to human written texts, ten AI-based text generators (five chatbots and five content creators) and four surgeons in training received the same prompt for a short scientific article on a liver surgery theme. All texts were anonymized and subsequently evaluated by three experienced liver surgeons based on a pre-defined scoring scheme, as well as for quality of references and readability according to readability indices. Furthermore, all texts were tested for plagiarism using PlagScan. Overall percentage of correct assessment for AI/non-AI generation by experienced surgeons lay at 78.57%. Human written text had a mean word count of 1054 versus 874 in AI-generated text, with a higher mean Flesh Reading Ease Score (FRE, 26.2 ± 5.1 versus 17.7 ± 6.1). References were PubMed-listed in 100% for human versus 46% for AI-generated text, with only one non-human text reaching 100% formally correct citation of references. PlagScan found 6.4%±1.3 mean resemblance to existing texts for human versus 7.6%±4.5 for AI-generated text. Overall, AI could already mislead experienced scientific surgeons in 26.7% of cases into believing it to be human. However, formal requirements, especially considering referencing, are still in great need of improvement with only one of AI-generated articles fulfilling our quality requirements.",
+    "summary": "",
+    "doi": "10.1007/s00423-026-04095-2",
+    "citations": 0
+  },
+  {
+    "title": "Topological graph learning on healthcare networks for critical care prediction",
+    "authors": [
+      "Charles Fanning",
+      "Ahmed Guler",
+      "Corey Verkouteren",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5c5a2478f4368ccce8949b33c300bce3755fe697",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00824-1",
+    "citations": 0
+  },
+  {
+    "title": "A deep learning model for dengue outbreak detection and serotype classification",
+    "authors": [
+      "Inam Ullah",
+      "Fahad Burhan Ahmad",
+      "M. Rana"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3ea52da5a09370f741611476adf57bd178ae32f3",
+    "date": "2026-07-03",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00815-2",
+    "citations": 0
+  }
+]
