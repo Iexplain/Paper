@@ -1,0 +1,280 @@
+[
+  {
+    "title": "Effective Use of Large Language Models for Social Constructivism in Computer Science Education",
+    "authors": [
+      "Nickolas J. G. Falkner",
+      "Leo Leppänen",
+      "Juho Leinonen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8e5be45f4f711a58203ed1f7e3ca64bc672d8132",
+    "date": "2026-07-09",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3803400.3809392",
+    "citations": 0
+  },
+  {
+    "title": "Fenugreek-derived bioactive compounds as high-affinity inhibitors of Monkeypox virus identified by integrated molecular docking, dynamics simulations, and ADMET profiling of promising candidates",
+    "authors": [
+      "Mamoudou Hamadou",
+      "Gaetan Bayiha ba Njock",
+      "A. Abubakar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f9c6fc1c31040960aedb38c306e2670eaf97e4fc",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00844-w",
+    "citations": 0
+  },
+  {
+    "title": "A large language model-assisted workflow for generating a living evidence base for climate-sensitive foodborne disease",
+    "authors": [
+      "R. Elson",
+      "K. M. McIntyre",
+      "M. B. Hardingham",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ed90b74104e1c2a4200b63f0b23f273e2fd2a616",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.04.26357263",
+    "citations": 0
+  },
+  {
+    "title": "Uncertainty-calibrated adaptation of clinical transformer foundation models enhances in-hospital mortality and hospital readmission prediction",
+    "authors": [
+      "Pei-Hung Chung",
+      "Byung-Jun Yoon"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e2b1a8ed25897e211c39544479c4589b507770c0",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "Transformer",
+      "npj Health Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate prediction of in-hospital mortality and 30-day readmission is important for clinical decision support, yet existing transformer approaches focus narrowly on ICU cohorts, rely on multimodal inputs that few institutions can harmonize, and rarely provide calibrated uncertainty suitable for triage. We address these gaps with a portability-first design, studying the broad general hospital admission population—spanning both ICU and general ward patients—using only ICD procedure code sequences combined with age and sex. This minimal, universally recorded input is itself a contribution, yielding a model substrate that is interoperable, auditable, and applicable to resource-constrained settings. On this foundation, we conduct the first systematic comparison of uncertainty-aware parameter-efficient adaptation strategies for clinical transformer foundation models on general admissions, evaluating full-parameter fine-tuning, Single LoRA, LoRA Ensemble, Bayesian LoRA, and Monte Carlo Dropout against classical baselines, with a leakage-aware mortality protocol on MIMIC-IV and external validation on MIMIC-III. Our analysis shows that no single uncertainty mechanism dominates: stochastic averaging on a fully fine-tuned backbone delivers the strongest discrimination, Bayesian adaptation is best calibrated on the highly imbalanced mortality outcome, and ensemble averaging is best calibrated on the more heterogeneous readmission outcome, while the clinical transformer generalizes more gracefully than classical baselines under domain shift. Together, these findings establish that procedure-code sequences alone, paired with uncertainty-calibrated parameter-efficient adaptation, can support reliable, deployment-ready risk estimates across the general hospital admission population, and clarify how to match the uncertainty mechanism to outcome prevalence and clinical objective.",
+    "summary": "",
+    "doi": "10.1038/s44401-026-00119-7",
+    "citations": 0
+  },
+  {
+    "title": "A novel deep learning approach for privacy-preserving encoded EEG-based brain-computer interfaces with clinical LLM applications",
+    "authors": [
+      "Taslima Khanam",
+      "S. Siuly",
+      "Kate Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d8b37a94fe4f483067938af67f1774a6ecddedd8",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Health Information Science and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13755-026-00470-x",
+    "citations": 0
+  },
+  {
+    "title": "Mining Attribute-Based Access Control Policies with Large Language Models [Work in Progress Paper]",
+    "authors": [
+      "Thang Bui",
+      "E. Mota"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d84aa7c4e91500e047b550435e105e1b6052eed7",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 31st ACM Symposium on Access Control Models and Technologies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3750555.3811907",
+    "citations": 0
+  },
+  {
+    "title": "Classificação de Tempo de Execução de Jobs de Simulação em HPC Usando LLMs e Engenharia de Prompt",
+    "authors": [
+      "Luciana de C. Franci",
+      "L. A. A. Costa",
+      "Leonardo V. Neri",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d010bfb33eba1c3fd102984787ccce2b3840f354",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Anais da VII Escola Regional de Alto Desempenho da Região Nordeste (ERAD-NE 2026)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Este trabalho propõe o uso de Large Language Models (LLMs) e Engenharia de Prompt para classificar o tempo de execução de simulações de reservatórios em ambientes HPC, visando otimizar a alocação de recursos. Foram comparadas três estratégias (Ingênuo, Especialista e Few-Shot) utilizando 10.000 scripts. A abordagem Few-Shot, que incorporou estatísticas históricas, obteve o melhor desempenho com 76,83% de acurácia, superando métodos tradicionais ao interpretar a semântica dos códigos sem execução prévia. Embora promissores, os resultados em classes desbalanceadas indicam que futuras melhorias exigem estratégias de ajuste fino ou aumento de dados para aumentar a robustez da classificação em cenários complexos.",
+    "summary": "",
+    "doi": "10.5753/erad-ne.2026.25251",
+    "citations": 0
+  },
+  {
+    "title": "Retina-derived Quantitative Biomarkers of Brain Health",
+    "authors": [
+      "T. Ma",
+      "T. Yan",
+      "J. Sun",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9853dfec2f9f6d1e5af3c8382b627b821f0ab287",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.05.26357344",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating foundation model integration strategies for detecting PII in java software engineering pipelines",
+    "authors": [
+      "Fabiano Damasceno Sousa Falcão",
+      "Edna Dias Canedo"
+    ],
+    "link": "https://www.semanticscholar.org/paper/95ad5e41a304d1d612a319695866edcb9924eb2c",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Empirical Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10664-026-10919-y",
+    "citations": 0
+  },
+  {
+    "title": "Evaluation of Large Language Models for Post-Cystectomy Sexual Health Counseling in Women: A Pilot Study",
+    "authors": [
+      "F. Shafau",
+      "A. A. Dave",
+      "I. Omole",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5a434561a8749ef53afc636a1e55fbcc1d7c0fb6",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.06.25.26356154",
+    "citations": 0
+  },
+  {
+    "title": "A scalable neuroinformatics pipeline for harmonizing routine clinical electroencephalograms across public hospitals",
+    "authors": [
+      "V. A. Vakorin",
+      "A. Moiseev",
+      "S. M. Doesburg",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5337807612c0a96dee063f44e468b983fc501043",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.03.26357250",
+    "citations": 0
+  },
+  {
+    "title": "Sustainable AI framework for carbon footprint assessment and green AI lifecycle management",
+    "authors": [
+      "Mohd Nadeem",
+      "Ankit Kumar Singh",
+      "Shreya Yadav",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/35c62ce65284b2a0576f124743ae1199e1b12aa1",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01251-8",
+    "citations": 0
+  },
+  {
+    "title": "Identification of potential inhibitors of dengue virus ns5 methyltransferase and polymerase domains through virtual screening and molecular dynamics studies",
+    "authors": [
+      "Nabeel Haider",
+      "Abolfazl Zare",
+      "Yi Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2ed3af89f8fde3c8dbccaa4ec11daa2d53fd1dfa",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "Journal of Molecular Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00894-026-06839-9",
+    "citations": 0
+  },
+  {
+    "title": "A spatiotemporal framework for GNSS-based rainfall nowcasting with FluxFormer and attention-based graph neural networks",
+    "authors": [
+      "Xiangyang Han",
+      "Xianwei Wang",
+      "Jinhua Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0de267c0c78b4c2437ccf256c16c003de4aec648",
+    "date": "2026-07-08",
+    "keywords": [
+      "今日上新",
+      "GPS Solutions"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10291-026-02121-w",
+    "citations": 0
+  }
+]
