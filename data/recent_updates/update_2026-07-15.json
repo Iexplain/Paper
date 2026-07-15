@@ -1,0 +1,479 @@
+[
+  {
+    "title": "DistShield: Distribution Preserving Model Obfuscation for Real-Time TEE-Shielded Secure Inference on IoT Devices",
+    "authors": [
+      "Qing Song",
+      "Gaojian Xiong",
+      "Yu Sun"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e481adf2eefbec7d3d2ce62fe45693e90226b07d",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "While on-device inference avoids network latency and private data uploading in Internet of Things (IoT), the risk of model theft has raised serious concerns. As a solution, a state-of-the-art approach obfuscates critical parameters and shields deobfuscate keys in TEE, ensuring model confidentiality with minimal overhead. However, we reveal that existing methods lead to anomalous clustering in distribution, undermining the anonymity of protected parameters. Based on this vulnerability, we demonstrate a model-stealing attack that could recover over 97% of the model’s performance without any queries or training, severely compromising the model’s security. Additionally, existing methods struggle to scale for large-language models (LLMs). To address these challenges, we propose DistShield, which leverages distribution-preserving obfuscation to generate obfuscated parameters with no anomaly. Moreover, to minimize the inference latency and adapt to LLMs, iterative weight pruning is tailored to precisely narrow down the range of critical parameters. Experimental results demonstrate that our approach achieves robust model security by protecting only 0.013% of the parameters, leading to a $10\\times $ reduction in model-stealing attack accuracy, with only 11% additional TEE computation latency introduced. DistShield provides a promising obfuscation scheme against model theft on the edge, while maintaining real-time inference capabilities.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3686579",
+    "citations": 0
+  },
+  {
+    "title": "Automated Spatial–Temporal Graph Neural Network Search for Skeleton-Based Human Action Recognition on Edge Devices",
+    "authors": [
+      "Xiuwen Li",
+      "Weiwei Fang",
+      "Liang Yue",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d1c96d1aca0744da72374e244a687575ac15e4ef",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph neural networks (GNNs) have attracted significant attention in human action recognition (HAR) tasks due to their ability to model spatial–temporal relationships between body joints in skeletal graphs. However, prior solutions typically suffer from high computational overhead and significant inference latency, particularly on resource-constrained platforms like edge devices. To mitigate this, we propose Edge-STGNN, a speed-optimized neural architecture search (NAS) framework, for the automated design of spatial–temporal GNNs (STGNNs) tailored for action recognition on edge devices. Specifically, Edge-STGNN defines a search space that includes diverse temporal convolutional layers, attention mechanisms, and network depth options. Based on this search space, it constructs the supernet using a single-path training approach. Subsequently, an evolutionary algorithm-based search strategy is applied to identify optimal architectures. Furthermore, Edge-STGNN integrates an efficient speed predictor to reduce evaluation time and employs a small-scale proxy dataset to lower search costs. Comprehensive experiments on multiple datasets and edge devices demonstrate that Edge-STGNN effectively identifies architectures with fewer parameters, reduced computational complexity, and faster inference speeds while preserving acceptable recognition accuracy. Additionally, by incorporating speed constraints, Edge-STGNN enables a flexible tradeoff between accuracy and speed tailored to specific application demands. For example, on the NTU red, green, blue (RGB)+D 60 xview60 benchmark, compared to all baseline methods with reported speeds, Edge-STGNN achieves a $2.4\\times $ to $9.4\\times $ inference speedup while maintaining accuracy within a ±1% margin.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3692679",
+    "citations": 0
+  },
+  {
+    "title": "Energy-Efficient Federated Learning Over Wireless Networks: A GNN-Assisted Deep Reinforcement Learning Approach",
+    "authors": [
+      "Liang Wang",
+      "Zihao Wei",
+      "Bomin Mao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c04364bc5075dcf7d9137f242da6d77ea34de448",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Cited: 1",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Implementing federated learning (FL) over wireless networks faces critical research challenges, such as high communication costs, inevitable communication latency, and significant energy consumption for model transmission and training, primarily caused by device heterogeneity and unpredictable dynamic channel conditions. This article proposes graph-based resource optimization with compression for FL (GROC-FL), a unified framework that jointly coordinates wireless resource allocation and collaborative model compression. By leveraging graph neural networks (GNNs) to model wireless topology and deep reinforcement learning (DRL) to optimize communication and computation resources together with a globally consistent sparse-update mechanism, GROC-FL minimizes the overall energy consumption of clients over wireless networks. In order to address the intrinsic topology dependence of wireless FL, we develop a graph-augmented DRL agent based on a graph convolutional network (GCN) that captures resource competition and network topology. We further develop a collaborative model compression module, termed federated parameter negotiation (FPN), which enables clients to negotiate a global sparse mask and further reduce energy consumption during FL training. Experimental results demonstrate that GROC-FL outperforms the baselines in energy consumption, training performance, and client fairness.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3689919",
+    "citations": 1
+  },
+  {
+    "title": "Fast Time-Aware Shaper Scheduling for In-Vehicle Networks via Deep Reinforcement Learning",
+    "authors": [
+      "Mohammadparsa Karimi",
+      "Majid Nabi",
+      "Andrew Nelson",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ba71f7959ed862cc51b3090113d5f833c0d5c488",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Modern vehicles increasingly rely on distributed computing platforms that exchange large volumes of sensor and control data with strict timing requirements. Ensuring that this traffic meets its deadlines over Ethernet-based in-vehicle networks (IVNs) requires time-sensitive networking (TSN) and, in particular, effective configuration of the time-aware shaper (TAS). However, generating and updating TAS schedules that remain valid as traffic patterns evolve is an NP-hard problem that traditional optimization or heuristic methods address only partially. This article introduces a deep reinforcement learning (DRL) scheduler that learns to configure TAS schedules directly from network state while preserving standard compliance through analytical validation. The proposed DRL scheduler encodes the scenario (network topology and workload) of the IVN using a graph neural network (GNN) and learns scheduling policies that balance deadline satisfaction, latency, and resource utilization. Evaluation on a comprehensive benchmark shows that the proposed approach consistently outperforms state-of-the-art heuristics and a topology-specific DRL baseline, achieving a higher success rate and lower delay while maintaining efficient bandwidth use. Once trained, it can adapt to new traffic scenarios within milliseconds, demonstrating the potential of the DRL-based scheduler as a foundation for adaptive and reliable communication in next-generation software-defined vehicles.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3695413",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence in English Language Teaching and Learning: A Scoping Review of Intelligent Computer-Assisted Language Learning (2015–2025)",
+    "authors": [
+      "Ese Emmanuel Uwosomah"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b974ae06e83f1c6871c6076ecc4e3ba1be2e7bb6",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "Arab World English Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This scoping review primarily aims to synthesize empirical research on artificial intelligence in English language teaching and learning published from 2015 to 2025. The main question investigates how the integration, applications, and pedagogical roles of AI have evolved over the past decade. The significance of this study is that it uses Intelligent Computer-Assisted Language Learning as an interpretive lens to make sense of a rapidly shifting field, offering a framework to help educators navigate modern generative tools. Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews (PRISMA-ScR) guidance, 129 empirical studies were identified and analyzed using descriptive mapping and thematic analysis. The main findings indicate three overlapping evolutionary phases: an early system construction phase focused on tutoring, a mobile-and-voice phase emphasizing speech practice, and a generative phase dominated by large language models. The evidence base remains heavily concentrated in higher education, where AI frequently acts as a tutor, practice partner, or co-writer. For further use, this study recommends adopting teacher-mediated task designs, shifting assessments to focus on the learning process, and prioritizing longitudinal research in primary and under-resourced educational settings.",
+    "summary": "",
+    "doi": "10.24093/awej/call12.2",
+    "citations": 0
+  },
+  {
+    "title": "A Streaming Graph Hybrid Partitioning Method to Capture Multipatterns via the Incremental Lightweight GNN",
+    "authors": [
+      "Zhipeng Sun",
+      "Chaoze Lu",
+      "Dongdong Lv",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/aea4126845de0042255d6d04532c85dc1b07f24f",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "With dynamic big graphs becoming mainstream in recent years, existing graph partitioning methods struggle to capture the complex semantics and dynamic characteristics of streaming graphs. This limitation leads to graph $k$ -way partitioning outcomes that cannot efficiently support parallel and distributed computing, thereby failing to meet the high-performance demands of dynamic graph processing. Furthermore, while graph neural networks (GNNs) have achieved remarkable performance across various graph computing domains, research on GNN models specifically tailored for dynamic graph partitioning remains scarce. To address the above issues, this article introduces SP_iLGNN, a streaming graph hybrid partitioning method to capture multipatterns via the incremental lightweight GNN (LGNN). Our method performs online streaming graph partitioning (SGP) over multiple consecutive time windows and formulates an objective that integrates multipatterns. During the initial time window, the arrived graph data undergoes augmentation and coarsening, and the coarsened graph data serves as the input to the constructed lightweight network model. The partitioning objective is then integrated with this model for joint mini-batch training, yielding optimized model parameters and $k$ initial partitions. For the following time windows, the previous partition is reused. Guided by the current graph change information, an incremental partitioning step is applied to new data and locally affected subgraphs. Subsequently, the model undergoes fine-tuning and updates. This methodology avoids expensive retraining from scratch, minimizes the scale of training data needed, and significantly speeds up the processing of subsequent streaming graphs. Extensive experiments indicate that SP_iLGNN effectively achieves conventional partitioning goals while more effectively maintaining the locality and dynamic characteristics inherent to streaming graphs. Furthermore, compared to the state-of-the-art incremental partitioning algorithm iG-kway, our method demonstrates improved online partitioning performance for streaming graphs.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3685317",
+    "citations": 0
+  },
+  {
+    "title": "Toward Wearable Sensor-Based Human Activity Recognition: A Survey",
+    "authors": [
+      "Hailin Zou",
+      "Zijie Chen",
+      "Yuanyuan Pan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/809c8378114fe4b6ad43e2c6fa2f0f3472d0644b",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Human activity recognition (HAR), which aims to identify and classify human behaviors through multisource sensing data, has become a long-standing research hotspot in ubiquitous computing, enabling a wide range of real-world applications. Focusing on wearable sensor-based HAR (WHAR), this survey provides a system-level synthesis organized around the life cycle of WHAR systems, collating fundamental theories, key technologies, and implementation details across data acquisition, model construction, and system deployment. Rather than treating sensing configuration, learning paradigm selection, evaluation protocol design, and deployment constraints as isolated topics, we emphasize their inherent interdependencies, demonstrating how early design choices propagate through the entire development pipeline to shape final system performance. We further establish a unified taxonomy of HAR paradigms based on data collection devices, clarifying the boundaries between vision-based, ambient sensor-based, and wearable sensor-based approaches to eliminate long-standing classification ambiguities. Additionally, we systematically review mainstream supervised WHAR models, emerging learning paradigms, deployment-oriented evaluation criteria, and cutting-edge directions including foundation models and large language model (LLM)-based activity understanding. By integrating all aspects into a coherent life cycle framework, this survey aims to serve as a design-oriented reference for researchers and practitioners building accurate, efficient, and deployable WHAR systems.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3702134",
+    "citations": 0
+  },
+  {
+    "title": "Dynamic LLM Node Selection in AIoT Networks: A Compatibility-Driven Diffusion Reinforcement Learning Approach",
+    "authors": [
+      "Dan Wang",
+      "Chi Cao",
+      "Bin Song"
+    ],
+    "link": "https://www.semanticscholar.org/paper/60c00c35e22d4ee80fa0861b70a9325142c9dcad",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The growing complexity of Artificial Internet of Things (AIoT) applications, driven by massive data generation and intricate interaction demands, necessitates intelligent decision-making that surpasses basic automation. While traditional machine learning is already integrated into edge devices, the evolving AIoT paradigm still faces severe challenges in complex tasks. Large language models (LLMs) emerge as a promising solution for diverse AIoT tasks, yet their deployment on resource-constrained edge networks faces two major challenges: heterogeneous resource limitations and the complexity of dynamic model selection. To address these issues, we propose an edge computing framework that leverages a compatibility evaluation mechanism and a diffusion-based deep reinforcement learning (DRL) algorithm for dynamic LLM service node selection. This approach enhances deployment efficiency and adaptability in heterogeneous environments. Our diffusion-based DRL algorithm continuously learns from environmental states to make robust, real-time selection decisions, assigning each task to the most suitable LLM instance to maximize long-term task completion quality (TCQ). Experimental results demonstrate that our algorithm significantly outperforms baseline methods in TCQ, convergence speed, and stability. Furthermore, sensitivity and robustness analyses demonstrate the effectiveness of the proposed method under resource fluctuations, varying node scales, and different reward preferences.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3687224",
+    "citations": 0
+  },
+  {
+    "title": "Dual-Population Cooperative Algorithm Integrating an LLM and an Evolutionary Algorithm for AUV Path Planning in 3-D Marine Environments",
+    "authors": [
+      "Jie Wu",
+      "Zhiyong Wang",
+      "Liang Cheng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/41026e747292fe57db637307112c76d60668a686",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Existing autonomous underwater vehicle (AUV) path planning methods still face limitations in modeling real 3-D maritime search and rescue (SAR) environments, multiobjective evaluation and safety constraint expression, and maintaining convergence stability in complex search spaces. To address these issues, we propose a dual-population cooperative algorithm that integrates a large language model (LLM) with an evolutionary algorithm (EA) for marine SAR tasks, named LLM_EA. First, we integrate real seabed topography and 3-D ocean currents to construct a unified navigation environment. A multiobjective evaluation framework is further designed to balance energy consumption, safety risk, and attitude stability. During the evolutionary process, LLM_EA performs parallel co-evolution between an EA population for numerical search and an LLM population for semantic reconstruction. A feasibility assurance and cross-population information exchange mechanism is designed to improve feasibility and efficiency, and a topological diversity preservation mechanism is introduced to mitigate topological collapse and maintain structural diversity. Comparative experiments show that LLM_EA consistently generates feasible trajectories under diverse geographical environments and complex constraints while achieving better overall performance and more stable convergence than multiple representative algorithms. Ablation experiments further confirm the contributions of the topological diversity preservation mechanism and the LLM strategy. This framework offers a reusable solution for efficient and robust AUV path planning in real-world 3-D maritime SAR scenarios.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3686625",
+    "citations": 0
+  },
+  {
+    "title": "Performance, Adaptability, and Security in AI-Driven IIoT: A Survey",
+    "authors": [
+      "Uddin Md. Borhan",
+      "Arif Raza",
+      "Taki Uddin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/213cb27fb1db513353d2ae45c34f2f3dfaaa7117",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Industrial Internet of Things (IIoT) integrates cyber–physical systems (CPSs), edge–cloud computing, artificial intelligence (AI), and advanced connectivity to enable intelligent, data-driven operations across manufacturing, energy, transportation, and healthcare. The convergence of operational technology (OT) and information technology (IT), together with pervasive AI-driven automation, complicates meeting the joint requirements of performance, adaptability, and security (PAS). This survey adopts an explicitly AI-centric view of PAS and reviews IIoT research spanning deep reinforcement learning (DRL), multiagent reinforcement learning (MARL), digital twins (DTs), federated learning (FL) and collaborative learning, graph neural networks (GNNs), blockchain-assisted analytics, and lightweight and post-quantum cryptography (PQC). The reviewed approaches are analyzed across device, edge, fog, cloud, and application layers under industrial constraints, such as latency, reliability, resource limits, safety requirements, and regulatory compliance. A PAS-centric taxonomy is introduced that links technique families to deployment layers and application domains, and recurring tradeoffs among PAS dimensions are summarized. Open challenges are identified in multiobjective optimization, semantic interoperability, lifecycle validation, and governance, with directions outlined toward secure and sustainable Industry 5.0 IIoT ecosystems.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3701588",
+    "citations": 0
+  },
+  {
+    "title": "Interpretable Vehicle Trajectory Prediction Based on Weighted Graph Attention Network and L-MNL Sampler",
+    "authors": [
+      "Yiwei Zhou",
+      "Mo Xia",
+      "Ziyuan Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/161e9f8a0641e76e670f3043d3b376623d3c5972",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3687413",
+    "citations": 0
+  },
+  {
+    "title": "Generative Sky: A Neurosymbolic Framework for In-Orbit Computation Offloading",
+    "authors": [
+      "Benedetta Picano",
+      "Daniele Tarchi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0a7457019738c2fb60ff318e3aac233a1cd9dd25",
+    "date": "2026-07-15",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Satellite offloading is a critical issue in the Internet of Things (IoT) edge intelligence environment. In this work, we present a novel neurosymbolic framework for computation offloading decisions in satellite-enabled IoT edge intelligence scenarios. By combining the forecasting capabilities of time-series foundation models with the transparency of rule-based reasoning, our approach enables data-efficient and inherently explainable decision making under uncertainty. Specifically, we use TimeGPT to predict future throughput quality and satellite CPU load, which are then processed through a fuzzy logic controller (FLC) to derive context-aware offloading decisions with transparent rationale. The results show effective forecast accuracy, high decision robustness, and improved explainability when compared to traditional reinforcement learning-based approaches that require task-specific training.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3687451",
+    "citations": 0
+  },
+  {
+    "title": "Beyond transparency: why Traditional Chinese Medicine (TCM) need explainable artificial intelligence (XAI)",
+    "authors": [
+      "Wanting Zheng",
+      "Yuanyuan Tong",
+      "Jinjian Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fcbf30a92817ae0dedfec357679d0f7ffdbfce3d",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "Chinese Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13020-026-01455-4",
+    "citations": 0
+  },
+  {
+    "title": "Utilising Large Language Models for the Automated Mapping of Medical Research to Translational Stages",
+    "authors": [
+      "M. Clapham",
+      "C. Oldmeadow",
+      "S. Deeming",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f99b50ccd0281922b7b071e7c3484f5b83e4eec2",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.12.26357885",
+    "citations": 0
+  },
+  {
+    "title": "A machine learning benchmarking framework for lipid nanoparticle transfection efficiency prediction",
+    "authors": [
+      "Asal Mehradfar",
+      "M. Sepehri",
+      "José Miguel Hernández-Lobato",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d08e23996ccf25db0553038608fb2d560b16776e",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "Communications AI & Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44488-026-00007-x",
+    "citations": 0
+  },
+  {
+    "title": "Assessing the impact of cultural misinformation deepfakes through AI-based user engagement analysis",
+    "authors": [
+      "S. Venticinque",
+      "Alba Amato",
+      "G. Pezzullo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bba54d9f0e9ac8a01187b0fd5e36611ceb0d3978",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "Digital Library Perspectives"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to propose and evaluate a resource-efficient artificial intelligence (AI)-based workflow for analyzing user stance toward misleading cultural content on social media, using heritage-related deepfake-supported narratives as a case study. The aim is to quantify belief, criticism and neutrality in user reactions, and to examine how these stances contribute to the impact and reinforcement of misleading content over time.\n \n \n \n The proposed framework combines large language models (LLMs) for zero-shot stance detection with sarcasm-aware correction via multinomial logistic regression. Lightweight, fine-tuned models are then used to classify stance and compute impact indicators by integrating engagement metrics and adjusted scores that account for polarity and sarcasm.\n \n \n \n Results show that critical reactions are prevalent, yet comments expressing belief can generate disproportionately high engagement, especially in the early life cycle of posts. The hybrid pipeline improves stance classification accuracy over the baseline while revealing persistent errors linked to sarcasm and implicit language.\n \n \n \n This study relies on a single platform, and a limited number of cases, which may restrict generalization and leave residual errors in contexts with complex figurative or highly informal expressions.\n \n \n \n The framework supports the monitoring of emerging misleading narratives, helping institutions prioritize interventions and design corrective communication strategies. Compared with subscription-based or large-scale alternatives, it requires relatively modest computational resources, although its implementation still presupposes technical expertise.\n \n \n \n The work contributes a domain-specific, resource-efficient methodology for assessing the impact of cultural misinformation, focusing on user stance rather than content verification alone. It integrates LLM-assisted labeling with lightweight classifiers and sarcasm-aware correction, tailored to heritage-related deepfakes and ambiguous user reactions, bridging digital humanities and AI-based misinformation analysis.\n",
+    "summary": "",
+    "doi": "10.1108/dlp-12-2025-0291",
+    "citations": 0
+  },
+  {
+    "title": "Towards net-positive cruises by 2050: applying a generative AI-Delphi-authoring methodology for transformative tourism research",
+    "authors": [
+      "Alexis Papathanassis"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b6b6f245a8ebfa0c3478b3b97305e36f8986fda",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "The Tourist Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper aims to address the future of cruise tourism from a normative perspective, developing a framework for “inspired science” and transformative research. It details a structured approach for visioning and backcasting to propose a roadmap for regenerative cruise tourism by 2050.\n \n \n \n The study introduces artificial intelligence (AI)-facilitated Delphi authoring, using eight large language models (LLMs) as an expert panel. This iterative process uses a backcasting temporal logic to work from a desired 2050 end-state backwards to identify the required transitions.\n \n \n \n The research identified 26 measures across financial, legal, operational and behavioural dimensions, which were combined into a three-phase roadmap (now-2030, 2030–2045, 2045–2050). While consensus was reached on the measures and policies required to shift from “doing less harm” to “doing measurable good”, tensions regarding the radicality of their enforcement remained. In addition, a post hoc assessment of the LLMs revealed variations in analytical depth and instances of fabricated citations (hallucinations) in certain models. Finally, subsequent stakeholder-testing exercise, during an international tourism policy conference, supported the roadmap’s potential for improving confidence towards a sustainable and even regenerative future scenario for cruise tourism.\n \n \n \n This work offers a novel methodology using generative AI for systematic future-shaping. It shifts the research paradigm from retrospective description to transformative action, providing an actionable blueprint for a net-positive form cruise tourism as an example. This methodological approach is relevant for and applicable to the exploration and management of future challenges in a variety of tourism-related scenarios.\n",
+    "summary": "",
+    "doi": "10.1108/tr-01-2026-0073",
+    "citations": 0
+  },
+  {
+    "title": "Comparative analysis of discriminative and generative natural language processing pipelines for automated prostate magnetic resonance imaging reports",
+    "authors": [
+      "D. J. Lee",
+      "N. McCoy",
+      "C. Haroldsen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b6a3475eb28c66a8c60379b8b0f9632ee6e77f8",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.12.26357886",
+    "citations": 0
+  },
+  {
+    "title": "Mapping global innovations in GenAI for smart cities and implications for Africa",
+    "authors": [
+      "F. H. Abanda",
+      "N. Maluh",
+      "Baba A.",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/743647791ee5e2df13c0bbef4491ddfc5f737a8c",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Urbanization, Sustainability and Society"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n The study aims to examine how generative artificial intelligence (GenAI) is reshaping smart city development globally and evaluate its implications for Africa. It addresses the gap in understanding how GenAI-driven innovations can tackle Africa’s urban challenges, including rapid population growth, inadequate infrastructure, informal settlements and climate vulnerability.\n \n \n \n A systematic review examined GenAI applications in smart cities between 2020 and 2025. Using an enhanced preferred reporting items for systematic reviews and meta-analyses framework and bibliometric mapping, the study analysed peer-reviewed and grey literature. Focus areas included urban mobility, generative design, digital twins, automated planning and synthetic data generation, alongside evaluation of theoretical frameworks shaping current discourse.\n \n \n \n The review shows a rapid expansion of GenAI in smart city systems, evidenced by a sharp increase in publication outputs between 2022 and 2025, reflecting the accelerated diffusion of GenAI following the emergence of foundation models and large language models. It identifies Western-centric biases and proposes frameworks including “leapfrogging with GenAI” for data-scarce settings, “lightweight digital twins” for resource-limited systems and “context-aware governance” prioritising ethics, equity and inclusivity. It stresses integrated policy–technology–public approaches for equitable scaling.\n \n \n \n This study contributes to the advancement of smart city theory by introducing context-sensitive frameworks grounded in GenAI, emphasising adaptive and equitable transformation. It connects global innovation with African realities, guiding policymakers, planners and technologists toward sustainable urban futures. Unlike prior reviews, it explicitly differentiates GenAI from broader AI paradigms and develops context-specific frameworks tailored to data-scarce and resource-constrained urban environments.\n",
+    "summary": "",
+    "doi": "10.1108/uss-03-2026-0017",
+    "citations": 0
+  },
+  {
+    "title": "Conversational trajectory degrades large language model detection of suicidal ideation relative to clinicians: a preregistered study",
+    "authors": [
+      "M. Kalinich",
+      "J. Luccarelli",
+      "J. Santa Maria",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7089d045d75e968ec8af340a9bf653ece791526e",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.10.26357132",
+    "citations": 0
+  },
+  {
+    "title": "A patient-derived benchmark for evaluating large language models in connective tissue diseases: blinded multi-stakeholder assessment and guideline comparison",
+    "authors": [
+      "Phillip Kremer",
+      "J. Knitza",
+      "Anna-Maria Reichard",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6f0b074c500676f7007a3bc5573fafc6b61cef2b",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "Rheumatology International"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "To co-develop disease-specific patient questions for connective tissue diseases (CTDs), compare patient/rheumatologist ratings of answers from language models (LLMs) versus Google Search, and quantify EULAR coverage of these patient-prioritized questions. In this prospective single-center observational study, reported in accordance with STROBE, patient advocacy groups curated 20 frequently asked questions (FAQs) for each CTD (systemic lupus erythematosus, idiopathic inflammatory myopathy, Sjögren disease, systemic sclerosis). Questions were submitted to Claude 4.0 Sonnet, ChatGPT-5, Gemini 2.5 Pro, and Google Search. Five patients per disease and five rheumatologists rated blinded outputs using forced-rank preference and 5-point Likert scales (patients: empathy, trustworthiness, comprehensibility; physicians: medical correctness, empathy, comprehensibility). Guideline mapping assessed whether EULAR recommendations addressed each question. All three LLMs answered 100% of questions (80/80), whereas Google Search answered 90% (72/80). Across CTDs, patients rated LLM outputs favorably for empathy (mean 1.40–2.77), trustworthiness (1.47–2.6), and comprehensibility (1.33–2.27), and rheumatologists for medical correctness (1.23–1.98). Patients and physicians most often ranked Gemini 2.5 Pro best overall (rank 1: 59% and 63%), and Google Search most often worst (rank 4: 55% and 57%). Cluster analyses showed no consistent differences across five clusters. Guideline mapping revealed substantial gaps: 40–55% of prioritized FAQs were not addressed by EULAR recommendations, with largest gaps in cluster E, life impact, psychosocial aspects and family planning (75–100% not addressed; 0% fully addressed). In this blinded evaluation, LLMs produced CTD FAQs responses patients perceived as empathic, trustworthy and rheumatologists rated medically correct, with Gemini 2.5 Pro most consistently preferred overall. However, the mismatch between prioritized questions and guideline coverage underscores the need for patient-centered, evidence-grounded information resources.",
+    "summary": "",
+    "doi": "10.1007/s00296-026-06178-1",
+    "citations": 0
+  },
+  {
+    "title": "Autonomous Agents for Auditable Cardiovascular Artificial Intelligence Development",
+    "authors": [
+      "L. Dhingra",
+      "B. Batinica",
+      "R. Choi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/52c6dc6bf6b40d788caf2159fc9ad20d300cd8df",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.10.26357656",
+    "citations": 0
+  },
+  {
+    "title": "ASTAR: Automated Induction of Standardized Radiology Reporting Templates from Large-Scale Clinical Free-Text Corpora",
+    "authors": [
+      "X. Zhang",
+      "M. Liu",
+      "Y. Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/52bec22c93f027bc803b09b14532f6dad3e687cf",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.11.26357801",
+    "citations": 0
+  },
+  {
+    "title": "Synthesis and Biological Evaluation of Indole-Benzene Sulfonamides as Carbonic Anhydrase II, IX, and XII Inhibitors.",
+    "authors": [
+      "V. Manasa",
+      "Sabesan Jayaprakash",
+      "Niccolò Paoletti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/184366c9051334968d5148fd2703a20bcf8c0f24",
+    "date": "2026-07-14",
+    "keywords": [
+      "今日上新",
+      "ChemMedChem"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/cmdc.70374",
+    "citations": 0
+  }
+]
