@@ -1,0 +1,355 @@
+[
+  {
+    "title": "Deep generative models for 3D structure-based drug design and molecular optimisation: a comprehensive survey",
+    "authors": [
+      "Yin Zhang",
+      "Yuyouqiang Fu",
+      "Guishen Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/efb56630a3cc0df34e6f1a1606f8697f0c8f683d",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00887-2",
+    "citations": 0
+  },
+  {
+    "title": "Understanding large language models demands distinguishing human projection from machine cognition",
+    "authors": [
+      "Lingyu Li",
+      "Yan Teng",
+      "Yingchun Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ed3b28522e8bfc38eb085f16b52d44e52c7d6301",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Communications Psychology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44271-026-00508-6",
+    "citations": 0
+  },
+  {
+    "title": "Revealing gendered patterns in Italy’s street names with large language models",
+    "authors": [
+      "Mattia Gatti",
+      "I. Gallo",
+      "G. Muti"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e7dbee2db8d053c42c29b17bc8d5dacd69b7e104",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Journal of Computational Social Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42001-026-00486-z",
+    "citations": 0
+  },
+  {
+    "title": "Rating-aware argument generation for movie reviews with multimodal large language models and a new dataset",
+    "authors": [
+      "Wenjie Hua",
+      "Quan Fang",
+      "Muyi Sun",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d7ebf09d622a55297ae42d0d797bcb34c13ac803",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02499-0",
+    "citations": 0
+  },
+  {
+    "title": "If attention scaled intelligence, can it scale morality?",
+    "authors": [
+      "G. Bombaerts",
+      "Bram Delisse",
+      "U. Kaymak"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bcd0295a312c5ac21a0061c3fef17baafb1d2396",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) have achieved remarkable gains in cognitive performance through attention mechanisms functionally inspired by human attention. This paper asks philosophically whether a comparable architectural insight could technically advance moral processing. We argue that current alignment techniques primarily shape outputs after representations have been formed. They therefore cannot realise, using Iris Murdoch’s loving attention approach, a just, reality-sensitive orientation toward others that operates at the level of representation. Drawing on Murdoch’s moral philosophy, we identify three substrate-neutral features of loving attention, namely locational, representational, and dispositional, that survive translation from human moral phenomenology to computational systems. On this basis, we propose that moral processing in LLMs should be studied not only as a problem of output control but also as a problem of representational architecture. We further formulate the loving attention geometry hypothesis, suggesting that if morally improved perception involves a systematic shift from ego distorted to more just representations, this transformation may leave detectable structure in LLM embedding and activation spaces. With this focus on Murdoch, the paper contributes a novel philosophical technical approach that links moral attention, representation learning, and AI alignment. It clarifies why architectural considerations matter for moral AI, distinguishes between the tractability and validation of moral geometry, and outlines design constraints for responsible research. We argue that exploring representational forms of moral attention is a promising and necessary direction for AI ethics research. If transformer attention has been able to scale intelligence, it is worth inquiring if representations and architectures can scale morality.",
+    "summary": "",
+    "doi": "10.1007/s43681-026-01239-4",
+    "citations": 0
+  },
+  {
+    "title": "Mapping Topic Change in Influential Hepatocellular Carcinoma Research: A Two-Cohort Bibliometric Analysis",
+    "authors": [
+      "Z. Su",
+      "T. Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b62370ea11e807a349426fccc41c400c153c41a6",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.07.26357427",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Agent Dynamic Refinement Outperforms Static RAG in Clinical Reasoning for Complex Nephrology Cases",
+    "authors": [
+      "Y. Yano",
+      "H. Kakizaki",
+      "H. Nagasu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b211b0d32be92152e4ace48eb73ab8e8d3e9b65d",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.15.26358121",
+    "citations": 0
+  },
+  {
+    "title": "ReCo: a self-configuring and self-extending agentic framework for biomedical research",
+    "authors": [
+      "E. Tzanis",
+      "M. E. Klontzas"
+    ],
+    "link": "https://www.semanticscholar.org/paper/acd4f22e97cf4fc239636ad7ed747bd747b41f4e",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.14.26358025",
+    "citations": 0
+  },
+  {
+    "title": "Cross-layer contagion of prompt injections in multi-agent swarms: a multiplex microscopic markov chain approach",
+    "authors": [
+      "Tran Duc Le",
+      "Truong Duy Dinh",
+      "Thi Le Quyen Nguyen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a74a834354664273b3dda00602f211df7563ad6c",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Cybersecurity"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s42400-026-00628-w",
+    "citations": 0
+  },
+  {
+    "title": "Epistemic injustice and phenomenological reductionism in psychiatric AI: an empirical-philosophical analysis",
+    "authors": [
+      "Davut Ocak"
+    ],
+    "link": "https://www.semanticscholar.org/paper/895d27c21956f081eece88eea9ddfa3a0f28aa71",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "AI and Ethics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43681-026-01273-2",
+    "citations": 0
+  },
+  {
+    "title": "Strengthen-then-retrieve: semantic enrichment and reconstruction feedback for text-video retrieval",
+    "authors": [
+      "Jiayao Qian",
+      "Shijie Luo",
+      "Lili Yan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/77653a99922f83b089bc0c08066605bcb0b5eaac",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02514-4",
+    "citations": 0
+  },
+  {
+    "title": "Modeling symptom-acupoint interactions via a heterogeneous graph learning framework for intelligent acupoint recommendation",
+    "authors": [
+      "Wei Lin",
+      "Jiaqi Chen",
+      "Zhuo Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/72d537caa10c1956b35bc651d406eb670f045f73",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Chinese Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13020-026-01458-1",
+    "citations": 0
+  },
+  {
+    "title": "D\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$^{2}$$\\end{document}pose: decoupling localization and structure for r",
+    "authors": [
+      "Ruihan Zheng",
+      "Ruijian Fang",
+      "Fan Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/61526f4348eced76b483b772ed4a15bcb4d64909",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02529-x",
+    "citations": 0
+  },
+  {
+    "title": "Patient and physician perspectives on large language model generated responses about brain aneurysm",
+    "authors": [
+      "Joon Hyeok Choi",
+      "M. Ruppert-Gomez",
+      "Liam M. Shanahan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/55068ce0209ab85d4124fd12adf1e96ce5bd7f1a",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Child's Nervous System"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00381-026-07392-9",
+    "citations": 0
+  },
+  {
+    "title": "Are large language models effective for detecting spam messages?",
+    "authors": [
+      "Minseok Hur",
+      "Sooyon Seo",
+      "Jaeho Hwang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4691117629b25041c03ca290bf2468c716468599",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "International Journal of Information Security"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10207-026-01283-5",
+    "citations": 0
+  },
+  {
+    "title": "Large language models in model-driven engineering: a systematic mapping study",
+    "authors": [
+      "Weixing Zhang",
+      "Bowen Jiang",
+      "Yuhong Fu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/42b17aaddbf07137f9fff0e972548db21683003e",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Cited: 2",
+      "Empirical Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10664-026-10921-4",
+    "citations": 2
+  },
+  {
+    "title": "Guiqi Baizhu prescription attenuates 5-FU-induced intestinal mucositis by targeting IKKβ to inhibit M1 macrophage polarization",
+    "authors": [
+      "Yucen Zhou",
+      "Ya-Ling Li",
+      "Jing Ma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/35f5ffcea9b34e52e124e603cd02919ac3c3b076",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "Chinese Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13020-026-01406-z",
+    "citations": 0
+  },
+  {
+    "title": "In Silico Trial Simulation with Artificial Intelligence-Generated Synthetic Control Cohorts Reproduces Results of a Randomized Controlled Trial in Acute Myeloid Leukemia",
+    "authors": [
+      "K. Kumar Reddy",
+      "W. Hahn",
+      "S. Winter",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0859969f160725066864f1886834caf19e91f01f",
+    "date": "2026-07-16",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.15.26358123",
+    "citations": 0
+  }
+]
