@@ -1,0 +1,177 @@
+[
+  {
+    "title": "Large Language Models in High Energy Physics (Succinct Survey) and Directions of Future Developments",
+    "authors": [
+      "A. Shevel",
+      "A. A. Oreshkin",
+      "A. Shvetsov",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fb9f160c2f7ccc8a7752834d13f5273b867ed29f",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Physics of particles and nuclei"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1134/S1063779626700036",
+    "citations": 0
+  },
+  {
+    "title": "Adaptive Inference Neuro-Fuzzy Driven Embedding Fusion for Improving Link Prediction Through Graph Neural Network",
+    "authors": [
+      "Phu Pham"
+    ],
+    "link": "https://www.semanticscholar.org/paper/de8c9d8c06734ad39bd47da6be4b0a053493d9ff",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal of Uncertainty Fuzziness and Knowledge-Based Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Link prediction has long been regarded as a fundamental problem in networked data analysis and mining, owing to its importance in a wide range of real-world applications, including social network analysis, recommendation systems, and biological network modeling. Over the years, numerous approaches have been proposed to address this problem, ranging from similarity-based heuristics and probabilistic models to dimensionality reduction and deep learning (DL)-based representation learning techniques. These methods aim to capture latent relational patterns among nodes in order to infer missing or potential links. Recently, graph neural networks (GNNs) have emerged as a powerful DL paradigm for graph-structured data representation learning and have demonstrated strong performance in complex link prediction tasks. In particular, multi-view GNN-based approaches have gained increasing attention by integrating different GNN architectures to capture complementary structural perspectives, such as local neighborhood proximity and global graph topology. This strategy enables the learning of richer node embeddings and improves task-driven prediction performance. However, the integration of multiple GNN layers and architectures often introduces feature uncertainty and noise amplification, which can degrade model stability and predictive accuracy. To address these challenges, this paper proposes AFGNN, a novel framework that integrates adaptive neuro-fuzzy inference with multi-view graph neural learning. By leveraging a robust fuzzy neural architecture with an adaptive inference engine, our proposed AFGNN model dynamically regulates the fusion of view-specific embeddings, enhances reasoning capability, and suppresses uncertainty during representation learning. Extensive experiments on benchmark graph datasets demonstrate the effectiveness and superiority of AFGNN compared with state-of-the-art GNN-based link prediction models.",
+    "summary": "",
+    "doi": "10.1142/s0218488526500340",
+    "citations": 0
+  },
+  {
+    "title": "Mapping the evolution of deep learning and computer vision in robotic surgery: a bibliometric analysis of surgical video intelligence, instrument perception, and clinical translation",
+    "authors": [
+      "Defu Yang",
+      "Feng Shang",
+      "Ying Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bd0b51a176165ce450b843acedfbd5d23a92a391",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Journal of Robotic Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11701-026-03621-0",
+    "citations": 0
+  },
+  {
+    "title": "Research landscape thematic evolution and future trends of artificial intelligence in medical education from 2015 to 2025",
+    "authors": [
+      "Xinliao Ling",
+      "Chengliang Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8dad76587dfb83ec4705e15f1f908618c8320d4a",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10349-w",
+    "citations": 0
+  },
+  {
+    "title": "MKSFA-Net: a integrating structural priors for breast cancer segmentation based on multi-scale kernel selection fusion attention network",
+    "authors": [
+      "Zihao Chen",
+      "Fengrong Zhao",
+      "Wanhu Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8247b69a4bfd2151098148bc9d63445eb0c39bdd",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Pattern Analysis and Applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10044-026-01737-5",
+    "citations": 0
+  },
+  {
+    "title": "Physics-guided graph neural networks for nextgen manufacturing: enhancing rare-fault detection in industrial manipulators",
+    "authors": [
+      "Balaji Periasamy",
+      "P. R. Venugopal",
+      "Madhanraj R"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7273ab0726f888739692f1d55293fb22a5541917",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Interactions"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10751-026-02681-w",
+    "citations": 0
+  },
+  {
+    "title": "Intelligent Assessment of Urban Renewal Potential and the Nonlinear Relationships with Landscape Elements: Integrating Large Language Models with Interpretable Machine Learning",
+    "authors": [
+      "Yukun Jiang",
+      "Junhong Liang",
+      "Qingsong He"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5cf24d5efded030eee2c735db1a92caa95e25066",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Applied spatial analysis and policy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12061-026-09946-5",
+    "citations": 0
+  },
+  {
+    "title": "Pseudo-publication bias in robotic surgery: structural mapping of narrative inertia",
+    "authors": [
+      "Edmundo Inga-Zapata",
+      "Heidi Silva",
+      "C. Perez",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3f8c6d58dd20aa24a76a410a806d00993cbf9d02",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Journal of Robotic Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11701-026-03632-x",
+    "citations": 0
+  },
+  {
+    "title": "Comparison of large language models in the management of pediatric ureteropelvic junction obstruction: a comparative analysis of 125 clinical scenarios",
+    "authors": [
+      "İ. Baloğlu",
+      "Gökçe Karlı",
+      "Ali Emre Çekmece",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0095a972bbaff64e57ead46e6c8ddc0a52e53ea6",
+    "date": "2026-07-20",
+    "keywords": [
+      "今日上新",
+      "Pediatric surgery international (Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00383-026-06547-8",
+    "citations": 0
+  }
+]
