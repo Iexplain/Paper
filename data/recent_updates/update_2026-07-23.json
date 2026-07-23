@@ -1,0 +1,60 @@
+[
+  {
+    "title": "A review on CCP based on RAG and local large language models: constructing an intelligent-driven literature analysis framework",
+    "authors": [
+      "Guoen Xia",
+      "Zenghui Yu",
+      "Yi Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ab24ac3c4e173f67703fb0483ea75eccbf9e0d78",
+    "date": "2026-07-22",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Kybernetes"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper aims to systematically review research progress in Customer Churn Prediction (CCP). It seeks to construct an intelligent literature analysis framework and summarize the technical evolution and core methodological issues within the domain, providing a comprehensive reference for both theoretical and practical applications.\n \n \n \n The study designs an intelligent literature analysis framework integrating Retrieval-Augmented Generation (RAG) with local large language models (LLMs). It systematically analyzes and condenses content from 370 Chinese and English academic publications (2003–2025), focusing on core technical issues such as class imbalance and model construction.\n \n \n \n The review summarizes the technical evolution from statistical models to machine learning, deep learning, and ensemble methods. It reveals key development trends, including multi-objective optimization, dynamic adaptability, and enhanced interpretability in CCP research.\n \n \n \n This paper validates the efficiency of an intelligent-driven review paradigm. It provides a panoramic synthesis of CCP research, offering valuable references for theory and practice. It also identifies future directions, such as interpretable models and dynamic learning mechanisms, contributing both methodologically and substantively to the field.\n",
+    "summary": "",
+    "doi": "10.1108/k-12-2025-3143",
+    "citations": 0
+  },
+  {
+    "title": "Hallucinations in large language models within academic contexts: a systematic review",
+    "authors": [
+      "Ke En Lai",
+      "Nuremma Mustaffa",
+      "Christopher Nigel Preece",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/87975e73b0bc98f251ad577f0e37893b0e765d0c",
+    "date": "2026-07-22",
+    "keywords": [
+      "今日上新",
+      "Journal of Science and Technology Policy Management"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This study aims to examine the phenomenon of hallucinations in large language models (LLMs) within academic contexts, focusing on their manifestations, causes and implications for academic integrity, research quality and responsible artificial intelligence adoption in higher education.\n \n \n \n A systematic literature review was conducted in accordance with PRISMA 2020 guidelines. Searches across Scopus, Web of Science and Emerald Insight databases using keywords related to AI hallucination and academic applications, of which 25 peer-reviewed journal articles met the inclusion criteria. Qualitative thematic analysis was performed using NVivo 14 to synthesise evidence on hallucination types, academic applications, impacts and mitigation strategies.\n \n \n \n Six recurring types of hallucinations were identified, with fabricated or inaccurate citations emerging as the most prevalent. The findings indicate that hallucinations systematically compromise academic writing quality, distort assessment processes and undermine epistemic trust in scholarly outputs. Variation in hallucination rates across models and disciplines highlights their context-dependent nature. Key contributing factors include probabilistic text generation, limitations in training data, insufficient contextual understanding and the absence of robust verification mechanisms.\n \n \n \n It further contributes a structured classification of hallucination types and a multi-layered governance approach to inform institutional policy and responsible AI adoption.\n \n \n \n Addressing hallucinations in academic knowledge production is essential for preserving public trust in higher education and safeguarding the societal value of scholarly research.\n \n \n \n This study advances existing knowledge by developing an integrated conceptual perspective linking hallucinations to epistemic risk, information integrity and digital trust.\n",
+    "summary": "",
+    "doi": "10.1108/jstpm-01-2026-0015",
+    "citations": 0
+  },
+  {
+    "title": "Can AI assist in reducing diagnostic error? A narrative review",
+    "authors": [
+      "Ian A. Scott"
+    ],
+    "link": "https://www.semanticscholar.org/paper/440096bc94b8f69b6a5d5c2341d6b83da5c9afb2",
+    "date": "2026-07-22",
+    "keywords": [
+      "今日上新",
+      "Diagnosis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1515/dx-2026-0021",
+    "citations": 0
+  }
+]
