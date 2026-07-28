@@ -1,0 +1,368 @@
+[
+  {
+    "title": "Editorial",
+    "authors": [
+      "Christian Gütl"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3e4809e338c445619278e33ab6d76117fe306441",
+    "date": "2026-07-28",
+    "keywords": [
+      "今日上新",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Dear Readers,\n It gives me great pleasure to announce the seventh regular issue of 2026. In this issue, 6 papers by 19 authors from 7 countries - Austria, Brazil, Egypt, Germany, India, USA, Vietnam - cover various topical aspects of computer science. In a continuous effort to further strengthen our journal, I would like to expand the editorial board: If you are a tenured associate professor or above with a strong publication record, you are welcome to apply to join our editorial board. We are also interested in high-quality proposals for special issues on new topics and trends.\n As always, I would like to thank all the authors for their sound research and the editorial board members and guest reviewers for their extremely valuable review effort and suggestions for improvement. I also want to thank the readers for their interest in our articles, which is reflected in the consistently high number of user accesses and PDF downloads. These contributions, together with the generous support of the KOALA initiative, maintain the quality of our journal.\n In the seventh regular issue, I am very pleased to present the following 6 accepted articles: Sang Suh and Numery Zaber from the USA address in their manuscript the limitations of traditional keyword-based resume screening by proposing an AI-powered framework that leverages contextual sentence embeddings, machine learning, and explainable AI to better capture the semantic relationship between resumes and job descriptions. Experimental results demonstrate that the proposed approach achieves high classification performance while providing transparent and interpretable recommendations for more effective recruitment decisions.\n Christian Schlager and Atif Mashkoor from Austria discuss in their research the challenges of time-consuming and costly separate assessments for ASPICE and ASPICE for Cybersecurity in the automotive industry by proposing a unified integrated assessment approach that systematically maps related processes and work products across the two models and schedules them closely together for parallel evaluation. In a real-world case study with two projects, this method achieved a measurable reduction in total assessment time (approximately 1.5 days from the typical 8.5 days) while preserving rigor, quality, and compliance, offering organizations greater efficiency with minimal additional overhead.\n In their collaborative research between Vietnam and Germany, Dung Hai Dinh, Quan Nguyen Minh Tran, Quang Huan Dong, and Nicole Ondrusch conduct research on predictive modeling in project management, developing and validating machine learning models to forecast issue closures in the open-source TensorFlow project using data collected from GitHub. The findings suggest that the Lasso regression model, enhanced with advanced feature engineering, achieves the best predictive performance, while time-aware validation indicates the need for further refinement of temporal evaluation.\n Vinicius Eduardo Ferreira, João Pedro Vidotti Cesaro, Gabriela Rosa, Edson Oliveira Jr, Gislaine Camila Lapasini Leal, and Renato Balancieri from Brazil investigate in their research the 2024 CrowdStrike Falcon blackout through an integrative multivocal literature review that combines academic and gray literature to analyze its impacts, technical root causes, and lessons learned for software engineering and cybersecurity. The study reveals that inadequate validation processes, weaknesses in update mechanisms, and organizational shortcomings amplified the incident's severity and provides evidence-based recommendations to strengthen software quality assurance, update governance, and the resilience of critical digital infrastructures.\n Fatmaelzahra Hamdi, Ramadan Moawad, and Amr Mansour Mohsen from Egypt  conduct a systematic literature review of Automated Program Repair (APR) with Large Language Models (LLMs) to examine the recent advancements, research trends, evaluation practices, and challenges of this promising area. This review provides a comprehensive review of existing LLM-based APR approaches, points out key research gaps and evaluation challenges, and builds a foundation for future research toward more reliable and effective automated program repair.\n Sangeetha E and Deny J from India report on the challenges of secure, energy-efficient routing in 6G edge networks by proposing the Energy Optimized Network Route Cluster Bandwidth (EONRCB) framework, which uses Priority Cycle Tags and a Service Level Route Count Rollback Node Aggregator (SLR-CRNA) for recursive, priority-based scheduling. The results show that EONRCB outperforms existing routing techniques, achieving higher throughput, packet delivery ratio, and network lifetime, along with a 20% reduction in energy consumption.\n Enjoy Reading!\n Best regards,\n Christian Gütl, Managing Editor-in-Chief",
+    "summary": "",
+    "doi": "10.3897/jucs.208033",
+    "citations": 0
+  },
+  {
+    "title": "AI-Powered Resume Screening",
+    "authors": [
+      "Sang Suh",
+      "Numery Zaber"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2226f6ab27735ae8937682ec41e0c9c1d67f641b",
+    "date": "2026-07-28",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Traditional resume screening is manual, slow, and susceptible to bias, and it struggles to keep pace with today’s application volumes. This paper presents a dual-engine, AI-powered resume screening system designed for transparency and reproducibility. The primary (classical) pipeline encodes resumes and job descriptions using Sentence-BERT (SBERT), computes a resume–job match score via cosine similarity, classifies candidates into 25 job categories using XGBoost, and provides model interpretability through SHAP. In parallel, a prompted large language model (LLM) baseline (GPT-4o/4o-mini) outputs a match score and predicted category for comparative analysis. A Streamlit-based interface integrates both engines to support recruiter workflows and human-in-the-loop oversight. Using a dataset of 962 resumes across 25 categories with an 80/20 stratified split, the system reports standard multi-class performance metrics (classification report and normalized confusion matrix) for the classical pipeline. At the same time, an evaluation harness enables the same artifacts for the LLM baseline on sample subsets. The interface further exposes dataset distribution, top predicted categories, and explanation widgets (SHAP for the classical pipeline; TF-IDF key-term highlighting for the LLM), while applying basic PII filtering. Considerations related to fairness, privacy, and deployment drift are discussed. Comparison with prior SBERT-only systems (e.g., Enhanced Resume Screening using S-BERT) highlights key contributions: (1) a reproducible SBERT→XGBoost→SHAP classification pipeline, (2) an LLM comparator with a standardized evaluation template, and (3) a practitioner-oriented user interface that operationalizes explainability and auditability.",
+    "summary": "",
+    "doi": "10.3897/jucs.160046",
+    "citations": 1
+  },
+  {
+    "title": "A Systematic Literature Review on Automated Program Repair using Large Language Models",
+    "authors": [
+      "Fatmaelzahra Hamdi",
+      "Ramadam Moawad",
+      "A. Mohsen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1cccd24b2e997cf933def6168917a657e45475bf",
+    "date": "2026-07-28",
+    "keywords": [
+      "今日上新",
+      "Journal of universal computer science (Online)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Automated Program Repair (APR) is currently an essential technique for improving software maintenance, assisting in reducing the burden on developers, and minimizing software defects. Recent advances in large language models (LLMs) have significantly impacted this area by improving bug localization, patch generation, and validation.The current LLM based automated program repair (APR) techniques are systematically reviewed in this paper in order to evaluate their advancements, real world constraints, performance comparisons, and security considerations. The study explores the advantages and disadvantages of open-source alternatives like CodeT5 and UniXcoder as well as proprietary LLMs like GPT4 and Codex, taking into consideration their respective costs, customization, and accuracy. Retrieval augmented generation, finetuning techniques, and hybrid approaches that combine LLM with static analysis tools have all significantly increased the effectiveness of APR. However, problems still persist, such as reliance on AI generated patches, high processing demands, and challenges incorporating these techniques into development processes. Furthermore, ethical issues including biases in created patches and the potential to introduce security defects necessitate further research on validation and security aware patch production. This paper summarizes current research to identify key gaps and proposes future directions to optimize LLM based APR, to assure its reliability and scalability in real world software development.",
+    "summary": "",
+    "doi": "10.3897/jucs.171035",
+    "citations": 0
+  },
+  {
+    "title": "The Hidden Carbon Cost of Aligning AI: Carbon-Aware Scheduling for Reinforcement Learning from Human Feedback",
+    "authors": [
+      "Saher Elsayed"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fbf29aadd358f5e94de561c8597201cf79ab4e4f",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Reinforcement Learning from Human Feedback (RLHF) has become the dominant paradigm for aligning large language models (LLMs) with human values, yet its environmental cost remains nearly invisible in both academic discourse and practitioner tooling. This paper presents the first phase-resolved empirical characterization of RLHF’s carbon footprint, combining Marginal Operating Emission Rate (MOER) based carbon accounting, real-time grid carbon intensity (CI) signals, and a multi-region 90-day deployment study, a scope and resolution not addressed by prior machine-learning (ML) carbon measurement work. We find that the Proximal Policy Optimization (PPO) phase alone accounts for 59–64% of total training emissions across all model scales, reaching 78.9 kgCO2eq for a single LLaMA-65B alignment run. We introduce CarbonAware-RLHF, an open-source scheduling framework that adaptively pauses, reorders, or temporally shifts RLHF phases toward low-carbon windows using real-time CI forecasts. In a 90-day deployment across six United States (US) Independent System Operator (ISO) grid regions (312 jobs, three independent seeds per condition), CarbonAware-RLHF achieves a mean carbon reduction of 38.9% with only a − 0.22 pp (percentage-point) reward model accuracy degradation and no statistically significant change on MT-Bench safety evaluation, the best carbon-quality trade-off among all evaluated strategies. Carbon savings correlate strongly with grid CI variability (coefficient of determination R2 = 0.91), providing a practical deployment heuristic. We discuss geographic equity, carbon accounting standards, and the Jevons paradox as structural challenges that technical scheduling alone cannot resolve. All data, code, and reproducibility artifacts are released at https://github.com/Saher-Elsayed/carbonaware-rlhf.",
+    "summary": "",
+    "doi": "10.1145/3811242.3819088",
+    "citations": 0
+  },
+  {
+    "title": "A novel numerical method for simulating a droplet in a Leidenfrost state on soft substrates",
+    "authors": [
+      "Chen Miao",
+      "F. Kummer"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fb32ac3258b8bde2afdefbb23a37245ee34a160a",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "The European Physical Journal E : Soft matter"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1140/epje/s10189-026-00606-7",
+    "citations": 0
+  },
+  {
+    "title": "Of Nostalgia, Trust, and Intimacy: AI Tool Usage among the Undergraduate Students of Bangladesh in Nonacademic Contexts",
+    "authors": [
+      "Md. Alvi Islam Ratul",
+      "Faria Haque",
+      "Pratyasha Saha",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e50d80e949fb97e2e850fe41fb8146550836c5a7",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid evolution of artificial intelligence and large language models have created a new dynamic of student engagement beyond academic contexts. While prior research focused on AI’s role in providing academic and emotional support, less is known about the motivations to personalize AI, its diverse usage, and the intricate relationship between AI and the student population, especially in the context of the Global South. Our study fills this gap with findings drawn from 21 semi-structured interviews with undergraduate students from diverse backgrounds in Bangladesh, revealing usage as companionship, intimate partnership, worldbuilding, reminiscence of dead family members, and prioritization of AI over human relationships. These findings shed light accounting the local cultural norms on shaping AI adoption in Bangladesh, highlighting both opportunities and risks, and provide essential insights to inform necessary guidelines. We further connect our findings to the broader issues in Human-AI interaction and offer future research directions.",
+    "summary": "",
+    "doi": "10.1145/3811242.3819097",
+    "citations": 0
+  },
+  {
+    "title": "Global particulate pollution research reflects economic capacity more than pollution burden",
+    "authors": [
+      "Jiani Yang",
+      "Antong Zhang",
+      "Xun Jian",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e18de37e6f8300e7795974c6be22f53634705e9e",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Communications Sustainability"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44458-026-00126-7",
+    "citations": 0
+  },
+  {
+    "title": "Human-aligned AI for supply chain risk detection: validation and calibration of LLM-based early-warning assessments",
+    "authors": [
+      "Janis Purk"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cb3eaa6f66478699cdd6ebc3ecf917a51b1901e9",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Logistics Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper investigates how a large language model (LLM)-based early-warning system (EWS) for supply chain risk can be systematically aligned with human expert judgement. Building on prior work that introduced the overall system architecture, this study focuses on the detailed prompting logic underlying the automated analysis and on an empirical validation of the resulting AI-based risk assessments. The purpose is to examine how human evaluations can be used to validate and calibrate AI-generated classifications and numerical risk scores, thereby improving their accuracy, reliability and interpretability. In doing so, the paper contributes to a human-centric understanding of AI-supported decision-making in the context of Logistics 5.0.\n \n \n \n The study draws on two datasets from a real-world validation conducted in January and March 2025, in which AI-generated risk indicators – including impact, likelihood, credibility, sentiment and risk category – were systematically compared with human expert assessments. Deviations between model and expert evaluations were analyzed using established performance metrics such as mean absolute error (MAE), classification accuracy and error distribution patterns. The methodological design follows a human-in-the-loop approach: expert assessments serve as an operational reference standard and are used to iteratively calibrate the prompting logic underlying the automated analysis. Quantitative evaluation is complemented by design-oriented insights derived from the iterative refinement of the system.\n \n \n \n The findings demonstrate that a structured, iterative human-in-the-loop validation process successfully improves the quality of AI-based risk assessments. In the initial phase, limited contextual grounding led to conservative model behavior, particularly midpoint bias in numerical ratings such as severity, probability and temporal horizon. Prompt refinements systematically integrated supply-chain-relevant anchor examples, partly adapted to company-specific contexts. This enhanced the model's ability to interpret events in operational terms rather than abstract scales. Across the refined prompts, MAE decreased consistently, confirming that context-aware prompt calibration through expert feedback is an effective mechanism for aligning AI outputs with human judgement.\n \n \n \n The validation is based on two empirical evaluation rounds with a limited number of pilot companies, which constrains immediate generalization across industries and regions. Future research may extend the approach to larger datasets, additional sectors and alternative LLM variants. Nonetheless, the study provides a transferable methodological template for validating and calibrating AI-driven risk detection systems in logistics. More broadly, the findings underline the importance of embedding domain knowledge and expert judgement into AI-based classifications rather than relying solely on probabilistic model behavior, thereby supporting human-centric decision-making in line with Logistics 5.0 principles.\n \n \n \n The results support logistics managers in assessing when and how AI-generated alerts can be trusted in operational risk monitoring. By documenting the prompting logic and workflow design, the study enables organizations to implement comparable EWSs using low-code environments. The findings show how structured human feedback reduces noise and misclassification, helping firms focus on truly critical disruptions, avoid unnecessary reactive measures and strengthen resilience and sustainability in supply chain operations.\n \n \n \n By aligning AI-generated assessments with human expertise, the proposed system reinforces human oversight rather than replacing it. This supports transparency, trust and responsible AI use in operational decision-making. In line with Logistics 5.0 principles, the approach reduces cognitive overload caused by information noise and enables more balanced, informed and socially responsible responses to supply chain disruptions.\n \n \n \n This paper advances research on AI-based supply chain risk monitoring by providing a transparent and empirically grounded analysis of how LLMs can be calibrated through human expert judgement. Beyond presenting the prompting logic of an operational LLM-based EWS, the study demonstrates how structured expert feedback, context-specific anchor examples and iterative prompt refinement systematically improve model behavior across multiple risk dimensions. In contrast to prior conceptual, simulation-based or purely performance-driven studies, this work shows how and why human-in-the-loop calibration reduces systematic biases rather than merely reporting accuracy gains. By explicitly linking prompting logic, expert validation and operational decision logic, the paper contributes a transferable methodological approach and strengthens the practical and theoretical foundations of human-centric Logistics 5.0 risk management.\n",
+    "summary": "",
+    "doi": "10.1108/lore-12-2025-0184",
+    "citations": 0
+  },
+  {
+    "title": "Dual foundation models for accelerometry predict future health",
+    "authors": [
+      "M. Dige",
+      "N. R. Lorenzen",
+      "M. R. Kjer",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c62896c6f6c536622e5f091f135a1bb66744ad7a",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.24.26358894",
+    "citations": 0
+  },
+  {
+    "title": "Design of novel derivatives of 1,3,4-thiadiazole against the α-amylase enzyme using 3D-QSAR, ADMET evaluation, docking analysis, molecular dynamic simulations and MM-PBSA approaches",
+    "authors": [
+      "L. Naanaai",
+      "Ikram Hanout",
+      "Md. Al-Amin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/aa43e3c19778c32e4a985271eea169281c8de166",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Journal of the Iranian Chemical Society"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13738-026-03569-w",
+    "citations": 0
+  },
+  {
+    "title": "From Relevance to Utility: Faith-Rank for Utility-Driven Evidence Re-ranking and Reliable Answering in Retrieval-Augmented Generation",
+    "authors": [
+      "Jiaqi Wu",
+      "Jiakang Li",
+      "Zefei Ning",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a3bd3ccd35342feda95b6a378ae75a7a725b3427",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Machine-mediated learning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10994-026-07109-8",
+    "citations": 0
+  },
+  {
+    "title": "“There Are Things I Can’t Ask People”: User Perceptions of LLM-Based Chatbot for Sexual and Reproductive Health in India",
+    "authors": [
+      "Sara Moin",
+      "Himani",
+      "Pushpendra Singh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9c94b1322a001583acd8e5122546423de92a875e",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid growth of large language models (LLMs) is reshaping access to health information, yet their role in sexual and reproductive health (SRH)—a highly stigmatized and sensitive domain is a nascent area of research, particularly in the Indian context. This study investigates how individuals perceive and engage with an LLM-based chatbot for SRH, examining trust boundaries, privacy expectations, and the cultural dimensions of LLM-mediated health communication. We designed a Retrieval-Augmented Generation (RAG) chatbot for sexual health and conducted a user study in which fifteen participants interacted with the system, followed by semi-structured interviews. Our findings reveal three interconnected themes: First, LLMs serve as low-stakes knowledge companions that reduce the cognitive and social burden of SRH information-seeking; secondly, privacy needs are relational and situational rather than uniform, shaped by domestic contexts and family structures; and lastly, LLM responses exhibit systematic gender bias in SRH framing—a pattern which carries significant implications for equitable chatbot design. We contribute design recommendations for culturally sensitive, privacy-aware, and gender-equitable LLM systems for SRH communication.",
+    "summary": "",
+    "doi": "10.1145/3811242.3827556",
+    "citations": 0
+  },
+  {
+    "title": "Adaptive multi-channel topology-augmented graph neural networks for secure node classification in API-based power systems",
+    "authors": [
+      "Xuhua Ai",
+      "Yiting Huang",
+      "Qi Meng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9bd407dc9326f56b8915c7c6d89d07f9f16dbb54",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Journal of engineering and applied sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s44147-026-01117-0",
+    "citations": 0
+  },
+  {
+    "title": "Repetition is not Redundancy: AI and Relational Listening in Communicating about Extreme Weather",
+    "authors": [
+      "Madeleine Antonellos",
+      "Angelina Aquino",
+      "I. Gumbula",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8b5cc516007e13e08a92d69480ef3af3cd4b5320",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "We contrast assumptions embedded in AI/ML systems to patterns of repetition in discussions about weather-related risks amongst members of remote First Nations communities. Natural language processing (NLP) is increasingly proposed for use in emergency management. Thus, we analysed how repetition worked as a collaborative practice when participants in First Nations-led workshops in Australia’s Northern Territory talked about planning, responding to, and recovering from cyclones, floods and other extreme weather. Repetition supported shared understanding between languages, reinforced relational accountability, and sustained attention to unresolved issues. Yet, AI systems such as Large Language Models (LLMs) treat repetition as redundancy through dataset deduplication, alignment and preference optimisation, summarisation and compression. This can amplify extant patterns of non-listening in colonial institutions that require First Nations communities to bear the burden of ‘repetitive epistemic labour’ [29] and restate their concerns and knowledge. We conclude that sensitivity to how repetition can suppress meaning is essential in AI/ML design and engineering, especially for intercultural settings where communication is simultaneously informational, relational, and accountable.",
+    "summary": "",
+    "doi": "10.1145/3811242.3827554",
+    "citations": 0
+  },
+  {
+    "title": "“Spilling PII into the Lake:” Design and Evaluation of LLM-based Redaction for Community Privacy in Grassroots Volunteer Organizations",
+    "authors": [
+      "Rudra Prakash Singh",
+      "E. Jang",
+      "Paul Philion",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/87141ecee7c7e15c13e7c43d6e18d94004ef9f51",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "We present the design, preliminary deployment, and user evaluation of a Large Language Model (LLM)-based tool to improve privacy in online communications within grassroots and frontline service-providing community organizations that interact with clients as a part of their work. During coordination and service provision, personally identifiable information (PII) may be shared between workers, volunteers, and clients. Collaborating with the Seattle Community Network (SCN) volunteer organization, we built a tool that automatically redacts PII from client coordination messages shared in their public chat server, and reveals the PII only to authorized users upon request. User feedback on this early iteration reveals a high valuing of its privacy-preserving functions, but concerns around trusting LLM output, a requirement to self-host LLMs even on limited hardware, and potential frictions around redaction time and tool onboarding.",
+    "summary": "",
+    "doi": "10.1145/3811242.3827559",
+    "citations": 0
+  },
+  {
+    "title": "Enhanced multi-view image clustering via dual-fusion contrastive learning",
+    "authors": [
+      "Wenzhe Liu",
+      "Jingbo Tan",
+      "Guodong Ding"
+    ],
+    "link": "https://www.semanticscholar.org/paper/715271c82993c2f4f10b60daf27ba17f440cfd84",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10384-7",
+    "citations": 0
+  },
+  {
+    "title": "Fourier fusion and dual-path attention enhancement network for medical image segmentation",
+    "authors": [
+      "Le Zou",
+      "Xiangxu Bu",
+      "Zhize Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6c119acc5f97ff6523246ef6ce025540274e77a6",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02558-6",
+    "citations": 0
+  },
+  {
+    "title": "Biofilm disruption by citronellol and geraniol against clinical uropathogenic Pseudomonas aeruginosa: an integrated in vitro and in silico investigation",
+    "authors": [
+      "Asma Benaissa",
+      "A. N. Tamfu",
+      "Waffa Bouali",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2c22df934f375db8edff5d6104731ab7d01b73c5",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "Molecular Biology Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11033-026-12450-1",
+    "citations": 0
+  },
+  {
+    "title": "Radical climate protests shaped portrayals of moderate activists and reader attitudes in German news media",
+    "authors": [
+      "Lukas Mayrhofer",
+      "Simon Fassnacht",
+      "Markus Foramitti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/045cae5faeb16f6b7db4c200ae873dc2be7224b8",
+    "date": "2026-07-27",
+    "keywords": [
+      "今日上新",
+      "npj Climate Action"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44168-026-00361-7",
+    "citations": 0
+  }
+]
