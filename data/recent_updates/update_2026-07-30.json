@@ -1,0 +1,240 @@
+[
+  {
+    "title": "ViTfuse_GNN: Vision Transformer-based fusion with Graphical Neural Network for detection of Intrusions in Multimedia Healthcare",
+    "authors": [
+      "Yashaswini K",
+      "Sharath M N"
+    ],
+    "link": "https://www.semanticscholar.org/paper/af9f6edd6cfadf1732e3fb6418272c82e69835f2",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal of Inventive Engineering and Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The exponential growth of network traffic and user data has hindered the efficacy and responsiveness of network intrusion detection systems. Intrusion systems are essential in e healthcare since they ensure the security, confidentiality, and accuracy of patients medical information. Diagnosis and treatment mistakes may result from any alteration to the patients real data. Traditional intrusion detection methods often fail to fully exploit the heterogeneous nature of multimedia healthcare data, which may include medical images, patient records, and network traffic metadata. Hence, this work proposes ViTfuse_GNN, a novel hybrid framework that integrates Vision Transformer (ViT)-based multimodal feature fusion with Graph Neural Networks (GNN) for robust intrusion detection. The proposed model first employs a Vision Transformer to fuse high level semantic features from medical images, videos, and textual metadata. Experimental evaluation on benchmark multimedia healthcare intrusion datasets demonstrates that ViTfuse_GNN outperforms state-of-the-art intrusion detection models with 99 percent accuracy, 98 percent precision, 99 percent recall, and 97 percent F1-score.",
+    "summary": "",
+    "doi": "10.35940/ijies.g1150.13070726",
+    "citations": 0
+  },
+  {
+    "title": "Cancer-Tissue Fraction as a Scanner-Robust Triage Signal for Automated Gleason Grading of Prostate Biopsies: External Validation Across a Middle Eastern Cohort",
+    "authors": [
+      "J. L. Ebbert",
+      "A. Perry",
+      "J. Szymanski",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ecd7a195f0095d0fc5071968a8a15cdcadf4921c",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.28.26359127",
+    "citations": 0
+  },
+  {
+    "title": "Measuring polarization in epistemic social networks: The case of the US 2024 presidential elections",
+    "authors": [
+      "Dmitry G. Zaytsev",
+      "Valentina V. Kuskova",
+      "Gregory S. Khvatsky",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e0e7fac9bf48a6b86bd7b034584dca1963459f1c",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Network Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1017/nws.2026.10039",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid artificial intelligence-driven eco-energy management for carbon-neutral 6G wireless networks",
+    "authors": [
+      "O. Chukwudi",
+      "Ugwu Chinyere Nneoma",
+      "U. Paul-Chima",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/da3283df18cc13607746e98a9ea7c1e1d2e40426",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Discover Networks"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44354-026-00041-2",
+    "citations": 0
+  },
+  {
+    "title": "Detection of calcium carbonate precipitation genes and GC-MS characterization of secondary metabolites of Cytobacillus firmus for in silico antifungal activities",
+    "authors": [
+      "A. Wahab",
+      "Ibrahim Omobolaji Adeyemo",
+      "A. P. Dare",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/af456ec4ef5e878c326e49aa27dd29f29b7e7b9d",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Biologia"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11756-026-02295-1",
+    "citations": 0
+  },
+  {
+    "title": "Genetic decoding reveals druggable biology implicitly learned by a medical-history foundation model",
+    "authors": [
+      "M. Pietzner",
+      "W. Zeng",
+      "L. Kohleick",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/92c79332b7d562cc7b55b8ae8a5ecbc7b3176959",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.28.26359117",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence in rare neurological diseases: a scoping review of the evidence landscape and framework for foundation model integration",
+    "authors": [
+      "Shih-Shuan Fang",
+      "Shenghan Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/904bc936548560c7fdc2dceb4b3cbbed775e04b9",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "The Egyptian Journal of Neurology Psychiatry and Neurosurgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s41983-026-01208-y",
+    "citations": 0
+  },
+  {
+    "title": "Integrative network pharmacology and molecular dynamics analysis of a curcumin–indole-3-propionic acid conjugate for diabetes-associated cognitive decline",
+    "authors": [
+      "Jayanthi Sidhambaram",
+      "Ancy Iruthayaraj",
+      "Swethaa Viswaresh Babu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8d689fc330b756496994ae7a50490bb20db53d77",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Journal of biological physics (Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10867-026-09721-0",
+    "citations": 0
+  },
+  {
+    "title": "An Evaluation of DMR Informed Fine-Tuning of Tissue Array Pretrained CpGPT for Gastrointestinal Cancer Classification Using cfDNA Targeted Methylation",
+    "authors": [
+      "Y. Xu",
+      "Q. Feng"
+    ],
+    "link": "https://www.semanticscholar.org/paper/47ee907330083d740746aac30d3cf42f849513c0",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.26.26358979",
+    "citations": 0
+  },
+  {
+    "title": "Multi-target analysis of 1,3,4-thiadiazolyl-thiazolidine-2,4-dione derivatives for type 2 diabetes mellitus: an integrated network pharmacology and molecular simulation study",
+    "authors": [
+      "L. Naanaai",
+      "Y. Moukhliss",
+      "Md. Al-Amin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3e7c3391723117a09534dc519bdfef82d02471d5",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00854-9",
+    "citations": 0
+  },
+  {
+    "title": "An intelligent disease prediction framework integrating machine learning, optimization, and LLM with RAG",
+    "authors": [
+      "Ping-Huan Kuo",
+      "Ping-Chun Tsai",
+      "Bang-Yu Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/34a55167f066fe7a98665671c9a175f6cf975ca8",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00853-w",
+    "citations": 0
+  },
+  {
+    "title": "Fine-Grained Emotional Characterization of Dementia Caregivers in Online Support Communities Using Large Language Models",
+    "authors": [
+      "T. Mungle",
+      "A. A. Kwan",
+      "Y. M. Hwang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/26cd1e46d7cbfe8bf24c3bb9d47bd8ce2882c9e2",
+    "date": "2026-07-29",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.26.26358983",
+    "citations": 0
+  }
+]
