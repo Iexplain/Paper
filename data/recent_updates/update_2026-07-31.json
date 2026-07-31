@@ -1,0 +1,556 @@
+[
+  {
+    "title": "An Automatic Diabetic Retinal Disease Classification Model Using Hybrid Convolutional Neural Networks Based on Fundus Images",
+    "authors": [
+      "Utchila Gopi",
+      "Bindu Priya"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f2681fee1252eceea69c342d9b5510474f4b761d",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Diabetic Retinopathy (DR) is a severe complication of diabetes that can cause retinal damage and lead to blindness if\nnot properly managed. Traditional DR screening, conducted by ophthalmologists, is time-consuming, highlighting the need for\nmore efficient detection methods. This project leverages Deep Learning (DL) to automate DR detection using Mobile Net, a\nlightweight model trained on 3,662 high-resolution fundus images from the APTOS 2019 dataset. The Mobile Net model is\ndesigned to classify DR into five stages, ranging from zero to four. To further enhance performance, we investigate hybrid\nmodels that combine Mobile Net with other architectures: Mobile Net + Graph Neural Network (GNN) and Mobile Net +\nRecurrent Neural Network (RNN). The Mobile Net + GNN hybrid aims to capture complex spatial relationships within retinal\nimages, potentially improving classification accuracy by interpreting structural patterns. The Mobile Net + RNN hybrid focuses\non addressing sequential dependencies and temporal patterns, thereby enhancing the model's capability to detect subtle changes\nacross different DR stages. Our results demonstrate that the Mobile Net + GNN model achieved an accuracy of 92%, while the\nMobile Net + RNN model reached an accuracy of 81%. These findings suggest that the hybrid approaches offer a promising\npath to optimize DR detection, improving both accuracy and efficiency compared to traditional methods",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84428",
+    "citations": 0
+  },
+  {
+    "title": "Exploring the Feasibility of Local Small-scale Large Language Models for OBTS of ECS",
+    "authors": [
+      "Kyoung-Sub Song"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e6c8ab8e87b064f23ea4c39dbe5e79b18b96daef",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Journal of the Institute of Electronics and Information Engineers"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5573/ieie.2026.63.7.135",
+    "citations": 0
+  },
+  {
+    "title": "TRACER-AI: A Multi-Layer Explainable Framework for Prompt Injection, Agent Goal Hijacking, and Tool Misuse Detection in Agentic AI Systems",
+    "authors": [
+      "Pallavi Singh",
+      "Khushboo Gupta",
+      "Pratibha Singh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/dacd135992e586b5a2b27c9134985d56cc4a20fb",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language model (LLM) agents extend generative models with planning, memory, and external tool access, but\nthis capability creates a security path in which untrusted content can alter instructions, hijack an agent's operational goal, and\ntrigger harmful tool actions. This paper proposes TRACER-AI, a four-layer explainable defense-in-depth framework that\ncombines (i) semantic prompt-injection detection, (ii) continuous goal-integrity monitoring, (iii) contextual tool-risk control, and\n(iv) structured explainable security decisions. The framework is designed around the attack progression prompt injection -> goal\nhijacking -> tool misuse rather than treating prompt filtering as the only enforcement boundary. A dynamic risk score fuses\nprompt-injection probability, goal deviation, tool risk, and contextual anomaly before action execution. A controlled proof-ofconcept evaluation was conducted on a 3,500-case synthetic adversarial testbed containing benign interactions and five attack\nfamilies: direct prompt injection, indirect prompt injection, goal hijacking, tool misuse, and chained attacks. The held-out test set\ncomprised 1,050 cases with previously unseen attack wording and benign security-text decoys. The standalone prompt detector\nachieved 0.679 accuracy, 0.575 F1-score, and 0.760 ROC-AUC, illustrating the weakness of relying on prompt detection alone\nunder distribution shift. In contrast, the full TRACER-AI configuration achieved a 96.4% attack detection rate, reduced attack\nsuccess rate to 3.6%, preserved 99.0% benign task success, and limited false positives to 1.0% in the controlled testbed. The\nresults support the central hypothesis that agent security benefits from multiple independent checkpoints spanning instruction\nintake, goal continuity, and execution-time tool authorization. The study also maps the framework to contemporary agentic-AI\nsecurity guidance and benchmark research, and provides a reproducible experimental protocol for subsequent validation on\nAgentDojo, InjecAgent, AgentDyn, and domain-specific agent benchmarks.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84360",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Agent LLM Pipeline for Code Writing: An Experimental Study of Writer-Reviewer Architecture",
+    "authors": [
+      "Temel Kaan Ekiz",
+      "Mehmet Zeki Konyar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d14bd3626e85a9642dc8973be51909a2700c8f86",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "ADBA Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In this paper, we develop a multi-agent pipeline-based approach for solving competitive programming problems via Large Language Models (LLMs). Specifically, we analyze the Writer-Reviewer pipeline where the Writer Agent produces Python solutions and the Reviewer Agent gives static natural language feedback. Experiments on a 96-problem AtCoder subset of LiveCodeBench involve comparing twelve pipeline setups which employ three different models (GPT-OSS-20B, Qwen3-Coder-30B-A3B-Instruct, and Qwen2.5-Coder-7B-Instruct) in various agent roles. Within this experimental setup, the review process increases the performance of GPT-OSS-20B from 87.5% to 91.7% Pass@1, with the bootstrap 95% confidence intervals overlapping, while the performance of Qwen3-Coder-30B-A3B-Instruct does not improve and the performance of Qwen2.5-Coder-7B-Instruct improves marginally from 0% to 1.0%. This may indicate that the static iterative feedback mechanism helps to further improve the performance of a strong Writer but not the performance of a weak Writer. A diagnostic audit suggests that the very low Qwen2.5-Coder-7B-Instruct scores mainly reflect structured-output compliance failures in our setup rather than standalone coding capability. Moreover, performance varies more when changing the Writer Agent than when changing the Reviewer Agent, with differences of up to 88.6 percentage points across Writers and up to 17.7 percentage points across Reviewers.",
+    "summary": "",
+    "doi": "10.69882/adba.cs.2026071",
+    "citations": 0
+  },
+  {
+    "title": "Auto Threat AI: An Agentic and Explainable Framework for Automated Cyber Threat Intelligence Extraction",
+    "authors": [
+      "Methari Keeravani"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b1ae121c9f290232efb67e7276eeb11bf55480c6",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Cyber Threat Intelligence (CTI) enables Security Operations Centers (SOCs) to understand adversary behavior,\nprioritize risks, and respond to cyber threats. However, cur-rent CTI workflows still depend heavily on manual analysis\nof unstructured threat reports, vulnerability advisories, open-source intelligence, social media posts, and structured feeds. This\ncreates operational latency, inconsistent extraction quality, weak provenance, and limited scalability. This paper presents Auto\nThreat AI, an agentic and explainable framework for automated CTI extraction, correlation, scoring, and analyst-governed SOC\noperationalization. The proposed framework integrates determin-istic indicator extraction, Natural Language Processing (NLP),\nschema-guided Large Language Model (LLM) agents, graph-aware threat correlation, bounded risk scoring, evidence-first\nexplainability, and Human-in-the-Loop (HITL) governance. The system ingests heterogeneous CTI sources, extracts entities and\nrelations such as IOCs, CVEs, malware, campaigns, threat actors, tools, and techniques, constructs a threat knowledge graph,\ngen-erates campaign candidates, and presents risk-ranked intelligence through a SOC dashboard. Experimental evaluation on\nsafe demonstration CTI data shows that the implemented prototype ingested 6 sources, extracted 36 entities, generated 33\nrelations, detected 11 threat events, identified 5 campaign candidates, and routed 8 items for HITL review. The results\ndemonstrate that Auto Threat AI can reduce manual CTI processing effort while improving traceability, explainability, and\nanalyst trust.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84088",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Model-Based Chatbot System for Dysarthric Speech Analysis and Personalized Rehabilitation Guidance",
+    "authors": [
+      "Jihyeon Kim",
+      "Seongjun Kim",
+      "Minseo Kim",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/79f302c48dce69a2ce4152b5e0049b573311b282",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "KIISE Transactions on Computing Practices"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.5626/ktcp.2026.32.7.273",
+    "citations": 0
+  },
+  {
+    "title": "RakshNet-PhishGuard: A Multi-Layer Heuristic and Machine-Learning Framework for Real-Time Phishing URL Detection",
+    "authors": [
+      "Palla Srinivas",
+      "Pravitha R Prasad"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6603087d7a33adb43382ae10043cc46ac90f8326",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Phishing remains one of the most prevalent and financially damaging cyberattack vectors, with attackers routinely\ndisguising malicious links through typosquatting, homograph substitution, brand impersonation, and abuse of free top-level\ndomains. Existing defenses are largely reactive — blocklist services cannot flag a newly registered phishing domain until it has\nalready been reported, while enterprise secure-web gateways are priced for organizations rather than individual users. In this\npaper, we propose RakshNet–PhishGuard, a client-first, multi-layer URL threat detection system that classifies a submitted URL\nas Safe, Suspicious, or Phishing without depending on a live threat-intelligence database. Twenty-five lexical and structural\nfeatures are extracted from each URL and evaluated by two cooperating layers: a deterministic heuristic engine that checks\ntwelve categorical red-flag rules, and a machine-learning ensemble of six classifiers — Logistic Regression, Naive Bayes,\nDecision Tree, Random Forest, Support Vector Machine, and Gradient Boosted Trees (XGBoost) — trained on a stratified 168-\nURL sample drawn from the Hannousse and Yahiouche phishing-URL benchmark. A large-language-model layer (Google\nGemini, invoked through a serverless cloud function) converts the combined verdict into a plain-language explanation for nontechnical users, and a community-reporting module lets users flag suspicious URLs for analyst review. Under 5-fold stratified\ncross-validation, Logistic Regression achieved the best overall performance (79.17% accuracy, 0.861 AUC), followed closely by\nthe Support Vector Machine (76.19% accuracy, 0.859 AUC); a Random Forest feature-importance analysis further shows that\nthe categorical indicators the heuristic layer specifically targets carry essentially zero learned weight in the trained models,\nconfirming the two layers cover complementary failure modes. The project's documented test plan, covering single and bulk\nscanning, role-based access, and the AI-service fallback path, produced its expected result in all eight scenarios, with heuristic\nanalysis completing in under 50 ms per URL. This paper additionally positions the system against nine related works spanning\nfeature-engineered ML, deep representation learning, and large-language-model-assisted detection, and reports the system's\nfunctional, non-functional, and hardware/software requirements in full. The complete system is implemented as a React 18 and\nTypeScript single-page application in which every trained model runs entirely client-side, requiring no backend inference server.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84355",
+    "citations": 0
+  },
+  {
+    "title": "In silico Molecular Docking, Dynamics, and ADMET Analyses of Leritrelvir Targeting SARS-CoV-2 Main Protease",
+    "authors": [
+      "M. Farooq"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6412d59406334c392e6305b3a12c156c9dd4e9b5",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Magna Scientia Advanced Biology and Pharmacy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The current COVID19 pandemic necessitates the development of antiviral agents targeting the SARS-CoV-2 main protease. It is one of the viral enzymes that plays a key role in reproduction. Rayitrelvir (RAY1216), a 2-ketoamide-based peptidomimetic inhibitor, is presently in clinical development. To determine the nature and dynamics of Leritrelvir (RAY1216) binding to Mpro (PDB ID: 6LU7), structure-based molecular docking and dynamics simulation were used in this study to clarify the nature and dynamic stability of Leritrelvir (RAY1216). AutoDock was used to dock, and further validation was done on the DockThor platform. The interactive analysis showed that Leritrelvir (RAY1216) was highly stably bound in the catalytic pocket (7.3 kcal/mol), which was hydrogen bonded with GLN110, HIS246, GLU240, GLN110, and PRO108 and interacted π-π with HIS246 and PHE294. Docking comparative with Nirmatrelvir, the active compound of Paxlovid, showed a similar binding affinity (ΔG = -7.16 kcal/mol) and partially overlapping binding residues, which confirmed the reliability of docking results. Conformational stability of the LeritrelvirMpro complex was confirmed by a 100ns MD that showed stable RMSD, radius of gyration, and maintained hydrogen bonding, whereas the RMSF variations were localized to flexible terminal areas. ADMET predictions (SwissADME and ProTox-II) in silico revealed good pharmacokinetics and oral bioavailability, and good toxicity. When combined, these results provide docking, dynamics, and pharmacokinetics, making Leritrelvir (RAY1216) an effective noncovalent SARS-CoV2 Mpro inhibitor. However, additional in vitro and in vivo studies are justified to establish its potential in clinical use as a next-generation therapeutic to treat COVID19.",
+    "summary": "",
+    "doi": "10.30574/msabp.2026.18.2.0056",
+    "citations": 0
+  },
+  {
+    "title": "A Cascaded Machine-Learning Pre-Filter and Adaptive LLM Re-Ranking Architecture for Financial News Importance Scoring",
+    "authors": [
+      "Viswanath Parashuram Yadavalli"
+    ],
+    "link": "https://www.semanticscholar.org/paper/61d0f33945784a13840db8ac063f75d2d53a6752",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Financial news is published faster than any person can read it. This paper presents IntrAIdify, a live financial news\nranking system built as a two-stage cascade: a machine learning ensemble (Linear Regression, Random Forest, XGBoost,\nLightGBM) first filters incoming headlines down to the top 10, and a large language model (LLM) then re-ranks those 10 using\na softmax mechanism that adaptively weights the ML and LLM scores per headline. Three smaller signals - a keyword lexicon, a\ntopic-relevance score, and an actionability score - add further weight to the final ranking. We evaluate the system on a full 398-\nday held-out test set in two ways: how well it ranks the full list of headlines, and how well the LLM re-ranks the top 10 the ML\nensemble already chose. On the full-list test, the plain ML ensemble significantly outperforms the full pipeline. On the top-10\ntest, the LLM re-ranking shows no significant improvement over the ML ensemble's own ordering. We report both results\nplainly, discuss what they mean for the architecture, and argue that measuring a reranker within its actual candidate set, not\njust across the full list, is the correct way to evaluate any cascaded ranking system.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84129",
+    "citations": 0
+  },
+  {
+    "title": "Intelligent Multi-Agent System for Research Automation",
+    "authors": [
+      "Siddhant Lohakar",
+      "Annlin Mathe",
+      "Atharva Kamde",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6080633c613ba9deada38a4b9e2687d036d07cff",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This project proposes a domain-aware multi-agentresearch system that intelligently routes user queries to specialized AI\nagents across multiple domains such as biomedical, legal, market research, academic research, and technical programming.\nTraditional large language models (LLMs) often generate hallucinated or unverifiable responses due to lack of domain-specific\ngrounding and validation [3]. To address this limitation, the system introduces an intelligent Query Router that classifies queries\nusing hybrid techniques such as keyword analysis and embedding similarity, assigning confidence scores and selecting the most\nrelevant domain agents [1]. Each domain agent interacts with domain-specific data sources and generates structured, citationbacked responses. A validation layer further verifies outputs to ensure reliability and reduce hallucinations.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84169",
+    "citations": 0
+  },
+  {
+    "title": "Trust-aware evaluation frameworks for large language model reliability in enterprise AI platforms",
+    "authors": [
+      "Swaroop Suresh Borukar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5b6a48ebcca1271f980951eaa2ee57515a1017da",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "International Journal of Science and Research Archive"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Trust-aware evaluation is an emerging but rapidly consolidating research area for assessing the reliability of large language models in enterprise AI systems. Generative AI brings a new set of reliability challenges that extend beyond traditional accuracy metrics: An incorrect answer could affect key business decisions, customer interactions, knowledge management, security setups, or organizational accountability. This review summarizes peer-reviewed journal articles published between 2015 and 2025 related to key aspects of trust-aware LLM evaluation, including hallucination and factuality assessment, LLM evaluation methods, trustworthy AI governance, and human trust calibration. As indicated in the literature, current evaluation practice is still fragmented, both in terms of the various technical metrics and in terms of the documentation instruments, as well as on the interpretation of the data and the user-centred design of the trust cues, organizational governance. The most critical gaps are weak alignment between benchmark outcomes and enterprise risk, limited post-deployment monitoring, insufficient context-specific trust calibration, and limited validation of evaluation frameworks in operational platforms. The article argues for an evidence-based approach that connects model behaviour, platform controls, user reliance, and auditable governance in enterprise reliability assessment.",
+    "summary": "",
+    "doi": "10.30574/ijsra.2026.20.1.1330",
+    "citations": 0
+  },
+  {
+    "title": "Advanced Artificial Intelligence and data science in bioinformatics-driven drug discovery for cancer: Pathways toward shorter and less toxic treatment",
+    "authors": [
+      "Yejide Eniola Dabiri"
+    ],
+    "link": "https://www.semanticscholar.org/paper/5aa078d70be7d293cc777518b47828e0b51cc41f",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "AIDD",
+      "Molecular Generation",
+      "Magna Scientia Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Cancer remains one of the leading causes of death worldwide, with the GLOBOCAN estimates placing the 2022 global burden at close to 20 million new cases and 9.7 million deaths (Bray et al., 2024), a burden projected by the American Cancer Society (2024) to rise to roughly 35 million annual cases by 2050. Conventional cytotoxic chemotherapy, though still central to treatment for many tumor types, is frequently associated with prolonged treatment courses, non-specific systemic toxicity, and reduced quality of life. This review synthesizes recent literature on the application of artificial intelligence (AI) and data science within bioinformatics-driven cancer drug discovery, examining how these tools are reshaping target identification, molecular design, biomarker discovery, and treatment personalization. The analysis shows that deep learning-based protein structure prediction (Jumper et al., 2021), generative molecular design (Gangwal & Lavecchia, 2024), multi-omics target identification (Bhinder et al., 2021; Wei et al., 2023), digital pathology and radiomics (Bera et al., 2022; Lu et al., 2024), and machine learning models for predicting chemotherapy toxicity (Huang et al., 2024; Moslemi et al., 2025) are collectively shortening discovery timelines, improving the precision of treatment selection, and reducing treatment-related adverse effects in reported studies. Case evidence is presented, including a generative-AI-designed molecule that reached Phase I clinical trials in under 30 months (Insilico Medicine, 2022) and the 2024 Nobel Prize in Chemistry awarded for the AlphaFold protein-structure-prediction system. While these advances present a credible pathway toward shorter, more targeted, and less toxic cancer treatment, and in specific molecular contexts may reduce reliance on conventional chemotherapy, the evidence does not yet support claims that AI will universally eliminate chemotherapy; rather, it points toward an increasingly personalized standard of oncologic care. The review concludes by discussing the ethical, regulatory, and data-governance barriers that must be addressed for these gains to be realized safely and equitably.",
+    "summary": "",
+    "doi": "10.30574/msarr.2026.17.2.0122",
+    "citations": 0
+  },
+  {
+    "title": "MAESTROGEN: Building a Full-Stack AI Music Generation SaaS Platform",
+    "authors": [
+      "Dr. Juthuka Aruna Devi",
+      "Budagatla Sai Vinuthna",
+      "Pendyala Madhu Sudhana Rao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/53f780084c3974b6b909e0187f464f9a34f7a54c",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Music compositionrequired training and equipment which most people usually do not have. The fastemerging\nprogressingenerative artificial lintelligencehasopenednewdoorsforcreativecontent generation, but still accessible end-to-end AI\nmusic creation platforms remain rare. This paper depicts MAESTROGEN, a full-stack Software-as-a-Service (SaaS) platform\nthat allows users to generatesongsincludingaudio,lyrics,andalbumartworkfromnaturallanguagedescriptionsalone. The system\nhas a combination that integrates three self-hosted AI models: the Ace Step diffusion transformer for audio synthesis, the Qwen\n2 large language model (LLM) for automated lyric and prompt engineering, and SDXL Turbo for visual thumbnail generation.\nWhile akey architectural contribution is the resolution of the serverless timeout problem inherent to long-running GPU\ninference through durable event-driven orchestration via Inngest. The platform is built and developed on a modern stack\ncomprising Next.js, TypeScript, Tailwind CSS, Neon serverless PostgreSQL, and AWS S3, deployed on Vercel with Modal\nproviding on-demand GPU compute. Experimental evaluation illustrates high generation quality along three usercontrolledmodes,zero timeout failures under concurrent load, and a 97% infrastructure cost reduction through scale-to- zero\nGPU provisioning. MAESTROGEN operates the text-to-music vision as a deployable, user- accessiblesystem, closing the gap\nbetween research-level generative audio model sand production- ready applications.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.80586",
+    "citations": 0
+  },
+  {
+    "title": "Auto-Devops GPT: An Agentic AI Framework for Self-Healing CI/CD Pipelines Using LLM-Based Root Cause Analysis and Reinforcement Learning",
+    "authors": [
+      "N. Vijay",
+      "A. Jitendra"
+    ],
+    "link": "https://www.semanticscholar.org/paper/53e84aac1f2d95dd399fe05d8926bf60badca364",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Continuous Integration and Continuous Deployment (CI/CD) pipelines are essential for modern software delivery, but\nfrequent failures in build, test, dependency, configuration and deployment stages reduce reliability and increase recovery time.\nTraditional CI/CD tools execute predefined workflows but generally require manual log inspection and human intervention after\nfailures. This paper proposes AutoDevOps GPT, an agentic artificial intelligence framework for self-healing CI/CD pipelines. The\nframework integrates Jenkins webhook events, log-based failure classification, Large Language Model-assisted root cause\nanalysis, multi-agent recovery planning, safe remediation execution, incident storage and reinforcement learning-based recovery\noptimisation. The proposed system uses an Analyzer Agent to classify failures, a Planner Agent to select recovery actions and an\nExecutor Agent to apply predefined safe remediation. A lightweight Q-learning-inspired policy updates recovery action\npreferences using success, time and cost feedback. The system is implemented using Python Flask, SQLite, SQLAlchemy,\nJenkins, GitHub, Docker, Kubernetes support and a dashboard for incident intelligence. Experimental evaluation shows\nimprovementsin detection time, recovery time, recovery accuracy and automation efficiency compared with traditional CI/CD, rulebased recovery and basic AIOps baselines.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84056",
+    "citations": 0
+  },
+  {
+    "title": "Design and implementation of a scalable zero-trust AI security methodology for Criminal Justice Information Services (CJIS) incorporating dual-stream validation for adversarial defense, data protection, and compliance assurance",
+    "authors": [
+      "Deo Mugabe"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4d4bec2e1eec1c68fa39943e74129c65104a7916",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The adoption of artificial intelligence (AI) and machine learning (ML) technologies in criminal justice information services (CJIS) has enabled unprecedented capabilities for law enforcement; however, these technologies can also expand the attack surface for highly sophisticated adversarial threats. Traditional perimeter-based information security models are not adequate to protect sensitive criminal justice information (CJI) against evasive attacks, data-poisoning, and model inversion. A new, scalable zero-trust AI Security Methodology for CJIS compliance is proposed. The methodology employs a Dual-Stream Validation engine that separates security event monitoring into an Input Integrity Stream and Latent Representations Stream. In addition to the framework's use of graph neural networks (GNN) for structural threat mapping, federated learning is used for privacy-preserving intelligence. This methodology's framework guarantees that AI-driven decisions are auditable and reliable while also employing a blockchain-based immutable logging mechanism to ensure a tamper-proof audit history for judicial transparency and compliance. Experiment simulations reveal a significantly higher level of detectable adversarial perturbed inputs within the dual-stream modality, while maintaining compliance with low-latency mission-critical law enforcement operations. This research bridges the gap between theoretical adversarial defense work with the operational regulatory requirements of federal information systems, providing a pathway for resilient, compliant, trustable AI for public safety.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.31.1.1879",
+    "citations": 0
+  },
+  {
+    "title": "Detecting Phishing Websites Using a Hybrid Approach with DistilBERT, GNN and LightGBM",
+    "authors": [
+      "Ms. I. Shalini",
+      "Ms. G. Sujini"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4aa3b70daecacc23598b25ef28ac8710c136a9c2",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Phishing attacks constitute one of the most pervasive cyber threats, exploiting human behaviour and system\nvulnerabilities to steal sensitive information such as login credentials and financial data. Existing detection systems frequently\nrely on singular modelling approaches and thus fall short in addressing the multidimensional and continuously evolving nature\nof these attacks. To overcome this challenge, the present work proposes a hybrid phishing detection framework that integrates\nthree complementary techniques: DistilBERT (Distilled Bidirectional Encoder Representations from Transformers) for semantic\nanalysis of URL text, Graph Neural Networks (GNN) for modelling structural relationships among URL components, and\nLightGBM (Light Gradient Boosting Machine) for efficient metadata-based feature classification. The outputs of the three\nmodels are fused through a weighted ensemble voting mechanism, enabling the system to leverage textual, structural, and\nstatistical perspectives simultaneously. By replacing the computationally heavy BERT model used in prior work with the lighter\nDistilBERT variant, the proposed system achieves reduced computational complexity, faster inference, and lower memory\nconsumption while preserving detection quality. Experimental evaluation on a large-scale Kaggle phishing URL dataset\ndemonstrates that the hybrid ensemble yields a weighted phishing probability of 86.9%, with individual model contributions of\n0.628 (DistilBERT), 1.000 (GNN), and 0.999 (LightGBM). The system is deployed via a Flask-based web interface that enables\nreal-time URL classification. This multi-level approach underscores the importance of strengthening online security through\nrobust, efficient, and scalable detection mechanisms.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84076",
+    "citations": 0
+  },
+  {
+    "title": "PromptStudio: A Governance-Aware Agentic AI Framework for Automated Prompt Generation, Optimization, Evaluation, and Lifecycle Management",
+    "authors": [
+      "C. Swetha",
+      "G. Devi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/424a8cd17f34a575401e4f719094b6072dda712f",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Prompt engineering plays a critical role in the effec-tive use of Large Language Models, but manual prompt design is\noften inconsistent, difficult to reproduce, and weakly governed. This paper presents PromptStudio, a governance-aware Agentic\nAI framework for automated prompt generation, optimisation, evaluation, and lifecycle management. The proposed framework\nintegrates specialised agents for prompt generation, optimisa-tion, evaluation, feedback, governance, and orchestration. It\nalso supports Human-in-the-Loop review, prompt versioning, rollback, explainability, and audit logging. A prototype implementation was developed using a FastAPI backend, browser-based dashboard, JSON-based storage, YAML configuration,\nGemini API integration through environment variables, and mock-mode execution for offline testing. Experimental evaluation\non a software security prompt scenario shows improvement in the prompt score from 0.8575 to 0.9165 while maintaining high\nsafety, format compliance, and governance validation. The results indicate that PromptStudio can transform prompt engineering\nfrom an informal manual practice into a structured, measurable, governed, and auditable lifecycle suitable for trustworthy LLM\napplication development.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84092",
+    "citations": 0
+  },
+  {
+    "title": "Sentinel AI: An AI-Powered Visual Problem Detection and Intelligent Expert Recommendation System Using Computer Vision and Large Language Models",
+    "authors": [
+      "Sanket Kadhao",
+      "Abishai Amair",
+      "Bhairavi Sawale",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/297116108e323557b7745d505b27fdadddb1f277",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Everyday technical failures, ranging from leaking pipes and cracked casings to obscure software exceptions, are\ndifficult for non-specialists to diagnose and even more difficult to resolve without paying for an on-site expert visit. This paper\npresents Sentinel AI, a multi-role, AI-powered problem-diagnosis and expert-marketplace platform that unifies computer-visionbased hardware fault detection with large-language-model-based software log analysis under a single \"Universal Analysis\"\npipeline. The system ingests either a photograph of a damaged physical asset or a snippet of code, logs, or an error trace,\nclassifies the artifact type, estimates severity and confidence, produces a plain-language technical explanation with a\nrecommended remediation, and, where the issue exceeds what a user can safely resolve alone, routes a structured request to the\nnearest available domain expert through a real-time, Socket.io-based messaging layer with SMS escalation via Twilio. Three\ncooperating web portals — Customer, Expert, and Admin — are backed by a Node.js/Express service layer and a MongoDB\ndocument store. This paper describesthe system's architecture, the diagnostic and expert-matching pipeline, the technology stack,\nand the implemented user interfaces, and it discusses the platform's advantages, current limitations, and directions for future\nexperimental validation.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84336",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating Large Language Models Against Clinical Assessment Frameworks for Early Sepsis Detection in the ICU",
+    "authors": [
+      "Anvit More",
+      "Dr. Vishala Bodetti",
+      "Kishan Gor",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/289b57967c914d314ef422dd97fade26deaa837b",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Timely recognition of sepsis remains difficult when early physiological abnormalities are subtle or incomplete. This\nstudy examined whether general-purpose large language models could discriminate sepsis risk from an initial ICU vital-sign\nsnapshot as effectively as established clinical scoring approaches. We performed a retrospective benchmark using the deidentified PhysioNet Sepsis Prediction Dataset. The eligible cohort included 39,234 adults, of whom 2,733 were sepsis-positive.\nTwo zero-shot language models and two modified clinical scores were evaluated on the same patients. Discrimination was\nmeasured by the area under the receiver operating characteristic curve (AUROC), with bootstrap confidence intervals and\nDeLong tests for paired comparisons. AUROC was 0.597 for GPT-5.5, 0.592 for modified NEWS2, 0.591 for Claude Sonnet 5,\nand 0.570 for modified SOFA. Neither language model differed significantly from modified NEWS2, whereas both produced\nhigher AUROC values than modified SOFA. A pre-onset-only sensitivity analysis, restricted to patients whose snapshot preceded\ntheir first positive sepsis label (achieved median lead time 39 hours), showed all four estimators converging (AUROC 0.579–\n0.591) with no significant pairwise differences, indicating the primary-analysis gap over SOFA was partly attributable to postonset records. A stricter analysis limited to a minimum 6-hour lead time reversed the ranking: the SOFA-derived score obtained\nthe highest AUROC (0.597), with the LLMs and NEWS2-derived score converging lower (0.573–0.578), again with no\nsignificant pairwise differences. Their alerting behaviour was not interchangeable: GPT-5.5 produced a more balanced\nsensitivity-specificity profile, while Claude Sonnet 5 identified more positive cases at the cost of additional false alerts. These\nfindings show that zero-shot language models can provide discrimination comparable to the strongest modified clinical score in\nthis dataset. The modest absolute AUROC values, use of modified scores, and retrospective single-dataset design mean that the\nmodels should be considered complementary research tools, not stand-alone clinical detectors.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84386",
+    "citations": 0
+  },
+  {
+    "title": "A conversational data analysis system using large language model",
+    "authors": [
+      "Wumi Ajayi",
+      "Ihuanyachi O. OGBONNA",
+      "Daniel I. OGHINAN"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e456a24f184f846b0c50c32d8d52e4a072da59f",
+    "date": "2026-07-31",
+    "keywords": [
+      "今日上新",
+      "Global Journal of Engineering and Technology Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In today’s data-driven environment, the ability to explore and manipulate datasets is essential, however, many existing data analysis tools require technical expertise in platforms such as Excel, Python, or Power BI, creating accessibility barriers for non-technical users. This project presents Quiksight, a web-based conversational data analysis system powered by Large Language Models (LLMs) that enables users to interact with datasets using natural language. The objective of this work was to develop an intuitive system that simplifies data analysis by allowing users to upload Excel or CSV files and perform operations such as filtering, sorting, summarization, column modification, missing-value handling, and data export without writing code. The system was implemented using Google Gemini as the LLM, FastAPI for backend processing, and HTML, JavaScript, and Tailwind CSS for the frontend interface.Evaluation showed that Quiksight successfully interpreted and executed a wide range of natural language data manipulation queries with high accuracy. Testing recorded an average query response time of approximately 2 seconds, while dataset uploads up to 30MB remained below 20 seconds under suitable network conditions. Compared with existing platforms such as Julius.ai and PowerDrill.ai, Quiksight demonstrated advantages through its lightweight architecture, simplified interaction model, and focus on everyday users. The project demonstrates the feasibility of LLM-powered conversational interfaces for democratizing data analysis. Future improvements include database integration, support for larger datasets, and advanced analytical capabilities such as statistical modelling.",
+    "summary": "",
+    "doi": "10.30574/gjeta.2026.28.1.0166",
+    "citations": 0
+  },
+  {
+    "title": "MacroCarbon: A CVaR-Constrained Grid Resource Broker for Agentic LLM DAG Workflows on Geo-Distributed Heterogeneous Computing Grids",
+    "authors": [
+      "Hemant P",
+      "Afreen Arif"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d72ecaef45de9012c70d9e7bb3c60e81c42213e6",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Journal of Grid Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10723-026-09844-7",
+    "citations": 0
+  },
+  {
+    "title": "Designing for all? Accessibility of native android interfaces from large language models",
+    "authors": [
+      "Daniel Mesquita Feijó Rabelo",
+      "Júlia Holanda Muniz",
+      "Kiev Gama",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d6f1a5a82c01adb57660aff3ef87fb48c3bb7ec0",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Universal Access in the Information Society"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10209-026-01373-0",
+    "citations": 0
+  },
+  {
+    "title": "DSFusion: different size modalities zero-shot segmentation via heterogeneous fusion",
+    "authors": [
+      "Yue Zhuo",
+      "Di Zhou",
+      "Pengpeng Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c16d08c1fecb0987999982e6a0a0c6a15103723e",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02523-3",
+    "citations": 0
+  },
+  {
+    "title": "ViTfuse_GNN: Vision Transformer-based fusion with Graphical Neural Network for detection of Intrusions in Multimedia Healthcare",
+    "authors": [
+      "Yashaswini K",
+      "Sharath M N"
+    ],
+    "link": "https://www.semanticscholar.org/paper/af9f6edd6cfadf1732e3fb6418272c82e69835f2",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal of Inventive Engineering and Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The exponential growth of network traffic and user data has hindered the efficacy and responsiveness of network intrusion detection systems. Intrusion systems are essential in e healthcare since they ensure the security, confidentiality, and accuracy of patients medical information. Diagnosis and treatment mistakes may result from any alteration to the patients real data. Traditional intrusion detection methods often fail to fully exploit the heterogeneous nature of multimedia healthcare data, which may include medical images, patient records, and network traffic metadata. Hence, this work proposes ViTfuse_GNN, a novel hybrid framework that integrates Vision Transformer (ViT)-based multimodal feature fusion with Graph Neural Networks (GNN) for robust intrusion detection. The proposed model first employs a Vision Transformer to fuse high level semantic features from medical images, videos, and textual metadata. Experimental evaluation on benchmark multimedia healthcare intrusion datasets demonstrates that ViTfuse_GNN outperforms state-of-the-art intrusion detection models with 99 percent accuracy, 98 percent precision, 99 percent recall, and 97 percent F1-score.",
+    "summary": "",
+    "doi": "10.35940/ijies.g1150.13070726",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence-Driven Multi-Omics Diagnostic Pipelines for Infectious, Neurodegenerative, and Metabolic Diseases: From Biomarker Discovery to Precision Medicine and Digital Twin Healthcare",
+    "authors": [
+      "Emmanuel Nkansah",
+      "Micheal Abimbola Oladosu",
+      "Moses Adondua Abah",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a206dd3197c34479379f3bf6e0321bbf0e287311",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Transformer",
+      "RNA-seq / Transcriptomics",
+      "International Journal of Preventive Medicine and Health"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The combination of AI and multi-omics has ushered in a new, revolutionary era in disease diagnosis and precision medicine. This review aims to summarize the current status of the artificial intelligence (AI)-based multi-omics diagnostic workflows employed in three disease paradigms: infectious, neurodegenerative, and metabolic diseases, and critically evaluate their translational potential from the discovery of biomarkers to digital twin healthcare systems. Machine Learning (ML) and Deep Learning (DL) algorithms, as well as Explainable Artificial Intelligence (XAI) algorithms, are explored for their application in linking genomics, transcriptomics, proteomics, metabolomics, and microbiomics datasets to enable high-dimensional molecular phenotyping. Harmonisation strategies for multi-omics data, AI driven feature selection, molecular pathway elucidation using graph neural networks (GNNs) and transformer architectures, and the development of digital twin models for personalised, dynamic health simulation are among the key themes. We delve deeper into the regulatory, ethical, and equity issues arising from the deployment of AI-omics systems across heterogeneous clinical settings. The review ends with a strategy for integrating validated AI-omics pipelines into the next-generation precision therapeutics and global health infrastructure.",
+    "summary": "",
+    "doi": "10.54105/ijpmh.e1162.06050726",
+    "citations": 0
+  },
+  {
+    "title": "A Multi-Agent Benchmarking Framework for Evaluating the Performance of Large Language Models in Logic Programming",
+    "authors": [
+      "Nikolaos Karamousalidis",
+      "Petros Kefalas"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6ca3e79b484c146e9985bc43ef693b8752d1b9a5",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05242-8",
+    "citations": 0
+  },
+  {
+    "title": "Asymmetric partially observable Markov decision process (POMDP)-based stochastic games for modeling stealthy APT propagation in heterogeneous 6G-enabled edge environments",
+    "authors": [
+      "Jude Njoku"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3925107a04c5b541bc67b339767fac28643b6192",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer Virology and Hacking Techniques"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11416-026-00638-9",
+    "citations": 0
+  },
+  {
+    "title": "Automated Grading of Descriptive Answers Using AI and Large Language Models",
+    "authors": [
+      "Aswin S. Kumar",
+      "Niranjan Krishnan",
+      "Vighnesh Mudaliar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/22a9c5102455c8de2646095e890613e10ce4fe52",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05247-3",
+    "citations": 0
+  },
+  {
+    "title": "Vision Meets Language: A RAG-Augmented YOLOv8 Framework for Coffee Disease Diagnosis and Farmer Assistance",
+    "authors": [
+      "Semanto Mondal",
+      "Antonino Ferraro",
+      "Fabiano Pecorelli",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e3e1d7feeeeb9dc7c79a3eec31687daa6973b10",
+    "date": "2026-07-30",
+    "keywords": [
+      "今日上新",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05246-4",
+    "citations": 0
+  }
+]
