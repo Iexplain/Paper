@@ -1,0 +1,39 @@
+[
+  {
+    "title": "In Which Fields Do ChatGPT Scores Align More Closely with Research Quality than Do Citation Rates?",
+    "authors": [
+      "Mike Thelwall"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9553f30248b2b5c1209ca0bce84c66c90511df77",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Cited: 1"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract Purpose Although citation-based indicators are widely used, they are not useful for recently published research, directly reflect only one of the three common dimensions of research quality, and have little value in some social sciences, arts and humanities. Large Language Models (LLMs) may address some of these weaknesses. Design/methodology/approach This article reports a science-wide assessment of the research quality scoring capability of ChatGPT-4o mini, ChatGPT-4o, and ChatGPT-5 mini. It correlates ChatGPT scores, averaged over 5 repetitions, with departmental average quality scores for 107,212 UK-based journal articles. Findings ChatGPT-4o is marginally better than ChatGPT-4o mini in most of the 34 field-based Units of Assessment (UoAs) tested. ChatGPT-4o scores have a positive correlation with research quality in 33 of the 34 UoAs, with the results being statistically significant in 31. ChatGPT-4o scores had a higher correlation with research quality than long term citation rates in 21 out of 34 UoAs and a higher correlation than short term citation rates in 26 out of 34 UoAs. The most substantial exception is Physics, for which citations are more useful. ChatGPT-5 mini has even stronger correlations overall and for departmental averages, it correlates more strongly with quality scores than do citations in 31 out of 34 UoAs, with correlations reaching 0.905. Research limitations All articles assessed are from the UK. The practical value of LLM scores for decision making is not assessed. Only the Normalised Log-transformed Citation Score (NLCS) was tested against ChatGPT rather than other citation rate indicators. Practical implications ChatGPT can be considered as a research quality indicator to support expert judgement in almost all academic fields. Originality/value The results give science-wide evidence that ChatGPT-4o mini, ChatGPT-4o, and ChatGPT-5 mini are competitive with citations as new research quality indicator sources, and technically better in most fields.",
+    "summary": "",
+    "doi": "10.1515/jdis-2026-0058",
+    "citations": 1
+  },
+  {
+    "title": "Explainable artificial intelligence as AI literacy scaffolding",
+    "authors": [
+      "Brady D. Lund",
+      "Z. A. Teel",
+      "Brett Porter",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8858ab5d7131c0406d8ac1995a3e05dd4aec4d2c",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Journal of Documentation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This conceptual paper responds to the growing gap in artificial intelligence (AI) literacy among users of large language models (LLMs) and other AI systems in recent years. While explainable AI (XAI) has largely been framed as a mechanism for transparency and accountability, its potential to be used as a developmental learning support for end users remains underexplored. The purpose of this article is to conceptualize explainability as a form of literacy scaffolding that supports the gradual, in situ development of AI literacy skills through explanation-driven interaction.\n \n \n \n A conceptual framework is developed through an integrative analysis of literature from explainable AI, AI literacy, educational scaffolding theory and human–AI teaming research. Key concepts are defined, and theoretical parallels are drawn between scaffolding processes in education and explanation-driven interaction with AI systems.\n \n \n \n We argue that AI explanations can function as a scaffold that supports users in learning not only about specific outputs but also about model behavior, limitations, and potential bias. This framework is organized around three core scaffolding principles: the contingent support calibrated to the learner's Zone of Proximal Development, progressive fading of explanatory support as competence grows, and the reframing of explanations as entry points for inquiry rather than disclosure endpoints. These principles collectively support the development of calibrated trust among users rather than uncritical acceptance or unwarranted skepticism toward AI models.\n \n \n \n This article offers a theoretical framework for understanding explainability as AI literacy scaffolding and outlines implications for the design and evaluation of XAI systems. It further proposes methodological approaches for empirically identifying and measuring scaffolding behavior in user interactions with XAI. By positioning explainability as a mechanism for fostering durable AI literacy and calibrated trust, this work contributes to information science scholarship on human–AI interaction and responsible AI use.\n",
+    "summary": "",
+    "doi": "10.1108/jd-02-2026-0088",
+    "citations": 0
+  }
+]
