@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Wearable Prompt: In-Context Learning for Depression and Anxiety Prediction from Consumer Smart Ring Metrics",
+    "authors": [
+      "S. Azadifar",
+      "A. Sameh",
+      "M. Niemela",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f493fde9a37845c6fed459bebde243a99a41a9a4",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.07.31.26359400",
+    "citations": 0
+  },
+  {
+    "title": "Variantscape: Large Language Model-Driven Mining of Biomedical Literature for Clinical Interpretation of Cancer Variants",
+    "authors": [
+      "M. Wosny",
+      "A. Blindu",
+      "M. Boesch",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f3eb28ef1ab7777f344f132ba273d797fb4ae78d",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.02.26359492",
+    "citations": 0
+  },
+  {
+    "title": "Thiol-yne and amino-yne click polymerizations advance step-growth polymerization toward sustainable and photodegradable polymers",
+    "authors": [
+      "Lukmanul Hakim Samada",
+      "Amru Daulay"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f220b8b69250e3b9f7f086d85ca203e7ce998650",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00901-4",
+    "citations": 0
+  },
+  {
+    "title": "A foundation model for sleep-based risk stratification and clinical outcomes",
+    "authors": [
+      "E. Bilal",
+      "Matheus Araujo",
+      "Kristen L. Beck",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ddc8d9811afe27a7fad1b847a3c461d15d87c583",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Nature Communications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41467-026-75326-9",
+    "citations": 0
+  },
+  {
+    "title": "Researcher-Curated knowledge governance for trustworthy scientific AI in the geosciences: the rockGPT approach",
+    "authors": [
+      "Daniele Bailo",
+      "V. Lauciani",
+      "R. Di Stefano",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bef6edcdf27c0ebae2630c83837635d6bbcac9f9",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Earth Science Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) are increasingly adopted in scientific research, yet their use raises important challenges related to transparency, provenance, reproducibility, and scientific knowledge governance. In the geosciences, where conclusions often depend on integrating multidisciplinary evidence, ensuring that AI-generated responses can be traced to verifiable scientific literature is particularly important. This paper presents and evaluates a methodology for trustworthy scientific knowledge management that places researcher-curated knowledge governance at its core. The approach is based on four complementary principles: researcher-curated knowledge, retrieval-based grounding, traceability and provenance, and institutional governance. The methodology was implemented through RockGPT, a self-hosted geoscience-oriented AI system combining open-source LLMs with Retrieval-Augmented Generation (RAG) and a curated corpus of scientific publications on Italian seismotectonics and the Central Apennines. The system integrates Ollama, OpenWebUI, and six open-source LLM families (Qwen, LLaMA, DeepSeek, Mixtral, Gemma, and Phi). Evaluation combined a comparative quantitative assessment with a qualitative governance-oriented analysis. Across all evaluated models, access to the researcher-curated corpus consistently improved response quality, with the largest gains observed in tasks requiring synthesis across multiple documents. Beyond these quantitative improvements, the qualitative analysis showed that the proposed approach supports key requirements for scientific AI, including transparency, provenance, reproducibility, data sovereignty, and human oversight. The results indicate that reliable scientific AI depends not only on model capabilities but also on how scientific knowledge is selected, curated, governed, and connected to generated responses. The proposed methodology demonstrates how researcher-curated knowledge governance can provide a foundation for transparent, reproducible, and institutionally controlled AI systems for scientific knowledge management in the geosciences and beyond",
+    "summary": "",
+    "doi": "10.1007/s12145-026-02197-5",
+    "citations": 0
+  },
+  {
+    "title": "In Which Fields Do ChatGPT Scores Align More Closely with Research Quality than Do Citation Rates?",
+    "authors": [
+      "Mike Thelwall"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9553f30248b2b5c1209ca0bce84c66c90511df77",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Cited: 1"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract Purpose Although citation-based indicators are widely used, they are not useful for recently published research, directly reflect only one of the three common dimensions of research quality, and have little value in some social sciences, arts and humanities. Large Language Models (LLMs) may address some of these weaknesses. Design/methodology/approach This article reports a science-wide assessment of the research quality scoring capability of ChatGPT-4o mini, ChatGPT-4o, and ChatGPT-5 mini. It correlates ChatGPT scores, averaged over 5 repetitions, with departmental average quality scores for 107,212 UK-based journal articles. Findings ChatGPT-4o is marginally better than ChatGPT-4o mini in most of the 34 field-based Units of Assessment (UoAs) tested. ChatGPT-4o scores have a positive correlation with research quality in 33 of the 34 UoAs, with the results being statistically significant in 31. ChatGPT-4o scores had a higher correlation with research quality than long term citation rates in 21 out of 34 UoAs and a higher correlation than short term citation rates in 26 out of 34 UoAs. The most substantial exception is Physics, for which citations are more useful. ChatGPT-5 mini has even stronger correlations overall and for departmental averages, it correlates more strongly with quality scores than do citations in 31 out of 34 UoAs, with correlations reaching 0.905. Research limitations All articles assessed are from the UK. The practical value of LLM scores for decision making is not assessed. Only the Normalised Log-transformed Citation Score (NLCS) was tested against ChatGPT rather than other citation rate indicators. Practical implications ChatGPT can be considered as a research quality indicator to support expert judgement in almost all academic fields. Originality/value The results give science-wide evidence that ChatGPT-4o mini, ChatGPT-4o, and ChatGPT-5 mini are competitive with citations as new research quality indicator sources, and technically better in most fields.",
+    "summary": "",
+    "doi": "10.1515/jdis-2026-0058",
+    "citations": 1
+  },
+  {
+    "title": "Explainable artificial intelligence as AI literacy scaffolding",
+    "authors": [
+      "Brady D. Lund",
+      "Z. A. Teel",
+      "Brett Porter",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8858ab5d7131c0406d8ac1995a3e05dd4aec4d2c",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Journal of Documentation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This conceptual paper responds to the growing gap in artificial intelligence (AI) literacy among users of large language models (LLMs) and other AI systems in recent years. While explainable AI (XAI) has largely been framed as a mechanism for transparency and accountability, its potential to be used as a developmental learning support for end users remains underexplored. The purpose of this article is to conceptualize explainability as a form of literacy scaffolding that supports the gradual, in situ development of AI literacy skills through explanation-driven interaction.\n \n \n \n A conceptual framework is developed through an integrative analysis of literature from explainable AI, AI literacy, educational scaffolding theory and human–AI teaming research. Key concepts are defined, and theoretical parallels are drawn between scaffolding processes in education and explanation-driven interaction with AI systems.\n \n \n \n We argue that AI explanations can function as a scaffold that supports users in learning not only about specific outputs but also about model behavior, limitations, and potential bias. This framework is organized around three core scaffolding principles: the contingent support calibrated to the learner's Zone of Proximal Development, progressive fading of explanatory support as competence grows, and the reframing of explanations as entry points for inquiry rather than disclosure endpoints. These principles collectively support the development of calibrated trust among users rather than uncritical acceptance or unwarranted skepticism toward AI models.\n \n \n \n This article offers a theoretical framework for understanding explainability as AI literacy scaffolding and outlines implications for the design and evaluation of XAI systems. It further proposes methodological approaches for empirically identifying and measuring scaffolding behavior in user interactions with XAI. By positioning explainability as a mechanism for fostering durable AI literacy and calibrated trust, this work contributes to information science scholarship on human–AI interaction and responsible AI use.\n",
+    "summary": "",
+    "doi": "10.1108/jd-02-2026-0088",
+    "citations": 0
+  },
+  {
+    "title": "SA2Pat: enhancing binary security patch function localization via security advisory-guided LLMs",
+    "authors": [
+      "Zetan Li",
+      "Xiaoya Zhu",
+      "Zhuo Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/53d8aaac393ef459e3ec0de8b3854a72bbd2ddd9",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Empirical Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10664-026-10942-z",
+    "citations": 0
+  },
+  {
+    "title": "The Influence of Patient Persona and Affective Framing on Management Recommendations of ChatGPT, Gemini and Claude for Unruptured Intracranial Aneurysms: A Comparative Benchmarking Study",
+    "authors": [
+      "Anish Narayan",
+      "F. Mariajoseph",
+      "Malik Farooq",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4b8c51467f6fb83ce2649ac9c1dc0eb12bce6b3b",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Neurosurgical review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10143-026-04419-2",
+    "citations": 0
+  },
+  {
+    "title": "TGCN-HCA: temporal graph convolution networks with hierarchical co-attention mechanisms for fake news detection",
+    "authors": [
+      "Muhammad Abdullah",
+      "Zan Hongying",
+      "Arifa Javed",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2351e8ba45c18a9976d44a5978be05b8d196a996",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Knowledge and Information Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10115-026-02791-5",
+    "citations": 0
+  },
+  {
+    "title": "Do LLMs Keep Mental Accounts? Empirical Evidence from Hedonic Framing, Nonfungibility, and Sunk Cost Sensitivity",
+    "authors": [
+      "Zhen-Song Chen",
+      "Wei-Chen Jiao",
+      "Y. Tsang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0c6669b775a4bccfba4fd1855bf570f46c8a55d7",
+    "date": "2026-08-03",
+    "keywords": [
+      "今日上新",
+      "Group Decision and Negotiation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10726-026-10017-w",
+    "citations": 0
+  }
+]
