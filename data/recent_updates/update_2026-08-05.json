@@ -1,0 +1,222 @@
+[
+  {
+    "title": "WebGate: Browser-Native Edge Gateway for Local and Remote LLMs",
+    "authors": [
+      "Xindi Tong",
+      "Brian Alexander Rüegg",
+      "C. Tan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b07168cadeccee1318b3579066786616948111cd",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 10th Asia-Pacific Workshop on Networking"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) are increasingly deployed across the edge–cloud continuum, from browser-local runtimes to local edge servers and cloud services. However, these backends expose different interfaces and deployment assumptions. We present WebGate, a Chromium-based browser-native edge gateway that routes prompts to either in-browser WebLLM inference or configurable HTTP endpoints such as local Ollama servers and remote APIs. We describe its architecture, CORS-aware communication, and preliminary latency evaluation. Results show that API/Ollama execution is about 10 times faster than WebLLM on the tested laptop, while WebLLM offers client-side execution and lower setup effort.",
+    "summary": "",
+    "doi": "10.1145/3820441.3821225",
+    "citations": 0
+  },
+  {
+    "title": "Zephyr: A Zero-loss and Tranparent TLS Connection Migration Framework",
+    "authors": [
+      "Jiazhen Xu",
+      "Chengcheng Yu",
+      "Yueshang Zuo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d3cf55904a024e11507facea63eb7e9f2137ea8",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Proceedings of the 10th Asia-Pacific Workshop on Networking"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "While essential for stateful modern workloads like Large Language Model agents and IoT services, long-lived connections impede cloud infrastructure agility by complicating maintenance and load balancing. Existing connection migration solutions either lack support for industrial-grade encrypted traffic or fail to prevent packet loss during handover in active production environments. To address this gap, we propose Zephyr, a zero-loss and transparent TLS connection migration framework for cross-node migration between servers with different addresses. Zephyr ensures transport-layer consistency by orchestrating an eBPF-based packet buffering mechanism to safely intercept in-flight data. At the application layer, rather than deeply modifying standard TLS libraries, Zephyr creatively reuses the native session resumption mechanism via a “fake client” strategy to reconstruct complex cryptographic states without client involvement. Implemented in widely-used industrial stacks (Nginx and OpenSSL), Zephyr achieves connection migration with approximately 4.1 ms downtime and strict zero packet loss. This approach enables seamless infrastructure optimization without disrupting cloud services.",
+    "summary": "",
+    "doi": "10.1145/3820441.3820474",
+    "citations": 0
+  },
+  {
+    "title": "Fine-Grained Energy Accounting in Production LLM Serving",
+    "authors": [
+      "Xianyi Yuan",
+      "Hanlong Liao",
+      "Kunming Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/034bbb7b7fecd0c39a1b2c914edda0707afcee6b",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 10th Asia-Pacific Workshop on Networking"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Production large language model (LLM) serving uses continuous batching to maximize GPU utilization. While shared compute and memory resources improve throughput, they entangle the energy footprints of concurrent requests and make per-request energy physically unobservable. It is thus critical to develop a fair method for disaggregating device-level energy to individual requests. We tackle this challenge by developing a new approach to energy accounting in LLM serving. We introduce KV (Key-Value) volume, a physically grounded metric that captures the spatiotemporal footprint of a request’s KV cache occupancy, and show that energy per KV volume (EPV) provides a stable and reproducible signature for modeling serving energy. Building on EPV, we develop a state-aware energy model and a game-theoretic attribution method, and further build WattsOnLLM, a lightweight system for practical online energy accounting in existing LLM serving platforms with request-level granularity. We demonstrate that conventional heuristics deviate from the Shapley fairness target by 51.6% to 95%. In contrast, WattsOnLLM achieves a macroscopic energy estimation error as low as 1.9% and approximates the Shapley fairness target within 5.25% with very low overhead.",
+    "summary": "",
+    "doi": "10.1145/3820441.3820447",
+    "citations": 0
+  },
+  {
+    "title": "Structural characterization of representative odorant receptors in Rhynchophorus ferrugineus through high-throughput modelling and extended molecular dynamics simulations",
+    "authors": [
+      "Rajeswari Kalepu",
+      "Maizom Hassan",
+      "A. A. Abdul Hamid",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c24d933de3eb95b87c72e18d1517b34446026559",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00904-4",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence empowers full-stack histopathological diagnosis and prognosis of renal cell tumor: a multi-center study with external validation",
+    "authors": [
+      "Y. Xiong",
+      "W. Xi",
+      "Gelei Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b8ac77ae063c2159dd0aceb609ea9d4e6688e032",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Foundation Model",
+      "BMC Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid advancement of digital pathology has opened unprecedented opportunities for intelligent diagnosis in renal cell tumor. However, there remains a significant gap in the availability of reliable deep learning models capable of comprehensive kidney cancer detection, classification, grading, and survival prediction. This study retrospectively analyzed 11,135 whole-slide images (WSIs) from 7033 patients with renal tumor, sourced from four medical centers and two public cohorts. Histopathological representations were extracted using the foundation model Prov-GigaPath. A full-stack renal tumor diagnosis and prognosis framework was developed by combining fully supervised learning and weakly supervised multi-instance learning to enable both regional characterization and patient-level inference. The deep learning model demonstrated high accuracy in identifying normal tissue (AUC = 0.990), tumor tissue (AUC = 0.982), necrosis tissue (AUC = 0.994), sarcomatoid differentiation (AUC = 0.967), and pseudocapsule tissue (AUC = 0.990) across various pathological types of renal cell tumor. For nine major subtypes of renal cell tumor, classification AUC reached 0.956–0.998 across multi-center validation cohorts. WHO/ISUP nuclear grade prediction for clear cell renal cell carcinoma (ccRCC) and papillary renal cell carcinoma (pRCC) achieved an AUC of 0.867. A whole-slide-derived pan-renal cell tumor pathological risk score independently predicted overall survival and significantly outperformed WHO/ISUP grading in prognostic stratification (p < 0.001). We developed and validated a comprehensive AI framework integrating tissue-region detection, renal tumor subtype classification, nuclear grading, and survival prediction. These findings support its potential as a decision-support tool for renal tumor pathology, while prospective workflow-based studies are warranted to determine its clinical utility and impact on pathologist performance.",
+    "summary": "",
+    "doi": "10.1186/s12916-026-05110-5",
+    "citations": 0
+  },
+  {
+    "title": "Mapping the electronic and biological landscape of halogenated aryl quinoline derivatives via computational approaches",
+    "authors": [
+      "Melissa Almeida Sales",
+      "Caroline do Nascimento Gonçalves",
+      "Abraão Lucas Silva dos Santos",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/647a95a666680e5f49193cc528d03ac628d2fe13",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Discover Chemistry"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44371-026-00886-0",
+    "citations": 0
+  },
+  {
+    "title": "Efficient unsupervised domain adaptation via self-supervised vision transformer and synergistic cross-domain alignment",
+    "authors": [
+      "Ali Abedi",
+      "Q. M. Jonathan Wu",
+      "Ning Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5044fe5ed1691efb39d3749cafc7a8a49c1cd39f",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "International Journal of Machine Learning and Cybernetics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13042-026-03248-5",
+    "citations": 0
+  },
+  {
+    "title": "Market response, individual-level choice and diffusion models: from Frank Bass to artificial intelligence",
+    "authors": [
+      "Dominique M. Hanssens",
+      "Dipak C. Jain",
+      "G. Kalyanaram",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4a101ea54fa7990cdeb2b37cfc85e79c174d083e",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Diffusion Model",
+      "Marketing letters"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11002-026-09834-5",
+    "citations": 0
+  },
+  {
+    "title": "Benchmark evaluation of OpenAI-o1 vs DeepSeek-R1 for junior anesthesiologists in Chinese hospitals: hazards of fast large language models use in high-stakes specialties",
+    "authors": [
+      "Zhuoxi Wu",
+      "Yuting Tan",
+      "Qin Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/427b3cde35877394a7e73668bd98417a02b6f87b",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Anesthesiology and Perioperative Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Junior physicians may experience critical competency gaps during the transition to unsupervised practice, particularly in high-risk specialties such as anesthesiology, where errors can compromise patient safety. Although large language models (LLMs) are being rapidly integrated into healthcare, their accuracy and safety in supporting junior physicians—who may lack sufficient experience to identify model errors—remain insufficiently quantified in high-stakes clinical settings. This study evaluated OpenAI-o1 (OA) and DeepSeek-R1 in English (DSE) and Chinese (DSC) to address this evidence gap. In this dual-axis evaluation, 30 anesthesia crisis scenarios were developed through Delphi consensus. Responses generated by OA, DSE, and DSC were assessed by 20 experts for accuracy using a 5-point Likert scale and for clinical logicality using an 8-point Situation–Background–Assessment–Recommendation (SBAR) scoring system, with each component rated from 0 to 2 points. Practicality was assessed by 20 junior physicians using a 5-point Likert scale across three subdimensions: step clarity, guideline applicability, and learning assistance. Accuracy and practicality were the two primary evaluation domains, while clinical logicality, qualitative feedback, and readability were examined as complementary outcomes. Performance was compared across nine pre-specified, order-constrained hypotheses using Bayes Factor Design Analysis (n = 600 per group), with outcomes expressed as posterior probabilities (PPs) and Bayes Factors (BFs). OA demonstrated superior accuracy (OA > DSE > DSC; PP = 0.94; BF₄ᵤ = 4.70, strong evidence), whereas DSC showed greater practicality (OA < DSE < DSC; PP = 0.82; BF₇ᵤ = 3.67). This inverse relationship was also observed in the practicality subdimensions, with DSC performing better in step clarity (PP = 0.75) and guideline applicability (PP = 0.82). For high-complexity tasks, such as urgent decision-making, all models failed to establish an effective SBAR Situation-to-Assessment linkage despite showing equivalent overall clinical logicality (PP = 0.59; BF₁ᵤ = 161.05, decisive evidence). Notably, 95.2% of junior physicians reported that DSC alleviated decision-making anxiety, compared with 28.6% for OA, suggesting a preference for actionable guidance despite accuracy limitations. LLMs exhibit divergent capabilities: OA provides greater accuracy but lacks operational specificity, whereas DeepSeek-R1, particularly the Chinese version, offers more practical scaffolding at the expense of accuracy. This trade-off highlights the urgent need to develop and validate robust, specialty-specific evaluation frameworks and safeguards before such models can be safely deployed to support clinical decision-making in high-stakes environments.",
+    "summary": "",
+    "doi": "10.1007/s44254-026-00176-z",
+    "citations": 0
+  },
+  {
+    "title": "From text to insight: a systematic literature review of keyword and keyphrase extraction techniques for healthcare text mining",
+    "authors": [
+      "Mouhamed Gaith Ayadi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/31ce68d9176a0e5a70c0a6647ced43d8d1db67cf",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00843-y",
+    "citations": 0
+  },
+  {
+    "title": "NeuroAid An Open-Data Multimodal Screening Framework for Parkinson's and Depression Risk Estimation",
+    "authors": [
+      "J. R. L",
+      "R. U",
+      "P. Patel"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1d5b48d340c4595f1cdf4435fb88f2afd754c542",
+    "date": "2026-08-04",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.03.26359539",
+    "citations": 0
+  }
+]
