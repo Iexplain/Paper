@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Assessing acuity in pediatric emergency department triage: performance of a large language model",
+    "authors": [
+      "Kush Narang",
+      "N. Addo",
+      "Christopher Y. K. Williams",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fc1ab09bf3612161617b9add029b28de5e7de149",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "npj Health Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Pediatric triage performance varies across emergency departments (ED), contributing to ongoing challenges in pediatric emergency care. There is growing interest in using large language models (LLMs) to support more consistent triage decision-making in children. We evaluated an LLM’s (GPT-5-mini) ability to identify the higher-acuity child from pairs of de-identified clinical notes. Across 228,104 pediatric ED visits, the LLM achieved an overall accuracy of 0.73 (95% CI, 0.73–0.74) in identifying the higher-acuity child, with accuracy improving as acuity differences between visits increased. The LLM was less likely to be correct when the higher-acuity child was older (odds ratio, 0.62, 95% CI, 0.61–0.63) and when the age difference between children was large (0.75, 95% CI, 0.70–0.79). The LLM showed moderate overall accuracy in assessing pediatric acuity and demonstrated a tendency to prioritize younger children, similar to human performance. These findings highlight the need for pediatric-specific LLM evaluation and optimization before clinical use.",
+    "summary": "",
+    "doi": "10.1038/s44401-026-00128-6",
+    "citations": 0
+  },
+  {
+    "title": "Improving sepsis best practice utility and clinical acceptance using an LLM-enhanced prediction system",
+    "authors": [
+      "Claire E Allison",
+      "Xiaolei Lu",
+      "A. Boussina",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d97b62c423f8c6929f2c142b6b83c54046cc819b",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "npj Health Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Early detection of sepsis is essential for reducing mortality, but diagnosis can be delayed because symptoms of sepsis are often non-specific, frequently mimic other conditions and differ between individuals. We implemented COMPOSER-LLM, an enhanced sepsis prediction system that integrates a large language model (LLM) that analyzes clinical notes to provide contextual support for sepsis risk assessment in two emergency departments within a large academic health system. Using Bayesian causal impact analysis, we evaluated how LLM augmentation influenced nurses’ clinical perception of best practice advisory (BPA) relevance, using the rate of BPAs acknowledged as “No Infection Suspected” as a proxy for BPA clinical acceptance. Additionally, a 9 question survey instrument was sent to nurses immediately after the COMPOSER-LLM BPA was fired, in order to assess the perceived utility and impact of the BPA on nursing care. Post-deployment, the rate of “No Infection Suspected” acknowledgements was significantly lower than would be expected based on pre-deployment trends. Survey respondents reported that the COMPOSER-LLM BPA was useful, helped identify at-risk patients who might otherwise be missed, and was generally trusted by nursing staff. Nurses with 0–5 years of experience were significantly more likely than more experienced nurses to believe patients had infection after an BPA and to feel the BPA increased their expectation that a patient would develop sepsis, while no other significant experience-based differences were observed.",
+    "summary": "",
+    "doi": "10.1038/s44401-026-00127-7",
+    "citations": 0
+  },
+  {
+    "title": "Diagnostic Accuracy of a locally deployed Large Language Model Algorithm for Automated Code Stroke Pathway Identification in Emergency Department Triage Notes",
+    "authors": [
+      "M. J. Valente",
+      "A. Sharobeam",
+      "J. Vuong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d93f2cf00eb5c586552d3fc63dc87bcd17c3e0cc",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.03.26359639",
+    "citations": 0
+  },
+  {
+    "title": "Evaluating LLMs in ROS robotic software code generation",
+    "authors": [
+      "Yuxin Zhao",
+      "Xinjun Mao",
+      "Tanghaoran Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b8f2bf082d9a4ac8b5048fa1ac29ae3c49cbb8f5",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Empirical Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10664-026-10910-7",
+    "citations": 0
+  },
+  {
+    "title": "WebGate: Browser-Native Edge Gateway for Local and Remote LLMs",
+    "authors": [
+      "Xindi Tong",
+      "Brian Alexander Rüegg",
+      "C. Tan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b07168cadeccee1318b3579066786616948111cd",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 10th Asia-Pacific Workshop on Networking"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) are increasingly deployed across the edge–cloud continuum, from browser-local runtimes to local edge servers and cloud services. However, these backends expose different interfaces and deployment assumptions. We present WebGate, a Chromium-based browser-native edge gateway that routes prompts to either in-browser WebLLM inference or configurable HTTP endpoints such as local Ollama servers and remote APIs. We describe its architecture, CORS-aware communication, and preliminary latency evaluation. Results show that API/Ollama execution is about 10 times faster than WebLLM on the tested laptop, while WebLLM offers client-side execution and lower setup effort.",
+    "summary": "",
+    "doi": "10.1145/3820441.3821225",
+    "citations": 0
+  },
+  {
+    "title": "OntoCodex: a multi-agent biomedical ontology enrichment framework",
+    "authors": [
+      "Jingna Feng",
+      "Yue Yu",
+      "Aaron Dong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/42e198f0bdfee9962e399f8afe5208381742dfc9",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "npj Health Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Ontology enrichment is a critical but labor-intensive step in semantic knowledge representation. To address this challenge, we propose OntoCodex, a multi-agent framework that integrates large language models (LLMs), ontologies, curated knowledge sources, and standard vocabularies to support semi-automated ontology enrichment with formal OWL-based integration and a feedback loop. OntoCodex consists of five coordinated agents for ontology parsing, task decision-making, knowledge retrieval, terminology normalization, and automated script generation. We evaluated OntoCodex using a ChatGPT-4o–powered implementation to enrich concepts across five chronic diseases, including stroke, chronic obstructive pulmonary disease, atrial fibrillation, osteoporosis, and Parkinson’s disease. Compared with baseline ChatGPT-4o, OntoCodex improved concept extraction across most domains, achieving higher precision, recall, and F1 scores, including perfect performance in laboratory test extraction, and demonstrated greater accuracy in standardized terminology mapping, particularly for medications, while showing lower performance in laboratory test mapping. Automatically generated Python scripts successfully enriched the MCC-CDO with new concepts and annotations without errors. These results demonstrate that OntoCodex substantially improves ontology enrichment and has strong potential to accelerate clinical and translational research.",
+    "summary": "",
+    "doi": "10.1038/s44401-026-00117-9",
+    "citations": 0
+  },
+  {
+    "title": "Towards Accessible Radiological Image Analysis via Local Agentic Framework: Validation in Mammography",
+    "authors": [
+      "L. Cen",
+      "J. Porembka",
+      "J. C. Hayes",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3536cb87360cf3c50240ca44b153a50e9fe5ad68",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.03.26359608",
+    "citations": 0
+  },
+  {
+    "title": "Zephyr: A Zero-loss and Tranparent TLS Connection Migration Framework",
+    "authors": [
+      "Jiazhen Xu",
+      "Chengcheng Yu",
+      "Yueshang Zuo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d3cf55904a024e11507facea63eb7e9f2137ea8",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Proceedings of the 10th Asia-Pacific Workshop on Networking"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "While essential for stateful modern workloads like Large Language Model agents and IoT services, long-lived connections impede cloud infrastructure agility by complicating maintenance and load balancing. Existing connection migration solutions either lack support for industrial-grade encrypted traffic or fail to prevent packet loss during handover in active production environments. To address this gap, we propose Zephyr, a zero-loss and transparent TLS connection migration framework for cross-node migration between servers with different addresses. Zephyr ensures transport-layer consistency by orchestrating an eBPF-based packet buffering mechanism to safely intercept in-flight data. At the application layer, rather than deeply modifying standard TLS libraries, Zephyr creatively reuses the native session resumption mechanism via a “fake client” strategy to reconstruct complex cryptographic states without client involvement. Implemented in widely-used industrial stacks (Nginx and OpenSSL), Zephyr achieves connection migration with approximately 4.1 ms downtime and strict zero packet loss. This approach enables seamless infrastructure optimization without disrupting cloud services.",
+    "summary": "",
+    "doi": "10.1145/3820441.3820474",
+    "citations": 0
+  },
+  {
+    "title": "Language-driven models for video anomaly detection: taxonomy, datasets, and future horizons",
+    "authors": [
+      "Olfa Saket",
+      "A. B. Aicha",
+      "H. Fathallah"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2bcc4a6bace71eba75016e4318b9f9b5e57fdb65",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "International Journal of Multimedia Information Retrieval"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13735-026-00415-w",
+    "citations": 0
+  },
+  {
+    "title": "A review of machine learning, deep learning and large language model based harmonized system code classification techniques for import and export commodities",
+    "authors": [
+      "Hana Demma Wube",
+      "Sintayehu Zekarias Esubalew",
+      "Kena Wendimu Gebisa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1de8d2472e68fa1e36e8d834e5b439b4774c5c96",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10428-y",
+    "citations": 0
+  },
+  {
+    "title": "Correction: Evaluating the safety of large language models in healthcare and dentistry: adversarial testing approaches",
+    "authors": [
+      "F. Umer",
+      "Muhammad Muthar Shaikh",
+      "Absar Ur Rahman"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0b36e09f9a71c07ea96eab760b558c6a975c2509",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "BDJ Open"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41405-026-00473-6",
+    "citations": 0
+  },
+  {
+    "title": "Fine-Grained Energy Accounting in Production LLM Serving",
+    "authors": [
+      "Xianyi Yuan",
+      "Hanlong Liao",
+      "Kunming Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/034bbb7b7fecd0c39a1b2c914edda0707afcee6b",
+    "date": "2026-08-05",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 10th Asia-Pacific Workshop on Networking"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Production large language model (LLM) serving uses continuous batching to maximize GPU utilization. While shared compute and memory resources improve throughput, they entangle the energy footprints of concurrent requests and make per-request energy physically unobservable. It is thus critical to develop a fair method for disaggregating device-level energy to individual requests. We tackle this challenge by developing a new approach to energy accounting in LLM serving. We introduce KV (Key-Value) volume, a physically grounded metric that captures the spatiotemporal footprint of a request’s KV cache occupancy, and show that energy per KV volume (EPV) provides a stable and reproducible signature for modeling serving energy. Building on EPV, we develop a state-aware energy model and a game-theoretic attribution method, and further build WattsOnLLM, a lightweight system for practical online energy accounting in existing LLM serving platforms with request-level granularity. We demonstrate that conventional heuristics deviate from the Shapley fairness target by 51.6% to 95%. In contrast, WattsOnLLM achieves a macroscopic energy estimation error as low as 1.9% and approximates the Shapley fairness target within 5.25% with very low overhead.",
+    "summary": "",
+    "doi": "10.1145/3820441.3820447",
+    "citations": 0
+  }
+]
