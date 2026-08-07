@@ -1,0 +1,310 @@
+[
+  {
+    "title": "Artificial Minds, Cultural Shadows: Cultural Alignment, Identity, and Voice Across Multiple Large Language Models",
+    "authors": [
+      "Ashkan Goudarzi",
+      "Aylar Naderi Zonouz"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6653f0a21f932f4901adcf63ec13b7f10ecbf61",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1515/dsll-2026-0052",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence companionship for loneliness in older adults: An interview with Vijeth Iyengar and Elizabeth Broadbent",
+    "authors": [
+      "Priyam Joshi",
+      "Anna Rader Groves",
+      "Shreya Venkatesh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c48ba8cad57d45feb98217bbad6988627ce908da",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "MIT Science Policy Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\"MIT Science Policy Review spoke with Dr. Elizabeth Broadbent and Dr. Vijeth Iyengar, two leading experts in human-robot interaction and global aging, about loneliness in later life and the role that artificial intelligence companions have been proposed to play in addressing it. Loneliness carries consequences for both mental and physical health. As older adult populations grow rapidly while younger ones shrink, social isolation has become an increasingly common feature of global aging. Artificial intelligence (AI) companions, from pet-like therapeutic robots to large language model chatbots, have emerged as one proposed response. Such technologies have raised new questions about the ethics of elder care and the role of AI in human connection.\n\nDr. Broadbent is a Professor of Health Psychology at the University of Auckland, with a background in electrical engineering, whose research focuses on human-robot interaction, AI companions, and how robots can support human health. Dr. Iyengar is a cognitive neuroscientist and the Senior Director of Global Aging at AARP, with prior policy experience across three U.S. administrations on aging and brain health.\"",
+    "summary": "",
+    "doi": "10.38105/spr.8wpfadwog7",
+    "citations": 0
+  },
+  {
+    "title": "From data literacy to AI-integrated Laboratory 4.0",
+    "authors": [
+      "Jakob Adler",
+      "J. Böhm"
+    ],
+    "link": "https://www.semanticscholar.org/paper/83d0e5c1ba5ecde20a41bcf34e3002b372f5566c",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1515/labmed-2026-0098",
+    "citations": 0
+  },
+  {
+    "title": "Regulating towards independence: EU AI policy and ethics",
+    "authors": [
+      "Zuzana Navratil"
+    ],
+    "link": "https://www.semanticscholar.org/paper/74fd661edf9d98b6f03dee1ab4b1d916f19da12b",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "MIT Science Policy Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "MIT Science Policy Review spoke with Gianluca Sgueo about the evolving landscape of digital public policy and AI regulation in Europe. Sgueo is a Senior Associate Researcher at the Center for Digitalization, Democracy and Innovation of the Brussels School of Governance. He authored The Design of Digital Democracy, in which he examines how design principles of mass technology, such as simplicity, speed, and singularity, reshape democratic spaces in ways that often undermine meaningful civic engagement. Sgueo was a policy advisor at the Digital Transformation Team of the Italian Government and Head of Communication and Stakeholder Engagement of the Office of the Italian Prime Minister. He studies e-government, the gamification of public services, and the tension between digital innovation and democratic inclusion. \n\nIn our conversation, Sgueo reflects on the EU AI Act's risk-based regulatory approach, the structural barriers to European digital sovereignty, and the influence of major US technology companies on EU governance frameworks. He highlights the gap between AI ethics principles and their translation into binding legislation, drawing on the trajectory of the General Data Protection Regulation (GDPR) (hyperlink{leg_1}{4}) as a precedent for durable regulatory impact. Sgueo also addresses the democratic risks of agentic AI, the under representation of cultures and languages other than English in large language models, and the urgent need for technological literacy as a foundation for inclusive digital democracy. He concludes with a cautionary note on emerging ideological currents that seek to decouple technological development from democratic accountability.",
+    "summary": "",
+    "doi": "10.38105/spr.t3u5r4m55m",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence-supported segmentation of cardiac anatomy in open-heart surgery videos",
+    "authors": [
+      "Maj Stenmark",
+      "Julia Önerud",
+      "Shahriar Anvariazar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fcf02210dc9a3d4c35482bb229beebd6ae004ab0",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Journal of Robotic Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate identification of anatomical structures is essential for safe congenital cardiac surgery and for the development of assistive robotic systems. However, scalable annotation of open-heart surgical video remains a major challenge due to dynamic tissue motion, occlusion, and anatomical variability. The aim of this study was to develop and evaluate a human-in-the-loop segmentation and tracking pipeline for congenital open-heart surgery videos. A dataset of 72 annotated video clips comprising 27,461 frames was created from routine recordings of congenital cardiac surgery. Independent tracking evaluation was performed on 6 video clips (2,400 frames) from three surgical cases that were not used for training or validation. A hybrid framework combining fine-tuned Segment Anything Model 2 (SAM 2) for propagation-based tracking and YOLOv11 for detection-based monitoring was implemented and evaluated. Fine-tuning improved temporal tracking performance compared with the pretrained model, increasing the mean IoU from 82.1% to 92.2% and the proportion of frames with IoU ≥ 90% from 48.2% to 72.3% on the independent evaluation dataset. A graphical user interface enabled efficient dataset creation, reducing annotation time by approximately 40-fold compared with manual tracing. This study demonstrates that domain-adapted foundation-model tracking can provide robust anatomical tracking in a dynamic open surgical environment and offers a scalable framework for future assistive and robotic cardiac applications.",
+    "summary": "",
+    "doi": "10.1007/s11701-026-03775-x",
+    "citations": 0
+  },
+  {
+    "title": "Enhancing EFL learners’ speaking performance through ChatGPT-assisted practice: evidence from complexity, accuracy, and fluency measures",
+    "authors": [
+      "Niloofar Karami",
+      "Bahareh Feizarbabi",
+      "Ismail Xodabande"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c3cd65ecb796575acc2c5ebe4f1e3207747f4960",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "Asian-Pacific Journal of Second and Foreign Language Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study examined whether ChatGPT-assisted speaking practice could strengthen English as a Foreign Language speaking development in an IELTS preparation context. Sixty-five intermediate Iranian learners participated in a ten-week quasi-experimental intervention, with one group receiving structured ChatGPT-supported speaking practice and a comparison group receiving teacher-led instruction. Learner performance was assessed through IELTS-aligned speaking tasks and analyzed using complexity, accuracy, and fluency indicators. The findings showed a clear pedagogical advantage of ChatGPT-assisted practice for syntactic complexity and fluency, while accuracy improved over time in both groups without a distinct between-group advantage. These results suggested that large language model-based interaction could create conditions that encouraged longer turns, richer language production, and faster speech delivery, particularly when learners received sustained opportunities for low-pressure, adaptive oral practice beyond limited classroom speaking time. At the same time, the pattern for accuracy indicated that generative AI should be integrated as a complement to, rather than a replacement for, teacher guidance, especially for form-focused feedback. The study contributed evidence from an underrepresented EFL context and supported a blended instructional model in which ChatGPT expanded speaking opportunities, promoted learner autonomy, and enhanced key dimensions of oral performance within communicative language teaching.",
+    "summary": "",
+    "doi": "10.1186/s40862-026-00452-2",
+    "citations": 0
+  },
+  {
+    "title": "Quantifying the Quality of Corrective Actions in Medical Safety Incident Reports Using a Hybrid Rule-Based and Large-Language-Model Classification System: A Cross-Sectional Pilot Feasibility Analysis of 11,507 Japanese National Reports (2010, Interim)",
+    "authors": [
+      "H. Sugawara"
+    ],
+    "link": "https://www.semanticscholar.org/paper/91f499901cc5d6691fc21ad27213368c2d317618",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.04.26359750",
+    "citations": 0
+  },
+  {
+    "title": "Towards understanding the disease landscape of clinical trials in Germany: Ontology and embedding-based pipelines versus Large Language Models for ICD-10 Harmonization",
+    "authors": [
+      "R. Ndabashinze",
+      "D. Franzen",
+      "E. Kozuch",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8a8c86326cbc143fc010aa073121492a0e7297ef",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.04.26359616",
+    "citations": 0
+  },
+  {
+    "title": "Characterizing large language model generative artificial intelligence variability in the production of objective structured clinical examination stations",
+    "authors": [
+      "K. Joseph-Delaffon",
+      "M. Desgrouas",
+      "S. Catanese",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/89c0eae243b7aae4a8d6970acba571bb74135e2f",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.04.26359691",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal artificial intelligence using entire electronic health record and complete pathogen genome data for patient outcome prediction from life-threatening infection: the SuperbugAI Platform",
+    "authors": [
+      "S. Tyagi",
+      "Y. Ramakrishnaiah",
+      "J. Hawkey",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/870a97ee435603dcb173faeba0d954bfe9ef566a",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.04.26359536",
+    "citations": 0
+  },
+  {
+    "title": "An Intelligent Neural Network Based Framework for Enhancing Gearbox Fault Detection and Optimal Fault Recognition in Wireless Sensor Network Environments",
+    "authors": [
+      "T. A. S. Srinivas",
+      "Swapna Siddamsetti",
+      "T. Babu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/820978b558f5a9dc637863bd52472d45abbd60cf",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "Journal of Vibration Engineering & Technologies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42417-026-02665-8",
+    "citations": 0
+  },
+  {
+    "title": "Continuous Value Tokenization Improves Medical Event Foundation Models",
+    "authors": [
+      "K. A. McCann",
+      "I. Shin",
+      "H. Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/77a68dd42cf547e2097914f9c87f96f5fda000b8",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.04.26359713",
+    "citations": 0
+  },
+  {
+    "title": "A hybrid validation framework for LLM-enhanced open data service: the mindat API as a use case",
+    "authors": [
+      "Jiyin Zhang",
+      "Weilin Chen",
+      "Chenhao Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/65dc8ebece124c1c6aac3d2f389bb2a4372aca58",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "Earth Science Informatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12145-026-02208-5",
+    "citations": 0
+  },
+  {
+    "title": "Multimodal Large Language Models vs. Medical Doctors in Degenerative Lumbar Spine Surgery: A Retrospective Decision Concordance Study of 147 Patients",
+    "authors": [
+      "M. Hamdan",
+      "A. Harati",
+      "A. Al-Bakheet",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/50c8f653e7d6095dcf8fe1efde6c6db6f0e73023",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.04.26359718",
+    "citations": 0
+  },
+  {
+    "title": "Label space reduction for transductive zero-shot classification with large language models",
+    "authors": [
+      "Nathan Vandemoortele",
+      "Bram Steenwinckel",
+      "F. Ongenae",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/40dea5cc2d26efa77220b760307a9efaadc62ff2",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10420-6",
+    "citations": 0
+  },
+  {
+    "title": "Benchmarking large language models for multilingual health information delivery: a mixed-methods data analytics framework applied to vaccine communication in a middle-income setting",
+    "authors": [
+      "Jazlan Jamaluddin",
+      "Karleen Chong",
+      "Jin Ian Choong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/327e54c1840364f834d03c667aab17079bd26849",
+    "date": "2026-08-06",
+    "keywords": [
+      "今日上新",
+      "International Journal of Data Science and Analysis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s41060-026-01238-y",
+    "citations": 0
+  }
+]
