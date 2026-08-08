@@ -1,0 +1,279 @@
+[
+  {
+    "title": "Comparative Performance Analysis of Generative AI Applications in PLC: An Industrial Electrical Engineering Subject",
+    "authors": [
+      "Amnaj Prajong",
+      "Therdpong Daengsi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9d5fabc849a8ea2aa886507b6d4ca7453c077a2",
+    "date": "2026-08-08",
+    "keywords": [
+      "今日上新",
+      "International Journal of Modern Education and Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study evaluates the performance of six generative artificial intelligence (AI) systems in solving Thai-language multiple-choice examinations in the subject of Programmable Logic Controllers (PLC), a core component of Industrial Electrical Engineering education. Six large language models (LLMs), including ChatGPT, Claude, DeepSeek, Gemini, Copilot, and Grok, were tested using fifteen sets of PLC examination questions. Statistical analysis was conducted using one-way ANOVA and two-sample t-Tests with Bonferroni correction to examine performance differences. In addition, effect size measures, including Eta-squared (η²) and Cohen‟s d, were calculated to assess the magnitude of the observed differences. The results show that ChatGPT achieved the highest mean score (77.27%), while DeepSeek followed closely (76.73%) and demonstrated the lowest standard deviation (±1.83%), indicating the most consistent performance across test sets. Claude also performed strongly (74.80%), whereas Gemini, Copilot, and Grok achieved similar mid-tier scores ranging from 72.40% to 72.73%. Although all LLMs achieved scores within the passing grade range, ANOVA confirmed statistically significant differences among systems (p-value is 0.0002). However, after applying the Bonferroni correction, only a subset of pairwise differences remained statistically significant, particularly between DeepSeek and several mid-tier LLMs, while the differences among ChatGPT, Claude, and DeepSeek were not statistically significant under the adjusted threshold. Effect size analysis further indicates that some of these differences represent meaningful practical variation in LLM performance. These findings indicate that contemporary LLMs demonstrate baseline comprehension of PLC concepts and can achieve passing-level performance in technical examinations conducted in a non-English language. The study contributes empirical evidence on AI performance in Thai-language technical assessments and highlights the potential role of generative AI as a complementary learning support tool in vocational and engineering education.",
+    "summary": "",
+    "doi": "10.5815/ijmecs.2026.04.02",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Minds, Cultural Shadows: Cultural Alignment, Identity, and Voice Across Multiple Large Language Models",
+    "authors": [
+      "Ashkan Goudarzi",
+      "Aylar Naderi Zonouz"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f6653f0a21f932f4901adcf63ec13b7f10ecbf61",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1515/dsll-2026-0052",
+    "citations": 0
+  },
+  {
+    "title": "Microbial lipases: advances in metagenomics and artificial intelligence for enzyme discovery and engineering",
+    "authors": [
+      "Km. Priti",
+      "Harish Chandra",
+      "Kalpana Sagar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e2122c2bcfcae0cae5c3d2fc9606efa2d4a68419",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Archives of Microbiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00203-026-05074-3",
+    "citations": 0
+  },
+  {
+    "title": "Ligand-based pharmacophore modeling for the discovery of NaV1.7 inhibitors",
+    "authors": [
+      "Martina Piga",
+      "Péter Lukács",
+      "K. Pesti",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c8b7f54009502aaf15678fea6a4d8e81217bc2e3",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00898-z",
+    "citations": 0
+  },
+  {
+    "title": "Artificial intelligence companionship for loneliness in older adults: An interview with Vijeth Iyengar and Elizabeth Broadbent",
+    "authors": [
+      "Priyam Joshi",
+      "Anna Rader Groves",
+      "Shreya Venkatesh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c48ba8cad57d45feb98217bbad6988627ce908da",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "MIT Science Policy Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\"MIT Science Policy Review spoke with Dr. Elizabeth Broadbent and Dr. Vijeth Iyengar, two leading experts in human-robot interaction and global aging, about loneliness in later life and the role that artificial intelligence companions have been proposed to play in addressing it. Loneliness carries consequences for both mental and physical health. As older adult populations grow rapidly while younger ones shrink, social isolation has become an increasingly common feature of global aging. Artificial intelligence (AI) companions, from pet-like therapeutic robots to large language model chatbots, have emerged as one proposed response. Such technologies have raised new questions about the ethics of elder care and the role of AI in human connection.\n\nDr. Broadbent is a Professor of Health Psychology at the University of Auckland, with a background in electrical engineering, whose research focuses on human-robot interaction, AI companions, and how robots can support human health. Dr. Iyengar is a cognitive neuroscientist and the Senior Director of Global Aging at AARP, with prior policy experience across three U.S. administrations on aging and brain health.\"",
+    "summary": "",
+    "doi": "10.38105/spr.8wpfadwog7",
+    "citations": 0
+  },
+  {
+    "title": "The Illusion of Understanding: A Randomized Controlled Trial of LLM-Generated Lay Summaries of Brain MRI Reports",
+    "authors": [
+      "B. Le Guellec",
+      "R. Bentegeac",
+      "V.-T. Tran",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/98b745e9224dbb82b3e5118f8619a7472dbb9e87",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.05.26359773",
+    "citations": 0
+  },
+  {
+    "title": "From data literacy to AI-integrated Laboratory 4.0",
+    "authors": [
+      "Jakob Adler",
+      "J. Böhm"
+    ],
+    "link": "https://www.semanticscholar.org/paper/83d0e5c1ba5ecde20a41bcf34e3002b372f5566c",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1515/labmed-2026-0098",
+    "citations": 0
+  },
+  {
+    "title": "Minimal AIF-inspired response control for evidence-aware and dependable LLM behavior",
+    "authors": [
+      "Chuhan Feng",
+      "Yongan Guo",
+      "Guodong Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/829f2b50b73353cbf9af309842473ca8b355aee2",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00607-026-01723-z",
+    "citations": 0
+  },
+  {
+    "title": "“Artificial Intelligence, Entrepreneurial Discovery, and Embodied Tacit Knowledge”",
+    "authors": [
+      "İsmail Kurun"
+    ],
+    "link": "https://www.semanticscholar.org/paper/7700e68bc14e4c8f529d971c46fc02a1c25c628c",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Philosophy & Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13347-026-01159-5",
+    "citations": 0
+  },
+  {
+    "title": "Regulating towards independence: EU AI policy and ethics",
+    "authors": [
+      "Zuzana Navratil"
+    ],
+    "link": "https://www.semanticscholar.org/paper/74fd661edf9d98b6f03dee1ab4b1d916f19da12b",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "MIT Science Policy Review"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "MIT Science Policy Review spoke with Gianluca Sgueo about the evolving landscape of digital public policy and AI regulation in Europe. Sgueo is a Senior Associate Researcher at the Center for Digitalization, Democracy and Innovation of the Brussels School of Governance. He authored The Design of Digital Democracy, in which he examines how design principles of mass technology, such as simplicity, speed, and singularity, reshape democratic spaces in ways that often undermine meaningful civic engagement. Sgueo was a policy advisor at the Digital Transformation Team of the Italian Government and Head of Communication and Stakeholder Engagement of the Office of the Italian Prime Minister. He studies e-government, the gamification of public services, and the tension between digital innovation and democratic inclusion. \n\nIn our conversation, Sgueo reflects on the EU AI Act's risk-based regulatory approach, the structural barriers to European digital sovereignty, and the influence of major US technology companies on EU governance frameworks. He highlights the gap between AI ethics principles and their translation into binding legislation, drawing on the trajectory of the General Data Protection Regulation (GDPR) (hyperlink{leg_1}{4}) as a precedent for durable regulatory impact. Sgueo also addresses the democratic risks of agentic AI, the under representation of cultures and languages other than English in large language models, and the urgent need for technological literacy as a foundation for inclusive digital democracy. He concludes with a cautionary note on emerging ideological currents that seek to decouple technological development from democratic accountability.",
+    "summary": "",
+    "doi": "10.38105/spr.t3u5r4m55m",
+    "citations": 0
+  },
+  {
+    "title": "Prehospital Injury Severity Estimate (PHISE) matches in-hospital trauma scores when embedded in AI models",
+    "authors": [
+      "Manuel Sigle",
+      "Andreas Goldschmied",
+      "M. Gawaz",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5fce233e1337fd1b2260b2fe945b55e83ba2f9d4",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "npj Digital Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41746-026-03074-7",
+    "citations": 0
+  },
+  {
+    "title": "Hallucinations in generative artificial intelligence and large language models: tests, datasets, detection and correction methods",
+    "authors": [
+      "M. Naser"
+    ],
+    "link": "https://www.semanticscholar.org/paper/21b0f50eee7930465f69c9b7f9ee7b2ef8d33386",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Language Resources and Evaluation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10579-026-09938-4",
+    "citations": 0
+  },
+  {
+    "title": "Vector Theory: Epistemology, Political Economy, and Probabilistic Computation",
+    "authors": [
+      "David M. Berry"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1c0bdbed9d1a4aa6cee48c3fbf31900d94c86486",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Philosophy & Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13347-026-01162-w",
+    "citations": 0
+  },
+  {
+    "title": "LLMs’ reshaping of people, processes, products, and society in software development: a qualitative exploration with early adopters",
+    "authors": [
+      "Benyamin T. Tabarsi",
+      "Heidi Reichert",
+      "Sam Gilson",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/12a59492e1d52a31c6d96dafacc30c3b2fd94d3a",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Empirical Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10664-026-10917-0",
+    "citations": 0
+  },
+  {
+    "title": "Tabular records to clinical graphs: a topology-aware GNN framework for diagnosis",
+    "authors": [
+      "Soma Mitra",
+      "Soumadip Dey",
+      "Mauparna Nandan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0dd13995a52deb2f4aaa1659de4e945687a8044c",
+    "date": "2026-08-07",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00857-6",
+    "citations": 0
+  }
+]
