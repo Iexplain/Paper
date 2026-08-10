@@ -1,0 +1,1160 @@
+[
+  {
+    "title": "Modal interrogatives as discourse-level constructions: collostructional analysis and LLM surprisal",
+    "authors": [
+      "Mija Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/14b6fbc0b1197228258b2bf03a52e118be191db0",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract This study investigates the constructional organization of modal interrogatives by examining how modal meaning shapes response behavior. Previous research on question-response systems has largely focused on canonical polar questions, treating response particles such as yes and no as markers of propositional polarity. However, modal interrogatives introduce additional interpretive dimensions in which responses may perform discourse actions such as authorization, refusal, or epistemic endorsement. To examine whether modal interrogatives exhibit construction-specific response patterns, this study analyzes may and might interrogatives using corpus-based collostructional analysis and large language model surprisal measures. Collostructional analysis identifies distributional associations between interrogative constructions and lexical items, while LLM-based surprisal provides a probabilistic diagnostic of semantic compatibility in constructional contexts. The results reveal systematic constructional differentiation between the two constructions. The may interrogative strongly attracts first-person subjects, interaction-oriented verbs, and affirmative responses, signifying its prototypical permission-seeking use. In contrast, the might interrogative preferentially combines with non-first-person subjects, stative predicates, and evaluative responses associated with epistemic assessment. Surprisal values align with these distributional preferences, indicating that lexically compatible realizations are more strongly predicted in context. These findings suggest that modal interrogative-response pairings constitute discourse-level constructions characterized by both distributional entrenchment and probabilistic expectancy.",
+    "summary": "",
+    "doi": "10.1515/cllt-2026-0030",
+    "citations": 0
+  },
+  {
+    "title": "Attention Heads Hold the Key to Understanding Safety Mechanisms in Large Language Models",
+    "authors": [
+      "Shiji Yang",
+      "Congyao Mei",
+      "Haodong Zou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ff0aa124e77c0ca2dca5fd111736e5c5281cea15",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "LLM safety mechanisms are crucial for avoiding the generation of harmful content. Existing research mechanistically interprets LLM safety behaviors at various perspectives to enhance transparency and improve safety. However, the association between attention heads—a core component for LLMs—and safety remains insufficiently understood, making it difficult to characterize the safety mechanisms of LLMs completely at a fine-grained level. In this work, we propose an attention head safety correlation detection and causal influence verification method, namely AHSCC, which identifies attention heads that control safety mechanisms in LLMs via representation similarity-based correlation detection and patch-based intervention causal influence verification. We find that numerous safety-related attention heads are distributed across the intermediate layers of LLMs, and by directly intervening on these attention heads, the safety behavior of LLMs can be significantly controlled. Therefore, we claim that LLM safety mechanisms are distributed to varying extents across numerous attention heads.Furthermore, building on this finding, we design an efficient attention head safety enhancement strategy named AHSFT, which further improves the safety of LLMs by lightweight fine-tuning specific safety-related attention heads. In summary, this work enhances the transparency of LLM safety, providing more comprehensive insights for interpreting and improving LLM safety mechanisms.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818024",
+    "citations": 0
+  },
+  {
+    "title": "Group-Supervised Contrastive Learning for Semantic PCG Map Representations",
+    "authors": [
+      "Zhongyuan Xie",
+      "Kwanghee Won"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fed73e6f15819519124489f1073336ddb280930c",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Learning general-purpose representations for symbolic procedural content generation (PCG) remains challenging due to the domain gap between discrete tile maps and natural images, and the lack of reusable semantic backbones for analyzing generated content. A key challenge in PCG is that diverse maps may share identical design intent when generated from the same control parameters, creating many-to-one semantic mappings. Standard contrastive learning approaches struggle in this setting, often treating semantically equivalent maps as negatives, leading to fragmented embedding spaces. In this paper, we present a controlled study on learning semantic representations for symbolic maps aligned with natural language. We introduce a group-supervised contrastive learning framework that addresses semantic ambiguity through two complementary mechanisms: (1) a data construction pipeline that expands parameter-based templates into diverse natural language descriptions using Large Language Models (LLMs), and (2) a group-supervised multi-positive contrastive objective that aligns text embeddings with sets of maps generated under shared control parameters. We evaluate our approach in a Zelda-based grid environment against visual (CLIP, ResNet) and statistical (Tile-MLP) baselines. Results show that explicitly modeling semantic groups leads to improved retrieval accuracy (60.8% R@5 versus 25.7% for statistical baselines), with larger gains under out-of-distribution settings. Moreover, the learned representations support zero-shot inference of several abstract gameplay attributes (e.g., solvability and threat level) within tile-aligned domains, without task-specific supervision. While cross-game transfer remains limited and sensitive to tile mapping quality and domain shift, these results suggest that parameter-guided semantic alignment is a practical step toward reusable representation backbones for symbolic PCG analysis within related domains.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815615",
+    "citations": 0
+  },
+  {
+    "title": "A Unified Model for Personalization: Language-Steerable Generative Recommendation, Search, and User Understanding",
+    "authors": [
+      "Marco De Nadai",
+      "Edoardo D'Amico",
+      "Maksym Lefarov",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fd3b20b43525ea4766662e387c61ffd80cfb8dc6",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) are increasingly applied to recommendation, retrieval, and reasoning, yet deploying a single end-to-end model that can jointly support these behaviors over large, heterogeneous catalogs remains challenging. Such systems must generate unambiguous references to real items, handle multiple entity types, and operate under strict latency and reliability constraints requirements that are difficult to satisfy with text-only generation. While tool-augmented recommender systems address parts of this problem, they introduce orchestration complexity and limit end-to-end optimization. We view this setting as an instance of a broader research problem: how to adapt LLMs to reason jointly over multiple-domain entities, user behavior, and language in a fully self-contained manner. To this end, we introduce NEO, a framework that adapts a pre-trained decoder-only LLM into a tool-free, catalog-grounded generator. NEO represents items using semantic identifiers (SIDs) and trains a single model to interleave natural language and typed item identifiers within a shared sequence. Natural-language prompts control the task, target entity type, and output format (IDs, text, or mixed), while constrained decoding guarantees catalog-valid item generation without restricting free-form text. We refer to this instruction-conditioned controllability as language-steerability. Inspired by multimodal alignment, we treat SIDs as a distinct modality and study design choices for integrating discrete entity representations into LLMs via staged alignment and instruction tuning. We evaluate NEO at scale on a real-world catalog of over 10M items across multiple media types and discovery tasks, including recommendation, search, and user understanding. In offline experiments, NEO consistently outperforms strong task-specific baselines and exhibits positive cross-task transfer, demonstrating a practical path toward consolidating large-scale discovery capabilities into a single language-steerable generative model.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817955",
+    "citations": 0
+  },
+  {
+    "title": "Evidencing LLM Misuse: A Hands-on Forensic Tutorial on Copyright Infringement and Plagiarism Detection",
+    "authors": [
+      "Denghui Zhang",
+      "Guangwei Zhang",
+      "Dongwon Lee"
+    ],
+    "link": "https://www.semanticscholar.org/paper/fa75009e2774ba557222a6a937870cb1e85053b3",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) introduce serious risks of content misuse, spanning copyright infringement in the legal domain and plagiarism in the ethical and academic domain. Although prior work has studied these risks, researchers and practitioners still need practical ways to audit, interpret, and evidence them. This tutorial presents a unified forensic perspective on LLM content misuse. First, we introduce Copyright Detective, an interactive forensic system for detecting, analyzing, and visualizing potential copyright leakage in LLM outputs. Participants will learn how inference-time scaling reveals sporadic memorization under output uncertainty, and how persuasive jailbreak probing can serve as defensive red teaming for examining alignment-suppressed leakage. Second, we introduce LLM Plagiarism Detection, covering verbatim copying, paraphrased reuse, and idea-level appropriation. We will discuss, and where appropriate demonstrate, how candidate source retrieval and text alignment support plagiarism analysis, while highlighting factors such as model size, decoding strategies, and fine-tuning corpus similarity. By combining hands-on copyright-risk auditing with a flexible plagiarism module, this tutorial equips attendees with practical and conceptual tools for auditing black-box models, interpreting similarity evidence, and understanding content misuse beyond simple text matching.",
+    "summary": "",
+    "doi": "10.1145/3770855.3816473",
+    "citations": 0
+  },
+  {
+    "title": "Certified Signed Graph Unlearning",
+    "authors": [
+      "Junpeng Zhao",
+      "Lin Li",
+      "Yu Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f8ac57a660ac91927527a78334ba99e8571e218b",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3770855.3818038",
+    "citations": 0
+  },
+  {
+    "title": "Graph Adversarial Defense with Virtual Spectral Anchor Injection",
+    "authors": [
+      "Xiangchao Wen",
+      "Zhen Liu",
+      "Yunfei Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f87e85dedd4dfc3c1821021106e50422a34d5725",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Graph Neural Networks (GNNs) have demonstrated superior performance in various graph learning tasks such as node classification and link prediction. However, recent studies have shown that GNNs are highly vulnerable to graph adversarial attacks. To enhance the robustness of GNNs, existing defense strategies have primarily focused on adversarial training on graph data, graph purification, or certifiable robustness. Different from the conventional defense paradigms, we propose Anchor Node Injection Enhancement (ANIE), an active paradigm that repurposes the offensive tactic of node injection into a structural defense. ANIE injects virtual ''auxiliary anchor nodes'' to stabilize the graph's spectral manifold through Dirichlet energy minimization. By establishing robust class prototypes, ANIE reinforces class-wise structural stability and guides perturbed nodes back to correct manifolds. As an attack-agnostic and ''plug-and-play'' framework, ANIE requires no physical modification of the original graph and generalizes to both transductive and inductive settings. Empirical results across multiple benchmarks demonstrate that ANIE significantly enhances GNN robustness, outperforming state-of-the-art defenses by up to 2× in classification accuracy under poisoning and evasion attacks.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818051",
+    "citations": 0
+  },
+  {
+    "title": "Performance Of Large Language Models As Hearthstone Agents",
+    "authors": [
+      "Christian Poglitsch",
+      "Philipp Bardakji",
+      "Johanna Pirker"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f71d306d958b1574dd309a718c760401bce657ec",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This paper investigates the performance of Large Language Models (LLMs) as autonomous agents in the Hearthstone digital collectible card game. Although traditional numerical agents have demonstrated strong results in competitive game environments, the reasoning capabilities of LLM-based agents remain largely unexplored in this context. To address this gap, we developed an LLM-driven Hearthstone agent using the Sabberstone framework to evaluate several models, including GPT-4o, GPT-4o-mini, o3-mini, and GPT-5-mini, across multiple decks and prompting strategies. Our experiments compare their win rates against established numerical agents and analyze the impact of different prompting techniques, such as Chain-of-Thought (CoT), Reverse Chain-of-Thought (RCoT), ReAct, and Directed Acyclic Graph (DAG) prompting. The results indicate that all evaluated LLMs outperform the random baseline, and GPT-5-mini achieves win rates close to the strongest numerical agents under our evaluation setting. Among the prompting strategies, DAG achieved the highest win rate, while ReAct performed significantly worse. These findings highlight both the current limitations and the promising potential of LLMs for strategic reasoning and decision-making in complex, rule-based digital games such as Hearthstone. Leveraging their natural language understanding capabilities, LLMs have the potential to act as intelligent virtual companions, guiding and supporting players through the initial phases of gameplay.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815599",
+    "citations": 0
+  },
+  {
+    "title": "Toward a Taxonomy of LLM Roles and Interaction Patterns in Game Content Generation Systems",
+    "authors": [
+      "Ashley Hart"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f40e307036d8b06ae18fbfea9169a0de2bfc376f",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent work at the intersection of procedural content generation (PCG) and large language models (LLMs) has given rise to a body of research where LLMs are embedded within, utilized as, or interacting with procedural content generation pipelines. The term PCG-LLM system is operationalized to distinguish systems that contain an LLM and another separate and distinct component that utilizes traditional PCG approaches to influence the final content from systems where this separation is not as clear. Additionally, despite increasing adoption, there is a need to clarify and standardize terms for describing LLM roles and interaction patterns with other components within game content generation systems. This work analyzes existing systems, examines their eligibility as PCG-LLM systems, and proposes categorizations of LLM roles and interaction patterns observed within them. By providing a common vocabulary for characterizing how LLMs are used within PCG pipelines, this proposed taxonomy aims to reduce ambiguity, support clearer comparison between approaches, and encourage more systematic design and evaluation. The categorizations presented here highlight underexplored areas and invite researchers and practitioners to adopt, critique, and extend this taxonomy as the field continues to evolve.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815694",
+    "citations": 0
+  },
+  {
+    "title": "Learn to Coordinate City-Scale Virtual Power Plants: A Reasoning-Guided Evolutionary Framework for Hierarchical Heterogeneous Device Scheduling",
+    "authors": [
+      "Jinwei Zeng",
+      "Guozhen Zhang",
+      "Minbo Ma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e5c0e196947e0f78a91919b6b8e358543f513b21",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As intermittent renewables increasingly penetrate power systems, virtual power plants (VPPs) have emerged as a critical component of power systems, aggregating geographically distributed devices to respond to price signals and mitigate supply-demand imbalances. Consequently, coordinating heterogeneous resources across hierarchical multi-region pricing to fulfill committed bids while maximizing arbitrage has become a critical challenge. Existing operations-research and reinforcement-learning approaches rely on handcrafted formulations or learned policies that struggle to scale or lack interpretability, limiting trustworthiness in safety-critical energy systems. In contrast, large language models enable evolving interpretable and effective optimization by reasoning over structured decisions and generating executable programs. Building on this paradigm, we propose VPPEvolve, a reasoning-guided evolutionary framework for hierarchical VPP scheduling. VPPEvolve tackles three key challenges through three complementary designs: (i) an evolvable chained program representation that formalizes hierarchical VPP dynamics through executable structures; (ii) a spatio-temporal profiling and reflection module that bridges the semantic gap between volatile numerical signals and structured reasoning space; and (iii) a device attribution-aware inspiration module that enables LLM-informed evolution by explicitly attributing device-level contributions to improve heterogeneous coordination. Extensive experiments on two city-scale datasets confirm consistent gains in economic profit and bid-tracking stability, with post-hoc analyses and deployment confirming a white-box paradigm that reduces grid-side stress. Codes and data are available at: https://github.com/JinweiZzz/VPPEvolve.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818440",
+    "citations": 0
+  },
+  {
+    "title": "Recipes for Agents: Understanding Skills and Their Open Questions",
+    "authors": [
+      "Hanwen Xing",
+      "Haomin Zhuang",
+      "Xuandong Zhao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e24b6d1e929a7664427ed5b6c9ad8c95b8d420ab",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Fine-tuning",
+      "Cited: 5"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Model (LLM) agents have demonstrated broad competence, but they still struggle in specialized, real-world workflows. Existing approaches such as RAG, fine-tuning and tool integration improve knowledge access, model adaptation, and external functionality, yet they do not fully address a central gap: the absence of reusable procedural knowledge for carrying out domain tasks reliably. This paper examines the emerging notion of agent skills as a possible abstraction for addressing that gap. Agent Skills are modular packages of domain-specific procedural knowledge that can be injected at inference time. Intuitively, a skill is like a cooking recipe for an agent: it does not provide new ingredients or tools, but specifies how available resources should be combined to achieve a desired outcome. A community-driven skills ecosystem is already emerging at remarkable speed, with early evidence of meaningful performance gains across multiple domains. However, their value and limits remain open questions. We examine how skills may help address bottlenecks of current agents and how they may expand agent capabilities through reusable domain procedures loaded at inference time. We then outline open questions in skill construction, composition, evaluation, portability, governance, and security, and conclude with a call for contribution. Our goal is not to present skills as a settled solution, but to clarify their promise, limits, and the questions that must be answered before they can become a principled foundation for future agent systems.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818652",
+    "citations": 5
+  },
+  {
+    "title": "LEAP: Learning-Dynamics-Guided Open-Loop Pricing for LLM Data Acquisition",
+    "authors": [
+      "Zhiheng Wang",
+      "Xuehe Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9306f4587f5e9b7d24918d48473d5d7258b3ae7",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The sustainability of AI-powered Web platforms often relies on a feedback loop: stronger models improve user experience, which can help generate interaction data for further refinement. During Large Language Model (LLM) fine-tuning, however, the marginal utility of additional data can change over time, while many incentive mechanisms are primarily reactive. For example, contextual-bandit approaches treat training as a black box and adjust payments only after observing stochastic feedback, which makes it difficult to plan budgets ex ante or to communicate a stable pricing plan. We introduce LEAP (Learning-dynamics-based Economic Adaptive Pricing), a framework that formulates data acquisition as an open-loop planning problem guided by a simple proxy of learning dynamics. Specifically, LEAP links an analytically motivated approximation of SGD progress to a Stackelberg-style pricing model, and yields a closed-form, deterministic price schedule that can be computed before training starts. The resulting schedule is transparent and easy to interpret, and serves as a structured baseline for aligning economic spending with longer-horizon training objectives in commitment-sensitive settings. Across controlled market-simulator experiments in three domains (Medical, Finance, and Comprehension), LEAP achieves lower evaluated acquisition-cost objectives than representative heuristic and online-learning baselines in many tested settings, with reductions exceeding 30% in representative long-horizon configurations. We further evaluate sensitivity to deviations from idealized assumptions, including non-linear supply curves and heterogeneous noise patterns, and find that the planned schedules remain competitive in the simulated settings considered. Overall, LEAP provides a planning-oriented starting point for integrating coarse learning-curve priors into interpretable pricing design for LLM data collection.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817932",
+    "citations": 0
+  },
+  {
+    "title": "EventGlucose: A Benchmark for Continuous Glucose Monitoring Forecasting with Behavioral Event Context",
+    "authors": [
+      "Junjie Luo",
+      "Xuzhe Zhi",
+      "Rui Han",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c74368faf524a8fd75d6e0a43de6c51d860b234f",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Glucose forecasting is critical for diabetes management. Continuous glucose monitoring (CGM) provides real-time readings, but glucose values alone do not capture the behavioral events (meals, exercise, medication) that clinicians and patients use to make daily decisions. In spite of advances in time series foundation models and large language models (LLMs), systematic study of event-aware glucose forecasting remains limited, and how behavioral event context helps different model families remains unclear. We introduce EventGlucose, a benchmark where every task pairs glucose time series with behavioral event context; every task requires event context for accurate prediction. EventGlucose provides 60 task instances spanning demographics, event types, and 5 context conditions, from no context to detailed event descriptions. We evaluate 18 model configurations zero-shot, covering LLM-based forecasters, multimodal architectures, time series foundation models, and statistical baselines. We report Clarke Error Grid-weighted CRPS metrics that emphasize clinical risk zones. Our experiments reveal a Context Integration Gap : richer context can help, but most current models fail to use it. Only GPT-4o-mini improves with more context, gaining 9% from NoCtx to StandardEventInfo. Ten of twelve context-aware models degrade with detailed descriptions, by up to 78% in ct-CRPS. Context effects are also asymmetric: meal tasks benefit in 4 of 6 demographic subgroups, while exercise tasks benefit in none, suggesting failures depend on event type rather than on context generally. Larger models also tend to degrade more than smaller ones within each model family. Despite EventGlucose's balanced design, Type 1 diabetes and middle-aged patients remain harder to predict than other subgroups. EventGlucose is the first benchmark to evaluate time series foundation models and LLMs on event-aware glucose forecasting, and it shows where current models break down when behavioral context is available. The benchmark is available at https://github.com/JHU-CDHAI/EventGlucoseBench.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817572",
+    "citations": 0
+  },
+  {
+    "title": "Diagnosing Evidence Utilization in Multimodal Document Question Answering",
+    "authors": [
+      "Debolena Basak",
+      "Digbalay Bose",
+      "Koustava Goswami",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c43ac613539790b677c6d9413e5faa4eb541cf05",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent Multimodal Large Language Models (MLLMs) support retrieval-augmented generation (RAG) for document question answering (QA), yet it remains unclear how effectively they use the provided evidence during answer generation. In this work, we conduct a controlled empirical study of 7 popular MLLMs on long multimodal multi-document question answering in a RAG setting. Our analysis shows that zero-shot performance varies substantially across evidence types (e.g., text, image, table, chart, and cross-evidence), revealing a strong reliance on text-based evidence and weaker performance on image-only and cross-evidence inputs. We further find that supervised finetuning yields limited and dataset-dependent improvements, often preserving existing evidence-type disparities. To better understand these behaviours, we perform attention-based analysis to examine how models allocate attention across different token types (image evidence, text evidence, system prompt, question, and output tokens), and find that low attention allocation to image tokens is associated with weaker performance on image-based evidence. Our findings provide insights into how effectively current MLLMs use multimodal evidence in document QA and highlight the key limitations in multimodal document understanding.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817956",
+    "citations": 0
+  },
+  {
+    "title": "Learning to Forget: Emotional Salience as a Compression Mechanism for Long-Term AI Memory",
+    "authors": [
+      "SoYeop Yoo",
+      "Sunghoon Im"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c2662f081388ef1e2cedb77dee9f414f9464ab0c",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Recent advancements in Large Language Model (LLM) agents have largely focused on extending context windows or implementing massive Retrieval-Augmented Generation (RAG) systems to retain long-term history. However, this store-everything approach causes high computational costs and digital hoarding, paradoxically leading to digital amnesia where key emotional contexts are buried under trivial data. To challenge this paradigm, we introduce the Affective Memory Architecture, drawing from the amygdala's role in memory modulation to equip AI agents with the essential capacity to actively forget. Unlike static summarization, our framework structures multimodal inputs into an Affective Scene Graph (ASG) and dynamically adjusts the memory resolution based on emotional salience. High-arousal core memories are preserved in rich, high-resolution episodic detail; low-salience routines are aggressively downsampled using novel Optical Context Compression to minimal vision tokens; and frequently reactivated patterns are consolidated into crystallized semantic insights. Through quantitative proof-of-concept modeling, we demonstrate that systematically managing the trivial not only resolves the digital hoarding problem but actively reduces proactive interference, enhancing overall recall clarity. Ultimately, this work offers a scalable, privacy-friendly blueprint for resource-efficient AI capable of evolving with users over time, fundamentally shifting the goal of AI memory from total recall to meaningful retention.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818653",
+    "citations": 0
+  },
+  {
+    "title": "Personalizing Large Language Models with User Profile Memory",
+    "authors": [
+      "Yangxu Liao",
+      "Yongheng Deng",
+      "Tianyuan Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bdb9ca8259bfc81a474383c0aecbd58d720acf64",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) are increasingly used in personalized applications, where responses must align with individual user preferences, histories, and profiles. A common approach is to inject user information into the prompt at inference time. However, existing methods typically rely on flat profile representations and similarity-based Top-K retrieval, which often introduce noisy or marginally relevant context under limited prompt budgets. In this paper, we propose PersMem, a user profile memory framework for LLM personalization that addresses three key questions: what user information to store, how to organize it, and how to use it effectively during generation. First, we construct a structured user profile memory by extracting entities and concepts from user profiles. Second, we organize the memory into a hierarchical structure that separates short-term interactions from long-term knowledge, enabling scalable and coarse-to-fine retrieval. Third, we introduce a learning-based memory gating mechanism that adaptively selects long-term memory units under prompt budget constraints and directly optimizes answer quality through evaluated signals. Extensive experiments on multiple personalization tasks demonstrate that our approach consistently improves personalization effectiveness while reducing prompt length, compared with existing prompt-based and retrieval-based baselines.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817930",
+    "citations": 0
+  },
+  {
+    "title": "One For All: Achieving Adaptive Graph Neural Networks via Mixture of Message Passing",
+    "authors": [
+      "Zhaojun Luo",
+      "Jintang Li",
+      "Yuchang Zhu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bab3e4aafbd651bbbee4dd18ec305b47be5745b8",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The message passing mechanism, which updates node representations by exchanging messages with their neighbors, plays a critical role in graph neural networks (GNNs) for capturing structural patterns. Since the single message passing mechanism lacks the flexibility to handle graphs with differing node feature quality, GNNs with a fixed message passing mechanism, e.g., GCN, GAT, and GraphSAGE, exhibit inconsistent performance across different graphs. To address this issue, we propose Mixture of Message Passing (MoMP). Code is made publicly available at https://github.com/Tinmomo/MoMP, a novel mechanism that incorporates the Mixture of Experts (MoE) paradigm directly into the message passing mechanism of GNNs, treating different message passing mechanisms as ''experts''. Specifically, MoMP employs a gating network to perform edge-level routing, adaptively selecting the most suitable expert to process the message for each edge. To ensure training stability and efficacy, we also introduce a partially-shared expert architecture, reframing the learning task for sparse experts into a residual from a globally-learned general mechanism. Extensive experiments on several homophilic graph benchmarks demonstrate that the proposed method not only outperforms strong baselines but also provides significant interpretability. To the best of our knowledge, our work is the first to fuse the MoE paradigm directly with the GNN message passing mechanism, paving the way for developing adaptive GNNs.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818036",
+    "citations": 0
+  },
+  {
+    "title": "Fill-in-the-Blank Microgames",
+    "authors": [
+      "Akash Surendran",
+      "Seth Cooper"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b78c7438d30f6ec33d0f91fc29c1d8b055363f2c",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In this work we explore an approach for creating personalized microgames, drawing inspiration from fill-in-the-blank stories such as Mad Libs. In fill-in-the-blank stories, the reader is given a list of word categories such as place, number, or adjective, and provides keywords to fill in the list. These keywords are then copied into the blanks of a short story, with often humorous results. We develop a similar process for generating microgames, where the keywords are used to fill in the blanks of a Large Language Model game generation prompt. Rather than extending the capabilities of LLMs for game generation, part of our aim is using LLMs as-is for generating unpolished, small-scale, personalized microgames that can be played for a brief duration. We compare two template prompting strategies, apply these across four genres, and evaluate the generated games based on incorporation of keywords, variety, and qualitative observations.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815713",
+    "citations": 0
+  },
+  {
+    "title": "BioFlowBench: A Comprehensive Benchmark for Evaluating Bioinformatics Tool-use Capabilities of LLMs and Agents",
+    "authors": [
+      "Yufei Hou",
+      "Jiajia Wang",
+      "Ke Xiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b6ee20dd1976d311f92e7f392f8fddc545318a88",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid advancement of high-throughput technologies has led to an explosion of biological data and a subsequent surge in bioinformatics analysis tools, thereby creating an urgent demand for automated bioinformatics workflows. Recently Large Language Models (LLMs) and LLM-based agents show great potential in this area. However, existing benchmarks primarily focus on static question-answering (QA) tasks, failing to capture the knowledge-action gap between understanding tool usage and executing complex bioinformatics workflows. Furthermore, current evaluation paradigms often prioritize algorithmic success rates, while neglecting the biological validity. Moreover, the construction of execution benchmarks is challenging due to complex environmental dependencies and the high cost of manual annotation, leading to poor scalability. In this study, we propose BioFlowBench, a comprehensive benchmark designed to shift from static knowledge assessment to dynamic execution evaluation in bioinformatics tool utilization. First, we construct a multi-layered dataset consisting of 5,071 test samples, including Syntax Understanding, Contextual Application and Real-world Execution. Second, we introduce BioGen, an agent-based pipeline designed for the automated generation of executable benchmarks. By creating compact, low-overhead synthetic data, BioGen facilitates low-cost and large-scale testing. Third, we propose a multi-dimensional evaluation framework comprising static knowledge, structural integrity, functional validity, and efficiency metrics. Our experiments reveal that: (1) A significant gap exists between static QA and dynamic execution tasks, with top LLMs perform well on static QA but falter in real-world execution scenario; (2) specialized agents outperform general models in real-world execution through environmental interaction and iterative refinement; and (3) domain knowledge remains the primary bottleneck, often leading to executable but biologically inaccurate outputs. The code is available at: https://github.com/YufeiHouAnne/BioFlowBench and the dataset can be accessed at: https://www.scidb.cn/detail?dataSetId=aee284681d674f53bfc6dae44635e773.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817576",
+    "citations": 0
+  },
+  {
+    "title": "Building Reliable Industrial Agents with MCP: A Hands-on AssetOpsBench Tutorial for AI-Driven Operations",
+    "authors": [
+      "Dhaval Patel",
+      "Chathurangi Shyalika",
+      "Shuxin Lin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b0b40e78c281975421922439a0c385e713255a2b",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Model (LLM) agents transition from general-purpose assistants to specialized enterprise tools, grounding them in industrial reality remains a significant challenge. To address this, we developed AssetOpsBench, a comprehensive framework for the lifecycle of AI agents in Industrial Asset Operations and Maintenance, built around the Model Context Protocol (MCP) as the standard for connecting agents to complex enterprise data silos. In this hands-on tutorial, participants will learn to build reliable industrial agents using MCP and AssetOpsBench. The session is divided into two parts. In the first part, we dive into an end to end MCP grounded agent pipeline that connects specialized MCP servers to high velocity industrial data including time series telemetry, IoT streams, failure mode records, and work order histories while orchestrating workflows with Plan Execute and Reflexion planners. In the second part, we unlock predictive analytics such as anomaly detection and Remaining Useful Life (RUL) prediction within agentic workflows, assess agent reliability through multi-dimensional evaluation, and ground agents against physical constraints. Whether for researchers or practitioners, this tutorial provides the foundations for building auditable, production-grade agents for Industry 4.0. AssetOpsBench is accessible at: https://github.com/IBM/AssetOpsBench.",
+    "summary": "",
+    "doi": "10.1145/3770855.3816475",
+    "citations": 0
+  },
+  {
+    "title": "AgentsKG: A Hierarchical Multi-Agent Framework for Open-Domain Knowledge Graph Construction",
+    "authors": [
+      "Shilong Liu",
+      "Yongqiang Liu",
+      "Jiye Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/af5856b27abb708a9b531cc6a86658fb6ba4eafa",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Knowledge Graph Construction (KGC) is essential for transforming unstructured text into structured knowledge representations. Despite advances in Large Language Models, existing methods treat KGC as a single-pass generation task, conflating extraction, normalization, and validation within a single forward pass. This leads to hallucinated facts, polysemous conflation, and fragmented triples, particularly in open-domain settings where predefined schemas are unavailable. In this work, we propose AgentsKG, a hierarchical multi-agent framework that decouples semantic perception from structural integration. In the Semantic Perception Layer, a multi-role Verification Committee filters hallucinated and invalid assertions through majority voting, while a Contextual Profiler resolves polysemous ambiguities by enriching mentions with context-dependent semantic descriptors. In the Structural Integration Layer, a Knowledge Linker merges redundant entities and relations based on semantic profiles, and an Ontological Logic Auditor enforces logical consistency across the graph. Extensive experiments demonstrate that AgentsKG outperforms state-of-the-art training-free baselines in both extraction accuracy and structural quality, offering a robust approach to open-domain knowledge graph construction without additional training. Source code is available at https://doi.org/10.5281/zenodo.20484211",
+    "summary": "",
+    "doi": "10.1145/3770855.3818058",
+    "citations": 0
+  },
+  {
+    "title": "The Decision Twin: Metaverse Patient Digital Twins as Executable Clinical Reality",
+    "authors": [
+      "Filippo Cenacchi",
+      "Longbing Cao",
+      "Deborah Richards"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a74747bf796e9ccc2c1df9841b966217406dd7b7",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Clinical AI is no longer bottlenecked only by model performance; it is bottlenecked by the accountable interaction loop through which clinicians and patients inspect evidence, test alternatives, and remain responsible for decisions under uncertainty. We argue that today's digital-twin systems, XR interfaces, and foundation-model copilots each address part of this loop, but they fail when deployed as separate products: predictions are not replayable across time, XR becomes descriptive visualization without executable state, and copilots are fluent without auditable grounding. We introduce the Metaverse Patient Digital Twin (MPDT) as a decision-grade clinical artifact defined by one requirement: every displayed claim or simulated scenario must be traceable to a versioned patient state, explicit assumptions, and replayable interaction logs. We specify minimal acceptance criteria, a reference loop in which stakeholders observe new evidence, update the twin state, run bounded simulations, generate explanations, commit decisions, and then log and monitor outcomes, along with a compact architecture that binds interoperability, simulation, governed interaction, and lifecycle controls. Finally, we outline workflows (risk stratification, diagnosis support, treatment rehearsal, training, cross-site coordination) and the evidence required to make MPDTs defensible: calibration over time, subgroup reliability, category-error prevention (observation vs simulation), and measurable workflow outcomes.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818659",
+    "citations": 0
+  },
+  {
+    "title": "Domain-Specific Data Synthesis for LLMs through Minimal Sufficient Representation Learning",
+    "authors": [
+      "Tong Ye",
+      "Hang Yu",
+      "Tengfei Ma",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a4f00d7fc1a91a22c7721c15572c9da4cade2e6a",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Cited: 1"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models have demonstrated remarkable progress in general-purpose capabilities and can achieve strong performance in specific domains through fine-tuning on domain-specific data. However, acquiring high-quality data for target domains remains a significant challenge. Existing data synthesis approaches follow a deductive paradigm, heavily relying on explicit domain descriptions expressed in natural language and careful prompt engineering, limiting their applicability in real-world scenarios where domains are difficult to describe or formally articulate. In this work, we tackle the underexplored problem of domain-specific data synthesis through an inductive paradigm, where the target domain is defined only through a set of reference examples, particularly when domain characteristics are difficult to articulate in natural language. We propose a novel framework, DOMINO, that learns a minimal sufficient domain representation from reference samples and leverages it to guide the generation of domain-aligned synthetic data. DOMINO integrates prompt tuning with a contrastive disentanglement objective to separate domain-level patterns from sample-specific noise, mitigating overfitting while preserving core domain characteristics. Theoretically, we prove that DOMINO expands the support of the synthetic data distribution, ensuring greater diversity. Empirically, on challenging coding benchmarks where domain definitions are implicit, fine-tuning on data synthesized by DOMINO improves Pass@1 accuracy by up to 4.63% over strong, instruction-tuned backbones, demonstrating its effectiveness and robustness. This work establishes a new paradigm for domain-specific data synthesis, enabling practical and scalable domain adaptation without manual prompt design or natural language domain specifications. The full version is available at https://arxiv.org/abs/2605.30039.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817916",
+    "citations": 1
+  },
+  {
+    "title": "TransactionGPT: Toward Foundational Transaction Modeling",
+    "authors": [
+      "Yingtong Dou",
+      "Zhimeng Jiang",
+      "Tianyi Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9a838f57f5d523f1d7243bdff405d221a94ea742",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transformer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "We present TransactionGPT (TGPT), a foundation model for consumer transaction data within one of the world's largest payment networks. TGPT is designed to understand and generate transaction trajectories while simultaneously supporting a variety of downstream predictive tasks. We introduce a novel 3D-Transformer architecture specifically tailored for capturing the complex dynamics in payment transaction data. This architecture incorporates design innovations that enhance modality fusion and computational efficiency, while seamlessly enabling joint optimization with downstream objectives. Trained on billion-scale real-world transactions, TGPT significantly improves anomaly detection performance against a competitive production model and exhibits advantage over baselines in generating future transactions. We also validate the effectiveness of LLM-derived transaction field embeddings by using them as part of TGPT inputs. Given the prevalence of transaction-like data in industry, which consist of event-based records containing numerous categorical and numerical fields with highly diverse cardinalities, we anticipate that the architectural innovations and practical lessons introduced in this work will advance the development of foundation models for transaction-like data and stimulate future research in this emerging topic.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818496",
+    "citations": 0
+  },
+  {
+    "title": "MCoRe: Multi-Entry Complementary Retrieval with Reflection-Guided Iteration for Multi-Hop QA",
+    "authors": [
+      "Juxiang Zeng",
+      "Zhuohui Gao",
+      "Zhe Hou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/97ba1cc995d0d7838a45a89781ae189a553eb467",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Retrieval-augmented generation (RAG) has become a standard paradigm for knowledge-intensive question answering by grounding large language models (LLMs) in external evidence. However, open-domain multi-hop question answering (QA) remains challenging for two reasons. First, evidence dispersion across documents and non-contiguous spans means that critical bridge evidence can be weakly related to query and is easy to miss. Second, semantic-resolution mismatch complicates retrieval: coarser retrieval views offer better global coherence but may obscure the exact bridging detail, while finer-grained views highlight specific mentions but may omit the context needed to reveal the relation. In this paper, we propose MCoRe, a multi-entry complementary retrieval framework with reflection-guided iteration for multi-hop QA. To mitigate the semantic-resolution mismatch, MCoRe enables multi-entry complementary retrieval by indexing entry units at multiple semantic resolutions (entities, sentences, and summaries) with explicit links to chunk evidence, mapping all hits back to chunks, and fusing cross-resolution hits via chunk-level voting to form a compact evidence set for answer generation. To cope with evidence dispersion, MCoRe performs reflection-guided iteration: when evidence is insufficient, it identifies the missing bridge cue and issues a gap-focused follow-up query to recover it. Empirical results demonstrate the effectiveness of MCoRe, which consistently outperforms state-of-the-art baselines by 6.77 EM points and 8.79 F1 points averaged over three multi-hop QA benchmarks, with gains of up to 12.70 EM and 14.06 F1 points on 2Wiki.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818043",
+    "citations": 0
+  },
+  {
+    "title": "Aquavit: Ascending Quantization for Communication-Efficient Vast-Scale Distributed Training",
+    "authors": [
+      "Hong Huang",
+      "Jiaxun Ye",
+      "Jinhai Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/908663986d56e46ee61ae25c4ece4a11bf4c8551",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Training Large Foundation Models (LFMs), including Large Language Models and Vision-Language Models, on massive distributed GPU clusters is increasingly bottlenecked by communication overhead. While frameworks like ZeRO++ employ static quantization to reduce communication volume, they suffer from a rigid trade-off: aggressive low-bit quantization maximizes throughput but introduces a persistent noise floor that impedes late-stage convergence, whereas high-precision quantization preserves accuracy at the cost of diminished training efficiency. In this paper, we propose the Noise Equivalent Hypothesis (Neophyte): the noise inherent to the weight quantization process plays a role functionally analogous to the stochastic gradient variance present in standard SGD optimization. We theoretically prove that just as a decaying learning rate is essential for convergence, an ascending quantization schedule is necessary to maintain optimization stability while maximizing throughput. Building on this hypothesis, we present Aquavit, an adaptive distributed training framework that implements an ascending precision schedule for model weights. To overcome the hardware limitations of discrete bit-widths (e.g., jumping from 4-bit to 6-bit), Aquavit introduces fractional precision via granularity modulation. By dynamically adjusting quantization block sizes, we achieve quasi-continuous transitions in effective bits-per-weight (bpw), preventing ''numerical shocks'' and ensuring a smooth error-reduction curve. We evaluate Aquavit on a 256-GPU cluster across diverse LFMs, including LLaMA-3.3-70B and Qwen-Image. Our results demonstrate that Aquavit achieves up to a 2.15× speedup in time-to-accuracy while maintaining full numerical parity with FP16 baselines, even in sensitive multimodal tasks where static quantization typically fails.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818083",
+    "citations": 0
+  },
+  {
+    "title": "HyRES: Measuring Node Influence via Hyperspherical Representation Equilibrium Shift",
+    "authors": [
+      "Yantuan Xian",
+      "Chunping Li",
+      "Hongbin Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/896867c2eb329ab7ee8c5b39cc78f11b46883d8b",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Identifying influential nodes in graph-structured data is a fundamental challenge. Traditional metrics ignore non-linear GNN semantics, while deep influence maximization methods require computationally expensive, simulation-based supervision. To bridge the gap between topological analysis and deep representation learning, we propose Hyperspherical Representation Equilibrium Shift (HyRES), a theoretically grounded, unsupervised framework that redefines node influence as a geometric displacement within the latent space. We conceptualize a trained GNN on a hyperspherical manifold as a physical system in thermodynamic equilibrium, stabilized by competing attractive and repulsive forces. We leverage Linear Response Theory to derive a closed-form approximation of the global representation shift caused by a node's removal. This mathematically decouples influence into the node's residual force and local structural stiffness, explaining why lower-degree bridges often exert greater global impact than redundant dense hubs. Empirically, HyRES enables efficient, near-linear time inference via Hessian-Vector Products, scaling seamlessly to large graphs. Extensive experiments demonstrate that HyRES outperforms state-of-the-art supervised baselines, exhibiting exceptional robustness on heterophilic graphs and under unknown diffusion dynamics. Code is available at: https://github.com/xianyt/HyRES.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818047",
+    "citations": 0
+  },
+  {
+    "title": "CoFE: Collaborative Feature Engineering via Semantically-Guided Exploration and Diagnostic-Driven Refinement",
+    "authors": [
+      "Weihao Jiang",
+      "Ziang Nan",
+      "Zhihui Shi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8622beb59edd170a62b6fefbac49c974da76e31e",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "In domains such as finance, healthcare, and industry, feature engineering remains the key bottleneck limiting the performance of machine learning models on tabular data. While Automated Feature Engineering (AutoFE) aims to reduce this manual effort, existing approaches still suffer from distinct limitations: data-driven exploration can waste substantial computation on semantically meaningless feature combinations, whereas knowledge-driven approaches using Large Language Models (LLMs) struggle to construct high-order interactions without rich structural context and are typically guided only by coarse global metrics. We propose CoFE (Collaborative Feature Engineering), a two-phase framework that tightly couples search-based exploration with LLM-driven reasoning. In the exploration phase, CoFE leverages an LLM-constructed semantic feature schema to guide a Monte Carlo Tree Search (MCTS), enforcing semantic constraints while encouraging a diverse pool of complex candidate features that provides the missing structural context for LLMs. In the refinement phase, CoFE introduces feature health reports, a diagnostic artifact that supplies the LLM with actionable sample-level and structural feedback for targeted corrections. Experiments on 16 public tabular benchmarks show that CoFE consistently outperforms state-of-the-art data-driven and LLM-based AutoFE methods on the majority of datasets, while offering favorable computational efficiency.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817923",
+    "citations": 0
+  },
+  {
+    "title": "MAR: Metacognitive Agentic Reasoning for Multimodal Fake News Detection",
+    "authors": [
+      "Wenyu Chen",
+      "Hengbing Dong",
+      "Junhao Wa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/852e471fac3a7ad4b3146d7c82eb218c6955f1e0",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Multimodal fake news combining text and images has become increasingly prevalent, fueled by the rapid dissemination on social media. Existing approaches predominantly rely on supervised learning–driven small multimodal language models, yet they are constrained by the knowledge scope and logical reasoning capabilities limited by training data: their performance degrades significantly when encountering novel content not covered in the training data, and they typically provide only uninterpretable binary true/false predictions. To address these challenges, we propose the Metacognitive Agentic Reasoning for Multimodal Fake News Detection(MAR), a framework that integrates multi-agent metacognitive debate with external knowledge retrieval to enhance the accuracy, generalization, and interpretability of multimodal fake news detection. At its core, MAR introduces a news-domain informed and metacognition-inspired multi-agent reasoning mechanism: it first generates several prior pseudo-labels of the news domain, and defines the characteristics of two opposing agents (i.e., Believer and Skeptic) leveraging these pseudo-labels; then, the Believer and Skeptic go through a three-stage ''Draft – Self-Critique – Refine'' interactive debate simulating humans' learning behavior, called the metacognitive debate. Specifically, MAR first generates an initial evidence-grounded judgment (Draft), then critically reflects on their own and others' arguments (Self-Critique), and finally iteratively refines their conclusions by incorporating internal or external evidence (Refine). To improve factual reliability, the framework dynamically retrieves trustworthy external knowledge via web and reverse image searches, thereby mitigating the hallucinations inherent in large language models. Experiments show that MAR achieves state-of-the-art performance on two benchmarks and significantly outperforms existing methods in terms of generalization and interpretability. The source code is available at https://github.com/Averdgr/MAR_KDD.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818025",
+    "citations": 0
+  },
+  {
+    "title": "Retrv-MoE: Scaling Unified Multimodal Retrieval with Sparse Mixture-of-Experts",
+    "authors": [
+      "Tongxu Lin",
+      "Jiayin Xiao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/734f4aea84a4b04c7c6ab1917f8ba9de58ff8936",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Unified multimodal retrieval aims to build a single system capable of handling diverse modalities, tasks, and domains. While recent approaches leveraging multimodal large language models (MLLMs) have shown promise, they face a fundamental dilemma between capacity and interference: scaling dense models improves semantic understanding but incurs prohibitive inference costs, while training a single shared parameter space on heterogeneous data leads to severe gradient conflicts and negative transfer. In this work, we propose Retrv-MoE, a unified retrieval architecture built upon sparse Mixture-of-Experts (MoE). Unlike dense retrievers that activate all parameters for every input, Retrv-MoE employs learnable routers to dynamically select a small subset of experts for each token. We theoretically and empirically demonstrate that this conditional computation mechanism provides a structural remedy to optimization interference by decoupling the learning trajectories of conflicting tasks and domains into specialized expert subspaces. Extensive evaluations on the M-BEIR benchmark reveal that Retrv-MoE achieves a superior trade-off between efficiency and performance. It significantly outperforms efficiency-oriented baselines and matches the retrieval quality of 7B-parameter dense models while utilizing about 3 billion active parameters. Furthermore, our analysis confirms that the router exhibits emergent specialization, effectively mitigating negative transfer and enabling robust zero-shot generalization to unseen datasets and video retrieval tasks.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817958",
+    "citations": 0
+  },
+  {
+    "title": "PCA-OS: A Planetary Climate Adaptation Operating System",
+    "authors": [
+      "Chaoyue He",
+      "Xin Zhou",
+      "Di Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7107c16038d18099406baf708ddd7d07d11d1a1c",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Predictive climate machine learning is increasingly good at forecasting hazards, but hazard maps alone do not decide what to do, where, when, for whom, and under which futures. We argue that climate ML remains insufficient for adaptation unless interventions become first-class, versioned, and auditable objects. Many climate digital twins still prioritize state estimation and simulation, whereas adaptation requires intervention observability, counterfactual effect estimation, and constrained portfolio choice. We propose PCA-OS (Planetary Climate Adaptation Operating System), a decision-support operating abstraction built on an intervention-aware global causal knowledge graph. PCA-OS standardizes schemas, versioned updates, query primitives, and audit interfaces across three core objects: (1) an Adaptation Intervention Ledger recording measurable interventions with provenance and uncertainty; (2) a Causal Effect Atlas storing scenario-indexed, spillover-aware estimands, identification assumptions, diagnostics, and sensitivity bounds; and (3) a Robust Portfolio Decision Layer optimizing intervention portfolios under budget, equity, and no-harm constraints. Foundation models and intervention-aware world models should support, not replace, identification-aware causal analysis by surfacing candidate confounders, mechanisms, and spillover pathways for human review. We also outline AdaptBench, an evaluation suite where systems can fail for inequitable or maladaptive recommendations despite high predictive accuracy. The result is a field-level provocation: move climate ML from read-only hazard intelligence to auditable decision support for adaptation.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818654",
+    "citations": 0
+  },
+  {
+    "title": "Who's Adam? Benchmarking Hallucinations in Scientific Dialogue",
+    "authors": [
+      "Zexing Zhang",
+      "Tianyang Lei",
+      "Kewei Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6c031c0b11baf0cfecce6e8b5edc22358dfbce6a",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) and large multimodal models (LMMs) are increasingly applied in scientific dialogue, but it remains unclear whether they can reliably ground specific dialogue statements to paper-based evidence. A central challenge is paper-grounded hallucination under a paper-as-truth setting: statements that are contradicted by, not found in, or otherwise not decidable from the paper PDF. These hallucinations can be caused by both human misinterpretations and model-generated assertions, ultimately undermining the efficiency, fairness, and credibility of scientific dialogue. Existing benchmarks often overlook this issue, focusing either on subjective macro-level quality assessments or lacking cross-modal evidence localization. We introduce ADAM-Bench (Auditing Dialogue Assertions with Multimodal Evidence), a benchmark for paper-grounded hallucinations in scientific dialogue. Starting from around 27,000 papers, ADAM-Bench is a multi-layer benchmark with three tiers: Scale, Core, and Gold. ADAM-Bench pairs approximately 1 million atomic claims with over 7 million multimodal evidence objects extracted from the corresponding PDFs. We build it through a four-stage pipeline of claim atomization, candidate evidence recall, model-assisted pre-alignment, and human verification. Based on this dataset, we define two tasks: hallucination detection and minimal evidence set localization. Additionally, to avoid the brittleness introduced by single-rationale supervision, we formalize minimal evidence as a set of equivalent evidence sets and evaluate localization by best-matching against multiple gold evidence sets. We conduct a comprehensive benchmark of 34 LLMs and 10 LMMs, spanning large proprietary models (Claude-Opus-4-6, GPT-5.2) and open-source models (Qwen3-235B, GLM-4.6V 106B). Results are markedly low (25.2%--51.1%), indicating that grounding conversational hallucinations in real multimodal papers remains far from solved. We hope this benchmark will contribute to building scientific assistants that make calibrated judgments, cite minimal, auditable evidence, and mitigate the impact of hallucinations in scientific discovery evaluation.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817577",
+    "citations": 0
+  },
+  {
+    "title": "ANCHOR: Taming Entropy Dynamics for Stable and Efficient Reasoning of Large Language Models",
+    "authors": [
+      "Cong Qin",
+      "Jiaye Lin",
+      "Xiaoliang Fu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/688557beb60045692df36414b355a290d851a1a1",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Reinforcement Learning with Verifiable Rewards (RLVR) has become a standard approach for improving complex reasoning in Large Language Models (LLMs). However, entropy collapse remains a critical bottleneck, often leading to performance degradation. While typically attributed to reduced exploration, we identify a more severe failure mode: update deadlock. We show that policy entropy bounds both the policy gradient and probability update norms; consequently, entropy collapse effectively stops reward signal backpropagation, preventing further policy learning regardless of data quality. To analyze this, we develop a micro-dynamics framework based on single-step logit updates. Our results indicate that entropy evolution depends on the interaction between advantage signals and the log-probability residual relative to its expectation, offering a unified perspective on existing interventions. Based on these findings, we propose ANCHOR, an algorithm designed to resolve deadlocks and maintain stability. ANCHOR uses a dual mechanism: it dynamically anchors the entropy decay of positive samples to prevent premature saturation, and uses entropy variations to stabilize updates for negative samples. Extensive experiments on reasoning benchmarks show that ANCHOR significantly outperforms strong baselines. Unlike heuristic methods that induce verbosity to mitigate collapse, ANCHOR promotes concise reasoning paths, improving both stability and efficiency.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818081",
+    "citations": 0
+  },
+  {
+    "title": "GLaVis: Generative Latent Visual Queries for Multimodal Conversational Recommender Systems with MLLMs",
+    "authors": [
+      "Ting Yang",
+      "Li Chen",
+      "Yuhan Zhao"
+    ],
+    "link": "https://www.semanticscholar.org/paper/65bb787d087adacf4a8e2cd19fede11f226f8e7a",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Multimodal Conversational Recommender Systems (MCRSs) hold the promise of capturing ineffable user preferences in diverse modalities and multi-turn interactions. However, existing paradigms based on Multimodal Large Language Models (MLLMs) are fundamentally constrained: They either are restricted by external retrievers or suffer from severe information bottlenecks by translating visual intents into intermediate textual descriptions. To transcend these limitations, we propose GLaVis (Generative Latent Visual Queries), an end-to-end generative visual retrieval framework, which enables an MLLM to directly produce continuous latent embeddings as visual queries for multimodal conversational recommendation. To bridge the semantic gap between MLLM representations and the visual space of the item, we integrate a lightweight visual query projector into the MLLM backbone. This module maps internal hidden states to the visual embedding space, using a reason-before-generation paradigm to ensure that the generated queries are deeply grounded in the multimodal context. Furthermore, to unify recommendation (i.e., visual retrieval) and natural language response generation within a single framework, we devise a multi-stage training strategy. By integrating meta-alignment via supervised fine-tuning with task-oriented reinforcement learning using Group Relative Policy Optimization (GRPO), we jointly optimize the dual objectives of precise visual alignment and response generation. Extensive experiments on two public datasets (MMD and FashionRec) demonstrate that GLaVis significantly outperforms state-of-the-art baselines in both visual recommendation accuracy and response quality. Our code is available at https://github.com/yt556677/GLaVis.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818070",
+    "citations": 0
+  },
+  {
+    "title": "NaviRAG: Learning to Navigate Knowledge Graphs for Retrieval-Augmented Generation",
+    "authors": [
+      "Jinghong Lei",
+      "Wang Kun",
+      "Zhigang Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6488bb2ace25321de540f0517727ccf77d5b4fc8",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Retrieval-Augmented Generation (RAG) has become a fundamental paradigm for enhancing Large Language Models (LLMs) with external knowledge. However, while recent structure-augmented approaches organize documents into graphs to improve information access, their retrieval strategies remain largely static, relying on similarity ranking or static probability diffusion. We identify that this paradigm suffers from two inherent limitations in complex reasoning: popularity bias, where retrieval paths are trapped by high-degree distractors, and signal decay, where relevance signals attenuate over long reasoning chains. To overcome these challenges, we propose NaviRAG, a novel framework that reformulates retrieval as a reinforcement learning-driven dynamic navigation problem on schema-less knowledge graphs (KGs). Unlike passive diffusion, NaviRAG employs an agent that actively traverses the graph to act as a search-space pruning engine, identifying logical multi-hop reasoning paths. Technically, we introduce three key components: (1) Structure-Aware Query Expansion, which bridges the modality gap between unstructured queries and structured graph seeds for precise initialization; (2) Target-Driven Reward Shaping, which provides dense supervision based on semantic progress toward gold documents, effectively mitigating the sparse reward problem in large-scale graph traversal; and (3) a Multi-View Hybrid Reranking strategy that operates on the highly-pruned candidate subgraph, integrating policy confidence, semantic relevance, and global structural importance to ensure robust candidate selection. Extensive experiments on three multi-hop QA datasets and two single-hop QA datasets demonstrate that NaviRAG significantly outperforms baselines, achieving state-of-the-art performance in multi-hop QA while maintaining robustness in single-hop QA. Our code and data are available at https://github.com/CkingEW/NaviRAG.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817935",
+    "citations": 0
+  },
+  {
+    "title": "Multi-Turn Reinforcement Learning for Large Language Models: From Theory to Practice with Amazon SageMaker AI",
+    "authors": [
+      "Zhe Wang",
+      "Sapana Chaudhary",
+      "Jiayu Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/62c1edeb539932fb6c81a809be55038775e2cc06",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Production large language model (LLM) based systems such as coding agents, web navigators, and tool-calling assistants operate over multiple turns of interaction with users, tools, and environments. Pretrained LLMs, depending on their size, can either underperform in these settings due to misalignment with the system's interaction mechanics, or, when capable, incur prohibitive latency. Fine-tuning right-sized models addresses both accuracy and latency, but training such multi-turn agents requires Reinforcement Learning (RL), where the model acts as a policy optimizing long-horizon outcomes across sequential interactions. This poses challenges absent from single-turn settings: credit assignment over long trajectories, reward design for sparse and delayed feedback, state and context management as observation histories grow, environment scaling for parallel rollout collection, and training stability under prompt/environment distribution shift. This hands-on problem-solving tutorial provides both a rigorous algorithmic and practical introduction to multi-turn RL finetuning for LLMs. Using Amazon SageMaker AI, participants progress through four labs: (1) environment and reward function design, (2) multi-turn trajectory collection and Group Relative Policy Optimization (GRPO)-based training, (3) reward densification and credit assignment strategies, and (4) evaluation, failure diagnosis and deployment. We cover state-of-the-art multi-turn RL finetuning algorithms, turn-level vs. trajectory-level reward design, and production grade monitoring for reward hacking detection. The tutorial targets machine learning (ML) engineers, data scientists, and researchers who build agentic LLM systems. No prior RL experience is required. All materials will be publicly available on GitHub.",
+    "summary": "",
+    "doi": "10.1145/3770855.3816472",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Models for Behavior Trees Generation in Unreal Engine",
+    "authors": [
+      "Axel Gerbeaud",
+      "Leo Lorcet",
+      "Loan Campan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5ca6acf115eb52b4c909850337f520f0e7307de7",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Behavior Trees (BTs) enable dynamic and strategic gameplay by controlling non-player characters (NPCs) in video games, but their construction and iterative refinement remain time-consuming and technically demanding for game developers. This project explores the integration of Large Language Models (LLMs) within Unreal Engine 5 as a tool to automatically generate BTs from natural language prompts, thereby reducing the complexity of designing game AI and accelerating the production pipeline. In order to choose the adapted model in terms of coherence and practicability for local integration, multiple models were benchmarked. Results revealed that models under 2.5 GB provided the best trade-off between performance and output quality. The LLaMA 3.2 3B Instruct quantized model was found to be particularly suitable. In this study, we have thus developed a tool based on the Llama-Unreal Plugin to implement a local LLM into the engine. A custom prompt interface was implemented in the editor, allowing users to submit natural language inputs. The model responds with an XML description of the BT, which is then parsed and instantiated as a native BT asset in Unreal Engine. The XML schema was carefully designed to accommodate different node types (tasks, composites, decorators). The implemented system was tested with simple NPC behaviors like seeking and chasing the player for a guardian, or like a boss fight sequence for a dragon. It successfully produced functional BTs from simple prompts in various gameplay scenarios. Early results have shown how LLMs can streamline the creation of Game AI. The system could be extended to support more complex and hierarchical BTs, improve error handling in XML parsing, and integrate with other game engines such as Unity or Godot.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815631",
+    "citations": 0
+  },
+  {
+    "title": "The Forgetting-Learning Trade-off: Making Reinforcement Learning Work for Protein Language Models",
+    "authors": [
+      "Hanqun Cao",
+      "Hongrui Zhang",
+      "Junde Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/57bf4ae75fb81de2e0b75b29efd2c45209b41e19",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "Protein Language Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Reinforcement learning (RL) is increasingly applied to Protein Language Models (PLMs), yet its effectiveness varies across tasks, and standard metrics such as pass@k can rise even when the model's solvable problem set is shrinking. We introduce two capability-level diagnostics. The Expansion-Shrinkage Ratio (ESR) measures how RL shifts the set of problems a PLM can solve, separating genuine gain from probability redistribution. Dual-Reward ESR reports ESR under both the training reward and an orthogonal evaluator; the gap ΔESR quantifies reward hacking as a single observable number. Applied across four protein design tasks, three RL algorithms (DPO, PPO, GRPO), and two PLM architectures, the diagnostics reveal that RL on PLMs is governed by two reward properties: verifiability, whether the reward is a fixed environment or a learned surrogate vulnerable to distribution shift, and coverage, the fraction of sequence space giving an informative gradient. The two axes produce three regimes with distinct ΔESR signatures: well-covered verifiable rewards yield genuine expansion; sparse verifiable rewards induce a coverage bottleneck; predicted rewards induce reward hacking. Controlled analyses isolate these two factors as operative, letting practitioners predict an RL run's outcome before committing to costly fine-tuning.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818895",
+    "citations": 0
+  },
+  {
+    "title": "From Habits to Discovery: Deploying LLMs for Personalized Generative Recommendations at Spotify",
+    "authors": [
+      "Edoardo D’Amico",
+      "Marco De Nadai",
+      "P. Chandar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/56ee16dfa02ae29095df51e66c1f61db9c55f879",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Podcast listening is often grounded in a set of favorite shows, while listener intent can evolve over time. This combination of stable preferences and changing intent motivates recommendation approaches that support both familiarity and exploration. Traditional recommender systems typically emphasize long-term interaction patterns, and are less explicitly designed to incorporate rich contextual signals or flexible, intent-aware discovery objectives. In this setting, models that can jointly reason over semantics, context, and user state offer a promising direction. Large Language Models (LLMs) provide strong semantic reasoning and contextual conditioning for discovery-oriented recommendation, but deploying them in production introduces challenges in catalog grounding, user-level personalization, and latency-critical serving. We address these challenges with GLIDE, a production-scale generative recommender for podcast discovery at Spotify. GLIDE formulates recommendation as an instruction-following task over a discretized catalog using Semantic IDs, enabling grounded generation over a large inventory. The model conditions on recent listening history and lightweight user context, while injecting long-term user embeddings as soft prompts to capture stable preferences under strict inference constraints. We evaluate GLIDE using offline retrieval metrics, human judgments, and LLM-based evaluation, and validate its impact through large-scale online A/B testing. Across experiments involving millions of users, GLIDE increases non-habitual podcast streaming on Spotify home surface by up to 5.4% and new-show discovery by up to 14.3%, while meeting production cost and latency constraints.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818419",
+    "citations": 0
+  },
+  {
+    "title": "Continual-GraphLLM: Dynamic Graph Large Language Model with Invariance Regularized Adaptive Multi-Scale Experts",
+    "authors": [
+      "Tianhang Wan",
+      "Xin Wang",
+      "Haibo Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/51bcbf9700d9d79583beb063dacd8ac91a8cd901",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Dynamic text-attributed graphs (DyTAGs) exhibit coupled textual and structural dynamics, and existing mainstream approaches for DyTAGs extend conventional large language models (LLMs) to capture both dynamics, thereby giving rise to dynamic graph LLMs. However, in DyTAGs, the continuous emergence of new nodes and edges with incoming textual content and interactions drives the joint evolution of graph structural-textual patterns, causing existing methods to struggle with evolving patterns. This motivates a largely unexplored problem of continual learning on DyTAGs, which aims to adapt to constantly evolving graph structural-textual patterns while retaining past knowledge, which imposes two challenges: 1) unlike common graphs, graph structure and textual semantics in emerging DyTAG patterns jointly evolve, requiring dynamic graph LLMs to adapt structure, text, and graph-text fusion simultaneously; and 2) updating dynamic graph LLMs to fit a new pattern may destroy the global graph-text fusion capabilities and bias the model towards recent local dynamics. To address these challenges, we propose a novel Continual Learning Dynamic Graph LLM framework (Continual-GraphLLM) to continually adapt to incoming patterns by routing them to experts specialized in similar past patterns, while mitigating the overwriting of previously learned patterns by assigning new experts to unseen patterns. Specifically, we propose a graph-text factor-based router to adapt to incoming structural-textual joint patterns by utilizing latent factors to adaptively activate suitable experts. Furthermore, we design invariance regularized multi-scale experts that mitigate forgetting by capturing the invariances among learned patterns assigned to the same expert, where each expert progressively integrates structural and textual information from local scale to global scale. Extensive experiments on real-world DyTAGs demonstrate the superiority of our method over competitive baselines, highlighting its effectiveness in adapting to emerging DyTAG patterns.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817924",
+    "citations": 0
+  },
+  {
+    "title": "The Second Workshop on SciSoc Agents & LLMs: Agentic AI for Scientific and Societal Advances",
+    "authors": [
+      "Jiayuan Ding",
+      "Wei Jin",
+      "Carl Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4a929dd16a63adfeb68ded2563567d80793813c3",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Second Workshop on SciSoc Agents & LLMs: Agentic AI for Scientific and Societal Advances aims to explore the emerging paradigm of agentic artificial intelligence, where Large Language Models (LLMs) are combined with autonomous agents, tools, memory, and multi-step reasoning to drive scientific discovery and address critical societal challenges. As LLMs continue to advance in capability, their integration into agent-based systems enables more interactive, goal-driven, and adaptive workflows that go beyond passive text generation. In particular, Agentic AI systems have demonstrated strong potential in orchestrating complex scientific pipelines, reasoning over large and heterogeneous datasets, interacting with external environments, and supporting decision-making in domains such as healthcare, environmental science, education, public policy, and social sciences. By bringing together researchers and practitioners from AI, data mining, science, and society, this workshop aims to foster a comprehensive understanding of how LLMs and agent-based architectures jointly redefine traditional research methodologies. Participants will explore novel agentic frameworks, multi-agent collaboration, and real-world deployments that leverage LLM-powered agents to accelerate scientific progress and generate meaningful societal impact.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818253",
+    "citations": 0
+  },
+  {
+    "title": "StablePFN: Stable Prediction with Causal-Aware Tabular Foundation Model",
+    "authors": [
+      "Zheng Guan",
+      "Yikang Chen",
+      "Hao Qian",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/499aef1e2cd8535d74c220f3ee588f37ac835662",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Foundation Model"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Pre-trained tabular prediction models based on Prior-Data Fitted Networks (PFNs), such as TabPFN and LimiX, have achieved remarkable progress in supervised learning, demonstrating immense potential across real-world scenarios and diverse downstream tasks. However, a critical question remains systematically unexplored: Does pre-training on data generated via causal mechanisms truly endow models with the ability to comprehend underlying causal structures? Furthermore, can these models leverage such causal information to achieve stable prediction across environments? To address these fundamental questions, we propose StablePFN, a novel tabular foundation model that integrates explicit causal awareness with stable predictive modeling. Leveraging a key yet largely overlooked advantage of the PFN paradigm, the availability of ground-truth causal structure during synthetic data generation, we train StablePFN to jointly identify the Markov Boundary (MB) of the target variable and perform the primary prediction task. We introduce an end-to-end ''Decouple-Discover-Predict'' architecture that utilizes sample decoupling weights to guide MB discovery, and employs a hard attention masking mechanism during inference to incorporate causal structural knowledge. Extensive experiments on both synthetic and real-world benchmarks demonstrate that StablePFN significantly outperforms state-of-the-art baselines in cross-environment prediction settings, particularly in challenging high-bias scenarios.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818030",
+    "citations": 0
+  },
+  {
+    "title": "Generating Clue-Driven Investigative Game Narratives with Large Language Models",
+    "authors": [
+      "Vikram Kumaran",
+      "A. Smith",
+      "Wookhee Min",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/435cd29502ded6ba5ee2c01b149e82775f168d2d",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Creating interactive narratives where player investigation meaningfully drives story progression remains a central challenge in game design. We present a procedural narrative generation framework that leverages large language models (LLMs) to construct clue-driven investigative stories that unfold through character interactions and environmental exploration in a rich 3D game world. At the heart of the framework is a deductive solution model that defines what the player must ultimately infer through conversations with non-player characters (NPCs) and by examining in-world artifacts such as books and posters. This model guides the dynamic generation of characters, relationships, clues, and interactive dialogue to maintain narrative coherence. The framework automatically assembles the generated elements into a playable 3D episode in which players explore narrative elements that progressively reveal and incrementally narrow the space of valid interpretations, culminating in a final deductive conclusion. We evaluate the framework using automated tests of solvability and narrative consistency, as well as player experience studies assessing engagement, clarity, and satisfaction with the investigative gameplay. Results demonstrate that this approach can generate coherent, playable investigative narratives across a broad range of themes and subject matter areas (e.g., STEM, logistics, analytical thinking), enabling more scalable authoring of interactive story-driven games.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815649",
+    "citations": 0
+  },
+  {
+    "title": "Think-like-LSTM: Memory-Augmented Large Language Models via Dynamic Fine-Tuning for Financial Risk Assessment",
+    "authors": [
+      "Siwei Zhang",
+      "Yun Xiong",
+      "Xi Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/414aa1921e3f1106400b395ec0309792fd906cc5",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Financial risk assessment (FRA) seeks to forecast the likelihood of user default based on transaction sequences, which are inherently sequential and enriched with textual attributes. Despite the remarkable potential of large language models (LLMs) in sequential modeling and semantic understanding, developing LLM-based FRA solutions still presents unique challenges due to the temporal dynamics of transaction patterns and the need to capture long-term dependencies across prolonged behavioral horizons. To tackle these issues, in this paper, we propose FraLLM, a novel LLM fine-tuning framework that seamlessly internalizes transaction-oriented knowledge for FRA. FraLLM is designed from an interesting idea of Think-like-LSTM, enabling dynamic-aware LLMs to reason over long-range transaction trajectories. Specifically, we propose a Dynamic Fine-tuning Paradigm, which reprograms the transaction sequences into timestamped text prototypes and fine-tunes LLMs via a next-text prediction task. It dynamically offers linguistic gradients across time steps, facilitating transaction dynamics. Meanwhile, we introduce the Memory Token Mechanism that recurrently aggregates historical text prototypes into a compact, continuously updated memory token. This token allows LLMs to effectively synthesize long-term transaction history while ensuring cost-efficiency. Extensive experiments on three real-world industrial transaction datasets show that FraLLM outperforms all baselines, achieving substantial gains in AUC (+11.2%), Recall@10 (+9.1%), and KS (+14.8%). Moreover, our proposed FraLLM yields significant improvements in online testing within the WeChat Pay financial system, demonstrating its effectiveness and application value for industrial deployment.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818491",
+    "citations": 0
+  },
+  {
+    "title": "Quest of Aivengarde: Comparative Study of Player Experience Across LLM Dialogue Systems",
+    "authors": [
+      "Emil Rimer",
+      "A. Petersen",
+      "Rasmus Ploug",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3f93f7760ccc1321b1078bef68db895f8aee7dfb",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Non-player character (NPC) dialogue plays a crucial role in games. Narrative-driven video games in particular depend on NPCs to help shape the player experience by contributing to narrative, immersion, and player agency. Current technologies allow large language models (LLMs) to create dynamic, context-sensitive dialogue for NPCs, yet their impact on player experience remains underexplored. Quest of Aivengarde is a custom-built role-playing game developed as a research testbed for comparing four dialogue system designs: a static control version and three LLM-driven variants that rephrase, hybridize, or fully generate NPC dialogue. Building on previous pilot and demo studies, this paper integrates the system design and full empirical evaluation to examine how levels of generative agency affect interaction quality, immersion, and player engagement. Using mixed-methods analysis of behavioral logs and post-game surveys from 64 participants, results suggest that fully open-ended LLM dialogue fosters longer, more natural conversations and is particularly engaging for casual players. We discuss design trade-offs between narrative control and conversational freedom and propose a practical framework for selecting and combining LLM-driven dialogue approaches in future game development and research.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815622",
+    "citations": 0
+  },
+  {
+    "title": "Accelerating Influence Function Estimation for Large Language Models: A Practical Design",
+    "authors": [
+      "Mengyi Yan",
+      "Yaoshu Wang",
+      "Guangyi Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3d4f86cf4bdc1ab89e8e6d5a35e2ca60989582bf",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Influence functions provide a principled framework for tracing model predictions back to training data, yet existing methods remain impractical for large language models due to prohibitive storage and I/O costs. Prior approaches face two critical barriers: the Fidelity Gap from coarse curvature approximations, and the I/O bottleneck from materializing per-example gradients, which renders million-scale datasets infeasible. We propose StructInf, a structure-aware influence estimation framework that addresses both gaps through system-algorithm co-design. For fidelity, we first replace the indefinite Hessian with an adaptive block-diagonal damped empirical Fisher surrogate, computed via quadratically convergent Newton--Schulz iterations. For efficiency, we then introduce a streaming algorithm that eliminates per-example gradient storage entirely, reducing space complexity from O(N • d) to O(d) and enabling processing of million-scale training instances on consumer hardware, where N denotes the number of training instances and d the parameter size. We further identify and resolve Split-View Bias, a distributed pitfall where naive averaging of local curvatures fails, via a distributed gradient calibration strategy that synchronizes global statistics with minimal communication. Finally, we conduct comprehensive experiments to evaluate StructInf against other baselines. Unlike prior methods requiring hours of pre-computation or TB-scale storage, StructInf enables real-time data selection during training. Across GLUE and instruction-tuning benchmarks, StructInf achieves up to +26% AUC on MRPC and average 7× speedup for 7B-scale models, making high-fidelity influence analysis practical on a single RTX 4090. These results suggest that practical IF for LoRA-tuned LLMs benefits from joint optimization of curvature modeling, memory management, and distributed coordination.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817953",
+    "citations": 0
+  },
+  {
+    "title": "OTPCL: Optimal Transport Driven Pseudo-Labeling with Contrastive Learning for Social Bot Detection",
+    "authors": [
+      "Ruixuan Xu",
+      "Mengting Hu",
+      "Xinqi Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/38f23bfb7f481795a49e8c97cdbea64f42cf6a13",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Social bot detection is vital for protecting online platforms from misinformation and manipulation. In recent research, graph neural networks (GNNs) have emerged as a powerful approach, since they leverage relational patterns and social interactions to identify coordinated bot behaviors. However, two key challenges arise from the nature of real-world social networks: First, bots often actively interact with human users through follows, replies, and mentions, creating numerous ''heterophilous'' edges, i.e., connections between different classes. These cross-class ties disrupt the homophily assumption underlying many GNNs, causing messagepassing to propagate and amplify errors. Second, due to the high cost and time required for manual annotation, social media platforms typically contain a large proportion of unlabeled data, with only a small fraction labeled for bot detection. Unlabeled data are often underutilized, making supervision sparse. To address this, we propose OTPCL (Optimal Transport Driven Pseudo-Labeling with Contrastive Learning), a plug-in framework for GNN-based social bot detection. OTPCL first employs contrastive learning to obtain well-separated node representations. It then formulates pseudolabel assignment as an optimal transport problem, which simultaneously generates pseudo-labels and quantifies their reliability via transport scores. These scores guide two key mechanisms: selective removal of unreliable heterophilous edges to purify the graph structure, and reducing the influence of pseudo-labels with transport scores below the dynamic threshold. Extensive experiments on three widely used benchmark datasets demonstrate that OTPCL consistently improves the detection performance across six different GNN backbones, showing strong robustness and generalization in both low-labeled and fully-labeled scenarios.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818069",
+    "citations": 0
+  },
+  {
+    "title": "The 12th Mining and Learning from Time Series (MILETS)",
+    "authors": [
+      "Qingsong Wen",
+      "Yuxuan Liang",
+      "Chang Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3472aba33a3229a6bbb8d60337b7513240dbb1d4",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Time series data is now pervasive across domains such as healthcare, finance, entertainment, and transportation, driven by advances in sensing technologies that enable continuous data collection. The resulting increase in data volume and complexity poses significant challenges to traditional analysis methods, calling for the development of advanced, interdisciplinary approaches to temporal data mining. This workshop aims to: (1) identify key challenges in learning from time series data, including irregular sampling, spatiotemporal dependencies, and uncertainty quantification; (2) explore recent advances in algorithmic, statistical, theoretical, and systems-based solutions---ranging from classical methods to emerging techniques involving large language models (LLMs); and (3) foster collaboration by highlighting open problems and novel research directions in time series analysis. Bridging theory and practice, the workshop provides a platform for researchers and practitioners from academia, industry, and government to exchange ideas, discuss technical challenges, and showcase practical applications. Contributions from related areas such as AI, machine learning, data science, and statistics are strongly encouraged.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818264",
+    "citations": 0
+  },
+  {
+    "title": "The 1st International Workshop on AI Data Scientist",
+    "authors": [
+      "Hao Liu",
+      "M. Zitnik",
+      "Yong Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2e7c087ecca035efbbc0369c626cbcbaffe65f3c",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As data volumes and analytical demands grow, traditional data science workflows struggle to meet the need for efficiency, scalability, and reliability. The rapid advancement of large language models (LLMs) has opened new possibilities for AI-powered agents to augment or automate end-to-end data science pipelines—from data exploration and cleaning to modeling, evaluation, and deployment. This emerging paradigm, termed the AI Data Scientist, has gained significant attention in research and industry, yet discussions remain fragmented regarding its integration, evaluation, and real-world impact. This workshop seeks to consolidate these efforts by providing an interdisciplinary forum for presenting cutting-edge research, sharing deployment experiences, and showcasing real-world systems. The workshop will feature invited talks, paper presentations, a demo track, and a panel discussion, aiming to foster community-building and guide responsible development in this rapidly evolving field.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818265",
+    "citations": 0
+  },
+  {
+    "title": "Orchestrating Reasoning and Reaction: An Asynchronous Hierarchical Framework for LLM-driven Traffic Signal Control",
+    "authors": [
+      "Fansheng Sun",
+      "Jiyu Wang",
+      "Zhidan Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/282c548d812af9ab0ed9ed19fe996bdd8f170916",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Network-wide coordinated Traffic Signal Control (TSC) is critical for enhancing urban mobility. However, existing approaches face a fundamental trade-off: traditional Multi-Agent Reinforcement Learning (MARL) is often hindered by a myopic observational scope, while Large Language Model (LLM) agents are constrained by high inference costs and spatial-topological hallucinations. To address these limitations, we present Astra, an Asynchronous Synergistic Traffic Regulation Architecture that decouples high-level strategic reasoning from reactive execution through a three-layer hierarchy. Specifically, the Macro layer performs low-frequency strategic inference to identify global bottlenecks, which are then partitioned into regional congestion subgraphs. The Meso layer employs a topological semantic causal logic mechanism to ground LLM-based coordination in physical reality via semantic primitives. Simultaneously, the Micro layer governs the broader network using decentralized MARL agents optimized with spatial attention and auxiliary prediction for robust, high-frequency execution. To bridge the gap between reasoning depth and real-time constraints, Astra incorporates an asynchronous synergetic protocol featuring strategic locking for stability and proactive feedback for adaptive re-planning. Extensive evaluations on real-world datasets demonstrate that Astra consistently outperforms state-of-the-art baseline methods, offering superior efficiency, robustness, and generalization across diverse urban scenarios.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818039",
+    "citations": 0
+  },
+  {
+    "title": "CodeCAD: A Parametric CAD Dataset for Programmatic 3D Model Generation",
+    "authors": [
+      "D. Fresacher",
+      "Klaus Diepold"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1a9648e47b2a8a78767364bd78e87c716766cb00",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Generative models have recently made significant progress in generating 3D content from image or text data, yet existing methods mostly rely on implicit or discretized geometric representations that lack parametric structure or design intent. These limitations make them poorly suited for computer-aided design (CAD). In contrast, code-based CAD representations offer parametric structure and a human-readable presentation but remain underexplored due to the scarcity of datasets. We present a dataset of over 95,000 native OpenSCAD models, primarily containing mechanical parts and engineering components, designed specifically for the programmatic generation of 3D models. The dataset consists of user-created OpenSCAD code, featuring both constructive solid geometry and sketch-and-extrude modeling, along with descriptive metadata, rendered images, and detailed license information. A five-stage pipeline ensures syntactic validity, semantic richness, de-duplication, and quality annotations. To test the dataset's potential, we fine-tuned code-generation large language models for text-to-CAD generation. The evaluation results show consistent improvements in compilation validity and geometric distance to ground-truth samples. By releasing this dataset publicly, we aim to open new opportunities for programmatic 3D model generation.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817592",
+    "citations": 0
+  },
+  {
+    "title": "SetLLM: Set Large Language Model for Cold-Start Item Recommendation",
+    "authors": [
+      "Ruochen Liu",
+      "Hao Chen",
+      "Yuan-Qi Bei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/162719a05a94f1dae822c1897b29227addfb1c55",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Cold-start item recommendation remains a longstanding challenge, as cold items usually lack sufficient interactions to train the behavioral embeddings. Recently, large language model (LLM)-based item cold-start models have tried to address this issue by generating synthetic user-item interactions to train the behavioral embeddings for cold items. Current cold-start LLM paradigms, such as PairLLM, generally first select a small set of users and then filter possible users for the cold items as cold interactions. However, PairLLM suffers from linearly increasing computational complexity as the user candidate set grows, resulting in substantial computational overhead and limited performance. In this paper, we propose a novel SetLLM paradigm, which directly generates a potential interaction subset rather than inferring interactions individually from a user candidate set. Specifically, SetLLM first constructs a subset generation structure that utilizes the content of cold items to filter the user candidate set according to user behaviors and then incorporates tailored set generation fine-tuning mechanisms. Moreover, we propose a Direct Cold-start Preference Optimization (DCPO) module to evaluate and refine the quality of the generated cold-start interaction sets, further enhancing the performance of SetLLM. Together, these components establish an effective paradigm for LLM-based cold-start recommendation. Experiments on two real-world datasets demonstrate that SetLLM achieves state-of-the-art performance on item cold-start recommendation while improving computational efficiency by over 30 times compared with the PairLLM approach.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817707",
+    "citations": 0
+  },
+  {
+    "title": "Enterprise AI Agents: From Prototypes to Production",
+    "authors": [
+      "Min Du",
+      "Anbang Xu",
+      "Jasmine Jaksic",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/15cd264e49ee58e687520fceb08035f683ab7bec",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) have evolved from standalone generative systems into agentic AI systems capable of planning, reasoning, tool use, and multi-agent collaboration. Enterprises are increasingly adopting AI agents to automate and orchestrate complex workflows, from IT operations to employee productivity. While early deployments focused on proof-of-concept prototypes, the past year has marked a clear shift toward production-grade enterprise AI agents. This transition has been enabled by a wave of new technologies, including multi-agent orchestration, memory and state management, skill-based and modular agent architectures, and deeper integration with enterprise data and workflow platforms, which together make scalable, reliable agent systems feasible in practice. At the same time, moving agents into production introduces new technical and organizational challenges, such as rigorous evaluation and benchmarking, security and governance, and system design for long-running, autonomous operation. Building on the success of our two prior highly attended editions: ''Agentic AI for Enterprise'' workshop at KDD 2025 and ''Enterprise RAG'' workshop at CIKM 2024, this workshop aims to bring together researchers and practitioners to examine how enterprise AI agents can successfully move from prototypes to production. We focus on three pillars: 1) Agent architectures and systems; 2) Enterprise applications and deployments; 3) Evaluation and governance.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818266",
+    "citations": 0
+  },
+  {
+    "title": "G²PRO: Gradient-guided Graph Prompt Optimization for LLM-based POI Recommendation",
+    "authors": [
+      "Nan Jiang",
+      "Haitao Yuan",
+      "Tianjun Wei",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/139e5693be8829ef9b9895df4f5194479d9bd186",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large Language Models (LLMs) have shown strong potential for sequential reasoning, creating new opportunities for next Point-of-Interest (POI) recommendation. However, applying LLMs to POI prediction remains challenging due to the modality gap between textual semantics and continuous spatio-temporal signals. Existing rule-based prompting methods often introduce redundant context when bridging this gap. To address this issue, we propose G2PRO, a collaborative framework that combines the structural perception of Graph Neural Networks (GNNs) with the reasoning capability of LLMs. Specifically, we construct a User-Behavior Spatio-Temporal Knowledge Graph (UST-KG) to capture POI relations and transition dynamics, and train a lightweight GNN-based Prompt Selector (GPS) to select informative POI nodes for prompt construction. We further introduce a gradient-guided positive prompt labeling strategy that estimates each POI's contribution to the target prediction through gradients over prompt embeddings, turning prompt selection into an optimizable learning objective rather than a hand-crafted heuristic. Experiments on four real-world datasets show that G2PRO consistently outperforms state-of-the-art traditional and LLM-based baselines. Ablation and breakdown studies further validate the effectiveness of each component and demonstrate the benefits of structure-aware, attribution-guided prompting for LLM-based POI recommendation.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818010",
+    "citations": 0
+  },
+  {
+    "title": "RMEval: Bridging Reward Model Evaluation and Policy Evaluation through Ranking Consistency",
+    "authors": [
+      "Wenjie Qiu",
+      "Xuqin Zhang",
+      "Yihang Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/10fcf549da8b14d05d85a2b8003d157416d61d4e",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Reward Models (RMs) are widely used to guide the alignment of Large Language Models (LLMs) in Reinforcement Learning from Human Feedback (RLHF), and their quality has a substantial impact on the performance of trained policy models. In current practice, reward models are predominantly evaluated using local metrics such as pairwise accuracy on validation sets. However, recent studies have shown that the accuracy metric exhibits only weak correlation with downstream policy performance. To bridge this gap, we propose RMEval, a benchmark that revisits reward model evaluation through the lens of global ranking consistency. Specifically, we conduct the standard RLHF training to generate a sequence of policy checkpoints with progressively improving performance. We then construct our evaluation sets by sampling responses from these checkpoints, establishing a ground-truth ranking based on downstream policy evaluation. By scoring these responses with a candidate reward model, we measure the consistency between the ranking induced by the reward model and the ground-truth ranking defined by policy performance, using the consistency as our evaluative metric. Through extensive empirical analysis, we evaluate existing reward models on RMEval and demonstrate that our metric exhibits a strong correlation with downstream policy performance, with Pearson coefficients exceeding 0.6 across multiple domains.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817593",
+    "citations": 0
+  },
+  {
+    "title": "The 5th Workshop on AI Agent for Information Retrieval: Generating and Ranking",
+    "authors": [
+      "Qingsong Wen",
+      "P. Mehrotra",
+      "Yongfeng Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/10e32db62e2baf3d9abb9e7aba22f4bff4149f13",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3770855.3818251",
+    "citations": 0
+  },
+  {
+    "title": "Structure Is All You Need to Reuse: Accelerating GraphRAG via Meta-Structure-Aware KV Caching",
+    "authors": [
+      "Ruikun Luo",
+      "C. Gu",
+      "Jing Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/0df3f0c13d75cb4ace9590c51e4dada1feea773a",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Retrieval-Augmented Generation over Knowledge Graphs (GraphRAG) enhances Large Language Models (LLMs) with structured, multi-hop evidence. However, existing GraphRAG systems predominantly linearize retrieved subgraphs into long textual prompts, forcing LLMs to recompute identical schema-level reasoning across queries repeatedly. This text-centric design incurs substantial prefilling latency, memory overhead, and severely limited cache reuse under entity-level variations. We observe that although retrieved entities differ across queries, their underlying logical schemas (meta-structures) recur with high frequency, indicating that most computational cost is spent on repeatedly encoding invariant structural logic. In this paper, we propose MetaKV, the first structure-aware KV caching mechanism that explicitly decouples static structural logic from dynamic entity semantics in GraphRAG inference. In a preparation phase, MetaKV mines frequent meta-structures and pre-computes their Key-Value (KV) caches as reusable Skeleton KVs. During inference, query-specific entity representations are injected into reserved structural slots to assemble the context without recomputing graph topology. To further enforce faithfulness to graph reasoning, MetaKV introduces a Topological Mask that constrains attention to valid graph edges. Extensive experiments conducted on HotpotQA and MetaQA datasets demonstrate that MetaKV achieves up to 6.4× prefilling speedup and a 73% effective cache-hit rate while maintaining competitive reasoning accuracy, enabling high-throughput, low-latency GraphRAG without sacrificing adherence to graph topology.",
+    "summary": "",
+    "doi": "10.1145/3770855.3817942",
+    "citations": 0
+  },
+  {
+    "title": "Generate Diverse Skills with Large Language Models",
+    "authors": [
+      "Kaijie Xu",
+      "C. Verbrugge"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0a477784d87d250f372c5e19c66fd142e7afc4c5",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "International Conference on Foundations of Digital Games"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Roguelike and auto-battler games derive much of their replayability from randomized progression, rewards, and encounter sequencing, yet this randomness rarely extends to genuinely diverse game mechanics and content such as skills or combat units. Existing procedural systems for such content usually depend on fixed rule spaces, hand-authored templates, or proxy spell engines, which limit their ability to produce outputs that are semantically meaningful, valuable in play, and sufficiently expressive. We present Neural Spore Genesis, a browser-based roguelike auto-battler in which players buy elemental cells, arrange them on a 5 × 5 grid, and compile that spatial layout into a combat skill for auto-battle. To support this task, we build a high-expressivity structured skill framework covering a broad range of 2D auto-battler combat behaviors, and evaluate local open-weight language models against deterministic, template-based, random, and calibrated sampler baselines. Across 6 generator conditions and a 105-configuration corpus evaluated with 11 metrics, local LLMs achieve near-perfect element coherence while maintaining high intra-config diversity, a combination the baselines do not match. This work offers a practical evaluation environment for intent-aware procedural mechanic generation and supports future research on semantically grounded content systems for high randomness games.",
+    "summary": "",
+    "doi": "10.1145/3815598.3815673",
+    "citations": 0
+  },
+  {
+    "title": "Taming Structured Data Foundation Models with AutoML: A Hands-On Guide",
+    "authors": [
+      "Boran Han",
+      "Nick Erickson",
+      "Abdul Fatir Ansari",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/07223a287abc03237a189526104765abefee4d58",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Structured data drives enterprise decision-making, yet building predictive pipelines for time-series and tabular modalities requires intensive feature engineering, model selection, and other ''tricks of the trade''. AutoGluon, an open source AutoML system, automates this through multi-layer stack ensembling, providing a unified API that reliably achieves state-of-the-art accuracy across time series and tabular data. Concurrently, Foundation Models for Structured Data (FM4SD) have emerged to push the boundaries of predictive performance, enabling both powerful zero-shot inference and efficient fine-tuning. Specifically, Chronos-2 delivers state-of-the-art multivariate forecasting for time series, while a rapidly growing ecosystem of tabular foundation models (e.g., TabPFN, Mitra, TabICL) transforms how practitioners execute classification and regression tasks. This system-focused tutorial teaches attendees how to operationalize FM4SDs using AutoML across temporal and tabular modalities, with an additional highlight on the newly released Chronos-2. We guide participants through a technical progression: establishing AutoGluon as the orchestration framework, detailing the internal mechanics of Chronos-2 and various tabular FMs, and unifying them into production-ready pipelines.",
+    "summary": "",
+    "doi": "10.1145/3770855.3816471",
+    "citations": 0
+  },
+  {
+    "title": "Agentic LLMs for Social Network Generation using Explainable Adversarial Re-prompting",
+    "authors": [
+      "Haorui Yan",
+      "Lixing Chen",
+      "Bo Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/00d5d58faabe9aa2c6f12c2637b38dd1a08803ad",
+    "date": "2026-08-09",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "High-quality, reliable social network data are essential for advancing research in social computing. However, the direct use of real-world social networks is often constrained by stringent privacy regulations and ethical concerns, rendering the development of Social Network Generation (SNG) techniques indispensable. While Large Language Models (LLMs) have driven advancements in social network simulation, a core challenge remains unsolved: the lack of comprehensive guidance for generating sufficiently realistic social networks. To address this, we introduce a paradigm shift by incorporating a discriminator based on social bot detection techniques for assessing network realism. Building upon this, we propose an innovative social network generation method that integrates agentic LLMs with eXplainable Adversarial Re-Prompting (X-ARP). The framework utilizes graph-prompted environment perception and decision-making, empowering agents to simulate autonomous behaviors, thereby constructing highly realistic social networks. Furthermore, X-ARP utilizes an explainable bot detector to evaluate network realism, incorporating a multi-level explainable model to extract multi-dimensional evidence from key nodes and features affecting realism. The extracted evidence is converted into explainable re-prompts and fed back into the generator, guiding the agent to refine behaviors deviating from real-world activities. In the ''Generate–Detect–Explain–Refine'' iterative adversarial loop, the generator and detector co-evolve, ensuring that the structural and semantic consistency of the generated network progressively aligns with that of real social networks. Extensive experiments demonstrate that X-ARP significantly outperforms existing methods, achieving only a 2.22% deviation in macro-structural metrics and improving semantic realism by 10.5%.",
+    "summary": "",
+    "doi": "10.1145/3770855.3818076",
+    "citations": 0
+  }
+]
