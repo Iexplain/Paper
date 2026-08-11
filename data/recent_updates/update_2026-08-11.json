@@ -1,0 +1,347 @@
+[
+  {
+    "title": "Reducing Under-Triage Risk in Large Language Model Based Clinical Triage Using UMLS-CUI Augmentation",
+    "authors": [
+      "R. Gokhale",
+      "M. Kukreja",
+      "N. Kumar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f3d7c17ebe41db3d706e154e1902bd690dc5dbb2",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.07.26358932",
+    "citations": 0
+  },
+  {
+    "title": "QSAR, molecular dynamics, and biological evaluation of novel myeloperoxidase inhibitors via ligand-based pharmacophore modeling as potential anticancer agents",
+    "authors": [
+      "Maysoon Raed Alnajdawi",
+      "H. Wahab",
+      "Belal Alnajjar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef7be6f796db72807d57268f684ca446e02107d5",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00895-2",
+    "citations": 0
+  },
+  {
+    "title": "Can ChatGPT pass the polish national medical specialization examination in orthopedics and traumatology?",
+    "authors": [
+      "B. Maciąg",
+      "Krzysztof Bujak",
+      "Dawid Jegierski",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef316b6608b9a048dac567daae1644d685513d91",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Archives of Orthopaedic and Trauma Surgery"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial intelligence (AI) has evolved rapidly in recent years and is becoming increasingly integrated into many areas of medicine. In the medical field, these systems have attracted considerable attention because of their potential applications in clinical decision support, medical education, scientific communication, and postgraduate training. The aim of the present study was to evaluate whether ChatGPT could achieve a passing score on the Polish National Medical Specialization Examination (Panstwowy Egzamin Specjalizacyjny, PES) in orthopedics and traumatology and to determine how different prompting strategies influenced its performance. Authors systematically assessed the performance of ChatGPT-4 across five consecutive official PES exams (from Autumn 2023 to Spring 2025) in orthopedics and traumatology. Each exam was administered using three distinct prompting strategies: Professor prompt, Specialist prompt, Resident prompt. For each exam session (e.g., Spring 2024, Autumn 2023), the prompts were submitted to ChatGPT sequentially. The model’s responses were evaluated against the official answer key published by the Polish Center of Medical Exams (Centrum Egzaminów Medycznych, CEM). The results were averaged across all prompts. The overall accuracy was 81% (range: 68.33%–85.83%). The highest score (85.83%) was recorded multiple times across different prompt types, indicating that the model could approach or exceed the minimum passing threshold depending on prompt structure. Agreement between prompting strategies was moderate to substantial (Cohen’s κ 0.518–0.632; Fleiss’ κ = 0.571). Radiology-related questions demonstrated the highest error rate among all question categories. Large language models such as ChatGPT can perform well on knowledge-based orthopedic examinations and may serve as useful tools for examination preparation and educational support. However, examination success should not be interpreted as evidence of clinical competence or readiness for independent surgical practice. Specialist certification and patient care remain dependent on human expertise, practical skills, and professional responsibility.",
+    "summary": "",
+    "doi": "10.1007/s00402-026-06435-9",
+    "citations": 0
+  },
+  {
+    "title": "Automating the triage of rheumatology outpatient referrals: a comparative evaluation of 23 large language models under simple and advanced prompting",
+    "authors": [
+      "L. Roberts"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e12e26c33b9602ad24ed1d30dfd062124404e8d6",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.05.26359488",
+    "citations": 0
+  },
+  {
+    "title": "StoryNode: a node-based visual orchestration framework for automated comic and storyboard generation",
+    "authors": [
+      "Jie Hu",
+      "Zhaolin Jiang",
+      "Yingfang Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e0357488817fe16019aa6844dfe58ac50f26153f",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02567-5",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence for Diagnosis of Esophageal Manometry: A Narrative Review",
+    "authors": [
+      "E. Robalino Gonzaga",
+      "Juliana Madej",
+      "Nitin K. Ahuja"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e02bee13c799bce97ff0a4468f298f5d518945f6",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Current Gastroenterology Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11894-026-01052-3",
+    "citations": 0
+  },
+  {
+    "title": "Context-Dependent FHIR Serialisation Strategies for Clinical LLM Deployment: A Multi-Layer Benchmark on UK Core Data",
+    "authors": [
+      "J. Chong"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cbf3a0c554958e0efbe27ccc196b5d9134d40e1a",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.05.26359794",
+    "citations": 0
+  },
+  {
+    "title": "Clinical trajectories and genetic architecture across the neurological-psychiatric boundary",
+    "authors": [
+      "J. Kopal",
+      "O. Smeland",
+      "E. Hagen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c6b1ace5a610afd3581113a582108b90ff82b587",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.06.26359855",
+    "citations": 0
+  },
+  {
+    "title": "STaR: a soft-labeling and triplet-aware retriever for efficient retrieval-augmented QA",
+    "authors": [
+      "Jiali Jiang",
+      "Chih-Yung Chang",
+      "Youxi Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/a1832b4c5496163a462d88cc85cc4aceac76b490",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Multimedia Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00530-026-02559-5",
+    "citations": 0
+  },
+  {
+    "title": "One-Pot Synthesis of Naphthalen-2-Thiazolidinones as Potential Breast Cancer Therapeutics: An Integrative Approach Using Network Pharmacology, Biomolecular Simulations and in Vitro Evaluation",
+    "authors": [
+      "C. N. Babu",
+      "Mazin Aboobaida Abdalla Abdelaziz",
+      "N. Nizam-Uddin",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9bddf4b9d7061374570fe0a561c788c2a5ed4d0e",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Journal of Pharmaceutical Innovation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12247-026-10886-3",
+    "citations": 0
+  },
+  {
+    "title": "Dual index retrieval augmented generation for pedagogically aligned mathematics problem solving support in mathematics education",
+    "authors": [
+      "Hao-chen Jiang",
+      "Yonghao Deng",
+      "Zhaochun Wang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9751ee19c8f0abf97e86d36a5d49f5db96e2968d",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10432-2",
+    "citations": 0
+  },
+  {
+    "title": "Analyzing structural and semantic similarities between formal business process models using ChatGPT-5.1: a test report",
+    "authors": [
+      "Christian Bennoit",
+      "S. Zamani",
+      "Tobias Greff"
+    ],
+    "link": "https://www.semanticscholar.org/paper/610c169b9ac9acfbaf8c206d2d7e00e15a8e8a21",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Process Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44311-026-00058-4",
+    "citations": 0
+  },
+  {
+    "title": "Real-World Performance of the 2026 AHA/ACC Pulmonary Embolism Framework in a Multi-System CTPA Cohort",
+    "authors": [
+      "M. Alwakeel",
+      "S. Zaveri",
+      "E. Buck",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5de0112cea82b4195b8ab1003dd6cc5e8d43ca2c",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.06.26359865",
+    "citations": 0
+  },
+  {
+    "title": "Automated Identification of Complex Percutaneous Coronary Intervention from Cardiac Catheterization Reports Using Large Language Models",
+    "authors": [
+      "N. Bhatt",
+      "F. Warner",
+      "J. Miao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/36f3d121a3f1189623f20eeb7d2e1b24d31221fc",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.05.26359802",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Models in Dentistry: A Narrative Review of Reliability, Clinical Utility, and Safety Considerations",
+    "authors": [
+      "T. F. Eyüboğlu",
+      "M. Özcan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3150f70cf48504983d6c0626482fe30a58bb1858",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Current Oral Health Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s40496-026-00439-5",
+    "citations": 0
+  },
+  {
+    "title": "Protective effects of testosterone replacement therapy on brain tumor outcomes: the Mayo Clinic Experience",
+    "authors": [
+      "M. Bettencourt",
+      "S. Gandhi",
+      "A. Bhandarkar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/29b55d40ea495e717b563889cc880ba00c5a247a",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.07.26359970",
+    "citations": 0
+  },
+  {
+    "title": "A multimodal foundation model-enabled agent for human–robot collaboration in construction",
+    "authors": [
+      "Kaicong Wu",
+      "Arash Adel"
+    ],
+    "link": "https://www.semanticscholar.org/paper/16fd236594b0ff90c7a59871ab9c7df1456437f5",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Agent",
+      "Construction Robotics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s41693-026-00211-2",
+    "citations": 0
+  },
+  {
+    "title": "Modal interrogatives as discourse-level constructions: collostructional analysis and LLM surprisal",
+    "authors": [
+      "Mija Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/14b6fbc0b1197228258b2bf03a52e118be191db0",
+    "date": "2026-08-10",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract This study investigates the constructional organization of modal interrogatives by examining how modal meaning shapes response behavior. Previous research on question-response systems has largely focused on canonical polar questions, treating response particles such as yes and no as markers of propositional polarity. However, modal interrogatives introduce additional interpretive dimensions in which responses may perform discourse actions such as authorization, refusal, or epistemic endorsement. To examine whether modal interrogatives exhibit construction-specific response patterns, this study analyzes may and might interrogatives using corpus-based collostructional analysis and large language model surprisal measures. Collostructional analysis identifies distributional associations between interrogative constructions and lexical items, while LLM-based surprisal provides a probabilistic diagnostic of semantic compatibility in constructional contexts. The results reveal systematic constructional differentiation between the two constructions. The may interrogative strongly attracts first-person subjects, interaction-oriented verbs, and affirmative responses, signifying its prototypical permission-seeking use. In contrast, the might interrogative preferentially combines with non-first-person subjects, stative predicates, and evaluative responses associated with epistemic assessment. Surprisal values align with these distributional preferences, indicating that lexically compatible realizations are more strongly predicted in context. These findings suggest that modal interrogative-response pairings constitute discourse-level constructions characterized by both distributional entrenchment and probabilistic expectancy.",
+    "summary": "",
+    "doi": "10.1515/cllt-2026-0030",
+    "citations": 0
+  }
+]
