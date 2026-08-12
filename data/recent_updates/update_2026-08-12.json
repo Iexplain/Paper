@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Towards Human-Centered Large Language Models for Personalized Programming Education",
+    "authors": [
+      "Jing Fan"
+    ],
+    "link": "https://www.semanticscholar.org/paper/be6f8a0ce4a477a8aa9b83ca78afebb77f4399e4",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765965.3816672",
+    "citations": 0
+  },
+  {
+    "title": "Best Practices for Assessing Students’ Programming Skills in the Era of Large Language Models",
+    "authors": [
+      "R. Bringula",
+      "Fredrik Heintz",
+      "Kristina von Hausswolff"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8ed9cf2ea7752485cc10b126d57c8d3eb88e5f9c",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765965.3816656",
+    "citations": 0
+  },
+  {
+    "title": "Automating best-practice refactoring in Java via multi-agent planning and verification",
+    "authors": [
+      "Jian Yang",
+      "Jing Li",
+      "Yuanyuan Gao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/86a06f881fde62178de18d19dda8751d5344e1a2",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Software quality journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11219-026-09782-3",
+    "citations": 0
+  },
+  {
+    "title": "An Analysis of LLM Performance on Introductory C++ Programming Assignments",
+    "authors": [
+      "Iris Xu",
+      "Michał Nowak",
+      "E. Shaffer"
+    ],
+    "link": "https://www.semanticscholar.org/paper/607acc3f3e3487fcf30ad4a7f583168355a6462d",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765965.3816655",
+    "citations": 0
+  },
+  {
+    "title": "Steering AI Tutors Through System Prompts: A Crossover Study on Self-Regulated Learning and Cognitive Engagement Scaffolds in CS1",
+    "authors": [
+      "Maximilian Georg Barth",
+      "Sverrir Thorgeirsson",
+      "K. Etemadi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/5fe06e78e19c10928154c003dbaca137a7a30aad",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Background. Large language models are increasingly deployed as tutors in introductory programming courses, yet evidence that they actually improve learning remains thin, and their tendency to shortcut productive struggle raises concerns about pedagogical harm. Self-regulated learning (SRL) and cognitive engagement (CE) frameworks offer a principled way to address this, but whether embedding them in system prompts actually changes how students learn is an open question. Objectives. We investigated whether AI tutors guided by SRL and CE frameworks affect conceptual understanding, perceived usability, cognitive load, student engagement, and other outcomes when compared to a pedagogically constrained baseline tutor in CS1. Methods. We conducted a preregistered, three-armed crossover study over six weeks of authentic coursework, comparing a baseline AI tutor against two SRL and CE-guided tutors designed to model Zimmerman’s cyclical model, which scaffolds planning, monitoring, and reflection, and Chi’s ICAP framework, which promotes progressively deeper forms of cognitive engagement. We assessed outcomes using post-exercise surveys, conceptual multiple-choice questions, in-platform ratings, and coded responses from the interaction logs, and analyzed the quantitative measures with mixed-effects models. Findings. On the four preregistered confirmatory measures, we found no statistically significant differences between conditions. Non-confirmatory analysis showed that students spent significantly more time on task, wrote longer messages, and produced more constructive contributions when interacting with SRL and CE tutors. Furthermore, the relationship between cognitive load and quiz performance differed significantly by agent type. Implications. Our results suggest that the pedagogical behavior of AI tutors may not be easily steered through system prompts alone: embedding established SRL and CE frameworks did not produce detectable improvements on any preregistered outcome in a large, ecologically valid deployment. Rather than prescribing a single tutoring strategy, future designs may benefit from giving students greater agency over the kind of help they receive, allowing them to choose between scaffolded and more direct support based on their own needs.",
+    "summary": "",
+    "doi": "10.1145/3765964.3811656",
+    "citations": 0
+  },
+  {
+    "title": "\"It's Okay Sometimes\": Insights into Students' Nuanced Evaluations of their Programming Abilities While Using LLMs",
+    "authors": [
+      "Melissa Chen",
+      "Stephanie Rissmiller",
+      "Kristin Fasiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3201ecf873b2ff40ebcad7f8bf059bfccbe04740",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1145/3765965.3816665",
+    "citations": 0
+  },
+  {
+    "title": "Pushing a Frozen CXR Foundation Model: A LoRA Partial-Fine-Tuning Study on NIH ChestX-ray14 with a Model-Conditional Label-Flip Sensitivity Analysis",
+    "authors": [
+      "Tunan Bai",
+      "S. Yeh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/0e3882464ebada234c1b26bc70c946acb37e94a0",
+    "date": "2026-08-11",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Fine-tuning",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.08.26360020",
+    "citations": 0
+  }
+]
