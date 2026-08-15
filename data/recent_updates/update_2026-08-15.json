@@ -1,0 +1,384 @@
+[
+  {
+    "title": "Graph Neural Networks for IoMT Intrusion Detection: Modeling Architectures, Learning Paradigms, and Deployment Challenges",
+    "authors": [
+      "Hanli Chen",
+      "Faizan Qamar",
+      "Gaoyang Guo",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f45167913a6ce507c6c14d880199e363cec52630",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Internet of Medical Things (IoMT) connects medical sensors, devices, gateways, and cloud services for remote patient monitoring and timely care. However, its widespread application expands the attack surface. Many threat detection methods, including machine learning (ML) and traditional deep learning (DL), treat traffic as independent records, ignoring the correlation and evolution characteristics of network attacks. Graph neural network (GNN) methods have attracted significant attention for IoMT attack detection due to their unique advantages in handling graph structures. This article reviews GNN methods for IoMT threat detection and provides a comprehensive overview of key IoMT architecture components. It introduces threat classification across perception, network, service, and application layers. Technically, it covers aggregation-based, attention-based, and spatio–temporal hybrid models. It explores advanced paradigms like self-supervised learning (SSL), federated learning (FL), and knowledge distillation. This article summarizes GNN applications for IoMT and discusses key limitations, including data imbalance, heterogeneous and dynamic data challenges, and deployment bottlenecks on constrained devices. It also highlights robustness to adversarial manipulation, clinical workflow interpretability amidst false positives, and medical service availability. Finally, it discusses future research directions, including lightweight and scalable GNN methods, dynamic heterogeneous graph modeling, privacy-preserving federated architectures, few-shot learning, explainable-AI (XAI)-based interpretable GNN methods, and GNN methods robust to adversarial attacks.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3704452",
+    "citations": 0
+  },
+  {
+    "title": "A Comprehensive Review on Generative and Parametric Approaches in Cloud – Based CAD/CAM Platforms for 3D Printing Applications",
+    "authors": [
+      "Tanmay Bhadale",
+      "Yash Deshpande",
+      "Jueli Patil",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e8141162fa09887fa57c79f717f1cbac00ae1404",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Tehnički Vjesnik"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": ": The integration of parametric and generative design approaches into cloud-based computer-aided design (CAD) and computer-aided manufacturing (CAM) platforms is transforming contemporary product development, especially in 3D printing applications. Parametric design prioritizes constraint-driven, feature-based modelling that embodies designer intent, facilitating editable, reusable, and changeable CAD models. Advanced datasets like WHUCAD, which include attributes such as fillets, chamfers, grooves, and shells, enhance deep learning and replication of human-computer interaction for 3D form development. Prominent parametric cloud systems, like Onshape, Autodesk Fusion 360, Siemens NX, and PTC Creo+, utilize server-side kernels and APIs to provide real-time collaboration and feature mapping. In contrast, generative design utilizes artificial intelligence and algorithmic methods - such as topology optimization, implicit modelling, and large language model (LLM)-assisted script generation - to independently investigate extensive design spaces and enhance products for performance, weight, and manufacturability. Innovative pipelines like ZOO text-to-CAD and GPT-enhanced FreeCAD scripting exemplify this approach. Parametric processes thrive in customization and precise assembly control, whereas generative approaches facilitate structural optimization and innovation from exploration, especially when combined with additive manufacturing. Future hybrid design methodologies seek to integrate parametric accuracy with generative creativity; however, obstacles persist in geometric fidelity, computing requirements and manufacturability verification. This study provides a thorough examination of parametric and generative design processes for 3D printing applications, evaluating their techniques, industrial uses, benefits, problems and future potential.",
+    "summary": "",
+    "doi": "10.17559/tv-20250922003005",
+    "citations": 0
+  },
+  {
+    "title": "Drug repurposing for skin pigmentation disorders: Discovery of novel tyrosinase inhibitors.",
+    "authors": [
+      "Majid Khan",
+      "Tian Liang",
+      "Fuhao Zheng",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d03fcfa51126a6c6bfeddfa5d9d6289c2be1bca2",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "Cited: 2",
+      "Bioorganic chemistry (Print)"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1016/j.bioorg.2026.109942",
+    "citations": 2
+  },
+  {
+    "title": "A Method Based on Large Language Model and Interpretable Convolutional Attention-Gated Network for Internet of Things Wind Power Prediction",
+    "authors": [
+      "Linfei Yin",
+      "Yufeng Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c7cc5dcf5e0aec759f4234fe8d864d4aa0cf4301",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Accurate wind power forecasting can significantly reduce grid dispatch costs and improve system performance. Consequently, this study proposes a bimodal-driven method based on large language model and interpretable convolutional attention-gated (BD-LLICAG) network for wind power forecast. The BD-LLICAG method utilizes the dataset collected from microsensors in the Internet of Things for training and is compared with 53 classic algorithms. The BD-LLCAG has 53.38% and 32.62% less than the average absolute error metrics of a single ICAG network and DeepSeek large language model, respectively, and has 26.75% less average absolute error metrics than the state-of-the-art inception-embedded attention memory fully connected network. Moreover, through comparative analysis of ablation experiment results and the Wilcoxon signed-rank test for BD-LLICAG, the dual-model-driven wind power forecasting model—combining DeepSeek with ICAG achieved optimal prediction performance is demonstrated. Compared to the single ICAG network and DeepSeek model, the mean absolute error (MAE) metrics are reduced by 53.38% and 32.62%, respectively. Finally, the combined application of Shapley values and neural basis expansion analysis for interpretable time series (N-BEATS) in tandem is successfully applied to visualize and analyze the extent to which the input wind power feature variables influence the prediction results of the wind power predicted by BD-LLICAG.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3696902",
+    "citations": 0
+  },
+  {
+    "title": "Fed-GPD: Federated Graph Process Distillation for Anomaly Detection in Lights-Out Manufacturing",
+    "authors": [
+      "Jun Cai",
+      "Manshan Mo",
+      "Zhongwei Huang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bd984e13fca573e82a59ca633fbe0c2403bd5e1d",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As an essential component of the Industrial Internet of Things (IIoT), lights-out manufacturing (LoM) relies heavily on the rapid detection of anomalies. However, LoM anomalies often arise from complex, cross-modal correlations, and traditional detection models struggle with the dual challenges of limited local data and stringent data privacy requirements, leading to poor generalization. To address these challenges, this article introduces a novel federated graph process distillation (Fed-GPD) framework for multimodal anomaly detection. Our approach first represents heterogeneous industrial data as unified graph structures to effectively model the underlying device relationships. We then propose a new graph knowledge distillation paradigm designed for graph neural networks (GNNs) in a federated setting. Instead of merely distilling final predictions, we introduce two novel distillation mechanisms: 1) neighborhood aggregation process distillation (NAPD), which transfers the knowledge of how a model processes local neighborhood information at each GNN layer, and 2) relational knowledge matrix distillation (RKMD), which aligns the global understanding of node-to-node relationships learned by the models. These mechanisms are integrated into an asynchronous mentor-mentee architecture, enabling efficient and deep knowledge transfer from powerful, private mentor models to a lightweight, global mentee model. Simulation results on multiple real-world datasets demonstrate that Fed-GPD significantly outperforms existing federated and graph-based anomaly detection methods. Notably, our in-depth ablation studies validate the effectiveness of the proposed process distillation mechanisms, showing substantial improvements in model accuracy and communication efficiency.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3703863",
+    "citations": 0
+  },
+  {
+    "title": "SAM-MPA: A SAM-Based Motion Perception and Aggregation Framework for Referring Video Segmentation",
+    "authors": [
+      "Fang Gao",
+      "Lei Shi",
+      "A. Lu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7a495c7059d5ca32d500199ee7fcd17624f5f7ca",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Referring video object segmentation (RVOS) relies on natural language descriptions to identify and segment target objects in videos and has achieved substantial progress in recent years. However, most prior studies process videos in a frame-by-frame manner, failing to fully exploit temporal information. Recently, the large-scale segmentation model segment anything model (SAM) has attracted considerable attention due to its strong segmentation capability and impressive zero-shot generalization. Nevertheless, SAM still exhibits limitations when handling complex action-oriented descriptions. Motivated by these observations, we propose a novel SAM-based motion-perception aggregation (MPA) framework for RVOS, termed SAM-MPA, which consists of four modules. DETR with improved denoising anchor boxes (DINO)-SAM leverages the powerful segmentation ability of SAM to perform initial video segmentation guided by textual prompts, generating object-level masks. The Kalman filtering motion modeling module injects explicit object motion modeling into DINO-SAM, improving segmentation robustness under occlusion and fast-motion scenarios. The motion-aware aggregation module effectively captures object action cues at multiple temporal scales, thereby enhancing global video understanding. The text–token matching module further enforces semantic consistency between the segmentation results and the referring expressions. Extensive experiments on challenging RVOS benchmarks demonstrate that SAM-MPA provides a competitive and efficient SAM-based solution for motion-centric RVOS, while offering a favorable tradeoff between performance and computational cost compared with conventional non-multimodal large language model (MLLM) baselines. The code is available at https://github.com/GXU-LIPE/SAM-MPA",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3701400",
+    "citations": 0
+  },
+  {
+    "title": "VulKnow: Enhancing Vulnerability Detection With Structured Knowledge and Large Language Models",
+    "authors": [
+      "Gui-xin Liao",
+      "Yanli Chen",
+      "Wei Ke",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/647947b4a49baf791a94e06c27dfa37ea76a9a6a",
+    "date": "2026-08-15",
+    "keywords": [
+      "今日上新",
+      "IEEE Internet of Things Journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid proliferation of Internet of Things (IoT) systems has led to increasingly heterogeneous, resource-constrained, and security-sensitive software deployments. In this context, detecting vulnerabilities in embedded and system-level IoT code has become particularly critical, as even a single exploitable flaw may compromise entire networks or devices. Vulnerability detection in real-world software continues to pose significant challenges due to the intricate nature of program semantics, the diversity of vulnerability patterns, and the limited explainability offered by current machine learning models. Although large language models (LLMs) have exhibited remarkable capabilities in comprehending and reasoning about source code, their effectiveness is frequently compromised by inadequate domain knowledge and instances of hallucinated outputs. To address these limitations, we propose VulKnow, a retrieval-augmented framework for vulnerability detection that harnesses structured vulnerability knowledge alongside multistage prompt-based reasoning. Specifically, VulKnow first constructs a structured knowledge base derived from authoritative sources such as CWE/CVE reports and standard library specifications. Subsequently, it conducts context-aware knowledge retrieval and integrates the retrieved items into an LLM-based initial filtering module. To ensure high-confidence and verifiable results, we design a multistage reasoning pipeline that progressively validates vulnerabilities through semantic prompts and consistency checks. Experiments conducted on multiple real-world datasets (Linux, Qemu, and Big-Vul) demonstrate that VulKnow significantly enhances precision, recall, and explainability compared to existing static analysis tools as well as LLM-only baselines. This positions VulKnow as a reliable solution for practical vulnerability auditing scenarios.",
+    "summary": "",
+    "doi": "10.1109/JIOT.2026.3697600",
+    "citations": 0
+  },
+  {
+    "title": "Synthesis of 1,3,5-Triazine-Indole Conjugates as Broad-Spectrum Coronavirus Entry Inhibitors.",
+    "authors": [
+      "S. Asghar",
+      "L. Persoons",
+      "Yanicka Smolders",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fa4e41520e2f457ab58bae9c738ff18473135037",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "ChemMedChem"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1002/cmdc.70434",
+    "citations": 0
+  },
+  {
+    "title": "Mapping the generative era: a bibliometric and specialty-focused analysis of large language models in healthcare",
+    "authors": [
+      "Jianding Peng",
+      "Yao Tuo",
+      "Gang Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f782a2568b61ea120259e5a790ec3bcb4ba52b88",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Visual Computing for Industry, Biomedicine, and Art"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s42492-026-00228-y",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Models Generate Stigmatizing Language During Reasoning Over Real-World Clinical Data",
+    "authors": [
+      "Y. Yang",
+      "B. Gu",
+      "D. Hathaway",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/e231f4d9b5e42c0956778e44dad3a1d86acefe5b",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.12.26360210",
+    "citations": 0
+  },
+  {
+    "title": "Recent Advances in Artificial Intelligence-Assisted Facial Fracture Diagnosis",
+    "authors": [
+      "Bassem Chamma",
+      "Venkata S. P. Patchigolla",
+      "Timothy Chalom",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bd6a05f2e97fa687f640f486ad1cca7115b83981",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Current Emergency and Hospital Medicine Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s40138-026-00363-z",
+    "citations": 0
+  },
+  {
+    "title": "Ginkgolide B drives TCA cycle to accelerate Streptococcus suis biofilm dissociation",
+    "authors": [
+      "Yang Wang",
+      "Zhaoyu Yi",
+      "Shuji Gao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/94999aaf456bf5f11b59276552ab335d3f2bdbc7",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Archives of Microbiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00203-026-05140-w",
+    "citations": 0
+  },
+  {
+    "title": "Evolution of mechanical performance and particle breakage in rubber-modified calcareous sand under low-frequency cyclic loading",
+    "authors": [
+      "J. Gao",
+      "Yingmiao Zhou",
+      "Fei-yu Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/76caadef57a261e332f4eddc52dfb80045bb6ab6",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Bulletin of Engineering Geology and the Environment"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10064-026-05244-z",
+    "citations": 0
+  },
+  {
+    "title": "Making Broad Evidence Synthesis Feasible: An LLM Screening Agent for Meta-Analyses Applied To Suicide Prevention",
+    "authors": [
+      "D. Dobin",
+      "A. Witmer",
+      "F. Sweeney",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/67a535532a8c9e53c928703d703d3383ef336212",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.12.26360335",
+    "citations": 0
+  },
+  {
+    "title": "Grounding Health AI: Architecture and Evaluation of a Domain-Expert Metabolic Health Agent",
+    "authors": [
+      "A. Diament",
+      "G. Sapir",
+      "M. Gorodetski",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4c26753659b4848602550425dc0127742f561d33",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.11.26359946",
+    "citations": 0
+  },
+  {
+    "title": "Targeting WEE1 kinase: an integrated machine learning–cheminformatics framework for ultra-large-scale virtual screening and novel inhibitor discovery",
+    "authors": [
+      "R. Muthuraj",
+      "Manasa Pacharla",
+      "Nehal Arvind Kumar",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2eff88b21266c8fe234933e2415c1d132fb4d52a",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "AIDD",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00917-z",
+    "citations": 0
+  },
+  {
+    "title": "How prompts manipulate models: measuring cognitive bias vulnerability in commercial LLMs across languages",
+    "authors": [
+      "Koushik Deb",
+      "Imon Mukherjee",
+      "Debarshi Kumar Sanyal"
+    ],
+    "link": "https://www.semanticscholar.org/paper/239b8dc7b3e6843d1ba5c89aab87dcce1857f2f9",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Innovations in Systems and Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11334-026-00651-7",
+    "citations": 0
+  },
+  {
+    "title": "Optimizing information retrieval tasks with large language model for data enhancement",
+    "authors": [
+      "C. Vaidya",
+      "Amudhavel Jayavel",
+      "Pradeep Kumar Mishra",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1c36d7e1273960f34f4c99b47a468acb0053b0ec",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1515/jncds-2025-0124",
+    "citations": 0
+  },
+  {
+    "title": "EP3 receptor mediates calcium oxalate kidney stone formation via Ca²⁺/AKT and necroinflammation",
+    "authors": [
+      "Jing Leng",
+      "Yang Li",
+      "Xueqing Tang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/18a3f531205fbd6e76f3fa4adafbc1d86d62290b",
+    "date": "2026-08-14",
+    "keywords": [
+      "今日上新",
+      "Urolithiasis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00240-026-02030-0",
+    "citations": 0
+  }
+]
