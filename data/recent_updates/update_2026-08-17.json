@@ -1,0 +1,274 @@
+[
+  {
+    "title": "Evaluating Link-level Lossless Mechanisms in AI Networks",
+    "authors": [
+      "Kefei Liu",
+      "Ruixue Wang",
+      "Tianrun Jiang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/ef4f6272514b81931133f6ccd43b0ce46afdc661",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The ever-increasing demand for network performance in large language models promotes the advent of many Scale-up networking schemes. To consistently deliver superior low latency and high bandwidth, these schemes have widely adopted Credit-based Flow Control (CBFC) and Link Layer Retry (LLR) to ensure link-level lossless transmission. However, there is currently a lack of evaluations for these mechanisms in Scale-up domains. This paper builds an FPGA-based Scale-up network to evaluate these lossless mechanisms. Evaluation results show that, while these mechanisms consume a small amount of link bandwidth, CBFC can greatly reduce receive buffer utilization, and LLR can substantially mitigate network performance degradation caused by packet corruption.",
+    "summary": "",
+    "doi": "10.1145/3789240.3829346",
+    "citations": 0
+  },
+  {
+    "title": "Balancing and Beyond: Communication-Centric Optimizations in Expert Parallelism",
+    "authors": [
+      "Jiamin Cao",
+      "Qingxu Li",
+      "Yaozhong Liu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/eac99489e90aa20cb13cb7d63f53c9014b797164",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The Mixture-of-Experts (MoE) architecture scales large language models (LLMs) to trillions of parameters by activating only a small subset of experts per token. In practice, MoE inference is commonly deployed with Expert Parallelism (EP), which places whole experts on different GPUs to preserve kernel efficiency. However, production EP deployments often suffer from two bottlenecks: (1) expert workload imbalance, which creates computation and communication stragglers, and (2) communication inefficiency, where inter-GPU transfers dominate latency even after balancing. We present EPIC, an experience-driven EP inference system that addresses these issues progressively for real deployments. EPIC mitigates imbalance via performance-aware expert migration and runtime expert activation, and then improves communication with topology-adaptive transport kernels and fine-grained computation-communication overlap. EPIC has been deployed at scale across O(10K) GPUs in our online inference service for both open-source models (e.g., Qwen3-Coder and DeepSeek-R1) and internal models, reducing communication time and per-token latency by up to 40% and 21%, respectively.",
+    "summary": "",
+    "doi": "10.1145/3789240.3829201",
+    "citations": 0
+  },
+  {
+    "title": "Accelerating EICAT Assessments Using AI & Evaluating inter-annotator/LLM agreement",
+    "authors": [
+      "Matthew Coole",
+      "Tom August"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e3965c9e455b9ec0b7b6d1f5bbb62c284c1601bd",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "ARPHA Conference Abstracts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "AI and Large Language Models (LLMs) are increasingly applied to modern information processing, and ecology and biodiversity are no exception. The OneStop (2025) project seeks to minimise the introduction, establishment and spread of terrestrial invasive alien species. As part of this project, we are investigating how LLMs can accelerate the Environmental Impact Classification for Alien Taxa (2026) assessment process (Hawkins 2015).\n Prior work has explored smaller, locally run encoder/decoder models for EICAT impact classification (Brinner and Zarrieß 2025). We build on this by investigating whether larger, general-purpose LLMs offer greater flexibility across the full EICAT schema. Our system assists human annotators by ingesting PDF documents, converting them to a structured format, and applying LLMs to identify invasive species impacts, whilst keeping humans-in-the-loop to ensure consistency and reliability. The system extracts evidence text, EICAT classification level, impact mechanism and identifies the impacted native species.\n To benchmark the system, we are running an inter-annotator evaluation with 22 annotators, all of whom are scientists in the domain and around half of whom have experience applying the EICAT assessment protocol. Papers for evaluation are drawn from existing EICAT assessments in the Global Invasive Species Database (GISD). The evaluation uses a Balanced Incomplete-Block Design with a core set of papers reviewed by all annotators. Annotators are asked only to read the EICAT guidelines before starting — intentionally minimal, to help surface ambiguities in the guidelines themselves. We use Cohen's kappa (Cohen 1960) to measure pairwise agreement on impact identification and Krippendorff's alpha (Krippendorff 2011) across the full multi-label classification scheme.\n We also perform automated evaluation on a wider set of GISD texts, comparing single-annotator extractions against system outputs using precision, recall and F1 scoring across impact identification, mechanism and severity classification. We trial multiple LLMs via AWS Bedrock (GPT-OSS, Amazon Nova, Claude, Llama), assessing whether lower-cost models can perform as reliably as human assessors.\n The tool (Suppl. material 1) is brought together in a web-based portal covering the full EICAT assessment workflow. We also plan to evaluate ASReview (Schoot 2021) and LatteReview (Rouzrokh and Shariatnia 2025) to understand if they can speed up abstract screening at the literature review stage. The portal follows FAIR data principles (Wilkinson 2016) and is designed to remain available beyond the life of the OneSTOP project, either via further funding sources or as an open-source, self-hosted solution. A preliminary report will be available in July 2026, with a full cost-benefit analysis by the end of the year, providing practical guidance for organisations considering whether AI-assisted EICAT assessment is worth the investment.",
+    "summary": "",
+    "doi": "10.3897/aca.9.e205952",
+    "citations": 0
+  },
+  {
+    "title": "When programmes disagree about programmes: large language models, code poetry and the problem of programme–programme communication",
+    "authors": [
+      "Steffen Roth",
+      "Vincent Lien"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cce7bc7080c96eb96376f113ee8be32db41a3812",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Information Technology &amp; People"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This article examines the theoretical implications of organisational decisions being increasingly prepared, filtered, produced through or attributed to computational programmes rather than individual human actors. It asks under what conditions interactions between such programmes may be analysed as communicatively consequential and what this implies for management and organisation theory.\n \n \n \n The article develops a conceptual analysis grounded in Luhmannian social systems theory. It uses a deliberately simplified, user-moderated exchange between two large language models, ChatGPT and Gemini, as an illustrative vignette. Their interpretations of code poems serve as a heuristic device for examining interpretive divergence, role formation and double contingency.\n \n \n \n The illustrative exchange suggests that mutual responsiveness between computational programmes need not produce interpretive convergence. Instead, recursive reference to one another's outputs may stabilise distinct observational positions and patterned forms of mutual irritation. The article does not treat the vignette as an empirical test of programme–programme communication. It uses it to develop the conceptual proposition that large language models may be observed as organisationally instantiated decision programmes whose outputs become communicatively consequential when they are recursively incorporated into further organisational decisions.\n \n \n \n The article contributes to management and organisation theory by reframing artificial intelligence not as a tool or agent but as a decision programme operating within organisational autopoiesis. By introducing programme–programme communication as an analytical lens, it shows how generative information technologies may create new decision premises, stabilise differentiated roles and reshape organisational coordination, responsibility and control in programme-rich environments.\n",
+    "summary": "",
+    "doi": "10.1108/itp-02-2026-0241",
+    "citations": 0
+  },
+  {
+    "title": "Global synthesis of the ecological impacts of invasive non-native vertebrates",
+    "authors": [
+      "Ismael Soto",
+      "D. Biancolini",
+      "Lisa Tedeschi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b60b3870615b231bddfa1dc070d990d4e08bf931",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "ARPHA Conference Abstracts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n Human-mediated redistribution of organisms has reshaped global ecosystems, leading to the increasing homogenization of biotic communities. Among invasive taxa, vertebrates, including mammals, birds, reptiles, amphibians, and fishes,are recognised as among the most harmful groups due to their high establishment rates and strong top-down pressures. Despite their known consequences, a systematic global synthesis explicitly linking these impacts to specific mechanisms across all vertebrate classes has been lacking. We addressed this gap by leveraging InvaPact v1.0, a global database containing over 99,000 impact records extracted via fine-tuned large language models. Ecological impacts were quantified using an expanded Environmental Impact Classification for Alien Taxa (EICAT) framework, which assigns impact scores based on the severity and level of biological organisation affected. We analysed the spatial and temporal distribution of these impacts, compared vertebrate impacts to those of invertebrates, and assessed taxonomic representativeness. Our analysis reveals that ecological harm is concentrated within a limited subset of taxa. The most impactful species identified include wild boars (\n Sus scrofa\n ), domestic cats (\n Felis catus\n ), rabbits (\n Oryctolagus cuniculus\n ), and black rats (\n Rattus rattus\n ). Predation emerged as the dominant mechanism of impact, particularly for Mammalia and Actinopterygii, primarily driving declines in native population sizes and changes in assemblage structure. Spatially, the highest impact magnitudes were recorded in Australia and the United States, with significantly higher impacts observed in island ecosystems compared to mainland ecosystems. Furthermore, we found that vertebrates generally have a greater impact across all habitat types than invertebrates. These findings highlight that invasive vertebrate impacts are uneven across taxa and space, often driven by a few high-impact \"worst\" invaders. The high vulnerability of island biota to predation-mediated extinctions underscores the need for prioritised management and eradication programs in these regions. Additionally, our representativeness analysis suggests research biases toward charismatic or well-known invaders, such as mammals, which may influence global reporting patterns.\n",
+    "summary": "",
+    "doi": "10.3897/aca.9.e202113",
+    "citations": 0
+  },
+  {
+    "title": "Balanced Sparse Tree: A Scalable Network Topology for Large Language Models",
+    "authors": [
+      "Shaoteng Liu",
+      "Dejun Kong",
+      "Huitian Wang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9b5d35fae390ad7cc297de1417042a443d5280d0",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The development of large language models (LLMs) has catalyzed unprecedented demand on the computing network, specifically for large-scale, few-hops, and low-latency, which directly underpin LLM task efficiency. However, mainstream topologies such as Clos suffer from costs and latency, while topologies with good scalability have symmetric or collective communication issues. In order to achieve a favorable balance among design metrics, we propose a novel topology named the Balanced Sparse Tree (BST), which is a topology characterized by symmetric design and sparse connections, motivated by hypergraph theory and Steiner Systems. Its degree-diameter upper-bound approaches the Moore Bound for Bipartite Biregular graphs, larger than other known dia-meter-2 topologies. Furthermore, we incorporate differentiated routing, deadlock freedom, and topology-affined deployment into BST. Testbed experiments, simulations, together with modeling analysis, demonstrate the superiority of BST over the state-of-the-art in network scale, latency, bandwidth, and cost. With equivalent scales, BST outperforms Clos with a 50% cost reduction while maintaining comparable performance for AI workloads. Furthermore, BST delivers a 3.9%–11.8% gain in collective communications and has 13.4% improvement over state-of-the-art topologies.",
+    "summary": "",
+    "doi": "10.1145/3789240.3829208",
+    "citations": 0
+  },
+  {
+    "title": "How industrial foundation models drive interconnected innovation among large, medium and small enterprises in China",
+    "authors": [
+      "Pinyi Zhang",
+      "Shuyan Hu",
+      "Hanyu Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/975685ff969c2c7eeac0782cf60ff566eb282a57",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Agent",
+      "Journal of Knowledge Management"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This paper aims to examine, from a knowledge management perspective, how industrial foundation models enable interconnected innovation among large, medium and small enterprises and illustrates these mechanisms through Chinese business cases.\n \n \n \n Guided by the knowledge-based view, this paper adopts a theory-building design with case illustration. It identifies four major knowledge bottlenecks constraining interconnected innovation among large, medium and small enterprises, develops an explanatory framework drawing on key knowledge management theories, and uses four Chinese industrial foundation model cases to illustrate the proposed mechanisms and their managerial relevance.\n \n \n \n The study finds that industrial foundation models function as cross-organizational knowledge infrastructures that enable interconnected innovation across firms of different sizes. Specifically, they support this process through four interrelated pathways, namely platform-based knowledge integration, tacit knowledge externalization, scenario-based knowledge orchestration and trustworthy knowledge governance. Through these pathways, firms can move from data interconnection to knowledge co-creation.\n \n \n \n This paper extends knowledge management research from intra-firm knowledge processes to knowledge collaboration across organizations of different sizes. It also integrates cross-organizational knowledge integration, tacit knowledge externalization, knowledge absorption and orchestration and knowledge governance into a unified analytical framework for understanding how industrial foundation models support interconnected innovation.\n \n \n \n Large enterprises should act as knowledge organizers and scenario openers, medium-sized enterprises should strengthen specialized scenario capabilities and network embeddedness, and small and medium-sized enterprises should accelerate capability upgrading through modular knowledge tools and intelligent agents. Such role differentiation can support value co-creation and improve interconnected innovation performance.\n \n \n \n From a knowledge-based view, this paper explains how industrial foundation models reshape knowledge connection, transformation, orchestration and governance across firms of different sizes, and offers practice-based insights from China into how large, medium and small enterprises can advance interconnected innovation.\n",
+    "summary": "",
+    "doi": "10.1108/jkm-03-2026-0583",
+    "citations": 0
+  },
+  {
+    "title": "A quantitative evaluation of the ecological impacts of alien species in Italy",
+    "authors": [
+      "Jan Giordano",
+      "Federica Rossetto",
+      "Michele Mugnai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/88e95369473fb87ff5df131b28f1102f37b194f2",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "ARPHA Conference Abstracts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Italy is characterized by a high biodiversity, hosting a large number of endemic species across its heterogeneous landscapes, from Alpine ecosystems to Mediterranean coastlines, islands, and extensive freshwater networks. At the same time, its geographic position, long coastline, and intense trade connections make the country particularly vulnerable to biological invasions. Currently, more than 3500 alien species are considered established in Italy (ISPRA 2025). Understanding the biology and impacts of these species is essential for developing effective management plans and prioritizing conservation activities. However, despite the available literature on the ecology of most of these species, a comprehensive, quantitative synthesis of the ecological impacts of alien species at the national scale is still lacking.\n Here, we provide the first country-wide assessment of the ecological impacts of alien species in Italy using the InvaPact database, currently the most comprehensive global resource on this topic. The database was compiled through a combination of Large Language Models (LLMs), systematic literature review and expert-based knowledge. Impact records reported in Italy were extracted using a multi-step filtering procedure, and the analyses were computed at multiple biological levels, including comparisons among taxa, habitat, and ecological mechanisms. We also examined the geographic distribution of impacts across Italian regions and their cross-relationships between habitats and impact mechanisms. Furthermore, we compared impact patterns between island and mainland contexts, a particularly relevant distinction for Italy, given the ecological vulnerability and high endemism of its major islands and finally, assessed the overlap of impact records with protected areas.\n We retrieved 1636 impacts from 206 unique articles through the filtering process. These impacts were mostly distributed in Northern and Central Italy, while also showing substantial representation in the islands. The results revealed significant differences in impact magnitude across taxa, along with a wide range of underlying ecological mechanisms. Additionally, variation in impacts among islands and protected areas highlighted distinct spatial patterns, reflecting differences in geographic context and invasion dynamics.\n This study provides a comprehensive overview of the state of ecological impacts caused by alien species in Italy, focusing on the taxonomic, geographical and conservation level. Particularly, this work represents the first standardised national-scale assessment based on the InvaPact database, offering a reproducible framework directly applicable to other countries and readily transferable to support evidence-based management and policy decisions on biological invasions.",
+    "summary": "",
+    "doi": "10.3897/aca.9.e202039",
+    "citations": 0
+  },
+  {
+    "title": "xSwitch: An Adaptive O-E-integrated Interconnect for Scale-up Networks",
+    "authors": [
+      "Weichi Wu",
+      "Xuanmiao Mu",
+      "Xiaoliang Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/72793bbef1981965995e0db01b6bf5eceddb44f3",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "To adapt to the intensive, bursty, and latency-constrained traffic from large language model (LLM) training and inference, scale-up networks are now facing tremendous challenges. Existing electrical packet switching (EPS) fabrics provide packet-level flexibility at the cost of high power consumption and long latency. Introducing optical circuit switching (OCS) in scale-up networks offers direct optical connections that can effectively reduce power consumption and latency, but OCS lacks the packet-level flexibility required by LLM inference (especially for mixture-of-experts (MoE) inference). To address these dilemmas, this work presents xSwitch, an optical-electrical-integrated (O-E-integrated) interconnect for scale-up networks, and demonstrates its effectiveness experimentally. Unlike the traditional hybrid-optical-electrical interconnects that usually place EPS and OCS in parallel, xSwitch integrates one port-count-reduced (defined by the O/E port ratio) EPS layer (ESL) on top of an OCS layer (OSL). Then, OSL can establish optical connections for xPU pairs with stable and intensive traffic demands, while bypassing the ESL for energy and latency reduction, and the dynamic and unpredictable traffic between xPUs can be provisioned by letting OSL forward it to the ESL. We prototype xSwitch with off-the-shelf components, validate its effectiveness with real-world MoE inference tasks, and also confirm its scalability with large-scale simulations. Our results indicate that for MoE inference workloads, xSwitch with a 2:1 O/E port ratio limits the average gaps to the full-EPS baseline to 1.96% in TTFT and 0.59% in TPOT.",
+    "summary": "",
+    "doi": "10.1145/3789240.3822607",
+    "citations": 0
+  },
+  {
+    "title": "Eradication is a marathon, not a sprint: a textual analysis of the structure and content of Large Language Model-generated invasive species management plans",
+    "authors": [
+      "Helen R. Bayliss",
+      "Sian Green",
+      "Alexander Lowther Harris",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/64e2c46a673a6b6be70b602212692b9bf41d0f71",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "ARPHA Conference Abstracts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n Generative AI, and in particular large language models (LLMs), are increasingly being used to create content, reports and provide information across the environmental sector. However, concerns regarding the accuracy of information provided, hallucinations from the AI and the lack of transparency surrounding the materials used by LLMs have been raised. Here, we report on a textual analysis of invasive species management plans generated using three prompts run simultaneously by multiple users across three commonly used, free to access LLMs to simulate the experience of someone with only a basic knowledge of using generative AI. Prompts were developed from real-world management scenarios identified by participants in the OneSTOP project’s UK Living Lab, and included management of rhododendron\n Rhododendron ponticum\n , demon shrimp\n Dikerogammarus haemobaphes\n and American mink\n Neogale vison\n . Prompts were run in Microsoft Copilot, Google Gemini and OpenAI’s ChatGPT by multiple researchers simultaneously. Over 100 management plans were generated. Resulting management plans and suggestions for further prompts were saved for analysis against a range of criteria relating to both the structure and the content of the response.\n \n When assessed, the main content of management plans generated within individual LLMs was similar, although structured in a variety of layouts, and with different topics such as biosecurity or the legislative context included in only a subset of plans. Some management plans included militaristic language, and some phrases were frequently repeated by individual LLMs. However, small variations deliberately introduced into the content by the LLMs provided different, and sometimes contradictory, instructions. While some of these, for example small variations in the recommended cut height for stump and cut treatments, might have limited impact on the effectiveness of the management interventions if conducted as suggested, others, for example spreading of chipped biomass versus removal from site, may have a greater impact on site recovery.",
+    "summary": "",
+    "doi": "10.3897/aca.9.e202391",
+    "citations": 0
+  },
+  {
+    "title": "Multifaceted impacts of alien megafauna on ecosystems",
+    "authors": [
+      "Fengzhi He",
+      "Tao Wang",
+      "Xing Chen"
+    ],
+    "link": "https://www.semanticscholar.org/paper/58b0852a42d6e928d0a86acd7c9bd45918734764",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "ARPHA Conference Abstracts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Megafauna species, including large mammals, reptiles, and fishes, have been intentionally introduced outside their native ranges due to their charisma and economic values. Given their wide introductions and documented ecological impacts, it is vital to synthesize the existing evidence to advance our understanding of their impact mechanism and magnitude, which could facilitate the development of effective management strategy. Here, we use freshwater megafauna as an example to demonstrate the multifaceted impacts of alien megafauna on the recipient ecosystems based on more than 2000 records systematically identified from published literature. Following the Environmental Impact Classification for Alien Taxa (EICAT and EICAT+) framework, we assessed the impacts of these large alien animals on native species. Moreover, we extracted data related to these species from the InvaPact Database, which applied large language models to identify and categorize alien species impacts, and used the metrics based on the Extended EICAT (EEICAT) framework to quantify their ecological impacts. Our results reveal the profound ecological impacts of over 70 alien megafauna species on the recipient ecosystems worldwide through various mechanisms, leading to changes in habitat structure, biotic interactions, and ecological processes. For example, about 50% of the identified alien freshwater megafauna species with sufficient data to assess their impact magnitude have caused population decline or even local extinction of at least one native species. Our results underscore the complex ecological impacts of alien megafauna and highlight the need for comprehensive assessment that consider multiple ecosystem components to advance our understanding of alien species impacts.",
+    "summary": "",
+    "doi": "10.3897/aca.9.e205050",
+    "citations": 0
+  },
+  {
+    "title": "AIDA: Accelerating Root Cause Analysis for Multi-Vendor Device Failures with LLM-Powered Reasoning",
+    "authors": [
+      "Haoran Xu",
+      "Xuan Zeng",
+      "Xumiao Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4e65beba4e398dc33a3baa960e2219e95ae0439e",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Root cause analysis (RCA) of network device failures is critical to cloud reliability. While monitoring can identify which device has failed, diagnosing why remains a slow, manual process, increasing the risk of recurring failures and cascading service disruptions. Existing automated methods are inadequate: traditional methods lack precision, while prior machine learning (ML) and large language model (LLM) approaches are often too coarse-grained, require heavy manual configuration, or fail to produce verifiable reasoning essential for operator trust. This paper presents AIDA, the first system to deliver automated, fine-grained RCA of network device failures, deployed at scale in Alibaba Cloud's production network. AIDA's contributions include: (1) fine-tuning an LLM with reinforcement learning to distill expert logic into interpretable reasoning chains; (2) synthesizing these chains into an evolving knowledge graph (KG) to support retrieval-augmented generation (RAG); and (3) employing RAG-driven multi-step inference wherein the LLM is sequentially guided by the KG to construct robust, verifiable reasoning. Deployed for over a year, AIDA has achieved 95.4% precision with interpretable output and reduced the median RCA time from 72.6 hours to 1.6 minutes. Notably, it curtails the 90th-percentile diagnosis latency from 329.9 hours to 19.4 hours.",
+    "summary": "",
+    "doi": "10.1145/3789240.3829126",
+    "citations": 0
+  },
+  {
+    "title": "DynamoServe: A Distributed Tiered Memory System for Multi-tenant LLM Serving",
+    "authors": [
+      "Diman Zad Tootaghaj",
+      "Khaled Diab",
+      "Bob Lantz",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3fada5fea76c30b6fb0f156189b080168f66e241",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid adoption of large language models (LLMs) has increased the need for efficient multi-tenant inference systems that maximize GPU utilization. However, existing frameworks struggle to scale due to the high memory demands of model weights and key-value (KV) caches. We present DynamoServe, a multi-tenant LLM serving framework that addresses these challenges through three key innovations: (1) leveraging stranded GPU memory to offload model weights and KV caches, (2) mitigating resource fragmentation in multi-workload environments, and (3) improving memory locality through coordinated data placement and demand-driven weight migration across GPUs. Together, these techniques enable high-throughput, low-latency inference. Experiments on state-of-the-art models show that DynamoServe significantly improves memory efficiency without sacrificing latency.",
+    "summary": "",
+    "doi": "10.1145/3789240.3829347",
+    "citations": 0
+  },
+  {
+    "title": "Global introduction and impacts of alien freshwater fish",
+    "authors": [
+      "Xing Chen",
+      "Tao Wang",
+      "Fengzhi He"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1ae5e19d591288db32cbf25549bf681418f14485",
+    "date": "2026-08-17",
+    "keywords": [
+      "今日上新",
+      "ARPHA Conference Abstracts"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Many freshwater fish species, including carps, salmonids, and catfishes, have been widely introduced outside their native ranges. These introductions can lead to profound ecological consequences. Here, we assessed the environmental impacts of alien freshwater fish, including their influence on abiotic variables, native species, and ecosystem function in the introduced regions. Following the Extended Environmental Impact Classification for Alien Taxa (EEICAT) framework and associated metrics, we analyzed the impact severity and mechanisms of the records related to alien freshwater fish in the InvaPact database, which used large language models to extract and categorize environmental impacts posed by alien species. We have identified over 8000 records, covering hundreds of alien freshwater fish species observed in all continents except for Antarctic. Various negative impacts were posed on native species by alien freshwater fish through a wide range of mechanisms, with predation being the most frequently reported mechanism, followed by herbivory and competition. Moreover, more than half of these species contributed to population decline or even local extinction of at least one native species. In addition, alien freshwater fish also caused alteration of abiotic environment and fundamental ecosystem functions, leading to water quality degradation and modified food webs. Our results demonstrate the necessity of shifting from species-level monitoring toward multi-dimensional assessments that capture the complex impacts posed by alien species, which can contribute to the development of holistic management strategies.",
+    "summary": "",
+    "doi": "10.3897/aca.9.e205367",
+    "citations": 0
+  }
+]
