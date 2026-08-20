@@ -1,0 +1,216 @@
+[
+  {
+    "title": "Molecular docking, Group Interaction Contribution (GIC), and ADMET studies on the role of surfactants in improving the permeability and solubility of mitoxantrone",
+    "authors": [
+      "Saliha Gacem",
+      "Khadra Mokadem",
+      "Regadia Aissaoui"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f2a20d1111f969bebba0104a8e2792fcc7e106f3",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Journal of Molecular Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00894-026-06885-3",
+    "citations": 0
+  },
+  {
+    "title": "A GPT-Driven De Novo Discovery of SIRT2 Inhibitors Against Breast Cancer",
+    "authors": [
+      "Saad Amin",
+      "G. Albadrani",
+      "R. Ghodhbani"
+    ],
+    "link": "https://www.semanticscholar.org/paper/dac6388c1ed34ad7b0211d4c9f4565996765d033",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Journal of Pharmaceutical Innovation"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12247-026-10962-8",
+    "citations": 0
+  },
+  {
+    "title": "RefusalGuard-M: a scalable human–machine framework for multi-turn LLM jailbreak evaluation via semantic refusal manifold modeling",
+    "authors": [
+      "Michael Tchuindjang",
+      "Nathan Duran",
+      "Phil Legg",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/da9ee63b62208fdbb2199fda4de57efe4a4a4ee7",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Cybersecurity"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Existing multi-turn jailbreak evaluation methods increasingly rely on large language models (LLMs) as automated judges to reduce the cost and scalability limitations of human assessment. However, recent studies show that LLM-based evaluators can diverge from human judgments under adversarial strategies involving subtle linguistic and semantic variations, raising reliability concerns in safety-critical domains such as cybersecurity. To address this challenge, we propose Refusal Manifold Guard (RefusalGuard-M), an open-source semantic evaluation framework that constructs a semantic refusal manifold from human-validated refusal responses for assessing LLM jailbreak interactions, including multi-turn scenarios. RefusalGuard-M uses embedding-based geometric representations to measure deviations from refusal behavior, providing a lightweight, interpretable, and reproducible alternative to LLM-based judging. We evaluate the framework across AdvBench, HarmBench, and CyMulTenSet, covering diverse jailbreak strategies, linguistic transformations, and multi-turn scenarios. Results show that RefusalGuard-M achieves strong agreement with human annotations and comparable recall performance to GPT-based evaluators while adopting a conservative evaluation strategy that prioritizes the detection of harmful outputs. On CyMulTenSet, which evaluates past-tense reformulated multi-turn jailbreaks, RefusalGuard-M achieves up to 0.87 recall, compared with 0.86 for GPT-5 and 0.81 for GPT-4, and reduces inference overhead by up to 3.7×\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\times$$\\end{document} relative to embedding-based baselines. These findings demonstrate that semantic refusal representations provide an efficient and scalable approach for jailbreak evaluation, particularly in cybersecurity settings where minimizing missed harmful outputs is critical.",
+    "summary": "",
+    "doi": "10.1186/s42400-026-00633-z",
+    "citations": 0
+  },
+  {
+    "title": "General-purpose time-series foundation models enable sample-efficient transfer learning in retinal electrophysiology",
+    "authors": [
+      "H. L. Porter",
+      "C. B. Giles",
+      "S. Kottapalli",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d39e8d762cd0d527f8a1a8428db8acaf430174f6",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.17.26360646",
+    "citations": 0
+  },
+  {
+    "title": "DiaVTG: multi-turn reasoning framework for video temporal grounding",
+    "authors": [
+      "Hongyu Huang",
+      "Junyi Yang",
+      "Sipeng Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/cb3b453193cc2afbe5c9962183ae9e0987ecdbc6",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "The Visual Computer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00371-026-04645-1",
+    "citations": 0
+  },
+  {
+    "title": "China–USA tech race impacting Nvidia: AI, Chips and Geopolitics",
+    "authors": [
+      "Debraj Ghosal",
+      "Chandramouli Sarkar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a890f8215ec7edf6516a6fc2015ffa1485144338",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Emerald Emerging Markets Case Studies"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "\n \n This case can be used to highlight aspects of strategic management, with special contribution to context of emerging markets as it deals with geopolitical hurdles related to business of Multi National Corporation Nvidia in Chinese market which is an emerging market. This case study focus is on industry analysis as well as global strategy aspects of handling geopolitics. This case study highlights regulatory hurdles in emerging market (China) and competition from Chinese companies. After working through the case and assignment questions, the students will be able to:\n The underlined words above are consistent with verbs in Bloom’s taxonomy for the “Understand”, “Analyze”, “Evaluate” and “Create” processes, as described by Forehand, M. (2010). Bloom’s taxonomy. Emerging Perspectives on Learning, Teaching, and Technology, 41(4), 47–56.\n \n \n \n In May 2026, Nvidia a Santa Clara based, US company had become the most valuable company in the world, with a market capitalization of $5.7tn. Once a niche player in graphics cards, it now stood at the centre of the AI ecosystem, powering large language models, data centres and autonomous systems. Yet, as demand for its latest AI chips soared, CEO Huang faced a critical dilemma. Intensifying geopolitical tensions between the USA and China had triggered sweeping export restrictions, cutting Nvidia off from China, one of its largest markets and placing billions in revenue at risk. At the same time, Nvidia’s supply chain remained heavily reliant on Taiwan-head quartered Taiwan Semiconductor Manufacturing Company, exposing it to potential disruption from regional instability. To complicate matters further, tech giants such as Google, Amazon and Microsoft who were major customers were designing their own AI chips, challenging Nvidia’s dominance. While Nvidia’s leadership position in GPUs seemed unshakable in the near term, its vulnerabilities were growing. Huang had reason to be proud but also anxious. The company’s AI chips were in massive demand, but supply constraints and geopolitical fragmentation threatened its future. How should Nvidia under Huang’s leadership respond to rising geopolitical risks and increasing competition by customers and suppliers planning own chip design in a rapidly changing global semiconductor landscape? Huang faced a critical business dilemma. Where should he focus? Compete with competitors like advanced micro devices, Huawei by having technology edge by investing in research & development (R&D) and creating AI ecosystem with proprietary software compute unified device architecture rather than just GPUs? Or diversify customer base from hyperscalers (huge datacentre customers), such as Google, Amazon and Meta, who were trying to build own chips to sovereign AI datacentres being built by Saudi Arabia, India, Japan and other countries? What should be Nvidia’s future strategy to grow in spite of Geopolitical challenges specially between China and USA? How could Nvidia secure its future in a world growing more fragmented, more politicized and more competitive than ever before?\n \n \n \n This case is intended for students of management at a bachelors or master’s/Master of Business Administration level in a course on strategic management and international business. Within such a course, the case can be positioned in a module on strategy formulation, as it builds on concepts of industry analysis and competition. In international business course it can be positioned in module on geopolitics. As the case provides coverage of multiple fundamental concepts of strategy, it could also be used as an evaluation component.\n \n \n \n CSS 11: Strategy.\n",
+    "summary": "",
+    "doi": "10.1108/eemcs-08-2025-0514",
+    "citations": 0
+  },
+  {
+    "title": "MulPlanLM: multimodal robotic task planning with vision-language models and physical feedback",
+    "authors": [
+      "Young-Chae Son",
+      "Dong-Han Lee",
+      "Soo-Chul Lim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9d2f643b7d2011f8d1e47c605a2d29115e370ec8",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Intelligent Service Robotics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11370-026-00743-0",
+    "citations": 0
+  },
+  {
+    "title": "PDCG-RuleDetector: parameterized data-flow call graphs meet large language models for malicious NPM package detection",
+    "authors": [
+      "He Bai",
+      "Jiaqi Zhang",
+      "HongHui Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/984dff52c978a89a8ef7f8da5bf59718c79d045f",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-01121-7",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Models in Oral and Maxillofacial Surgery Triage: A Scoping Review",
+    "authors": [
+      "K. Surendran",
+      "I. Aziz",
+      "Glyndwr Jenkins"
+    ],
+    "link": "https://www.semanticscholar.org/paper/546b6c9756865be71c14b12c754c294854254a69",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Current Surgery Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s40137-026-00529-4",
+    "citations": 0
+  },
+  {
+    "title": "Cross-modal alignment enhancement for lightweight large vision language models",
+    "authors": [
+      "Yuchen Sha",
+      "Lingli Wan",
+      "Ge Yang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3e7734431320c0a38c8a9e6406f9402ddb950064",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "The Visual Computer"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00371-026-04582-z",
+    "citations": 0
+  },
+  {
+    "title": "Bibliometric mapping of generative artificial intelligence research in higher education using VOSviewer and CiteSpace",
+    "authors": [
+      "Shaowen Wang",
+      "Yuanbo Zhong",
+      "Wenbin Li"
+    ],
+    "link": "https://www.semanticscholar.org/paper/07751c37e3b881374b6adde62484abde573d9c23",
+    "date": "2026-08-19",
+    "keywords": [
+      "今日上新",
+      "Discover Artificial Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "This study aimed to map research trends, knowledge structures, and emerging frontiers of generative artificial intelligence in higher education. Based on 774 publications retrieved from the Web of Science database from 2021 to 2026 (Retrieval Date: May 16, 2026), VOSviewer and CiteSpace were used to analyze publication trends, core authors, journals, institutions, keyword co-occurrence, thematic clusters, co-citation networks, keyword time zones, and burst terms. The results show rapid growth after 2023, with a publication peak in 2025. Keyword co-occurrence and clustering analyses identify four interconnected themes: educational processes and learner behavior, technology acceptance and use, AI technology applications and methods, and educational outcomes and assessment. Co-citation and temporal analyses indicate that the field is supported by research on ChatGPT and large language models, technology acceptance theories, and application-oriented studies in contexts such as language learning, academic writing, medical education, assessment, and feedback. The research frontier is shifting from tool adoption and student perceptions toward cognitive load, self-regulated learning, learning analytics, feedback mechanisms, assessment redesign, academic integrity, and institutional policy. These findings suggest that future research and practice should focus on how generative AI can be used effectively, responsibly, and sustainably in authentic higher education settings, with attention to learning quality, long-term effects, fairness, data ethics, and governance.",
+    "summary": "",
+    "doi": "10.1007/s44163-026-01985-8",
+    "citations": 0
+  }
+]
