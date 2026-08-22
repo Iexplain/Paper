@@ -1,0 +1,298 @@
+[
+  {
+    "title": "HQDR and HQPS: A Holy Quran digital repository with advanced pattern search and AI-enhanced natural language interface",
+    "authors": [
+      "A. Bakr",
+      "Walaa Medhat",
+      "Tamer Arafa"
+    ],
+    "link": "https://www.semanticscholar.org/paper/f8c41ad2070246493ef230671b55fe11a6f46909",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-00934-w",
+    "citations": 0
+  },
+  {
+    "title": "The affective thermodynamic relationship: an empirical information-theoretic scaling relationship for normative-conflict collapse in large language models",
+    "authors": [
+      "R. Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/eaddac62f8124d04e608a452572466b020fb728d",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Communications AI & Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s44488-026-00006-y",
+    "citations": 0
+  },
+  {
+    "title": "Fine-tuning as Jailbreaking: A data-centric red teaming framework via logic injection",
+    "authors": [
+      "Qiuxiang Li",
+      "Ke Xu",
+      "Yubin Qu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c5c61310180c086c887e65e3d1bcada3aebe271e",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Fine-tuning",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00659-0",
+    "citations": 0
+  },
+  {
+    "title": "Accelerating protein engineering: an integrated framework combines protein language models and epistatic landscape modeling",
+    "authors": [
+      "Jeongyoung Koo",
+      "Young-Ho Park",
+      "Sun-Uk Kim"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c5afbd17b27bd912c714945aa6fb7acf779b6331",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Protein Language Model",
+      "Signal Transduction and Targeted Therapy"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s41392-026-02944-6",
+    "citations": 0
+  },
+  {
+    "title": "An Automated Unit Test Generation Method Based on Dynamic Validation and Minimal Target Repair Iterative Optimization",
+    "authors": [
+      "Xiaorong Zhang",
+      "Na Wang",
+      "Chunyang Su",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c485a777c4ef2cd63098eab3ed7401eb34d5600c",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00655-4",
+    "citations": 0
+  },
+  {
+    "title": "Directed graph neural networks with partial directed coherence for seizure prediction and epileptogenic network characterization.",
+    "authors": [
+      "Chenshuo Zhao",
+      "Hui Huang",
+      "Chao Fang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/c32556744fcc9fee7886ab8333f60e8345c1fabd",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "iScience"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "While electroencephalography (EEG) analyses using undirected connectivity are well-established for seizure prediction and epileptogenic zone (EZ) network characterization, the complementary value of directed connectivity in graph neural networks (GNNs) remains unclear. We integrated partial directed coherence (PDC) graphs into a Digraph Inception Convolutional Network (DiGCN) to preserve directional edge information for seizure prediction, achieving accuracies of 96.11 ± 0.76%, 96.32 ± 0.70%, and 97.69 ± 0.67% on CHB-MIT, Siena, and the institutional cohort, respectively. In the institutional cohort, preictal modularity and small-world index were both significantly elevated (p < 0.001), reflecting increased modular segregation and topological reorganization. PDC in-degree was significantly elevated at EZ-concordant electrodes across five epilepsy subtypes (p < 0.05), whereas out-degree changes were not statistically significant. GNNExplainer identified compact, prediction-relevant subgraphs preserving these directed connectivity patterns. PDC-DiGCN provides an interpretable sensor-level framework for seizure prediction and EZ-concordant network characterization, though requiring larger prospective validation.",
+    "summary": "",
+    "doi": "10.1016/j.isci.2026.117068",
+    "citations": 0
+  },
+  {
+    "title": "Large language models enhance annotation of enzymes in metagenomes.",
+    "authors": [
+      "Lei Zheng",
+      "Bowen Li",
+      "Siqi Xu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8ee87db0ee1c475735e6fda12e228fd8c656f3d4",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Science Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1126/sciadv.aee4389",
+    "citations": 0
+  },
+  {
+    "title": "A comprehensive item pretesting study to develop an automated short-answer grading platform for Turkish inputs",
+    "authors": [
+      "M. Kılıç",
+      "Gürkan Cüvitoğlu",
+      "Şevket Polan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8b6bf1e8710e39c706949d8a6655e69a6f2de374",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Discover Education"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44217-026-02033-4",
+    "citations": 0
+  },
+  {
+    "title": "Multi-level contrastive learning knowledge-aware recommendation model integrating residual enhancement mechanism",
+    "authors": [
+      "XingZe Lu",
+      "Xia Wang",
+      "Guosheng Hao",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8193a28dc5735c24661271be7d994861d69f1107",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "International Journal of Machine Learning and Cybernetics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13042-026-03269-0",
+    "citations": 0
+  },
+  {
+    "title": "Intelligent automated code review and software quality evaluation: a survey of AutoML and large language model techniques",
+    "authors": [
+      "R. Borgalli",
+      "Uma Raj",
+      "Shwetha Shetty"
+    ],
+    "link": "https://www.semanticscholar.org/paper/77ef2a7d06d752fd9287314f59fbe0496bbb9f06",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00668-z",
+    "citations": 0
+  },
+  {
+    "title": "The application and progress of AI-based image analysis in tumor organoid research.",
+    "authors": [
+      "Yicheng Xu",
+      "Shuai Fan",
+      "Yuxin Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/577f9872ac8a9b294f421b75cc2fb3c1d7618424",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "AIDD",
+      "iScience"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The development of preclinical models that recapitulate the physiological and pathological features of human tumors remains a central challenge in cancer research. Advances in cell biology have enabled the generation of three-dimensional tumor organoids, which closely mirror patient-specific therapeutic responses and facilitate the study of disease mechanisms. However, the trend of these models necessitates a shift from traditional, invasive analytical methods toward non-invasive, high-throughput imaging approaches. Here, we review the current state of tumor organoid culture and the emerging application of artificial intelligence (AI) in their evaluation. We discuss how AI-driven technologies are revolutionizing the analysis of fluorescence imaging, viability assessments, and dynamic cell tracking, thereby overcoming the limitations of manual interpretation. Finally, we provide a perspective on how integrating deep learning with organoid technology will enhance the precision and efficiency of drug discovery and personalized oncology.",
+    "summary": "",
+    "doi": "10.1016/j.isci.2026.116756",
+    "citations": 0
+  },
+  {
+    "title": "Network-based prioritization of sepsis-associated metabolites and in vivo validation of diosmetin in sepsis-associated acute kidney injury",
+    "authors": [
+      "Mingliang Ye",
+      "Yinghui Hong",
+      "Xi Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4ae403424283f9f49c390ed64e31889d1db2c59d",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Molecular Biology Reports"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11033-026-12642-9",
+    "citations": 0
+  },
+  {
+    "title": "ReviewTestFuse: Fusing review-guided and direct test generation for deployable regression testing",
+    "authors": [
+      "Huixiang Zhen",
+      "Zhihan Zhang"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3ab1cc8ecb15eaa86d871fdf3cd4aa2d5d364628",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00669-y",
+    "citations": 0
+  },
+  {
+    "title": "Reproducing UI contexts described in app reviews with large language models",
+    "authors": [
+      "Ran Jin",
+      "Tianming Liu",
+      "Jun Chen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/213e24e41babfa4bac2233f252b609fdd79eb070",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00660-7",
+    "citations": 0
+  },
+  {
+    "title": "SkyAgent: A lightweight LLM-driven reinforcement learning framework for adaptive cooperative path planning of two UAVs",
+    "authors": [
+      "Yuting Cao",
+      "Zheng Zhao",
+      "Jiekai Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/1daa10cd785fab4bc8cd637f4706d7b8d4c1bed9",
+    "date": "2026-08-21",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-00957-3",
+    "citations": 0
+  }
+]
