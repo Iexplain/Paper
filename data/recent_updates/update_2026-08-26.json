@@ -1,0 +1,331 @@
+[
+  {
+    "title": "Phase-Based Latency Mitigation in LLM-Driven VR Agents",
+    "authors": [
+      "Konstantin W. Kühlem",
+      "Yingxue Zhou",
+      "Torsten W. Kuhlen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9da0ee36b1e768045676b50d409d10cd36f8748d",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Response latency in Large Language Model (LLM)–driven Embodied Conversational Agents (ECAs) can disrupt conversational flow. We investigated whether phase-specific multimodal feedback can mitigate perceived waiting time without modifying the underlying dialogue pipeline. In a within-subjects study (n = 35), participants experienced feedback during user speech (USP), the response-waiting phase (RWP), both phases, or neither phase. Results showed that RWP feedback consistently reduced perceived latency, whereas USP-only feedback showed weaker and partly distracting effects, while perceived social qualities remained unaffected in all conditions. This highlights the importance of temporally aligned feedback for improving perceived responsiveness.",
+    "summary": "",
+    "doi": "10.1145/3821409.3833886",
+    "citations": 0
+  },
+  {
+    "title": "Large Language Model Embeddings of Surgical Procedural Names for Confounding Adjustment in Perioperative Observational Studies",
+    "authors": [
+      "L. Han",
+      "M. Ghanem",
+      "M. K. Simhambhatla",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fd41b0c155821f393e5e3c018f795c8968cea175",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.22.26361065",
+    "citations": 0
+  },
+  {
+    "title": "TCTracker: a RGB-T tracking via text-guided and contrast-learning enhancement",
+    "authors": [
+      "Chunmao Li",
+      "Weidai Xia",
+      "Fang Liu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d50de483204f1b3b72d20f0c0366617d99b2c081",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-01208-1",
+    "citations": 0
+  },
+  {
+    "title": "Hybrid approach to assess the economic viability and cost reduction of residential pv systems using osprey optimization algorithm and triple memristor hopfield neural network",
+    "authors": [
+      "R. Ramachandran",
+      "Sukhavasi Santha Kumari",
+      "K. Ranjith",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/bdbbdaafa5e2aba64ce60dc3c5b328c8e6fe01b3",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "SN Business & Economics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s43546-026-01301-7",
+    "citations": 0
+  },
+  {
+    "title": "Towards explainable knowledge tracing through meta-path-free heterogeneous graph learning with large language models",
+    "authors": [
+      "Olaniyan Deborah",
+      "Wario Ruth"
+    ],
+    "link": "https://www.semanticscholar.org/paper/aeb710d1994a8b48425dbcb0e6e28da43a633393",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Discover Artificial Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44163-026-02049-7",
+    "citations": 0
+  },
+  {
+    "title": "Integrating Computer Vision and Large Language Models to Revitalize Dakon as Intangible Cultural Heritage",
+    "authors": [
+      "S. Suyahman",
+      "Cecep Hilman"
+    ],
+    "link": "https://www.semanticscholar.org/paper/a34350f9548e7d11043f8dd018ad61ac0723bbe7",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Abstract Traditional board games are increasingly digitized, yet many digital adaptations reduce embodied interaction and weaken cultural meaning. This study proposes a multimodal framework to revitalize Dakon as an intangible cultural heritage practice by integrating gesture-based computer vision and large language models. The system combines MediaPipe hand landmark detection, a Support Vector Machine classifier for gesture recognition, a deterministic Dakon game engine, and event-driven generative dialogue using Gemini 3 Flash. Experimental results show perfect precision across active gesture classes, with recall values ranging from 0.72 to 0.77, indicating that performance limitations primarily stem from hand detection robustness rather than classification accuracy. User experience evaluation involving twenty participants demonstrates high levels of engagement, perceived authenticity, clarity, and responsiveness. In addition, linguistically informed evaluation of 120 LLM-generated responses by expert evaluators reveals strong performance in cultural relevance, contextual accuracy, and motivational quality. The findings highlight that separating deterministic game logic from generative AI preserves gameplay authenticity while enabling contextual cultural interpretation. This study contributes a heritage-centered design principle in which generative AI functions as an interpretative layer rather than a rule-modifying agent. The proposed approach extends digital cultural preservation beyond static digitization toward interactive, embodied, and participatory experiences.",
+    "summary": "",
+    "doi": "10.1515/pdtc-2026-0009",
+    "citations": 0
+  },
+  {
+    "title": "A graph neural network framework for characterizing atrial cardiomyopathy from body surface potential maps",
+    "authors": [
+      "M. Macarulla-Rodríguez",
+      "Jorge Sánchez",
+      "C. Barrios Espinosa",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/906f4cd392d3a1219c38e92ee0fc24f885725aea",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Discover Computing"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10791-026-10439-9",
+    "citations": 0
+  },
+  {
+    "title": "AI-as-a-Judge for software quality assessment: Consistency, attitude effects, and complexity sensitivity in multi-agent code evaluation",
+    "authors": [
+      "Sherlinford Chou"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8f226d4b77612e8203af77198ab2e77cf7403470",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Software quality journal"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11219-026-09785-0",
+    "citations": 0
+  },
+  {
+    "title": "Large-language-model-driven adaptive search space definition for autonomous closed-loop materials exploration",
+    "authors": [
+      "Yuma Iwasaki",
+      "Ryo Toyama",
+      "Ryo Tamura",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8b5ad22e72ed78fee159b209687a98e945207a3f",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Communications Materials"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s43246-026-01304-9",
+    "citations": 0
+  },
+  {
+    "title": "Quantifying Large Language Model Influence in Brain Computer Interface Communication for Amyotrophic Lateral Sclerosis",
+    "authors": [
+      "A. Gorenshtein",
+      "M. Omar",
+      "E. Jia",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/89a2590d8c3353f0f7703ec42eaf1f3a5796a5e0",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.20.26360941",
+    "citations": 0
+  },
+  {
+    "title": "Evidence, use cases, and implementation safeguards of large language models in primary care",
+    "authors": [
+      "Michael Christof",
+      "Krish Patel",
+      "Jiandong Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/823d1ea4ca1c113245c895a2b2d994ee3c03dcfc",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Communications Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1038/s43856-026-01823-z",
+    "citations": 0
+  },
+  {
+    "title": "Efficient corrosion inhibition performance of mild steel in hydrochloric acid (1 M HCl) by 5,5’-(1,3-phenylenebis(1,3,4-oxadiazole−5,2-diyl))bis(benzene−1,3-diamine): theoretical and electrochemical study",
+    "authors": [
+      "Assiya Atif",
+      "M. Lasri",
+      "Soukaina Ameur",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b467a7210f5f3dc29b866cebe5c7b1c5fdf8c6e",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00925-z",
+    "citations": 0
+  },
+  {
+    "title": "AUTONOMOUS LOOP CONSTRUCTION AND SUPERVISION FOR CLINICIAN-ORIENTED MEDICAL-AI RESEARCH",
+    "authors": [
+      "X. Chen",
+      "X. Jiang",
+      "C. Shan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/46ee236466e293a6c33c321f300c757a5238f321",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.21.26361049",
+    "citations": 0
+  },
+  {
+    "title": "Explainable Rating Prediction and Sentiment-Segmented Summarization for E-Governance Applications",
+    "authors": [
+      "Prince Pandey",
+      "Jyoti Prakash Singh"
+    ],
+    "link": "https://www.semanticscholar.org/paper/3cc69c0ec28ed101ed181092c02093ff5dc3492a",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05287-9",
+    "citations": 0
+  },
+  {
+    "title": "Data security in large language models: risks, defense, and directions",
+    "authors": [
+      "Kang Chen",
+      "Xiuze Zhou",
+      "Yuanhui Yu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/249a53fc8e0e8efa49be0e379ace9460bcd2a0e4",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-01200-9",
+    "citations": 0
+  },
+  {
+    "title": "Stacking Approaches for Multi-Label Emotion Recognition in Persian Using Large and Small Transformer Models",
+    "authors": [
+      "Toktam Khatibi",
+      "Elham Farahani"
+    ],
+    "link": "https://www.semanticscholar.org/paper/157b15244ce50171b3f3faa7d1ff13340bc2f9bd",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Transformer",
+      "SN Computer Science"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42979-026-05288-8",
+    "citations": 0
+  },
+  {
+    "title": "Large language model enhanced heuristic synergy orchestrator for adaptive operator evolution",
+    "authors": [
+      "Hao-Ran Sun",
+      "Ruo-Bin Wang",
+      "Lin Xu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/041932af3615269091bc6a5dcdb3683d93734740",
+    "date": "2026-08-25",
+    "keywords": [
+      "今日上新",
+      "Evolutionary Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12065-026-01249-5",
+    "citations": 0
+  }
+]
