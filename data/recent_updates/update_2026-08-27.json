@@ -1,0 +1,223 @@
+[
+  {
+    "title": "Leveraging ECG foundation models in critical care for sinus rhythm and atrial fibrillation classification",
+    "authors": [
+      "Maria Galanty",
+      "M. Hulleman",
+      "M. Reuland",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/fb68a28cd74d6fc9bf98e88c359a384b65245e4f",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Intensive Care Medicine Experimental"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s40635-026-00949-7",
+    "citations": 0
+  },
+  {
+    "title": "Multi-SALLM: a multilingual security assessment of generated code",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Noshin Ulfat",
+      "Nishat Raihan",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d41841f07351c01e09331799fed5e75e5cee9bfb",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00646-5",
+    "citations": 0
+  },
+  {
+    "title": "Intrinsic modality disparity augmentation without database via cross-modal routing",
+    "authors": [
+      "Hua Wu",
+      "Haotian Hong",
+      "Yang Zhou",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9e23334f1fd7f627292b2800b0c7ccefd8181c9a",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-01198-0",
+    "citations": 0
+  },
+  {
+    "title": "Phase-Based Latency Mitigation in LLM-Driven VR Agents",
+    "authors": [
+      "Konstantin W. Kühlem",
+      "Yingxue Zhou",
+      "Torsten W. Kuhlen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/9da0ee36b1e768045676b50d409d10cd36f8748d",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Agent"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Response latency in Large Language Model (LLM)–driven Embodied Conversational Agents (ECAs) can disrupt conversational flow. We investigated whether phase-specific multimodal feedback can mitigate perceived waiting time without modifying the underlying dialogue pipeline. In a within-subjects study (n = 35), participants experienced feedback during user speech (USP), the response-waiting phase (RWP), both phases, or neither phase. Results showed that RWP feedback consistently reduced perceived latency, whereas USP-only feedback showed weaker and partly distracting effects, while perceived social qualities remained unaffected in all conditions. This highlights the importance of temporally aligned feedback for improving perceived responsiveness.",
+    "summary": "",
+    "doi": "10.1145/3821409.3833886",
+    "citations": 0
+  },
+  {
+    "title": "MAC-RAD: Modular Avatar Composition via Reusable Assets Disentanglement from RGB Video",
+    "authors": [
+      "Cheng-Yen Yu",
+      "Po-Chen Chen",
+      "Lijuan Fu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8d2b33e184a7b459344dd97cc33763fb276c2028",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Multimedia tools and applications"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11042-026-21860-z",
+    "citations": 0
+  },
+  {
+    "title": "A Comprehensive Computational Investigation of Novel Hydrazide–Hydrazone Derivatives as Potential EGFR Inhibitors for Gastric Cancer Treatment",
+    "authors": [
+      "Sofia El Marjany",
+      "Abdellah El Aissouq",
+      "Yassine El Allouche",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/8cbb9672139f661e3accd2275c560e783c07efd4",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Chemistry Africa"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s42250-026-01817-3",
+    "citations": 0
+  },
+  {
+    "title": "TGSFL: Trustworthy group-signature-based federated learning for LLMs in healthcare",
+    "authors": [
+      "Xinying Liu",
+      "Chunhua Jin",
+      "Yupeng Wu",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7edcfd147773a6332a144b99ff1521ad8db38b61",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-01237-w",
+    "citations": 0
+  },
+  {
+    "title": "Personalized Knowledge-based Graph Neural Networks and Regression Analysis for Computational Diagnosis of High-Risk Cardiovascular Disease Patients",
+    "authors": [
+      "T. Lampadarios",
+      "N. Karathanasis",
+      "R. Antartis",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/6ca40bb66f1aa7dbf5ea7c9395f24a81793402bb",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "medRxiv"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.64898/2026.08.24.26361273",
+    "citations": 0
+  },
+  {
+    "title": "In silico discovery of RIOK3 inhibitors against pancreatic ductal adenocarcinoma using homology modelling, molecular docking, molecular dynamics simulations, ADMET prediction, and MTT assay",
+    "authors": [
+      "Kawthar Alhussieni",
+      "R. Othman",
+      "Tamilanban Thamaraikani",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3096bb75c625be61d7392c4e6df61491eb861331",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Cited: 1",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00906-2",
+    "citations": 1
+  },
+  {
+    "title": "In Silico Discovery and in vitro Evaluation of the Antifungal and Cytotoxicity Properties of Zeaxanthin and β-Carotene",
+    "authors": [
+      "Mohadese Panahi Moghadam",
+      "S. Sardari",
+      "Mohammad Norouzi Nejad",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2de2f4dfa3c53af701504df020829f0a49d4307d",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Current Microbiology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00284-026-05102-x",
+    "citations": 0
+  },
+  {
+    "title": "Integrative chemical profiling combined with molecular docking, molecular dynamics simulations, ADMET, and DFT analysis reveal the anti-infective and antioxidant potential of Pulicaria incisa (Lam.) DC. essential oil supported by experimental validation",
+    "authors": [
+      "M. Snoussi",
+      "E. Noumi",
+      "Q. Alsenani",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2d4cb5b036551344c34a473c53b146b323603dce",
+    "date": "2026-08-26",
+    "keywords": [
+      "今日上新",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00918-y",
+    "citations": 0
+  }
+]
