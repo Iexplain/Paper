@@ -1,0 +1,271 @@
+[
+  {
+    "title": "“Let Me Take That Back”: Designing and Testing Deletion Interfaces for Human-AI Interaction",
+    "authors": [
+      "Justin Szczepaniak",
+      "Verena Zimmermann",
+      "Karola Marky"
+    ],
+    "link": "https://www.semanticscholar.org/paper/bebd751f76f26b9fe59ef48ceddbcdf253d4f303",
+    "date": "2026-08-29",
+    "keywords": [
+      "今日上新",
+      "Proceedings of Mensch und Computer 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "When interacting with large language models (LLMs), users have limited visibility and control over how their personal information is retained, particularly after incorporation into model training. Although some deployed LLMs provide options to opt-out of training, these mechanisms do not offer guarantees about the deletion of previously shared information. Hence, currently deployed LLMs rarely offer verifiable mechanisms to delete personal information from trained models or to demonstrate that deletion occurred. We conducted a within-subjects online experiment (N = 64) comparing three proposed interfaces, that enable users to request and receive feedback on the selective deletion of personal information in an LLM-based system: (1) a basic progress indicator, (2) a console-style technical display, and (3) an interactive verification chat. We measured user trust, perceived deletion, and usability. Participants appreciated transparent technical feedback, while interactive verification yielded the highest perceived deletion and trust without compromising usability. From our findings, we derive design recommendations for responsible, privacy-respecting, and user-controlled LLM systems.",
+    "summary": "",
+    "doi": "10.1145/3820253.3820277",
+    "citations": 0
+  },
+  {
+    "title": "Personality as Relational Infrastructuring: User Perceptions of Personality-Trait-Infused LLM Messaging",
+    "authors": [
+      "Dominik P. Hofer",
+      "David Haag",
+      "R. Islambouli",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/937332e6029baaa6c1cbf1fb16e7509d4699823b",
+    "date": "2026-08-29",
+    "keywords": [
+      "今日上新",
+      "Proceedings of Mensch und Computer 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Digital health interventions often rely on static message templates for health behaviour support, which can struggle to sustain engagement over time. Large language models (LLMs) offer a promising alternative by enabling context-sensitive message generation with personality-trait-based language adaptation across repeated interactions. Yet most prior work evaluates generated messages in isolation, leaving unclear whether such adaptation improves perceptions of individual messages or whether its benefits emerge through cumulative exposure. To examine this question, 90 participants rated hypothetical messages generated with four LLM strategies, with and without Big Five personality-trait-based language adaptation, in a controlled online study. Using ordinal multilevel models with within-person and between-person decomposition, we found no message-level effect on perceived personalisation. However, greater exposure to personality-trait-adapted messages was associated with increased perceived personalisation, increased appropriateness, and decreased negative affect. These findings suggest that the benefits of personality-trait-based language adaptation may emerge through sustained interaction rather than single-message optimisation.",
+    "summary": "",
+    "doi": "10.1145/3820253.3820280",
+    "citations": 0
+  },
+  {
+    "title": "PLAI: A Pilot Study of Profile-Based Explanation for AI-Supported Learning",
+    "authors": [
+      "Furkan Ali Yurdakul",
+      "Yiman Wu",
+      "Maria Torres Vega",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/7b01ae4f9055dc86ccc63369a83c2ccea855d462",
+    "date": "2026-08-29",
+    "keywords": [
+      "今日上新",
+      "Proceedings of Mensch und Computer 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models (LLMs) are increasingly used as on-demand conversational learning assistants, but they typically do not adapt explanations to a student’s background unless explicitly prompted. We present the Personalized Learning Assistant Interface (PLAI), a web-based prototype that generates explanations from lecture slides, audio transcripts, and a structured student profile through a chat-based interface. We evaluated PLAI in a controlled pilot study with 24 STEM students, comparing profile-based personalization with a baseline condition using the same slide and transcript context. Immediate learning was assessed with a five-item knowledge test, while subjective experience was measured using the User Experience Questionnaire (UEQ) and open-ended feedback. We did not observe clear differences in knowledge-test outcomes, but participants in the personalized condition reported significantly higher UEQ Stimulation. These results suggest that profile-based multimodal prompts may mainly support motivational engagement rather than immediate test performance, while larger and longer-term studies are needed to assess learning effects.",
+    "summary": "",
+    "doi": "10.1145/3820253.3831381",
+    "citations": 0
+  },
+  {
+    "title": "Effects of Interaction Modality on LLM-Based Information-Seeking",
+    "authors": [
+      "Julia Lansche",
+      "Fiona Draxler"
+    ],
+    "link": "https://www.semanticscholar.org/paper/59b25f62a25061813b88a7301244085649782708",
+    "date": "2026-08-29",
+    "keywords": [
+      "今日上新",
+      "Proceedings of Mensch und Computer 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Conversational Large Language Models (LLMs), increasingly also in voice mode, are reshaping how people seek and engage with information. Understanding modality effects on interaction patterns and user perspectives is essential for interaction design that balances factors such as trust, usability, and user experience. This paper presents a within-subject experiment (n = 33) comparing how text, voice, and mixed-modality interaction influence LLM-based information search, with participants composing recommendations in health-related scenarios. We find that voice-based and mixed-modality interactions were characterized by a more conversational interaction style, with higher turn ratios, more frequent follow-up questions, and shorter responses than text mode. User experience evaluations indicated differences in hedonic quality, but not in pragmatic quality. We observed no differences in the quality of participants’ recommendations, perceived cognitive load, trust, and anthropomorphism. Qualitative findings highlight situation-dependent preferences. We recommend that LLM-based search systems support mixed interaction modalities that allow for adjustment to preferences and task demands.",
+    "summary": "",
+    "doi": "10.1145/3820253.3820261",
+    "citations": 0
+  },
+  {
+    "title": "Exploration of Bias and Discriminatory Language against People with Disabilities in Large Language Models",
+    "authors": [
+      "Tjark Nitsche",
+      "J. Rubart"
+    ],
+    "link": "https://www.semanticscholar.org/paper/4a20b05f5f33a99611d2958f10b1c368644a5244",
+    "date": "2026-08-29",
+    "keywords": [
+      "今日上新",
+      "Proceedings of Mensch und Computer 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "LLMs have seen a significant increase in popularity in recent years due to their ability to produce outputs that are indistinguishable from human-written text. These advances have been possible because LLMs were trained on vast amounts of text data. However, this has also led to models reproducing biased outputs in the form of societal harms, such as discriminatory language from the training data. People with disabilities are particularly affected by this because LLMs can produce ableist language in their outputs. This paper focuses on ableist bias in LLMs by conducting a literature review of the existing research in this area. The works identified range from analyses of ableist bias to benchmarks and strategies for mitigating bias. The paper provides insights into existing research findings and also discusses limitations and open issues for future work.",
+    "summary": "",
+    "doi": "10.1145/3820253.3831386",
+    "citations": 0
+  },
+  {
+    "title": "Exploring Self-Tracking Practices of Older Adults with CVD to Design LLM-Enabled Health Data sensemaking",
+    "authors": [
+      "Duosi Dai",
+      "Pavithren V S Pakianathan",
+      "G. Treff",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/124672c8bf00abc7cef725e653a7fd388a4c74a0",
+    "date": "2026-08-29",
+    "keywords": [
+      "今日上新",
+      "Proceedings of Mensch und Computer 2026"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Wearables and mobile health applications are increasingly adopted for self-management of chronic illnesses; yet the data feels overwhelming for older adults with cardiovascular disease (CVD). This study explores how they make sense of self-tracked data and identifies design opportunities for Large Language Model (LLM)-enabled support. We conducted a seven-day diary study and follow-up interviews with eight CVD patients aged 64–82. Findings highlight that self-tracking is affective, interpretive, and socially situated, and are guided by six themes: navigating emotional complexity, owning health narratives, prioritizing bodily sensations, selective engagement with health metrics, negotiating the socio-technical dynamics of sharing, and cautious optimism toward AI. We outline design directions for LLM-enabled data sensemaking systems: supporting emotional engagement, reinforcing patient agency, acknowledging embodied experiences, prompting dialogue in clinical and social contexts, and ensuring safety mechanisms. These directions articulate how LLMs can help translate data into narratives and carry implications for human-data interaction and behavior-change support.",
+    "summary": "",
+    "doi": "10.1145/3820253.3820281",
+    "citations": 0
+  },
+  {
+    "title": "NavAI: an application-agnostic llm framework for navigation tasks in virtual reality environments",
+    "authors": [
+      "Jiajie Wang",
+      "Sumesh Surendran Letha",
+      "M. DiGiovanni",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/f86ce57d564b6537924c130adab09a5fb85e594a",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "International Conference on Automated Software Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10515-026-00676-z",
+    "citations": 0
+  },
+  {
+    "title": "TrafficMoE: LLM-based mixture-of-experts framework for multi-task network traffic classification",
+    "authors": [
+      "Hui-Min Chen",
+      "De-Hong Gao",
+      "Wen-Xiao Zhang",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/edbb39fda94b934a270fedddbb42c61f43f28f4c",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Journal of King Saud University: Computer and Information Sciences"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44443-026-01202-7",
+    "citations": 0
+  },
+  {
+    "title": "Dynamic Derived Intentionality in Large Language Models: From Implicit Beliefs to Semantic Parasitism",
+    "authors": [
+      "Andrea Tortoreto"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ea090d4eed0d7c70d0b1c62f681e93d77c603b7d",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Minds and Machines"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s11023-026-09800-0",
+    "citations": 0
+  },
+  {
+    "title": "Visuo-spatial cognition and the redesign of human-AI interaction in generative artificial intelligence",
+    "authors": [
+      "B. Galasso"
+    ],
+    "link": "https://www.semanticscholar.org/paper/e60e5ea58f5a609d4d5fec9ef026d32487f437b5",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Discover Artificial Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44163-026-02040-2",
+    "citations": 0
+  },
+  {
+    "title": "SGAP-Place: A Social Semantics-Augmented Representation Learning Framework for Urban Places",
+    "authors": [
+      "Jin Zeng",
+      "Yu-Yi Cai",
+      "Yang Yue",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/d20a9235a3af09e1d30b31628241879fa4825458",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Journal of Geovisualization and Spatial Analysis"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s41651-026-00285-0",
+    "citations": 0
+  },
+  {
+    "title": "A survey on LLM-enhanced reinforcement learning in financial markets",
+    "authors": [
+      "Ghusoon Hadi al-Aldaffaie",
+      "Alireza Taheri",
+      "Amirfarhad Farhadi",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/3586d7f6422c591d74a8f9c7f47f06cd9429ee3b",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Discover Artificial Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s44163-026-02018-0",
+    "citations": 0
+  },
+  {
+    "title": "DFGLM-TCM: an integrated knowledge-and experience-driven large language model system for Traditional Chinese Medicine practice",
+    "authors": [
+      "Ruikang Zhong",
+      "Dian-Na Liu",
+      "Yuejia Dai",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/136ae6e4b04fbc34d26cd59d02da1261135f0c4d",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Chinese Medicine"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1186/s13020-026-01512-y",
+    "citations": 0
+  },
+  {
+    "title": "Molecular insights and ADMET profiling of iridoids as candidate leads for erectile dysfunction therapy",
+    "authors": [
+      "Marcos Aurélio Carpina de Oliveira",
+      "Jacilene Silva",
+      "Victor Moreira de Oliveira",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/035986e93d48220ffe353d1e8964b2b4ac20de2e",
+    "date": "2026-08-28",
+    "keywords": [
+      "今日上新",
+      "Journal of Molecular Modeling"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s00894-026-06924-z",
+    "citations": 0
+  }
+]
