@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Artificial Intelligence in Adaptive Learning for Education: A Bibliometric Analysis",
+    "authors": [
+      "Noor Fadzilah",
+      "Ab Rahman",
+      "Nurkaliza Khalid"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d9fb08181fdfa159e37858150559f636a19f3f7c",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "e-Jurnal Penyelidikan dan Inovasi"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial intelligence (AI) has emerged as a transformative technology in education, particularly adaptive learning, which supports personalized and learner-centered experiences. Despite the rapid growth of research on AI for adaptive learning, a comprehensive understanding of its publication performance, thematic structure, and technological evolution remains limited. To overcome this gap, the study aims to systematically map and evaluate the development of research on AI for adaptive learning in education using bibliometric methods. A bibliometric analysis was conducted using data from the Scopus database covering the period from 2015 to 2026. The study analyzed 2,354 publications through two complementary methods: performance analysis and science mapping. Performance analysis was used to evaluate publication growth, influential countries, sources, and highly cited documents. Science mapping techniques, including keyword co-occurrence analysis, were used to identify major research themes and the emerging AI technologies landscape. The findings show that research output has significantly risen after 2023 and recorded the highest number of publications in 2025. India emerged as the most productive country, while the United States had the highest citation impact. Citation analysis highlights adaptive and personalized learning systems, intelligent educational systems, and generative AI applications as key intellectual foundations of the field. Science mapping further revealed that machine learning, intelligent tutoring systems, generative AI, learning analytics, and large language models are central AI technological themes in adaptive learning research. These recent trends indicate a growing shift towards conversational AI, generative AI, and personalized intelligent learning environments. In conclusion, this study provides insights into publication trends, contributors, research themes, and emerging AI technologies in adaptive learning, which could assist researchers, educators, policymakers, and educational technology developers in improving intelligent adaptive learning systems.",
+    "summary": "",
+    "doi": "10.53840/e-jpi.v13i2.413",
+    "citations": 0
+  },
+  {
+    "title": "AI Research Partner: An AI-Powered Web Platform for Research Paper Analysis, Summarization, and Ideation",
+    "authors": [
+      "Chintha Kameswara Lokesh",
+      "Dr. A. S. N. Chakravarthy",
+      "Priya Darshini Cholla"
+    ],
+    "link": "https://www.semanticscholar.org/paper/d6938caa79ae60cd58254a677b0026289e0a0be8",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid growth of published research literature has made manual, unaided reading a bottleneck for students and\nearly-stage researchers, who must extract structured understanding from unstructured PDF documents while operating at\nvarying levels of comprehension. This paper presents the AI Research Partner, a full-stack MERN (MongoDB, Express.js,\nReact, Node.js) web platform that unifies the research-reading workflow — comprehension, synthesis, and ideation — into a\nsingle authenticated system. The platform ingests a PDF, extracts its text, and uses the Google Gemini large language model to\ngenerate multi-level (basic, medium, technical) section summaries, an interactive D3.js concept knowledge graph, novelty-rated\nresearch ideas, citation recommendations, auto-generated quizzes, and abstract/slide drafts, while a Socket.io-based real-time\nlayer enables collaborative annotation among multiple users. The system was implemented end-to-end, evaluated through\nfunctional testing across eight modules, and benchmarked for AI feature response latency and concurrent-user scalability.\nResults indicate pass rates above 87% across all modules, typical AI response times of 3-17 seconds depending on feature\ncomplexity, and stable real-time note-broadcast latency under load, demonstrating that a single, prompt-engineered platform can\nreasonably reproduce the core stages of expert research reading within one coherent, collaborative interface.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84642",
+    "citations": 0
+  },
+  {
+    "title": "Security and privacy challenges of RAG systems",
+    "authors": [
+      "Firoz Mohammed Ozman"
+    ],
+    "link": "https://www.semanticscholar.org/paper/cca78164530b0aad554d55a898270953c3f4f453",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "International Journal of Frontiers in Science and Technology Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Retrieval-Augmented Generation (RAG) systems enable robust knowledge integration for large language models but also pose significant security and privacy risks. RAG systems combine two components: a retriever, which searches external data sources for relevant information, and a generator, typically a large language model that uses both the retrieved documents and user queries to produce answers. This study conducts a systematic literature review to assess these challenges using Socio-Technical Systems Theory (which considers interactions among people, technology, and organizational context) and Privacy by Design (PbD, a framework for embedding privacy into system design). Addressing five objectives, the research detects and classifies privacy attacks, evaluates risks throughout the storage, retrieval, and generation phases, scrutinizes measurement methods, contrasts mitigation strategies, and introduces a unified solution. The work culminates in the Integrated Privacy-Preserving RAG Framework (IPRAG), a five-tier architecture supported by a three-phase deployment protocol. This study presents a detailed, actionable approach to constructing secure, privacy-focused RAG systems.",
+    "summary": "",
+    "doi": "10.53294/ijfstr.2026.10.2.0022",
+    "citations": 0
+  },
+  {
+    "title": "EVENTFORGE: OPTIMIZABLE EVENT SCHEMA INDUCTION WITH HYBRID RAG+KG STORAGE",
+    "authors": [
+      "Harshil Lodhiya"
+    ],
+    "link": "https://www.semanticscholar.org/paper/ba42c9e660bc9c3d640b948e7e158cce9f3e604a",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Scientific literature, incident reports and technical documents encode process knowledge that is largely opaque to keyword search and modern retrieval-augmented generation. Event schema induction makes this knowledge available as a queryable graph, but current large-language-model inducers are often organized as hand-crafted prompt cascades that are brittle across models and difficult to improve from data. This paper presents EventForge, an open-source system that reframes schema induction as typed DSPy programs and co-locates the induced knowledge graph with a hierarchical dense-retrieval index in a single PostgreSQL/pgvector substrate. The system reads PDFs, extracts event candidates with DSPy ChainOfThought modules, removes near duplicates with sentence-embedding similarity, stores events in a NetworkX graph, and persists graph and retrieval artifacts together for hybrid RAG+KG querying. On a 12-PDF corpus spanning medical imaging, remote sensing, LLM security, and curriculum learning, EventForge induces 393 events and 286 graph relationships in 497.8 seconds on gpt-4o-mini, with a 6.2% near-duplicate rejection rate. The study reports system behavior, runtime, cost, graph yield, duplicate control, and implementation limitations, while leaving gold-standard event and edge F1 evaluation for future work.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.31.2.2105",
+    "citations": 0
+  },
+  {
+    "title": "AI in Drug Development: Applications and Challenges",
+    "authors": [
+      "Saikat Biswas",
+      "Somenath Bhattacharya",
+      "Soumallya Chakraborty"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b78e6916e9745b495ef34a763368b0ec412454c9",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "AIDD",
+      "Molecular Generation",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The drug discovery process is a long and complicated one, involving multiple steps and issues, starting from target\nidentification and ending with clinical development. The amount of chemical, biological, and clinical data produced by modern\npharmaceutical companies is tremendous, and there is a continuous need to develop new approaches that could allow for\nefficient data mining and identification of relevant information. In this regard, artificial intelligence (AI), and specifically\nmachine learning (ML) and deep learning (DL) seem to be an attractive choice for researchers for tackling the challenging task\nof data analysis.\nIn silico artificial intelligence has been applied at all stages of the drug discovery and development pipeline, ranging from\nmolecular target identification, virtual screening, molecular docking, quantitative structure-activity relationship, ADMET\nprediction, de novo design, ligand and lead optimisation, computer-assisted synthesis design, drug repurposing, and clinical\ntrials.\nThese approaches can facilitate the exploration of large data sets and the prioritisation of compounds for experimental\nassessment, thereby reducing the time and cost associated with traditional drug discovery. and expensive traditional drug\ndiscovery.\nHowever, despite the reported benefits and opportunities, there are still some limitations associated with AI-driven drug\ndiscovery, including dependence on large data sets with diverse characteristics, insufficient data for model training, data bias,\noverfitting, lack of interpretability, absence of independent evaluation, and regulatory issues.\nTherefore, it is essential to view AI technologies as an instrumental but supplementary part of decision-making in\npharmaceutical research and development rather than a fully independent alternative to traditional hit- and lead-discovery\nstrategies The manuscript is a Review article that focuses on the main areas of application of artificial intelligence for drug\ndiscovery and development, including benefits, drawbacks, ethical issues, and opportunities.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84600",
+    "citations": 0
+  },
+  {
+    "title": "Efficient and Scalable Foundation Model for Metamaterial Design",
+    "authors": [
+      "H. Choi",
+      "Dongseok Lee",
+      "Youngjoon Hong",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/b32ca136b10dd34eac7104727e464d36fe786f7d",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transactions of the Korean Society of Mechanical Engineers A"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.3795/ksme-a.2026.50.8.663",
+    "citations": 0
+  },
+  {
+    "title": "Artificial Intelligence for Real-Time Cyber Threat Classification and Emerging Threat Detection: A Structured Review of Methods, Datasets, Challenges, and Research Directions",
+    "authors": [
+      "Jaswanth Garugu"
+    ],
+    "link": "https://www.semanticscholar.org/paper/9d5b5df90dd983b39baa3a0f74f289ea9b69c4cc",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The swift adoption of cloud computing, the Internet of Things (IoT), fifth-generation (5G) communication, and edge\ncomputing has extensively broadened the cyber-attack surface, facilitating the emergence of threats with increased scale, speed,\nand complexity. Traditional detection techniques, which rely on signatures, rules, and statistical analysis, continue to be effective\nfor identifying known attacks; however, their capacity to detect zero-day exploits, polymorphic malware, and advanced persistent\nthreats is limited. Consequently, there has been a rise in the implementation of artificial intelligence (AI) for adaptive and realtime cyber threat analysis. This review evaluates the evolution of AI-driven methodologies for real-time cyber threat\nclassification and the identification of new threats, drawing from over fifty peer-reviewed studies identified through a structured\nsearch of leading scholarly databases. Instead of treating the studies in isolation, the literature is synthesized based on detection\nobjectives, computational techniques, datasets, evaluation metrics, deployment environments, and acknowledged limitations. The\nreview juxtaposes conventional detection methods with machine learning, deep learning, explainable AI (XAI), reinforcement\nlearning, federated learning, graph neural networks (GNNs), large language models (LLMs), and generative AI. It places\nparticular emphasis on frequently utilized cybersecurity datasets and evaluation practices, as well as ongoing challenges related\nto class imbalance, adversarial manipulation, computational overhead, model interpretability, privacy concerns, and inadequate\nvalidation in real-world scenarios. The reviewed literature indicates that AI-based methodologies often demonstrate superior\ndetection capabilities for intricate and previously unseen attack patterns compared to traditional methods; however, direct\nperformance comparisons are complicated due to discrepancies in datasets, experimental designs, and evaluation protocols.\nMoreover, a limited number of proposed models have been evaluated under authentic operational circumstances. In light of\nthese observations, the review identifies significant research gaps and outlines prospective paths for developing explainable,\nprivacy-conscious, computationally efficient, and readily deployable AI-enabled cyber-defence systems.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84615",
+    "citations": 0
+  },
+  {
+    "title": "CONCEPTUAL FRAMEWORK FOR AUTOMATED CURRICULUM MAPPING IN OUTCOME-BASED EDUCATION USING SEMANTIC REASONING",
+    "authors": [
+      "Oluwatosin Amoke Fabiyi",
+      "O. Awodele",
+      "Modupe Ruth Omofoye",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/84bebcc9ce111086d89065e185e262ad98136460",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Global Journal of Engineering and Technology Advances"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Higher education institutions globally are being mandated to implement Outcome-Based Education (OBE), placing curriculum mapping at the center of quality assurance. Yet mapping remains labour-intensive, subjective, and inadequate at scale. This paper proposes the Semantic-AI Curriculum Mapping (SACM) Framework—a conceptual architecture integrating ontologies, knowledge graphs, semantic reasoning, and Large Language Models (LLMs) to automate OBE-aligned curriculum mapping. A purposive synthesis of 30 peer-reviewed publications (2021–2026) is used to derive a six-category problem taxonomy and a six-layer framework, validated through a traceability matrix. No implementation is presented. Three original contributions are advanced: a problem taxonomy, the six-layer SACM framework, and a traceability matrix demonstrating comprehensive coverage of identified barriers. The framework's modular design is contextualized for Nigerian universities under NUC's Core Curriculum and Minimum Academic Standards (CCMAS, 2022).",
+    "summary": "",
+    "doi": "10.30574/gjeta.2026.28.2.0182",
+    "citations": 0
+  },
+  {
+    "title": "The Impact of Claude Agents and Autonomous AI Agents on Higher Education: Opportunities, Challenges, and Implications for Educational Leadership",
+    "authors": [
+      "Bogdan Costache"
+    ],
+    "link": "https://www.semanticscholar.org/paper/6789a8861a7b0598f526c76ece543d488be9134d",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "International Journal of Education, Leadership, Artificial Intelligence, Computing, Business, Life Sciences, and Society"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Artificial intelligence (AI) is rapidly evolving from conversational large language models (LLMs) toward Agentic AI, represented by autonomous AI agents capable of reasoning, planning, memory management, tool use, and autonomous workflow execution. While existing research has largely focused on the educational impact of generative AI systems such as ChatGPT, considerably less attention has been devoted to Claude Agents and other autonomous AI agents despite their growing potential to transform teaching, learning, research, academic administration, and institutional decision-making. This study addresses this emerging research gap by examining the opportunities, challenges, and leadership implications associated with the adoption of autonomous AI agents in higher education.The study employs a conceptual review with thematic literature analysis to synthesize recent interdisciplinary research on agentic AI, Human–AI Collaboration, educational leadership, AI governance, and higher education. The analysis identifies several opportunities, including personalized learning, intelligent tutoring, research assistance, curriculum development, administrative automation, and evidence-informed decision support. At the same time, the literature highlights important challenges related to academic integrity, hallucinations, transparency, algorithmic bias, privacy, cybersecurity, accountability, and the need for meaningful human oversight.The findings suggest that the successful integration of autonomous AI agents depends not only on technological capabilities but also on institutional readiness, effective governance, ethical frameworks, and visionary educational leadership. Rather than replacing educators or institutional leaders, Claude Agents and Autonomous AI Agents should be understood as intelligent collaborators that augment human expertise within a Human–AI Collaboration paradigm. By extending current discussions beyond conversational generative AI, this article contributes an integrated conceptual perspective linking agentic AI, institutional transformation, and educational leadership, while providing practical implications for universities preparing for the next generation of AI-enabled higher education.",
+    "summary": "",
+    "doi": "10.65222/viral.2026.8.45.65",
+    "citations": 0
+  },
+  {
+    "title": "Benchmarking Vision Foundation Models for Cross-modality Skin Lesion Classification: A Comparative Study of CNN, Transformer, Vision–language, and State-space Architectures",
+    "authors": [
+      "Beatus Mbunda",
+      "Perumalla Swetha"
+    ],
+    "link": "https://www.semanticscholar.org/paper/67367eeab067c339648798d23f336bdca0982f54",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "Transformer",
+      "International Journal of Intelligent Engineering and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.22266/ijies2026.0831.40",
+    "citations": 0
+  },
+  {
+    "title": "APPLICATION OF LLM + ZERO-SHOT LARGE MODELS FOR FRUIT OBJECT DETECTION",
+    "authors": [
+      "Ying-Dong Qin",
+      "Hao-yu Song",
+      "Jing-Yi Li",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4f53c6c1c3e80662ec43aaedafe94ded0bbc9051",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "INMATEH Agricultural Engineering"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Efficient and flexible agricultural image annotation is crucial for intelligent crop monitoring in smart agriculture,\nyet conventional detection models are limited by fixed class labels and require extensive manual annotations.\nThis study presents a zero-shot annotation framework that integrates OWLv2, Google’s second-generation\nopen-vocabulary vision model, with large language models (e.g., GPT-3.5, DeepSeek V1) to enable\nmultilingual, natural language-driven fruit recognition in smart agriculture. A user-friendly interface was\ndeveloped to support individual or batch image annotation with adjustable sensitivity to meet diverse field\nrequirements. Experimental evaluations demonstrated the framework's strong generalizability and semantic\nunderstanding capabilities, allowing recognition of unseen fruit categories and attributes such as ripeness or\ncolor. The system significantly reduces annotation time and labor costs, while enhancing accessibility through\nnatural language interaction. To ensure a robust evaluation of generalizability, a cross-domain protocol was\nemployed using a novel dataset from 2025. Results showed that OWLv2 achieved an F1-score of 0.80 and an\nmAP of 0.8301, significantly outperforming the pre-trained YOLO11 (F1: 0.74, mAP: 0.60) in zero-shot\nscenarios. OWLv2 exhibited superior flexibility and required no task-specific dataset retraining, although its\ncomputational demands remain higher than lightweight models like YOLO11. Notably, while the LLM\n(DeepSeek) introduced a total one‑time API latency of 598.3 ms (called only once for processing multiple\nimages). the actual core computational latency of OWLv2 was only 257.7 ms per image. Despite a total\nprocessing time of 891.9 ms (including visualization output), the framework demonstrates superior recall\n(0.9080) and semantic flexibility without retraining. These results verify the enormous application potential of\nOWLv2 and similar zero-shot models in agriculture, providing scalable solutions for automated annotation,\nreal-time monitoring, and large-scale data collection.",
+    "summary": "",
+    "doi": "10.35633/inmateh-79-11",
+    "citations": 0
+  },
+  {
+    "title": "NeuroFM-AX: An Anatomy-conditioned Cross-modal Foundation Model with Low-rank Adaptation for Calibrated Differential Diagnosis of Parkinson’s Disease",
+    "authors": [
+      "Naved Ahmad",
+      "I. Khan",
+      "Suraiya Parveen",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/2c85fe1aa3f5dc8f7e092f9e0f409fc9db034053",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "Foundation Model",
+      "International Journal of Intelligent Engineering and Systems"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.22266/ijies2026.0831.52",
+    "citations": 0
+  },
+  {
+    "title": "Intelligent Document Processing Platform Using Retrieval-Augmented Generation (RAG)",
+    "authors": [
+      "Joshi Priya",
+      "M. Arathi"
+    ],
+    "link": "https://www.semanticscholar.org/paper/2b6679be7ca006ed351924501fbca51ea5a2b883",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "International Journal for Research in Applied Science and Engineering Technology"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The rapid growth of digital documents across enterprises, educational institutions, healthcare organizations, and\nresearch environments has created significant challenges in information retrieval and knowledge management. Traditional\nkeyword-based search systems often fail to capture the semantic meaning and contextual relationships present in large\ncollections of unstructured documents, resulting in inefficient information access and reduced productivity. This study presents\nan Intelligent Document Processing Platform using Retrieval-Augmented Generation (RAG) to enable accurate, context-aware,\nand reliable document intelligence. The proposed system integrates document ingestion, text extraction, preprocessing,\nchunking, embedding generation, vector-based semantic retrieval, and Large Language Models (LLMs) within a unified\nframework. Uploaded documents are transformed into vector embeddings and stored in a vector database, enabling efficient\nsimilarity-based retrieval. When a user submits a natural language query, the system retrieves the most relevant document\nsegments and augments them as contextual knowledge for response generation. This retrieval-grounded approach reduces\nhallucinations, improves factual accuracy, and enhances the relevance of generated answers. The platform is implemented using\nPython, Streamlit, LangChain, embedding models, and vector databases to provide an interactive and scalable solution for\ndocument-centric knowledge discovery. Experimental evaluation demonstrates improved retrieval effectiveness, faster access to\nrelevant information, and enhanced user experience compared with conventional document search approaches. The proposed\nsystem offers a practical and scalable framework for intelligent document understanding, semantic search, and AI-assisted\nquestion answering in modern knowledge management environments.",
+    "summary": "",
+    "doi": "10.22214/ijraset.2026.84688",
+    "citations": 0
+  },
+  {
+    "title": "MACHINE LEARNING-BASED QSAR MODELING OF TRICLOSAN ANALOGS FOR ANTIPLASMODIAL ACTIVITY PREDICTION USING SHRINKAGE REGRESSION MODEL AND TOPOLOGICAL-PHYSICOCHEMICAL DESCRIPTORS",
+    "authors": [
+      "Désiré Meledje",
+      "Aubin N’GUESSAN",
+      "Kady Silué",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/07ff1b9eb36789cece9798c8cdf6b8439106fb3e",
+    "date": "2026-08-31",
+    "keywords": [
+      "今日上新",
+      "AIDD",
+      "World Journal of Advanced Research and Reviews"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Drug-resistant Plasmodium falciparum continues to threaten malaria control, necessitating new antimalarial discovery strategies. QSAR modeling with machine learning offers a cost-effective approach to relate molecular features to biological activity and prioritize candidate compounds for further development. In particular, topological descriptors (capturing molecular connectivity, branching, and structural arrangement) and physicochemical descriptors (such as hydrophobicity, electronic properties, polarity, and steric effects) provide complementary and mechanistically meaningful information governing ligand–target interactions and biological response. Here, a ridge regression QSAR model was developed to predict the anti-plasmodial activity of triclosan analogs. RFECV (Recursive Feature Elimination with Cross-Validation) was used for optimal descriptor selection. The model achieved an R² of 88.83% on the training set and an R²_test of 80.80% on the external test set, indicating strong predictive performance and robust generalization. These results highlight the importance of carefully selected descriptors in improving both interpretability and accuracy. Overall, the RFECV–Ridge QSAR framework provides a reliable and interpretable approach for virtual screening and rational design of novel pfENR inhibitors.",
+    "summary": "",
+    "doi": "10.30574/wjarr.2026.31.2.2099",
+    "citations": 0
+  },
+  {
+    "title": "Intelligent agents: architectures, learning paradigms, deployment models, and applications",
+    "authors": [
+      "Elias Dritsas",
+      "M. Trigka"
+    ],
+    "link": "https://www.semanticscholar.org/paper/c923021409a12540c10fa2a7bccf320e8d33499d",
+    "date": "2026-08-30",
+    "keywords": [
+      "今日上新",
+      "Agent",
+      "Evolutionary Intelligence"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s12065-026-01259-3",
+    "citations": 0
+  },
+  {
+    "title": "Bridging the antiviral drug design gap: a combined machine learning and QSAR approach for drug repurposing of host kinase inhibitors",
+    "authors": [
+      "Rand O. Shahin",
+      "Yusra Azzam",
+      "Salma Azzam"
+    ],
+    "link": "https://www.semanticscholar.org/paper/baff003ea9d0a4bf41618329a958b3fc7922eb3d",
+    "date": "2026-08-30",
+    "keywords": [
+      "今日上新",
+      "Network Modeling Analysis in Health Informatics and Bioinformatics"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s13721-026-00863-8",
+    "citations": 0
+  },
+  {
+    "title": "ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites",
+    "authors": [
+      "Kai Liu",
+      "Shengli Zhang",
+      "Jingyi Ren"
+    ],
+    "link": "https://www.semanticscholar.org/paper/05448af0f97b67b98f188d5d1b6d1f4a68f4fd1d",
+    "date": "2026-08-30",
+    "keywords": [
+      "今日上新",
+      "Deep Learning",
+      "Protein Language Model",
+      "Journal of Computer-Aided Molecular Design"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": null,
+    "summary": "",
+    "doi": "10.1007/s10822-026-00934-y",
+    "citations": 0
+  }
+]
