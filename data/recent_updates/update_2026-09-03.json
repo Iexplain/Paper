@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Интеллектуальная автоматизированная обучающая система AESU и лежащие в её основе концепции, механизмы и методы",
+    "authors": [
+      "В.А. Углев",
+      "Георгий Александрович Смирнов"
+    ],
+    "link": "https://www.semanticscholar.org/paper/af17d4bc9d003fc471941634d6370aad3e2aa3ec",
+    "date": "2026-09-03",
+    "keywords": [
+      "今日上新",
+      "Информационные и математические технологии в науке и управлении"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Проблема системного и научно-обоснованного подхода к организации электронного обучения повышает свою актуальность в условиях массового применения больших языковых моделей. В статье рассматривается проблема концептуального методического обоснования работы интеллектуальных автоматизированных обучающих систем (ИАОС). Показана проблема описания и раскрытия в научных источниках внутренних механизмов их работы, позволяющих верифицировать и автоматически объяснять принимаемые ими решения. В качестве примера рассмотрена авторская экспериментальная обучающая система AESU. Для неё рассматриваются базовые концепции, механизмы и методические решения. В качестве основных концепций приведены теория функциональных систем П.К. Анохина (модель афферентного синтеза), прикладная семиотика Д.А. Поспелова и теория рефлексивного управления В.А. Лефевра. Показана роль когнитивной визуализации (картирования) при синтезе решений. Для этого объединяется логика продукционных экспертных систем, нечёткой логики и проверки гипотеза по Шортлиффу – интеллектуальных механизмов решателя обучающей системы. Эмерджентный эффект, возникающий от использования приведённых концепций и механизмов, позволяет предложить авторский подход к реализации модульной концентрации данных и сквозного анализа учебной ситуации. Системообразующим элементом в синтезе решений ИАОС становятся структурная и функциональная нотация карт: метод когнитивных карт диагностики знаний и метод унифицированного графического воплощения активности. Показана возможность взаимного перехода параметрического и визуального отображения учебной ситуации между этими типами карт и их использование при выработке решений как решателем обучающей системы, так и учащимся в процессе работы в электронной обучающей среде. В заключении отмечены архитектурные особенности ИАОС AESU. Кроме типовых функций систем управления обучением, предложенная ИАОС реализует диалоговый механизм взаимодействия с учащимся в естественно-языковой форме без привлечения возможностей больших языковых моделей: гибкий механизм обратной связи позволяет поддерживать интерактивный диалог, опираясь на методически обоснованные выводы. Это позволяет повысить уровень доверия человека-учащегося к рекомендациям обучающей системы и способствует вовлечению в образовательный процесс на базе ИАОС.\n The problem of a systematic and scientifically-based approach to the organization of e-learning is becoming increasingly relevant in the context of the widespread use of large language models. This article explores the issue of conceptual and methodological support for the operation of Intelligent Tutoring Systems (ITS). It highlights the challenge of describing and explaining the internal mechanisms of these systems in scientific publications, allowing for the verification and automatic explanation of their decisions. As an example, the author's experimental learning system, AESU, is examined. The article focuses on the fundamental concepts, mechanisms, and methodological solutions employed in this system. The main concepts include P.K. Anokhin's theory of functional systems (the model of afferent synthesis), D.A. Pospelov's applied semiotics and V.A. Lefebvre's theory of reflexive control. The role of cognitive visualization (mapping) in the synthesis of solutions is demonstrated. This involves combining the logic of production expert systems, fuzzy logic, and Shortliffe's hypothesis testing, which are the intellectual mechanisms of the learning system's solver. The emergent effect arising from the use of the above-mentioned concepts and mechanisms allows us to propose an author's approach to the implementation of modular data concentration and cross-cutting approach of the learning situation. The structural and functional notation of maps becomes the system-forming element in the synthesis of ITS solutions: the method of Cognitive Maps of Knowledge Diagnosis and the method of Unified Graphic Visualization of Activity. The article demonstrates the possibility of mutual transition between the parametric and visual representation of the learning situation between these types of maps and their use in the development of solutions by both the solver of the learning system and the student during their work in the electronic learning environment. In conclusion, the architectural features of the AESU ITS are noted. In addition to the typical functions of learning management systems, the proposed ITS implements a dialogic mechanism for interacting with students in a natural language form without using the capabilities of large language models. The flexible feedback mechanism allows for interactive dialogue based on methodologically sound conclusions, which increases the level of trust between the student and the learning system and promotes engagement in the educational process based on the ITS.",
+    "summary": "",
+    "doi": "10.25729/esi.2026.43.3.004",
+    "citations": 0
+  },
+  {
+    "title": "Иерархическая модель структуры документа для решения задачи генерации конспектов лекций",
+    "authors": [
+      "Милан Ерикович Исмагулов"
+    ],
+    "link": "https://www.semanticscholar.org/paper/1080de2f88a71b184e2fe08a6355a69e9be45b35",
+    "date": "2026-09-03",
+    "keywords": [
+      "今日上新",
+      "Информационные и математические технологии в науке и управлении"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "В статье предлагается модель описания структуры документа, основанная на методах анализа иерархической структуры документа (HDSA) и формализме теории графов. В рамках предложенного подхода документ рассматривается как иерархическая система взаимосвязанных структурных элементов, включающая заголовки различных уровней, текстовые блоки, таблицы, формулы, изображения и иные типы контента. Каждый элемент интерпретируется, как вершина графа, а отношения вложенности и логической зависимости между элементами описываются с использованием ориентированных ребер графовой структуры. Применение предложенной модели к корпусу документов из различных предметных областей позволило выявить устойчивые закономерности организации текстового материала, характерные для конкретных типов документов. На основе полученных характеристик был сформирован набор JSON-шаблонов, описывающих типовые структуры документов для различных предметных областей, включая технические, юридические и научно-образовательные материалы. Каждый шаблон содержит формализованное описание структуры документа, включая допустимые уровни заголовков, ограничения на типы содержимого, а также параметры стилевого и композиционного оформления. Дополнительно шаблон может включать сведения о предпочтительном формате представления данных, правилах генерации таблиц, формул и специализированных текстовых конструкций. Использование JSON-формата обеспечивает машинно-ориентированное представление структуры документа и возможность интеграции шаблонов в программные системы автоматической генерации текста. Разработанные шаблоны предназначены для использования в процессе генерации текстов большими языковыми моделями (Large Language Models – LLM). В рамках предложенного подхода шаблон выступает как формализованное структурное ограничение, определяющее допустимую организацию итогового документа и последовательность формирования его разделов. Это позволяет снизить вариативность структуры генерируемого текста, повысить согласованность взаимосвязанных разделов и обеспечить соответствие результата требованиям конкретной предметной области. Предложенный подход ориентирован на реализацию управляемой генерации документов, при которой большая языковая модель выполняет генерацию содержимого в рамках заранее заданной структурной схемы. За счет этого обеспечивается более стабильное качество формирования документа, уменьшается вероятность нарушения логики построения текста и повышается воспроизводимость результатов генерации. Кроме того, использование структурных шаблонов позволяет адаптировать процесс генерации под различные типы документов без изменения архитектуры самой языковой модели.\n This article proposes a document structure description model based on Hierarchical Document Structure Analysis (HDSA) methods and the formalism of graph theory. Within the proposed approach, a document is considered as a hierarchical system of interconnected structural elements, including headings of different levels, text blocks, tables, formulas, images, and other types of content. Each element is interpreted as a graph vertex, while nesting and logical dependency relationships between elements are described using directed edges of the graph structure. The application of the proposed model to a corpus of documents from various subject areas made it possible to identify stable patterns in the organization of textual material characteristic of specific document types. Based on the obtained characteristics, a set of JSON templates was developed to describe typical document structures for different subject areas, including technical, legal, and scientific and educational materials. Each template contains a formalized description of the document structure, including permissible heading levels, constraints on content types, and parameters of stylistic and compositional formatting. Additionally, a template may include information on the preferred data presentation format, rules for generating tables and formulas, and specialized textual constructions. The use of the JSON format provides a machine-oriented representation of the document structure and enables the integration of templates into software systems for automatic text generation. The developed templates are intended for use in text generation by large language models (LLMs). Within the proposed approach, a template serves as a formalized structural constraint that defines the permissible organization of the resulting document and the sequence in which its sections are generated. This makes it possible to reduce the structural variability of generated text, improve the consistency of interrelated sections, and ensure that the resulting document complies with the requirements of a specific subject area. The proposed approach is aimed at implementing controlled document generation, in which a large language model generates content within a predefined structural scheme. This provides more stable document generation quality, reduces the likelihood of violations in the logical organization of the text, and improves the reproducibility of generation results. Furthermore, the use of structural templates makes it possible to adapt the generation process to different document types without modifying the architecture of the language model itself.",
+    "summary": "",
+    "doi": "10.25729/esi.2026.43.3.016",
+    "citations": 0
+  },
+  {
+    "title": "AI Unplugged Activities for Professional Development: Insights on Teacher Self-Efficacy and Classroom Experiences",
+    "authors": [
+      "S. A. Addo",
+      "S. Sentance"
+    ],
+    "link": "https://www.semanticscholar.org/paper/b377447dec37adcb367639be4614db7a3dd88109",
+    "date": "2026-09-02",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 United Kingdom and Ireland Computing Education Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "The artificial neural network (ANN) algorithm is one of the many algorithms powering AI technologies and has gained prominence for its contributions to AI research, particularly in the development of large language models. Despite this prominence, it is considered pedagogically difficult to teach in schools as it relies on advanced mathematical concepts that have not yet been introduced in the school curriculum in some jurisdictions. This study describes the design of unplugged activities for teaching neural networks tailored to the application context of crop disease detection and affords the opportunity to simplify the complex concepts underlying neural networks, thereby facilitating young students’ understanding. The resources were first implemented in Ghana by 39 teachers at teacher workshops. The workshops were then followed by ten classroom observations and post-observation teacher interviews. Despite AI unplugged activities being a novel teaching approach in computing education in Ghana, the findings suggest that their use is associated with increased teacher self-efficacy. Moreover, its use in the classroom elicited curiosity and motivation, while building teachers’ AI pedagogical content knowledge. This paper contributes to conversations around developing educational resources for teaching complex AI concepts.",
+    "summary": "",
+    "doi": "10.1145/3830800.3830810",
+    "citations": 0
+  },
+  {
+    "title": "RAG Learner: An Interactive Tool for Teaching Retrieval-Augmented Generation",
+    "authors": [
+      "Syed Rudin Bin Syed Manshor",
+      "A. Sunar"
+    ],
+    "link": "https://www.semanticscholar.org/paper/8019222cded0a4dd8caaeb0aae0d2da1c783aef4",
+    "date": "2026-09-02",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 United Kingdom and Ireland Computing Education Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "Large language models have made AI literacy an essential graduate skill, yet underlying architectures like Retrieval-Augmented Generation (RAG) remain inaccessible to most students, particularly outside specialist computing programmes. We designed RAG Learner as an interactive tool to teach core RAG concepts through structured modules; its evaluation with 26 university participants demonstrated significant learning gains (55.8% to 88.5%, p < 0.001) alongside consistently high perceived effectiveness (mean 3.78/4.0).",
+    "summary": "",
+    "doi": "10.1145/3830800.3830819",
+    "citations": 0
+  },
+  {
+    "title": "Student Agency to Learn Programming with LLM tools - Draft Agency Framework and Student Self-Assessment Questionnaire",
+    "authors": [
+      "Veronica Cucuiat",
+      "Katharine Childs",
+      "Jane Waite",
+      "et al."
+    ],
+    "link": "https://www.semanticscholar.org/paper/4abe47d275f506928a65311923017d40485432cf",
+    "date": "2026-09-02",
+    "keywords": [
+      "今日上新",
+      "Proceedings of the 2026 United Kingdom and Ireland Computing Education Research"
+    ],
+    "source": "Semantic Scholar",
+    "abstract_raw": "As Large Language Model (LLM) tools are integrated into learning, students’ agency changes. We adapted an existing framework to explore students’ agency to learn programming with LLM tools in the context of A-Level Computer Science (CS) in England. This poster presents the framework, a student self-assessment questionnaire, and teachers’ feedback including two new suggested aspects of agency.",
+    "summary": "",
+    "doi": "10.1145/3830800.3830824",
+    "citations": 0
+  }
+]
